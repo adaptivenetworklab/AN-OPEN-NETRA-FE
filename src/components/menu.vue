@@ -1118,6 +1118,13 @@ export default {
         </li>
 
         <li class="nav-item">
+          <router-link class="nav-link menu-link" to="/graph">
+            <CopyIcon width="24" height="24" />
+            <span data-key="t-graph">{{ $t("Graph") }}</span>
+          </router-link>
+        </li>
+
+        <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarForms" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarForms">
             <FileTextIcon width="24" height="24" />
             <span data-key="t-forms">{{ $t("t-forms") }}</span>
