@@ -1,5 +1,5 @@
 export const state = {
-  layoutType: 'vertical',
+  layoutType: 'semibox',
   layoutWidth: 'fluid',
   sidebarSize: 'lg',
   topbar: 'light',

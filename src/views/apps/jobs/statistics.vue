@@ -106,7 +106,7 @@ export default {
         markers: {
           size: 0,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-secondary"]'),
         xaxis: {
           categories: ["2016", "2017", "2018", "2019", "2020", "2021"],
         },
@@ -158,7 +158,7 @@ export default {
           tickAmount: 4,
           min: 0,
         },
-        colors: getChartColorsArray('["--vz-primary","--vz-primary-rgb, 0.75", "--vz-primary-rgb, 0.5"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-secondary", "--vz-success"]'),
       },
 
       visitorgraphseries: [{
@@ -234,7 +234,7 @@ export default {
             fontWeight: 500,
           },
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-secondary", "--vz-success", "--vz-info","--vz-warning", "--vz-danger"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.65", "--vz-secondary", "--vz-secondary-rgb, 0.75","--vz-primary-rgb, 0.4", "--vz-success"]'),
         plotOptions: {
           treemap: {
             distributed: true,
@@ -243,7 +243,7 @@ export default {
         },
       },
 
-      chartcolors: { colors: ["#f06548"] },
+      chartcolors: { colors: ["#f7666e"] },
       chartoptions: {
         chart: {
           width: 140,
@@ -272,7 +272,7 @@ export default {
             stops: [50, 100, 100, 100],
           },
         },
-        colors: ["#0ab39c"]
+        colors: ["#3cd188"]
       }
 
     };
@@ -378,7 +378,7 @@ export default {
         <BCard no-body>
           <BCardHeader>
             <div class="d-flex">
-              <h5 class="card-title mb-0 flex-grow-1  ">Visitor Graph</h5>
+              <h5 class="card-title mb-0 flex-grow-1">Visitor Graph</h5>
               <div class="flex-shrink-0">
                 <BDropdown variant="link" class="card-header-dropdown"
                   toggle-class="my-n3 text-reset dropdown-btn arrow-none" menu-class="dropdown-menu-end"
@@ -445,7 +445,7 @@ export default {
                   <tr>
                     <td>
                       <h4 class="text-truncate fs-14 fs-medium mb-0"><i
-                          class="ri-stop-fill align-middle fs-18 text-primary me-2"></i>Mobile Users</h4>
+                          class="ri-stop-fill align-middle fs-18 text-warning me-2"></i>Mobile Users</h4>
                     </td>
                     <td>
                       <p class="text-muted mb-0">
@@ -461,7 +461,7 @@ export default {
                   <tr>
                     <td>
                       <h4 class="text-truncate fs-14 fs-medium mb-0"><i
-                          class="ri-stop-fill align-middle fs-18 text-primary me-2"></i>Tablet Users</h4>
+                          class="ri-stop-fill align-middle fs-18 text-info me-2"></i>Tablet Users</h4>
                     </td>
                     <td>
                       <p class="text-muted mb-0">

@@ -4,10 +4,6 @@ import Layout from "@/layouts/main.vue";
 import PageHeader from "@/components/page-header";
 import { buySellList } from "@/common/data";
 
-import getChartColorsArray from "@/common/getChartColorsArray";
-
-var chartcolors = getChartColorsArray('["--vz-primary", "--vz-success"]');
-
 export default {
   components: {
     Layout,
@@ -344,8 +340,8 @@ export default {
         plotOptions: {
           candlestick: {
             colors: {
-              upward: chartcolors[0],
-              downward: chartcolors[1],
+              upward: "#3cd188",
+              downward: "#f7666e",
             },
           },
         },
@@ -514,12 +510,13 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h6 class="text-muted mb-3">Total Buy</h6>
-                <h2 class="mb-0">
-                  $<count-to :startVal="0" :duration="5000" :endVal="243"></count-to><small class="text-muted fs-13">.10k</small>
-                </h2>
+                <h4 class="mb-0">
+                  $<count-to :startVal="0" :duration="5000" :endVal="243"></count-to><small
+                    class="text-muted fs-13">.10k</small>
+                </h4>
               </div>
               <div class="flex-shrink-0 avatar-sm">
-                <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
+                <div class="avatar-title bg-secondary-subtle text-secondary fs-22 rounded">
                   <i class="ri-shopping-bag-line"></i>
                 </div>
               </div>
@@ -533,12 +530,13 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h6 class="text-muted mb-3">Total Sell</h6>
-                <h2 class="mb-0">
-                  $<count-to :startVal="0" :duration="5000" :endVal="658"></count-to><small class="text-muted fs-13">.00k</small>
-                </h2>
+                <h4 class="mb-0">
+                  $<count-to :startVal="0" :duration="5000" :endVal="658"></count-to><small
+                    class="text-muted fs-13">.00k</small>
+                </h4>
               </div>
               <div class="flex-shrink-0 avatar-sm">
-                <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
+                <div class="avatar-title bg-success-subtle text-success fs-22 rounded">
                   <i class="ri-funds-line"></i>
                 </div>
               </div>
@@ -552,9 +550,10 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h6 class="text-muted mb-3">Today's Buy</h6>
-                <h2 class="mb-0">
-                  $<count-to :startVal="0" :duration="5000" :endVal="104"></count-to><small class="text-muted fs-13">.85k</small>
-                </h2>
+                <h4 class="mb-0">
+                  $<count-to :startVal="0" :duration="5000" :endVal="104"></count-to><small
+                    class="text-muted fs-13">.85k</small>
+                </h4>
               </div>
               <div class="flex-shrink-0 avatar-sm">
                 <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
@@ -571,12 +570,13 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h6 class="text-muted mb-3">Today's Sell</h6>
-                <h2 class="mb-0">
-                  $<count-to :startVal="0" :duration="5000" :endVal="87"></count-to><small class="text-muted fs-13">.35k</small>
-                </h2>
+                <h4 class="mb-0">
+                  $<count-to :startVal="0" :duration="5000" :endVal="87"></count-to><small
+                    class="text-muted fs-13">.35k</small>
+                </h4>
               </div>
               <div class="flex-shrink-0 avatar-sm">
-                <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
+                <div class="avatar-title bg-info-subtle text-info fs-22 rounded">
                   <i class="ri-arrow-right-up-fill"></i>
                 </div>
               </div>
@@ -610,7 +610,8 @@ export default {
             </div>
           </BCardHeader>
           <BCardBody class="p-0">
-            <div class="bg-light-subtle border-top-dashed border border-start-0 border-end-0 border-bottom-dashed py-3 px-4">
+            <div
+              class="bg-light-subtle border-top-dashed border border-start-0 border-end-0 border-bottom-dashed py-3 px-4">
               <BRow class="align-items-center">
                 <BCol cols="6">
                   <div class="d-flex flex-wrap gap-4 align-items-center">
@@ -620,7 +621,8 @@ export default {
                       </h3>
                       <p class="text-muted text-uppercase fw-medium mb-0">
                         Bitcoin (BTC)
-                        <BBadge variant="success-subtle" class="bg-success-subtle text-success"><i class="ri-arrow-right-up-line align-bottom"></i>
+                        <BBadge variant="success-subtle" class="bg-success-subtle text-success"><i
+                            class="ri-arrow-right-up-line align-bottom"></i>
                           2.15%</BBadge>
                       </p>
                     </div>
@@ -648,7 +650,8 @@ export default {
             </div>
           </BCardBody>
           <BCardBody class="p-0 pb-3">
-            <apexchart class="apex-charts" height="350" dir="ltr" :series="options.series" :options="options.chartOptions"></apexchart>
+            <apexchart class="apex-charts" height="350" dir="ltr" :series="options.series"
+              :options="options.chartOptions"></apexchart>
           </BCardBody>
         </BCard>
       </BCol>
@@ -657,13 +660,13 @@ export default {
           <BCardBody class="p-0">
             <BTabs nav-class="nav-tabs-custom rounded  border-bottom-0 mx-n3 text-muted pt-3" style="overflow: hidden;" justified>
               <BTab title="Buy" class="nav-item ">
-                <div class="p-3 bg-primary-subtle">
+                <div class="p-3 bg-warning-subtle">
                   <div class="float-end ms-2">
-                    <h6 class="text-primary mb-0">
+                    <h6 class="text-warning mb-0">
                       USD Balance : <span class="text-body">$12,426.07</span>
                     </h6>
                   </div>
-                  <h6 class="mb-0 text-primary">Buy Coin</h6>
+                  <h6 class="mb-0 text-danger">Buy Coin</h6>
                 </div>
                 <div class="p-3">
                   <BRow>
@@ -744,13 +747,13 @@ export default {
                 </div>
               </BTab>
               <BTab title="sell" class="nav-item">
-                <div class="p-3 bg-primary-subtle">
+                <div class="p-3 bg-warning-subtle">
                   <div class="float-end ms-2">
-                    <h6 class="text-primary mb-0">
+                    <h6 class="text-warning mb-0">
                       USD Balance : <span class="text-body">$12,426.07</span>
                     </h6>
                   </div>
-                  <h6 class="mb-0 text-primary">Sell Coin</h6>
+                  <h6 class="mb-0 text-danger">Sell Coin</h6>
                 </div>
                 <div class="p-3">
                   <BRow>
@@ -826,7 +829,7 @@ export default {
                     </div>
                   </div>
                   <div class="mt-3 pt-2">
-                    <BButton type="button" variant="primary" class="w-100">
+                    <BButton type="button" variant="danger" class="w-100">
                       Sell Coin
                     </BButton>
                   </div>
@@ -846,7 +849,7 @@ export default {
           </BCol>
           <div class="col-auto ms-auto">
             <div class="d-flex gap-2">
-              <BButton variant="primary">
+              <BButton variant="soft-secondary">
                 <i class="ri-equalizer-line align-bottom me-1"></i> Filters
               </BButton>
             </div>
@@ -882,7 +885,7 @@ export default {
                 <td>
                   <div class="d-flex align-items-center fw-medium">
                     <img :src="data.image" alt="" class="avatar-xxs me-2" />
-                    <BLink href="javascript:void(0);" class="currency_name link-secondary">{{
+                    <BLink href="javascript:void(0);" class="currency_name">{{
                       data.currency_name
                     }}</BLink>
                   </div>
@@ -901,7 +904,7 @@ export default {
                   </h6>
                 </td>
                 <td>
-                  <BButton variant="soft-primary" size="sm">Trade Now</BButton>
+                  <BButton variant="soft-info" size="sm">Trade Now</BButton>
                 </td>
               </tr>
             </tbody>
@@ -912,7 +915,8 @@ export default {
           <div class="pagination-wrap hstack gap-2">
             <BLink class="page-item pagination-prev" href="#" :disabled="page <= 1" @click="page--"> Previous </BLink>
             <ul class="pagination listjs-pagination mb-0">
-              <li :class="{ active: pageNumber == page, disabled: pageNumber == '...', }" v-for="(pageNumber, index) in pages" :key="index" @click="page = pageNumber">
+              <li :class="{ active: pageNumber == page, disabled: pageNumber == '...', }"
+                v-for="(pageNumber, index) in pages" :key="index" @click="page = pageNumber">
                 <BLink class="page" href="#" data-i="1" data-page="8">{{ pageNumber }}</BLink>
               </li>
             </ul>

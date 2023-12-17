@@ -17,7 +17,7 @@ const simplePieChart = {
         enabled: false,
       },
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.85", "--vz-primary-rgb, 0.70", "--vz-primary-rgb, 0.55", "--vz-primary-rgb, 0.40"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
   },
 };
 
@@ -38,7 +38,7 @@ const donutChart = {
         enabled: false,
       },
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.85", "--vz-primary-rgb, 0.70", "--vz-primary-rgb, 0.55", "--vz-primary-rgb, 0.40"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
   },
 };
 
@@ -56,7 +56,7 @@ const updatingDonutChart = {
     legend: {
       position: "bottom",
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.85", "--vz-primary-rgb, 0.65", "--vz-primary-rgb, 0.50"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
   },
 };
 
@@ -93,7 +93,7 @@ const gradientDonutChart = {
         fontWeight: 500,
       },
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-secondary", "--vz-info"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
   },
 };
 
@@ -168,7 +168,7 @@ const patternDonutChart = {
     legend: {
       position: "bottom",
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-secondary", "--vz-info"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
   },
 };
 

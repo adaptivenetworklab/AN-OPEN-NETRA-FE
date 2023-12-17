@@ -24,12 +24,12 @@ export default {
                         <BCard no-body class="overflow-hidden">
                             <BCardBody class="p-4">
                                 <div class="text-center">
-                                    <lottie colors="primary:#00bd9d,secondary:#25a0e2" :options="defaultOptions"
+                                    <lottie colors="primary:#405189,secondary:#0ab39c" :options="defaultOptions"
                                         style="height:7.5rem;width:7.5rem;" />
                                     <h1 class="text-primary mb-4">Oops !</h1>
                                     <h4 class="text-uppercase">Sorry, Page not Found 😭</h4>
                                     <p class="text-muted mb-4">The page you are looking for not available!</p>
-                                    <router-link to="/" class="btn btn-success"><i class="mdi mdi-home me-1"></i>Back to
+                                    <router-link to="/" class="btn btn-secondary"><i class="mdi mdi-home me-1"></i>Back to
                                         home</router-link>
                                 </div>
                             </BCardBody>

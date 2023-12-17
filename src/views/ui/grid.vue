@@ -106,7 +106,7 @@ export default {
                                     </tr>
                                     <tr>
                                         <th class="text-nowrap" scope="row">Gutter width</th>
-                                        <td colspan="6">1.5rem (0.75rem 5rem on each side of a column)</td>
+                                        <td colspan="6">1.5rem (0.75rem on each side of a column)</td>
                                     </tr>
                                     <tr>
                                         <th class="text-nowrap" scope="row">Custom gutters</th>

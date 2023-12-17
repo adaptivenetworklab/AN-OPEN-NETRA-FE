@@ -125,7 +125,7 @@ export default {
                     </BCol>
                 </BRow>
 
-                <BRow class="justify-content-center ">
+                <BRow class="justify-content-center">
                     <BCol md="8" lg="6" xl="5">
                         <BCard no-body class="mt-4">
 
@@ -191,7 +191,7 @@ export default {
                                         </div>
 
                                         <div class="mt-4">
-                                            <BButton variant="success" class="w-100" @click="validatepassword"
+                                            <BButton variant="secondary" class="w-100" @click="validatepassword"
                                                 type="submit">Reset Password</BButton>
                                         </div>
 

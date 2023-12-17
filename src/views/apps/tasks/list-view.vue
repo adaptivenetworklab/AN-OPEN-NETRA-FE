@@ -359,9 +359,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Total Tasks</p>
-                <h2 class="mt-4 ff-secondary fw-semibold">
+                <h4 class="mt-4 ff-secondary fw-semibold">
                   <count-to :startVal="0" :endVal="234" :duration="5000"></count-to>k
-                </h2>
+                </h4>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-success mb-0">
                     <i class="ri-arrow-up-line align-middle"></i> 17.32 %
@@ -371,7 +371,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
+                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-4">
                     <i class="ri-ticket-2-line"></i>
                   </span>
                 </div>
@@ -386,9 +386,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Pending Tasks</p>
-                <h2 class="mt-4 ff-secondary fw-semibold">
+                <h4 class="mt-4 ff-secondary fw-semibold">
                   <count-to :startVal="0" :endVal="64" :duration="5000"></count-to>k
-                </h2>
+                </h4>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-danger mb-0">
                     <i class="ri-arrow-down-line align-middle"></i> 0.87 %
@@ -398,7 +398,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
+                  <span class="avatar-title bg-warning-subtle text-warning rounded-circle fs-4">
                     <i class="mdi mdi-timer-sand"></i>
                   </span>
                 </div>
@@ -413,9 +413,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Completed Tasks</p>
-                <h2 class="mt-4 ff-secondary fw-semibold">
+                <h4 class="mt-4 ff-secondary fw-semibold">
                   <count-to :startVal="0" :endVal="116" :duration="5000"></count-to>K
-                </h2>
+                </h4>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-danger mb-0">
                     <i class="ri-arrow-down-line align-middle"></i> 2.52 %
@@ -425,7 +425,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
+                  <span class="avatar-title bg-success-subtle text-success rounded-circle fs-4">
                     <i class="ri-checkbox-circle-line"></i>
                   </span>
                 </div>
@@ -440,9 +440,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Deleted Tasks</p>
-                <h2 class="mt-4 ff-secondary fw-semibold">
+                <h4 class="mt-4 ff-secondary fw-semibold">
                   <count-to :startVal="0" :endVal="14" :duration="5000"></count-to>%
-                </h2>
+                </h4>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-success mb-0">
                     <i class="ri-arrow-up-line align-middle"></i> 0.63 %
@@ -452,7 +452,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
+                  <span class="avatar-title bg-danger-subtle text-danger rounded-circle fs-4">
                     <i class="ri-delete-bin-line"></i>
                   </span>
                 </div>
@@ -471,10 +471,10 @@ export default {
               <h5 class="card-title mb-0 flex-grow-1">All Tasks</h5>
               <div class="flex-shrink-0">
                 <div class="d-flex flex-wrap gap-2">
-                  <BButton variant="soft-secondary" class="me-1" id="remove-actions" @click="deleteMultiple">
+                  <BButton variant="soft-danger" class="me-1" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton variant="soft-primary" class="add-btn" @click="toggleModal">
+                  <BButton variant="secondary" class="add-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Create Task
                   </BButton>
                 </div>
@@ -606,7 +606,7 @@ export default {
               </table>
               <div class="noresult" v-if="resultQuery.length < 1">
                 <div class="text-center">
-                  <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions" :height="75" :width="75" />
+                  <lottie colors="primary:#121331,secondary:#08a88a" :options="defaultOptions" :height="75" :width="75" />
                   <h5 class="mt-2">Sorry! No Result Found</h5>
                   <p class="text-muted mb-0">
                     We've searched more than 200k+ tasks We did not find any
@@ -638,7 +638,7 @@ export default {
 
     <!-- task list modal -->
     <BModal v-model="taskListModal" id="showmodal" modal-class="zoomIn" hide-footer
-      header-class="p-3 bg-primary-subtle taskModal" class="v-modal-custom" centered size="lg"
+      header-class="p-3 bg-info-subtle taskModal" class="v-modal-custom" centered size="lg"
       :title="dataEdit ? 'Edit Task' : 'Add Task'">
       <b-form id="addform" class="tablelist-form" autocomplete="off">
         <BRow class="g-3">
@@ -834,7 +834,7 @@ export default {
     <!-- delete modal -->
     <BModal v-model="deleteModal" modal-class="zoomIn" hide-footer no-close-on-backdrop centered>
       <div class="mt-2 text-center">
-        <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions1" :height="75"
+        <lottie class="avatar-xl" colors="primary:#f7b84b,secondary:#f06548" :options="defaultOptions1" :height="75"
           :width="75" />
         <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
           <h4>Are you sure ?</h4>
@@ -843,7 +843,7 @@ export default {
       </div>
       <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
         <button type="button" class="btn w-sm btn-light" @click="deleteModal = false">Close</button>
-        <button type="button" class="btn w-sm btn-primary" id="delete-record" @click="deleteData">Yes, Delete It!</button>
+        <button type="button" class="btn w-sm btn-danger" id="delete-record" @click="deleteData">Yes, Delete It!</button>
       </div>
     </BModal>
   </Layout>

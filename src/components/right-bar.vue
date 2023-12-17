@@ -7,13 +7,28 @@ import simpleBar from "simplebar-vue";
  */
 
 export default {
-
   data() {
     return {
       show: false,
-      showGradients: false
+      showGradients: false,
+      resetLayoutMode: {},
     };
   },
+  beforeCreate() {
+    console.log(
+      "this.resetLayoutMode",
+      (this.resetLayoutMode = this.$store.state.layout)
+    );
+    localStorage.setItem(
+      "resetValue",
+      JSON.stringify(this.$store.state.layout)
+    );
+    localStorage.setItem(
+      "resetValue",
+      JSON.stringify(this.$store.state.layout)
+    );
+  },
+
   methods: {
     ...layoutMethods,
     click() {
@@ -27,21 +42,39 @@ export default {
     resizeWindow() {
       var windowSize = document.documentElement.clientWidth;
       if (windowSize >= 1025) {
-        if (document.documentElement.getAttribute("data-layout") === "vertical") {
-          document.documentElement.setAttribute("data-sidebar-size", this.$store.state.layout.sidebarSize);
+        if (
+          document.documentElement.getAttribute("data-layout") === "vertical"
+        ) {
+          document.documentElement.setAttribute(
+            "data-sidebar-size",
+            this.$store.state.layout.sidebarSize
+          );
         }
-        if (document.documentElement.getAttribute("data-layout") === "semibox") {
-          document.documentElement.setAttribute("data-sidebar-size", this.$store.state.layout.sidebarSize);
+        if (
+          document.documentElement.getAttribute("data-layout") === "semibox"
+        ) {
+          document.documentElement.setAttribute(
+            "data-sidebar-size",
+            this.$store.state.layout.sidebarSize
+          );
         }
-        if (document.documentElement.getAttribute("data-sidebar-visibility") === "show" && document.querySelector(".hamburger-icon")) {
+        if (
+          document.documentElement.getAttribute("data-sidebar-visibility") ===
+          "show" &&
+          document.querySelector(".hamburger-icon")
+        ) {
           document.querySelector(".hamburger-icon").classList.remove("open");
         }
       } else if (windowSize < 1025 && windowSize > 767) {
         document.body.classList.remove("twocolumn-panel");
-        if (document.documentElement.getAttribute("data-layout") === "vertical") {
+        if (
+          document.documentElement.getAttribute("data-layout") === "vertical"
+        ) {
           document.documentElement.setAttribute("data-sidebar-size", "sm");
         }
-        if (document.documentElement.getAttribute("data-layout") === "semibox") {
+        if (
+          document.documentElement.getAttribute("data-layout") === "semibox"
+        ) {
           document.documentElement.setAttribute("data-sidebar-size", "sm");
         }
         if (document.querySelector(".hamburger-icon")) {
@@ -50,7 +83,9 @@ export default {
       } else if (windowSize <= 767) {
         document.body.classList.remove("vertical-sidebar-enable");
         document.body.classList.add("twocolumn-panel");
-        if (document.documentElement.getAttribute("data-layout") !== "horizontal") {
+        if (
+          document.documentElement.getAttribute("data-layout") !== "horizontal"
+        ) {
           document.documentElement.setAttribute("data-sidebar-size", "lg");
         }
         if (document.querySelector(".hamburger-icon")) {
@@ -60,30 +95,46 @@ export default {
     },
 
     resetLayout() {
-      location.reload();
+      let reset = JSON.parse(localStorage.getItem("resetValue"));
+      document.documentElement.setAttribute("data-sidebar-size", "lg");
+      this.changeMode({ mode: reset.mode });
+      this.changeSidebarColor({ sidebarColor: reset.sidebarColor });
+      this.changeLayoutType({ layoutType: reset.layoutType });
+      this.changeTopbar({ topbar: reset.topbar });
+      this.changeLayoutWidth({ layoutWidth: reset.layoutWidth });
+      this.changeSidebarSize({ sidebarSize: reset.sidebarSize });
+      this.changeSidebarImage({ sidebarImage: reset.sidebarImage });
+      this.changeSidebarColor({ sidebarColor: reset.sidebarColor });
+      this.changePreloader({ preloader: reset.preloader });
+      this.changeSidebarView({ sidebarView: reset.sidebarView });
+      this.changeVisibility({ visibility: reset.visibility });
+      this.changePosition({ position: reset.position });
+
     },
 
     gradiantColor() {
-      this.changeSidebarColor({ sidebarColor: "gradient" })
+      this.changeSidebarColor({ sidebarColor: "gradient" });
     },
 
     onSideBarColorClick(color) {
-      if (color !== 'gradient') {
-        this.showGradients = false
+      if (color !== "gradient") {
+        this.showGradients = false;
       } else {
-        this.showGradients = true
+        this.showGradients = true;
         this.gradiantColor();
       }
-    }
+    },
   },
   mounted() {
-
     let backtoTop = document.getElementById("back-to-top");
 
     if (backtoTop) {
       backtoTop = document.getElementById("back-to-top");
       window.onscroll = function () {
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
           backtoTop.style.display = "block";
         } else {
           backtoTop.style.display = "none";
@@ -91,7 +142,10 @@ export default {
       };
     }
     var setpreloader = document.getElementById("preloader");
-    if (localStorage.getItem('data-preloader') && localStorage.getItem('data-preloader') == 'enable') {
+    if (
+      localStorage.getItem("data-preloader") &&
+      localStorage.getItem("data-preloader") == "enable"
+    ) {
       document.documentElement.setAttribute("data-preloader", "enable");
       if (setpreloader) {
         setTimeout(function () {
@@ -106,36 +160,62 @@ export default {
         setpreloader.style.visibility = "hidden";
       }
     }
-    if (document.getElementById('collapseBgGradient')) {
-      Array.from(document.querySelectorAll("#collapseBgGradient .form-check input")).forEach(function () {
+    if (document.getElementById("collapseBgGradient")) {
+      Array.from(
+        document.querySelectorAll("#collapseBgGradient .form-check input")
+      ).forEach(function () {
         if (document.querySelector("[data-bs-target='#collapseBgGradient']")) {
-          document.querySelector("[data-bs-target='#collapseBgGradient']").addEventListener('click', function () {
-            document.getElementById("sidebar-color-gradient").click();
-          });
+          document
+            .querySelector("[data-bs-target='#collapseBgGradient']")
+            .addEventListener("click", function () {
+              document.getElementById("sidebar-color-gradient").click();
+            });
         }
       });
-      Array.from(document.querySelectorAll("[name='data-sidebar']")).forEach(function (elem) {
-        if (document.querySelector("[data-bs-target='#collapseBgGradient']")) {
-          if (document.querySelector("#collapseBgGradient .form-check input:checked")) {
-            document.querySelector("[data-bs-target='#collapseBgGradient']").classList.add("active");
-          } else {
-            document.querySelector("[data-bs-target='#collapseBgGradient']").classList.remove("active");
-            document.getElementById('collapseBgGradient').classList.remove('show');
-          }
-
-          elem.addEventListener("change", function () {
-            if (document.querySelector("#collapseBgGradient .form-check input:checked")) {
-              document.querySelector("[data-bs-target='#collapseBgGradient']").classList.add("active");
+      Array.from(document.querySelectorAll("[name='data-sidebar']")).forEach(
+        function (elem) {
+          if (
+            document.querySelector("[data-bs-target='#collapseBgGradient']")
+          ) {
+            if (
+              document.querySelector(
+                "#collapseBgGradient .form-check input:checked"
+              )
+            ) {
+              document
+                .querySelector("[data-bs-target='#collapseBgGradient']")
+                .classList.add("active");
             } else {
-              document.getElementById('collapseBgGradient').classList.remove('show');
-              document.querySelector("[data-bs-target='#collapseBgGradient']").classList.remove("active");
+              document
+                .querySelector("[data-bs-target='#collapseBgGradient']")
+                .classList.remove("active");
+              document
+                .getElementById("collapseBgGradient")
+                .classList.remove("show");
             }
-          });
+
+            elem.addEventListener("change", function () {
+              if (
+                document.querySelector(
+                  "#collapseBgGradient .form-check input:checked"
+                )
+              ) {
+                document
+                  .querySelector("[data-bs-target='#collapseBgGradient']")
+                  .classList.add("active");
+              } else {
+                document
+                  .getElementById("collapseBgGradient")
+                  .classList.remove("show");
+                document
+                  .querySelector("[data-bs-target='#collapseBgGradient']")
+                  .classList.remove("active");
+              }
+            });
+          }
         }
-      });
+      );
     }
-
-
   },
   computed: {
     ...layoutComputed,
@@ -145,7 +225,7 @@ export default {
       },
       set(layout) {
         localStorage.setItem("rightbar_isopen", true);
-        this.changeLayoutType({ layoutType: layout, });
+        this.changeLayoutType({ layoutType: layout });
         document.querySelector(".hamburger-icon").classList.remove("open");
       },
     },
@@ -188,12 +268,12 @@ export default {
         return this.$store ? this.$store.state.layout.layoutWidth : {} || {};
       },
       set(width) {
-        if (width == 'boxed') {
+        if (width == "boxed") {
           this.changeLayoutWidth({ layoutWidth: width });
-          this.changeSidebarSize({ sidebarSize: 'sm-hover' });
+          this.changeSidebarSize({ sidebarSize: "sm-hover" });
         } else {
           this.changeLayoutWidth({ layoutWidth: width });
-          this.changeSidebarSize({ sidebarSize: 'lg' });
+          this.changeSidebarSize({ sidebarSize: "lg" });
         }
       },
     },
@@ -232,7 +312,10 @@ export default {
         return this.$store ? this.$store.state.layout.sidebarColor : {} || {};
       },
       set(sidebarColor) {
-        console.log("this.$store.state.layout.sidebarColor", this.$store.state.layout.sidebarColor)
+        console.log(
+          "this.$store.state.layout.sidebarColor",
+          this.$store.state.layout.sidebarColor
+        );
         return this.changeSidebarColor({
           sidebarColor: sidebarColor,
         });
@@ -254,7 +337,7 @@ export default {
         return this.$store ? this.$store.state.layout.visibility : {} || {};
       },
       set(visibility) {
-        if (visibility == 'hidden') {
+        if (visibility == "hidden") {
           document.querySelector(".hamburger-icon").classList.add("open");
         } else {
           document.querySelector(".hamburger-icon").classList.remove("open");
@@ -293,10 +376,13 @@ export default {
               document.documentElement.setAttribute("data-preloader", "enable");
               break;
             case "disable":
-              document.documentElement.setAttribute("data-preloader", "disable");
+              document.documentElement.setAttribute(
+                "data-preloader",
+                "disable"
+              );
               break;
           }
-          localStorage.setItem('data-preloader', newVal);
+          localStorage.setItem("data-preloader", newVal);
         }
       },
     },
@@ -401,7 +487,10 @@ export default {
               document.documentElement.setAttribute("data-sidebar-size", "md");
               break;
             case "sm-hover":
-              document.documentElement.setAttribute("data-sidebar-size", "sm-hover");
+              document.documentElement.setAttribute(
+                "data-sidebar-size",
+                "sm-hover"
+              );
               break;
           }
         }
@@ -445,13 +534,22 @@ export default {
               document.documentElement.setAttribute("data-sidebar", "gradient");
               break;
             case "gradient-2":
-              document.documentElement.setAttribute("data-sidebar", "gradient-2");
+              document.documentElement.setAttribute(
+                "data-sidebar",
+                "gradient-2"
+              );
               break;
             case "gradient-3":
-              document.documentElement.setAttribute("data-sidebar", "gradient-3");
+              document.documentElement.setAttribute(
+                "data-sidebar",
+                "gradient-3"
+              );
               break;
             case "gradient-4":
-              document.documentElement.setAttribute("data-sidebar", "gradient-4");
+              document.documentElement.setAttribute(
+                "data-sidebar",
+                "gradient-4"
+              );
               break;
           }
         }
@@ -464,19 +562,34 @@ export default {
         if (newVal !== oldVal) {
           switch (newVal) {
             case "img-1":
-              document.documentElement.setAttribute("data-sidebar-image", "img-1");
+              document.documentElement.setAttribute(
+                "data-sidebar-image",
+                "img-1"
+              );
               break;
             case "img-2":
-              document.documentElement.setAttribute("data-sidebar-image", "img-2");
+              document.documentElement.setAttribute(
+                "data-sidebar-image",
+                "img-2"
+              );
               break;
             case "img-3":
-              document.documentElement.setAttribute("data-sidebar-image", "img-3");
+              document.documentElement.setAttribute(
+                "data-sidebar-image",
+                "img-3"
+              );
               break;
             case "img-4":
-              document.documentElement.setAttribute("data-sidebar-image", "img-4");
+              document.documentElement.setAttribute(
+                "data-sidebar-image",
+                "img-4"
+              );
               break;
             case "none":
-              document.documentElement.setAttribute("data-sidebar-image", "none");
+              document.documentElement.setAttribute(
+                "data-sidebar-image",
+                "none"
+              );
               break;
           }
         }
@@ -489,7 +602,10 @@ export default {
         if (newVal !== oldVal) {
           switch (newVal) {
             case "show":
-              document.documentElement.setAttribute("data-sidebar-visibility", "show");
+              document.documentElement.setAttribute(
+                "data-sidebar-visibility",
+                "show"
+              );
               break;
             case "hidden":
               document.documentElement.setAttribute(
@@ -502,10 +618,8 @@ export default {
       },
     },
   },
-  components: { simpleBar }
+  components: { simpleBar },
 };
-
-
 </script>
 
 <template>
@@ -523,7 +637,7 @@ export default {
     </BButton>
 
     <div class="customizer-setting d-none d-md-block" @click="click">
-      <div class="btn-primary rounded-pill shadow-lg btn btn-icon btn-lg p-2" data-bs-toggle="offcanvas" data-bs-target="#theme-settings-offcanvas" aria-controls="theme-settings-offcanvas" id="mdi-cog">
+      <div class="btn-info rounded-pill shadow-lg btn btn-icon btn-lg p-2" data-bs-toggle="offcanvas" data-bs-target="#theme-settings-offcanvas" aria-controls="theme-settings-offcanvas" id="mdi-cog">
         <i class="mdi mdi-spin mdi-cog-outline fs-22"></i>
       </div>
     </div>

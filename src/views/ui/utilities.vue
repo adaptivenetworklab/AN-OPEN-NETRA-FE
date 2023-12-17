@@ -714,13 +714,16 @@ export default {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>font-family: 'Open Sans', sans-serif;</td>
+                                                <td>font-family: 'Poppins', sans-serif;</td>
                                                 <td>
                                                     <code>.ff-base</code>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>font-family: 'Open Sans', sans-serif;</td>
+                                                <td>font-family: 'hkgrotesk', sans-serif;</td>
+                                                <td>
+                                                    <code>.ff-secondary</code>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td>min-width: 80px;</td>

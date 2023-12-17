@@ -37,7 +37,7 @@ export default {
             <BContainer>
                 <BRow>
                     <BCol lg="12">
-                        <BCard no-body class="overflow-hidden border-0">
+                        <BCard no-body class="overflow-hidden">
                             <BRow class="justify-content-center g-0">
                                 <BCol lg="6">
                                     <div class="p-lg-5 p-4 auth-one-bg h-100">
@@ -55,7 +55,7 @@ export default {
 
                                                 <div id="qoutescarouselIndicators" class="carousel slide"
                                                     data-bs-ride="carousel">
-                                                    <Swiper class=" text-center text-white pb-5"
+                                                    <Swiper class=" text-center text-white-50 pb-5"
                                                         :autoplay="{ delay: 3000, disableOnInteraction: false }"
                                                         :loop="true" :modules="[Autoplay, Navigation, Pagination]"
                                                         :pagination="{ clickable: true, el: '.swiper-pagination' }">
@@ -108,7 +108,7 @@ export default {
                                                 </div>
 
                                                 <div class="text-center mt-4">
-                                                    <BButton variant="success" class="w-100" type="submit">Send Reset Link</BButton>
+                                                    <BButton variant="secondary" class="w-100" type="submit">Send Reset Link</BButton>
                                                 </div>
                                             </form>
                                         </div>

@@ -54,7 +54,7 @@ export default {};
                     Aww yeah, you successfully read this important message.
                   </p>
                   <div class="mt-4">
-                    <router-link to="/auth/signin-basic" class="btn btn-success w-100">Back to Dashboard
+                    <router-link to="/auth/signin-basic" class="btn btn-secondary w-100">Back to Dashboard
                     </router-link>
                   </div>
                 </div>

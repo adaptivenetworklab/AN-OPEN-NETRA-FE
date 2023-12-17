@@ -34,7 +34,7 @@ export default {
           lineCap: "round",
           width: 0,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.85", "--vz-primary-rgb, 0.70", "--vz-primary-rgb, 0.50"]'),
+        colors: getChartColorsArray('["--vz-success", "--vz-primary", "--vz-warning", "--vz-secondary"]'),
       },
     };
   },
@@ -105,7 +105,7 @@ export default {
         </div>
         <div class="d-flex justify-content-between py-2">
           <p class="fw-medium mb-0">
-            <i class="ri-checkbox-blank-circle-fill text-danger align-middle me-2"></i>
+            <i class="ri-checkbox-blank-circle-fill text-secondary align-middle me-2"></i>
             Cancelled
           </p>
           <div>

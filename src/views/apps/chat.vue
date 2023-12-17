@@ -166,7 +166,7 @@ export default {
   <Layout>
 
     <div class="chat-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
-      <div class="chat-leftsidebar border">
+      <div class="chat-leftsidebar">
         <div class="px-4 pt-4 mb-4">
           <div class="d-flex align-items-start">
             <div class="flex-grow-1">
@@ -239,7 +239,7 @@ export default {
             </div>
             <div class="flex-shrink-0">
               <div v-b-tooltip.hover title="Create group">
-                <BButton type="button" variant="soft-primary" size="sm">
+                <BButton type="button" variant="soft-success" size="sm">
                   <i class="ri-add-line align-bottom"></i>
                 </BButton>
               </div>
@@ -339,7 +339,7 @@ export default {
           </div>
         </simplebar>
       </div>
-      <div class="user-chat w-100 overflow-hidden border">
+      <div class="user-chat w-100 overflow-hidden">
         <div class="chat-content d-lg-flex">
           <div class="w-100 overflow-hidden position-relative">
             <div class="position-relative">
@@ -379,7 +379,7 @@ export default {
                           <BDropdownItemButton>
                             <div class="p-2 dropdown-menu-lg px-0 py-0">
                               <div class="search-box">
-                                <input type="text" class="form-control bg-light border-light" placeholder="Search here..." id="searchMessage" />
+                                <input type="text" class="form-control bg-light border-light" placeholder="Search here..." id="searchMessage" @click.prevent />
                                 <i class="ri-search-2-line search-icon"></i>
                               </div>
                             </div>
@@ -394,8 +394,8 @@ export default {
                       </li>
 
                       <li class="list-inline-item m-0">
-                        <BDropdown variant="link" class="btn btn-ghost-secondary btn-icon" toggle-class=" arrow-none" menu-class="dropdown-menu" aria-haspopup="true">
-                          <template #button-content> <more-vertical-icon class="icon-sm"></more-vertical-icon>
+                        <BDropdown variant="ghost-secondary" class="btn btn-ghost-secondary btn-icon" toggle-class="arrow-none" menu-class="dropdown-menu" aria-haspopup="true">
+                          <template #button-content> <more-vertical-icon class="icon-sm "></more-vertical-icon>
                           </template>
                           <BDropdownItem><i class="ri-inbox-archive-line align-bottom text-muted me-2"></i>
                             Archive
@@ -480,7 +480,7 @@ export default {
                         Please Enter a Message
                       </div>
 
-                      <input type="text" v-model="form.message" class="form-control chat-input bg-light border-light fs-13" placeholder="Enter Message..." :class="{
+                      <input type="text" v-model="form.message" class="form-control chat-input bg-light border-light" placeholder="Enter Message..." :class="{
                         'is-invalid': submitted && v$.form.message.$error,
                       }" />
                       <div v-if="submitted && v$.form.message.$error" class="invalid-feedback">
@@ -492,7 +492,7 @@ export default {
                     <BCol cols="auto">
                       <div class="chat-input-links ms-2">
                         <div class="links-list-item">
-                          <BButton variant="success" type="submit" class="chat-send fs-13">
+                          <BButton variant="success" type="submit" class="chat-send">
                             <i class="ri-send-plane-2-fill align-bottom"></i>
                           </BButton>
                         </div>
@@ -539,7 +539,6 @@ export default {
                   <button type="button" class="btn nav-btn favourite-btn active">
                     <i class="ri-star-fill"></i>
                   </button>
-  
                   <div class="dropdown">
                     <a class="btn nav-btn" href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="false">
                       <i class="ri-more-2-fill"></i>
@@ -551,7 +550,6 @@ export default {
                     </ul>
                   </div>
                 </div>
-  
               </div>
             </div>
           </div>
@@ -562,33 +560,28 @@ export default {
             <h5 class="fs-16 mb-1"><a href="javascript:void(0);" class="link-primary username"> {{ username }}</a></h5>
             <p class="text-muted"><i class="ri-checkbox-blank-circle-fill me-1 align-bottom text-success"></i>Online</p>
           </div>
-  
           <div class="d-flex gap-2 justify-content-center">
             <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message">
               <span class="avatar-title rounded bg-light text-body">
                 <i class="ri-question-answer-line"></i>
               </span>
             </button>
-  
             <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Favourite">
               <span class="avatar-title rounded bg-light text-body">
                 <i class="ri-star-line"></i>
               </span>
             </button>
-  
             <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Phone">
               <span class="avatar-title rounded bg-light text-body">
                 <i class="ri-phone-line"></i>
               </span>
             </button>
-  
             <div class="dropdown">
               <button class="btn avatar-xs p-0" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="avatar-title bg-light text-body rounded">
                   <i class="ri-more-fill"></i>
                 </span>
               </button>
-  
               <ul class="dropdown-menu dropdown-menu-end">
                 <li><a class="dropdown-item" href="javascript:void(0);"><i class="ri-inbox-archive-line align-bottom text-muted me-2"></i>Archive</a></li>
                 <li><a class="dropdown-item" href="javascript:void(0);"><i class="ri-mic-off-line align-bottom text-muted me-2"></i>Muted</a></li>
@@ -597,7 +590,6 @@ export default {
             </div>
           </div>
         </div>
-  
         <div class="border-top border-top-dashed p-3">
           <h5 class="fs-15 mb-3">Personal Details</h5>
           <div class="mb-3">
@@ -613,10 +605,8 @@ export default {
             <h6 class="mb-0">California, USA</h6>
           </div>
         </div>
-  
         <div class="border-top border-top-dashed p-3">
           <h5 class="fs-15 mb-3">Attached Files</h5>
-  
           <div class="vstack gap-2">
             <div class="border rounded border-dashed p-2">
               <div class="d-flex align-items-center">
@@ -648,7 +638,6 @@ export default {
                 </div>
               </div>
             </div>
-  
             <div class="border rounded border-dashed p-2">
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0 me-3">
@@ -679,7 +668,6 @@ export default {
                 </div>
               </div>
             </div>
-  
             <div class="border rounded border-dashed p-2">
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0 me-3">
@@ -710,7 +698,6 @@ export default {
                 </div>
               </div>
             </div>
-  
             <div class="border rounded border-dashed p-2">
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0 me-3">
@@ -741,7 +728,6 @@ export default {
                 </div>
               </div>
             </div>
-  
             <div class="text-center mt-2">
               <button type="button" class="btn btn-danger">Load more <i class="ri-arrow-right-fill align-bottom ms-1"></i></button>
             </div>

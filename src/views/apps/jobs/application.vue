@@ -310,7 +310,7 @@ export default {
                   <BButton type="button" class="add-btn" variant="primary" id="create-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Create Application
                   </BButton>
-                  <BButton type="button" variant="success"><i class="ri-file-download-line align-bottom me-1"></i>Import
+                  <BButton type="button" variant="secondary"><i class="ri-file-download-line align-bottom me-1"></i>Import
                   </BButton>
                   <BButton class="btn btn-soft-danger" id="remove-actions" @click="deleteMultiple"><i
                       class="ri-delete-bin-2-line"></i></BButton>
@@ -359,7 +359,7 @@ export default {
                 </BCol>
                 <BCol xxl="1" sm="4">
                   <div>
-                    <BButton type="button" variant="info  " @click="SearchData" class="w-100"> <i
+                    <BButton type="button" variant="success" @click="SearchData" class="w-100"> <i
                         class="ri-equalizer-fill me-1 align-bottom"></i>
                       Filters
                     </BButton>
@@ -372,7 +372,7 @@ export default {
             <div>
               <ul class="nav nav-tabs nav-tabs-custom nav-success mb-3" role="tablist">
                 <li class="nav-item">
-                  <BLink class="nav-link  All py-3" data-bs-toggle="tab" id="All" href="#" role="tab"
+                  <BLink class="nav-link All py-3 active" data-bs-toggle="tab" id="All" href="#" role="tab"
                     aria-selected="true" @click="changecategory('All')">
                     All Application
                   </BLink>

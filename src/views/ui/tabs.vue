@@ -273,7 +273,7 @@ export default {
                             generate equal-width elements without borders, all horizontal space will be occupied by nav
                             links.</p>
 
-                        <BTabs nav-class="mb-3" pills justified>
+                        <BTabs nav-class="mb-3 nav-pills-justified" pills justified>
                             <BTab title="Home" active>
                                 <div class="text-muted">
                                     <div class="d-flex">
@@ -380,7 +380,7 @@ export default {
                     <BCardBody>
                         <p class="text-muted">Use <code>flex-column</code> class to create Vertical nav tabs.</p>
                         <BRow>
-                            <BTabs navClass="flex-md-column text-center" navWrapperClass="col-md-3"
+                            <BTabs navClass="flex-md-column text-center vertical-nav-tabs" navWrapperClass="col-md-3"
                                 contentClass="text-muted mt-4 mt-md-0 col-md-9" pills vertical justified>
                                 <BTab title="Home" active>
                                     <div class="d-flex mb-2">
@@ -685,7 +685,7 @@ export default {
             <BCol xxl="6">
                 <h5 class="mb-3">Header Justify Tabs</h5>
                 <BCard no-body style="position: relative;">
-                    <BCardHeader class="align-items-xl-center d-xl-flex">
+                    <BCardHeader class="align-items-xl-center d-xl-flex gap-2">
                         <p class="text-muted flex-grow-1 mb-xl-0">Use <code>card-header-pills</code> class to create
                             header justify tab.</p>
                     </BCardHeader>

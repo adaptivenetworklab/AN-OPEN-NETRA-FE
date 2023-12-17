@@ -141,7 +141,7 @@ export default {
             <div class="flex-shrink-0">
               <div class="flax-shrink-0 hstack gap-2">
                 <BButton variant="primary">Today's Orders</BButton>
-                <BButton variant="soft-secondary">Past Orders</BButton>
+                <BButton variant="soft-success">Past Orders</BButton>
               </div>
             </div>
           </BCardHeader>
@@ -178,7 +178,7 @@ export default {
                   ]" />
               </BCol>
               <BCol xl="1" md="4">
-                <BButton variant="primary" class="w-100" @click="SearchData">Filters</BButton>
+                <BButton variant="secondary" class="w-100" @click="SearchData">Filters</BButton>
               </BCol>
             </BRow>
           </BCardBody>

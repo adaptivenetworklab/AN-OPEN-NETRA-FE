@@ -5,7 +5,7 @@ import appConfig from "../../app.config";
 import store from '@/state/store';
 
 const router = createRouter({
-  history: createWebHistory('/velzon/vuejs/minimal/'),
+  history: createWebHistory('/velzon/vuejs/corporate/'),
   routes,
   // Use the HTML5 history API (i.e. normal-looking routes)
   // instead of routes with hashes (e.g. example.com/#/about).
@@ -28,9 +28,9 @@ const router = createRouter({
 router.beforeEach(async (routeTo, routeFrom, next) => {
 
   const authRequired = routeTo.matched.some((route) => route.meta.authRequired);
-  
+
   if (!authRequired) return next();
-  
+
   axios.defaults.headers.common['authorization'] = 'Bearer ' + localStorage.getItem('jwt'); // for all requests
   await axios.get('https://api-node.themesbrand.website/profile').then((data) => {
     localStorage.setItem('userdata', JSON.stringify(data.data.user));

@@ -44,18 +44,20 @@ export default {
                             <div class="d-flex align-items-center gap-2">
                                 <span class="text-muted flex-shrink-0">Sort by: </span>
 
-                                <Multiselect class="form-control" style="width:130px;" v-model="value" :close-on-select="true" :searchable="true" :create-option="true" :options="[
-                                    { value: 'Owner', label: 'Owner' },
-                                    { value: 'Company', label: 'Company' },
-                                    { value: 'Date', label: 'Date' },
+                                <Multiselect class="form-control" style="width:130px;" v-model="value"
+                                    :close-on-select="true" :searchable="true" :create-option="true" :options="[
+                                        { value: 'Owner', label: 'Owner' },
+                                        { value: 'Company', label: 'Company' },
+                                        { value: 'Date', label: 'Date' },
 
-                                ]" />
+                                    ]" />
 
                             </div>
-                            <BButton variant="primary" @click="modalShow = !modalShow">
+                            <BButton variant="secondary" @click="modalShow = !modalShow">
                                 <i class="ri-add-fill align-bottom me-1"></i> Add Deals
                             </BButton>
-                            <BDropdown variant="link" class="card-header-dropdown" toggle-class="btn btn-soft-secondary btn-icon fs-14 arrow-none" menu-class="dropdown-menu-end">
+                            <BDropdown variant="link" class="card-header-dropdown"
+                                toggle-class="btn btn-soft-primary btn-icon fs-14 arrow-none" menu-class="dropdown-menu-end">
                                 <template #button-content><i class="ri-settings-4-line"></i></template>
                                 <BDropdownItem>Copy</BDropdownItem>
                                 <BDropdownItem>Move to pipline</BDropdownItem>
@@ -71,9 +73,9 @@ export default {
 
         <BRow class="row-cols-xxl-5 row-cols-lg-3 row-cols-md-2 row-cols-1">
             <BCol>
-                <BCard no-body class="border-0 overflow-hidden">
-                    <BLink class="card-header bg-primary-subtle" role="button" v-b-toggle.leadDiscovered>
-                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-15">Lead Discovered</h5>
+                <BCard no-body class="overflow-hidden">
+                    <BLink class="card-header bg-danger-subtle" role="button" v-b-toggle.leadDiscovered>
+                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-14">Lead Discovered</h5>
                         <p class="text-muted mb-0">$265,200 <span class="fw-medium">4 Deals</span></p>
                     </BLink>
                 </BCard>
@@ -92,9 +94,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="leadDiscovered1">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="primary-subtle" class="bg-primary-subtle text-primary">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -134,8 +136,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -153,9 +157,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="leadDiscovered2">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -195,8 +199,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -215,9 +221,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed show" id="leadDiscovered3" visible>
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -257,8 +263,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -276,9 +284,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="leadDiscovered4">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -318,8 +326,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -329,7 +339,7 @@ export default {
             <BCol>
                 <BCard no-body>
                     <BLink class="card-header bg-success-subtle" role="button" v-b-toggle.contactInitiated>
-                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-15">Contact Initiated</h5>
+                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-14">Contact Initiated</h5>
                         <p class="text-muted mb-0">$108,700 <span class="fw-medium">5 Deals</span></p>
                     </BLink>
                 </BCard>
@@ -349,9 +359,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="contactInitiated1">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -391,8 +401,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -410,9 +422,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="contactInitiated2">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Zoetic Fashion <BBadge tag="small" variant="warning-subtle" class="bg-warning-subtle text-warning">25
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Zoetic Fashion <BBadge tag="small" variant="warning-subtle"
+                                        class="bg-warning-subtle text-warning">25
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -441,8 +453,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -460,9 +474,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="contactInitiated3">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Micro Design <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success">2
-                                        Month</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Micro Design <BBadge tag="small" variant="success-subtle"
+                                        class="bg-success-subtle text-success">2
+                                        Month</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -491,8 +505,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -510,9 +526,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="contactInitiated4">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -552,8 +568,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -561,7 +579,8 @@ export default {
                         <BCardBody>
                             <BLink class="d-flex align-items-center" role="button" v-b-toggle.contactInitiated5>
                                 <div class="flex-shrink-0">
-                                    <img src="@/assets/images/brands/mail_chimp.png" alt="" class="avatar-xs rounded-circle" />
+                                    <img src="@/assets/images/brands/mail_chimp.png" alt=""
+                                        class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h6 class="fs-14 mb-1">Managing Sales</h6>
@@ -571,9 +590,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="contactInitiated5">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -613,8 +632,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -622,9 +643,9 @@ export default {
             </BCol>
 
             <BCol>
-                <BCard no-body>
+                <BCard no-body class="overflow-hidden">
                     <BLink class="card-header bg-warning-subtle" role="button" v-b-toggle.needsIdentified>
-                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-15">Needs Identified</h5>
+                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-14">Needs Identified</h5>
                         <p class="text-muted mb-0">$708,200 <span class="fw-medium">7 Deals</span></p>
                     </BLink>
                 </BCard>
@@ -643,9 +664,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="needsIdentified1">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Alexis Clarke <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">7
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Alexis Clarke <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">7
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -674,8 +695,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -693,9 +716,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="needsIdentified2">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Meta4Systems <BBadge variant="warning-subtle" class="bg-warning-subtle text-warning">35
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Meta4Systems <BBadge variant="warning-subtle"
+                                        class="bg-warning-subtle text-warning">35
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -735,8 +758,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -744,7 +769,8 @@ export default {
                         <BCardBody>
                             <BLink class="d-flex align-items-center" v-b-toggle.needsIdentified3>
                                 <div class="flex-shrink-0">
-                                    <img src="@/assets/images/brands/dribbble.png" alt="" class="avatar-xs rounded-circle" />
+                                    <img src="@/assets/images/brands/dribbble.png" alt=""
+                                        class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h6 class="fs-14 mb-1">Food Selection Platform</h6>
@@ -754,9 +780,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="needsIdentified3">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Syntyce Solutions <BBadge variant="danger-subtle" class="bg-danger-subtle text-danger">15
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Syntyce Solutions <BBadge variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">15
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -796,8 +822,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -816,9 +844,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="needsIdentified4">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Themesbrand <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">3
-                                        Month</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Themesbrand <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">3
+                                        Month</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -858,8 +886,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -878,7 +908,8 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="needsIdentified5">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Themesbrand <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">3 Days</BBadge>
+                                <h6 class="fs-14 mb-1">Themesbrand <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">3 Days</BBadge>
                                 </h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
@@ -919,8 +950,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -928,7 +961,8 @@ export default {
                         <BCardBody>
                             <BLink class="d-flex align-items-center" v-b-toggle.needsIdentified6>
                                 <div class="flex-shrink-0">
-                                    <img src="@/assets/images/companies/img-6.png" alt="" class="avatar-xs rounded-circle" />
+                                    <img src="@/assets/images/companies/img-6.png" alt=""
+                                        class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h6 class="fs-14 mb-1">Wood Elements Design</h6>
@@ -938,9 +972,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="needsIdentified6">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">iTest Factory <BBadge variant="warning-subtle" tag="small" class="bg-warning-subtle text-warning">42
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">iTest Factory <BBadge variant="warning-subtle" tag="small"
+                                        class="bg-warning-subtle text-warning">42
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -980,8 +1014,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -989,7 +1025,8 @@ export default {
                         <BCardBody>
                             <BLink class="d-flex align-items-center" v-b-toggle.needsIdentified7>
                                 <div class="flex-shrink-0">
-                                    <img src="@/assets/images/users/avatar-10.jpg" alt="" class="avatar-xs rounded-circle" />
+                                    <img src="@/assets/images/users/avatar-10.jpg" alt=""
+                                        class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h6 class="fs-14 mb-1">PayPal SEO audit</h6>
@@ -999,9 +1036,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="needsIdentified7">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Meta4Systems <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success">6
-                                        Month</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Meta4Systems <BBadge tag="small" variant="success-subtle"
+                                        class="bg-success-subtle text-success">6
+                                        Month</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1041,8 +1078,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1050,9 +1089,9 @@ export default {
             </BCol>
 
             <BCol>
-                <BCard no-body>
+                <BCard no-body class="overflow-hidden">
                     <BLink class="card-header bg-info-subtle" role="button" v-b-toggle.meetingArranged>
-                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-15">Meeting Arranged</h5>
+                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-14">Meeting Arranged</h5>
                         <p class="text-muted mb-0">$44,900 <span class="fw-medium">3 Deals</span></p>
                     </BLink>
                 </BCard>
@@ -1061,7 +1100,8 @@ export default {
                         <BCardBody>
                             <BLink class="d-flex align-items-center" role="button" v-b-toggle.meetingArranged1>
                                 <div class="flex-shrink-0">
-                                    <img src="@/assets/images/companies/img-5.png" alt="" class="avatar-xs rounded-circle" />
+                                    <img src="@/assets/images/companies/img-5.png" alt=""
+                                        class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h6 class="fs-14 mb-1">SASS app workflow diagram</h6>
@@ -1071,9 +1111,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="meetingArranged1">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">10
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">10
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1113,8 +1153,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1132,9 +1174,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="meetingArranged2">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1174,8 +1216,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1183,7 +1227,8 @@ export default {
                         <BCardBody>
                             <BLink class="d-flex align-items-center" role="button" v-b-toggle.meetingArranged3>
                                 <div class="flex-shrink-0">
-                                    <img src="@/assets/images/companies/img-8.png" alt="" class="avatar-xs rounded-circle" />
+                                    <img src="@/assets/images/companies/img-8.png" alt=""
+                                        class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h6 class="fs-14 mb-1">TripAdvisor</h6>
@@ -1193,9 +1238,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="meetingArranged3">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1235,8 +1280,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1244,9 +1291,9 @@ export default {
             </BCol>
 
             <BCol>
-                <BCard no-body>
+                <BCard no-body class="overflow-hidden">
                     <BLink class="card-header bg-secondary-subtle" role="button" v-b-toggle.offerAccepted>
-                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-15">Offer Accepted</h5>
+                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-14">Offer Accepted</h5>
                         <p class="text-muted mb-0">$819,300 <span class="fw-medium">8 Deals</span></p>
                     </BLink>
                 </BCard>
@@ -1255,7 +1302,8 @@ export default {
                         <BCardBody>
                             <BLink class="d-flex align-items-center" role="button" v-b-toggle.offerAccepted1>
                                 <div class="flex-shrink-0">
-                                    <img src="@/assets/images/users/avatar-10.jpg" alt="" class="avatar-xs rounded-circle" />
+                                    <img src="@/assets/images/users/avatar-10.jpg" alt=""
+                                        class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <h6 class="fs-14 mb-1">Coupon Website</h6>
@@ -1265,9 +1313,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="offerAccepted1">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1307,8 +1355,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1327,9 +1377,9 @@ export default {
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="offerAccepted2">
                             <BCardBody>
-                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="warning-subtle" class="bg-warning-subtle text-warning">47
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="warning-subtle"
+                                        class="bg-warning-subtle text-warning">47
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1369,8 +1419,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1381,16 +1433,16 @@ export default {
                                     <img src="@/assets/images/users/avatar-4.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-15 mb-1">New Email Design Templates</h6>
+                                    <h6 class="fs-14 mb-1">New Email Design Templates</h6>
                                     <p class="text-muted mb-0">$136.9k - 05 Jan, 2022</p>
                                 </div>
                             </BLink>
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="offerAccepted3">
                             <BCardBody>
-                                <h6 class="fs-15 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1438,16 +1490,16 @@ export default {
                                     <img src="@/assets/images/users/avatar-7.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-15 mb-1">Create New Components</h6>
+                                    <h6 class="fs-14 mb-1">Create New Components</h6>
                                     <p class="text-muted mb-0">$45.9k - 26 Dec, 2021</p>
                                 </div>
                             </BLink>
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="offerAccepted4">
                             <BCardBody>
-                                <h6 class="fs-15 mb-1">Nesta Technologies <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success">4
-                                        Month</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="success-subtle"
+                                        class="bg-success-subtle text-success">4
+                                        Month</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1487,8 +1539,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1497,19 +1551,20 @@ export default {
                         <BCardBody>
                             <BLink class="d-flex align-items-center" role="button" v-b-toggle.offerAccepted5>
                                 <div class="flex-shrink-0">
-                                    <img src="@/assets/images/companies/img-3.png" alt="" class="avatar-xs rounded-circle" />
+                                    <img src="@/assets/images/companies/img-3.png" alt=""
+                                        class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-15 mb-1">New Test Tickets</h6>
+                                    <h6 class="fs-14 mb-1">New Test Tickets</h6>
                                     <p class="text-muted mb-0">$118k - 01 Jan, 2022</p>
                                 </div>
                             </BLink>
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="offerAccepted5">
                             <BCardBody>
-                                <h6 class="fs-15 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1549,8 +1604,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1562,16 +1619,16 @@ export default {
                                     <img src="@/assets/images/users/avatar-6.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-15 mb-1">Recover Deleted Folder</h6>
+                                    <h6 class="fs-14 mb-1">Recover Deleted Folder</h6>
                                     <p class="text-muted mb-0">$87.3k - 03 Jan, 2022</p>
                                 </div>
                             </BLink>
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="offerAccepted6">
                             <BCardBody>
-                                <h6 class="fs-15 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">14
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">14
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1611,8 +1668,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1623,16 +1682,16 @@ export default {
                                     <img src="@/assets/images/brands/github.png" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-15 mb-1">Github SEO audit</h6>
+                                    <h6 class="fs-14 mb-1">Github SEO audit</h6>
                                     <p class="text-muted mb-0">$241.2k - 21 Sep, 2021</p>
                                 </div>
                             </BLink>
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="offerAccepted7">
                             <BCardBody>
-                                <h6 class="fs-15 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1672,8 +1731,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1684,16 +1745,16 @@ export default {
                                     <img src="@/assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-15 mb-1">Urban Modern Design</h6>
+                                    <h6 class="fs-14 mb-1">Urban Modern Design</h6>
                                     <p class="text-muted mb-0">$67.8k - 09 Oct, 2021</p>
                                 </div>
                             </BLink>
                         </BCardBody>
                         <BCollapse class="border-top border-top-dashed" id="offerAccepted8">
                             <BCardBody>
-                                <h6 class="fs-15 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle" class="bg-danger-subtle text-danger">4
-                                        Days</BBadge>
-                                </h6>
+                                <h6 class="fs-14 mb-1">Nesta Technologies <BBadge tag="small" variant="danger-subtle"
+                                        class="bg-danger-subtle text-danger">4
+                                        Days</BBadge></h6>
                                 <p class="text-muted">As a company grows however, you find it's not as easy to shout
                                     across</p>
                                 <ul class="list-unstyled vstack gap-2 mb-0">
@@ -1733,8 +1794,10 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="success" size="sm" class="w-100"><i class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="primary" size="sm" class="w-100"><i class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
+                                <BButton variant="primary" size="sm" class="w-100"><i
+                                        class="ri-phone-line align-bottom me-1"></i> Call</BButton>
+                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                        class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
                     </BCard>
@@ -1742,13 +1805,14 @@ export default {
             </BCol>
         </BRow>
 
-        <BModal v-model="modalShow" body-class="" header-class="bg-light p-3" hide-footer title="Create Deals" class="v-modal-custom" centered>
+        <BModal v-model="modalShow" body-class="" header-class="bg-light p-3" hide-footer title="Create Deals"
+            class="v-modal-custom" centered>
             <b-form class="needs-validation" novalidate id="deals-form" onsubmit="return false">
                 <div class="mb-3">
                     <label for="deatType" class="form-label">Deals Type</label>
                     <select class="form-select" id="deatType" data-choices aria-label="Default select example" required>
                         <option value="" data-custom-properties="[object Object]">Select deals type</option>
-                        <option value="Lead Disovered">Lead Disovered</option>
+                        <option value="Lead Disovered">Lead Discovered</option>
                         <option value="Contact Initiated">Contact Initiated</option>
                         <option value="Need Identified">Need Identified</option>
                         <option value="Meeting Arranged">Meeting Arranged</option>
@@ -1782,7 +1846,8 @@ export default {
                 </div>
                 <div class="mb-3">
                     <label for="dueDate" class="form-label">Due Date</label>
-                    <flat-pickr placeholder="Select date" v-model="date" :config="timeConfig" class="form-control flatpickr-input" id="adddate"></flat-pickr>
+                    <flat-pickr placeholder="Select date" v-model="date" :config="timeConfig"
+                        class="form-control flatpickr-input" id="adddate"></flat-pickr>
                     <div class="invalid-feedback">
                         Please select a due date.
                     </div>
@@ -1805,14 +1870,15 @@ export default {
                 </div>
                 <div class="mb-3">
                     <label for="contactDescription" class="form-label">Description</label>
-                    <textarea class="form-control" id="contactDescription" rows="3" placeholder="Enter description" required></textarea>
+                    <textarea class="form-control" id="contactDescription" rows="3" placeholder="Enter description"
+                        required></textarea>
                     <div class="invalid-feedback">
                         Please add a description.
                     </div>
                 </div>
                 <div class="modal-footer v-modal-footer">
                     <BButton type="button" variant="light" id="close-modal" @click="modalShow = false"> Close </BButton>
-                    <BButton type="submit" variant="success"><i class="ri-save-line align-bottom me-1"></i> Save </BButton>
+                    <BButton type="submit" variant="primary"><i class="ri-save-line align-bottom me-1"></i> Save </BButton>
                 </div>
             </b-form>
         </BModal>

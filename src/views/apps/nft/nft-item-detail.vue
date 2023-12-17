@@ -87,7 +87,7 @@ export default {
                                 </div>
                             </BCard>
                             <div class="hstack gap-2">
-                                <BButton variant="success" class="w-100">Place Bid</BButton>
+                                <BButton variant="primary" class="w-100">Place Bid</BButton>
                             </div>
                         </div>
                     </BCol>
@@ -103,7 +103,7 @@ export default {
                                 <BDropdownItem><i class="ri-delete-bin-fill align-bottom me-2 text-muted"></i> Delete
                                 </BDropdownItem>
                             </BDropdown>
-                            <BBadge variant="info-subtle" class="bg-info-subtle text-info mb-3 fs-12"><i
+                            <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary mb-3 fs-12"><i
                                     class="ri-eye-line me-1 align-bottom"></i>
                                 8,634 people views this</BBadge>
                             <h4>Patterns Arts & Culture</h4>
@@ -133,7 +133,7 @@ export default {
                                     <div class="p-2 border border-dashed rounded text-center">
                                         <div>
                                             <p class="text-muted fw-medium mb-1">Price :</p>
-                                            <h5 class="fs-17 text-success mb-0"><i class="mdi mdi-ethereum me-1"></i>
+                                            <h5 class="fs-16 text-success mb-0"><i class="mdi mdi-ethereum me-1"></i>
                                                 83.06 ETH</h5>
                                         </div>
                                     </div>
@@ -142,7 +142,7 @@ export default {
                                     <div class="p-2 border border-dashed rounded text-center">
                                         <div>
                                             <p class="text-muted fw-medium mb-1">Highest bid</p>
-                                            <h5 class="fs-17 mb-0">104.63 ETH</h5>
+                                            <h5 class="fs-16 mb-0">104.63 ETH</h5>
                                         </div>
                                     </div>
                                 </BCol>
@@ -150,7 +150,7 @@ export default {
                                     <div class="p-2 border border-dashed rounded text-center">
                                         <div>
                                             <p class="text-muted fw-medium mb-1">Stock</p>
-                                            <h5 class="fs-17 mb-0">12/58 Sale</h5>
+                                            <h5 class="fs-16 mb-0">12/58 Sale</h5>
                                         </div>
                                     </div>
                                 </BCol>
@@ -490,7 +490,7 @@ export default {
                                                         <div class="border border-dashed rounded p-3">
                                                             <div class="d-flex align-items-start mb-3">
                                                                 <div class="hstack gap-3">
-                                                                    <BBadge variant="success" tag="div" pill class="text-warning">
+                                                                    <BBadge variant="success" tag="div" pill class="mb-0">
                                                                         <i class="mdi mdi-star"></i> 4.2
                                                                     </BBadge>
                                                                     <div class="vr"></div>

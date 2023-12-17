@@ -33,49 +33,49 @@ export default {
                     <tbody>
                         <tr>
                             <td>
-                                <BLink href="javascript:void(0);" class="link-secondary">/themesbrand/skote-25867</BLink>
+                                <BLink href="javascript:void(0);" class="text-reset">/themesbrand/skote-25867</BLink>
                             </td>
                             <td>99</td>
                             <td>25.3%</td>
                         </tr>
                         <tr>
                             <td>
-                                <BLink href="javascript:void(0);" class="link-secondary">/dashonic/chat-24518</BLink>
+                                <BLink href="javascript:void(0);" class="text-reset">/dashonic/chat-24518</BLink>
                             </td>
                             <td>86</td>
                             <td>22.7%</td>
                         </tr>
                         <tr>
                             <td>
-                                <BLink href="javascript:void(0);" class="link-secondary">/skote/timeline-27391</BLink>
+                                <BLink href="javascript:void(0);" class="text-reset">/skote/timeline-27391</BLink>
                             </td>
                             <td>64</td>
                             <td>18.7%</td>
                         </tr>
                         <tr>
                             <td>
-                                <BLink href="javascript:void(0);" class="link-secondary">/themesbrand/minia-26441</BLink>
+                                <BLink href="javascript:void(0);" class="text-reset">/themesbrand/minia-26441</BLink>
                             </td>
                             <td>53</td>
                             <td>14.2%</td>
                         </tr>
                         <tr>
                             <td>
-                                <BLink href="javascript:void(0);" class="link-secondary">/dashon/dashboard-29873</BLink>
+                                <BLink href="javascript:void(0);" class="text-reset" >/dashon/dashboard-29873</BLink>
                             </td>
                             <td>33</td>
                             <td>12.6%</td>
                         </tr>
                         <tr>
                             <td>
-                                <BLink href="javascript:void(0);" class="link-secondary">/doot/chats-29964</BLink>
+                                <BLink href="javascript:void(0);" class="text-reset">/doot/chats-29964</BLink>
                             </td>
                             <td>20</td>
                             <td>10.9%</td>
                         </tr>
                         <tr>
                             <td>
-                                <BLink href="javascript:void(0);" class="link-secondary">/minton/pages-29739</BLink>
+                                <BLink href="javascript:void(0);" class="text-reset">/steex/pages-29739</BLink>
                             </td>
                             <td>10</td>
                             <td>07.3%</td>

@@ -488,12 +488,13 @@ export default {
               dropdown-menu to create dropdown items dark.
             </p>
             <div class="live-preview">
-              <BDropdown text="Dropdown button" menu-class="dropdown-menu-dark" variant="secondary">
-                <BDropdownItemButton active>Action</BDropdownItemButton>
+              <BDropdown text="Dropdown button" menu-class="dropdown-menu-dark" variant="secondary ">
+                <BDropdownItemButton>Action</BDropdownItemButton>
                 <BDropdownItemButton>Another action</BDropdownItemButton>
                 <BDropdownItemButton>Something else here</BDropdownItemButton>
                 <b-dropdown-divider></b-dropdown-divider>
                 <BDropdownItemButton>Separated link</BDropdownItemButton>
+
               </BDropdown>
 
             </div>
@@ -544,7 +545,8 @@ export default {
                 </BButtonGroup>
 
                 <BButtonGroup>
-                  <BDropdown text="Left-aligned, right-aligned lg" end toggle-class="dropdown-menu-lg-end" variant="secondary">
+                  <BDropdown text="Left-aligned, right-aligned lg" end toggle-class="dropdown-menu-lg-end"
+                    variant="secondary">
                     <BDropdownItem href="#">Menu item</BDropdownItem>
                     <BDropdownItem href="#">Menu item</BDropdownItem>
                     <BDropdownItem href="#">Menu item</BDropdownItem>
@@ -552,7 +554,8 @@ export default {
                 </BButtonGroup>
 
                 <BButtonGroup>
-                  <BDropdown text="Right-aligned, left-aligned lg" toggle-class="dropdown-menu-lg-start" variant="secondary">
+                  <BDropdown text="Right-aligned, left-aligned lg" toggle-class="dropdown-menu-lg-start"
+                    variant="secondary">
                     <BDropdownItem href="#">Menu item</BDropdownItem>
                     <BDropdownItem href="#">Menu item</BDropdownItem>
                     <BDropdownItem href="#">Menu item</BDropdownItem>
@@ -1050,11 +1053,13 @@ export default {
                     <form>
                       <div class="mb-2">
                         <label class="form-label" for="exampleDropdownFormEmail">Email address</label>
-                        <input type="email" class="form-control" id="exampleDropdownFormEmail" placeholder="email@example.com" />
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail"
+                          placeholder="email@example.com" />
                       </div>
                       <div class="mb-2">
                         <label class="form-label" for="exampleDropdownFormPassword">Password</label>
-                        <input type="password" class="form-control" id="exampleDropdownFormPassword" placeholder="Password" />
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword"
+                          placeholder="Password" />
                       </div>
                       <div class="mb-2">
                         <div class="form-check custom-checkbox">
@@ -1139,7 +1144,8 @@ And this is more example text.
             <div class="live-preview">
               <BRow class="g-3">
                 <BCol xxl="3" lg="5" md="6">
-                  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0 d-inline-block position-relative w-100" aria-labelledby="page-header-notifications-dropdown" style="z-index: 1">
+                  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0 d-inline-block position-relative w-100"
+                    aria-labelledby="page-header-notifications-dropdown" style="z-index: 1">
                     <div class="dropdown-head bg-primary bg-pattern rounded-top">
                       <div class="p-3">
                         <BRow class="align-items-center">
@@ -1149,7 +1155,8 @@ And this is more example text.
                             </h6>
                           </BCol>
                           <div class="col-auto dropdown-tabs">
-                            <BBadge variant="light-subtle" class="bg-light-subtle text-body fs-13" data-key="t-view-all">4 New</BBadge>
+                            <BBadge variant="light-subtle" class="bg-light-subtle text-body fs-13"
+                              data-key="t-view-all">4 New</BBadge>
                           </div>
                         </BRow>
                       </div>
@@ -1182,10 +1189,11 @@ And this is more example text.
                                 </div>
                               </div>
                             </div>
-
+          
                             <div class="text-reset notification-item d-block dropdown-item position-relative">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs flex-shrink-0" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs flex-shrink-0"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!" class="stretched-link">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1206,7 +1214,7 @@ And this is more example text.
                                 </div>
                               </div>
                             </div>
-
+          
                             <div class="text-reset notification-item d-block dropdown-item position-relative">
                               <div class="d-flex">
                                 <div class="avatar-xs me-3 flex-shrink-0">
@@ -1230,10 +1238,11 @@ And this is more example text.
                                 </div>
                               </div>
                             </div>
-
+          
                             <div class="text-reset notification-item d-block dropdown-item position-relative">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs flex-shrink-0" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs flex-shrink-0"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!" class="stretched-link">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1255,7 +1264,7 @@ And this is more example text.
                                 </div>
                               </div>
                             </div>
-
+          
                             <div class="my-3 text-center">
                               <BButton type="button" variant="soft-success">
                                 View All Notifications
@@ -1269,7 +1278,8 @@ And this is more example text.
                           <simplebar data-simplebar style="max-height: 300px" class="pe-2">
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!" class="stretched-link">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1290,10 +1300,11 @@ And this is more example text.
                                 </div>
                               </div>
                             </div>
-
+          
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!" class="stretched-link">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1316,10 +1327,11 @@ And this is more example text.
                                 </div>
                               </div>
                             </div>
-
+          
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-6.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-6.jpg" class="me-3 rounded-circle avatar-xs"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!" class="stretched-link">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1342,10 +1354,11 @@ And this is more example text.
                                 </div>
                               </div>
                             </div>
-
+          
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!" class="stretched-link">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1367,7 +1380,7 @@ And this is more example text.
                                 </div>
                               </div>
                             </div>
-
+          
                             <div class="my-3 text-center">
                               <BButton type="button" variant="soft-success">
                                 View All Messages
@@ -1394,7 +1407,8 @@ And this is more example text.
                 </BCol>
 
                 <BCol xxl="3" lg="5" md="6">
-                  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0 d-inline-block position-relative w-100" aria-labelledby="page-header-notifications-dropdown" style="z-index: 1">
+                  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0 d-inline-block position-relative w-100"
+                    aria-labelledby="page-header-notifications-dropdown" style="z-index: 1">
                     <div class="dropdown-head bg-success bg-pattern rounded-top">
                       <div class="p-3">
                         <BRow class="align-items-center">
@@ -1404,16 +1418,17 @@ And this is more example text.
                             </h6>
                           </BCol>
                           <div class="col-auto dropdown-tabs">
-                            <BBadge variant="light-subtle" class="bg-light-subtle text-body fs-13" data-key="t-view-all">4 New</BBadge>
+                            <BBadge variant="light-subtle" class="bg-light-subtle text-body fs-13"
+                              data-key="t-view-all">4 New</BBadge>
                           </div>
                         </BRow>
                       </div>
                     </div>
-                    <div class="pb-2">
+                      <div class="pb-2">
                       <BTabs nav-class="mb-3  dropdown-tabs nav-tab-custom bg-success px-2 ">
                         <BTab title="All (4)" active>
                           <simplebar data-simplebar style="max-height: 300px" class="pe-2">
-                            <!-- <div data-simplebar style="max-height: 300px" class="pe-2"> -->
+                          <!-- <div data-simplebar style="max-height: 300px" class="pe-2"> -->
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
                                 <div class="flex-shrink-0 avatar-xs me-3">
@@ -1443,7 +1458,8 @@ And this is more example text.
 
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1497,7 +1513,8 @@ And this is more example text.
 
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1528,19 +1545,20 @@ And this is more example text.
                                 <i class="ri-arrow-right-line align-middle"></i>
                               </BButton>
                             </div>
-                            <!-- </div> -->
-                            <!-- </div> -->
-                          </simplebar>
+                          <!-- </div> -->
+                          <!-- </div> -->
+                        </simplebar>
                         </BTab>
                         <BTab title="Messages">
                           <simplebar data-simplebar style="max-height: 300px" class="pe-2">
 
-                            <!-- <div class="tab-pane fade py-2 ps-2" id="messages-tab1" role="tabpanel"
+                          <!-- <div class="tab-pane fade py-2 ps-2" id="messages-tab1" role="tabpanel"
                           aria-labelledby="messages-tab"> -->
-                            <!-- <div data-simplebar style="max-height: 300px" class="pe-2"> -->
+                          <!-- <div data-simplebar style="max-height: 300px" class="pe-2"> -->
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1567,7 +1585,8 @@ And this is more example text.
 
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1595,7 +1614,8 @@ And this is more example text.
 
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-6.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-6.jpg" class="me-3 rounded-circle avatar-xs"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1623,7 +1643,8 @@ And this is more example text.
 
                             <div class="text-reset notification-item d-block dropdown-item">
                               <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
+                                <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs"
+                                  alt="user-pic" />
                                 <div class="flex-grow-1">
                                   <BLink href="#!">
                                     <h6 class="mt-0 mb-1 fs-13 fw-semibold">
@@ -1654,32 +1675,33 @@ And this is more example text.
                                 <i class="ri-arrow-right-line align-middle"></i>
                               </BButton>
                             </div>
-                            <!-- </div> -->
-                            <!-- </div> -->
-                          </simplebar>
+                          <!-- </div> -->
+                          <!-- </div> -->
+                        </simplebar>
                         </BTab>
                         <BTab title="Alerts">
                           <simplebar data-simplebar style="max-height: 300px" class="pe-2">
 
-                            <!-- <div class="tab-pane fade p-4" id="alerts-tab1" role="tabpanel" aria-labelledby="alerts-tab"> -->
-                            <div class="w-25 pt-3 mx-auto">
-                              <img src="@/assets/images/svg/bell.svg" class="img-fluid" alt="user-pic" />
-                            </div>
-                            <div class="text-center pb-5 mt-2">
-                              <h6 class="fs-18 fw-semibold lh-base">
-                                Hey! You have no any notifications
-                              </h6>
-                            </div>
-                            <!-- </div> -->
-                          </simplebar>
+                           <!-- <div class="tab-pane fade p-4" id="alerts-tab1" role="tabpanel" aria-labelledby="alerts-tab"> -->
+                          <div class="w-25 pt-3 mx-auto">
+                            <img src="@/assets/images/svg/bell.svg" class="img-fluid" alt="user-pic" />
+                          </div>
+                          <div class="text-center pb-5 mt-2">
+                            <h6 class="fs-18 fw-semibold lh-base">
+                              Hey! You have no any notifications
+                            </h6>
+                          </div>
+                          <!-- </div> -->
+                        </simplebar>
                         </BTab>
                       </BTabs>
                     </div>
-                  </div>
+                    </div>
                 </BCol>
 
                 <BCol xxl="3" lg="5" md="6">
-                  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0 d-inline-block position-relative w-100" aria-labelledby="page-header-notifications-dropdown" style="z-index: 1">
+                  <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0 d-inline-block position-relative w-100"
+                    aria-labelledby="page-header-notifications-dropdown" style="z-index: 1">
                     <div class="dropdown-head bg-secondary bg-pattern rounded-top">
                       <div class="p-3">
                         <BRow class="align-items-center">
@@ -1689,254 +1711,261 @@ And this is more example text.
                             </h6>
                           </BCol>
                           <div class="col-auto dropdown-tabs">
-                            <BBadge variant="light-subtle" class="bg-light-subtle text-body fs-13" data-key="t-view-all">4 New</BBadge>
+                            <BBadge variant="light-subtle" class="bg-light-subtle text-body fs-13"
+                              data-key="t-view-all">4 New</BBadge>
                           </div>
                         </BRow>
+                        </div>
                       </div>
-                    </div>
-                    <div class="pb-2">
-                      <BTabs nav-class="mb-3  dropdown-tabs nav-tab-custom bg-secondary px-2 ">
-                        <BTab title="All (4)" active>
-                          <simplebar data-simplebar style="max-height: 300px" class="pe-2">
-                            <div class="text-reset notification-item d-block dropdown-item">
-                              <div class="d-flex">
-                                <div class="flex-shrink-0 avatar-xs me-3">
-                                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-16">
-                                    <i class="bx bx-badge-check"></i>
-                                  </span>
-                                </div>
-                                <div class="flex-grow-1">
-                                  <h6 class="mt-0 mb-2 lh-base">
-                                    Your
-                                    <b>Elite</b> author Graphic Optimization
-                                    <span class="text-secondary">reward</span> is
-                                    ready!
-                                  </h6>
-                                  <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
-                                    <span>
-                                      <i class="mdi mdi-clock-outline"></i> Just
-                                      30 sec ago
+                        <div class="pb-2">
+                        <BTabs nav-class="mb-3  dropdown-tabs nav-tab-custom bg-secondary px-2 ">
+                          <BTab title="All (4)" active>
+                            <simplebar data-simplebar style="max-height: 300px" class="pe-2">
+                              <div class="text-reset notification-item d-block dropdown-item">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 avatar-xs me-3">
+                                    <span class="avatar-title bg-info-subtle text-info rounded-circle fs-16">
+                                      <i class="bx bx-badge-check"></i>
                                     </span>
-                                  </p>
-                                </div>
-                                <div class="px-2 fs-16">
-                                  <input class="form-check-input" type="checkbox" />
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="text-reset notification-item d-block dropdown-item">
-                              <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
-                                <div class="flex-grow-1">
-                                  <BLink href="#!">
-                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">
-                                      Angela Bernier
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mt-0 mb-2 lh-base">
+                                      Your
+                                      <b>Elite</b> author Graphic Optimization
+                                      <span class="text-secondary">reward</span> is
+                                      ready!
                                     </h6>
-                                  </BLink>
-                                  <div class="fs-13 text-muted">
-                                    <p class="mb-1">
-                                      Answered to your comment on the cash flow
-                                      forecast's graph 🔔.
+                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                      <span>
+                                        <i class="mdi mdi-clock-outline"></i> Just
+                                        30 sec ago
+                                      </span>
                                     </p>
                                   </div>
-                                  <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
-                                    <span>
-                                      <i class="mdi mdi-clock-outline"></i> 48 min
-                                      ago
-                                    </span>
-                                  </p>
-                                </div>
-                                <div class="px-2 fs-16">
-                                  <input class="form-check-input" type="checkbox" />
+                                  <div class="px-2 fs-16">
+                                    <input class="form-check-input" type="checkbox" />
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-
-                            <div class="text-reset notification-item d-block dropdown-item">
-                              <div class="d-flex">
-                                <div class="flex-shrink-0 avatar-xs me-3">
-                                  <span class="avatar-title bg-danger-subtle text-danger rounded-circle fs-16">
-                                    <i class="bx bx-message-square-dots"></i>
-                                  </span>
-                                </div>
-                                <div class="flex-grow-1">
-                                  <h6 class="mt-0 mb-2 fs-13 lh-base">
-                                    You have received
-                                    <b class="text-success">20</b> new messages in
-                                    the conversation
-                                  </h6>
-                                  <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
-                                    <span>
-                                      <i class="mdi mdi-clock-outline"></i> 2 hrs
-                                      ago
-                                    </span>
-                                  </p>
-                                </div>
-                                <div class="px-2 fs-16">
-                                  <input class="form-check-input" type="checkbox" />
-                                </div>
-                              </div>
-                            </div>
-
-                            <div class="text-reset notification-item d-block dropdown-item">
-                              <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
-                                <div class="flex-grow-1">
-                                  <BLink href="#!">
-                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">
-                                      Maureen Gibson
-                                    </h6>
-                                  </BLink>
-                                  <div class="fs-13 text-muted">
-                                    <p class="mb-1">
-                                      We talked about a project on linkedin.
+  
+                              <div class="text-reset notification-item d-block dropdown-item">
+                                <div class="d-flex">
+                                  <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs"
+                                    alt="user-pic" />
+                                  <div class="flex-grow-1">
+                                    <BLink href="#!">
+                                      <h6 class="mt-0 mb-1 fs-13 fw-semibold">
+                                        Angela Bernier
+                                      </h6>
+                                    </BLink>
+                                    <div class="fs-13 text-muted">
+                                      <p class="mb-1">
+                                        Answered to your comment on the cash flow
+                                        forecast's graph 🔔.
+                                      </p>
+                                    </div>
+                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                      <span>
+                                        <i class="mdi mdi-clock-outline"></i> 48 min
+                                        ago
+                                      </span>
                                     </p>
                                   </div>
-                                  <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
-                                    <span>
-                                      <i class="mdi mdi-clock-outline"></i> 4 hrs
-                                      ago
-                                    </span>
-                                  </p>
-                                </div>
-                                <div class="px-2 fs-16">
-                                  <input class="form-check-input" type="checkbox" />
+                                  <div class="px-2 fs-16">
+                                    <input class="form-check-input" type="checkbox" />
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-
-                            <div class="my-3 text-center">
-                              <BButton variant="soft-success" type="button">
-                                View All Notifications
-                                <i class="ri-arrow-right-line align-middle"></i>
-                              </BButton>
-                            </div>
-                          </simplebar>
-                        </BTab>
-                        <BTab title="Messages">
-                          <simplebar data-simplebar style="max-height: 300px" class="pe-2">
-                            <div class="text-reset notification-item d-block dropdown-item">
-                              <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
-                                <div class="flex-grow-1">
-                                  <BLink href="#!">
-                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">
-                                      James Lemire
+  
+                              <div class="text-reset notification-item d-block dropdown-item">
+                                <div class="d-flex">
+                                  <div class="flex-shrink-0 avatar-xs me-3">
+                                    <span class="avatar-title bg-danger-subtle text-danger rounded-circle fs-16">
+                                      <i class="bx bx-message-square-dots"></i>
+                                    </span>
+                                  </div>
+                                  <div class="flex-grow-1">
+                                    <h6 class="mt-0 mb-2 fs-13 lh-base">
+                                      You have received
+                                      <b class="text-success">20</b> new messages in
+                                      the conversation
                                     </h6>
-                                  </BLink>
-                                  <div class="fs-13 text-muted">
-                                    <p class="mb-1">
-                                      We talked about a project on linkedin.
+                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                      <span>
+                                        <i class="mdi mdi-clock-outline"></i> 2 hrs
+                                        ago
+                                      </span>
                                     </p>
                                   </div>
-                                  <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
-                                    <span>
-                                      <i class="mdi mdi-clock-outline"></i> 30 min
-                                      ago
-                                    </span>
-                                  </p>
-                                </div>
-                                <div class="px-2 fs-16">
-                                  <input class="form-check-input" type="checkbox" />
+                                  <div class="px-2 fs-16">
+                                    <input class="form-check-input" type="checkbox" />
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-
-                            <div class="text-reset notification-item d-block dropdown-item">
-                              <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
-                                <div class="flex-grow-1">
-                                  <BLink href="#!">
-                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">
-                                      Angela Bernier
-                                    </h6>
-                                  </BLink>
-                                  <div class="fs-13 text-muted">
-                                    <p class="mb-1">
-                                      Answered to your comment on the cash flow
-                                      forecast's graph 🔔.
+  
+                              <div class="text-reset notification-item d-block dropdown-item">
+                                <div class="d-flex">
+                                  <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs"
+                                    alt="user-pic" />
+                                  <div class="flex-grow-1">
+                                    <BLink href="#!">
+                                      <h6 class="mt-0 mb-1 fs-13 fw-semibold">
+                                        Maureen Gibson
+                                      </h6>
+                                    </BLink>
+                                    <div class="fs-13 text-muted">
+                                      <p class="mb-1">
+                                        We talked about a project on linkedin.
+                                      </p>
+                                    </div>
+                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                      <span>
+                                        <i class="mdi mdi-clock-outline"></i> 4 hrs
+                                        ago
+                                      </span>
                                     </p>
                                   </div>
-                                  <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
-                                    <span>
-                                      <i class="mdi mdi-clock-outline"></i> 2 hrs
-                                      ago
-                                    </span>
-                                  </p>
-                                </div>
-                                <div class="px-2 fs-16">
-                                  <input class="form-check-input" type="checkbox" />
+                                  <div class="px-2 fs-16">
+                                    <input class="form-check-input" type="checkbox" />
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-
-                            <div class="text-reset notification-item d-block dropdown-item">
-                              <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-6.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
-                                <div class="flex-grow-1">
-                                  <BLink href="#!">
-                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">
-                                      Kenneth Brown
-                                    </h6>
-                                  </BLink>
-                                  <div class="fs-13 text-muted">
-                                    <p class="mb-1">
-                                      Mentionned you in his comment on 📃 invoice
-                                      #12501.
+  
+                              <div class="my-3 text-center">
+                                <BButton variant="soft-success" type="button">
+                                  View All Notifications
+                                  <i class="ri-arrow-right-line align-middle"></i>
+                                </BButton>
+                              </div>
+                            </simplebar>
+                          </BTab>
+                          <BTab title="Messages">
+                            <simplebar data-simplebar style="max-height: 300px" class="pe-2">
+                              <div class="text-reset notification-item d-block dropdown-item">
+                                <div class="d-flex">
+                                  <img src="@/assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs"
+                                    alt="user-pic" />
+                                  <div class="flex-grow-1">
+                                    <BLink href="#!">
+                                      <h6 class="mt-0 mb-1 fs-13 fw-semibold">
+                                        James Lemire
+                                      </h6>
+                                    </BLink>
+                                    <div class="fs-13 text-muted">
+                                      <p class="mb-1">
+                                        We talked about a project on linkedin.
+                                      </p>
+                                    </div>
+                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                      <span>
+                                        <i class="mdi mdi-clock-outline"></i> 30 min
+                                        ago
+                                      </span>
                                     </p>
                                   </div>
-                                  <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
-                                    <span>
-                                      <i class="mdi mdi-clock-outline"></i> 10 hrs
-                                      ago
-                                    </span>
-                                  </p>
-                                </div>
-                                <div class="px-2 fs-16">
-                                  <input class="form-check-input" type="checkbox" />
+                                  <div class="px-2 fs-16">
+                                    <input class="form-check-input" type="checkbox" />
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-
-                            <div class="text-reset notification-item d-block dropdown-item">
-                              <div class="d-flex">
-                                <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic" />
-                                <div class="flex-grow-1">
-                                  <BLink href="#!">
-                                    <h6 class="mt-0 mb-1 fs-13 fw-semibold">
-                                      Maureen Gibson
-                                    </h6>
-                                  </BLink>
-                                  <div class="fs-13 text-muted">
-                                    <p class="mb-1">
-                                      We talked about a project on linkedin.
+  
+                              <div class="text-reset notification-item d-block dropdown-item">
+                                <div class="d-flex">
+                                  <img src="@/assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs"
+                                    alt="user-pic" />
+                                  <div class="flex-grow-1">
+                                    <BLink href="#!">
+                                      <h6 class="mt-0 mb-1 fs-13 fw-semibold">
+                                        Angela Bernier
+                                      </h6>
+                                    </BLink>
+                                    <div class="fs-13 text-muted">
+                                      <p class="mb-1">
+                                        Answered to your comment on the cash flow
+                                        forecast's graph 🔔.
+                                      </p>
+                                    </div>
+                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                      <span>
+                                        <i class="mdi mdi-clock-outline"></i> 2 hrs
+                                        ago
+                                      </span>
                                     </p>
                                   </div>
-                                  <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
-                                    <span>
-                                      <i class="mdi mdi-clock-outline"></i> 3 days
-                                      ago
-                                    </span>
-                                  </p>
-                                </div>
-                                <div class="px-2 fs-16">
-                                  <input class="form-check-input" type="checkbox" />
+                                  <div class="px-2 fs-16">
+                                    <input class="form-check-input" type="checkbox" />
+                                  </div>
                                 </div>
                               </div>
-                            </div>
-
-                            <div class="my-3 text-center">
-                              <BButton variant="soft-success" type="button">
-                                View All Messages
-                                <i class="ri-arrow-right-line align-middle"></i>
-                              </BButton>
-                            </div>
-                          </simplebar>
-                          <!-- </div> -->
-                        </BTab>
-                        <BTab title="Alerts">
-                          <simplebar data-simplebar style="max-height: 300px" class="pe-2">
+  
+                              <div class="text-reset notification-item d-block dropdown-item">
+                                <div class="d-flex">
+                                  <img src="@/assets/images/users/avatar-6.jpg" class="me-3 rounded-circle avatar-xs"
+                                    alt="user-pic" />
+                                  <div class="flex-grow-1">
+                                    <BLink href="#!">
+                                      <h6 class="mt-0 mb-1 fs-13 fw-semibold">
+                                        Kenneth Brown
+                                      </h6>
+                                    </BLink>
+                                    <div class="fs-13 text-muted">
+                                      <p class="mb-1">
+                                        Mentionned you in his comment on 📃 invoice
+                                        #12501.
+                                      </p>
+                                    </div>
+                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                      <span>
+                                        <i class="mdi mdi-clock-outline"></i> 10 hrs
+                                        ago
+                                      </span>
+                                    </p>
+                                  </div>
+                                  <div class="px-2 fs-16">
+                                    <input class="form-check-input" type="checkbox" />
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <div class="text-reset notification-item d-block dropdown-item">
+                                <div class="d-flex">
+                                  <img src="@/assets/images/users/avatar-8.jpg" class="me-3 rounded-circle avatar-xs"
+                                    alt="user-pic" />
+                                  <div class="flex-grow-1">
+                                    <BLink href="#!">
+                                      <h6 class="mt-0 mb-1 fs-13 fw-semibold">
+                                        Maureen Gibson
+                                      </h6>
+                                    </BLink>
+                                    <div class="fs-13 text-muted">
+                                      <p class="mb-1">
+                                        We talked about a project on linkedin.
+                                      </p>
+                                    </div>
+                                    <p class="mb-0 fs-11 fw-medium text-uppercase text-muted">
+                                      <span>
+                                        <i class="mdi mdi-clock-outline"></i> 3 days
+                                        ago
+                                      </span>
+                                    </p>
+                                  </div>
+                                  <div class="px-2 fs-16">
+                                    <input class="form-check-input" type="checkbox" />
+                                  </div>
+                                </div>
+                              </div>
+  
+                              <div class="my-3 text-center">
+                                <BButton variant="soft-success" type="button">
+                                  View All Messages
+                                  <i class="ri-arrow-right-line align-middle"></i>
+                                </BButton>
+                              </div>
+                            </simplebar>
+                            <!-- </div> -->
+                          </BTab>
+                          <BTab title="Alerts">
+                            <simplebar data-simplebar style="max-height: 300px" class="pe-2">
                             <!-- <div class="tab-pane fade p-4" id="alerts-tab1" role="tabpanel" aria-labelledby="alerts-tab"> -->
                             <div class="w-25 pt-3 mx-auto">
                               <img src="@/assets/images/svg/bell.svg" class="img-fluid" alt="user-pic" />
@@ -1949,11 +1978,11 @@ And this is more example text.
                             <!-- </div> -->
                           </simplebar>
 
-                        </BTab>
-                      </BTabs>
-                    </div>
-                  </div>
-                </BCol>
+                          </BTab>
+                        </BTabs>
+                      </div>
+                      </div>
+                  </BCol>
               </BRow>
             </div>
 

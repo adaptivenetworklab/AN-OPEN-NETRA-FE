@@ -396,8 +396,8 @@ export default {
                             <BCardBody>
                                 <p class="fw-medium mb-0 float-end"><i
                                         class="mdi mdi-heart text-danger align-middle"></i> 19.29k </p>
-                                <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 97.8 ETH </h5>
-                                <h6 class="fs-15 mb-3">
+                                <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 97.8 ETH </h5>
+                                <h6 class="fs-16 mb-3">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Abstract face painting</router-link>
                                 </h6>
                                 <div>
@@ -420,8 +420,8 @@ export default {
                             <BCardBody>
                                 <p class="fw-medium mb-0 float-end"><i
                                         class="mdi mdi-heart text-danger align-middle"></i> 8.42k </p>
-                                <h5 class="text-orimary"><i class="mdi mdi-ethereum"></i> 245.23ETH </h5>
-                                <h6 class="fs-15 mb-3">
+                                <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 245.23ETH </h5>
+                                <h6 class="fs-16 mb-3">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Patterns arts & culture</router-link>
                                 </h6>
                                 <div>
@@ -443,8 +443,8 @@ export default {
                             <BCardBody>
                                 <p class="fw-medium mb-0 float-end"><i
                                         class="mdi mdi-heart text-danger align-middle"></i> 19.29k </p>
-                                <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 67.36 ETH </h5>
-                                <h6 class="fs-15 mb-3">
+                                <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 67.36 ETH </h5>
+                                <h6 class="fs-16 mb-3">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Creative filtered portrait</router-link>
                                 </h6>
                                 <div>
@@ -466,8 +466,8 @@ export default {
                             <BCardBody>
                                 <p class="fw-medium mb-0 float-end"><i
                                         class="mdi mdi-heart text-danger align-middle"></i> 34.12k </p>
-                                <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 34.81 ETH </h5>
-                                <h6 class="fs-15 mb-3">
+                                <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 34.81 ETH </h5>
+                                <h6 class="fs-16 mb-3">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Smillevers Crypto</router-link>
                                 </h6>
                                 <div>
@@ -490,8 +490,8 @@ export default {
                             <BCardBody>
                                 <p class="fw-medium mb-0 float-end"><i
                                         class="mdi mdi-heart text-danger align-middle"></i> 47.12k </p>
-                                <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 245.23ETH </h5>
-                                <h6 class="fs-15 mb-3">
+                                <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 245.23ETH </h5>
+                                <h6 class="fs-16 mb-3">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Long-tailed Macaque</router-link>
                                 </h6>
                                 <div>
@@ -513,8 +513,8 @@ export default {
                             <BCardBody>
                                 <p class="fw-medium mb-0 float-end"><i
                                         class="mdi mdi-heart text-danger align-middle"></i> 23.63k </p>
-                                <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 394.7 ETH </h5>
-                                <h6 class="fs-15 mb-3">
+                                <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 394.7 ETH </h5>
+                                <h6 class="fs-16 mb-3">
                                     <router-link to="/apps/nft-item-detail" class="text-body">The Chirstoper</router-link>
                                 </h6>
                                 <div>
@@ -536,8 +536,8 @@ export default {
                             <BCardBody>
                                 <p class="fw-medium mb-0 float-end"><i
                                         class="mdi mdi-heart text-danger align-middle"></i> 36.42k </p>
-                                <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 745.14 ETH </h5>
-                                <h6 class="fs-15 mb-3">
+                                <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 745.14 ETH </h5>
+                                <h6 class="fs-16 mb-3">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Robotic Body Art</router-link>
                                 </h6>
                                 <div>
@@ -560,8 +560,8 @@ export default {
                             <BCardBody>
                                 <p class="fw-medium mb-0 float-end"><i
                                         class="mdi mdi-heart text-danger align-middle"></i> 94.1k </p>
-                                <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 245.23ETH </h5>
-                                <h6 class="fs-15 mb-3">
+                                <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 245.23ETH </h5>
+                                <h6 class="fs-16 mb-3">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Evolved Reality</router-link>
                                 </h6>
                                 <div>
@@ -585,9 +585,9 @@ export default {
                 <BCard no-body>
                     <BCardHeader class="d-flex align-items-center">
                         <h6 class="card-title mb-0 flex-grow-1">Top Drop</h6>
-                        <BLink class="text-muted" href="#">
+                        <router-link class="text-muted" to="#">
                             See All <i class="ri-arrow-right-line align-bottom"></i>
-                        </BLink>
+                        </router-link>
                     </BCardHeader>
                     <BCardBody>
                         <div class="table-responsive table-card">
@@ -712,7 +712,7 @@ export default {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><BButton variant="success" size="sm">Follow</BButton></td>
+                                        <td><BButton variant="secondary" size="sm">Follow</BButton></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -727,7 +727,7 @@ export default {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><BButton variant="soft-success" size="sm">Unfllow</BButton></td>
+                                        <td><BButton variant="soft-secondary" size="sm">Unfllow</BButton></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -742,7 +742,7 @@ export default {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><BButton variant="success" size="sm">Follow</BButton></td>
+                                        <td><BButton variant="secondary" size="sm">Follow</BButton></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -757,7 +757,7 @@ export default {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><BButton variant="success" size="sm">Follow</BButton></td>
+                                        <td><BButton variant="secondary" size="sm">Follow</BButton></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -772,7 +772,7 @@ export default {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><BButton variant="soft-success" size="sm">Unfllow</BButton></td>
+                                        <td><BButton variant="soft-secondary" size="sm">Unfllow</BButton></td>
                                     </tr>
                                 </tbody>
                             </table>

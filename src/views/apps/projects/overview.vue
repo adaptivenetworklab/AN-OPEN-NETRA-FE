@@ -20,7 +20,7 @@ export default {
     <Layout>
         <BRow>
             <BCol lg="12">
-                <BCard no-body class="mt-n4 mx-n4 border-0">
+                <BCard no-body class="mt-n4">
                     <div class="bg-primary-subtle">
                         <BCardBody class="pb-0 px-4">
                             <BRow class="mb-3">
@@ -44,8 +44,8 @@ export default {
                                                     <div class="vr"></div>
                                                     <div>Due Date : <span class="fw-medium">29 Dec, 2021</span></div>
                                                     <div class="vr"></div>
-                                                    <BBadge pill class="bg-primary fs-12">New</BBadge>
-                                                    <BBadge variant="danger" pill class="bg-success fs-12">High</BBadge>
+                                                    <BBadge pill class="bg-info fs-12">New</BBadge>
+                                                    <BBadge variant="danger" pill class="bg-danger fs-12">High</BBadge>
                                                 </div>
                                             </div>
                                         </BCol>
@@ -98,7 +98,7 @@ export default {
                                             </ul>
 
                                             <div>
-                                                <BButton type="button" variant="link" class="link-secondary p-0">Read
+                                                <BButton type="button" variant="link" class="link-success p-0">Read
                                                     more</BButton>
                                             </div>
 
@@ -120,13 +120,13 @@ export default {
                                                     <BCol lg="3" sm="6">
                                                         <div>
                                                             <p class="mb-2 text-uppercase fw-medium">Priority :</p>
-                                                            <BBadge tag="div" class="bg-success fs-12">High</BBadge>
+                                                            <BBadge tag="div" class="bg-danger fs-12">High</BBadge>
                                                         </div>
                                                     </BCol>
                                                     <BCol lg="3" sm="6">
                                                         <div>
                                                             <p class="mb-2 text-uppercase fw-medium">Status :</p>
-                                                            <BBadge tag="div" class="bg-primary fs-12">Inprogress</BBadge>
+                                                            <BBadge tag="div" class="bg-warning fs-12">Inprogress</BBadge>
                                                         </div>
                                                     </BCol>
                                                 </BRow>
@@ -141,7 +141,7 @@ export default {
                                                                 <div class="flex-shrink-0 me-3">
                                                                     <div class="avatar-sm">
                                                                         <div
-                                                                            class="avatar-title bg-light text-primary rounded fs-24">
+                                                                            class="avatar-title bg-light text-secondary rounded fs-24">
                                                                             <i class="ri-folder-zip-line"></i>
                                                                         </div>
                                                                     </div>
@@ -185,7 +185,7 @@ export default {
                                                                 <div class="flex-shrink-0 me-3">
                                                                     <div class="avatar-sm">
                                                                         <div
-                                                                            class="avatar-title bg-light text-primary rounded fs-24">
+                                                                            class="avatar-title bg-light text-secondary rounded fs-24">
                                                                             <i class="ri-file-ppt-2-line"></i>
                                                                         </div>
                                                                     </div>
@@ -357,7 +357,7 @@ export default {
                                                         placeholder="Enter your comment..."></textarea>
                                                 </BCol>
                                                 <BCol cols="12" class="text-end">
-                                                    <BButton type="button" variant="ghost-primary"
+                                                    <BButton type="button" variant="ghost-secondary"
                                                         class="btn-icon waves-effect me-1">
                                                         <i class="ri-attachment-line fs-16"></i>
                                                     </BButton>
@@ -396,7 +396,7 @@ export default {
                                     <BCardHeader class="align-items-center d-flex border-bottom-dashed">
                                         <BCardTitle class="mb-0 flex-grow-1">Members</BCardTitle>
                                         <div class="flex-shrink-0">
-                                            <BButton type="button" variant="soft-primary" size="sm"><i
+                                            <BButton type="button" variant="soft-danger" size="sm"><i
                                                     class="ri-share-line me-1 align-bottom"></i> Invite Member
                                             </BButton>
                                         </div>
@@ -445,7 +445,7 @@ export default {
                                                 <div class="d-flex align-items-center">
                                                     <div class="avatar-xs flex-shrink-0 me-3">
                                                         <div
-                                                            class="avatar-title bg-success-subtle text-success rounded-circle">
+                                                            class="avatar-title bg-danger-subtle text-danger rounded-circle">
                                                             HB
                                                         </div>
                                                     </div>
@@ -635,7 +635,7 @@ export default {
                                     <BCardHeader class="align-items-center d-flex border-bottom-dashed">
                                         <BCardTitle class="mb-0 flex-grow-1">Attachments</BCardTitle>
                                         <div class="flex-shrink-0">
-                                            <BButton type="button" variant="soft-primary" size="sm"><i
+                                            <BButton type="button" variant="soft-success" size="sm"><i
                                                     class="ri-upload-2-fill me-1 align-bottom"></i> Upload</BButton>
                                         </div>
                                     </BCardHeader>
@@ -647,7 +647,7 @@ export default {
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-light text-primary rounded fs-24">
+                                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
                                                                 <i class="ri-folder-zip-line"></i>
                                                             </div>
                                                         </div>
@@ -688,7 +688,7 @@ export default {
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-light text-primary rounded fs-24">
+                                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
                                                                 <i class="ri-file-ppt-2-line"></i>
                                                             </div>
                                                         </div>
@@ -729,7 +729,7 @@ export default {
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-light text-primary rounded fs-24">
+                                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
                                                                 <i class="ri-folder-zip-line"></i>
                                                             </div>
                                                         </div>
@@ -770,7 +770,7 @@ export default {
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-light text-primary rounded fs-24">
+                                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
                                                                 <i class="ri-image-2-line"></i>
                                                             </div>
                                                         </div>
@@ -808,7 +808,7 @@ export default {
                                             </div>
 
                                             <div class="mt-2 text-center">
-                                                <BButton type="button" variant="primary">View more</BButton>
+                                                <BButton type="button" variant="secondary">View more</BButton>
                                             </div>
                                         </div>
                                     </BCardBody>
@@ -840,7 +840,7 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-primary rounded fs-24">
+                                                                    class="avatar-title bg-light text-secondary rounded fs-24">
                                                                     <i class="ri-folder-zip-line"></i>
                                                                 </div>
                                                             </div>
@@ -858,7 +858,7 @@ export default {
                                                     <td>12 Dec 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -881,7 +881,7 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-primary rounded fs-24">
+                                                                    class="avatar-title bg-light text-danger rounded fs-24">
                                                                     <i class="ri-file-pdf-fill"></i>
                                                                 </div>
                                                             </div>
@@ -899,7 +899,7 @@ export default {
                                                     <td>24 Nov 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -922,7 +922,7 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-primary rounded fs-24">
+                                                                    class="avatar-title bg-light text-secondary rounded fs-24">
                                                                     <i class="ri-video-line"></i>
                                                                 </div>
                                                             </div>
@@ -939,7 +939,7 @@ export default {
                                                     <td>19 Nov 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -962,7 +962,7 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-primary rounded fs-24">
+                                                                    class="avatar-title bg-light text-success rounded fs-24">
                                                                     <i class="ri-file-excel-fill"></i>
                                                                 </div>
                                                             </div>
@@ -980,7 +980,7 @@ export default {
                                                     <td>14 Nov 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -1003,7 +1003,7 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-primary rounded fs-24">
+                                                                    class="avatar-title bg-light text-warning rounded fs-24">
                                                                     <i class="ri-folder-fill"></i>
                                                                 </div>
                                                             </div>
@@ -1021,7 +1021,7 @@ export default {
                                                     <td>08 Nov 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -1044,7 +1044,7 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-primary rounded fs-24">
+                                                                    class="avatar-title bg-light text-danger rounded fs-24">
                                                                     <i class="ri-image-2-fill"></i>
                                                                 </div>
                                                             </div>
@@ -1061,7 +1061,7 @@ export default {
                                                     <td>02 Nov 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -1083,7 +1083,7 @@ export default {
                                         </table>
                                     </div>
                                     <div class="text-center mt-3">
-                                        <BLink href="javascript:void(0);" class="text-primary "><i
+                                        <BLink href="javascript:void(0);" class="text-success "><i
                                                 class="mdi mdi-loading mdi-spin fs-20 align-middle me-2"></i> Load
                                             more </BLink>
                                     </div>
@@ -1204,7 +1204,7 @@ export default {
                                     <div class="acitivity-item py-3 d-flex">
                                         <div class="flex-shrink-0">
                                             <div class="avatar-xs acitivity-avatar">
-                                                <div class="avatar-title rounded-circle bg-primary-subtle text-primary">
+                                                <div class="avatar-title rounded-circle bg-danger-subtle text-danger">
                                                     <i class="ri-shopping-bag-line"></i>
                                                 </div>
                                             </div>
@@ -1235,7 +1235,7 @@ export default {
                                     <div class="acitivity-item py-3 d-flex">
                                         <div class="flex-shrink-0">
                                             <div class="avatar-xs acitivity-avatar">
-                                                <div class="avatar-title rounded-circle bg-primary-subtle text-primary">
+                                                <div class="avatar-title rounded-circle bg-info-subtle text-info">
                                                     <i class="ri-line-chart-line"></i>
                                                 </div>
                                             </div>
@@ -1245,7 +1245,7 @@ export default {
                                             <p class="text-muted mb-2"><span class="text-danger">2 days left</span>
                                                 notification to submit the monthly sales report. <BLink
                                                     href="javascript:void(0);"
-                                                    class="link-primary text-decoration-underline">Reports Builder
+                                                    class="link-warning text-decoration-underline">Reports Builder
                                                 </BLink>
                                             </p>
                                             <small class="mb-0 text-muted">15 Oct</small>
@@ -1281,7 +1281,7 @@ export default {
                             </BCol>
                             <BCol sm="auto">
                                 <div>
-                                    <BButton type="button" variant="primary"><i class="ri-share-line me-1 align-bottom"></i>
+                                    <BButton type="button" variant="danger"><i class="ri-share-line me-1 align-bottom"></i>
                                         Invite Member</BButton>
                                 </div>
                             </BCol>
@@ -1380,7 +1380,7 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <div class="team-profile-img">
                                                 <div class="avatar-lg img-thumbnail rounded-circle">
-                                                    <div class="avatar-title bg-primary-subtle text-primary rounded-circle">
+                                                    <div class="avatar-title bg-danger-subtle text-danger rounded-circle">
                                                         HB
                                                     </div>
                                                 </div>
@@ -1567,7 +1567,7 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <div class="team-profile-img">
                                                 <div class="avatar-lg img-thumbnail rounded-circle">
-                                                    <div class="avatar-title bg-primary-subtle text-primary rounded-circle">
+                                                    <div class="avatar-title bg-success-subtle text-success rounded-circle">
                                                         ME
                                                     </div>
                                                 </div>
@@ -1692,7 +1692,7 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <div class="team-profile-img">
                                                 <div class="avatar-lg img-thumbnail rounded-circle">
-                                                    <div class="avatar-title bg-primary-subtle text-primary rounded-circle">
+                                                    <div class="avatar-title bg-info-subtle text-info rounded-circle">
                                                         NC
                                                     </div>
                                                 </div>

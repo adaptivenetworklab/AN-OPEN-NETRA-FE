@@ -52,7 +52,7 @@ export default {
           min: 0,
           max: 260,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
+        colors: getChartColorsArray('["--vz-success", "--vz-danger"]'),
         fill: {
           opacity: 0.06,
           colors: ["#0AB39C", "#F06548"],
@@ -84,21 +84,21 @@ export default {
     <BCardBody class="px-0">
       <ul class="list-inline main-chart text-center mb-0">
         <li class="list-inline-item chart-border-left me-0 border-0">
-          <h4 class="text-primary">
+          <h5 class="text-primary">
             $584k
             <span class="text-muted d-inline-block fs-13 align-middle ms-2">Revenue</span>
-          </h4>
+          </h5>
         </li>
         <li class="list-inline-item chart-border-left me-0">
-          <h4>
+          <h5>
             $497k<span class="text-muted d-inline-block fs-13 align-middle ms-2">Expenses</span>
-          </h4>
+          </h5>
         </li>
         <li class="list-inline-item chart-border-left me-0">
-          <h4>
+          <h5>
             <span data-plugin="counterup">3.6</span>%<span
               class="text-muted d-inline-block fs-13 align-middle ms-2">Profit Ratio</span>
-          </h4>
+          </h5>
         </li>
       </ul>
 

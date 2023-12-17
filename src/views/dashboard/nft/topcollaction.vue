@@ -35,7 +35,7 @@ export default {
                                 <div class="content position-absolute bottom-0 m-2 p-2 start-0 end-0 rounded d-flex align-items-center">
                                     <div class="flex-grow-1">
                                         <BLink href="#!">
-                                            <h5 class="text-white fs-17 mb-1">Artworks</h5>
+                                            <h5 class="text-white fs-16 mb-1">Artworks</h5>
                                         </BLink>
                                         <p class="text-white text-opacity-75 mb-0">4700+ Items</p>
                                     </div>
@@ -54,7 +54,7 @@ export default {
                                 <div class="content position-absolute bottom-0 m-2 p-2 start-0 end-0 rounded d-flex align-items-center">
                                     <div class="flex-grow-1">
                                         <BLink href="#!">
-                                            <h5 class="text-white fs-17 mb-1">Crypto Card</h5>
+                                            <h5 class="text-white fs-16 mb-1">Crypto Card</h5>
                                         </BLink>
                                         <p class="text-white text-opacity-75 mb-0">743+ Items</p>
                                     </div>
@@ -73,7 +73,7 @@ export default {
                                 <div class="content position-absolute bottom-0 m-2 p-2 start-0 end-0 rounded d-flex align-items-center">
                                     <div class="flex-grow-1">
                                         <BLink href="#!">
-                                            <h5 class="text-white fs-17 mb-1">3d Style</h5>
+                                            <h5 class="text-white fs-16 mb-1">3d Style</h5>
                                         </BLink>
                                         <p class="text-white text-opacity-75 mb-0">4781+ Items</p>
                                     </div>
@@ -92,7 +92,7 @@ export default {
                                 <div class="content position-absolute bottom-0 m-2 p-2 start-0 end-0 rounded d-flex align-items-center">
                                     <div class="flex-grow-1">
                                         <BLink href="#!">
-                                            <h5 class="text-white fs-17 mb-1">Collectibles</h5>
+                                            <h5 class="text-white fs-16 mb-1">Collectibles</h5>
                                         </BLink>
                                         <p class="text-white text-opacity-75 mb-0">3468+ Items</p>
                                     </div>
@@ -128,9 +128,9 @@ export default {
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <router-link to="/pages/profile">
-                                        <h5 class="mb-1">Alexis Clarke</h5>
+                                        <h5 class="mb-1 fs-16">Alexis Clarke</h5>
                                     </router-link>
-                                    <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-15"></i>
+                                    <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i>
                                         81,369 ETH</p>
                                 </div>
                                 <div>
@@ -153,20 +153,27 @@ export default {
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <router-link to="/pages/profile">
-                                        <h5 class="mb-1">Timothy Smith</h5>
+                                        <h5 class="mb-1 fs-16">Timothy Smith</h5>
                                     </router-link>
-                                    <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-15"></i> 4,754
+                                    <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 4,754
                                         ETH</p>
                                 </div>
                                 <div>
                                     <div class="dropdown float-end">
-                                        <BDropdown variant="link" class="card-header-dropdown" dropstart toggle-class="text-reset dropdown-btn arrow-none" aria-haspopup="true">
-                                            <template #button-content> <span class="text-muted fs-18"><i class="ri-more-fill align-middle fs-16"></i></span>
-                                            </template>
-                                            <BDropdownItem>View</BDropdownItem>
-                                            <BDropdownItem>Share</BDropdownItem>
-                                            <BDropdownItem>Report</BDropdownItem>
-                                        </BDropdown>
+                                        <button class="btn btn-ghost-primary btn-icon dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="ri-more-fill align-middle fs-16"></i>
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li>
+                                                <BLink class="dropdown-item" href="javascript:void(0);">View</BLink>
+                                            </li>
+                                            <li>
+                                                <BLink class="dropdown-item" href="javascript:void(0);">Share</BLink>
+                                            </li>
+                                            <li>
+                                                <BLink class="dropdown-item" href="#!">Report</BLink>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -178,20 +185,27 @@ export default {
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <router-link to="/pages/profile">
-                                        <h5 class="mb-1">Herbert Stokes</h5>
+                                        <h5 class="mb-1 fs-16">Herbert Stokes</h5>
                                     </router-link>
-                                    <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-15"></i>
+                                    <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i>
                                         68,945 ETH</p>
                                 </div>
                                 <div>
                                     <div class="dropdown float-end">
-                                        <BDropdown variant="link" class="card-header-dropdown" dropstart toggle-class="text-reset dropdown-btn arrow-none" aria-haspopup="true">
-                                            <template #button-content> <span class="text-muted fs-18"><i class="ri-more-fill align-middle fs-16"></i></span>
-                                            </template>
-                                            <BDropdownItem>View</BDropdownItem>
-                                            <BDropdownItem>Share</BDropdownItem>
-                                            <BDropdownItem>Report</BDropdownItem>
-                                        </BDropdown>
+                                        <button class="btn btn-ghost-primary btn-icon dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="ri-more-fill align-middle fs-16"></i>
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li>
+                                                <BLink class="dropdown-item" href="javascript:void(0);">View</BLink>
+                                            </li>
+                                            <li>
+                                                <BLink class="dropdown-item" href="javascript:void(0);">Share</BLink>
+                                            </li>
+                                            <li>
+                                                <BLink class="dropdown-item" href="#!">Report</BLink>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -203,20 +217,27 @@ export default {
                                 </div>
                                 <div class="ms-3 flex-grow-1">
                                     <router-link to="/pages/profile">
-                                        <h5 class="mb-1">Glen Matney</h5>
+                                        <h5 class="mb-1 fs-16">Glen Matney</h5>
                                     </router-link>
-                                    <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-15"></i>
+                                    <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i>
                                         49,031 ETH</p>
                                 </div>
                                 <div>
                                     <div class="dropdown float-end">
-                                        <BDropdown variant="link" class="card-header-dropdown" dropstart toggle-class="text-reset dropdown-btn arrow-none" aria-haspopup="true">
-                                            <template #button-content> <span class="text-muted fs-18"><i class="ri-more-fill align-middle fs-16"></i></span>
-                                            </template>
-                                            <BDropdownItem>View</BDropdownItem>
-                                            <BDropdownItem>Share</BDropdownItem>
-                                            <BDropdownItem>Report</BDropdownItem>
-                                        </BDropdown>
+                                        <button class="btn btn-ghost-primary btn-icon dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="ri-more-fill align-middle fs-16"></i>
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end">
+                                            <li>
+                                                <BLink class="dropdown-item" href="javascript:void(0);">View</BLink>
+                                            </li>
+                                            <li>
+                                                <BLink class="dropdown-item" href="javascript:void(0);">Share</BLink>
+                                            </li>
+                                            <li>
+                                                <BLink class="dropdown-item" href="#!">Report</BLink>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>

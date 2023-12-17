@@ -102,7 +102,8 @@ export default {
                                 <BListGroupItem tag="li" disabled>
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="@/assets/images/users/avatar-1.jpg" alt="" class="avatar-xs rounded-circle">
+                                            <img src="@/assets/images/users/avatar-1.jpg" alt=""
+                                                class="avatar-xs rounded-circle">
                                         </div>
                                         <div class="flex-grow-1 ms-2">
                                             James Ballard
@@ -112,7 +113,8 @@ export default {
                                 <BListGroupItem tag="li">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="@/assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded-circle">
+                                            <img src="@/assets/images/users/avatar-2.jpg" alt=""
+                                                class="avatar-xs rounded-circle">
                                         </div>
                                         <div class="flex-grow-1 ms-2">
                                             Nancy Martino
@@ -122,7 +124,8 @@ export default {
                                 <BListGroupItem tag="li">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="@/assets/images/users/avatar-3.jpg" alt="" class="avatar-xs rounded-circle">
+                                            <img src="@/assets/images/users/avatar-3.jpg" alt=""
+                                                class="avatar-xs rounded-circle">
                                         </div>
                                         <div class="flex-grow-1 ms-2">
                                             Henry Baird
@@ -132,7 +135,8 @@ export default {
                                 <BListGroupItem tag="li">
                                     <div class="d-flex align-items-center">
                                         <div class="flex-shrink-0">
-                                            <img src="@/assets/images/users/avatar-3.jpg" alt="" class="avatar-xs rounded-circle">
+                                            <img src="@/assets/images/users/avatar-3.jpg" alt=""
+                                                class="avatar-xs rounded-circle">
                                         </div>
                                         <div class="flex-grow-1 ms-2">
                                             Erica Kernan
@@ -202,7 +206,8 @@ Erica Kernan
                         <div class="live-preview">
                             <div class="list-group list-group-fill-success">
                                 <BListGroup>
-                                    <BListGroupItem href="#" active> <i class="ri-download-2-fill align-middle me-2"></i>Category
+                                    <BListGroupItem href="#" active> <i
+                                            class="ri-download-2-fill align-middle me-2"></i>Category
                                         Download </BListGroupItem>
                                     <BListGroupItem href="#"> <i class="ri-shield-check-line align-middle me-2"></i>Security
                                         Access </BListGroupItem>
@@ -512,9 +517,10 @@ Erica Kernan
                                 <BListGroupItem href="#" active>
                                     <div class="float-end"> Pending </div>
                                     <div class="d-flex mb-2 align-items-center">
-                                        <div class="flex-shrink-0"> <img src="@/assets/images/users/avatar-1.jpg" alt="" class="avatar-sm rounded-circle"> </div>
+                                        <div class="flex-shrink-0"> <img src="@/assets/images/users/avatar-1.jpg" alt=""
+                                                class="avatar-sm rounded-circle"> </div>
                                         <div class="flex-grow-1 ms-3">
-                                            <h5 class="list-title fs-15 mb-1">Charlie Pritchard</h5>
+                                            <h5 class="list-title fs-base mb-1">Charlie Pritchard</h5>
                                             <p class="list-text mb-0 fs-xs">12 min Ago</p>
                                         </div>
                                     </div>
@@ -529,9 +535,10 @@ Erica Kernan
                                 <BListGroupItem href="#">
                                     <div class="float-end"> Pending </div>
                                     <div class="d-flex mb-2 align-items-center">
-                                        <div class="flex-shrink-0"> <img src="@/assets/images/users/avatar-2.jpg" alt="" class="avatar-sm rounded-circle"> </div>
+                                        <div class="flex-shrink-0"> <img src="@/assets/images/users/avatar-2.jpg" alt=""
+                                                class="avatar-sm rounded-circle"> </div>
                                         <div class="flex-grow-1 ms-3">
-                                            <h5 class="list-title fs-15 mb-1">Dominic Charlton</h5>
+                                            <h5 class="list-title fs-base mb-1">Dominic Charlton</h5>
                                             <p class="list-text mb-0 fs-xs">12 min Ago</p>
                                         </div>
                                     </div>
@@ -545,9 +552,10 @@ Erica Kernan
                                 <BListGroupItem href="#">
                                     <div class="float-end"> Rejected </div>
                                     <div class="d-flex mb-2 align-items-center">
-                                        <div class="flex-shrink-0"> <img src="@/assets/images/users/avatar-3.jpg" alt="" class="avatar-sm rounded-circle"> </div>
+                                        <div class="flex-shrink-0"> <img src="@/assets/images/users/avatar-3.jpg" alt=""
+                                                class="avatar-sm rounded-circle"> </div>
                                         <div class="flex-grow-1 ms-3">
-                                            <h5 class="list-title fs-15 mb-1">Declan Long</h5>
+                                            <h5 class="list-title fs-base mb-1">Declan Long</h5>
                                             <p class="list-text mb-0 fs-xs">12 min Ago</p>
                                         </div>
                                     </div>
@@ -561,9 +569,10 @@ Erica Kernan
                                 <BListGroupItem href="#">
                                     <div class="float-end"> Successful </div>
                                     <div class="d-flex mb-2 align-items-center">
-                                        <div class="flex-shrink-0"> <img src="@/assets/images/users/avatar-4.jpg" alt="" class="avatar-sm rounded-circle"> </div>
+                                        <div class="flex-shrink-0"> <img src="@/assets/images/users/avatar-4.jpg" alt=""
+                                                class="avatar-sm rounded-circle"> </div>
                                         <div class="flex-grow-1 ms-3">
-                                            <h5 class="list-title fs-15 mb-1">Angela Bernier</h5>
+                                            <h5 class="list-title fs-base mb-1">Angela Bernier</h5>
                                             <p class="list-text mb-0 fs-xs">5 days Ago</p>
                                         </div>
                                     </div>
@@ -661,23 +670,22 @@ Successful
                             <BListGroup class="list-group">
                                 <BListGroupItem class="list-group-item d-flex justify-content-between align-items-center">
                                     Send the billing agreement
-                                    <BBadge variant="success-subtle text-success">High</BBadge>
+                                    <BBadge variant="success">High</BBadge>
                                 </BListGroupItem>
                                 <BListGroupItem class="list-group-item d-flex justify-content-between align-items-center">
-                                    Send over all the documentation
-                                     <BBadge variant="secondary-subtle text-secondary">Medium</BBadge></BListGroupItem>
-
+                                    Send over
+                                    all the documentation</BListGroupItem>
                                 <BListGroupItem class="list-group-item d-flex justify-content-between align-items-center">
                                     Meeting with daron to review the intake form
-                                    <BBadge variant="danger-subtle text-danger">Low</BBadge>
+                                    <BBadge variant="danger">Low</BBadge>
                                 </BListGroupItem>
                                 <BListGroupItem class="list-group-item d-flex justify-content-between align-items-center">
                                     Check uikings theme and give customer support
-                                    <BBadge variant="secondary-subtle text-secondary">Medium</BBadge>
+                                    <BBadge variant="secondary">Medium</BBadge>
                                 </BListGroupItem>
                                 <BListGroupItem class="list-group-item d-flex justify-content-between align-items-center">
                                     Start making a presentation
-                                    <BBadge variant="success-subtle text-success">High</BBadge>
+                                    <BBadge variant="success">High</BBadge>
                                 </BListGroupItem>
                             </BListGroup>
                         </div>
@@ -715,8 +723,10 @@ Start making a presentation &lt;span class=&quot;badge bg-success&quot;&gt;High&
                             <BListGroup>
                                 <BListGroupItem tag="label"> <input class="form-check-input me-1" type="checkbox" value="">
                                     Declined Payment </BListGroupItem>
-                                <BListGroupItem tag="label"> <input class="form-check-input me-1" type="checkbox" value="" checked> Delivery Error </BListGroupItem>
-                                <BListGroupItem tag="label"> <input class="form-check-input me-1" type="checkbox" value="" checked> Wrong Amount </BListGroupItem>
+                                <BListGroupItem tag="label"> <input class="form-check-input me-1" type="checkbox" value=""
+                                        checked> Delivery Error </BListGroupItem>
+                                <BListGroupItem tag="label"> <input class="form-check-input me-1" type="checkbox" value=""
+                                        checked> Wrong Amount </BListGroupItem>
                                 <BListGroupItem tag="label"> <input class="form-check-input me-1" type="checkbox" value="">
                                     Wrong Address </BListGroupItem>
                                 <BListGroupItem tag="label"> <input class="form-check-input me-1" type="checkbox" value="">
@@ -761,11 +771,16 @@ Wrong UX/UI Solution
                         </p>
                         <div class="live-preview">
                             <BListGroup>
-                                <BListGroupItem tag="label"><input class="form-check-input fs-md mt-0 align-middle me-1" name="exampleRadios" type="radio" value=""> Declined Payment </BListGroupItem>
-                                <BListGroupItem tag="label"><input class="form-check-input fs-md mt-0 align-middle me-1" name="exampleRadios" type="radio" value="" checked> Delivery Error </BListGroupItem>
-                                <BListGroupItem tag="label"><input class="form-check-input fs-md mt-0 align-middle me-1" name="exampleRadios" type="radio" value=""> Wrong Amount </BListGroupItem>
-                                <BListGroupItem tag="label"><input class="form-check-input fs-md mt-0 align-middle me-1" name="exampleRadios" type="radio" value=""> Wrong Address </BListGroupItem>
-                                <BListGroupItem tag="label"><input class="form-check-input fs-md mt-0 align-middle me-1" name="exampleRadios" type="radio" value=""> Wrong UX/UI Solution </BListGroupItem>
+                                <BListGroupItem tag="label"><input class="form-check-input fs-md mt-0 align-middle me-1"
+                                        name="exampleRadios" type="radio" value=""> Declined Payment </BListGroupItem>
+                                <BListGroupItem tag="label"><input class="form-check-input fs-md mt-0 align-middle me-1"
+                                        name="exampleRadios" type="radio" value="" checked> Delivery Error </BListGroupItem>
+                                <BListGroupItem tag="label"><input class="form-check-input fs-md mt-0 align-middle me-1"
+                                        name="exampleRadios" type="radio" value=""> Wrong Amount </BListGroupItem>
+                                <BListGroupItem tag="label"><input class="form-check-input fs-md mt-0 align-middle me-1"
+                                        name="exampleRadios" type="radio" value=""> Wrong Address </BListGroupItem>
+                                <BListGroupItem tag="label"><input class="form-check-input fs-md mt-0 align-middle me-1"
+                                        name="exampleRadios" type="radio" value=""> Wrong UX/UI Solution </BListGroupItem>
                             </BListGroup>
                         </div>
                         <div class="d-none code-view">
@@ -921,7 +936,8 @@ Wrong UX/UI Solution
                                             <div class="flex-grow-1">
                                                 <div class="d-flex">
                                                     <div class="flex-shrink-0">
-                                                        <img src="@/assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded">
+                                                        <img src="@/assets/images/users/avatar-2.jpg" alt=""
+                                                            class="avatar-xs rounded">
                                                     </div>
                                                     <div class="flex-shrink-0 ms-2">
                                                         <h6 class="fs-md mb-0">Emily Slater</h6>
@@ -939,7 +955,8 @@ Wrong UX/UI Solution
                                             <div class="flex-grow-1">
                                                 <div class="d-flex">
                                                     <div class="flex-shrink-0 avatar-xs">
-                                                        <div class="avatar-title bg-secondary-subtle text-secondary rounded">
+                                                        <div
+                                                            class="avatar-title bg-secondary-subtle text-secondary rounded">
                                                             <i class="ri-paypal-fill"></i>
                                                         </div>
                                                     </div>
@@ -959,7 +976,8 @@ Wrong UX/UI Solution
                                             <div class="flex-grow-1">
                                                 <div class="d-flex">
                                                     <div class="flex-shrink-0">
-                                                        <img src="@/assets/images/users/avatar-3.jpg" alt="" class="avatar-xs rounded">
+                                                        <img src="@/assets/images/users/avatar-3.jpg" alt=""
+                                                            class="avatar-xs rounded">
                                                     </div>
                                                     <div class="flex-shrink-0 ms-2">
                                                         <h6 class="fs-md mb-0">Harvey Wells</h6>

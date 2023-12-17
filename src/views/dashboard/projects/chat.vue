@@ -42,7 +42,7 @@ export default {
                     menu-class="dropdown-menu-end" aria-haspopup="true"
                     :offset="{ alignmentAxis: -75, crossAxis: 0, mainAxis: 0 }">
                     <template #button-content><span class="text-muted"><i
-                                class="ri-settings-4-line align-middle me-1"></i>Setting <i
+                                class="ri-settings-4-line align-bottom me-1"></i>Setting <i
                                 class="mdi mdi-chevron-down ms-1"></i></span>
                     </template>
                     <BDropdownItem> <i class="ri-user-2-fill align-bottom text-muted me-2"></i> View Profile</BDropdownItem>

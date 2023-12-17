@@ -72,33 +72,33 @@ export default {
                 <BCollapse class="navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
                         <li class="nav-item">
-                            <BLink class="nav-link fs-15" href="#hero" @click.prevent="scrollToSection('hero')">Home
+                            <BLink class="nav-link" href="#hero" @click.prevent="scrollToSection('hero')">Home
                             </BLink>
                         </li>
                         <li class="nav-item">
-                            <BLink class="nav-link fs-15" href="#process" @click.prevent="scrollToSection('process')">
+                            <BLink class="nav-link" href="#process" @click.prevent="scrollToSection('process')">
                                 Process
                             </BLink>
                         </li>
                         <li class="nav-item">
-                            <BLink class="nav-link fs-15" href="#categories" @click.prevent="scrollToSection('categories')">
+                            <BLink class="nav-link" href="#categories" @click.prevent="scrollToSection('categories')">
                                 Categories</BLink>
                         </li>
                         <li class="nav-item">
-                            <BLink class="nav-link fs-15" href="#findJob" @click.prevent="scrollToSection('findJob')">Find
+                            <BLink class="nav-link" href="#findJob" @click.prevent="scrollToSection('findJob')">Find
                                 Jobs</BLink>
                         </li>
                         <li class="nav-item">
-                            <BLink class="nav-link fs-15" href="#candidates" @click.prevent="scrollToSection('candidates')">
+                            <BLink class="nav-link" href="#candidates" @click.prevent="scrollToSection('candidates')">
                                 Candidates</BLink>
                         </li>
                         <li class="nav-item">
-                            <BLink class="nav-link fs-15" href="#blog" @click.prevent="scrollToSection('blog')">Blog</BLink>
+                            <BLink class="nav-link" href="#blog" @click.prevent="scrollToSection('blog')">Blog</BLink>
                         </li>
                     </ul>
 
                     <div class="">
-                        <router-link to="/auth/signin-basic" class="btn btn-soft-primary"><i
+                        <router-link to="/auth/signin-basic" class="btn btn-soft-secondary"><i
                                 class="ri-user-3-line align-bottom me-1"></i> Login & Register</router-link>
                     </div>
                 </BCollapse>
@@ -111,9 +111,9 @@ export default {
                 <BRow class="justify-content-between align-items-center">
                     <BCol lg="6">
                         <div>
-                            <h1 class="display-6 fw-bold text-capitalize mb-3 lh-base">Find your next job and build
+                            <h1 class="display-6 fw-semibold text-capitalize mb-3 lh-base">Find your next job and build
                                 your dream here</h1>
-                            <p class="lead text-muted fw-normal lh-base mb-4">Find jobs, create trackable resumes and enrich your
+                            <p class="lead text-muted lh-base mb-4">Find jobs, create trackable resumes and enrich your
                                 applications. Carefully crafted after analyzing the needs of different industries.</p>
                             <form action="#" class="job-panel-filter">
                                 <BRow class="g-md-0 g-2">
@@ -238,7 +238,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h1 class="mb-3 fw-semibold lh-base">How <span class="text-primary">it's
+                            <h1 class="mb-3 ff-secondary fw-semibold lh-base">How <span class="text-primary">it's
                                     work</span> creative jobs & quickly features</h1>
                             <p class="text-muted">A creative person has the ability to invent and develop original
                                 ideas, especially in the arts. Like so many creative people, he was never satisfied.</p>
@@ -250,7 +250,7 @@ export default {
                     <BCol lg="3" md="6">
                         <BCard no-body class="shadow-lg">
                             <BCardBody class="p-4">
-                                <h1 class="fw-bold display-5 ff-secondary mb-4 text-success position-relative">
+                                <h1 class="fw-bold display-5 ff-secondary mb-4 text-secondary position-relative">
                                     <div class="job-icon-effect"></div>
                                     <span>1</span>
                                 </h1>
@@ -543,7 +543,7 @@ export default {
 
                     <BCol sm="auto">
                         <div>
-                            <BLink href="#!" class="btn bg-gradient btn-danger">Create Free Account</BLink>
+                            <BLink href="#!" class="btn bg-gradient btn-secondary">Create Free Account</BLink>
                         </div>
                     </BCol>
 
@@ -927,7 +927,7 @@ export default {
                 <BRow class="align-items-center gy-4">
                     <BCol lg="6" order="2" order-lg="1">
                         <div class="text-muted mt-5 mt-lg-0">
-                            <h5 class="fs-12 text-uppercase text-success">Hot Featured Company</h5>
+                            <h5 class="fs-12 text-uppercase text-secondary">Hot Featured Company</h5>
                             <h1 class="mb-3 ff-secondary fw-semibold text-capitalize lh-base">Get <span
                                     class="text-primary">10,000+</span> Featured Companies</h1>
                             <p class="ff-secondary mb-2">The demand for content writing services is growing. This is
@@ -1185,7 +1185,7 @@ export default {
                                     letters appear more frequently than others.</p>
 
                                 <div>
-                                    <BLink href="#!" class="link-success">Learn More <i
+                                    <BLink href="#!" class="link-secondary">Learn More <i
                                             class="ri-arrow-right-line align-bottom ms-1"></i></BLink>
                                 </div>
                             </BCardBody>
@@ -1212,7 +1212,7 @@ export default {
                                     non-readability is of great importance: human perception.</p>
 
                                 <div>
-                                    <BLink href="#!" class="link-success">Learn More <i
+                                    <BLink href="#!" class="link-secondary">Learn More <i
                                             class="ri-arrow-right-line align-bottom ms-1"></i></BLink>
                                 </div>
                             </BCardBody>
@@ -1239,7 +1239,7 @@ export default {
                                     potentialities Appropriately communicate one-to-one technology.</p>
 
                                 <div>
-                                    <BLink href="#!" class="link-success">Learn More <i
+                                    <BLink href="#!" class="link-secondary">Learn More <i
                                             class="ri-arrow-right-line align-bottom ms-1"></i></BLink>
                                 </div>
                             </BCardBody>
@@ -1262,7 +1262,7 @@ export default {
                     </BCol>
 
                     <BCol sm="auto">
-                        <BButton type="button" variant="danger">Subscribe Now <i
+                        <BButton type="button" variant="secondary">Subscribe Now <i
                                 class="ri-arrow-right-line align-bottom"></i></BButton>
                     </BCol>
 
@@ -1278,7 +1278,7 @@ export default {
                             <div>
                                 <img src="@/assets/images/logo-light.png" alt="logo light" height="17" />
                             </div>
-                            <div class="mt-4 fs-15">
+                            <div class="mt-4 fs-13">
                                 <p>Premium Multipurpose Admin & Dashboard Template</p>
                                 <p>You can build any type of web application like eCommerce, CRM, CMS, Project
                                     management apps, Admin Panels, etc using Velzon.</p>
@@ -1394,7 +1394,7 @@ export default {
                     </BCol>
                     <BCol sm="6">
                         <div class="text-sm-end mt-3 mt-sm-0">
-                            <ul class="list-inline mb-0 footer-list gap-4 fs-15">
+                            <ul class="list-inline mb-0 footer-list gap-4 fs-13">
                                 <li class="list-inline-item">
                                     <router-link to="/pages/privacy-policy">Privacy Policy</router-link>
                                 </li>
@@ -1410,7 +1410,7 @@ export default {
                 </BRow>
             </BContainer>
         </footer>
-        <BButton variant="info" @click="topFunction" class="btn-icon landing-back-top" id="back-to-top">
+        <BButton variant="info" @click="topFunction" class="btn-icon" id="back-to-top">
             <i class="ri-arrow-up-line"></i>
         </BButton>
     </div>

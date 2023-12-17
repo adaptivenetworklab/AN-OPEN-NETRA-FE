@@ -98,11 +98,11 @@ export default {
 </script>
 
 <template>
-  <BCard no-body class="card-height-100">
+  <BCard no-body>
     <BCardHeader class="align-items-center d-flex">
       <BCardTitle class="mb-0 flex-grow-1">My Currencies</BCardTitle>
       <div class="flex-shrink-0">
-        <BButton variant="soft-secondary" size="sm">24H</BButton>
+        <BButton variant="soft-primary" size="sm">24H</BButton>
       </div>
       <div class="flex-shrink-0 ms-2">
         <BDropdown variant="link" class="card-header-dropdown" toggle-class="btn btn-soft-primary btn-sm arrow-none"
@@ -149,7 +149,7 @@ export default {
               <td>${{ item.balance }}</td>
               <td>{{ item.totalCoin }}</td>
               <td>
-                <router-link to="/crypto/buy-sell" class="btn btn-sm btn-soft-primary">Trade</router-link>
+                <router-link to="/crypto/buy-sell" class="btn btn-sm btn-soft-secondary">Trade</router-link>
               </td>
             </tr>
 

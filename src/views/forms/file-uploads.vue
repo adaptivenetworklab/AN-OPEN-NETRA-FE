@@ -74,7 +74,7 @@ export default {
                     </div>
                   </div>
                   <div class="flex-shrink-0 ms-3">
-                    <BButton variant="primary" size="sm" data-dz-remove="" @click="deleteRecord">
+                    <BButton variant="danger" size="sm" data-dz-remove="" @click="deleteRecord">
                       Delete
                     </BButton>
                   </div>

@@ -46,7 +46,7 @@ const lineChart = {
     textStyle: {
         fontFamily: 'Poppins, sans-serif'
     },
-    color: getChartColorsArray('["--vz-primary"]'),
+    color: getChartColorsArray('["--vz-success"]'),
 
 };
 
@@ -129,7 +129,7 @@ const stackedLineChart = {
         data: [820, 932, 901, 934, 1290, 1330, 1320]
     }
     ],
-    colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-secondary", "--vz-info"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
 };
 
 const areaChart = {
@@ -171,7 +171,7 @@ const areaChart = {
     textStyle: {
         fontFamily: 'Poppins, sans-serif'
     },
-    colors: getChartColorsArray('["--vz-primary"]'),
+    colors: getChartColorsArray('["--vz-success"]'),
     backgroundColor: ["#fff"],
 };
 
@@ -228,7 +228,7 @@ const stackedAreaChart = {
     textStyle: {
         fontFamily: 'Poppins, sans-serif'
     },
-    color: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-light", "--vz-info"]'),
+    color: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
     series: [{
         name: 'Email',
         type: 'line',
@@ -332,7 +332,7 @@ const stepLineChart = {
     textStyle: {
         fontFamily: 'Poppins, sans-serif'
     },
-    color: getChartColorsArray('["--vz-primary", "--vz-light", "--vz-info"]'),
+    color: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning"]'),
     series: [{
         name: 'Step Start',
         type: 'line',
@@ -409,7 +409,7 @@ const lineYCategoryChart = {
     textStyle: {
         fontFamily: 'Poppins, sans-serif'
     },
-    color: getChartColorsArray('["--vz-primary"]'),
+    color: getChartColorsArray('["--vz-success"]'),
     series: [{
         name: 'Altitude (km) vs. temperature (°C)',
         type: 'line',
@@ -459,7 +459,7 @@ const basicBar = {
     textStyle: {
         fontFamily: 'Poppins, sans-serif'
     },
-    color: getChartColorsArray('["--vz-primary"]'),
+    color: getChartColorsArray('["--vz-success"]'),
     series: [{
         data: [120, 200, 150, 80, 70, 110, 130],
         type: 'bar',
@@ -523,7 +523,7 @@ const horizontalBarChart = {
     textStyle: {
         fontFamily: 'Poppins, sans-serif'
     },
-    color: getChartColorsArray('["--vz-primary", "--vz-info"]'),
+    color: getChartColorsArray('["--vz-primary", "--vz-success"]'),
     series: [{
         name: '2011',
         type: 'bar',
@@ -567,7 +567,7 @@ const stackedHorizontalBarChart = {
             }
         }
     },
-    color: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-light", "--vz-info"]'),
+    color: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
     yAxis: {
         type: 'category',
         data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
@@ -661,7 +661,7 @@ const pieChart = {
             color: '#999'
         }
     },
-    color: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-light", "--vz-info"]'),
+    color: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
     series: [{
         name: 'Total sales',
         type: 'pie',
@@ -704,7 +704,7 @@ const doughnutChart = {
             color: '#999'
         }
     },
-    color: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.80", "--vz-primary-rgb, 0.70", "--vz-primary-rgb, 0.60", "--vz-primary-rgb, 0.45"]'),
+    color: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
     series: [{
         name: 'Total sales',
         type: 'pie',
@@ -906,7 +906,7 @@ const graphChart = {
 };
 
 const treemapChart = {
-    color: getChartColorsArray('["--vz-primary", "--vz-info"]'),
+    color: getChartColorsArray('["--vz-primary", "--vz-success"]'),
     series: [{
         type: 'treemap',
         data: [{
@@ -942,7 +942,7 @@ const treemapChart = {
 };
 
 const sunburstChart = {
-    color: getChartColorsArray('["--vz-info", "--vz-primary"]'),
+    color: getChartColorsArray('["--vz-warning", "--vz-success"]'),
     series: {
         type: 'sunburst',
         // emphasis: {
@@ -1039,7 +1039,7 @@ const parallelChart = {
         top: '2%',
         containLabel: true
     },
-    color: getChartColorsArray('["--vz-primary"]'),
+    color: getChartColorsArray('["--vz-success"]'),
     series: {
         type: 'parallel',
         lineStyle: {
@@ -1140,7 +1140,7 @@ const funnelChart = {
             color: '#858d98',
         },
     },
-    color: getChartColorsArray('["--vz-info", "--vz-success","--vz-warning", "--vz-secondary", "--vz-primary"]'),
+    color: getChartColorsArray('["--vz-info", "--vz-success","--vz-warning", "--vz-danger", "--vz-primary"]'),
     series: [{
         name: 'Funnel',
         type: 'funnel',

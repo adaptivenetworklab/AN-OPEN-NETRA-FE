@@ -74,9 +74,9 @@ export default {
     <BCardHeader class="align-items-center d-flex">
       <BCard-title class="mb-0 flex-grow-1">Top Performers</BCard-title>
       <div class="hstack gap-1">
-        <BButton type="button" variant="soft-secondary" size="sm">1H</BButton>
-        <BButton type="button" variant="soft-secondary" size="sm">1D</BButton>
-        <BButton type="button" variant="soft-secondary" size="sm">7D</BButton>
+        <BButton type="button" variant="soft-info" size="sm">1H</BButton>
+        <BButton type="button" variant="soft-info" size="sm">1D</BButton>
+        <BButton type="button" variant="soft-info" size="sm">7D</BButton>
         <BButton type="button" variant="soft-primary" size="sm">1M</BButton>
       </div>
     </BCardHeader>

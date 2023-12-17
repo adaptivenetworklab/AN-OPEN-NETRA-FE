@@ -21,7 +21,7 @@ export default {
                         <div class="timeline-item left">
                             <i class="icon ri-stack-line"></i>
                             <div class="date">15 Dec 2021</div>
-                            <div class="content shadow-none">
+                            <div class="content">
                                 <div class="d-flex">
                                     <div class="flex-shrink-0">
                                         <img src="@/assets/images/users/avatar-5.jpg" alt="" class="avatar-sm rounded">
@@ -34,7 +34,7 @@ export default {
                                             to go with the words, and pop a beautiful bunch of flowers from our gift
                                             range in your basket, to make them feel super special.</p>
                                         <div class="hstack gap-2">
-                                            <BLink class="btn btn-sm btn-light"><span class="me-1">&#128293;</span> 19</BLink>
+                                            <BLink class="btn btn-sm btn-light"><span   class="me-1">&#128293;</span> 19</BLink>
                                             <BLink class="btn btn-sm btn-light"><span class="me-1">&#129321;</span> 22</BLink>
                                         </div>
                                     </div>
@@ -44,7 +44,7 @@ export default {
                         <div class="timeline-item right">
                             <i class="icon ri-vip-diamond-line"></i>
                             <div class="date">22 Oct 2021</div>
-                            <div class="content shadow-none">
+                            <div class="content">
                                 <h5>Adding a new event with attachments</h5>
                                 <p class="text-muted">Too much or too little spacing, as in the example below, can make
                                     things unpleasant for the reader.</p>
@@ -60,8 +60,9 @@ export default {
 
                                             </div>
                                             <div class="flex-grow-1 overflow-hidden ms-2">
-                                                <h6 class="text-truncate mb-0"><BLink href="javascript:void(0);"
-                                                        class="stretched-link">Business Template - UI/UX design</BLink></h6>
+                                                <h6 class="text-truncate mb-0">
+                                                    <BLink href="javascript:void(0);" class="stretched-link">Business Template - UI/UX design</BLink>
+                                                </h6>
                                                 <small>685 KB</small>
                                             </div>
                                         </div>
@@ -74,8 +75,9 @@ export default {
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1 ms-2 overflow-hidden">
-                                                <h6 class="mb-0 text-truncate"><BLink href="javascript:void(0);"
-                                                        class="stretched-link">Bank Management System - PSD</BLink></h6>
+                                                <h6 class="mb-0 text-truncate">
+                                                    <BLink href="javascript:void(0);" class="stretched-link">Bank Management System - PSD</BLink>
+                                                </h6>
                                                 <small>8.78 MB</small>
                                             </div>
                                         </div>
@@ -86,18 +88,16 @@ export default {
                         <div class="timeline-item left">
                             <i class="icon ri-gift-line"></i>
                             <div class="date">10 Jul 2021</div>
-                            <div class="content shadow-none">
+                            <div class="content">
                                 <h5>Create new project Building product</h5>
                                 <p class="text-muted">Every team project can have a velzon. Use the velzon to share
                                     information with your team to understand and contribute to your project.</p>
                                 <div class="avatar-group mb-2">
                                     <BLink href="javascript: void(0);" class="avatar-group-item" v-b-tooltip.hover title="Christi">
-                                        <img src="@/assets/images/users/avatar-4.jpg" alt=""
-                                            class="rounded-circle avatar-xs">
+                                        <img src="@/assets/images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
                                     </BLink>
                                     <BLink href="javascript: void(0);" class="avatar-group-item" v-b-tooltip.hover title="Frank Hook">
-                                        <img src="@/assets/images/users/avatar-3.jpg" alt=""
-                                            class="rounded-circle avatar-xs">
+                                        <img src="@/assets/images/users/avatar-3.jpg" alt="" class="rounded-circle avatar-xs">
                                     </BLink>
                                     <BLink href="javascript: void(0);" class="avatar-group-item" v-b-tooltip.hover title="Ruby">
                                         <div class="avatar-xs">
@@ -119,7 +119,7 @@ export default {
                         <div class="timeline-item right">
                             <i class="icon ri-shield-star-line"></i>
                             <div class="date">18 May 2021</div>
-                            <div class="content shadow-none">
+                            <div class="content">
                                 <h5>Donald Palmer <small class="text-muted fs-13 fw-normal">- Has changed 2
                                         attributes</small></h5>
                                 <p class="text-muted fst-italic mb-2">" This is an awesome admin dashboard template. It
@@ -137,7 +137,7 @@ export default {
                         <div class="timeline-item left">
                             <i class="icon ri-user-smile-line"></i>
                             <div class="date">10 Feb 2021</div>
-                            <div class="content shadow-none">
+                            <div class="content">
                                 <h5>Velzon admin dashboard templates layout upload</h5>
                                 <p class="text-muted">Powerful, clean & modern responsive bootstrap 5 admin template.
                                     The maximum file size for uploads in this demo :</p>
@@ -160,9 +160,8 @@ export default {
                         <div class="timeline-item right">
                             <i class="icon ri-fire-line"></i>
                             <div class="date">01 Jan 2021</div>
-                            <div class="content shadow-none">
-                                <h5>New ticket received <BBadge variant="success-subtle"
-                                        class="text-success fs-10 align-middle ms-1">Completed</BBadge>
+                            <div class="content">
+                                <h5>New ticket received <BBadge variant="success-subtle" class="text-success fs-10 align-middle ms-1">Completed</BBadge>
                                 </h5>
                                 <p class="text-muted mb-2">
                                     It is important for us that we receive email notifications when a ticket is created
@@ -170,7 +169,8 @@ export default {
                                     tickets.
                                 </p>
                                 <BLink href="javascript:void(0);" class="link-primary text-decoration-underline">Read More
-                                    <i class="ri-arrow-right-line"></i></BLink>
+                                    <i class="ri-arrow-right-line"></i>
+                                </BLink>
                             </div>
                         </div>
                     </div>
@@ -197,8 +197,7 @@ export default {
                                     <div class="timeline-box">
                                         <div class="timeline-text">
                                             <div class="d-flex">
-                                                <img src="@/assets/images/users/avatar-7.jpg" alt=""
-                                                    class="avatar-sm rounded" />
+                                                <img src="@/assets/images/users/avatar-7.jpg" alt="" class="avatar-sm rounded" />
                                                 <div class="flex-grow-1 ms-3">
                                                     <h5 class="mb-1">Frank hook joined with our company</h5>
                                                     <p class="text-muted mb-0">It makes a statement, it’s impressive
@@ -227,24 +226,16 @@ export default {
                                                 the vacation :</p>
                                             <BRow class="border border-dashed rounded gx-2 p-2">
                                                 <BCol cols="3">
-                                                    <BLink href="javascript:void(0);"><img
-                                                            src="@/assets/images/small/img-7.jpg" alt=""
-                                                            class="img-fluid rounded"></BLink>
+                                                    <BLink href="javascript:void(0);"><img src="@/assets/images/small/img-7.jpg" alt="" class="img-fluid rounded"></BLink>
                                                 </BCol>
                                                 <BCol cols="3">
-                                                    <BLink href="javascript:void(0);"><img
-                                                            src="@/assets/images/small/img-3.jpg" alt=""
-                                                            class="img-fluid rounded"></BLink>
+                                                    <BLink href="javascript:void(0);"><img src="@/assets/images/small/img-3.jpg" alt="" class="img-fluid rounded"></BLink>
                                                 </BCol>
                                                 <BCol cols="3">
-                                                    <BLink href="javascript:void(0);"><img
-                                                            src="@/assets/images/small/img-10.jpg" alt=""
-                                                            class="img-fluid rounded"></BLink>
+                                                    <BLink href="javascript:void(0);"><img src="@/assets/images/small/img-10.jpg" alt="" class="img-fluid rounded"></BLink>
                                                 </BCol>
                                                 <BCol cols="3">
-                                                    <BLink href="javascript:void(0);"><img
-                                                            src="@/assets/images/small/img-9.jpg" alt=""
-                                                            class="img-fluid rounded"></BLink>
+                                                    <BLink href="javascript:void(0);"><img src="@/assets/images/small/img-9.jpg" alt="" class="img-fluid rounded"></BLink>
                                                 </BCol>
                                             </BRow>
                                         </div>

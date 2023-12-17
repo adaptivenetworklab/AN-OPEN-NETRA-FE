@@ -343,10 +343,10 @@ export default {
                   <BButton variant="soft-danger" class="me-1" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton type="button" variant="primary" class="add-btn me-1" id="create-btn" @click="toggleModal">
+                  <BButton type="button" variant="success" class="add-btn me-1" id="create-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Add Customer
                   </BButton>
-                  <BButton type="button" variant="soft-success">
+                  <BButton type="button" variant="secondary">
                     <i class="ri-file-download-line align-bottom me-1"></i> Import
                   </BButton>
                 </div>
@@ -385,7 +385,7 @@ export default {
 
                     <BCol sm="4">
                       <div>
-                        <BButton type="button" variant="secondary" class="w-100" @click="SearchData">
+                        <BButton type="button" variant="primary" class="w-100" @click="SearchData">
                           <i class="ri-equalizer-fill me-2 align-bottom"></i>Filters
                         </BButton>
                       </div>
@@ -456,7 +456,7 @@ export default {
                 </table>
                 <div class="noresult" v-if="resultQuery.length < 1">
                   <div class="text-center">
-                    <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions"
+                    <lottie class="avatar-xl" colors="primary:#121331,secondary:#08a88a" :options="defaultOptions"
                       :height="75" :width="75" />
                     <h5 class="mt-2">Sorry! No Result Found</h5>
                     <p class="text-muted mb-0">
@@ -550,7 +550,7 @@ export default {
     <!-- delete modal -->
     <BModal v-model="deleteModal" modal-class="zoomIn" hide-footer no-close-on-backdrop centered>
       <div class="mt-2 text-center">
-        <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions2" :height="100"
+        <lottie class="avatar-xl" colors="primary:#f7b84b,secondary:#f06548" :options="defaultOptions2" :height="100"
           :width="100" />
         <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
           <h4>Are you sure ?</h4>
@@ -559,7 +559,7 @@ export default {
       </div>
       <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
         <button type="button" class="btn w-sm btn-light" @click="deleteModal = false">Close</button>
-        <button type="button" class="btn w-sm btn-primary" id="delete-record" @click="deleteData">Yes, Delete It!</button>
+        <button type="button" class="btn w-sm btn-danger" id="delete-record" @click="deleteData">Yes, Delete It!</button>
       </div>
     </BModal>
   </Layout>

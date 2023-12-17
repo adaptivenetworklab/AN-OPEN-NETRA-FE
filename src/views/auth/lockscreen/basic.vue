@@ -54,7 +54,7 @@ export default {
                       <input type="password" class="form-control" id="userpassword" placeholder="Enter password" required>
                     </div>
                     <div class="mb-2 mt-4">
-                      <BButton variant="success" class="w-100" type="submit">Unlock</BButton>
+                      <BButton variant="secondary" class="w-100" type="submit">Unlock</BButton>
                     </div>
                   </form>
 

@@ -52,7 +52,7 @@ export default {
           tickAmount: 4,
           min: 0,
         },
-        colors: getChartColorsArray('["--vz-primary","--vz-primary-rgb, 0.60", "--vz-primary-rgb, 0.75"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-warning", "--vz-info"]'),
       },
     };
   },

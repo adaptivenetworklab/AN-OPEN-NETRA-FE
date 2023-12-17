@@ -53,7 +53,7 @@ const mixedLineChart = {
                 },
             }
         }],
-        colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success"]'),
     }
 };
 
@@ -182,7 +182,7 @@ const yAxisChart = {
             horizontalAlign: 'left',
             offsetX: 40
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-light"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-success"]'),
     }
 };
 
@@ -241,7 +241,7 @@ const lineAreaChart = {
                 }
             }
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success"]'),
     }
 };
 
@@ -318,7 +318,7 @@ const lineColumnAreaChart = {
                 }
             }
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-success"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-danger"]'),
     }
 };
 

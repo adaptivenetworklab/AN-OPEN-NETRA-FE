@@ -91,7 +91,7 @@ export default {
                         '10 Jan', '11 Jan', '12 Jan'
                     ],
                 },
-                colors: getChartColorsArray('["--vz-success", "--vz-info", "--vz-primary"]'),
+                colors: getChartColorsArray('["--vz-secondary", "--vz-success", "--vz-primary"]'),
                 markers: {
                     size: 0,
 
@@ -182,7 +182,8 @@ export default {
                     <div class="d-flex align-items-center">
                         <h6 class="card-title mb-0 flex-grow-1">Popular Candidates</h6>
                         <div class="flex-shrink-0">
-                            <router-link to="/jobs/candidate-lists" class="link-primary">View All <i class="ri-arrow-right-line"></i></router-link>
+                            <router-link to="/jobs/candidate-lists" class="link-primary">View All <i
+                                    class="ri-arrow-right-line"></i></router-link>
                         </div>
                     </div>
                 </BCardHeader>
@@ -190,7 +191,8 @@ export default {
                     <BCol col lg="6">
                         <BCardBody class="border-end">
                             <div class="search-box">
-                                <input type="text" class="form-control bg-light border-light" autocomplete="off" id="searchList" placeholder="Search candidate..." v-model="searchQuery">
+                                <input type="text" class="form-control bg-light border-light" autocomplete="off"
+                                    id="searchList" placeholder="Search candidate..." v-model="searchQuery">
                                 <i class="ri-search-line search-icon"></i>
                             </div>
                             <simplebar data-simplebar style="max-height: 190px" class="px-3 mx-n3">
@@ -199,7 +201,8 @@ export default {
                                         <BLink href="javascript:void(0);" class="d-flex align-items-center py-2">
                                             <div class="flex-shrink-0 me-2">
                                                 <div class="avatar-xs">
-                                                    <img :src="data.img" alt="" class="img-fluid rounded-circle candidate-img">
+                                                    <img :src="data.img" alt=""
+                                                        class="img-fluid rounded-circle candidate-img">
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1">
@@ -220,25 +223,29 @@ export default {
                     <BCol col lg="6">
                         <BCardBody class="text-center">
                             <div class="avatar-md mb-3 mx-auto">
-                                <img src="@/assets/images/users/avatar-10.jpg" alt="" id="candidate-img" class="img-thumbnail rounded-circle shadow-none">
+                                <img src="@/assets/images/users/avatar-10.jpg" alt="" id="candidate-img"
+                                    class="img-thumbnail rounded-circle shadow-none">
                             </div>
 
                             <h5 id="candidate-name" class="mb-0">Tonya Noble</h5>
                             <p id="candidate-position" class="text-muted">Web Developer</p>
 
                             <div class="d-flex gap-2 justify-content-center mb-3">
-                                <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Google">
+                                <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" title="Google">
                                     <span class="avatar-title rounded-circle bg-light text-body">
                                         <i class="ri-google-line"></i>
                                     </span>
                                 </button>
 
-                                <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin">
+                                <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" title="Linkedin">
                                     <span class="avatar-title rounded-circle bg-light text-body">
                                         <i class="ri-linkedin-line"></i>
                                     </span>
                                 </button>
-                                <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Dribbble">
+                                <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" title="Dribbble">
                                     <span class="avatar-title rounded-circle bg-light text-body">
                                         <i class="ri-dribbble-fill"></i>
                                     </span>
@@ -246,7 +253,8 @@ export default {
                             </div>
 
                             <div>
-                                <BButton type="button" variant="success" class="custom-toggle w-100" data-bs-toggle="button">
+                                <BButton type="button" variant="primary" class="custom-toggle w-100"
+                                    data-bs-toggle="button">
                                     <span class="icon-on"><i class="ri-add-line align-bottom me-1"></i> Follow</span>
                                     <span class="icon-off"><i class="ri-user-unfollow-line align-bottom me-1"></i>
                                         Unfollow</span>

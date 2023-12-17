@@ -1,4 +1,4 @@
 module.exports = {
     transpileDependencies: ["@vueform"],
-    publicPath: '/velzon/vuejs/minimal/'
+    publicPath: '/velzon/vuejs/corporate/'
 }

@@ -38,7 +38,7 @@ const basicColumnChart = {
             width: 2,
             colors: ["transparent"],
         },
-        colors: getChartColorsArray('["--vz-info", "--vz-primary", "--vz-success"]'),
+        colors: getChartColorsArray('["--vz-danger", "--vz-primary", "--vz-success"]'),
         xaxis: {
             categories: [
                 "Feb",
@@ -106,7 +106,7 @@ const columnDatalabelChart = {
                 colors: ["#adb5bd"],
             },
         },
-        colors: getChartColorsArray('["--vz-primary"]'),
+        colors: getChartColorsArray('["--vz-success"]'),
         grid: {
             borderColor: "#f1f1f1",
         },
@@ -257,7 +257,7 @@ const stackedColumnsChart = {
         fill: {
             opacity: 1,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-info", "--vz-light"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger"]'),
     },
 };
 
@@ -317,7 +317,7 @@ const columnStackedChart = {
             offsetX: 0,
             offsetY: 50,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-success"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning"]'),
     },
 };
 
@@ -563,7 +563,7 @@ const columnNegativeChart = {
         ],
     },],
     chartOptions: {
-        colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-success"]'),
+        colors: getChartColorsArray('["--vz-success", "--vz-primary", "--vz-warning"]'),
         chart: {
             type: "bar",
             height: 350,
@@ -707,7 +707,7 @@ const rangeColumnChart = {
         legend: {
             show: false,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-info"]   '),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success"]   '),
     },
 };
 
@@ -798,7 +798,7 @@ function updateQuarterChart(sourceChart, destChartIDToUpdate) {
     }
 }
 
-const colors = getChartColorsArray('["--vz-primary", "--vz-success",  "--vz-gray-200", "--vz-secondary", "--vz-primary-rgb, 0.6", "--vz-info"]');
+const colors = getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-dark", "--vz-info"]');
 
 export const arrayData = [{
     y: 400,

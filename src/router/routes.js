@@ -631,12 +631,6 @@ export default [
     component: () => import("../views/widgets/index"),
   },
   {
-    path: "/graph",
-    name: "index",
-    meta: { title: "index", authRequired: true },
-    component: () => import("../views/graph/index"),
-  },
-  {
     path: "/icons/boxicons",
     name: "boxicons-icon",
     meta: { title: "Boxicons", authRequired: true },

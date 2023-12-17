@@ -191,7 +191,7 @@ export default {
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0 avatar-xs me-3">
                                                     <span
-                                                        class="avatar-title bg-primary-subtle text-primary rounded-circle fs-16">
+                                                        class="avatar-title bg-danger-subtle text-danger rounded-circle fs-16">
                                                         <i class="ri-message-2-fill"></i>
                                                     </span>
                                                 </div>
@@ -498,27 +498,27 @@ export default {
                                         <ol class="list-group list-group-flush list-group-numbered">
                                             <li class="list-group-item d-flex align-items-center">
                                                 A list item
-                                                <BBadge variant="success-subtle" class="ms-auto text-success">Paid</BBadge>
+                                                <BBadge variant="success" class="ms-auto">Paid</BBadge>
                                             </li>
                                             <li class="list-group-item d-flex align-items-center">
                                                 A second list item
-                                                <BBadge variant="danger-subtle" class="ms-auto text-danger">Refund</BBadge>
+                                                <BBadge variant="danger" class="ms-auto">Refund</BBadge>
                                             </li>
                                             <li class="list-group-item d-flex align-items-center">
                                                 A third list item
-                                                <BBadge variant="success-subtle" class="ms-auto text-success">Paid</BBadge>
+                                                <BBadge variant="success" class="ms-auto">Paid</BBadge>
                                             </li>
                                             <li class="list-group-item d-flex align-items-center">
                                                 A fourth list item
-                                                <BBadge variant="success-subtle" class="ms-auto text-success">Paid</BBadge>
+                                                <BBadge variant="success" class="ms-auto">Paid</BBadge>
                                             </li>
                                             <li class="list-group-item d-flex align-items-center">
                                                 A Fifth list item
-                                                <BBadge class="ms-auto text-warning bg-warning-subtle">Inprogress</BBadge>
+                                                <BBadge class="ms-auto bg-warning">Inprogress</BBadge>
                                             </li>
                                             <li class="list-group-item d-flex align-items-center">
                                                 A Sixth list item
-                                                <BBadge variant="success-subtle" class="ms-auto text-success">Paid</BBadge>
+                                                <BBadge variant="success" class="ms-auto">Paid</BBadge>
                                             </li>
                                         </ol>
                                     </simplebar>
@@ -553,7 +553,7 @@ export default {
                                                 </div>
                                             </div>
                                             <div class="flex-shrink-0 ms-2">
-                                                <BButton variant="outline-primary" size="sm" type="button"><i
+                                                <BButton variant="outline-success" size="sm" type="button"><i
                                                         class="ri-user-add-line align-middle"></i></BButton>
                                             </div>
                                         </div>
@@ -570,7 +570,7 @@ export default {
                                                 </div>
                                             </div>
                                             <div class="flex-shrink-0 ms-2">
-                                                <BButton variant="outline-primary" size="sm" type="button"><i
+                                                <BButton variant="outline-success" size="sm" type="button"><i
                                                         class="ri-user-add-line align-middle"></i></BButton>
                                             </div>
                                         </div>
@@ -587,7 +587,7 @@ export default {
                                                 </div>
                                             </div>
                                             <div class="flex-shrink-0 ms-2">
-                                                <BButton variant="outline-primary" size="sm" type="button"><i
+                                                <BButton variant="outline-success" size="sm" type="button"><i
                                                         class="ri-user-add-line align-middle"></i></BButton>
                                             </div>
                                         </div>
@@ -603,7 +603,7 @@ export default {
                                                 </div>
                                             </div>
                                             <div class="flex-shrink-0 ms-2">
-                                                <BButton variant="outline-primary" size="sm" type="button"><i
+                                                <BButton variant="outline-success" size="sm" type="button"><i
                                                         class="ri-user-add-line align-middle"></i></BButton>
                                             </div>
                                         </div>
@@ -638,8 +638,8 @@ export default {
                                                 <p class="text-muted mb-0">04 Members</p>
                                             </div>
                                             <div class="flex-shrink-0 align-self-start ms-2">
-                                                <BBadge tag="div" variant="primary-subtle"
-                                                    class="bg-primary-subtle text-primary fs-10">Inprogress</BBadge>
+                                                <BBadge tag="div" variant="warning-subtle"
+                                                    class="bg-warning-subtle text-warning fs-10">Inprogress</BBadge>
                                             </div>
                                         </BLink >
                                         <BLink  href="#" class="d-flex align-items-center py-2">
@@ -653,8 +653,8 @@ export default {
                                                 <p class="text-muted mb-0">02 Members</p>
                                             </div>
                                             <div class="flex-shrink-0 align-self-start ms-2">
-                                                <BBadge tag="div" variant="primary-subtle"
-                                                    class="bg-primary-subtle text-primary fs-10">Inprogress</BBadge>
+                                                <BBadge tag="div" variant="warning-subtle"
+                                                    class="bg-warning-subtle text-warning fs-10">Inprogress</BBadge>
                                             </div>
                                         </BLink >
                                         <BLink  href="#" class="d-flex align-items-center py-2">
@@ -683,8 +683,8 @@ export default {
                                                 <p class="text-muted mb-0">03 Members</p>
                                             </div>
                                             <div class="flex-shrink-0 align-self-start ms-2">
-                                                <BBadge tag="div" variant="primary-subtle"
-                                                    class="bg-primary-subtle text-primary fs-10">Inprogress</BBadge>
+                                                <BBadge tag="div" variant="warning-subtle"
+                                                    class="bg-warning-subtle text-warning fs-10">Inprogress</BBadge>
                                             </div>
                                         </BLink >
                                         <BLink  href="#" class="d-flex align-items-center py-2">

@@ -28,7 +28,7 @@ export default {
           label: "Total Invested",
           counter: "2390.68",
           badge: "ri-arrow-up-s-fill",
-          badgeColor: "success",
+          badgeColor: "primary",
           percentage: "6.24",
         },
         {
@@ -37,7 +37,7 @@ export default {
           label: "Total Change",
           counter: "19523.25",
           badge: "ri-arrow-up-s-fill",
-          badgeColor: "success",
+          badgeColor: "secondary",
           percentage: "3.67",
         },
         {
@@ -46,7 +46,7 @@ export default {
           label: "Day Change",
           counter: "14799.44",
           badge: "ri-arrow-down-s-fill",
-          badgeColor: "danger",
+          badgeColor: "success",
           percentage: "4.80",
         },
       ],
@@ -89,7 +89,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#0ab39c"],
+            colors: ["#3cd188"],
           },
           series: [
             {
@@ -136,7 +136,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#0ab39c"],
+            colors: ["#3cd188"],
           },
           series: [
             {
@@ -183,7 +183,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#0ab39c"],
+            colors: ["#3cd188"],
           },
           series: [
             {
@@ -277,7 +277,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#0ab39c"],
+            colors: ["#3cd188"],
           },
           series: [
             {
@@ -324,7 +324,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#0ab39c"],
+            colors: ["#3cd188"],
           },
           series: [
             {
@@ -447,7 +447,7 @@ export default {
               <BCardBody>
                 <div class="d-flex align-items-center">
                   <div class="avatar-sm flex-shrink-0">
-                    <span class="avatar-title bg-light text-primary rounded-circle fs-3">
+                    <span :class="`avatar-title bg-light text-${item.badgeColor} rounded-circle fs-3`">
                       <i :class="`${item.icon} align-middle`"></i>
                     </span>
                   </div>
@@ -463,10 +463,8 @@ export default {
                     </h4>
                   </div>
                   <div class="flex-shrink-0 align-self-end">
-                    <span
-                      :class="{ 'badge bg-success-subtle text-success': item.badge == 'ri-arrow-up-s-fill', 'badge bg-danger-subtle text-danger': item.badge == 'ri-arrow-down-s-fill' }"><i
-                        :class="`${item.badge} align-middle me-1`"></i>
-                      {{ item.percentage }} %</span>
+                    <span :class="{ 'badge bg-success-subtle text-success': item.badge == 'ri-arrow-up-s-fill', 'badge bg-danger-subtle text-danger': 
+                    item.badge == 'ri-arrow-down-s-fill' }"><i :class="`${item.badge} align-middle me-1`"></i> {{ item.percentage }} %</span>
                   </div>
                 </div>
               </BCardBody>
@@ -484,19 +482,16 @@ export default {
 
     <BRow>
       <BCol lg="12">
-        <swiper class="cryptoSlider" :slidesPerView="1" :loop="false" :spaceBetween="24" :modules="[Autoplay]"
-          :autoplay="{ delay: 2500, disableOnInteraction: false }"
-          :breakpoints="{ 640: { slidesPerView: 2 }, 768: { slidesPerView: 2.5 }, 1024: { slidesPerView: 3 }, 1200: { slidesPerView: 5 }, }">
+        <swiper class="cryptoSlider" :slidesPerView="1" :loop="false" :spaceBetween="24" :modules="[Autoplay]" :autoplay="{ delay: 2500, disableOnInteraction: false }" 
+        :breakpoints="{ 640: { slidesPerView: 2 }, 768: { slidesPerView: 2.5 }, 1024: { slidesPerView: 3 }, 1200: { slidesPerView: 5 }, }">
           <template v-for="(item, index) of cryptoSlider" :key="index">
             <swiper-slide>
               <BCard no-body>
                 <BCardBody>
                   <div class="float-end">
-                    <BDropdown variant="link" class="card-header-dropdown"
-                      toggle-class="text-reset  arrow-none" menu-class="dropdown-menu-end"
-                      aria-haspopup="true" :offset="{ alignmentAxis: -110, crossAxis: 0, mainAxis: 0 }">
-                      <template #button-content> <span class="text-muted fs-18"><i
-                            class="mdi mdi-dots-horizontal"></i></span>
+                    <BDropdown variant="link" class="card-header-dropdown" toggle-class="text-reset p-0 arrow-none" menu-class="dropdown-menu-end" aria-haspopup="true" 
+                    :offset="{ alignmentAxis: -110, crossAxis: 0, mainAxis: 0 }">
+                      <template #button-content> <span class="text-muted fs-18"><i class="mdi mdi-dots-horizontal"></i></span>
                       </template>
                       <BDropdownItem>Details</BDropdownItem>
                       <BDropdownItem>Cancel</BDropdownItem>
@@ -515,8 +510,7 @@ export default {
                       </p>
                     </BCol>
                     <BCol cols="6">
-                      <apexchart class="apex-charts" :options="item.chartOptions" height="50" dir="ltr"
-                        :series="item.series.length > 0 ? item.series : []" :key="item.id"></apexchart>
+                      <apexchart class="apex-charts" :options="item.chartOptions" height="50" dir="ltr" :series="item.series.length > 0 ? item.series : []" :key="item.id"></apexchart>
                     </BCol>
                   </BRow>
                 </BCardBody>

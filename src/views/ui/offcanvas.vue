@@ -203,7 +203,7 @@ export default {
                   </div>
                 </simplebar>
                 <template #footer>
-                  <a href="javascript:void(0);" >View All Activity <i
+                  <a href="javascript:void(0);" class="link-success">View All Activity <i
                       class="ri-arrow-right-s-line align-middle ms-1"></i></a>
                 </template>
               </BOffcanvas>
@@ -262,7 +262,7 @@ export default {
                   <BButton @click="bottomOffcanvas = true" variant="success">
                     Toggle Bottom Offcanvas
                   </BButton>
-                  <BButton @click="leftOffcanvas = true" variant="info">
+                  <BButton @click="leftOffcanvas = true" variant="danger">
                     Toggle Left Offcanvas
                   </BButton>
                 </div>
@@ -550,7 +550,7 @@ export default {
                     </div>
                   </simplebar>
                   <template #footer>
-                    <a href="javascript:void(0);">View All Activity <i
+                    <a href="javascript:void(0);" class="link-success">View All Activity <i
                         class="ri-arrow-right-s-line align-middle ms-1"></i></a>
                   </template>
                 </BOffcanvas>
@@ -838,7 +838,7 @@ export default {
                     </div>
                   </simplebar>
                   <template #footer>
-                    <a href="javascript:void(0);">View All Activity <i
+                    <a href="javascript:void(0);" class="link-success">View All Activity <i
                         class="ri-arrow-right-s-line align-middle ms-1"></i></a>
                   </template>
                 </BOffcanvas>
@@ -1078,7 +1078,7 @@ export default {
                     </div>
                   </simplebar>
                   <template #footer>
-                    <a href="javascript:void(0);">View All Activity <i
+                    <a href="javascript:void(0);" class="link-success">View All Activity <i
                         class="ri-arrow-right-s-line align-middle ms-1"></i></a>
                   </template>
                 </BOffcanvas>

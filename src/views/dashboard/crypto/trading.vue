@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <BCard no-body class="card-height-100" style="position: relative;">
+    <BCard no-body style="position: relative;">
         <BCardHeader class="align-items-center border-0 d-flex">
             <BCardTitle class="mb-0 flex-grow-1">Trading</BCardTitle>
         </BCardHeader>
@@ -14,11 +14,11 @@ export default {
                 nav-class="nav-tabs-custom rounded card-header-tabs border-bottom-0 tab-content p-0 tamp"
                 pills>
                 <BTab title="Buy">
-                    <div class="p-3 bg-primary-subtle">
+                    <div class="p-3 bg-success-subtle">
                         <div class="float-end ms-2">
-                            <h6 class="text-primary mb-0">USD Balance : <span class="text-body">$12,426.07</span></h6>
+                            <h6 class="text-success mb-0">USD Balance : <span class="text-body">$12,426.07</span></h6>
                         </div>
-                        <h6 class="mb-0 text-primary">Buy Coin</h6>
+                        <h6 class="mb-0 text-success">Buy Coin</h6>
                     </div>
                     <div class="p-3">
                         <BRow>
@@ -90,17 +90,17 @@ export default {
                             </div>
                         </div>
                         <div class="mt-3 pt-2">
-                            <BButton type="button" variant="primary" class="w-100">Buy Coin</BButton>
+                            <BButton type="button" variant="success" class="w-100">Buy Coin</BButton>
                         </div>
                     </div>
                 </BTab>
 
                 <BTab title="Sell">
-                    <div class="p-3 bg-primary-subtle">
+                    <div class="p-3 bg-danger-subtle">
                         <div class="float-end ms-2">
-                            <h6 class="text-primary mb-0">USD Balance : <span class="text-body">$12,426.07</span></h6>
+                            <h6 class="text-danger mb-0">USD Balance : <span class="text-body">$12,426.07</span></h6>
                         </div>
-                        <h6 class="mb-0 text-primary">Sell Coin</h6>
+                        <h6 class="mb-0 text-danger">Sell Coin</h6>
                     </div>
                     <div class="p-3">
                         <BRow>
@@ -165,7 +165,7 @@ export default {
                             </div>
                         </div>
                         <div class="mt-3 pt-2">
-                            <BButton type="button" variant="primary" class="w-100">Sell Coin</BButton>
+                            <BButton type="button" variant="danger" class="w-100">Sell Coin</BButton>
                         </div>
                     </div>
                 </BTab>

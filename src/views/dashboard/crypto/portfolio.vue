@@ -71,7 +71,7 @@ export default {
           lineCap: "round",
           width: 2,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.85", "--vz-primary-rgb, 0.65", "--vz-primary-rgb, 0.50"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-secondary", "--vz-info", "--vz-success"]'),
       },
     };
   },
@@ -84,7 +84,7 @@ export default {
       <BCardTitle class="mb-0 flex-grow-1">My Portfolio</BCardTitle>
       <div>
         <div class="flex-shrink-0 ms-2">
-          <BDropdown variant="link" class="card-header-dropdown" toggle-class="btn btn-soft-primary btn-sm arrow-none"
+          <BDropdown variant="link" href="#" class="card-header-dropdown" toggle-class="btn btn-soft-primary btn-sm arrow-none"
             menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -105, crossAxis: 0, mainAxis: 10 }">
             <template #button-content><span class="text-uppercase"> BTC<i
                   class="mdi mdi-chevron-down align-middle ms-1"></i></span></template>
@@ -129,7 +129,7 @@ export default {
             <div class="flex-grow-1 ms-2">
               <h6 class="mb-1">Ethereum</h6>
               <p class="fs-12 mb-0 text-muted">
-                <i class="mdi mdi-circle fs-10 align-middle text-secondary me-1"></i>ETH
+                <i class="mdi mdi-circle fs-10 align-middle text-info me-1"></i>ETH
               </p>
             </div>
             <div class="flex-shrink-0 text-end">
@@ -149,7 +149,7 @@ export default {
             <div class="flex-grow-1 ms-2">
               <h6 class="mb-1">Litecoin</h6>
               <p class="fs-12 mb-0 text-muted">
-                <i class="mdi mdi-circle fs-10 align-middle text-warning me-1"></i>LTC
+                <i class="mdi mdi-circle fs-10 align-middle text-secondary me-1"></i>LTC
               </p>
             </div>
             <div class="flex-shrink-0 text-end">

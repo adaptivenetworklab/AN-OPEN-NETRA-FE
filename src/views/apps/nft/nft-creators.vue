@@ -16,7 +16,7 @@ export default {
         <BRow class="g-4 mb-3">
             <BCol sm>
                 <div>
-                    <router-link to="/apps/projects-create" class="btn btn-primary"><i
+                    <router-link to="/apps/projects-create" class="btn btn-secondary"><i
                             class="ri-add-line align-bottom me-1"></i> Add New</router-link>
                 </div>
             </BCol>
@@ -49,9 +49,9 @@ export default {
                             </div>
                             <div class="ms-3 flex-grow-1">
                                 <router-link to="/pages/profile">
-                                    <h5 class="mb-1 fs-15">Timothy Smith</h5>
+                                    <h5 class="mb-1">Timothy Smith</h5>
                                 </router-link>
-                                <p class="text-muted mb-0 fs-14"><i class="mdi mdi-ethereum text-primary fs-14"></i> 4,754 ETH
+                                <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 4,754 ETH
                                 </p>
                             </div>
                             <BDropdown class="float-end" variant="button"
@@ -75,9 +75,9 @@ export default {
                             </div>
                             <div class="ms-3 flex-grow-1">
                                 <router-link to="/pages/profile">
-                                    <h5 class="mb-1 fs-15">Alexis Clarke</h5>
+                                    <h5 class="mb-1">Alexis Clarke</h5>
                                 </router-link>
-                                <p class="text-muted mb-0 fs-14"><i class="mdi mdi-ethereum text-primary fs-14"></i> 81,369
+                                <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 81,369
                                     ETH</p>
                             </div>
                             <div>
@@ -102,9 +102,9 @@ export default {
                             </div>
                             <div class="ms-3 flex-grow-1">
                                 <router-link to="/pages/profile">
-                                    <h5 class="mb-1 fs-15">Glen Matney</h5>
+                                    <h5 class="mb-1">Glen Matney</h5>
                                 </router-link>
-                                <p class="text-muted mb-0 fs-14"><i class="mdi mdi-ethereum text-primary fs-14"></i> 13,156
+                                <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 13,156
                                     ETH</p>
                             </div>
                             <div>
@@ -130,9 +130,9 @@ export default {
                             </div>
                             <div class="ms-3 flex-grow-1">
                                 <router-link to="/pages/profile">
-                                    <h5 class="mb-1 fs-15">Herbert Stokes</h5>
+                                    <h5 class="mb-1">Herbert Stokes</h5>
                                 </router-link>
-                                <p class="text-muted mb-0 fs-14"><i class="mdi mdi-ethereum text-primary fs-14"></i> 34,754
+                                <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 34,754
                                     ETH</p>
                             </div>
                             <div>
@@ -158,9 +158,9 @@ export default {
                             </div>
                             <div class="ms-3 flex-grow-1">
                                 <router-link to="/pages/profile">
-                                    <h5 class="mb-1 fs-15">Michael Morris</h5>
+                                    <h5 class="mb-1">Michael Morris</h5>
                                 </router-link>
-                                <p class="text-muted mb-0 fs-14"><i class="mdi mdi-ethereum text-primary fs-14"></i> 13,841
+                                <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 13,841
                                     ETH</p>
                             </div>
                             <div>
@@ -185,9 +185,9 @@ export default {
                             </div>
                             <div class="ms-3 flex-grow-1">
                                 <router-link to="/pages/profile">
-                                    <h5 class="mb-1 fs-15">Nancy Martino</h5>
+                                    <h5 class="mb-1">Nancy Martino</h5>
                                 </router-link>
-                                <p class="text-muted mb-0 fs-14"><i class="mdi mdi-ethereum text-primary fs-14"></i> 26,834
+                                <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 26,834
                                     ETH</p>
                             </div>
                             <div>
@@ -212,9 +212,9 @@ export default {
                             </div>
                             <div class="ms-3 flex-grow-1">
                                 <router-link to="/pages/profile">
-                                    <h5 class="mb-1 fs-15">Mary Cousar</h5>
+                                    <h5 class="mb-1">Mary Cousar</h5>
                                 </router-link>
-                                <p class="text-muted mb-0 fs-14"><i class="mdi mdi-ethereum text-primary fs-14"></i> 18,034
+                                <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 18,034
                                     ETH</p>
                             </div>
                             <div>
@@ -239,9 +239,9 @@ export default {
                             </div>
                             <div class="ms-3 flex-grow-1">
                                 <router-link to="/pages/profile">
-                                    <h5 class="mb-1 fs-15">James Morris</h5>
+                                    <h5 class="mb-1">James Morris</h5>
                                 </router-link>
-                                <p class="text-muted mb-0 fs-14"><i class="mdi mdi-ethereum text-primary fs-14"></i> 63,710
+                                <p class="text-muted mb-0"><i class="mdi mdi-ethereum text-primary fs-14"></i> 63,710
                                     ETH</p>
                             </div>
                             <div>
@@ -261,7 +261,7 @@ export default {
 
         <BRow>
             <BCol lg="12">
-                <h5 class="card-title mb-4 fw-bold fs-16">Creators Grid Lists</h5>
+                <h5 class="card-title mb-4 fw-semibold fs-16">Creators Grid Lists</h5>
             </BCol>
         </BRow>
 
@@ -273,10 +273,10 @@ export default {
                         <img src="@/assets/images/users/avatar-2.jpg" alt=""
                             class="avatar-md rounded-circle object-fit-cover mt-n5 border border-5 border-light mx-auto d-block">
                         <router-link to="/pages/profile">
-                            <h5 class="mt-2 mb-1 fs-15">Michael Morris</h5>
+                            <h5 class="mt-2 mb-1">Michael Morris</h5>
                         </router-link>
-                        <p class="text-muted mb-2 fs-14">9784 Products</p>
-                        <p class="text-muted fs-14">You can make an NFT of a digital painting, a text, a piece of music, a
+                        <p class="text-muted mb-2">9784 Products</p>
+                        <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
                         <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
                     </BCardBody>
@@ -290,12 +290,12 @@ export default {
                         <img src="@/assets/images/users/avatar-6.jpg" alt=""
                             class="avatar-md rounded-circle object-fit-cover mt-n5 border border-5 border-light mx-auto d-block">
                         <router-link to="/pages/profile">
-                            <h5 class="mt-2 mb-1 fs-15">Charles Kubik</h5>
+                            <h5 class="mt-2 mb-1">Charles Kubik</h5>
                         </router-link>
-                        <p class="text-muted mb-2 fs-14">4678 Products</p>
-                        <p class="text-muted fs-14">You can make an NFT of a digital painting, a text, a piece of music, a
+                        <p class="text-muted mb-2">4678 Products</p>
+                        <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="secondary" class="w-100">Follow</BButton>
+                        <BButton variant="primary" class="w-100">Follow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -306,10 +306,10 @@ export default {
                         <img src="@/assets/images/nft/img-06.jpg" alt=""
                             class="avatar-md rounded-circle object-fit-cover mt-n5 border border-5 border-light mx-auto d-block">
                         <router-link to="/pages/profile">
-                            <h5 class="mt-2 mb-1 fs-15">Alexis Clarke</h5>
+                            <h5 class="mt-2 mb-1">Alexis Clarke</h5>
                         </router-link>
-                        <p class="text-muted mb-2 fs-14">861 Products</p>
-                        <p class="text-muted fs-14">You can make an NFT of a digital painting, a text, a piece of music, a
+                        <p class="text-muted mb-2">861 Products</p>
+                        <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
                         <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
                     </BCardBody>
@@ -322,10 +322,10 @@ export default {
                         <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt=""
                             class="avatar-md rounded-circle object-fit-cover mt-n5 border border-5 border-light mx-auto d-block">
                         <router-link to="/pages/profile">
-                            <h5 class="mt-2 mb-1 fs-15">James Morris</h5>
+                            <h5 class="mt-2 mb-1">James Morris</h5>
                         </router-link>
-                        <p class="text-muted mb-2 fs-14">30174 Products</p>
-                        <p class="text-muted fs-14">You can make an NFT of a digital painting, a text, a piece of music, a
+                        <p class="text-muted mb-2">30174 Products</p>
+                        <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
                         <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
                     </BCardBody>
@@ -339,12 +339,12 @@ export default {
                         <img src="@/assets/images/users/avatar-8.jpg" alt=""
                             class="avatar-md rounded-circle object-fit-cover mt-n5 border border-5 border-light mx-auto d-block">
                         <router-link to="/pages/profile">
-                            <h5 class="mt-2 mb-1 fs-15">Herbert Stokes</h5>
+                            <h5 class="mt-2 mb-1">Herbert Stokes</h5>
                         </router-link>
-                        <p class="text-muted mb-2 fs-14">6487 Products</p>
-                        <p class="text-muted fs-14">You can make an NFT of a digital painting, a text, a piece of music, a
+                        <p class="text-muted mb-2">6487 Products</p>
+                        <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="secondary" class="w-100">Follow</BButton>
+                        <BButton variant="primary" class="w-100">Follow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -355,10 +355,10 @@ export default {
                         <img src="@/assets/images/users/avatar-2.jpg" alt=""
                             class="avatar-md rounded-circle object-fit-cover mt-n5 border border-5 border-light mx-auto d-block">
                         <router-link to="/pages/profile">
-                            <h5 class="mt-2 mb-1 fs-15">Michael Morris</h5>
+                            <h5 class="mt-2 mb-1">Michael Morris</h5>
                         </router-link>
-                        <p class="text-muted mb-2 fs-14">10137/ Products</p>
-                        <p class="text-muted fs-14">You can make an NFT of a digital painting, a text, a piece of music, a
+                        <p class="text-muted mb-2">10137/ Products</p>
+                        <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
                         <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
                     </BCardBody>
@@ -372,12 +372,12 @@ export default {
                         <img src="@/assets/images/users/avatar-6.jpg" alt=""
                             class="avatar-md rounded-circle object-fit-cover mt-n5 border border-5 border-light mx-auto d-block">
                         <router-link to="/pages/profile">
-                            <h5 class="mt-2 mb-1 fs-15">Tonya Noble</h5>
+                            <h5 class="mt-2 mb-1">Tonya Noble</h5>
                         </router-link>
-                        <p class="text-muted mb-2 fs-14">364 Products</p>
-                        <p class="text-muted fs-14">You can make an NFT of a digital painting, a text, a piece of music, a
+                        <p class="text-muted mb-2">364 Products</p>
+                        <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="secondary" class="w-100">Follow</BButton>
+                        <BButton variant="primary" class="w-100">Follow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -388,10 +388,10 @@ export default {
                         <img src="@/assets/images/nft/img-06.jpg" alt=""
                             class="avatar-md rounded-circle object-fit-cover mt-n5 border border-5 border-light mx-auto d-block">
                         <router-link to="/pages/profile">
-                            <h5 class="mt-2 mb-1 fs-15">Nancy Martino</h5>
+                            <h5 class="mt-2 mb-1">Nancy Martino</h5>
                         </router-link>
-                        <p class="text-muted mb-2 fs-14">9513 Products</p>
-                        <p class="text-muted fs-14">You can make an NFT of a digital painting, a text, a piece of music, a
+                        <p class="text-muted mb-2">9513 Products</p>
+                        <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
                         <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
                     </BCardBody>
@@ -404,12 +404,12 @@ export default {
                         <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt=""
                             class="avatar-md rounded-circle object-fit-cover mt-n5 border border-5 border-light mx-auto d-block">
                         <router-link to="/pages/profile">
-                            <h5 class="mt-2 mb-1 fs-15">Kevin Dawson</h5>
+                            <h5 class="mt-2 mb-1">Kevin Dawson</h5>
                         </router-link>
-                        <p class="text-muted mb-2 fs-14">6374 Products</p>
-                        <p class="text-muted fs-14">You can make an NFT of a digital painting, a text, a piece of music, a
+                        <p class="text-muted mb-2">6374 Products</p>
+                        <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="secondary" class="w-100">Follow</BButton>
+                        <BButton variant="primary" class="w-100">Follow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -421,10 +421,10 @@ export default {
                         <img src="@/assets/images/users/avatar-10.jpg" alt=""
                             class="avatar-md rounded-circle object-fit-cover mt-n5 border border-5 border-light mx-auto d-block">
                         <router-link to="/pages/profile">
-                            <h5 class="mt-2 mb-1 fs-15">Glen Matney</h5>
+                            <h5 class="mt-2 mb-1">Glen Matney</h5>
                         </router-link>
-                        <p class="text-muted mb-2 fs-14">7809 Products</p>
-                        <p class="text-muted fs-14">You can make an NFT of a digital painting, a text, a piece of music, a
+                        <p class="text-muted mb-2">7809 Products</p>
+                        <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
                         <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
                     </BCardBody>

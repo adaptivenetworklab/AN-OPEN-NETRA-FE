@@ -119,16 +119,16 @@ $topbar-search-bg-dark:                                             #202328;
 $topbar-search-color-dark:                                          $white;
 
 //page-title
-$page-title-border-dark:                                            #32383e;
+$page-title-border-dark:                                            none;
 $page-title-box-shadow-dark:                                        0 1px 2px rgba(56,65,74,0.15);
 
 // Topbar - dark
-$dark-header-bg-dark:                                               #2a2f34;
-$dark-header-border-dark:                                           #2a2f34;
+$dark-header-bg-dark:                                               $primary;
+$dark-header-border-dark:                                           $primary;
 $dark-header-item-color-dark:                                       rgba($white, .85);
-$dark-header-item-bg-dark:                                          #363b42;
+$dark-header-item-bg-dark:                                          #6275f5;
 $dark-header-item-sub-color-dark:                                   #b0c4d9; 
-$dark-topbar-user-bg-dark:                                          #31373c;
+$dark-topbar-user-bg-dark:                                          #5e72f1;
 $dark-topbar-search-bg-dark:                                        rgba($white, .05);
 $dark-topbar-search-color-dark:                                     $white;
 
@@ -156,18 +156,18 @@ $vertical-menu-sub-item-active-color-dark:                          $primary;
 $vertical-menu-title-color-dark:                                    #919da9;
 
 //sidebar dark 
-$dark-vertical-menu-bg-dark:                                        #212428;
-$dark-vertical-menu-border-dark:                                    #212428;
-$dark-vertical-menu-item-color-dark:                                #9aaab3;
+$dark-vertical-menu-bg-dark:                                        #212529;
+$dark-vertical-menu-border-dark:                                    #212529;
+$dark-vertical-menu-item-color-dark:                                #7c7f90;
 $dark-vertical-menu-item-bg-dark:                                   rgba($white, .15);
 $dark-vertical-menu-item-hover-color-dark:                          $white;
 $dark-vertical-menu-item-active-color-dark:                         $white;
 $dark-vertical-menu-item-active-bg-dark:                            rgba($white, .15);
-$dark-vertical-menu-sub-item-color-dark:                            #9aaab3;
+$dark-vertical-menu-sub-item-color-dark:                            #7c7f90;
 $dark-vertical-menu-sub-item-hover-color-dark:                      $white;
 $dark-vertical-menu-sub-item-active-color-dark:                     $white;
-$dark-vertical-menu-title-color-dark:                               #aeafaf;
-$dark-twocolumn-menu-iconview-bg-dark:                              #1d2024;
+$dark-vertical-menu-title-color-dark:                               #5f6270;
+$dark-twocolumn-menu-iconview-bg-dark:                              #292e32;
 
 //sidebar gradient
 $vertical-menu-item-color-gradient-dark:                            rgba($white, .5);
@@ -181,21 +181,21 @@ $vertical-menu-sub-item-active-color-gradient-dark:                 $white;
 $vertical-menu-title-color-gradient-dark:                           rgba($white, .5);
 
 //gradient one
-$vertical-menu-bg-gradient-dark:                                    linear-gradient(to right, var(--#{$prefix}primary), var(--#{$prefix}success));
-$vertical-menu-border-gradient-dark:                                var(--#{$prefix}success);
-$twocolumn-menu-iconview-bg-gradient-dark:                          var(--#{$prefix}primary);
+$vertical-menu-bg-gradient-dark:                                    linear-gradient(to right, $purple-900, $purple-800);
+$vertical-menu-border-gradient-dark:                                $purple-800;
+$twocolumn-menu-iconview-bg-gradient-dark:                          $purple-900;
 
 //gradient-2
-$vertical-menu-bg-gradient-2-dark:                                  linear-gradient(to right, var(--#{$prefix}info), var(--#{$prefix}secondary));
-$vertical-menu-border-gradient-2-dark:                              var(--#{$prefix}secondary);
-$twocolumn-menu-iconview-bg-gradient-2-dark:                        var(--#{$prefix}info);
+$vertical-menu-bg-gradient-2-dark:                                  linear-gradient(to right, $cyan-900, $cyan-800);
+$vertical-menu-border-gradient-2-dark:                              $cyan-800;
+$twocolumn-menu-iconview-bg-gradient-2-dark:                        $cyan-900;
 
 //gradient-3
-$vertical-menu-bg-gradient-3-dark:                                  linear-gradient(to right, var(--#{$prefix}info), var(--#{$prefix}success));
-$vertical-menu-border-gradient-3-dark:                              var(--#{$prefix}success);
-$twocolumn-menu-iconview-bg-gradient-3-dark:                        var(--#{$prefix}info);
+$vertical-menu-bg-gradient-3-dark:                                  linear-gradient(to right, $green-900, $green-800);
+$vertical-menu-border-gradient-3-dark:                              $green-800;
+$twocolumn-menu-iconview-bg-gradient-3-dark:                        $green-900;
 
 //gradient-4
-$vertical-menu-bg-gradient-4-dark:                                  linear-gradient(to right, #1a1d21, var(--#{$prefix}primary));
-$vertical-menu-border-gradient-4-dark:                              var(--#{$prefix}primary);
-$twocolumn-menu-iconview-bg-gradient-4-dark:                        #1a1d21;
+$vertical-menu-bg-gradient-4-dark:                                  linear-gradient(to right, $orange-900, $orange-800);
+$vertical-menu-border-gradient-4-dark:                              $orange-800;
+$twocolumn-menu-iconview-bg-gradient-4-dark:                        $orange-900;

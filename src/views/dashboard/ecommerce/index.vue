@@ -2,7 +2,7 @@
 import getChartColorsArray from "@/common/getChartColorsArray";
 
 import { CountTo } from "vue3-count-to";
-import  simpleBar  from "simplebar-vue";
+import  SimpleBar  from "simplebar-vue";
 
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay, Mousewheel } from "swiper/modules";
@@ -26,7 +26,7 @@ export default {
     flatPickr,
     Revenue,
     SalesLocation,
-    simpleBar
+    SimpleBar
   },
   data() {
     return {
@@ -52,7 +52,7 @@ export default {
             enabled: false,
           },
         },
-        colors: getChartColorsArray('["--vz-primary","--vz-primary-rgb, 0.85", "--vz-primary-rgb, 0.70", "--vz-primary-rgb, 0.60", "--vz-primary-rgb, 0.45"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-secondary", "--vz-info", "--vz-warning"]'),
       },
       Autoplay, Mousewheel
     };
@@ -122,7 +122,7 @@ export default {
                       <BCol sm="auto">
                         <div class="input-group">
                           <flat-pickr v-model="date" :config="config"
-                            class="form-control border dash-filter-picker shadow"></flat-pickr>
+                            class="form-control border-0 dash-filter-picker shadow"></flat-pickr>
 
                           <div class="input-group-text bg-primary border-primary text-white">
                             <i class="ri-calendar-2-line"></i>
@@ -130,13 +130,13 @@ export default {
                         </div>
                       </BCol>
                       <div class="col-auto">
-                        <BButton type="button" variant="soft-primary">
+                        <BButton type="button" variant="soft-secondary">
                           <i class="ri-add-circle-line align-middle me-1"></i>
                           Add Product
                         </BButton>
                       </div>
                       <div class="col-auto">
-                        <BButton type="button" variant="soft-secondary" class="btn-icon waves-effect layout-rightside-btn"
+                        <BButton type="button" variant="soft-success" class="btn-icon waves-effect layout-rightside-btn"
                           @click="rightcolumn">
                           <i class="ri-pulse-line"></i>
                         </BButton>
@@ -167,14 +167,14 @@ export default {
                   </div>
                   <div class="d-flex align-items-end justify-content-between mt-4">
                     <div>
-                      <h4 class="fs-22 fw-semibold ff-secondary mb-4">
+                      <h4 class="fs-20 fw-semibold ff-secondary mb-4">
                         $<count-to :startVal='0' :endVal='559' :duration='5000'></count-to>k
                       </h4>
                       <BLink href="" class="text-decoration-underline">View net earnings</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
-                      <span class="avatar-title bg-primary-subtle rounded fs-3">
-                        <i class="bx bx-dollar-circle text-primary"></i>
+                      <span class="avatar-title bg-secondary-subtle rounded fs-3">
+                        <i class="bx bx-dollar-circle text-secondary"></i>
                       </span>
                     </div>
                   </div>
@@ -200,7 +200,7 @@ export default {
                   </div>
                   <div class="d-flex align-items-end justify-content-between mt-4">
                     <div>
-                      <h4 class="fs-22 fw-semibold ff-secondary mb-4">
+                      <h4 class="fs-20 fw-semibold ff-secondary mb-4">
                         <count-to :startVal='0' :endVal='36894' :duration='5000'></count-to>
                       </h4>
                       <BLink href="" class="text-decoration-underline">View all orders</BLink>
@@ -233,15 +233,15 @@ export default {
                   </div>
                   <div class="d-flex align-items-end justify-content-between mt-4">
                     <div>
-                      <h4 class="fs-22 fw-semibold ff-secondary mb-4">
+                      <h4 class="fs-20 fw-semibold ff-secondary mb-4">
                         <count-to :startVal='0' :endVal='183' :duration='5000'></count-to>M
 
                       </h4>
                       <BLink href="" class="text-decoration-underline">See details</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
-                      <span class="avatar-title bg-primary-subtle rounded fs-3">
-                        <i class="bx bx-user-circle text-primary"></i>
+                      <span class="avatar-title bg-success-subtle rounded fs-3">
+                        <i class="bx bx-user-circle text-success"></i>
                       </span>
                     </div>
                   </div>
@@ -264,14 +264,14 @@ export default {
                   </div>
                   <div class="d-flex align-items-end justify-content-between mt-4">
                     <div>
-                      <h4 class="fs-22 fw-semibold ff-secondary mb-4">
+                      <h4 class="fs-20 fw-semibold ff-secondary mb-4">
                         $<count-to :startVal='0' :endVal='165' :duration='5000'></count-to>k
                       </h4>
                       <BLink href="" class="text-decoration-underline">Withdraw money</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
-                      <span class="avatar-title bg-primary-subtle rounded fs-3">
-                        <i class="bx bx-wallet text-primary"></i>
+                      <span class="avatar-title bg-warning-subtle rounded fs-3">
+                        <i class="bx bx-wallet text-warning"></i>
                       </span>
                     </div>
                   </div>
@@ -544,7 +544,7 @@ export default {
                                 <img src="@/assets/images/companies/img-1.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div>
-                                <h5 class="fs-14 my-1 fw-medium">
+                                <h5 class="fs-14 my-1">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">iTest Factory
                                   </router-link>
                                 </h5>
@@ -575,7 +575,7 @@ export default {
                                 <img src="@/assets/images/companies/img-2.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-grow-1">
-                                <h5 class="fs-14 my-1 fw-medium">
+                                <h5 class="fs-14 my-1">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Digitech Galaxy
                                   </router-link>
                                 </h5>
@@ -606,7 +606,7 @@ export default {
                                 <img src="@/assets/images/companies/img-3.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-gow-1">
-                                <h5 class="fs-14 my-1 fw-medium">
+                                <h5 class="fs-14 my-1">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Nesta Technologies
                                   </router-link>
                                 </h5>
@@ -637,7 +637,7 @@ export default {
                                 <img src="@/assets/images/companies/img-8.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-grow-1">
-                                <h5 class="fs-14 my-1 fw-medium">
+                                <h5 class="fs-14 my-1">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Zoetic Fashion
                                   </router-link>
                                 </h5>
@@ -668,7 +668,7 @@ export default {
                                 <img src="@/assets/images/companies/img-5.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-grow-1">
-                                <h5 class="fs-14 my-1 fw-medium">
+                                <h5 class="fs-14 my-1">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Meta4Systems
                                   </router-link>
                                 </h5>
@@ -759,7 +759,7 @@ export default {
                 <BCardHeader class="align-items-center d-flex">
                   <BCardTitle class="mb-0 flex-grow-1">Recent Orders</BCardTitle>
                   <div class="flex-shrink-0">
-                    <BButton type="button" variant="soft-primary" size="sm">
+                    <BButton type="button" variant="soft-secondary" size="sm">
                       <i class="ri-file-list-3-line align-middle"></i> Generate
                       Report
                     </BButton>
@@ -783,7 +783,7 @@ export default {
                       <tbody>
                         <tr>
                           <td>
-                            <router-link to="/ecommerce/order-details" class="fw-medium link-primary">#VZ2112
+                            <router-link to="/ecommerce/order-details" class="fw-medium text-reset">#VZ2112
                             </router-link>
                           </td>
                           <td>
@@ -796,7 +796,7 @@ export default {
                           </td>
                           <td>Clothes</td>
                           <td>
-                            <span class="text-success">$109.00</span>
+                            <span class="text-primary">$109.00</span>
                           </td>
                           <td>Zoetic Fashion</td>
                           <td>
@@ -810,7 +810,7 @@ export default {
                         </tr>
                         <tr>
                           <td>
-                            <router-link to="/ecommerce/order-details" class="fw-medium link-primary">#VZ2111
+                            <router-link to="/ecommerce/order-details" class="fw-medium text-reset">#VZ2111
                             </router-link>
                           </td>
                           <td>
@@ -823,7 +823,7 @@ export default {
                           </td>
                           <td>Kitchen Storage</td>
                           <td>
-                            <span class="text-success">$149.00</span>
+                            <span class="text-primary">$149.00</span>
                           </td>
                           <td>Micro Design</td>
                           <td>
@@ -837,7 +837,7 @@ export default {
                         </tr>
                         <tr>
                           <td>
-                            <router-link to="/ecommerce/order-details" class="fw-medium link-primary">#VZ2109
+                            <router-link to="/ecommerce/order-details" class="fw-medium text-reset">#VZ2109
                             </router-link>
                           </td>
                           <td>
@@ -850,7 +850,7 @@ export default {
                           </td>
                           <td>Bike Accessories</td>
                           <td>
-                            <span class="text-success">$215.00</span>
+                            <span class="text-primary">$215.00</span>
                           </td>
                           <td>Nesta Technologies</td>
                           <td>
@@ -864,7 +864,7 @@ export default {
                         </tr>
                         <tr>
                           <td>
-                            <router-link to="/ecommerce/order-details" class="fw-medium link-primary">#VZ2108
+                            <router-link to="/ecommerce/order-details" class="fw-medium text-reset">#VZ2108
                             </router-link>
                           </td>
                           <td>
@@ -877,7 +877,7 @@ export default {
                           </td>
                           <td>Furniture</td>
                           <td>
-                            <span class="text-success">$199.00</span>
+                            <span class="text-primary">$199.00</span>
                           </td>
                           <td>Syntyce Solutions</td>
                           <td>
@@ -891,7 +891,7 @@ export default {
                         </tr>
                         <tr>
                           <td>
-                            <router-link to="/ecommerce/order-details" class="fw-medium link-primary">#VZ2107
+                            <router-link to="/ecommerce/order-details" class="fw-medium text-reset">#VZ2107
                             </router-link>
                           </td>
                           <td>
@@ -904,7 +904,7 @@ export default {
                           </td>
                           <td>Bags and Wallets</td>
                           <td>
-                            <span class="text-success">$330.00</span>
+                            <span class="text-primary">$330.00</span>
                           </td>
                           <td>iTest Factory</td>
                           <td>
@@ -926,7 +926,7 @@ export default {
         </div>
       </BCol>
 
-      <div class="col-auto layout-rightside-col d-block">
+      <div class="col-auto layout-rightside-col d-none">
         <div class="overlay" @click="hiderightcolumn"></div>
         <div class="layout-rightside">
           <BCard no-body class="h-100 rounded-0">
@@ -936,16 +936,16 @@ export default {
                   Recent Activity
                 </h6>
               </div>
-              <simpleBar data-simplebar style="max-height: 410px" class="p-3 pt-0">
+              <SimpleBar data-simplebar style="max-height: 410px" class="p-3 pt-0">
                 <div class="acitivity-timeline acitivity-main">
                   <div class="acitivity-item d-flex">
                     <div class="flex-shrink-0 avatar-xs acitivity-avatar">
-                      <div class="avatar-title bg-primary-subtle text-primary rounded-circle">
+                      <div class="avatar-title bg-success-subtle text-success rounded-circle">
                         <i class="ri-shopping-cart-2-line"></i>
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-1">Purchase by James Price</h6>
+                      <h6 class="mb-1 lh-base">Purchase by James Price</h6>
                       <p class="text-muted mb-1">
                         Product noise evolve smartwatch
                       </p>
@@ -1054,7 +1054,7 @@ export default {
                   <div class="acitivity-item py-3 d-flex">
                     <div class="flex-shrink-0">
                       <div class="avatar-xs acitivity-avatar">
-                        <div class="avatar-title rounded-circle bg-primary-subtle text-primary">
+                        <div class="avatar-title rounded-circle bg-info-subtle text-info">
                           <i class="ri-line-chart-line"></i>
                         </div>
                       </div>
@@ -1085,7 +1085,7 @@ export default {
                     </div>
                   </div>
                 </div>
-              </simpleBar>
+              </SimpleBar>
 
               <div class="p-3 mt-2">
                 <h6 class="text-muted mb-3 text-uppercase fw-semibold">
@@ -1332,7 +1332,7 @@ export default {
                     </div>
                     <BCol>
                       <div class="p-1">
-                        <BProgress variant="primary" class="animated-progess progress-sm" :value="29.32" />
+                        <BProgress variant="success" class="animated-progess progress-sm" :value="29.32" />
                       </div>
                     </BCol>
                     <div class="col-auto">
@@ -1368,7 +1368,7 @@ export default {
                     </div>
                     <BCol>
                       <div class="p-1">
-                        <BProgress variant="primary" class="animated-progess progress-sm" :value="4.98" />
+                        <BProgress variant="success" class="animated-progess progress-sm" :value="4.98" />
                       </div>
                     </BCol>
 

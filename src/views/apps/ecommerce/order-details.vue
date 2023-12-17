@@ -85,7 +85,7 @@ export default {
                         </div>
                         <div class="flex-grow-1 ms-3">
                           <h5 class="fs-15">
-                            <router-link to="/ecommerce/product-details" class="link-primary">{{ item.product }}
+                            <router-link to="/ecommerce/product-details" class="text-reset">{{ item.product }}
                             </router-link>
                           </h5>
                           <p class="text-muted mb-0">
@@ -166,7 +166,7 @@ export default {
                     <BLink class="accordion-button p-2 shadow-none" v-b-toggle.collapseOne>
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0 avatar-xs">
-                          <div class="avatar-title bg-primary rounded-circle">
+                          <div class="avatar-title bg-success rounded-circle">
                             <i class="ri-shopping-bag-line"></i>
                           </div>
                         </div>
@@ -193,7 +193,7 @@ export default {
                     <BLink class="accordion-button p-2 shadow-none" v-b-toggle.collapseTwo>
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0 avatar-xs">
-                          <div class="avatar-title bg-primary rounded-circle">
+                          <div class="avatar-title bg-success rounded-circle">
                             <i class="mdi mdi-gift-outline"></i>
                           </div>
                         </div>
@@ -220,7 +220,7 @@ export default {
                     <BLink class="accordion-button p-2 shadow-none" v-b-toggle.collapseThree>
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0 avatar-xs">
-                          <div class="avatar-title bg-primary rounded-circle">
+                          <div class="avatar-title bg-success rounded-circle">
                             <i class="ri-truck-line"></i>
                           </div>
                         </div>
@@ -247,7 +247,7 @@ export default {
                       aria-expanded="false">
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0 avatar-xs">
-                          <div class="avatar-title bg-light text-primary rounded-circle">
+                          <div class="avatar-title bg-light text-success rounded-circle">
                             <i class="ri-takeaway-fill"></i>
                           </div>
                         </div>
@@ -266,7 +266,7 @@ export default {
                       aria-expanded="false">
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0 avatar-xs">
-                          <div class="avatar-title bg-light text-primary rounded-circle">
+                          <div class="avatar-title bg-light text-success rounded-circle">
                             <i class="mdi mdi-package-variant"></i>
                           </div>
                         </div>
@@ -297,7 +297,7 @@ export default {
           </BCardHeader>
           <BCardBody>
             <div class="text-center">
-              <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions" :height="80" :width="80" />
+              <lottie colors="primary:#405189,secondary:#08a88a" :options="defaultOptions" :height="80" :width="80" />
               <h5 class="fs-16 mt-2">RQK Logistics</h5>
               <p class="text-muted mb-0">ID: MFDS1400457854</p>
               <p class="text-muted mb-0">Payment Mode : Debit Card</p>
