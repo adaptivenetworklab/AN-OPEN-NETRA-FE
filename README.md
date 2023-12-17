@@ -7,11 +7,7 @@
 
 Open Netra, standing for Open Network Training, is a comprehensive solution designed to facilitate the training, simulation, and management of 5G networks. The primary functionalities of Open Netra include E2E (End-to-End) 5G dashboard simulation and RAN (Radio Access Network) monitoring & configuration. The entire infrastructure is built on a foundation of virtualized network functions, specifically implemented as OpenAirInterface containers, orchestrated and managed by Kubernetes.
 
-## Task 1: UI/UX Design 🎨
-
-## Task 2: Frontend Development 🖼️
-
-### 2.1 Pre-requisite
+## Pre-requisite
 
 * **NodeJs Installation**
     * Download and import the Nodesource GPG key 
