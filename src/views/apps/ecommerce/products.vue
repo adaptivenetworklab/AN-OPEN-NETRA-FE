@@ -277,14 +277,14 @@ export default {
                   <li>
                     <BLink href="#" class="d-flex py-1 align-items-center">
                       <div class="flex-grow-1">
-                        <h5 class="fs-13 mb-0 listname">Grocery</h5>
+                        <h5 class="fs-12 mb-0 listname">Grocery</h5>
                       </div>
                     </BLink>
                   </li>
                   <li>
                     <BLink href="#" class="d-flex py-1 align-items-center">
                       <div class="flex-grow-1">
-                        <h5 class="fs-13 mb-0 listname">Fashion</h5>
+                        <h5 class="fs-12 mb-0 listname">Fashion</h5>
                       </div>
                       <div class="flex-shrink-0 ms-2">
                         <BBadge class="bg-light text-muted">5</BBadge>
@@ -294,14 +294,14 @@ export default {
                   <li>
                     <BLink href="#" class="d-flex py-1 align-items-center">
                       <div class="flex-grow-1">
-                        <h5 class="fs-13 mb-0 listname">Watches</h5>
+                        <h5 class="fs-12 mb-0 listname">Watches</h5>
                       </div>
                     </BLink>
                   </li>
                   <li>
                     <BLink href="#" class="d-flex py-1 align-items-center">
                       <div class="flex-grow-1">
-                        <h5 class="fs-13 mb-0 listname">Electronics</h5>
+                        <h5 class="fs-12 mb-0 listname">Electronics</h5>
                       </div>
                       <div class="flex-shrink-0 ms-2">
                         <BBadge class="bg-light text-muted">5</BBadge>
@@ -311,7 +311,7 @@ export default {
                   <li>
                     <BLink href="#" class="d-flex py-1 align-items-center">
                       <div class="flex-grow-1">
-                        <h5 class="fs-13 mb-0 listname">Furniture</h5>
+                        <h5 class="fs-12 mb-0 listname">Furniture</h5>
                       </div>
                       <div class="flex-shrink-0 ms-2">
                         <BBadge class="bg-light text-muted">6</BBadge>
@@ -321,14 +321,14 @@ export default {
                   <li>
                     <BLink href="#" class="d-flex py-1 align-items-center">
                       <div class="flex-grow-1">
-                        <h5 class="fs-13 mb-0 listname">Automotive Accessories</h5>
+                        <h5 class="fs-12 mb-0 listname">Automotive Accessories</h5>
                       </div>
                     </BLink>
                   </li>
                   <li>
                     <BLink href="#" class="d-flex py-1 align-items-center">
                       <div class="flex-grow-1">
-                        <h5 class="fs-13 mb-0 listname">Appliances</h5>
+                        <h5 class="fs-12 mb-0 listname">Appliances</h5>
                       </div>
                       <div class="flex-shrink-0 ms-2">
                         <BBadge class="bg-light text-muted">7</BBadge>
@@ -339,7 +339,7 @@ export default {
                   <li>
                     <BLink href="#" class="d-flex py-1 align-items-center">
                       <div class="flex-grow-1">
-                        <h5 class="fs-13 mb-0 listname">Kids</h5>
+                        <h5 class="fs-12 mb-0 listname">Kids</h5>
                       </div>
                     </BLink>
                   </li>
@@ -359,7 +359,7 @@ export default {
             <div class="accordion-item">
               <h2 class="accordion-header" id="flush-headingBrands">
                 <button class="accordion-button bg-transparent shadow-none" type="button" v-b-toggle.flush-collapseBrands>
-                  <span class="text-muted text-uppercase fs-12 fw-medium">Brands</span>
+                  <span class="text-muted text-uppercase fs-12 fw-semibold">Brands</span>
                   <BBadge variant="success" class="rounded-pill align-middle ms-1">2</BBadge>
                 </button>
               </h2>
@@ -406,7 +406,7 @@ export default {
               <h2 class="accordion-header" id="flush-headingDiscount">
                 <button class="accordion-button bg-transparent shadow-none collapsed" type="button"
                   v-b-toggle.flush-collapseDiscount>
-                  <span class="text-muted text-uppercase fs-12 fw-medium">Discount</span>
+                  <span class="text-muted text-uppercase fs-12 fw-semibold">Discount</span>
                   <BBadge variant="success" class="rounded-pill align-middle ms-1">1</BBadge>
                 </button>
               </h2>
@@ -533,7 +533,7 @@ export default {
               <BRow class="g-4">
                 <BCol sm="auto">
                   <div>
-                    <router-link to="/ecommerce/add-product" class="btn btn-secondary"><i
+                    <router-link to="/ecommerce/add-product" class="btn btn-success"><i
                         class="ri-add-line align-bottom me-1"></i> Add
                       Product</router-link>
                   </div>

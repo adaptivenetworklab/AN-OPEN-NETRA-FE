@@ -32,40 +32,35 @@ export default {
                                     <h5 class="fs-13 mb-3">Border width</h5>
                                     <div class="d-flex align-items-start flex-wrap gap-4">
                                         <div class="text-center">
-                                            <div
-                                                class="border border-1 border-light avatar-md bg-transparent mx-auto mb-1">
+                                            <div class="border border-1 border-light avatar-md bg-transparent mx-auto mb-1">
                                             </div>
                                             <p>
                                                 <code>.border.border-1</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <div
-                                                class="border border-2 border-light avatar-md bg-transparent mx-auto mb-1">
+                                            <div class="border border-2 border-light avatar-md bg-transparent mx-auto mb-1">
                                             </div>
                                             <p>
                                                 <code>.border.border-2</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <div
-                                                class="border border-3 border-light avatar-md bg-transparent mx-auto mb-1">
+                                            <div class="border border-3 border-light avatar-md bg-transparent mx-auto mb-1">
                                             </div>
                                             <p>
                                                 <code>.border.border-3</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <div
-                                                class="border border-4 border-light avatar-md bg-transparent mx-auto mb-1">
+                                            <div class="border border-4 border-light avatar-md bg-transparent mx-auto mb-1">
                                             </div>
                                             <p>
                                                 <code>.border.border-4</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <div
-                                                class="border border-5 border-light avatar-md bg-transparent mx-auto mb-1">
+                                            <div class="border border-5 border-light avatar-md bg-transparent mx-auto mb-1">
                                             </div>
                                             <p>
                                                 <code>.border.border-5</code>
@@ -80,8 +75,7 @@ export default {
                                             <BRow>
                                                 <BCol xl="2" sm="4">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border avatar-md border-success bg-light mx-auto mb-1">
+                                                        <div class="border avatar-md border-success bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border</code>
@@ -90,8 +84,7 @@ export default {
                                                 </BCol>
                                                 <BCol xl="2" sm="4">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border-top avatar-md border-success bg-light mx-auto mb-1">
+                                                        <div class="border-top avatar-md border-success bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-top</code>
@@ -100,8 +93,7 @@ export default {
                                                 </BCol>
                                                 <BCol xl="2" sm="4">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border-end avatar-md border-success bg-light mx-auto mb-1">
+                                                        <div class="border-end avatar-md border-success bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-end</code>
@@ -110,8 +102,7 @@ export default {
                                                 </BCol>
                                                 <BCol xl="2" sm="4">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border-bottom avatar-md border-success bg-light mx-auto mb-1">
+                                                        <div class="border-bottom avatar-md border-success bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-bottom</code>
@@ -120,8 +111,7 @@ export default {
                                                 </BCol>
                                                 <BCol xl="2" sm="4">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border-start avatar-md border-success bg-light mx-auto mb-1">
+                                                        <div class="border-start avatar-md border-success bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-start</code>
@@ -138,8 +128,7 @@ export default {
                                             <BRow>
                                                 <BCol xl="2" sm="4">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border-0 border-success avatar-md bg-light mx-auto mb-1">
+                                                        <div class="border-0 border-success avatar-md bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-0</code>
@@ -148,8 +137,7 @@ export default {
                                                 </BCol>
                                                 <BCol xl="2" sm="4">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border border-success border-top-0 avatar-md bg-light mx-auto mb-1">
+                                                        <div class="border border-success border-top-0 avatar-md bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-top-0</code>
@@ -158,8 +146,7 @@ export default {
                                                 </BCol>
                                                 <BCol xl="2" sm="4">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border border-success border-end-0 avatar-md bg-light mx-auto mb-1">
+                                                        <div class="border border-success border-end-0 avatar-md bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-end-0</code>
@@ -168,8 +155,7 @@ export default {
                                                 </BCol>
                                                 <BCol xl="2" sm="4">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border border-success border-bottom-0 avatar-md bg-light mx-auto mb-1">
+                                                        <div class="border border-success border-bottom-0 avatar-md bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-bottom-0</code>
@@ -178,8 +164,7 @@ export default {
                                                 </BCol>
                                                 <BCol xl="2" sm="4">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border border-start-0 border-success avatar-md bg-light mx-auto mb-1">
+                                                        <div class="border border-start-0 border-success avatar-md bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-start-0</code>
@@ -243,48 +228,42 @@ export default {
                                             <h5 class="fs-13 mb-3">Border Style</h5>
                                             <div class="d-flex align-items-start flex-wrap gap-4">
                                                 <div class="text-center">
-                                                    <div
-                                                        class="border border-primary border-dotted avatar-md bg-light mx-auto mb-1">
+                                                    <div class="border border-primary border-dotted avatar-md bg-light mx-auto mb-1">
                                                     </div>
                                                     <p>
                                                         <code>.border-dotted</code>
                                                     </p>
                                                 </div>
                                                 <div class="text-center">
-                                                    <div
-                                                        class="border border-secondary border-dashed avatar-md bg-light mx-auto mb-1">
+                                                    <div class="border border-secondary border-dashed avatar-md bg-light mx-auto mb-1">
                                                     </div>
                                                     <p>
                                                         <code>.border-dashed</code>
                                                     </p>
                                                 </div>
                                                 <div class="text-center">
-                                                    <div
-                                                        class="border border-success border-groove avatar-md bg-light mx-auto mb-1">
+                                                    <div class="border border-success border-groove avatar-md bg-light mx-auto mb-1">
                                                     </div>
                                                     <p>
                                                         <code>.border-groove</code>
                                                     </p>
                                                 </div>
                                                 <div class="text-center">
-                                                    <div
-                                                        class="border border-info border-outset avatar-md bg-light mx-auto mb-1">
+                                                    <div class="border border-info border-outset avatar-md bg-light mx-auto mb-1">
                                                     </div>
                                                     <p>
                                                         <code>.border-outset</code>
                                                     </p>
                                                 </div>
                                                 <div class="text-center">
-                                                    <div
-                                                        class="border border-warning border-ridge avatar-md bg-light mx-auto mb-1">
+                                                    <div class="border border-warning border-ridge avatar-md bg-light mx-auto mb-1">
                                                     </div>
                                                     <p>
                                                         <code>.border-ridge</code>
                                                     </p>
                                                 </div>
                                                 <div class="text-center">
-                                                    <div
-                                                        class="border border-danger border-inset avatar-md bg-light mx-auto mb-1">
+                                                    <div class="border border-danger border-inset avatar-md bg-light mx-auto mb-1">
                                                     </div>
                                                     <p>
                                                         <code>.border-inset</code>
@@ -300,8 +279,7 @@ export default {
                                             <BRow>
                                                 <BCol sm="3">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border-start border-start-dashed border-success avatar-md bg-light mx-auto mb-1">
+                                                        <div class="border-start border-start-dashed border-success avatar-md bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-start-dashed</code>
@@ -310,8 +288,7 @@ export default {
                                                 </BCol>
                                                 <BCol sm="3">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border-top border-top-dashed border-success avatar-md bg-light mx-auto mb-1">
+                                                        <div class="border-top border-top-dashed border-success avatar-md bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-top-dashed</code>
@@ -320,8 +297,7 @@ export default {
                                                 </BCol>
                                                 <BCol sm="3">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border-end border-end-dashed border-success avatar-md bg-light mx-auto mb-1">
+                                                        <div class="border-end border-end-dashed border-success avatar-md bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-end-dashed</code>
@@ -330,8 +306,7 @@ export default {
                                                 </BCol>
                                                 <BCol sm="3">
                                                     <div class="text-center">
-                                                        <div
-                                                            class="border-bottom border-bottom-dashed border-success avatar-md bg-light mx-auto mb-1">
+                                                        <div class="border-bottom border-bottom-dashed border-success avatar-md bg-light mx-auto mb-1">
                                                         </div>
                                                         <p>
                                                             <code>.border-bottom-dashed</code>
@@ -345,7 +320,7 @@ export default {
                             </div>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
         </BRow>
 
@@ -364,57 +339,49 @@ export default {
                                 <div>
                                     <div class="d-flex align-items-start flex-wrap gap-4">
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded"
-                                                alt="rounded" />
+                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded" alt="rounded" />
                                             <p>
                                                 <code>.rounded</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded-top"
-                                                alt="rounded-top" />
+                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded-top" alt="rounded-top" />
                                             <p>
                                                 <code>.rounded-top</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded-end"
-                                                alt="rounded-end" />
+                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded-end" alt="rounded-end" />
                                             <p>
                                                 <code>.rounded-end</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-2.jpg"
-                                                class="avatar-md rounded-bottom" alt="rounded-bottom" />
+                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded-bottom" alt="rounded-bottom" />
                                             <p>
                                                 <code>.rounded-bottom</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-2.jpg"
-                                                class="avatar-md rounded-start" alt="rounded-start" />
+                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded-start" alt="rounded-start" />
                                             <p>
                                                 <code>.rounded-start</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-2.jpg"
-                                                class="avatar-md rounded-circle" alt="rounded-circle" />
+                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded-circle" alt="rounded-circle" />
                                             <p>
                                                 <code>.rounded-circle</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded-top"
-                                                alt="rounded-top" />
+                                            <img src="@/assets/images/users/avatar-2.jpg" class="avatar-md rounded-top" alt="rounded-top" />
                                             <p>
                                                 <code>.rounded-top</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/small/img-2.jpg"
-                                                class="avatar-md w-auto rounded-pill" alt="rounded-pill" />
+                                            <img src="@/assets/images/small/img-2.jpg" class="avatar-md w-auto rounded-pill" alt="rounded-pill" />
                                             <p>
                                                 <code>.rounded-pill</code>
                                             </p>
@@ -425,41 +392,35 @@ export default {
                                     <h5 class="fs-13 mb-3">Sizes</h5>
                                     <div class="d-flex align-items-start flex-wrap gap-4">
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-0"
-                                                alt="rounded-0" />
+                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-0" alt="rounded-0" />
                                             <p>
                                                 <code>.rounded-0</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-1"
-                                                alt="rounded-1" />
+                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-1" alt="rounded-1" />
                                             <p>
                                                 <code>.rounded-1</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-2"
-                                                alt="rounded-2" />
+                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-2" alt="rounded-2" />
                                             <p>
                                                 <code>.rounded-2</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-3"
-                                                alt="rounded-3" />
+                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-3" alt="rounded-3" />
                                             <p>
                                                 <code>.rounded-3</code>
                                             </p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-4"
-                                                alt="rounded-4">
+                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-4" alt="rounded-4">
                                             <p><code>.rounded-4</code></p>
                                         </div>
                                         <div class="text-center">
-                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-5"
-                                                alt="rounded-5">
+                                            <img src="@/assets/images/users/avatar-1.jpg" class="avatar-md rounded-5" alt="rounded-5">
                                             <p><code>.rounded-5</code></p>
                                         </div>
                                     </div>
@@ -467,7 +428,7 @@ export default {
                             </div>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
         </BRow>
 
@@ -687,7 +648,7 @@ export default {
                             </div>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
         </BRow>
 
@@ -714,16 +675,20 @@ export default {
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>font-family: 'Poppins', sans-serif;</td>
+                                                <td>font-family: 'Rubik', sans-serif;</td>
                                                 <td>
                                                     <code>.ff-base</code>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>font-family: 'hkgrotesk', sans-serif;</td>
+                                                <td>font-family: 'Montserrat', sans-serif;</td>
                                                 <td>
                                                     <code>.ff-secondary</code>
                                                 </td>
+                                            </tr>
+                                            <tr>
+                                                <td>font-weight: 500;</td>
+                                                <td><code>.fw-medium</code></td>
                                             </tr>
                                             <tr>
                                                 <td>min-width: 80px;</td>
@@ -761,7 +726,7 @@ export default {
                             </div>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
         </BRow>
 
@@ -792,8 +757,8 @@ export default {
                             </div>
                         </div>
 
-                            <div class="d-none code-view">
-                                <pre class="language-markup"><code>&lt;!-- Stacks - Vertical --&gt;
+                        <div class="d-none code-view">
+                            <pre class="language-markup"><code>&lt;!-- Stacks - Vertical --&gt;
 &lt;div class=&quot;vstack gap-3&quot;&gt;
     &lt;div class=&quot;bg-light border p-1 px-2&quot;&gt;First item&lt;/div&gt;
     &lt;div class=&quot;bg-light border p-1 px-2&quot;&gt;Second item&lt;/div&gt;
@@ -804,15 +769,15 @@ export default {
     &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Save changes&lt;/button&gt;
     &lt;button type=&quot;button&quot; class=&quot;btn btn-outline-secondary&quot;&gt;Cancel&lt;/button&gt;
 &lt;/div&gt;</code></pre>
-                            </div>
+                        </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
 
             <BCol xxl="6">
                 <BCard no-body>
                     <CardHeader title="Stacks - Horizontal" />
-                    
+
                     <BCardBody>
                         <p class="text-muted mb-3">Use <code>hstack</code> class to create horizontal
                             layouts. Stacked
@@ -887,7 +852,7 @@ export default {
 &lt;/div&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
         </BRow>
 
@@ -921,7 +886,7 @@ export default {
 
                         <div class="d-none code-view">
                             <pre
-                                class="language-markup"><code>&lt;!-- Text Selection --&gt;
+                                    class="language-markup"><code>&lt;!-- Text Selection --&gt;
 &lt;p class=&quot;user-select-all&quot;&gt;This paragraph will be entirely selected when clicked by the user.&lt;/p&gt;</code>
 
 <code>&lt;p class=&quot;user-select-auto&quot;&gt;This paragraph has default select behavior.&lt;/p&gt;</code>
@@ -929,7 +894,7 @@ export default {
 <code>&lt;p class=&quot;user-select-none mb-0&quot;&gt;This paragraph will not be selectable when clicked by the user.&lt;/p&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
             <BCol xxl="6">
                 <BCard no-body>
@@ -968,7 +933,7 @@ export default {
 
                         <div class="d-none code-view">
                             <pre
-                                class="language-markup"><code>&lt;!-- Pointer events --&gt;
+                                    class="language-markup"><code>&lt;!-- Pointer events --&gt;
 &lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;text-success pe-none&quot; tabindex=&quot;-1&quot; aria-disabled=&quot;true&quot;&gt;This link&lt;/a&gt; can not be clicked.&lt;/p&gt;</code>
 
 <code>&lt;p&gt;&lt;a href=&quot;#&quot; class=&quot;text-success pe-auto&quot;&gt;This link&lt;/a&gt; can be clicked (this is default behavior).&lt;/p&gt;</code>
@@ -976,7 +941,7 @@ export default {
 <code>&lt;p class=&quot;pe-none mb-0&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;text-success&quot; tabindex=&quot;-1&quot; aria-disabled=&quot;true&quot;&gt;This link&lt;/a&gt; can not be clicked because the &lt;code&gt;pointer-events&lt;/code&gt; property is inherited from its parent. However, &lt;a href=&quot;#&quot; class=&quot;pe-auto&quot;&gt;this link&lt;/a&gt; has a &lt;code&gt;pe-auto&lt;/code&gt; class and can be clicked.&lt;/p&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
         </BRow>
 
@@ -1087,7 +1052,7 @@ export default {
 &lt;/div&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
         </BRow>
 
@@ -1107,20 +1072,16 @@ export default {
                                         <div>
                                             <h5 class="fs-13">Arrange elements</h5>
 
-                                            <div class="position-relative p-5 bg-light m-3 border rounded"
-                                                style="height: 180px;">
+                                            <div class="position-relative p-5 bg-light m-3 border rounded" style="height: 180px;">
                                                 <div class="position-absolute top-0 start-0 avatar-xs bg-dark rounded">
                                                 </div>
                                                 <div class="position-absolute top-0 end-0 avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute top-50 start-50 avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-50 start-50 avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute bottom-50 end-50 avatar-xs bg-dark rounded">
+                                                <div class="position-absolute bottom-50 end-50 avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute bottom-0 start-0 avatar-xs bg-dark rounded">
+                                                <div class="position-absolute bottom-0 start-0 avatar-xs bg-dark rounded">
                                                 </div>
                                                 <div class="position-absolute bottom-0 end-0 avatar-xs bg-dark rounded">
                                                 </div>
@@ -1132,36 +1093,26 @@ export default {
                                         <div class="mt-4 mt-sm-0">
                                             <h5 class="fs-13 mb-4">Center elements</h5>
 
-                                            <div class="position-relative m-3 bg-light border rounded"
-                                                style="height: 180px;">
-                                                <div
-                                                    class="position-absolute top-0 start-0 translate-middle avatar-xs bg-dark rounded">
+                                            <div class="position-relative m-3 bg-light border rounded" style="height: 180px;">
+                                                <div class="position-absolute top-0 start-0 translate-middle avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute top-0 start-50 translate-middle avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-0 start-50 translate-middle avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute top-0 start-100 translate-middle avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-0 start-100 translate-middle avatar-xs bg-dark rounded">
                                                 </div>
 
-                                                <div
-                                                    class="position-absolute top-50 start-0 translate-middle avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-50 start-0 translate-middle avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute top-50 start-50 translate-middle avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-50 start-50 translate-middle avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute top-50 start-100 translate-middle avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-50 start-100 translate-middle avatar-xs bg-dark rounded">
                                                 </div>
 
-                                                <div
-                                                    class="position-absolute top-100 start-0 translate-middle avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-100 start-0 translate-middle avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute top-100 start-50 translate-middle avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-100 start-50 translate-middle avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute top-100 start-100 translate-middle avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-100 start-100 translate-middle avatar-xs bg-dark rounded">
                                                 </div>
                                             </div>
                                         </div>
@@ -1170,31 +1121,24 @@ export default {
                                         <div class="mt-4 mt-sm-0">
                                             <h5 class="fs-13">Center elements</h5>
 
-                                            <div class="position-relative m-3 bg-light border rounded"
-                                                style="height: 180px;">
+                                            <div class="position-relative m-3 bg-light border rounded" style="height: 180px;">
                                                 <div class="position-absolute top-0 start-0 avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute top-0 start-50 translate-middle-x avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-0 start-50 translate-middle-x avatar-xs bg-dark rounded">
                                                 </div>
                                                 <div class="position-absolute top-0 end-0 avatar-xs bg-dark rounded">
                                                 </div>
 
-                                                <div
-                                                    class="position-absolute top-50 start-0 translate-middle-y avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-50 start-0 translate-middle-y avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute top-50 start-50 translate-middle avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-50 start-50 translate-middle avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute top-50 end-0 translate-middle-y avatar-xs bg-dark rounded">
+                                                <div class="position-absolute top-50 end-0 translate-middle-y avatar-xs bg-dark rounded">
                                                 </div>
 
-                                                <div
-                                                    class="position-absolute bottom-0 start-0 avatar-xs bg-dark rounded">
+                                                <div class="position-absolute bottom-0 start-0 avatar-xs bg-dark rounded">
                                                 </div>
-                                                <div
-                                                    class="position-absolute bottom-0 start-50 translate-middle-x avatar-xs bg-dark rounded">
+                                                <div class="position-absolute bottom-0 start-50 translate-middle-x avatar-xs bg-dark rounded">
                                                 </div>
                                                 <div class="position-absolute bottom-0 end-0 avatar-xs bg-dark rounded">
                                                 </div>
@@ -1247,7 +1191,7 @@ export default {
 &lt;/div&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
         </BRow>
 
@@ -1300,7 +1244,7 @@ export default {
 <code>&lt;div class=&quot;shadow-lg p-3 bg-light rounded&quot;&gt;Larger shadow&lt;/div&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
         </BRow>
 
@@ -1345,7 +1289,7 @@ export default {
 <code>&lt;div class=&quot;w-auto p-3 bg-light&quot;&gt;Width auto&lt;/div&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
 
             <BCol xxl="6">
@@ -1399,7 +1343,7 @@ export default {
 <code>&lt;div class=&quot;h-auto p-3 bg-light&quot;&gt;Height auto&lt;/div&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard> 
+                </BCard>
             </BCol>
         </BRow>
     </Layout>

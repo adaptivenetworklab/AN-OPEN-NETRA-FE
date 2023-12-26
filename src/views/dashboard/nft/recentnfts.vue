@@ -114,7 +114,7 @@
                                             <router-link to="/apps/nft-item-detail" class="text-body">Smillevers
                                                 Crypto</router-link>
                                         </h6>
-                                        <p class="text-muted fs-13 mb-0">Artworks</p>
+                                        <p class="text-muted mb-0">Artworks</p>
                                     </div>
                                 </div>
                             </td>

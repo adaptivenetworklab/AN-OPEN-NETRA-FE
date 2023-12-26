@@ -30,11 +30,11 @@ export default {
                                     <div class="text-muted">
                                         <p>Body Font Family</p>
                                         <div>
-                                            <p class="display-4 text-body fw-medium">Aa</p>
+                                            <p class="display-4 text-body">Aa</p>
                                         </div>
                                         <div>
                                             <p class="mb-2">Font Family</p>
-                                            <h5 class="mb-0">"Poppins", sans-serif</h5>
+                                            <h5 class="mb-0">"Rubik", sans-serif</h5>
                                         </div>
                                     </div>
                                 </BCol>
@@ -43,11 +43,11 @@ export default {
                                     <div class="text-muted mt-4 mt-sm-0">
                                         <p>Heading Font Family</p>
                                         <div>
-                                            <h1 class="display-4 text-body fw-medium">Aa</h1>
+                                            <h1 class="display-4 text-body ff-secondary">Aa</h1>
                                         </div>
                                         <div>
                                             <p class="mb-2">Font Family</p>
-                                            <h5 class="mb-0">"Poppins", sans-serif</h5>
+                                            <h5 class="mb-0">"Montserrat", sans-serif</h5>
                                         </div>
                                     </div>
                                 </BCol>
@@ -343,7 +343,7 @@ export default {
                     <CardHeader title="Blockquote Border Color" />
 
                     <BCardBody>
-                        <p class="text-muted text-muted">
+                        <p class="text-muted">
                             Use
                             <code>blockquote-outline</code> class to set blockquote border color.
                         </p>

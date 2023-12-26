@@ -222,7 +222,7 @@ const PolarArea = {
     labels: ["Series 1", "Series 2", "Series 3", "Series 4"],
     datasets: [{
       data: [11, 16, 7, 18],
-      backgroundColor: ["#f46a6a", "#34c38f", "#f1b44c", "#687cfe"],
+      backgroundColor: ["#ed5e5e", "#13c56b", "#e8bc52", "#6691e7"],
       label: "My dataset", // for legend
       hoverBorderColor: "#fff",
     }, ],

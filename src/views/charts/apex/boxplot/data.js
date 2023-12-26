@@ -54,8 +54,8 @@ const boxChart = {
     plotOptions: {
       boxPlot: {
         colors: {
-          upper: "#687cfe",
-          lower: "#0ac7fb",
+          upper: "#6691e7",
+          lower: "#50c3e6",
         },
       },
     },
@@ -149,8 +149,8 @@ const boxplotScatterChart = {
     plotOptions: {
       boxPlot: {
         colors: {
-          upper: "#f7666e",
-          lower: "#687cfe",
+          upper: "#ed5e5e",
+          lower: "#6691e7",
         },
       },
     },

@@ -251,7 +251,7 @@ export default {
             <div class="file-manager-sidebar">
                 <div class="p-4 d-flex flex-column h-100">
                     <div class="mb-3">
-                        <BButton variant="success" class="w-100" @click="projectModal = !projectModal"><i
+                        <BButton variant="info" class="w-100" @click="projectModal = !projectModal"><i
                                 class="ri-add-line align-bottom"></i> Add Project</BButton>
                     </div>
 
@@ -270,7 +270,7 @@ export default {
                                         </li>
                                         <li>
                                             <BLink href="#!"><i
-                                                    class="ri-stop-mini-fill align-middle fs-15"></i>
+                                                    class="ri-stop-mini-fill align-middle fs-15 text-secondary"></i>
                                                 v1.5.0</BLink>
                                         </li>
                                         <li>
@@ -561,7 +561,7 @@ export default {
         <BModal v-model="taskModal" hide-footer title="Create Task" title-class="task-modal" class="v-modal-custom"
             modal-class="zoomIn" centered header-class="p-3 bg-success-subtle">
             <div id="task-error-msg" class="alert alert-danger py-2"></div>
-            <BForm autocomplete="off" action="" id="creattask-form">
+            <BForm autocomplete="off" action="task-form">
                 <input type="hidden" id="taskid-input" class="form-control">
                 <div class="mb-3">
                     <label for="task-title-input" class="form-label">Task Title</label>

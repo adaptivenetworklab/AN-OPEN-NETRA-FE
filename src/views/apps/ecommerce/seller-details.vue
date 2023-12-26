@@ -13,8 +13,6 @@ import PageHeader from "@/components/page-header";
 
 import { productsData } from "@/common/data";
 
-import getChartColorsArray from "../../../common/getChartColorsArray"
-
 export default {
   components: {
     CountTo,
@@ -133,7 +131,7 @@ export default {
             barHeight: "70%",
           },
         },
-        colors: getChartColorsArray('["--vz-secondary", "--vz-primary", "--vz-success"]'),
+        colors: ["#13c56b", "#6691e7", "#ed5e5e"],
         tooltip: {
           shared: true,
           y: [{
@@ -415,7 +413,9 @@ export default {
             <h6 class="text-muted text-uppercase fw-semibold mb-4">
               Products Reviews
             </h6>
-            <swiper class="vertical-swiper" :direction="'vertical'" :modules="[Autoplay, Mousewheel]" :slidesPerView="2" :spaceBetween="10" :mousewheel="true" :loop="true" :autoplay="{ delay: 2500, disableOnInteraction: false }" style="height: 242px">
+            <swiper class="vertical-swiper" :direction="'vertical'" :modules="[Autoplay, Mousewheel]" :slidesPerView="2"
+              :spaceBetween="10" :mousewheel="true" :loop="true" :autoplay="{ delay: 2500, disableOnInteraction: false }"
+              style="height: 242px">
               <swiper-slide>
                 <div class="swiper-slide">
                   <BCard no-body class="border border-dashed shadow-none">
@@ -561,7 +561,8 @@ export default {
             </h6>
             <form action="#">
               <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Enter your messages..."></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                  placeholder="Enter your messages..."></textarea>
               </div>
               <div class="text-end">
                 <BButton type="submit" variant="primary">
@@ -642,7 +643,8 @@ export default {
         <BRow class="g-4 mb-3">
           <BCol sm="auto">
             <div>
-              <router-link to="/ecommerce/add-product" class="btn btn-secondary"><i class="ri-add-line align-bottom me-1"></i> Add New</router-link>
+              <router-link to="/ecommerce/add-product" class="btn btn-success"><i
+                  class="ri-add-line align-bottom me-1"></i> Add New</router-link>
             </div>
           </BCol>
           <BCol sm>
@@ -703,7 +705,8 @@ export default {
                     <td data-column-id="price" class="gridjs-td">{{ data.price }}</td>
                     <td data-column-id="orders" class="gridjs-td">{{ data.orders }}</td>
                     <td data-column-id="rating" class="gridjs-td">
-                      <span><span class="badge bg-light text-body fs-12 fw-medium"><i class="mdi mdi-star text-warning me-1"></i>{{ data.rating }}</span></span>
+                      <span><span class="badge bg-light text-body fs-12 fw-medium"><i
+                            class="mdi mdi-star text-warning me-1"></i>{{ data.rating }}</span></span>
                     </td>
                     <td data-column-id="published" class="gridjs-td">
                       <span>{{ data.publishedDate[0] }}<small class="text-muted ms-1">{{ data.publishedDate[1]
@@ -711,11 +714,14 @@ export default {
                     </td>
                     <td data-column-id="action" class="gridjs-td">
                       <span>
-                        <BDropdown variant="link" toggle-class="btn btn-soft-secondary btn-sm dropdown arrow-none" menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
+                        <BDropdown variant="link" toggle-class="btn btn-soft-secondary btn-sm dropdown arrow-none"
+                          menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                           <template #button-content><i class="ri-more-fill align-middle"></i></template>
-                          <BDropdownItem to="/ecommerce/product-details"> <i class="ri-eye-fill align-bottom me-2 text-muted"></i>
+                          <BDropdownItem to="/ecommerce/product-details"> <i
+                              class="ri-eye-fill align-bottom me-2 text-muted"></i>
                             View</BDropdownItem>
-                          <BDropdownItem to="/ecommerce/add-product"><i class="ri-pencil-fill align-bottom me-2 text-muted"></i>
+                          <BDropdownItem to="/ecommerce/add-product"><i
+                              class="ri-pencil-fill align-bottom me-2 text-muted"></i>
                             Edit </BDropdownItem>
                           <li class="dropdown-divider"></li>
                           <BDropdownItem> <i class="ri-delete-bin-fill align-bottom me-2 text-muted"></i>
@@ -733,7 +739,8 @@ export default {
                 <BLink class="page-item pagination-prev" href="#" :disabled="page <= 1" @click="page--"> Previous
                 </BLink>
                 <ul class="pagination listjs-pagination mb-0">
-                  <li :class="{ active: pageNumber == page, disabled: pageNumber == '...', }" v-for="(pageNumber, index) in pages" :key="index" @click="page = pageNumber">
+                  <li :class="{ active: pageNumber == page, disabled: pageNumber == '...', }"
+                    v-for="(pageNumber, index) in pages" :key="index" @click="page = pageNumber">
                     <BLink class="page" href="#" data-i="1" data-page="8">{{ pageNumber }}</BLink>
                   </li>
                 </ul>

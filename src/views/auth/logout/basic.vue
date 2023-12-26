@@ -56,7 +56,7 @@ export default {
                   <p class="text-muted">Thank you for using <span class="fw-semibold">velzon</span>
                     admin template</p>
                   <div class="mt-4">
-                    <router-link to="/auth/signin-basic" class="btn btn-secondary w-100">Sign In
+                    <router-link to="/auth/signin-basic" class="btn btn-success w-100">Sign In
                     </router-link>
                   </div>
                 </div>

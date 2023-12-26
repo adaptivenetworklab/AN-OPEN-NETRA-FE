@@ -234,7 +234,7 @@ export default {
                                                 </div>
 
                                                 <div class="mt-4">
-                                                    <BButton variant="secondary" class="w-100" @click="validatepassword"
+                                                    <BButton variant="success" class="w-100" @click="validatepassword"
                                                         type="submit">Reset Password</BButton>
                                                 </div>
 

@@ -47,33 +47,35 @@ export default {
                                     <i class="ri-question-line fs-24 align-middle text-success me-1"></i>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h5 class="fs-16 mb-0 fw-semibold">General Questions</h5>
+                                    <h5 class="fs-14 mb-0">General Questions</h5>
                                 </div>
                             </div>
 
                             <BAccordion class="accordion-border-box" id="genques-accordion">
-                                <BAccordionItem title="What is Lorem Ipsum ?" visible>
+                                <BAccordionItem visible>
+                                    <template #title><span class="fw-semibold">What is Lorem Ipsum ?</span></template>
                                     If several languages coalesce, the grammar of the resulting language is more
                                     simple and regular than that of the individual languages. The new common
                                     language will be more simple and regular than the existing European
                                     languages. It will be as simple their most common words.
                                 </BAccordionItem>
-                                <BAccordionItem title="Why do we use it ?">
+                                <BAccordionItem>
+                                    <template #title><span class="fw-semibold">Why do we use it ?</span></template>
                                     The new common language will be more simple and regular than the existing
                                     European languages. It will be as simple as Occidental; in fact, it will be
                                     Occidental. To an English person, it will seem like simplified English, as a
                                     skeptical Cambridge friend of mine told me what Occidental is.
                                 </BAccordionItem>
-                                <BAccordionItem title="Where does it come from ?">
-
+                                <BAccordionItem>
+                                    <template #title><span class="fw-semibold">Where does it come from ?</span></template>
                                     he wise man therefore always holds in these matters to this principle of
                                     selection: he rejects pleasures to secure other greater pleasures, or else
                                     he endures pains to avoid worse pains.But I must explain to you how all this
                                     mistaken idea of denouncing pleasure and praising pain was born and I will
                                     give you a complete.
                                 </BAccordionItem>
-                                <BAccordionItem title="Where can I get some ?">
-
+                                <BAccordionItem>
+                                    <template #title><span class="fw-semibold">Where can I get some ?</span></template>
                                     Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum
                                     primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui
                                     quis mi consectetuer lacinia. Nam pretium turpis et arcu arcu tortor,
@@ -91,32 +93,36 @@ export default {
                                     <i class="ri-user-settings-line fs-24 align-middle text-success me-1"></i>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h5 class="fs-16 mb-0 fw-semibold">Manage Account</h5>
+                                    <h5 class="fs-14 mb-0">Manage Account</h5>
                                 </div>
                             </div>
 
                             <BAccordion class="accordion-border-box" id="manageaccount-accordion">
-                                <BAccordionItem title="Where can I get some ?">
+                                <BAccordionItem>
+                                    <template #title><span class="fw-semibold">Where can I get some ?</span></template>
                                     If several languages coalesce, the grammar of the resulting language is more
                                     simple and regular than that of the individual languages. The new common
                                     language will be more simple and regular than the existing European
                                     languages. It will be as simple their most common words.
                                 </BAccordionItem>
-                                <BAccordionItem title="Where does it come from ?" visible>
+                                <BAccordionItem visible>
+                                    <template #title><span class="fw-semibold">Where does it come from ?</span></template>
                                     The new common language will be more simple and regular than the existing
                                     European languages. It will be as simple as Occidental; in fact, it will be
                                     Occidental. To an English person, it will seem like simplified English, as a
                                     skeptical Cambridge friend of mine told me what Occidental is.
 
                                 </BAccordionItem>
-                                <BAccordionItem title="Why do we use it ?">
+                                <BAccordionItem>
+                                    <template #title><span class="fw-semibold">Why do we use it ?</span></template>
                                     he wise man therefore always holds in these matters to this principle of
                                     selection: he rejects pleasures to secure other greater pleasures, or else
                                     he endures pains to avoid worse pains.But I must explain to you how all this
                                     mistaken idea of denouncing pleasure and praising pain was born and I will
                                     give you a complete.
                                 </BAccordionItem>
-                                <BAccordionItem title=" What is Lorem Ipsum ?">
+                                <BAccordionItem>
+                                    <template #title><span class="fw-semibold">What is Lorem Ipsum ?</span></template>
                                     Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum
                                     primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui
                                     quis mi consectetuer lacinia. Nam pretium turpis et arcu arcu tortor,
@@ -133,31 +139,35 @@ export default {
                                     <i class="ri-shield-keyhole-line fs-24 align-middle text-success me-1"></i>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <h5 class="fs-16 mb-0 fw-semibold">Privacy &amp; Security</h5>
+                                    <h5 class="fs-14 mb-0">Privacy &amp; Security</h5>
                                 </div>
                             </div>
 
                             <BAccordion class="accordion-border-box" id="privacy-accordion">
-                                <BAccordionItem title="Why do we use it ?" visible>
+                                <BAccordionItem visible>
+                                    <template #title><span class="fw-semibold">Why do we use it ?</span></template>
                                     If several languages coalesce, the grammar of the resulting language is more
                                     simple and regular than that of the individual languages. The new common
                                     language will be more simple and regular than the existing European
                                     languages. It will be as simple their most common words.
                                 </BAccordionItem>
-                                <BAccordionItem title="Where can I get some ?">
+                                <BAccordionItem>
+                                    <template #title><span class="fw-semibold">Where can I get some ?</span></template>
                                     The new common language will be more simple and regular than the existing
                                     European languages. It will be as simple as Occidental; in fact, it will be
                                     Occidental. To an English person, it will seem like simplified English, as a
                                     skeptical Cambridge friend of mine told me what Occidental is.
                                 </BAccordionItem>
-                                <BAccordionItem title="What is Lorem Ipsum ?">
+                                <BAccordionItem>
+                                    <template #title><span class="fw-semibold">What is Lorem Ipsum ?</span></template>
                                     he wise man therefore always holds in these matters to this principle of
                                     selection: he rejects pleasures to secure other greater pleasures, or else
                                     he endures pains to avoid worse pains.But I must explain to you how all this
                                     mistaken idea of denouncing pleasure and praising pain was born and I will
                                     give you a complete.
                                 </BAccordionItem>
-                                <BAccordionItem title="Where does it come from ?">
+                                <BAccordionItem>
+                                    <template #title><span class="fw-semibold">Where does it come from ?</span></template>
                                     Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum
                                     primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui
                                     quis mi consectetuer lacinia. Nam pretium turpis et arcu arcu tortor,

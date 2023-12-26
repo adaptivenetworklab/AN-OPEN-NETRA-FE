@@ -96,7 +96,7 @@ export default {
                                                         style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 24px;"
                                                         valign="top">
                                                         <BLink href="#" itemprop="url"
-                                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem;font-weight: 400; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #3cd188; margin: 0; border-color: #3cd188; border-style: solid; border-width: 1px; padding: .5rem .9rem;"
+                                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem;font-weight: 400; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #0ab39c; margin: 0; border-color: #0ab39c; border-style: solid; border-width: 1px; padding: .5rem .9rem;"
                                                             onMouseOver="this.style.background='#099885'"
                                                             onMouseOut="this.style.background='#0ab39c'">Read More
                                                             &#8594;</BLink>
@@ -210,7 +210,7 @@ export default {
                                                         style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 24px; text-align: center;"
                                                         valign="top">
                                                         <BLink href="#" itemprop="url"
-                                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem;font-weight: 400; color: #FFF; text-decoration: none;text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #3cd188; margin: 0; border-color: #3cd188; border-style: solid; border-width: 1px; padding: .5rem .9rem;"
+                                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem;font-weight: 400; color: #FFF; text-decoration: none;text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #0ab39c; margin: 0; border-color: #0ab39c; border-style: solid; border-width: 1px; padding: .5rem .9rem;"
                                                             onMouseOver="this.style.background='#099885'"
                                                             onMouseOut="this.style.background='#0ab39c'">Yes, subscribe
                                                             me</BLink>
@@ -320,7 +320,7 @@ export default {
                                                         style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 22px; text-align: center;"
                                                         valign="top">
                                                         <BLink href="#" itemprop="url"
-                                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem; color: #FFF; text-decoration: none; font-weight: 400; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #687cfe; margin: 0; border-color: #687cfe; border-style: solid; border-width: 1px; padding: .5rem .9rem;">
+                                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem; color: #FFF; text-decoration: none; font-weight: 400; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #405189; margin: 0; border-color: #405189; border-style: solid; border-width: 1px; padding: .5rem .9rem;">
                                                             Verify
                                                             Your Email</BLink>
                                                     </td>
@@ -423,7 +423,7 @@ export default {
                                                         style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 22px; text-align: center;"
                                                         valign="top">
                                                         <BLink href="#" itemprop="url"
-                                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem; color: #FFF; text-decoration: none; font-weight: 400; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #687cfe; margin: 0; border-color: #687cfe; border-style: solid; border-width: 1px; padding: .5rem .9rem;">
+                                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem; color: #FFF; text-decoration: none; font-weight: 400; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #405189; margin: 0; border-color: #405189; border-style: solid; border-width: 1px; padding: .5rem .9rem;">
                                                             Reset
                                                             Password</BLink>
                                                     </td>

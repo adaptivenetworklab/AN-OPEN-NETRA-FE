@@ -9,7 +9,7 @@ export default {
     data() {
         return {
             chartcolors: {
-                colors: ["#f06548"]
+                colors: ["#ed5e5e"]
             },
             chartOptions: {
                 chart: {
@@ -45,7 +45,7 @@ export default {
                         }
                     },
                 },
-                colors: ["#0ab39c"]
+                colors: ["#13c56b"]
             }
         };
     }
@@ -70,7 +70,7 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 overflow-hidden">
                                     <p class="text-uppercase fw-medium text-muted text-truncate mb-3"> Total Jobs</p>
-                                    <h4 class="fs-22 fw-semibold ff-secondary mb-0">
+                                    <h4 class="fs-22 fw-bold ff-secondary mb-0">
                                         <count-to :startVal="0" :endVal="36894" :duration="5000"></count-to>
                                     </h4>
                                 </div>
@@ -96,7 +96,7 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 overflow-hidden">
                                     <p class="text-uppercase fw-medium text-muted text-truncate mb-3"> Apply Jobs</p>
-                                    <h4 class="fs-22 fw-semibold ff-secondary mb-0">
+                                    <h4 class="fs-22 fw-bold ff-secondary mb-0">
                                         <count-to :startVal="0" :endVal="28410" :duration="5000"></count-to>
                                     </h4>
                                 </div>
@@ -122,7 +122,7 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 overflow-hidden">
                                     <p class="text-uppercase fw-medium text-muted text-truncate mb-3">New Jobs</p>
-                                    <h4 class="fs-22 fw-semibold ff-secondary mb-0">
+                                    <h4 class="fs-22 fw-bold ff-secondary mb-0">
                                         <count-to :startVal="0" :endVal="4305" :duration="5000"></count-to>
                                     </h4>
                                 </div>
@@ -148,7 +148,7 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 overflow-hidden">
                                     <p class="text-uppercase fw-medium text-muted text-truncate mb-3"> Interview</p>
-                                    <h4 class="fs-22 fw-semibold ff-secondary mb-0">
+                                    <h4 class="fs-22 fw-bold ff-secondary mb-0">
                                         <count-to :startVal="0" :endVal="5021" :duration="5000"></count-to>
                                     </h4>
                                 </div>
@@ -175,7 +175,7 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 overflow-hidden">
                                     <p class="text-uppercase fw-medium text-muted text-truncate mb-3"> Hired</p>
-                                    <h4 class="fs-22 fw-semibold ff-secondary mb-0">
+                                    <h4 class="fs-22 fw-bold ff-secondary mb-0">
                                         <count-to :startVal="0" :endVal="3948" :duration="5000"></count-to>
                                     </h4>
                                 </div>
@@ -201,7 +201,7 @@ export default {
                             <div class="d-flex align-items-center">
                                 <div class="flex-grow-1 overflow-hidden">
                                     <p class="text-uppercase fw-medium text-muted text-truncate mb-3">Rejected</p>
-                                    <h4 class="fs-22 fw-semibold ff-econdary mb-0">
+                                    <h4 class="fs-22 fw-bold ff-secondary mb-0">
                                         <count-to :startVal="0" :endVal="1340" :duration="5000"></count-to>
                                     </h4>
                                 </div>

@@ -93,12 +93,12 @@ export default {
               </BCol>
               <BCol lg="auto">
                 <div class="d-md-flex text-nowrap gap-2">
-                  <BButton variant="primary"><i class="ri-add-fill me-1 align-bottom"></i> Add Categories
+                  <BButton variant="info" class="add-btn"><i class="ri-add-fill me-1 align-bottom"></i> Add Categories
                   </BButton>
-                  <BButton variant="secondary"><i class="ri-filter-2-line me-1 align-bottom"></i> Filters</BButton>
+                  <BButton variant="danger"><i class="ri-filter-2-line me-1 align-bottom"></i> Filters</BButton>
 
                   <BDropdown variant="link" right toggle-class="text-decoration-none arrow-none p-0"
-                    class="card-header-dropdown p-0" no-caret>
+                    class="card-header-dropdown" no-caret>
                     <template #button-content> <span class="fs-18 btn btn-soft-info"><i class="ri-more-2-fill"></i></span>
                     </template>
                     <BDropdownItem href="#">All</BDropdownItem>

@@ -377,7 +377,7 @@ export default {
         </BCard>
 
         <div class="text-end mb-4">
-          <router-link to="/ecommerce/checkout" class="btn btn-secondary btn-label right ms-auto"><i
+          <router-link to="/ecommerce/checkout" class="btn btn-success btn-label right ms-auto"><i
               class="ri-arrow-right-line label-icon align-bottom fs-16 ms-2"></i>
             Checkout</router-link>
         </div>
@@ -398,7 +398,7 @@ export default {
               <div class="hstack gap-3 px-3 mx-n3">
                 <input class="form-control me-auto" type="text" placeholder="Enter coupon code"
                   aria-label="Add Promo Code here..." />
-                <BButton type="button" variant="primary" class="w-xs">
+                <BButton type="button" variant="success" class="w-xs">
                   Apply
                 </BButton>
               </div>
@@ -447,7 +447,7 @@ export default {
                 <h5 class="fs-14 text-danger fw-semibold">
                   Buying for a loved one?
                 </h5>
-                <p class="text-body mb-1">
+                <p class="text-black mb-1">
                   Gift wrap and personalized message on card, <br />Only for
                   <span class="fw-semibold">$9.99</span> USD
                 </p>
@@ -463,7 +463,7 @@ export default {
 
 
     <!-- edit customer modal  -->
-    <BModal v-model="removeItemModal" id="removeItemModal" modal-class="zoomIn" hide-footer title="Update Customer"
+    <BModal v-model="removeItemModal" id="removeItemModal" modal-class="zoomIn" hide-footer
       class="v-modal-custom" centered no-close-on-backdrop>
       <div class="mt-2 text-center">
         <lottie colors="primary:#121331,secondary:#f06548" :options="defaultOptions" :height="100" :width="100" />

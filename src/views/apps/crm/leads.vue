@@ -336,11 +336,11 @@ export default {
                   <BButton variant="soft-danger" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton @click="rightOffcanvas = true" type="button" variant="primary" data-bs-toggle="offcanvas"
+                  <BButton @click="rightOffcanvas = true" type="button" variant="secondary" data-bs-toggle="offcanvas"
                     href="#offcanvasExample">
                     <i class="ri-filter-3-line align-bottom me-1"></i> Fliters
                   </BButton>
-                  <BButton type="button" variant="secondary" class="add-btn" id="create-btn" @click="toggleModal">
+                  <BButton type="button" variant="success" class="add-btn" id="create-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Add Leads
                   </BButton>
                   <BDropdown variant="link" class="card-header-dropdown"
@@ -626,7 +626,7 @@ export default {
                 <!--end offcanvas-body-->
                 <div class="offcanvas-footer border-top p-3 text-center hstack gap-2">
                   <BButton variant="light" class="w-100">Clear Filter</BButton>
-                  <BButton type="submit" variant="primary" class="w-100">
+                  <BButton type="submit" variant="success" class="w-100">
                     Filters
                   </BButton>
                 </div>
@@ -725,7 +725,7 @@ export default {
         <div class="modal-footer v-modal-footer">
           <div class="hstack gap-2 justify-content-end">
             <BButton type="button" variant="light" id="closemodal" @click="addLeadsModal = false">Close</BButton>
-            <BButton type="submit" variant="primary" id="add-btn" @click="handleSubmit">
+            <BButton type="submit" variant="success" id="add-btn" @click="handleSubmit">
               {{ dataEdit ? 'Update' : 'Add leads' }}
             </BButton>
           </div>

@@ -242,12 +242,12 @@ export default {
           <BCardBody>
             <h5 class="card-title mb-3">Developer Plan</h5>
             <div class="progress animated-progress custom-progress mb-1">
-              <div class="progress-bar bg-info" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0"
+              <div class="progress-bar bg-secondary" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
             <p class="text-muted mb-2">You used 215 of 2000 of your API</p>
             <div class="text-end">
-              <BLink class="btn btn-secondary button create-btn btn-sm" type="button" id="createApi-btn"
+              <BLink class="btn btn-primary button create-btn btn-sm" type="button" id="createApi-btn"
                 @click="(e) => handleApikeydetails(e)">Create API Key</BLink>
             </div>
           </BCardBody>
@@ -258,8 +258,8 @@ export default {
           <BCardBody>
             <div class="d-flex justify-content-between">
               <div>
-                <p class="fw-medium text-muted mb-0">Successful conversions</p>
-                <h2 class="mt-4 ff-secondary fw-semibold">
+                <p class="fw-semibold text-muted mb-0">Successful conversions</p>
+                <h2 class="mt-4 ff-secondary fw-bold">
                   <count-to :startVal='0' :endVal='50' :duration='5000'></count-to>
                 </h2>
                 <p class="mb-0 text-muted"><BBadge class="bg-light text-success mb-0"><i
@@ -281,8 +281,8 @@ export default {
           <BCardBody>
             <div class="d-flex justify-content-between">
               <div>
-                <p class="fw-medium text-muted mb-0">Failed conversions</p>
-                <h2 class="mt-4 ff-secondary fw-semibold">
+                <p class="fw-semibold text-muted mb-0">Failed conversions</p>
+                <h2 class="mt-4 ff-secondary fw-bold">
                   <count-to :startVal='0' :endVal='8' :duration='5000'></count-to>
                 </h2>
                 <p class="mb-0 text-muted"><BBadge class="bg-light text-danger mb-0"><i
@@ -312,7 +312,7 @@ export default {
               </BButton>
               <BLink class="btn btn-primary button create-btn" type="button" id="addApi-btn"
                 @click="(e) => handleApikeydetails(e)"><i class="ri-add-line align-bottom me-1"></i>
-                Add </BLink>
+                Add API Key</BLink>
             </div>
           </BCardHeader>
           <BCardBody>

@@ -11,7 +11,7 @@ export default {
           hours: "110",
           tasks: "258",
           series: [50],
-          chartsColor: "#687cfe",
+          chartsColor: "#405189",
         },
         {
           id: 2,
@@ -21,7 +21,7 @@ export default {
           hours: "83",
           tasks: "105",
           series: [45],
-          chartsColor: "#687cfe",
+          chartsColor: "#405189",
         },
         {
           id: 3,
@@ -31,7 +31,7 @@ export default {
           hours: "58",
           tasks: "75",
           series: [75],
-          chartsColor: "#687cfe",
+          chartsColor: "#405189",
         },
         {
           id: 4,
@@ -51,7 +51,7 @@ export default {
           hours: "76",
           tasks: "69",
           series: [60],
-          chartsColor: "#687cfe",
+          chartsColor: "#405189",
         },
         {
           id: 6,
@@ -61,7 +61,7 @@ export default {
           hours: "123",
           tasks: "658",
           series: [85],
-          chartsColor: "#3cd188",
+          chartsColor: "#0ab39c",
         },
         {
           id: 7,
@@ -71,7 +71,7 @@ export default {
           hours: "117",
           tasks: "125",
           series: [70],
-          chartsColor: "#687cfe",
+          chartsColor: "#405189",
         },
       ],
 
@@ -109,7 +109,7 @@ export default {
 </script>
 
 <template>
-  <BCard no-body>
+  <BCard no-body class="card-height-100">
     <BCardHeader class="align-items-center d-flex py-0">
       <BCardTitle class="mb-0 flex-grow-1">Team Members</BCardTitle>
       <div class="flex-shrink-0">

@@ -152,7 +152,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarDashboards" data-bs-toggle="collapse" role="button"
             aria-expanded="false" aria-controls="sidebarDashboards">
-            <i class="ri-dashboard-2-line"></i>
+            <i class="bx bxs-dashboard"></i>
             <span data-key="t-dashboards"> {{ $t("t-dashboards") }}</span>
           </a>
           <div class="collapse menu-dropdown" id="sidebarDashboards">
@@ -199,7 +199,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarApps" data-bs-toggle="collapse" role="button" aria-expanded="false"
             aria-controls="sidebarApps">
-            <i class="ri-apps-2-line"></i>
+            <i class="bx bx-layer"></i>
             <span data-key="t-apps"> {{ $t("t-apps") }}</span>
           </a>
           <div class="collapse menu-dropdown" id="sidebarApps">
@@ -642,7 +642,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarAuth" data-bs-toggle="collapse" role="button" aria-expanded="false"
             aria-controls="sidebarAuth">
-            <i class="ri-account-circle-line"></i>
+            <i class="bx bx-user-circle"></i>
             <span data-key="t-authentication">{{
               $t("t-authentication")
             }}</span>
@@ -848,7 +848,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarPages" data-bs-toggle="collapse" role="button" aria-expanded="false"
             aria-controls="sidebarPages">
-            <i class="ri-pages-line"></i>
+            <i class="bx bx-file"></i>
             <span data-key="t-pages">{{ $t("t-pages") }}</span>
           </a>
           <div class="collapse menu-dropdown" id="sidebarPages">
@@ -939,9 +939,9 @@ export default {
           <div class="collapse menu-dropdown" id="sidebarlanding">
             <ul class="nav nav-sm flex-column">
               <li class="nav-item">
-                <a class="nav-link menu-link" target="_blank" href="/landing">
+                <router-link class="nav-link menu-link" target="_blank" to="/landing">
                   <span data-key="t-landing">{{ $t("t-one-page") }}</span>
-                </a>
+                </router-link>
               </li>
               <li class="nav-item">
                 <a class="nav-link menu-link" target="_blank" href="/nft-landing">
@@ -964,7 +964,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarUI" data-bs-toggle="collapse" role="button" aria-expanded="false"
             aria-controls="sidebarUI">
-            <i class="ri-pencil-ruler-2-line"></i>
+            <i class="bx bx-palette"></i>
             <span data-key="t-base-ui">{{ $t("t-base-ui") }}</span>
           </a>
           <div class="collapse menu-dropdown mega-dropdown-menu" id="sidebarUI">
@@ -1076,7 +1076,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarAdvanceUI" data-bs-toggle="collapse" role="button"
             aria-expanded="false" aria-controls="sidebarAdvanceUI">
-            <i class="ri-stack-line"></i>
+            <i class="bx bx-briefcase-alt"></i>
             <span data-key="t-advance-ui">{{ $t("t-advance-ui") }}</span>
           </a>
           <div class="collapse menu-dropdown" id="sidebarAdvanceUI">
@@ -1112,7 +1112,7 @@ export default {
 
         <li class="nav-item">
           <router-link class="nav-link menu-link" to="/widgets">
-            <i class="ri-honour-line"></i>
+            <i class="bx bx-aperture"></i>
             <span data-key="t-widgets">{{ $t("t-widgets") }}</span>
           </router-link>
         </li>
@@ -1120,7 +1120,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarForms" data-bs-toggle="collapse" role="button" aria-expanded="false"
             aria-controls="sidebarForms">
-            <i class="ri-file-list-3-line"></i>
+            <i class="bx bx-receipt"></i>
             <span data-key="t-forms">{{ $t("t-forms") }}</span>
           </a>
           <div class="collapse menu-dropdown" id="sidebarForms">
@@ -1181,7 +1181,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarTables" data-bs-toggle="collapse" role="button"
             aria-expanded="false" aria-controls="sidebarTables">
-            <i class="ri-layout-grid-line"></i>
+            <i class="bx bx-table"></i>
             <span data-key="t-tables">{{ $t("t-tables") }}</span>
           </a>
           <div class="collapse menu-dropdown" id="sidebarTables">
@@ -1201,7 +1201,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarCharts" data-bs-toggle="collapse" role="button"
             aria-expanded="false" aria-controls="sidebarCharts">
-            <i class="ri-pie-chart-line"></i>
+            <i class="bx bx-doughnut-chart"></i>
             <span data-key="t-charts">{{ $t("t-charts") }}</span>
           </a>
           <div class="collapse menu-dropdown" id="sidebarCharts">
@@ -1317,7 +1317,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarIcons" data-bs-toggle="collapse" role="button" aria-expanded="false"
             aria-controls="sidebarIcons">
-            <i class="ri-compasses-2-line"></i>
+            <i class="bx bx-tone"></i>
             <span data-key="t-icons">{{ $t("t-icons") }}</span>
           </a>
           <div class="collapse menu-dropdown" id="sidebarIcons">
@@ -1352,7 +1352,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarMaps" data-bs-toggle="collapse" role="button" aria-expanded="false"
             aria-controls="sidebarMaps">
-            <i class="ri-map-pin-line"></i>
+            <i class="bx bx-map-alt"></i>
             <span data-key="t-maps">{{ $t("t-maps") }}</span>
           </a>
           <div class="collapse menu-dropdown" id="sidebarMaps">
@@ -1374,7 +1374,7 @@ export default {
         <li class="nav-item">
           <a class="nav-link menu-link" href="#sidebarMultilevel" data-bs-toggle="collapse" role="button"
             aria-expanded="false" aria-controls="sidebarMultilevel">
-            <i class="ri-share-line"></i>
+            <i class="bx bx-sitemap"></i>
             <span data-key="t-multi-level">{{ $t("t-multi-level") }}</span>
           </a>
           <div class="collapse menu-dropdown" id="sidebarMultilevel">

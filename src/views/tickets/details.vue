@@ -19,7 +19,7 @@ export default {
         <BRow>
             <BCol lg="12">
                 <BCard no-body class="mt-n4 mx-n4 mb-n5">
-                    <div class="bg-primary-subtle">
+                    <div class="bg-warning-subtle">
                         <BCardBody class="pb-4 mb-5">
                             <BRow>
                                 <BCol md>
@@ -90,7 +90,7 @@ export default {
             <BCol xxl="9">
                 <BCard no-body>
                     <BCardBody class="p-4">
-                        <h6 class="fw-semibold text-uppercase mb-3">Ticket Description</h6>
+                        <h6 class="text-uppercase mb-3">Ticket Description</h6>
                         <p class="text-muted">It would also help to know what the errors are - it could be something
                             simple like a message saying delivery is not available which could be a problem with your
                             shipping templates. Too much or too little spacing, as in the example below, can make things
@@ -101,7 +101,7 @@ export default {
                             pleasing to look at. <BLink href="javascript:void(0);"
                                 class="link-secondary text-decoration-underline">Example</BLink>
                         </p>
-                        <h6 class="fw-semibold text-uppercase mb-3">Create an Excellent UI for a Dashboard</h6>
+                        <h6 class="text-uppercase mb-3">Create an Excellent UI for a Dashboard</h6>
                         <ul class="text-muted vstack gap-2 mb-4">
                             <li>Pick a Dashboard Type</li>
                             <li>Categorize information when needed</li>
@@ -110,7 +110,7 @@ export default {
                             <li>On using the right graphs</li>
                         </ul>
                         <div class="mt-4">
-                            <h6 class="fw-semibold text-uppercase mb-3">Here is the code you've requested</h6>
+                            <h6 class="text-uppercase mb-3">Here is the code you've requested</h6>
                             <div>
                                 <pre class="language-markup rounded-2"><code>var app = document.getElementById(&quot;app&quot;);
 var run = (model) =&gt; get(model, &quot;users&quot;, () =&gt;
@@ -222,7 +222,7 @@ app.appendChild(Wrapper.generate(&quot;button&quot;, &quot;Load&quot;).click(() 
                                         placeholder="Enter comments"></textarea>
                                 </BCol>
                                 <BCol lg="12" class="text-end">
-                                    <BLink href="javascript:void(0);" class="btn btn-secondary">Post Comments</BLink>
+                                    <BLink href="javascript:void(0);" class="btn btn-success">Post Comments</BLink>
                                 </BCol>
                             </BRow>
                         </form>
@@ -338,7 +338,7 @@ app.appendChild(Wrapper.generate(&quot;button&quot;, &quot;Load&quot;).click(() 
                             </div>
                             <div class="flex-grow-1 ms-3">
                                 <h6 class="mb-1">
-                                    <BLink href="javascript:void(0);">Velzon-admin.zip</BLink>
+                                    <BLink href="javascript:void(0);" class="text-body">Velzon-admin.zip</BLink>
                                 </h6>
                                 <small class="text-muted">3.2 MB</small>
                             </div>
@@ -357,7 +357,7 @@ app.appendChild(Wrapper.generate(&quot;button&quot;, &quot;Load&quot;).click(() 
                             </div>
                             <div class="flex-grow-1 ms-3">
                                 <h6 class="mb-1">
-                                    <BLink href="javascript:void(0);">Velzon-admin.ppt</BLink>
+                                    <BLink href="javascript:void(0);" class="text-body">Velzon-admin.ppt</BLink>
                                 </h6>
                                 <small class="text-muted">4.5 MB</small>
                             </div>

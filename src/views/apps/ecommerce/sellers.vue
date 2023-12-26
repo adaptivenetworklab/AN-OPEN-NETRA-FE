@@ -143,7 +143,7 @@ export default {
             </div>
             <img :src="item.img" alt="" height="45" />
             <h5 class="mb-1 mt-4">
-              <router-link to="/ecommerce/seller-details" class="text-reset">{{ item.label }}</router-link>
+              <router-link to="/ecommerce/seller-details" class="link-primary">{{ item.label }}</router-link>
             </h5>
             <p class="text-muted mb-4">{{ item.name }}</p>
             <BRow class="justify-content-center">

@@ -73,7 +73,7 @@ export default {
             <span class="fw-semibold">10</span> remaining
           </div>
         </div>
-        <BButton type="button" variant="primary" size="sm">
+        <BButton type="button" variant="success" size="sm">
           <i class="ri-add-line align-middle me-1"></i> Add Task
         </BButton>
       </div>

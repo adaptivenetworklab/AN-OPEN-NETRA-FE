@@ -326,16 +326,16 @@ const colorRangeChart = {
         reverseNegativeShade: true,
         colorScale: {
           ranges: [{
-              from: -6,
-              to: 0,
-            color: "#09a9d5",
-            },
-            {
-              from: 0.001,
-              to: 6,
-              color: "#f8747c",
-            },
-          ],
+            from: -6,
+            to: 0,
+            color: "#50c3e6",
+          },
+          {
+            from: 0.001,
+            to: 6,
+            color: "#ed5e5e",
+          },
+        ],
         },
       },
     },

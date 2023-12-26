@@ -19,7 +19,7 @@ export default {
     <BRow class="justify-content-center">
       <BCol col lg="10">
         <BCard no-body>
-          <div class="bg-primary-subtle position-relative">
+          <div class="bg-warning-subtle position-relative">
             <BCardBody class="p-5">
               <div class="text-center">
                 <h3>Privacy Policy</h3>
@@ -143,7 +143,7 @@ export default {
 
 
             <div class="text-end">
-              <BLink href="#!" class="btn btn-secondary">I'm Understand</BLink>
+              <BLink href="#!" class="btn btn-danger">I'm Understand</BLink>
             </div>
           </BCardBody>
         </BCard>

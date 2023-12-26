@@ -4,7 +4,7 @@
             <BCardHeader class="align-items-center d-flex">
                 <BCardTitle class="mb-0 flex-grow-1">Featured Companies</BCardTitle>
                 <div class="flex-shrink-0">
-                    <BLink href="#!" class="btn btn-soft-secondary btn-sm">View All Companies <i
+                    <BLink href="#!" class="btn btn-soft-primary btn-sm">View All Companies <i
                             class="ri-arrow-right-line align-bottom"></i></BLink>
                 </div>
             </BCardHeader>
@@ -30,7 +30,7 @@
                                 <td>
                                     <ul class="list-inline mb-0">
                                         <li class="list-inline-item">
-                                            <BLink href="#!" class="link-warning"><i class="ri-facebook-fill"></i>
+                                            <BLink href="#!" class="link-secondary"><i class="ri-facebook-fill"></i>
                                             </BLink>
                                         </li>
                                         <li class="list-inline-item">
@@ -67,7 +67,7 @@
                                 <td>
                                     <ul class="list-inline mb-0">
                                         <li class="list-inline-item">
-                                            <BLink href="#!" class="link-warning"><i class="ri-facebook-fill"></i>
+                                            <BLink href="#!" class="link-secondary"><i class="ri-facebook-fill"></i>
                                             </BLink>
                                         </li>
                                         <li class="list-inline-item">
@@ -104,7 +104,7 @@
                                 <td>
                                     <ul class="list-inline mb-0">
                                         <li class="list-inline-item">
-                                            <BLink href="#!" class="link-warning"><i class="ri-facebook-fill"></i>
+                                            <BLink href="#!" class="link-secondary"><i class="ri-facebook-fill"></i>
                                             </BLink>
                                         </li>
                                         <li class="list-inline-item">
@@ -141,7 +141,7 @@
                                 <td>
                                     <ul class="list-inline mb-0">
                                         <li class="list-inline-item">
-                                            <BLink href="#!" class="link-warning"><i class="ri-facebook-fill"></i>
+                                            <BLink href="#!" class="link-secondary"><i class="ri-facebook-fill"></i>
                                             </BLink>
                                         </li>
                                         <li class="list-inline-item">
@@ -178,7 +178,7 @@
                                 <td>
                                     <ul class="list-inline mb-0">
                                         <li class="list-inline-item">
-                                            <BLink href="#!" class="link-warning"><i class="ri-facebook-fill"></i>
+                                            <BLink href="#!" class="link-secondary"><i class="ri-facebook-fill"></i>
                                             </BLink>
                                         </li>
                                         <li class="list-inline-item">

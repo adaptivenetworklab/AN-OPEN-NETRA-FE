@@ -84,21 +84,21 @@ export default {
     <BCardBody class="px-0">
       <ul class="list-inline main-chart text-center mb-0">
         <li class="list-inline-item chart-border-left me-0 border-0">
-          <h5 class="text-primary">
+          <h4 class="text-primary">
             $584k
             <span class="text-muted d-inline-block fs-13 align-middle ms-2">Revenue</span>
-          </h5>
+          </h4>
         </li>
         <li class="list-inline-item chart-border-left me-0">
-          <h5>
+          <h4>
             $497k<span class="text-muted d-inline-block fs-13 align-middle ms-2">Expenses</span>
-          </h5>
+          </h4>
         </li>
         <li class="list-inline-item chart-border-left me-0">
-          <h5>
+          <h4>
             <span data-plugin="counterup">3.6</span>%<span
               class="text-muted d-inline-block fs-13 align-middle ms-2">Profit Ratio</span>
-          </h5>
+          </h4>
         </li>
       </ul>
 

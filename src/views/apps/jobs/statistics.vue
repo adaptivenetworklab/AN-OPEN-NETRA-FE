@@ -106,7 +106,7 @@ export default {
         markers: {
           size: 0,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-secondary"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
         xaxis: {
           categories: ["2016", "2017", "2018", "2019", "2020", "2021"],
         },
@@ -158,7 +158,7 @@ export default {
           tickAmount: 4,
           min: 0,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-secondary", "--vz-success"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-warning", "--vz-info"]'),
       },
 
       visitorgraphseries: [{
@@ -234,7 +234,7 @@ export default {
             fontWeight: 500,
           },
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.65", "--vz-secondary", "--vz-secondary-rgb, 0.75","--vz-primary-rgb, 0.4", "--vz-success"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-secondary", "--vz-success", "--vz-info","--vz-warning", "--vz-danger"]'),
         plotOptions: {
           treemap: {
             distributed: true,
@@ -243,7 +243,7 @@ export default {
         },
       },
 
-      chartcolors: { colors: ["#f7666e"] },
+      chartcolors: { colors: ["#ed5e5e"] },
       chartoptions: {
         chart: {
           width: 140,
@@ -272,7 +272,7 @@ export default {
             stops: [50, 100, 100, 100],
           },
         },
-        colors: ["#3cd188"]
+        colors: ["#13c56b"]
       }
 
     };
@@ -378,7 +378,7 @@ export default {
         <BCard no-body>
           <BCardHeader>
             <div class="d-flex">
-              <h5 class="card-title mb-0 flex-grow-1">Visitor Graph</h5>
+              <h5 class="card-title mb-0 flex-grow-1  ">Visitor Graph</h5>
               <div class="flex-shrink-0">
                 <BDropdown variant="link" class="card-header-dropdown"
                   toggle-class="my-n3 text-reset dropdown-btn arrow-none" menu-class="dropdown-menu-end"

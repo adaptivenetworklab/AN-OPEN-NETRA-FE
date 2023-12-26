@@ -353,7 +353,7 @@ export default {
           <BCardHeader>
             <div class="d-flex align-items-center flex-wrap gap-2">
               <div class="flex-grow-1">
-                <BButton variant="primary" class="add-btn me-1" @click="toggleModal">
+                <BButton variant="info" class="add-btn me-1" @click="toggleModal">
                   <i class="ri-add-fill me-1 align-bottom"></i> Add Contacts
                 </BButton>
 

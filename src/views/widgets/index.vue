@@ -306,10 +306,10 @@ export default {
             },
           },
           colors: getChartColorsArray(
-            '["--vz-success", "--vz-info", "--vz-primary", "--vz-warning", "--vz-secondary"]'),
+            '["--vz-info", "--vz-success", "--vz-primary", "--vz-warning", "--vz-danger"]'),
         },
       },
-      chartcolors: { colors: ["#f7666e"] },
+      chartcolors: { colors: ["#f06548"] },
       chartoptions: {
         chart: {
           width: 140,
@@ -338,7 +338,7 @@ export default {
             stops: [50, 100, 100, 100],
           },
         },
-        colors: ["#3cd188"]
+        colors: ["#0ab39c"]
       },
       defaultOptions: { animationData: animationData },
       Autoplay
@@ -884,7 +884,7 @@ export default {
                 <BLink href="" class="text-decoration-underline text-white-50">View all orders</BLink>
               </div>
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-white bg-opacity-25 rounded fs-3">
+                <span class="avatar-title bg-light-subtle rounded fs-3">
                   <i class="bx bx-shopping-bag text-white"></i>
                 </span>
               </div>
@@ -1180,7 +1180,7 @@ export default {
                   <count-to :startVal="0" :endVal="40" :duration="5000"></count-to>sec
                 </h2>
                 <p class="mb-0 text-white-50">
-                  <BBadge variant="white" class="bg-white bg-opacity-25 text-white mb-0">
+                  <BBadge variant="white" class="bg-light-subtle text-body mb-0">
                     <i class="ri-arrow-down-line align-middle"></i> 0.24 %
                   </BBadge>
                   vs. previous month
@@ -1188,7 +1188,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-white bg-opacity-25 rounded-circle fs-2">
+                  <span class="avatar-title bg-light-subtle rounded-circle fs-2">
                     <ClockIcon class="text-white"></ClockIcon>
                   </span>
                 </div>
@@ -1239,7 +1239,7 @@ export default {
           <BCardBody>
             <div class="d-flex align-items-center">
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-white bg-opacity-25 text-white rounded-2 fs-2">
+                <span class="avatar-title bg-light-subtle text-white rounded-2 fs-2">
                   <i class="bx bx-shopping-bag"></i>
                 </span>
               </div>
@@ -1253,7 +1253,7 @@ export default {
                 <p class="text-white-50 mb-0">From 1930 last year</p>
               </div>
               <div class="flex-shrink-0 align-self-center">
-                <BBadge variant="white" class="bg-white bg-opacity-25 text-white fs-12"><i
+                <BBadge variant="white" class="bg-light-subtle text-body fs-12"><i
                     class="ri-arrow-up-s-line fs-13 align-middle me-1"></i>6.11 %<span> </span>
                 </BBadge>
               </div>
@@ -1455,7 +1455,7 @@ export default {
       <BCol xl="4">
         <BCard no-body>
           <BCardBody class="p-0">
-            <BAlert :modal-value="true" variant="warning" class="border-0 rounded-top rounded-0 m-0 d-flex align-items-center" show>
+            <BAlert variant="warning" class="border-0 rounded-top rounded-0 m-0 d-flex align-items-center" show>
               <alert-triangle-icon class="text-warning me-2 icon-sm"></alert-triangle-icon>
               <div class="flex-grow-1 text-truncate">
                 Your free trial expired in <b>17</b> days.
@@ -1728,7 +1728,7 @@ export default {
                     </div>
                   </BCol>
                   <BCol>
-                    <h5 class="text-muted mt-0 mb-1 fs-13">
+                    <h5 class="text-muted mt-0 mb-1 fs-12 fw-semibold">
                       12:00am - 03:30pm
                     </h5>
                     <BLink href="#" class="text-reset fs-14 mb-0">Meeting for campaign with sales team</BLink>
@@ -1784,7 +1784,7 @@ export default {
                     </div>
                   </BCol>
                   <BCol>
-                    <h5 class="text-muted mt-0 mb-1 fs-13">
+                    <h5 class="text-muted mt-0 mb-1 fs-12 fw-semibold">
                       02:00pm - 03:45pm
                     </h5>
                     <BLink href="#" class="text-reset fs-14 mb-0">Adding a new event with attachments</BLink>
@@ -1846,7 +1846,7 @@ export default {
                     </div>
                   </BCol>
                   <BCol>
-                    <h5 class="text-muted mt-0 mb-1 fs-13">
+                    <h5 class="text-muted mt-0 mb-1 fs-12 fw-semibold">
                       04:30pm - 07:15pm
                     </h5>
                     <BLink href="#" class="text-reset fs-14 mb-0">Create new project Bundling Product</BLink>
@@ -1902,7 +1902,7 @@ export default {
                     </div>
                   </BCol>
                   <BCol>
-                    <h5 class="text-muted mt-0 mb-1 fs-13">
+                    <h5 class="text-muted mt-0 mb-1 fs-12 fw-semibold">
                       10:30am - 01:15pm
                     </h5>
                     <BLink href="#" class="text-reset fs-14 mb-0">Weekly closed sales won checking with sales team
@@ -2704,7 +2704,7 @@ export default {
                 <div class="d-flex">
                   <div class="flex-grow-1">
                     <p class="text-truncate text-muted fs-14 mb-0">
-                      <i class="mdi mdi-circle align-middle text-secondary me-2"></i>Other
+                      <i class="mdi mdi-circle align-middle text-danger me-2"></i>Other
                     </p>
                   </div>
                   <div class="flex-shrink-0">

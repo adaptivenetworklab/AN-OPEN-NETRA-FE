@@ -91,8 +91,8 @@ export default {
                                     <p class="mb-0 mt-2 pt-1 text-muted">The world's first and largest digital
                                         marketplace.</p>
                                     <div class="d-flex gap-3 mt-4">
-                                        <BLink href="" class="btn btn-primary">Discover Now </BLink>
-                                        <BLink href="" class="btn btn-secondary">Create Your Own</BLink>
+                                        <BLink href="" class="btn btn-secondary">Discover Now </BLink>
+                                        <BLink href="" class="btn btn-success">Create Your Own</BLink>
                                     </div>
                                 </div>
                                 <img src="@/assets/images/bg-d.png" alt="" class="img-fluid" />
@@ -117,8 +117,8 @@ export default {
                                 </div>
                                 <div class="d-flex align-items-center">
                                     <div class="avatar-sm flex-shrink-0">
-                                        <span class="avatar-title bg-primary-subtle rounded fs-3">
-                                            <i class="bx bx-dollar-circle text-primary"></i>
+                                        <span class="avatar-title bg-warning-subtle rounded fs-3">
+                                            <i class="bx bx-dollar-circle text-warning"></i>
                                         </span>
                                     </div>
                                     <div class="flex-grow-1 ps-3">

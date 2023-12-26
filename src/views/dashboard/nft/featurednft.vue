@@ -34,14 +34,14 @@ export default {
                                     class="img-fluid card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <BLink href="#!" class="btn btn-secondary"><i
+                                    <BLink href="#!" class="btn btn-success"><i
                                             class="ri-auction-fill align-bottom me-1"></i> Place Bid</BLink>
                                 </div>
                             </div>
                             <BCardBody style="position: relative">
                                 <p class="fw-medium mb-0 mt-3 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                     37.41k </p>
-                                <h5 class="mb-1 fs-16">
+                                <h5 class="mb-1">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Walking On Air</router-link>
                                 </h5>
                                 <p class="text-muted mb-0">Artwork</p>
@@ -64,14 +64,14 @@ export default {
                                     class="img-fluid card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <BLink href="#!" class="btn btn-secondary"><i
+                                    <BLink href="#!" class="btn btn-success"><i
                                             class="ri-auction-fill align-bottom me-1"></i> Place Bid</BLink>
                                 </div>
                             </div>
                             <BCardBody style="position: relative">
                                 <p class="fw-medium mb-0 mt-3 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                     19.29k </p>
-                                <h5 class="mb-1 fs-16">
+                                <h5 class="mb-1">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Filtered Portrait
                                     </router-link>
                                 </h5>
@@ -95,14 +95,14 @@ export default {
                                     class="img-fluid card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <BLink href="#!" class="btn btn-secondary"><i
+                                    <BLink href="#!" class="btn btn-success"><i
                                             class="ri-auction-fill align-bottom me-1"></i> Place Bid</BLink>
                                 </div>
                             </div>
                             <BCardBody style="position: relative">
                                 <p class="fw-medium mb-0 mt-3 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                     8.42k </p>
-                                <h5 class="mb-1 fs-16">
+                                <h5 class="mb-1">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Patterns Arts & Culture
                                     </router-link>
                                 </h5>
@@ -126,14 +126,14 @@ export default {
                                     class="img-fluid card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <BLink href="#!" class="btn btn-secondary"><i
+                                    <BLink href="#!" class="btn btn-success"><i
                                             class="ri-auction-fill align-bottom me-1"></i> Place Bid</BLink>
                                 </div>
                             </div>
                             <BCardBody style="position: relative">
                                 <p class="fw-medium mb-0 mt-3 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                     15.93k </p>
-                                <h5 class="mb-1 fs-16">
+                                <h5 class="mb-1">
                                     <router-link to="/apps/nft-item-detail" class="text-body">Evolved Reality</router-link>
                                 </h5>
                                 <p class="text-muted mb-0">Video</p>

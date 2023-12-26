@@ -31,7 +31,7 @@ export default {
                         borderRadius: [4, 4]
                     },
                 },
-                colors: getChartColorsArray('["--vz-success", "--vz-secondary"]'),
+                colors: getChartColorsArray('["--vz-success", "--vz-warning"]'),
                 fill: {
                     opacity: 1
                 },

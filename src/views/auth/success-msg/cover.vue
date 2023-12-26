@@ -53,7 +53,7 @@ export default {
 
                                                 <div id="qoutescarouselIndicators" class="carousel slide"
                                                     data-bs-ride="carousel">
-                                                    <Swiper class=" text-center text-white-50 pb-5"
+                                                    <Swiper class=" text-center text-white pb-5"
                                                         :autoplay="{ delay: 3000, disableOnInteraction: false }"
                                                         :loop="true" :modules="[Autoplay, Navigation, Pagination]"
                                                         :pagination="{ clickable: true, el: '.swiper-pagination' }">
@@ -95,7 +95,7 @@ export default {
                                             <p class="text-muted mx-4">Aww yeah, you successfully read this important
                                                 message.</p>
                                             <div class="mt-4">
-                                                <router-link to="/auth/signin-basic" class="btn btn-secondary w-100">Back
+                                                <router-link to="/auth/signin-basic" class="btn btn-success w-100">Back
                                                     to Dashboard</router-link>
                                             </div>
                                         </div>

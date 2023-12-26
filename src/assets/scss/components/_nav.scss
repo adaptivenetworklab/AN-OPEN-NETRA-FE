@@ -36,6 +36,7 @@
       font-weight: $font-weight-medium;
       color: var(--#{$prefix}body-color);
       padding-bottom: 1rem;
+
       &::after {
         content: "";
         background: $primary;
@@ -323,6 +324,7 @@ $value in $theme-colors {
     &.nav-tabs {
       .nav-link {
         color: var(--#{$prefix}body-color);
+
         &.active {
           color: $value;
           background-color: var(--#{$prefix}secondary-bg);
@@ -365,11 +367,11 @@ $value in $theme-colors {
   }
 }
 
-.nav-tabs{
-  .nav-link{
+.nav-tabs {
+  .nav-link {
     color: var(--#{$prefix}body-color);
-  
-    &:hover{
+
+    &:hover {
       color: var(--#{$prefix}primary);
     }
   }
@@ -464,12 +466,13 @@ $value in $theme-colors {
   }
 
   @media (max-width:425px) {
-    .nav{
+    .nav {
       flex-wrap: nowrap;
     }
   }
+
   @media (max-width:375px) {
-    .nav{
+    .nav {
       flex-wrap: wrap;
     }
   }
@@ -549,14 +552,22 @@ $value in $theme-colors {
   }
 }
 
-.nav-success,.animation-nav, .card-header-pills,.vertical-nav-tabs,.nav-pills-justified,.card-footer-tabs,.custom-verti-nav-pills,.nav-custom-outline{
-  .nav-link{
-    color: var(--#{$prefix}body-color) ;
+.nav-success,
+.animation-nav,
+.card-header-pills,
+.vertical-nav-tabs,
+.nav-pills-justified,
+.card-footer-tabs,
+.custom-verti-nav-pills,
+.nav-custom-outline {
+  .nav-link {
+    color: var(--#{$prefix}body-color);
 
-    &:hover{
+    &:hover {
       color: $primary;
     }
-    &.active{
+
+    &.active {
       color: $white;
     }
   }

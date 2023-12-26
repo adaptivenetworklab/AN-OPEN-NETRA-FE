@@ -685,7 +685,7 @@ export default {
             <BCol xxl="6">
                 <h5 class="mb-3">Header Justify Tabs</h5>
                 <BCard no-body style="position: relative;">
-                    <BCardHeader class="align-items-xl-center d-xl-flex gap-2">
+                    <BCardHeader class="align-items-xl-center d-xl-flex">
                         <p class="text-muted flex-grow-1 mb-xl-0">Use <code>card-header-pills</code> class to create
                             header justify tab.</p>
                     </BCardHeader>

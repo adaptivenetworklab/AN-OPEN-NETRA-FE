@@ -346,22 +346,22 @@ export default {
               <div>
                 <h4 class="fs-22 fw-semibold ff-secondary mb-4">{{ item.prefix }}{{ item.counter }}{{ item.suffix }}
                 </h4>
-                <BBadge class="bg-secondary me-1">{{ item.badge }}</BBadge> <span class="text-muted">
+                <BBadge class="bg-warning me-1">{{ item.badge }}</BBadge> <span class="text-muted">
                   {{ item.caption }}</span>
               </div>
               <div class="avatar-sm flex-shrink-0">
                 <span class="avatar-title bg-light rounded fs-3">
                   <template v-if="item.feaIcon == 'file-text'">
-                    <FileTextIcon class="text-primary icon-md icon-dual-primary" />
+                    <FileTextIcon class="text-success icon-md" />
                   </template>
                   <template v-if="item.feaIcon == 'check-square'">
-                    <CheckSquareIcon class="text-primary icon-md icon-dual-primary" />
+                    <CheckSquareIcon class="text-success icon-md" />
                   </template>
                   <template v-if="item.feaIcon == 'clock'">
-                    <ClockIcon class="text-primary icon-md icon-dual-primary" />
+                    <ClockIcon class="text-success icon-md" />
                   </template>
                   <template v-if="item.feaIcon == 'x-octagon'">
-                    <XOctagonIcon class="text-primary icon-md icon-dual-primary" />
+                    <XOctagonIcon class="text-success icon-md" />
                   </template>
                 </span>
               </div>
@@ -382,7 +382,7 @@ export default {
                   <BButton variant="primary" class="me-1" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <router-link to="/invoices/create" class="btn btn-secondary"><i class="ri-add-line align-bottom me-1"></i>
+                  <router-link to="/invoices/create" class="btn btn-danger"><i class="ri-add-line align-bottom me-1"></i>
                     Create Invoice</router-link>
                 </div>
               </div>

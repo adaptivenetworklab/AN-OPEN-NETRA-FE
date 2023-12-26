@@ -73,13 +73,13 @@ export default {
     <BRow>
       <BCol lg="12">
         <div>
-          <div class="d-flex profile-wrapper" style="position: absolute; right: 13px; top: 0px; ">
+          <div class="d-flex profile-wrapper" style="position: absolute; right: 13px; top: 26px; ">
             <div class="d-flex justify-content-end">
-              <router-link to="/pages/profile-setting" class="btn btn-secondary"><i
+              <router-link to="/pages/profile-setting" class="btn btn-success"><i
                   class="ri-edit-box-line align-bottom"></i> Edit Profile</router-link>
             </div>
           </div>
-          <BTabs nav-class=" animation-nav profile-nav gap-2 gap-lg-3 ps-3 text-muted" pills>
+          <BTabs nav-class=" animation-nav profile-nav gap-2 gap-lg-3  pt-4 text-muted" pills>
             <BTab title="Overview" class="nav-item pt-4">
               <template #title>
                 <i class="ri-airplay-fill d-inline-block d-md-none"></i>
@@ -138,7 +138,7 @@ export default {
                       <div class="d-flex flex-wrap gap-2">
                         <div>
                           <BLink href="javascript:void(0);" class="avatar-xs d-block">
-                            <span class="avatar-title rounded-circle fs-16 bg-body text-body">
+                            <span class="avatar-title rounded-circle fs-16 bg-dark text-light">
                               <i class="ri-github-fill"></i>
                             </span>
                           </BLink>
@@ -212,7 +212,7 @@ export default {
                           </div>
                           <div class="flex-grow-1">
                             <div>
-                              <h5 class="fs-14 mb-1">Esther James</h5>
+                              <h5 class="fs-13 mb-1">Esther James</h5>
                               <p class="fs-13 text-muted mb-0">
                                 Frontend Developer
                               </p>
@@ -230,7 +230,7 @@ export default {
                           </div>
                           <div class="flex-grow-1">
                             <div>
-                              <h5 class="fs-14 mb-1">Jacqueline Steve</h5>
+                              <h5 class="fs-13 mb-1">Jacqueline Steve</h5>
                               <p class="fs-13 text-muted mb-0">
                                 UI/UX Designer
                               </p>
@@ -248,7 +248,7 @@ export default {
                           </div>
                           <div class="flex-grow-1">
                             <div>
-                              <h5 class="fs-14 mb-1">George Whalen</h5>
+                              <h5 class="fs-13 mb-1">George Whalen</h5>
                               <p class="fs-13 text-muted mb-0">
                                 Backend Developer
                               </p>
@@ -292,7 +292,7 @@ export default {
                         </div>
                         <div class="flex-grow-1 ms-3 overflow-hidden">
                           <BLink href="javascript:void(0);">
-                            <h6 class="text-truncate fs-14">
+                            <h6 class="text-truncate fs-13">
                               Design your apps in your own way
                             </h6>
                           </BLink>
@@ -305,7 +305,7 @@ export default {
                         </div>
                         <div class="flex-grow-1 ms-3 overflow-hidden">
                           <BLink href="javascript:void(0);">
-                            <h6 class="text-truncate fs-14">
+                            <h6 class="text-truncate fs-13">
                               Smartest Applications for Business
                             </h6>
                           </BLink>
@@ -318,7 +318,7 @@ export default {
                         </div>
                         <div class="flex-grow-1 ms-3 overflow-hidden">
                           <BLink href="javascript:void(0);">
-                            <h6 class="text-truncate fs-14">
+                            <h6 class="text-truncate fs-13">
                               How to get creative in your work
                             </h6>
                           </BLink>
@@ -477,7 +477,7 @@ export default {
                                                 <i class="ri-image-2-line fs-17 text-danger"></i>
                                               </div>
                                               <div class="flex-grow-1 ms-2">
-                                                <h6>
+                                                <h6 class="mb-0">
                                                   <BLink href="javascript:void(0);" class="stretched-link">Business
                                                     Template
                                                     - UI/UX
@@ -821,7 +821,7 @@ export default {
                                                 <i class="ri-image-2-line fs-17 text-danger"></i>
                                               </div>
                                               <div class="flex-grow-1 ms-2">
-                                                <h6>
+                                                <h6 class="mb-0">
                                                   <BLink href="javascript:void(0);" class="stretched-link">Business
                                                     Template
                                                     - UI/UX
@@ -837,7 +837,7 @@ export default {
                                                 <i class="ri-file-zip-line fs-17 text-info"></i>
                                               </div>
                                               <div class="flex-grow-1 ms-2">
-                                                <h6>
+                                                <h6 class="mb-0">
                                                   <BLink href="javascript:void(0);" class="stretched-link">Bank
                                                     Management
                                                     System -
@@ -853,7 +853,7 @@ export default {
                                                 <i class="ri-file-zip-line fs-17 text-info"></i>
                                               </div>
                                               <div class="flex-grow-1 ms-2">
-                                                <h6>
+                                                <h6 class="mb-0">
                                                   <BLink href="javascript:void(0);" class="stretched-link">Bank
                                                     Management
                                                     System -
@@ -2192,7 +2192,7 @@ export default {
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
-                                    <h6 class="fs-15 mb-0">
+                                    <h6 class="fs-14 mb-0">
                                       <BLink href="javascript:void(0)">Artboard-documents.zip</BLink>
                                     </h6>
                                   </div>
@@ -2226,7 +2226,7 @@ export default {
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
-                                    <h6 class="fs-15 mb-0">
+                                    <h6 class="fs-14 mb-0">
                                       <BLink href="javascript:void(0);">Bank Management System</BLink>
                                     </h6>
                                   </div>
@@ -2260,7 +2260,7 @@ export default {
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
-                                    <h6 class="fs-15 mb-0">
+                                    <h6 class="fs-14 mb-0">
                                       <BLink href="javascript:void(0);">Tour-video.mp4</BLink>
                                     </h6>
                                   </div>
@@ -2294,7 +2294,7 @@ export default {
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
-                                    <h6 class="fs-15 mb-0">
+                                    <h6 class="fs-14 mb-0">
                                       <BLink href="javascript:void(0);">Account-statement.xsl</BLink>
                                     </h6>
                                   </div>
@@ -2328,7 +2328,7 @@ export default {
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
-                                    <h6 class="fs-15 mb-0">
+                                    <h6 class="fs-14 mb-0">
                                       <BLink href="javascript:void(0);">Project Screenshots Collection</BLink>
                                     </h6>
                                   </div>
@@ -2362,8 +2362,8 @@ export default {
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
-                                    <h6 class="fs-15 mb-0">
-                                      <BLink href="javascript:void(0);">Velzon-logo.png</BLink>
+                                    <h6 class="fs-14 mb-0">
+                                      <BLink href="javascript:void(0);" class="text-body">Velzon-logo.png</BLink>
                                     </h6>
                                   </div>
                                 </div>

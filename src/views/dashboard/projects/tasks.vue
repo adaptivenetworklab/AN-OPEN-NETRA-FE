@@ -10,7 +10,7 @@ export default {
 
 <template>
   <BCard no-body class="card-height-100">
-    <BCardHeader class="align-items-center d-flex py-0 mt-1">
+    <BCardHeader class="align-items-center d-flex py-0">
       <BCardTitle class="mb-0 flex-grow-1 py-1">My Tasks</BCardTitle>
       <div class="flex-shrink-0">
         <BDropdown variant="link" class="card-header-dropdown" toggle-class="text-reset dropdown-btn arrow-none"

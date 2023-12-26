@@ -650,7 +650,7 @@ export default {
       </template>
       <simpleBar class="h-100">
         <div class="p-4">
-          <h6 class="mb-0 fw-semibold text-uppercase">Layout</h6>
+          <h6 class="mb-0 fw-bold text-uppercase">Layout</h6>
           <p class="text-muted">Choose your layout</p>
 
           <BRow class="gy-3">
@@ -753,7 +753,7 @@ export default {
             </BCol>
           </BRow>
 
-          <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Color Scheme</h6>
+          <h6 class="mt-4 mb-0 fw-bold text-uppercase">Color Scheme</h6>
           <p class="text-muted">Choose Light or Dark Scheme.</p>
 
           <div class="colorscheme-cardradio">
@@ -810,7 +810,9 @@ export default {
             </BRow>
           </div>
           <div id="sidebar-visibility" v-if="layoutType == 'semibox'">
-            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar Visibility</h6>
+            <h6 class="mt-4 mb-0 fw-bold text-uppercase">
+              Sidebar Visibility
+            </h6>
             <p class="text-muted">Choose show or Hidden sidebar.</p>
 
             <BRow>
@@ -858,7 +860,7 @@ export default {
           </div>
 
           <div v-if="layoutType == 'vertical' || layoutType == 'horizontal'" id="layout-width">
-            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Layout Width</h6>
+            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Layout Width</h6>
             <p class="text-muted">Choose Fluid or Boxed layout.</p>
 
             <BRow>
@@ -914,7 +916,7 @@ export default {
           </div>
 
           <div v-if="layoutType != 'twocolumn'" id="layout-position">
-            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">
+            <h6 class="mt-4 mb-0 fw-bold text-uppercase">
               Layout Position
             </h6>
             <p class="text-muted">
@@ -929,7 +931,7 @@ export default {
               <label class="btn btn-light w-sm ms-0" for="layout-position-scrollable">Scrollable</label>
             </div>
           </div>
-          <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Topbar Color</h6>
+          <h6 class="mt-4 mb-0 fw-bold text-uppercase">Topbar Color</h6>
           <p class="text-muted">Choose Light or Dark Topbar Color.</p>
 
           <BRow>
@@ -940,7 +942,7 @@ export default {
                   <span class="d-flex gap-1 h-100">
                     <span class="flex-shrink-0">
                       <span class="bg-light d-flex h-100 flex-column gap-1 p-1">
-                      <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
+                        <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
 
                         <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                         <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
@@ -965,7 +967,7 @@ export default {
                   <span class="d-flex gap-1 h-100">
                     <span class="flex-shrink-0">
                       <span class="bg-light d-flex h-100 flex-column gap-1 p-1">
-                       <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
+                        <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
 
                         <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                         <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
@@ -984,8 +986,10 @@ export default {
               <h5 class="fs-13 text-center mt-2">Dark</h5>
             </BCol>
           </BRow>
-          <div v-if="layoutType == 'vertical' || (layoutType == 'semibox' && visibility == 'show')" id="sidebar-size">
-            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar Size</h6>
+          <div v-if="layoutType == 'vertical' ||
+            (layoutType == 'semibox' && visibility == 'show')
+            " id="sidebar-size">
+            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Sidebar Size</h6>
             <p class="text-muted">Choose a size of Sidebar.</p>
 
             <BRow>
@@ -996,7 +1000,7 @@ export default {
                     <span class="d-flex gap-1 h-100">
                       <span class="flex-shrink-0">
                         <span class="bg-light d-flex h-100 flex-column gap-1 p-1">
-                         <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
+                          <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
 
                           <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                           <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
@@ -1093,7 +1097,7 @@ export default {
           </div>
 
           <div v-if="layoutType == 'vertical'" id="sidebar-view">
-            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar View</h6>
+            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Sidebar View</h6>
             <p class="text-muted">Choose Default or Detached Sidebar view.</p>
 
             <BRow>
@@ -1127,15 +1131,15 @@ export default {
                   <input class="form-check-input" v-model="sidebarView" type="radio" name="data-layout-style" id="sidebar-view-detached" value="detached" />
                   <label class="form-check-label p-0 avatar-md w-100" for="sidebar-view-detached">
                     <span class="d-flex h-100 flex-column">
-                      <span class="bg-light d-flex p-1 gap-1 align-items-center px-2 ">
+                      <span class="bg-light d-flex p-1 gap-1 align-items-center px-2">
                         <span class="d-block p-1 bg-primary-subtle rounded me-1"></span>
-                       <span class="d-block p-1 pb-0 px-2 bg-primary-subtle ms-auto"></span>
+                        <span class="d-block p-1 pb-0 px-2 bg-primary-subtle ms-auto"></span>
 
                         <span class="d-block p-1 pb-0 px-2 bg-primary-subtle"></span>
                       </span>
                       <span class="d-flex gap-1 h-100 p-1 px-2">
                         <span class="flex-shrink-0">
-                          <span class=" bg-light d-flex h-100 flex-column gap-1 p-1">
+                          <span class="bg-light d-flex h-100 flex-column gap-1 p-1">
                             <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                             <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                             <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
@@ -1151,10 +1155,11 @@ export default {
             </BRow>
           </div>
 
-          <div v-if="layoutType == 'vertical' || layoutType === 'twocolumn' || (layoutType === 'semibox' && visibility === 'show')" id="sidebar-color">
-            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">
-              Sidebar Color
-            </h6>
+          <div v-if="layoutType == 'vertical' ||
+            layoutType === 'twocolumn' ||
+            (layoutType === 'semibox' && visibility === 'show')
+            " id="sidebar-color">
+            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Sidebar Color</h6>
             <p class="text-muted">Choose Ligth or Dark Sidebar Color.</p>
 
             <BRow>
@@ -1165,7 +1170,7 @@ export default {
                     <span class="d-flex gap-1 h-100">
                       <span class="flex-shrink-0">
                         <span class="bg-white border-end d-flex h-100 flex-column gap-1 p-1">
-                         <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
+                          <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
 
                           <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                           <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
@@ -1189,7 +1194,7 @@ export default {
                   <label class="form-check-label p-0 avatar-md w-100" for="sidebar-color-dark">
                     <span class="d-flex gap-1 h-100">
                       <span class="flex-shrink-0">
-                        <span class=" bg-primary d-flex h-100 flex-column gap-1 p-1">
+                        <span class="bg-primary d-flex h-100 flex-column gap-1 p-1">
                           <span class="d-block p-1 px-2 bg-white bg-opacity-10 rounded mb-2"></span>
                           <span class="d-block p-1 px-2 pb-0 bg-white bg-opacity-10"></span>
                           <span class="d-block p-1 px-2 pb-0 bg-white bg-opacity-10"></span>
@@ -1209,7 +1214,7 @@ export default {
               </BCol>
               <BCol cols="4">
                 <!-- -->
-                <button class="btn btn-link avatar-md w-100 p-0 overflow-hidden border collapsed " type="button" v-b-target.collapseBgGradient v-b-toggle.collapseBgGradient @click="onSideBarColorClick('gradient')">
+                <button class="btn btn-link avatar-md w-100 p-0 overflow-hidden border collapsed" type="button" v-b-target.collapseBgGradient v-b-toggle.collapseBgGradient @click="onSideBarColorClick('gradient')">
                   <span class="d-flex gap-1 h-100">
                     <span class="flex-shrink-0">
                       <span class="bg-vertical-gradient d-flex h-100 flex-column gap-1 p-1">
@@ -1229,30 +1234,29 @@ export default {
                 </button>
                 <h5 class="fs-13 text-center mt-2">Gradient</h5>
               </BCol>
-            </BRow>
+            </BRow> 
             <BCollapse v-if="showGradients" id="collapseBgGradient">
               <div class="d-flex gap-2 flex-wrap img-switch p-2 px-3 bg-light rounded">
-
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient" value="gradient">
+                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient" value="gradient" />
                   <label class="form-check-label p-0 avatar-xs rounded-circle" for="sidebar-color-gradient">
                     <span class="avatar-title rounded-circle bg-vertical-gradient"></span>
                   </label>
                 </div>
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-2" value="gradient-2">
+                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-2" value="gradient-2" />
                   <label class="form-check-label p-0 avatar-xs rounded-circle" for="sidebar-color-gradient-2">
                     <span class="avatar-title rounded-circle bg-vertical-gradient-2"></span>
                   </label>
                 </div>
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-3" value="gradient-3">
+                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-3" value="gradient-3" />
                   <label class="form-check-label p-0 avatar-xs rounded-circle" for="sidebar-color-gradient-3">
                     <span class="avatar-title rounded-circle bg-vertical-gradient-3"></span>
                   </label>
                 </div>
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-4" value="gradient-4">
+                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-4" value="gradient-4" />
                   <label class="form-check-label p-0 avatar-xs rounded-circle" for="sidebar-color-gradient-4">
                     <span class="avatar-title rounded-circle bg-vertical-gradient-4"></span>
                   </label>
@@ -1261,8 +1265,11 @@ export default {
             </BCollapse>
           </div>
 
-          <div v-if="layoutType == 'vertical' || layoutType === 'twocolumn' || (layoutType === 'semibox' && visibility === 'show')" id="sidebar-img">
-            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar Images</h6>
+          <div v-if="layoutType == 'vertical' ||
+            layoutType === 'twocolumn' ||
+            (layoutType === 'semibox' && visibility === 'show')
+            " id="sidebar-img">
+            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Sidebar Images</h6>
             <p class="text-muted">Choose a image of Sidebar.</p>
 
             <div class="d-flex gap-2 flex-wrap img-switch">
@@ -1278,39 +1285,39 @@ export default {
               <div class="form-check sidebar-setting card-radio">
                 <input class="form-check-input" v-model="sidebarImage" type="radio" name="data-sidebar-img" id="sidebarimg-01" value="img-1" />
                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-01">
-                  <img src="@/assets/images/sidebar/img-1.jpg" alt="" class="avatar-md w-auto object-fit-cover">
+                  <img src="@/assets/images/sidebar/img-1.jpg" alt="" class="avatar-md w-auto object-fit-cover" />
                 </label>
               </div>
 
               <div class="form-check sidebar-setting card-radio">
                 <input class="form-check-input" v-model="sidebarImage" type="radio" name="data-sidebar-img" id="sidebarimg-02" value="img-2" />
                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-02">
-                  <img src="@/assets/images/sidebar/img-2.jpg" alt="" class="avatar-md w-auto object-fit-cover">
+                  <img src="@/assets/images/sidebar/img-2.jpg" alt="" class="avatar-md w-auto object-fit-cover" />
                 </label>
               </div>
               <div class="form-check sidebar-setting card-radio">
                 <input class="form-check-input" v-model="sidebarImage" type="radio" name="data-sidebar-img" id="sidebarimg-03" value="img-3" />
                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-03">
-                  <img src="@/assets/images/sidebar/img-3.jpg" alt="" class="avatar-md w-auto object-fit-cover">
+                  <img src="@/assets/images/sidebar/img-3.jpg" alt="" class="avatar-md w-auto object-fit-cover" />
                 </label>
               </div>
               <div class="form-check sidebar-setting card-radio">
                 <input class="form-check-input" v-model="sidebarImage" type="radio" name="data-sidebar-img" id="sidebarimg-04" value="img-4" />
                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-04">
-                  <img src="@/assets/images/sidebar/img-4.jpg" alt="" class="avatar-md w-auto object-fit-cover">
+                  <img src="@/assets/images/sidebar/img-4.jpg" alt="" class="avatar-md w-auto object-fit-cover" />
                 </label>
               </div>
             </div>
           </div>
 
           <div id="preloader-menu">
-            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Preloader</h6>
+            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Preloader</h6>
             <p class="text-muted">Choose a preloader.</p>
 
             <BRow>
               <BCol cols="4">
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" v-model="preloader" type="radio" name="data-preloader" id="preloader-view-custom" value="enable">
+                  <input class="form-check-input" v-model="preloader" type="radio" name="data-preloader" id="preloader-view-custom" value="enable" />
                   <label class="form-check-label p-0 avatar-md w-100" for="preloader-view-custom">
                     <span class="d-flex gap-1 h-100">
                       <span class="flex-shrink-0">
@@ -1339,7 +1346,7 @@ export default {
               </BCol>
               <BCol cols="4">
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" v-model="preloader" type="radio" name="data-preloader" id="preloader-view-none" value="disable">
+                  <input class="form-check-input" v-model="preloader" type="radio" name="data-preloader" id="preloader-view-none" value="disable" />
                   <label class="form-check-label p-0 avatar-md w-100" for="preloader-view-none">
                     <span class="d-flex gap-1 h-100">
                       <span class="flex-shrink-0">
@@ -1368,10 +1375,13 @@ export default {
       <template #footer>
         <BRow>
           <BCol cols="6">
-            <BButton type="button" variant="light" class="w-100" id="reset-layout" @click="resetLayout"> Reset </BButton>
+            <BButton type="button" variant="light" class="w-100" id="reset-layout" @click="resetLayout">
+              Reset
+            </BButton>
           </BCol>
           <BCol cols="6">
-            <BButton href="https://1.envato.market/velzon-admin" target="_blank" variant="primary" class="w-100"> Buy Now
+            <BButton href="https://1.envato.market/velzon-admin" target="_blank" variant="primary" class="w-100">
+              Buy Now
             </BButton>
           </BCol>
         </BRow>
@@ -1387,5 +1397,3 @@ export default {
   }
 }
 </style>
-
-  

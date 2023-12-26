@@ -91,7 +91,7 @@ export default {
                         '10 Jan', '11 Jan', '12 Jan'
                     ],
                 },
-                colors: getChartColorsArray('["--vz-secondary", "--vz-success", "--vz-primary"]'),
+                colors: getChartColorsArray('["--vz-success", "--vz-secondary", "--vz-primary"]'),
                 markers: {
                     size: 0,
 
@@ -253,7 +253,7 @@ export default {
                             </div>
 
                             <div>
-                                <BButton type="button" variant="primary" class="custom-toggle w-100"
+                                <BButton type="button" variant="success" class="custom-toggle w-100"
                                     data-bs-toggle="button">
                                     <span class="icon-on"><i class="ri-add-line align-bottom me-1"></i> Follow</span>
                                     <span class="icon-off"><i class="ri-user-unfollow-line align-bottom me-1"></i>
@@ -269,7 +269,7 @@ export default {
                     <div class="d-flex align-items-center">
                         <div class="flex-shrink-0">
                             <div class="avatar-sm">
-                                <div class="avatar-title bg-danger bg-opacity-10 text-danger rounded-circle fs-17">
+                                <div class="avatar-title bg-danger-subtle text-danger rounded-circle fs-17">
                                     <i class="ri-gift-line"></i>
                                 </div>
                             </div>

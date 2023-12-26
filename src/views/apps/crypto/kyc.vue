@@ -195,7 +195,7 @@ export default {
                 </BCol>
                 <BCol lg="12">
                   <div class="d-flex align-items-start gap-3 mt-3">
-                    <BButton type="button" variant="secondary" class="btn-label right ms-auto nexttab"
+                    <BButton type="button" variant="primary" class="btn-label right ms-auto nexttab"
                       data-nexttab="pills-bill-address-tab">
                       <i class="ri-arrow-right-line label-icon align-middle fs-16 ms-2"></i>
                       Next Step
@@ -250,7 +250,7 @@ export default {
                       data-previous="pills-bill-info-tab">
                       <i class="ri-arrow-left-line label-icon align-middle fs-16 me-2"></i>Back to Personal Info
                     </BButton>
-                    <BButton variant="secondary" type="button" class="btn-label right ms-auto nexttab"
+                    <BButton variant="primary" type="button" class="btn-label right ms-auto nexttab"
                       data-nexttab="pills-payment-tab">
                       <i class="ri-arrow-right-line label-icon align-middle fs-16 ms-2"></i>Next Step
                     </BButton>
@@ -270,19 +270,19 @@ export default {
               <div class="d-flex gap-2">
                 <div>
                   <input type="radio" class="btn-check" id="passport" checked name="choose-document" />
-                  <label class="btn btn-outline-primary" for="passport">Passport</label>
+                  <label class="btn btn-outline-info" for="passport">Passport</label>
                 </div>
                 <div>
                   <input type="radio" class="btn-check" id="aadhar-card" name="choose-document" />
-                  <label class="btn btn-outline-primary" for="aadhar-card">Aadhar Card</label>
+                  <label class="btn btn-outline-info" for="aadhar-card">Aadhar Card</label>
                 </div>
                 <div>
                   <input type="radio" class="btn-check" id="pan-card" name="choose-document" />
-                  <label class="btn btn-outline-primary" for="pan-card">Pan Card</label>
+                  <label class="btn btn-outline-info" for="pan-card">Pan Card</label>
                 </div>
                 <div>
                   <input type="radio" class="btn-check" id="other" name="choose-document" />
-                  <label class="btn btn-outline-primary" for="other">Other</label>
+                  <label class="btn btn-outline-info" for="other">Other</label>
                 </div>
               </div>
 
@@ -314,7 +314,7 @@ export default {
                   data-previous="pills-bill-address-tab">
                   <i class="ri-arrow-left-line label-icon align-middle fs-16 me-2"></i>Back to Bank Details
                 </BButton>
-                <BButton type="button" variant="secondary" class="btn-label right ms-auto nexttab"
+                <BButton type="button" variant="primary" class="btn-label right ms-auto nexttab"
                   data-nexttab="pills-finish-tab">
                   <i class="ri-save-line label-icon align-middle fs-16 ms-2"></i>Submit
                 </BButton>
@@ -330,7 +330,7 @@ export default {
               <BRow class="text-center justify-content-center">
                 <BCol lg="11">
                   <div class="mb-4">
-                    <lottie colors="primary:#687cfe,secondary:#ff7f5d" :options="defaultOptions" :height="120"
+                    <lottie colors="primary:#0ab39c,secondary:#405189" :options="defaultOptions" :height="120"
                       :width="120" />
                   </div>
                   <h5>Verification Completed</h5>
@@ -346,7 +346,7 @@ export default {
                       Done
                       <i class="ri-thumb-up-fill align-bottom me-1"></i>
                     </BButton>
-                    <BButton type="button" variant="secondary">
+                    <BButton type="button" variant="primary">
                       <i class="ri-home-4-line align-bottom ms-1"></i> Back
                       to Home
                     </BButton>

@@ -346,9 +346,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Total Tickets</p>
-                <h4 class="mt-4 ff-secondary fw-semibold">
+                <h2 class="mt-4 ff-secondary">
                   <count-to :duration="1000" :startVal="0" :endVal="547"></count-to>k
-                </h4>
+                </h2>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-success mb-0">
                     <i class="ri-arrow-up-line align-middle"></i> 17.32 %
@@ -358,7 +358,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
+                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-4">
                     <i class="ri-ticket-2-line"></i>
                   </span>
                 </div>
@@ -373,9 +373,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Pending Tickets</p>
-                <h4 class="mt-4 ff-secondary fw-semibold">
+                <h2 class="mt-4 ff-secondary">
                   <count-to :duration="1000" :startVal="0" :endVal="124"></count-to>k
-                </h4>
+                </h2>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-danger mb-0">
                     <i class="ri-arrow-down-line align-middle"></i> 0.96 %
@@ -385,7 +385,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-warning-subtle text-warning rounded-circle fs-4">
+                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-4">
                     <i class="mdi mdi-timer-sand"></i>
                   </span>
                 </div>
@@ -400,9 +400,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Closed Tickets</p>
-                <h4 class="mt-4 ff-secondary fw-semibold">
+                <h2 class="mt-4 ff-secondary">
                   <count-to :duration="1000" :startVal="0" :endVal="107"></count-to>K
-                </h4>
+                </h2>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-danger mb-0">
                     <i class="ri-arrow-down-line align-middle"></i> 3.87 %
@@ -412,7 +412,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-secondary-subtle text-secondary rounded-circle fs-4">
+                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-4">
                     <i class="ri-shopping-bag-line"></i>
                   </span>
                 </div>
@@ -427,9 +427,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Deleted Tickets</p>
-                <h4 class="mt-4 ff-secondary fw-semibold">
+                <h2 class="mt-4 ff-secondary">
                   <count-to :duration="1000" :startVal="0" :endVal="15"></count-to>%
-                </h4>
+                </h2>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-success mb-0">
                     <i class="ri-arrow-up-line align-middle"></i> 1.09 %
@@ -439,7 +439,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-danger-subtle text-danger rounded-circle fs-4">
+                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-4">
                     <i class="ri-delete-bin-line"></i>
                   </span>
                 </div>
@@ -458,10 +458,10 @@ export default {
               <h5 class="card-title mb-0 flex-grow-1">Tickets</h5>
               <div class="flex-shrink-0">
                 <div class="d-flex flex-wrap gap-2">
-                  <BButton variant="soft-danger" class="me-1" id="remove-actions" @click="deleteMultiple">
+                  <BButton variant="soft-secondary" class="me-1" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton variant="primary" class="add-btn" @click="toggleModal">
+                  <BButton variant="danger" class="add-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Create Tickets
                   </BButton>
                 </div>
@@ -498,7 +498,7 @@ export default {
                   </div>
                 </BCol>
                 <BCol xxl="1" sm="4">
-                  <BButton type="button" variant="secondary" class="w-100" @click="SearchData">
+                  <BButton type="button" variant="primary" class="w-100" @click="SearchData">
                     <i class="ri-equalizer-fill me-1 align-bottom"></i>
                     Filters
                   </BButton>

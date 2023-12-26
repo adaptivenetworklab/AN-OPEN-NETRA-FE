@@ -52,7 +52,7 @@ export default {
             enabled: false,
           },
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-secondary", "--vz-info", "--vz-warning"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
       },
       Autoplay, Mousewheel
     };
@@ -130,13 +130,13 @@ export default {
                         </div>
                       </BCol>
                       <div class="col-auto">
-                        <BButton type="button" variant="soft-secondary">
+                        <BButton type="button" variant="soft-success">
                           <i class="ri-add-circle-line align-middle me-1"></i>
                           Add Product
                         </BButton>
                       </div>
                       <div class="col-auto">
-                        <BButton type="button" variant="soft-success" class="btn-icon waves-effect layout-rightside-btn"
+                        <BButton type="button" variant="soft-info" class="btn-icon waves-effect layout-rightside-btn"
                           @click="rightcolumn">
                           <i class="ri-pulse-line"></i>
                         </BButton>
@@ -167,14 +167,14 @@ export default {
                   </div>
                   <div class="d-flex align-items-end justify-content-between mt-4">
                     <div>
-                      <h4 class="fs-20 fw-semibold ff-secondary mb-4">
+                      <h4 class="fs-22 fw-semibold ff-secondary mb-4">
                         $<count-to :startVal='0' :endVal='559' :duration='5000'></count-to>k
                       </h4>
-                      <BLink href="" class="text-decoration-underline">View net earnings</BLink>
+                      <BLink href="" class="text-decoration-underline text-muted">View net earnings</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
-                      <span class="avatar-title bg-secondary-subtle rounded fs-3">
-                        <i class="bx bx-dollar-circle text-secondary"></i>
+                      <span class="avatar-title bg-success-subtle rounded fs-3">
+                        <i class="bx bx-dollar-circle text-success"></i>
                       </span>
                     </div>
                   </div>
@@ -200,14 +200,14 @@ export default {
                   </div>
                   <div class="d-flex align-items-end justify-content-between mt-4">
                     <div>
-                      <h4 class="fs-20 fw-semibold ff-secondary mb-4">
+                      <h4 class="fs-22 fw-semibold ff-secondary mb-4">
                         <count-to :startVal='0' :endVal='36894' :duration='5000'></count-to>
                       </h4>
-                      <BLink href="" class="text-decoration-underline">View all orders</BLink>
+                      <BLink href="" class="text-decoration-underline text-muted">View all orders</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
-                      <span class="avatar-title bg-primary-subtle rounded fs-3">
-                        <i class="bx bx-shopping-bag text-primary"></i>
+                      <span class="avatar-title bg-info-subtle rounded fs-3">
+                        <i class="bx bx-shopping-bag text-info"></i>
                       </span>
                     </div>
                   </div>
@@ -233,15 +233,15 @@ export default {
                   </div>
                   <div class="d-flex align-items-end justify-content-between mt-4">
                     <div>
-                      <h4 class="fs-20 fw-semibold ff-secondary mb-4">
+                      <h4 class="fs-22 fw-semibold ff-secondary mb-4">
                         <count-to :startVal='0' :endVal='183' :duration='5000'></count-to>M
 
                       </h4>
-                      <BLink href="" class="text-decoration-underline">See details</BLink>
+                      <BLink href="" class="text-decoration-underline text-muted">See details</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
-                      <span class="avatar-title bg-success-subtle rounded fs-3">
-                        <i class="bx bx-user-circle text-success"></i>
+                      <span class="avatar-title bg-warning-subtle rounded fs-3">
+                        <i class="bx bx-user-circle text-warning"></i>
                       </span>
                     </div>
                   </div>
@@ -264,14 +264,14 @@ export default {
                   </div>
                   <div class="d-flex align-items-end justify-content-between mt-4">
                     <div>
-                      <h4 class="fs-20 fw-semibold ff-secondary mb-4">
+                      <h4 class="fs-22 fw-semibold ff-secondary mb-4">
                         $<count-to :startVal='0' :endVal='165' :duration='5000'></count-to>k
                       </h4>
-                      <BLink href="" class="text-decoration-underline">Withdraw money</BLink>
+                      <BLink href="" class="text-decoration-underline text-muted">Withdraw money</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
-                      <span class="avatar-title bg-warning-subtle rounded fs-3">
-                        <i class="bx bx-wallet text-warning"></i>
+                      <span class="avatar-title bg-primary-subtle rounded fs-3">
+                        <i class="bx bx-wallet text-primary"></i>
                       </span>
                     </div>
                   </div>
@@ -323,7 +323,7 @@ export default {
                                 <img src="@/assets/images/products/img-1.png" alt="" class="img-fluid d-block" />
                               </div>
                               <div>
-                                <h5 class="fs-14 my-1">
+                                <h5 class="fs-13 my-1">
                                   <router-link to="/ecommerce/product-details" class="text-reset">Branded T-Shirts
                                   </router-link>
                                 </h5>
@@ -364,7 +364,7 @@ export default {
                             </div>
                           </td>
                           <td>
-                            <h5 class="fs-14 my-1 fw-normal">$85.20</h5>
+                            <h5 class="fs-13 my-1 fw-normal">$85.20</h5>
                             <span class="text-muted">Price</span>
                           </td>
                           <td>
@@ -389,7 +389,7 @@ export default {
                                 <img src="@/assets/images/products/img-3.png" alt="" class="img-fluid d-block" />
                               </div>
                               <div>
-                                <h5 class="fs-14 my-1">
+                                <h5 class="fs-13 my-1">
                                   <router-link to="/ecommerce/product-details" class="text-reset">Borosil Paper Cup
                                   </router-link>
                                 </h5>
@@ -421,7 +421,7 @@ export default {
                                 <img src="@/assets/images/products/img-4.png" alt="" class="img-fluid d-block" />
                               </div>
                               <div>
-                                <h5 class="fs-14 my-1">
+                                <h5 class="fs-13 my-1">
                                   <router-link to="/ecommerce/product-details" class="text-reset">One Seater Sofa
                                   </router-link>
                                 </h5>
@@ -455,7 +455,7 @@ export default {
                                 <img src="@/assets/images/products/img-5.png" alt="" class="img-fluid d-block" />
                               </div>
                               <div>
-                                <h5 class="fs-14 my-1">
+                                <h5 class="fs-13 my-1">
                                   <router-link to="/ecommerce/product-details" class="text-reset">Stillbird Helmet
                                   </router-link>
                                 </h5>
@@ -563,7 +563,7 @@ export default {
                             <span class="text-muted">$541200</span>
                           </td>
                           <td>
-                            <h5 class="fs-14 mb-0">
+                            <h5 class="fs-13 fw-semibold mb-0">
                               32%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
                             </h5>
                           </td>
@@ -575,7 +575,7 @@ export default {
                                 <img src="@/assets/images/companies/img-2.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-grow-1">
-                                <h5 class="fs-14 my-1">
+                                <h5 class="fs-13 my-1">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Digitech Galaxy
                                   </router-link>
                                 </h5>
@@ -594,7 +594,7 @@ export default {
                             <span class="text-muted">$75030</span>
                           </td>
                           <td>
-                            <h5 class="fs-14 mb-0">
+                            <h5 class="fs-13 fw-semibold mb-0">
                               79%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
                             </h5>
                           </td>
@@ -606,7 +606,7 @@ export default {
                                 <img src="@/assets/images/companies/img-3.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-gow-1">
-                                <h5 class="fs-14 my-1">
+                                <h5 class="fs-13 my-1">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Nesta Technologies
                                   </router-link>
                                 </h5>
@@ -625,7 +625,7 @@ export default {
                             <span class="text-muted">$45600</span>
                           </td>
                           <td>
-                            <h5 class="fs-14 mb-0">
+                            <h5 class="fs-13 mb-0">
                               90%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
                             </h5>
                           </td>
@@ -637,7 +637,7 @@ export default {
                                 <img src="@/assets/images/companies/img-8.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-grow-1">
-                                <h5 class="fs-14 my-1">
+                                <h5 class="fs-13 my-1">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Zoetic Fashion
                                   </router-link>
                                 </h5>
@@ -656,7 +656,7 @@ export default {
                             <span class="text-muted">$29456</span>
                           </td>
                           <td>
-                            <h5 class="fs-14 mb-0">
+                            <h5 class="fs-13 fw-semibold mb-0">
                               40%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
                             </h5>
                           </td>
@@ -668,7 +668,7 @@ export default {
                                 <img src="@/assets/images/companies/img-5.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-grow-1">
-                                <h5 class="fs-14 my-1">
+                                <h5 class="fs-13 my-1">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Meta4Systems
                                   </router-link>
                                 </h5>
@@ -687,7 +687,7 @@ export default {
                             <span class="text-muted">$11260</span>
                           </td>
                           <td>
-                            <h5 class="fs-14 mb-0">
+                            <h5 class="fs-13 fw-semibold mb-0">
                               57%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
                             </h5>
                           </td>
@@ -759,7 +759,7 @@ export default {
                 <BCardHeader class="align-items-center d-flex">
                   <BCardTitle class="mb-0 flex-grow-1">Recent Orders</BCardTitle>
                   <div class="flex-shrink-0">
-                    <BButton type="button" variant="soft-secondary" size="sm">
+                    <BButton type="button" variant="soft-info" size="sm">
                       <i class="ri-file-list-3-line align-middle"></i> Generate
                       Report
                     </BButton>
@@ -783,7 +783,7 @@ export default {
                       <tbody>
                         <tr>
                           <td>
-                            <router-link to="/ecommerce/order-details" class="fw-medium text-reset">#VZ2112
+                            <router-link to="/ecommerce/order-details" class="fw-medium link-primary">#VZ2112
                             </router-link>
                           </td>
                           <td>
@@ -796,7 +796,7 @@ export default {
                           </td>
                           <td>Clothes</td>
                           <td>
-                            <span class="text-primary">$109.00</span>
+                            <span class="text-success">$109.00</span>
                           </td>
                           <td>Zoetic Fashion</td>
                           <td>
@@ -810,7 +810,7 @@ export default {
                         </tr>
                         <tr>
                           <td>
-                            <router-link to="/ecommerce/order-details" class="fw-medium text-reset">#VZ2111
+                            <router-link to="/ecommerce/order-details" class="fw-medium link-primary">#VZ2111
                             </router-link>
                           </td>
                           <td>
@@ -823,7 +823,7 @@ export default {
                           </td>
                           <td>Kitchen Storage</td>
                           <td>
-                            <span class="text-primary">$149.00</span>
+                            <span class="text-success">$149.00</span>
                           </td>
                           <td>Micro Design</td>
                           <td>
@@ -837,7 +837,7 @@ export default {
                         </tr>
                         <tr>
                           <td>
-                            <router-link to="/ecommerce/order-details" class="fw-medium text-reset">#VZ2109
+                            <router-link to="/ecommerce/order-details" class="fw-medium link-primary">#VZ2109
                             </router-link>
                           </td>
                           <td>
@@ -850,7 +850,7 @@ export default {
                           </td>
                           <td>Bike Accessories</td>
                           <td>
-                            <span class="text-primary">$215.00</span>
+                            <span class="text-success">$215.00</span>
                           </td>
                           <td>Nesta Technologies</td>
                           <td>
@@ -864,7 +864,7 @@ export default {
                         </tr>
                         <tr>
                           <td>
-                            <router-link to="/ecommerce/order-details" class="fw-medium text-reset">#VZ2108
+                            <router-link to="/ecommerce/order-details" class="fw-medium link-primary">#VZ2108
                             </router-link>
                           </td>
                           <td>
@@ -877,7 +877,7 @@ export default {
                           </td>
                           <td>Furniture</td>
                           <td>
-                            <span class="text-primary">$199.00</span>
+                            <span class="text-success">$199.00</span>
                           </td>
                           <td>Syntyce Solutions</td>
                           <td>
@@ -891,7 +891,7 @@ export default {
                         </tr>
                         <tr>
                           <td>
-                            <router-link to="/ecommerce/order-details" class="fw-medium text-reset">#VZ2107
+                            <router-link to="/ecommerce/order-details" class="fw-medium link-primary">#VZ2107
                             </router-link>
                           </td>
                           <td>
@@ -904,7 +904,7 @@ export default {
                           </td>
                           <td>Bags and Wallets</td>
                           <td>
-                            <span class="text-primary">$330.00</span>
+                            <span class="text-success">$330.00</span>
                           </td>
                           <td>iTest Factory</td>
                           <td>
@@ -926,13 +926,13 @@ export default {
         </div>
       </BCol>
 
-      <div class="col-auto layout-rightside-col d-none">
+      <div class="col-auto layout-rightside-col d-block">
         <div class="overlay" @click="hiderightcolumn"></div>
         <div class="layout-rightside">
           <BCard no-body class="h-100 rounded-0">
             <BCardBody class="p-0">
               <div class="p-3">
-                <h6 class="text-muted mb-0 text-uppercase fw-semibold">
+                <h6 class="text-muted mb-0 text-uppercase">
                   Recent Activity
                 </h6>
               </div>
@@ -1088,7 +1088,7 @@ export default {
               </SimpleBar>
 
               <div class="p-3 mt-2">
-                <h6 class="text-muted mb-3 text-uppercase fw-semibold">
+                <h6 class="text-muted mb-3 text-uppercase">
                   Top 10 Categories
                 </h6>
 
@@ -1136,7 +1136,7 @@ export default {
                 </div>
               </div>
               <div class="p-3">
-                <h6 class="text-muted mb-3 text-uppercase fw-semibold">
+                <h6 class="text-muted mb-3 text-uppercase">
                   Products Reviews
                 </h6>
                 <div>
@@ -1280,7 +1280,7 @@ export default {
               </div>
 
               <div class="p-3">
-                <h6 class="text-muted mb-3 text-uppercase fw-semibold">
+                <h6 class="text-muted mb-3 text-uppercase">
                   Customer Reviews
                 </h6>
                 <div class="bg-light px-3 py-2 rounded-2 mb-2">

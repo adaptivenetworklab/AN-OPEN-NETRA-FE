@@ -58,7 +58,7 @@ export default {
             <div class="d-flex align-items-center">
               <h5 class="card-title flex-grow-1 mb-0">Order #VL2667</h5>
               <div class="flex-shrink-0">
-                <router-link to="/invoices/detail" class="btn btn-primary btn-sm"><i
+                <router-link to="/invoices/detail" class="btn btn-success btn-sm"><i
                     class="ri-download-2-fill align-middle me-1"></i>
                   Invoice</router-link>
               </div>
@@ -84,8 +84,8 @@ export default {
                           <img :src="item.img" alt="" class="img-fluid d-block" />
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h5 class="fs-15">
-                            <router-link to="/ecommerce/product-details" class="text-reset">{{ item.product }}
+                          <h5 class="fs-14">
+                            <router-link to="/ecommerce/product-details" class="text-body">{{ item.product }}
                             </router-link>
                           </h5>
                           <p class="text-muted mb-0">
@@ -149,10 +149,10 @@ export default {
             <div class="d-sm-flex align-items-center">
               <h5 class="card-title flex-grow-1 mb-0">Order Status</h5>
               <div class="flex-shrink-0 mt-2 mt-sm-0">
-                <BLink href="javascript:void(0);" class="btn btn-soft-primary btn-sm mt-2 mt-sm-0"><i
+                <BLink href="javascript:void(0);" class="btn btn-soft-info btn-sm mt-2 mt-sm-0"><i
                     class="ri-map-pin-line align-middle me-1"></i> Change
                   Address</BLink>
-                <BLink href="javascript:void(0);" class="btn btn-soft-secondary btn-sm mt-2 mt-sm-0 ms-1"><i
+                <BLink href="javascript:void(0);" class="btn btn-soft-danger btn-sm mt-2 mt-sm-0 ms-1"><i
                     class="mdi mdi-archive-remove-outline align-middle me-1"></i>
                   Cancel Order</BLink>
               </div>
@@ -171,7 +171,7 @@ export default {
                           </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h6 class="fs-15 mb-0 fw-semibold">
+                          <h6 class="fs-14 mb-0">
                             Order Placed -
                             <span class="fw-normal">Wed, 15 Dec 2021</span>
                           </h6>
@@ -198,7 +198,7 @@ export default {
                           </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h6 class="fs-15 mb-1 fw-semibold">
+                          <h6 class="fs-14 mb-1">
                             Packed -
                             <span class="fw-normal">Thu, 16 Dec 2021</span>
                           </h6>
@@ -225,7 +225,7 @@ export default {
                           </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h6 class="fs-15 mb-1 fw-semibold">
+                          <h6 class="fs-14 mb-1">
                             Shipping -
                             <span class="fw-normal">Thu, 16 Dec 2021</span>
                           </h6>
@@ -252,7 +252,7 @@ export default {
                           </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h6 class="fs-14 mb-0 fw-semibold">
+                          <h6 class="fs-14 mb-0">
                             Out For Delivery
                           </h6>
                         </div>
@@ -271,7 +271,7 @@ export default {
                           </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h6 class="fs-14 mb-0 fw-semibold">Delivered</h6>
+                          <h6 class="fs-14 mb-0">Delivered</h6>
                         </div>
                       </div>
                     </BLink>

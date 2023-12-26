@@ -181,7 +181,7 @@ export default {
                                             </p>
                                         </div>
                                         <div class="mt-4">
-                                            <BButton variant="secondary" class="w-100" type="button">Sign
+                                            <BButton variant="success" class="w-100" type="button">Sign
                                                 Up</BButton>
                                         </div>
 

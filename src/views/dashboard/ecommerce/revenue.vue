@@ -115,7 +115,7 @@ export default {
             barHeight: "70%",
           },
         },
-        colors: getChartColorsArray('["--vz-light", "--vz-primary", "--vz-secondary"]'),
+        colors: getChartColorsArray('["--vz-success", "--vz-info", "--vz-danger"]'),
         tooltip: {
           shared: true,
           y: [{
@@ -155,13 +155,13 @@ export default {
     <BCardHeader class="border-0 align-items-center d-flex">
       <BCardTitle class="mb-0 flex-grow-1">Revenue</BCardTitle>
       <div class="hstack gap-1">
-        <BButton type="button" variant="soft-secondary" size="sm">
+        <BButton type="button" variant="soft-dark" size="sm">
           ALL
         </BButton>
-        <BButton type="button" variant="soft-secondary" size="sm">
+        <BButton type="button" variant="soft-dark" size="sm">
           1M
         </BButton>
-        <BButton type="button" variant="soft-secondary" size="sm">
+        <BButton type="button" variant="soft-dark" size="sm">
           6M
         </BButton>
         <BButton type="button" variant="soft-primary" size="sm">
@@ -198,7 +198,7 @@ export default {
         </BCol>
         <BCol cols="6" sm="3">
           <div class="p-3 border border-dashed border-start-0 border-end-0">
-            <h5 class="mb-1 text-primary">
+            <h5 class="mb-1 text-success">
               <count-to :startVal="0" :endVal="18" :duration="4000"></count-to>%
             </h5>
             <p class="text-muted mb-0">Conversation Ratio</p>

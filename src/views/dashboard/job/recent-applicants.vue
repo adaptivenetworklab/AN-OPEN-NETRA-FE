@@ -294,7 +294,7 @@ export default {
                 <BCardHeader class="align-items-center d-flex">
                     <BCardTitle class="mb-0 flex-grow-1">Jobs Views Location</BCardTitle>
                     <div class="flex-shrink-0">
-                        <BButton type="button" variant="soft-secondary" size="sm">
+                        <BButton type="button" variant="soft-primary" size="sm">
                             Export Report
                         </BButton>
                     </div>

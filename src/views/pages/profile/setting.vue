@@ -116,8 +116,7 @@ export default {
                 <h5 class="card-title mb-0">Complete Your Profile</h5>
               </div>
               <div class="flex-shrink-0">
-                <BLink href="javascript:void(0);" class="badge bg-light text-primary fs-12"><i
-                    class="ri-edit-box-line align-bottom me-1"></i> Edit</BLink>
+                <BLink href="javascript:void(0);" class="badge bg-light text-primary fs-12"><i class="ri-edit-box-line align-bottom me-1"></i> Edit</BLink>
               </div>
             </div>
 
@@ -135,13 +134,12 @@ export default {
                 <h5 class="card-title mb-0">Portfolio</h5>
               </div>
               <div class="flex-shrink-0">
-                <BLink href="javascript:void(0);" class="badge bg-light text-primary fs-12"><i
-                    class="ri-add-fill align-bottom me-1"></i> Add</BLink>
+                <BLink href="javascript:void(0);" class="badge bg-light text-primary fs-12"><i class="ri-add-fill align-bottom me-1"></i> Add</BLink>
               </div>
             </div>
             <div class="mb-3 d-flex">
               <div class="avatar-xs d-block flex-shrink-0 me-3">
-                <span class="avatar-title rounded-circle fs-16 bg-body text-body">
+                <span class="avatar-title rounded-circle fs-16 bg-dark text-light">
                   <i class="ri-github-fill"></i>
                 </span>
               </div>
@@ -153,8 +151,7 @@ export default {
                   <i class="ri-global-fill"></i>
                 </span>
               </div>
-              <input type="text" class="form-control" id="websiteInput" placeholder="www.example.com"
-                value="www.velzon.com" />
+              <input type="text" class="form-control" id="websiteInput" placeholder="www.example.com" value="www.velzon.com" />
             </div>
             <div class="mb-3 d-flex">
               <div class="avatar-xs d-block flex-shrink-0 me-3">
@@ -178,36 +175,33 @@ export default {
       <BCol xxl="9">
         <BCard no-body class="mt-xxl-n5">
           <BCardBody class="p-4 pt-2">
-            <BTabs nav-class="nav-tabs-custom rounded border-bottom-0" >
-              <BTab class="nav-item" title="Personal Details" active>
+            <BTabs nav-class="nav-tabs-custom rounded border-bottom-0">
+              <BTab class="nav-item" active>
+                <template #title><span class="text-body">Personal Details</span></template>
                 <form action="javascript:void(0);">
                   <BRow class="pt-4">
                     <BCol lg="6">
                       <div class="mb-3">
                         <label for="firstnameInput" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="firstnameInput" placeholder="Enter your firstname"
-                          value="Dave" />
+                        <input type="text" class="form-control" id="firstnameInput" placeholder="Enter your firstname" value="Dave" />
                       </div>
                     </BCol>
                     <BCol lg="6">
                       <div class="mb-3">
                         <label for="lastnameInput" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="lastnameInput" placeholder="Enter your lastname"
-                          value="Adame" />
+                        <input type="text" class="form-control" id="lastnameInput" placeholder="Enter your lastname" value="Adame" />
                       </div>
                     </BCol>
                     <BCol lg="6">
                       <div class="mb-3">
                         <label for="phonenumberInput" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" id="phonenumberInput"
-                          placeholder="Enter your phone number" value="+(1) 987 6543" />
+                        <input type="text" class="form-control" id="phonenumberInput" placeholder="Enter your phone number" value="+(1) 987 6543" />
                       </div>
                     </BCol>
                     <BCol lg="6">
                       <div class="mb-3">
                         <label for="emailInput" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="emailInput" placeholder="Enter your email"
-                          value="daveadame@velzon.com" />
+                        <input type="email" class="form-control" id="emailInput" placeholder="Enter your email" value="daveadame@velzon.com" />
                       </div>
                     </BCol>
                     <BCol lg="12">
@@ -221,30 +215,27 @@ export default {
                     <BCol lg="12">
                       <div class="mb-3">
                         <label for="skillsInput" class="form-label">Skills</label>
-                        <Multiselect v-model="value" id="skillsinput" mode="tags" :close-on-select="false"
-                          :searchable="true" :create-option="true" :options="[
-                            { value: 'illustrator', label: 'Illustrator' },
-                            { value: 'photoshop', label: 'Photoshop' },
-                            { value: 'css', label: 'CSS' },
-                            { value: 'html', label: 'HTML' },
-                            { value: 'javascript', label: 'Javascript' },
-                            { value: 'python', label: 'Python' },
-                            { value: 'php', label: 'PHP' },
-                          ]" />
+                        <Multiselect v-model="value" id="skillsinput" mode="tags" :close-on-select="false" :searchable="true" :create-option="true" :options="[
+                          { value: 'illustrator', label: 'Illustrator' },
+                          { value: 'photoshop', label: 'Photoshop' },
+                          { value: 'css', label: 'CSS' },
+                          { value: 'html', label: 'HTML' },
+                          { value: 'javascript', label: 'Javascript' },
+                          { value: 'python', label: 'Python' },
+                          { value: 'php', label: 'PHP' },
+                        ]" />
                       </div>
                     </BCol>
                     <BCol lg="6">
                       <div class="mb-3">
                         <label for="designationInput" class="form-label">Designation</label>
-                        <input type="text" class="form-control" id="designationInput" placeholder="Designation"
-                          value="Lead Designer / Developer" />
+                        <input type="text" class="form-control" id="designationInput" placeholder="Designation" value="Lead Designer / Developer" />
                       </div>
                     </BCol>
                     <BCol lg="6">
                       <div class="mb-3">
                         <label for="websiteInput1" class="form-label">Website</label>
-                        <input type="text" class="form-control" id="websiteInput1" placeholder="www.example.com"
-                          value="www.velzon.com" />
+                        <input type="text" class="form-control" id="websiteInput1" placeholder="www.example.com" value="www.velzon.com" />
                       </div>
                     </BCol>
                     <BCol lg="4">
@@ -256,31 +247,28 @@ export default {
                     <BCol lg="4">
                       <div class="mb-3">
                         <label for="countryInput" class="form-label">Country</label>
-                        <input type="text" class="form-control" id="countryInput" placeholder="Country"
-                          value="United States" />
+                        <input type="text" class="form-control" id="countryInput" placeholder="Country" value="United States" />
                       </div>
                     </BCol>
                     <BCol lg="4">
                       <div class="mb-3">
                         <label for="zipcodeInput" class="form-label">Zip Code</label>
-                        <input type="text" class="form-control" minlength="5" maxlength="6" id="zipcodeInput"
-                          placeholder="Enter zipcode" value="90011" />
+                        <input type="text" class="form-control" minlength="5" maxlength="6" id="zipcodeInput" placeholder="Enter zipcode" value="90011" />
                       </div>
                     </BCol>
                     <BCol lg="12">
                       <div class="mb-3 pb-2">
                         <label for="exampleFormControlTextarea" class="form-label">Description</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea"
-                          placeholder="Enter your description" rows="3">
-Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is European languages are members of the same family.</textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea" placeholder="Enter your description" rows="3">
+                        Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occidental. To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is European languages are members of the same family.</textarea>
                       </div>
                     </BCol>
                     <BCol lg="12">
                       <div class="hstack gap-2 justify-content-end">
-                        <BButton type="submit" variant="secondary" @click="updatedata">
+                        <BButton type="submit" variant="primary" @click="updatedata">
                           Updates
                         </BButton>
-                        <BButton type="button" variant="soft-danger">
+                        <BButton type="button" variant="soft-success">
                           Cancel
                         </BButton>
                       </div>
@@ -288,28 +276,26 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                   </BRow>
                 </form>
               </BTab>
-              <BTab title="Change Password">
+              <BTab>
+                <template #title><span class="text-body">Change Password</span></template>
                 <form action="javascript:void(0);">
                   <BRow class="g-2 pt-4">
                     <BCol lg="4">
                       <div>
                         <label for="oldpasswordInput" class="form-label">Old Password*</label>
-                        <input type="password" class="form-control" id="oldpasswordInput"
-                          placeholder="Enter current password" />
+                        <input type="password" class="form-control" id="oldpasswordInput" placeholder="Enter current password" />
                       </div>
                     </BCol>
                     <BCol lg="4">
                       <div>
                         <label for="newpasswordInput" class="form-label">New Password*</label>
-                        <input type="password" class="form-control" id="newpasswordInput"
-                          placeholder="Enter new password" />
+                        <input type="password" class="form-control" id="newpasswordInput" placeholder="Enter new password" />
                       </div>
                     </BCol>
                     <BCol lg="4">
                       <div>
                         <label for="confirmpasswordInput" class="form-label">Confirm Password*</label>
-                        <input type="password" class="form-control" id="confirmpasswordInput"
-                          placeholder="Confirm password" />
+                        <input type="password" class="form-control" id="confirmpasswordInput" placeholder="Confirm password" />
                       </div>
                     </BCol>
                     <BCol lg="12">
@@ -321,7 +307,7 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                     </BCol>
                     <BCol lg="12">
                       <div class="text-end">
-                        <BButton type="submit" variant="secondary" @click="changepass">
+                        <BButton type="submit" variant="success" @click="changepass">
                           Change Password
                         </BButton>
                       </div>
@@ -399,7 +385,8 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                   </div>
                 </div>
               </BTab>
-              <BTab title="Experience">
+              <BTab>
+                <template #title><span class="text-body">Experience</span></template>
                 <form>
                   <div id="newlink">
                     <div id="1">
@@ -407,15 +394,13 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                         <BCol lg="12">
                           <div class="mb-3">
                             <label for="jobTitle" class="form-label">Job Title</label>
-                            <input type="text" class="form-control" id="jobTitle" placeholder="Job title"
-                              value="Lead Designer / Developer" />
+                            <input type="text" class="form-control" id="jobTitle" placeholder="Job title" value="Lead Designer / Developer" />
                           </div>
                         </BCol>
                         <BCol lg="6">
                           <div class="mb-3">
                             <label for="companyName" class="form-label">Company Name</label>
-                            <input type="text" class="form-control" id="companyName" placeholder="Company name"
-                              value="Themesbrand" />
+                            <input type="text" class="form-control" id="companyName" placeholder="Company name" value="Themesbrand" />
                           </div>
                         </BCol>
                         <BCol lg="6">
@@ -423,67 +408,65 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                             <label for="experienceYear" class="form-label">Experience Years</label>
                             <BRow>
                               <BCol lg="5">
-                                <Multiselect class="form-control" v-model="value2" :close-on-select="true"
-                                  :searchable="true" :create-option="true" :options="[
-                                    { value: '', label: 'Select years' },
-                                    { value: 'Choice 1', label: '2001' },
-                                    { value: 'Choice 2', label: '2002' },
-                                    { value: 'Choice 3', label: '2003' },
-                                    { value: 'Choice 4', label: '2004' },
-                                    { value: 'Choice 5', label: '2005' },
-                                    { value: 'Choice 6', label: '2006' },
-                                    { value: 'Choice 7', label: '2007' },
-                                    { value: 'Choice 8', label: '2008' },
-                                    { value: 'Choice 9', label: '2009' },
-                                    { value: 'Choice 10', label: '2010' },
-                                    { value: 'Choice 11', label: '2011' },
-                                    { value: 'Choice 12', label: '2012' },
-                                    { value: 'Choice 13', label: '2013' },
-                                    { value: 'Choice 14', label: '2014' },
-                                    { value: 'Choice 15', label: '2015' },
-                                    { value: 'Choice 16', label: '2016' },
-                                    { value: 'Choice 17', label: '2017' },
-                                    { value: 'Choice 18', label: '2018' },
-                                    { value: 'Choice 19', label: '2019' },
-                                    { value: 'Choice 20', label: '2020' },
-                                    { value: 'Choice 21', label: '2021' },
-                                    { value: 'Choice 22', label: '2022' }
+                                <Multiselect class="form-control" v-model="value2" :close-on-select="true" :searchable="true" :create-option="true" :options="[
+                                  { value: '', label: 'Select years' },
+                                  { value: 'Choice 1', label: '2001' },
+                                  { value: 'Choice 2', label: '2002' },
+                                  { value: 'Choice 3', label: '2003' },
+                                  { value: 'Choice 4', label: '2004' },
+                                  { value: 'Choice 5', label: '2005' },
+                                  { value: 'Choice 6', label: '2006' },
+                                  { value: 'Choice 7', label: '2007' },
+                                  { value: 'Choice 8', label: '2008' },
+                                  { value: 'Choice 9', label: '2009' },
+                                  { value: 'Choice 10', label: '2010' },
+                                  { value: 'Choice 11', label: '2011' },
+                                  { value: 'Choice 12', label: '2012' },
+                                  { value: 'Choice 13', label: '2013' },
+                                  { value: 'Choice 14', label: '2014' },
+                                  { value: 'Choice 15', label: '2015' },
+                                  { value: 'Choice 16', label: '2016' },
+                                  { value: 'Choice 17', label: '2017' },
+                                  { value: 'Choice 18', label: '2018' },
+                                  { value: 'Choice 19', label: '2019' },
+                                  { value: 'Choice 20', label: '2020' },
+                                  { value: 'Choice 21', label: '2021' },
+                                  { value: 'Choice 22', label: '2022' }
 
 
-                                  ]" />
+                                ]" />
                               </BCol>
                               <BCol cols="auto" class="align-self-center">to</BCol>
                               <BCol lg="5">
 
 
-                                <Multiselect class="form-control" v-model="value1" :close-on-select="true"
-                                  :searchable="true" :create-option="true" :options="[
-                                    { value: '', label: 'Select years' },
-                                    { value: 'Choice 1', label: '2001' },
-                                    { value: 'Choice 2', label: '2002' },
-                                    { value: 'Choice 3', label: '2003' },
-                                    { value: 'Choice 4', label: '2004' },
-                                    { value: 'Choice 5', label: '2005' },
-                                    { value: 'Choice 6', label: '2006' },
-                                    { value: 'Choice 7', label: '2007' },
-                                    { value: 'Choice 8', label: '2008' },
-                                    { value: 'Choice 9', label: '2009' },
-                                    { value: 'Choice 10', label: '2010' },
-                                    { value: 'Choice 11', label: '2011' },
-                                    { value: 'Choice 12', label: '2012' },
-                                    { value: 'Choice 13', label: '2013' },
-                                    { value: 'Choice 14', label: '2014' },
-                                    { value: 'Choice 15', label: '2015' },
-                                    { value: 'Choice 16', label: '2016' },
-                                    { value: 'Choice 17', label: '2017' },
-                                    { value: 'Choice 18', label: '2018' },
-                                    { value: 'Choice 19', label: '2019' },
-                                    { value: 'Choice 20', label: '2020' },
-                                    { value: 'Choice 21', label: '2021' },
-                                    { value: 'Choice 22', label: '2022' }
+                                <Multiselect class="form-control" v-model="value1" :close-on-select="true" :searchable="true" :create-option="true" :options="[
+                                  { value: '', label: 'Select years' },
+                                  { value: 'Choice 1', label: '2001' },
+                                  { value: 'Choice 2', label: '2002' },
+                                  { value: 'Choice 3', label: '2003' },
+                                  { value: 'Choice 4', label: '2004' },
+                                  { value: 'Choice 5', label: '2005' },
+                                  { value: 'Choice 6', label: '2006' },
+                                  { value: 'Choice 7', label: '2007' },
+                                  { value: 'Choice 8', label: '2008' },
+                                  { value: 'Choice 9', label: '2009' },
+                                  { value: 'Choice 10', label: '2010' },
+                                  { value: 'Choice 11', label: '2011' },
+                                  { value: 'Choice 12', label: '2012' },
+                                  { value: 'Choice 13', label: '2013' },
+                                  { value: 'Choice 14', label: '2014' },
+                                  { value: 'Choice 15', label: '2015' },
+                                  { value: 'Choice 16', label: '2016' },
+                                  { value: 'Choice 17', label: '2017' },
+                                  { value: 'Choice 18', label: '2018' },
+                                  { value: 'Choice 19', label: '2019' },
+                                  { value: 'Choice 20', label: '2020' },
+                                  { value: 'Choice 21', label: '2021' },
+                                  { value: 'Choice 22', label: '2022' }
 
 
-                                  ]" />
+                                ]" />
                               </BCol>
                             </BRow>
                           </div>
@@ -492,11 +475,11 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                           <div class="mb-3">
                             <label for="jobDescription" class="form-label">Job Description</label>
                             <textarea class="form-control" id="jobDescription" rows="3" placeholder="Enter description">
-You always want to make sure that your fonts work well together and try to limit the number of fonts you use to three or less. Experiment and play around with the fonts that you already have in the software you're working with reputable font websites. </textarea>
+                            You always want to make sure that your fonts work well together and try to limit the number of fonts you use to three or less. Experiment and play around with the fonts that you already have in the software you're working with reputable font websites. </textarea>
                           </div>
                         </BCol>
                         <div class="hstack gap-2 justify-content-end">
-                          <BLink class="btn btn-danger" href="javascript:void(0);">Delete</BLink>
+                          <BLink class="btn btn-success" href="javascript:void(0);">Delete</BLink>
                         </div>
                       </BRow>
                     </div>
@@ -504,22 +487,23 @@ You always want to make sure that your fonts work well together and try to limit
                   <div id="newForm" style="display: none"></div>
                   <BCol lg="12">
                     <div class="hstack gap-2">
-                      <BButton type="button" variant="primary">
+                      <BButton type="button" variant="success">
                         Update
                       </BButton>
-                      <BLink href="javascript:void(0);" class="btn btn-secondary">Add New</BLink>
+                      <BLink href="javascript:void(0);" class="btn btn-primary">Add New</BLink>
                     </div>
                   </BCol>
                 </form>
               </BTab>
-              <BTab title="Privacy Policy">
+              <BTab>
+               <template #title><span class="text-body">Privacy Policy</span></template>
                 <div class="mb-4 pb-2 pt-4">
                   <h5 class="card-title text-decoration-underline mb-3">
                     Security:
                   </h5>
                   <div class="d-flex flex-column flex-sm-row mb-4 mb-sm-0">
                     <div class="flex-grow-1">
-                      <h6 class="fs-14 mb-1">Two-factor Authentication</h6>
+                      <h6 class="fs-13 mb-1">Two-factor Authentication</h6>
                       <p class="text-muted">
                         Two-factor authentication is an enhanced security
                         meansur. Once enabled, you'll be required to give two
@@ -534,7 +518,7 @@ You always want to make sure that your fonts work well together and try to limit
                   </div>
                   <div class="d-flex flex-column flex-sm-row mb-4 mb-sm-0 mt-2">
                     <div class="flex-grow-1">
-                      <h6 class="fs-14 mb-1">Secondary Verification</h6>
+                      <h6 class="fs-13 mb-1">Secondary Verification</h6>
                       <p class="text-muted">
                         The first factor is a password and the second commonly
                         includes a text with a code sent to your smartphone, or
@@ -547,7 +531,7 @@ You always want to make sure that your fonts work well together and try to limit
                   </div>
                   <div class="d-flex flex-column flex-sm-row mb-4 mb-sm-0 mt-2">
                     <div class="flex-grow-1">
-                      <h6 class="fs-14 mb-1">Backup Codes</h6>
+                      <h6 class="fs-13 mb-1">Backup Codes</h6>
                       <p class="text-muted mb-sm-0">
                         A backup code is automatically generated for you when
                         you turn on two-factor authentication through your iOS
@@ -591,8 +575,7 @@ You always want to make sure that your fonts work well together and try to limit
                       </div>
                       <div class="flex-shrink-0">
                         <div class="form-check form-switch">
-                          <input class="form-check-input" type="checkbox" role="switch" id="desktopNotification"
-                            checked />
+                          <input class="form-check-input" type="checkbox" role="switch" id="desktopNotification" checked />
                         </div>
                       </div>
                     </li>
@@ -658,8 +641,7 @@ You always want to make sure that your fonts work well together and try to limit
                     Account. Follow the instructions to delete your account :
                   </p>
                   <div>
-                    <input type="password" class="form-control" id="passwordInput" placeholder="Enter your password"
-                      value="make@321654987" style="max-width: 265px" />
+                    <input type="password" class="form-control" id="passwordInput" placeholder="Enter your password" value="make@321654987" style="max-width: 265px" />
                   </div>
                   <div class="hstack gap-2 mt-3">
                     <BLink href="javascript:void(0);" class="btn btn-soft-danger">Close & Delete This Account</BLink>

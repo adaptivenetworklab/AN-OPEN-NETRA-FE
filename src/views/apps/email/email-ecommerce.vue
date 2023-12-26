@@ -228,9 +228,9 @@ export default {
 
                                 <div style="margin-top: 32px; text-align: center;">
                                     <BLink href="#" itemprop="url" 
-                                        style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem; color: #FFF; text-decoration: none; font-weight: 400; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #687cfe; margin: 0; border-color: #687cfe; border-style: solid; border-width: 1px; padding: .5rem .9rem;">Download</BLink>
+                                        style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem; color: #FFF; text-decoration: none; font-weight: 400; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #405189; margin: 0; border-color: #405189; border-style: solid; border-width: 1px; padding: .5rem .9rem;">Download</BLink>
                                     <BLink href="#" itemprop="url" class="ms-1"
-                                        style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem; color: #FFF; text-decoration: none; font-weight: 400; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #3cd188; margin: 0; border-color: #3cd188; border-style: solid; border-width: 1px; padding: .5rem .9rem;">Back
+                                        style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .8125rem; color: #FFF; text-decoration: none; font-weight: 400; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #0ab39c; margin: 0; border-color: #0ab39c; border-style: solid; border-width: 1px; padding: .5rem .9rem;">Back
                                         to Shop</BLink>
                                 </div>
                                 <div style="text-align: center; margin: 28px auto 0px auto;">
@@ -368,7 +368,7 @@ export default {
                                             <meta itemprop="name" content="Confirm Email"
                                                 style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;" />
                                             <div
-                                                style="padding: 20px;box-sizing: border-box; text-align: center; background-image: linear-gradient(to right, #687cfe, #687cfe);">
+                                                style="padding: 20px;box-sizing: border-box; text-align: center; background-image: linear-gradient(to right, #405189, #405189);">
                                                 <h6
                                                     style="font-family: 'Roboto', sans-serif;margin: 0; font-size: 15px;color: #fff;text-transform: uppercase;">
                                                     FREE 1-2 day shipping on orders over $32</h6>
@@ -409,7 +409,7 @@ export default {
                                                                     style="color: #878a99; font-weight: 400;margin-bottom: 5px;line-height: 1.5;font-size: 12px;">
                                                                     Category : Grocery</p>
                                                                 <BLink href="#" itemprop="url"
-                                                                    style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .710rem;font-weight: 400; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #3cd188; margin: 0; border-color: #3cd188; border-style: solid; border-width: 1px; padding: .25rem .5rem;"
+                                                                    style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .710rem;font-weight: 400; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #0ab39c; margin: 0; border-color: #0ab39c; border-style: solid; border-width: 1px; padding: .25rem .5rem;"
                                                                     onMouseOver="this.style.background='#099885'"
                                                                     onMouseOut="this.style.background='#0ab39c'">Write a
                                                                     Review &#8594;</BLink>
@@ -428,7 +428,7 @@ export default {
                                                                     style="color: #878a99; font-weight: 400;margin-bottom: 5px;line-height: 1.5;font-size: 12px;">
                                                                     Category : Furniture</p>
                                                                 <BLink href="#" itemprop="url"
-                                                                    style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .710rem;font-weight: 400; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #3cd188; margin: 0; border-color: #3cd188; border-style: solid; border-width: 1px; padding: .25rem .5rem;"
+                                                                    style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .710rem;font-weight: 400; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #0ab39c; margin: 0; border-color: #0ab39c; border-style: solid; border-width: 1px; padding: .25rem .5rem;"
                                                                     onMouseOver="this.style.background='#099885'"
                                                                     onMouseOut="this.style.background='#0ab39c'">Write a
                                                                     Review &#8594;</BLink>
@@ -447,7 +447,7 @@ export default {
                                                                     style="color: #878a99; font-weight: 400;margin-bottom: 5px;line-height: 1.5;font-size: 12px;">
                                                                     Category : Fashion</p>
                                                                 <BLink href="#" itemprop="url"
-                                                                    style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .710rem;font-weight: 400; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #3cd188; margin: 0; border-color: #3cd188; border-style: solid; border-width: 1px; padding: .25rem .5rem;"
+                                                                    style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: .710rem;font-weight: 400; color: #FFF; text-decoration: none; text-align: center; cursor: pointer; display: inline-block; border-radius: .25rem; text-transform: capitalize; background-color: #0ab39c; margin: 0; border-color: #0ab39c; border-style: solid; border-width: 1px; padding: .25rem .5rem;"
                                                                     onMouseOver="this.style.background='#099885'"
                                                                     onMouseOut="this.style.background='#0ab39c'">Write a
                                                                     Review &#8594;</BLink>

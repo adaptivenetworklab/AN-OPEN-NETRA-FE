@@ -151,7 +151,7 @@ export default {
                 </span>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h6 class="fs-14 mb-1">{{ item.label }}</h6>
+                <h6 class="fs-13 mb-1">{{ item.label }}</h6>
                 <p class="text-muted fs-12 mb-0">
                   <i class="mdi mdi-circle-medium text-success fs-15 align-middle"></i>
                   {{ item.caption }}

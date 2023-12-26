@@ -107,27 +107,27 @@ export default {
                 <BCollapse class="navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
                         <li class="nav-item">
-                            <a class="nav-link" href="#hero" @click.prevent="scrollToSection('hero')">Home</a>
+                            <a class="nav-link fs-14 fw-semibold" href="#hero" @click.prevent="scrollToSection('hero')">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#wallet" @click.prevent="scrollToSection('wallet')">Wallet
+                            <a class="nav-link fs-14 fw-semibold" href="#wallet" @click.prevent="scrollToSection('wallet')">Wallet
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#marketplace" @click.prevent="scrollToSection('marketplace')">Marketplace</a>
+                            <a class="nav-link fs-14 fw-semibold" href="#marketplace" @click.prevent="scrollToSection('marketplace')">Marketplace</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#categories" @click.prevent="scrollToSection('categories')">
+                            <a class="nav-link fs-14 fw-semibold" href="#categories" @click.prevent="scrollToSection('categories')">
                                 Categories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#creators" @click.prevent="scrollToSection('creators')">
+                            <a class="nav-link fs-14 fw-semibold" href="#creators" @click.prevent="scrollToSection('creators')">
                                 Creators</a>
                         </li>
                     </ul>
 
                     <div class="">
-                        <router-link to="/apps/nft-wallet" class="btn btn-primary">Wallet Connect</router-link>
+                        <router-link to="/apps/nft-wallet" class="btn btn-success">Wallet Connect</router-link>
                     </div>
                 </BCollapse>
 
@@ -141,8 +141,8 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8" sm="10">
                         <div class="text-center">
-                            <h1 class="display-4 fw-medium mb-4 lh-base text-white">Discover Digital Art & Collect
-                                <span class="text-secondary">NFT Marketplace</span>
+                            <h1 class="display-4 fw-semibold mb-4 lh-base text-white">Discover Digital Art & Collect
+                                <span class="text-success">NFT Marketplace</span>
                             </h1>
                             <p class="lead text-white-50 lh-base mb-4 pb-2">Can artwork be NFT? NFTs (non-fungible
                                 tokens) are one-of-a-kind digital assets. Given they're digital in nature, can
@@ -151,7 +151,7 @@ export default {
                             <div class="hstack gap-2 justify-content-center">
                                 <router-link to="/apps/nft-create" class="btn btn-primary">Create Own <i
                                         class="ri-arrow-right-line align-middle ms-1"></i></router-link>
-                                <router-link to="/apps/nft-explore" class="btn btn-secondary">Explore Now <i
+                                <router-link to="/apps/nft-explore" class="btn btn-danger">Explore Now <i
                                         class="ri-arrow-right-line align-middle ms-1"></i></router-link>
                             </div>
                         </div>
@@ -165,7 +165,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Connect NFT Marketplace</h2>
+                            <h2 class="mb-3 fw-bold lh-base">Connect NFT Marketplace</h2>
                             <p class="text-muted">A non-fungible token is a non-interchangeable unit of data stored
                                 on a blockchain, a form of digital ledger, that can be sold and traded.</p>
                         </div>
@@ -180,7 +180,7 @@ export default {
                                 <h5>Metamask</h5>
                                 <p class="text-muted pb-1">MetaMask is a software cryptocurrency wallet used to
                                     interact with the Ethereum blockchain.</p>
-                                <BLink href="#!" class="btn btn-soft-primary">Connect Wallet</BLink>
+                                <BLink href="#!" class="btn btn-soft-info">Connect Wallet</BLink>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -191,7 +191,7 @@ export default {
                                 <h5>Coinbase Wallet</h5>
                                 <p class="text-muted pb-1">Coinbase Wallet is a software product that gives you
                                     access to a wide spectrum.</p>
-                                <BLink href="#!" class="btn btn-secondary">Change Wallet</BLink>
+                                <BLink href="#!" class="btn btn-info">Change Wallet</BLink>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -203,7 +203,7 @@ export default {
                                 <h5>Binance</h5>
                                 <p class="text-muted pb-1">Binance offers a relatively secure, versatile way to
                                     invest in and trade cryptocurrencies.</p>
-                                <BLink href="#!" class="btn btn-soft-primary">Connect Wallet</BLink>
+                                <BLink href="#!" class="btn btn-soft-info">Connect Wallet</BLink>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -216,7 +216,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Explore Products</h2>
+                            <h2 class="mb-3 fw-bold lh-base">Explore Products</h2>
                             <p class="text-muted mb-4">Collection widgets specialize in displaying many elements of
                                 the same type, such as a collection of pictures from a collection of articles.</p>
                             <ul class="nav nav-pills filter-btns justify-content-center" role="tablist">
@@ -265,7 +265,7 @@ export default {
                                     19.29k </p>
 
                                 <h5 class="mb-1">
-                                    <router-link to="/apps/nft-item-detail">Creative Filtered
+                                    <router-link to="/apps/nft-item-detail" class="text-body">Creative Filtered
                                         Portrait</router-link>
                                 </h5>
                                 <p class="text-muted mb-0">Photography</p>
@@ -299,7 +299,7 @@ export default {
                                 <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                     23.63k </p>
                                 <h5 class="mb-1">
-                                    <router-link to="/apps/nft-item-detail">The Chirstoper</router-link>
+                                    <router-link to="/apps/nft-item-detail" class="text-body">The Chirstoper</router-link>
                                 </h5>
                                 <p class="text-muted mb-0">Music</p>
                             </BCardBody>
@@ -333,7 +333,7 @@ export default {
                                 <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                     15.93k </p>
                                 <h5 class="mb-1">
-                                    <router-link to="/apps/nft-item-detail">Evolved Reality</router-link>
+                                    <router-link to="/apps/nft-item-detail" class="text-body">Evolved Reality</router-link>
                                 </h5>
                                 <p class="text-muted mb-0">Video</p>
                             </BCardBody>
@@ -367,7 +367,7 @@ export default {
                                     14.85k </p>
 
                                 <h5 class="mb-1">
-                                    <router-link to="/apps/nft-item-detail">Abstract Face Painting</router-link>
+                                    <router-link to="/apps/nft-item-detail" class="text-body">Abstract Face Painting</router-link>
                                 </h5>
                                 <p class="text-muted mb-0">Collectibles</p>
                             </BCardBody>
@@ -401,7 +401,7 @@ export default {
                                     64.10k </p>
 
                                 <h5 class="mb-1">
-                                    <router-link to="/apps/nft-item-detail">Long-tailed Macaque</router-link>
+                                    <router-link to="/apps/nft-item-detail" class="text-body">Long-tailed Macaque</router-link>
                                 </h5>
                                 <p class="text-muted mb-0">Artwork</p>
                             </BCardBody>
@@ -435,7 +435,7 @@ export default {
                                     36.42k </p>
 
                                 <h5 class="mb-1">
-                                    <router-link to="/apps/nft-item-detail">Robotic Body Art</router-link>
+                                    <router-link to="/apps/nft-item-detail" class="text-body">Robotic Body Art</router-link>
                                 </h5>
                                 <p class="text-muted mb-0">Artwork</p>
                             </BCardBody>
@@ -459,7 +459,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Create and Sell Your NFTs</h2>
+                            <h2 class="mb-3 fw-bold lh-base">Create and Sell Your NFTs</h2>
                             <p class="text-muted">The process of creating an NFT may cost less than a dollar, but
                                 the process of selling it can cost up to a thousand dollars. For example, Allen
                                 Gannett, a software developer.</p>
@@ -473,9 +473,9 @@ export default {
                             <BCardBody>
                                 <img src="@/assets/images/nft/wallet.png" alt="" class="avatar-sm">
                                 <h5 class="mt-4">Set up your wallet</h5>
-                                <p class="text-muted">You have to choose whether to use a hot wallet a cold
+                                <p class="text-muted fs-14">You have to choose whether to use a hot wallet a cold
                                     wallet.</p>
-                                <BLink href="#!" class="link-secondary">Read More <i
+                                <BLink href="#!" class="link-success fs-14">Read More <i
                                         class="ri-arrow-right-line align-bottom"></i></BLink>
                             </BCardBody>
                         </div>
@@ -485,9 +485,9 @@ export default {
                             <BCardBody>
                                 <img src="@/assets/images/nft/money.png" alt="" class="avatar-sm">
                                 <h5 class="mt-4">Create your collection</h5>
-                                <p class="text-muted">Create a collection in Opensea and give it a proper art.
+                                <p class="text-muted fs-14">Create a collection in Opensea and give it a proper art.
                                 </p>
-                                <BLink href="#!" class="link-secondary">Read More <i
+                                <BLink href="#!" class="link-success fs-14">Read More <i
                                         class="ri-arrow-right-line align-bottom"></i></BLink>
                             </BCardBody>
                         </div>
@@ -497,9 +497,9 @@ export default {
                             <BCardBody>
                                 <img src="@/assets/images/nft/add.png" alt="" class="avatar-sm">
                                 <h5 class="mt-4">Add your NFT's</h5>
-                                <p class="text-muted">Go to your profile icon and top right corner creation
+                                <p class="text-muted fs-14">Go to your profile icon and top right corner creation
                                     page.</p>
-                                <BLink href="#!" class="link-secondary">Read More <i
+                                <BLink href="#!" class="link-success fs-14">Read More <i
                                         class="ri-arrow-right-line align-bottom"></i></BLink>
                             </BCardBody>
                         </div>
@@ -509,9 +509,9 @@ export default {
                             <BCardBody>
                                 <img src="@/assets/images/nft/sell.png" alt="" class="avatar-sm">
                                 <h5 class="mt-4">Sell Your NFT's</h5>
-                                <p class="text-muted">Create a collection in Opensea and give Add items and
+                                <p class="text-muted fs-14">Create a collection in Opensea and give Add items and
                                     art.</p>
-                                <BLink href="#!" class="link-secondary">Read More <i
+                                <BLink href="#!" class="link-success fs-14">Read More <i
                                         class="ri-arrow-right-line align-bottom"></i></BLink>
                             </BCardBody>
                         </div>
@@ -525,7 +525,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="5">
                         <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Trending All Categories</h2>
+                            <h2 class="mb-3 fw-bold lh-base">Trending All Categories</h2>
                             <p class="text-muted">The process of creating an NFT may cost less than a dollar, but
                                 the process of selling it can cost up to a thousand dollars. For example, Allen
                                 Gannett, a software developer.</p>
@@ -559,7 +559,7 @@ export default {
                                             <BLink href="#!" class="float-end"> View All <i
                                                     class="ri-arrow-right-line align-bottom"></i></BLink>
                                             <h5 class="mb-0 fs-16">
-                                                <BLink href="#!">Artwork <BBadge variant="success-subtle"
+                                                <BLink href="#!" class="text-body">Artwork <BBadge variant="success-subtle"
                                                         class="bg-success-subtle text-success">206</BBadge>
                                                 </BLink>
                                             </h5>
@@ -586,7 +586,7 @@ export default {
                                             <BLink href="#!" class="float-end"> View All <i
                                                     class="ri-arrow-right-line align-bottom"></i></BLink>
                                             <h5 class="mb-0 fs-16">
-                                                <BLink href="#!">Crypto Card <BBadge variant="success-subtle"
+                                                <BLink href="#!" class="text-body">Crypto Card <BBadge variant="success-subtle"
                                                         class="bg-success-subtle text-success">743</BBadge>
                                                 </BLink>
                                             </h5>
@@ -598,13 +598,13 @@ export default {
                                         <BCard no-body>
                                             <BCardBody>
                                                 <BRow class="g-1 mb-3">
-                                                    <BCol cols="6">
+                                                    <BCol class="lg-6">
                                                         <img src="@/assets/images/nft/img-02.jpg" alt=""
                                                             class="img-fluid rounded">
                                                         <img src="https://img.themesbrand.com/velzon/images/img-3.gif"
                                                             alt="" class="img-fluid rounded mt-1">
                                                     </BCol>
-                                                    <BCol cols="6">
+                                                    <BCol class="lg-6">
                                                         <img src="https://img.themesbrand.com/velzon/images/img-1.gif"
                                                             alt="" class="img-fluid rounded mb-1">
                                                         <img src="@/assets/images/nft/img-01.jpg" alt=""
@@ -614,7 +614,7 @@ export default {
                                                 <BLink href="#!" class="float-end"> View All <i
                                                         class="ri-arrow-right-line align-bottom"></i></BLink>
                                                 <h5 class="mb-0 fs-16">
-                                                    <BLink href="#!">Music <BBadge variant="success-subtle"
+                                                    <BLink href="#!" class="text-body">Music <BBadge variant="success-subtle"
                                                             class="bg-success-subtle text-success">679</BBadge>
                                                     </BLink>
                                                 </h5>
@@ -626,13 +626,13 @@ export default {
                                     <BCard no-body>
                                         <BCardBody>
                                             <BRow class="g-1 mb-3">
-                                                <BCol cols="6">
+                                                <BCol class="lg-6">
                                                     <img src="@/assets/images/nft/img-03.jpg" alt=""
                                                         class="img-fluid rounded">
                                                     <img src="https://img.themesbrand.com/velzon/images/img-5.gif" alt=""
                                                         class="img-fluid rounded mt-1">
                                                 </BCol>
-                                                <BCol cols="6">
+                                                <BCol class="lg-6">
                                                     <img src="https://img.themesbrand.com/velzon/images/img-2.gif" alt=""
                                                         class="img-fluid rounded mb-1">
                                                     <img src="@/assets/images/nft/img-05.jpg" alt=""
@@ -642,7 +642,7 @@ export default {
                                             <BLink href="#!" class="float-end"> View All <i
                                                     class="ri-arrow-right-line align-bottom"></i></BLink>
                                             <h5 class="mb-0 fs-16">
-                                                <BLink href="#!">Games <BBadge variant="success-subtle"
+                                                <BLink href="#!" class="text-body">Games <BBadge variant="success-subtle"
                                                         class="bg-success-subtle text-success">341</BBadge>
                                                 </BLink>
                                             </h5>
@@ -669,7 +669,7 @@ export default {
                                             <BLink href="#!" class="float-end"> View All <i
                                                     class="ri-arrow-right-line align-bottom"></i></BLink>
                                             <h5 class="mb-0 fs-16">
-                                                <BLink href="#!">Photography <BBadge variant="success-subtle"
+                                                <BLink href="#!" class="text-body">Photography <BBadge variant="success-subtle"
                                                         class="bg-success-subtle text-success">1452</BBadge>
                                                 </BLink>
                                             </h5>
@@ -689,7 +689,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="12">
                         <div class="d-flex align-items-center mb-5">
-                            <h2 class="mb-0 fw-semibold lh-base flex-grow-1">Discover Items</h2>
+                            <h2 class="mb-0 fw-bold lh-base flex-grow-1">Discover Items</h2>
                             <router-link to="/apps/nft-explore" class="btn btn-primary">View All <i
                                     class="ri-arrow-right-line align-bottom"></i></router-link>
                         </div>
@@ -726,7 +726,7 @@ export default {
                                     <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 97.8 ETH </h5>
 
                                     <h6 class="fs-16 mb-0">
-                                        <router-link to="/apps/nft-item-detail">Patterns arts &amp;
+                                        <router-link to="/apps/nft-item-detail" class="text-body">Patterns arts &amp;
                                             culture</router-link>
                                     </h6>
                                 </div>
@@ -763,7 +763,7 @@ export default {
                                     <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 475.23 ETH </h5>
 
                                     <h6 class="fs-16 mb-0">
-                                        <router-link to="/apps/nft-item-detail">Evolved Reality</router-link>
+                                        <router-link to="/apps/nft-item-detail" class="text-body">Evolved Reality</router-link>
                                     </h6>
                                 </div>
                             </BCardBody>
@@ -800,7 +800,7 @@ export default {
                                     <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 701.38 ETH </h5>
 
                                     <h6 class="fs-16 mb-0">
-                                        <router-link to="/apps/nft-item-detail">Long-tailed
+                                        <router-link to="/apps/nft-item-detail" class="text-body">Long-tailed
                                             macaque</router-link>
                                     </h6>
                                 </div>
@@ -816,7 +816,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h2 class="mb-3 fw-semibold lh-base">Top Creator This Week</h2>
+                            <h2 class="mb-3 fw-bold lh-base">Top Creator This Week</h2>
                             <p class="text-muted">NFTs are valuable because they verify the authenticity of a
                                 non-fungible asset. This makes these assets unique and one of a kind.</p>
                         </div>
@@ -1001,15 +1001,15 @@ export default {
                 <BRow class="align-items-center gy-4">
                     <BCol sm>
                         <div>
-                            <h4 class="text-white mb-0 fw-semibold">Create and Sell Your NFT's</h4>
+                            <h4 class="text-white mb-0 fw-bold">Create and Sell Your NFT's</h4>
                         </div>
                     </BCol>
 
                     <BCol sm="auto">
                         <div>
-                            <router-link to="/apps/nft-create" class="btn bg-gradient btn-success me-1">Create NFT
+                            <router-link to="/apps/nft-create" class="btn bg-gradient btn-danger">Create NFT
                             </router-link>
-                            <router-link to="/apps/nft-explore" class="btn bg-gradient btn-secondary">Discover More
+                            <router-link to="/apps/nft-explore" class="btn bg-gradient btn-info">Discover More
                             </router-link>
                         </div>
                     </BCol>
@@ -1041,7 +1041,7 @@ export default {
                             <BCol sm="4" class="mt-4">
                                 <h5 class="text-white mb-0">Company</h5>
                                 <div class="text-muted mt-3">
-                                    <ul class="list-unstyled ff-secondary footer-list">
+                                    <ul class="list-unstyled ff-secondary footer-list fs-15">
                                         <li>
                                             <router-link to="/pages/profile">About US</router-link>
                                         </li>
@@ -1060,7 +1060,7 @@ export default {
                             <BCol sm="4" class="mt-4">
                                 <h5 class="text-white mb-0">Apps Pages</h5>
                                 <div class="text-muted mt-3">
-                                    <ul class="list-unstyled ff-secondary footer-list">
+                                    <ul class="list-unstyled ff-secondary footer-list fs-15">
                                         <li>
                                             <router-link to="/calendar">Calendar</router-link>
                                         </li>
@@ -1082,7 +1082,7 @@ export default {
                             <BCol sm="4" class="mt-4">
                                 <h5 class="text-white mb-0">Support</h5>
                                 <div class="text-muted mt-3">
-                                    <ul class="list-unstyled ff-secondary footer-list">
+                                    <ul class="list-unstyled ff-secondary footer-list fs-15">
                                         <li>
                                             <router-link to="/pages/faqs">FAQ's</router-link>
                                         </li>

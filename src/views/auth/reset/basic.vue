@@ -70,7 +70,7 @@ export default {
                     </div>
 
                     <div class="text-center mt-4">
-                      <BButton variant="secondary" class="w-100" type="submit">Send Reset Link</BButton>
+                      <BButton variant="success" class="w-100" type="submit">Send Reset Link</BButton>
                     </div>
                   </form>
                 </div>

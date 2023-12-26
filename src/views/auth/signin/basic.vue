@@ -76,7 +76,7 @@ export default {
                     </div>
 
                     <div class="mt-4">
-                      <BButton variant="secondary" class="w-100" type="submit">Sign In</BButton>
+                      <BButton variant="success" class="w-100" type="submit">Sign In</BButton>
                     </div>
 
                     <div class="mt-4 text-center">

@@ -10,11 +10,11 @@ import store from "./state/store";
 import BootstrapVueNext from 'bootstrap-vue-next';
 import vClickOutside from "click-outside-vue3";
 import VueApexCharts from "vue3-apexcharts";
-import Maska from 'maska';''
+import Maska from 'maska';
 
 import VueFeather from 'vue-feather';
 
-import '@/assets/scss/config/corporate/app.scss';
+import '@/assets/scss/config/saas/app.scss';
 import '@vueform/slider/themes/default.css';
 import '@/assets/scss/mermaid.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle'

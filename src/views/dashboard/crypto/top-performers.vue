@@ -87,11 +87,11 @@ export default {
             <img :src="`${item.img}`" class="avatar-xs" alt="" />
           </div>
           <div class="flex-grow-1 ms-3">
-            <h6 class="fs-14 mb-1">{{ item.coinName }}</h6>
+            <h6 class="fs-13 mb-1">{{ item.coinName }}</h6>
             <p class="text-muted mb-0">${{ item.marketCap }} Billions</p>
           </div>
           <div class="flex-shrink-0 text-end">
-            <h6 class="fs-14 mb-1">${{ item.price }}</h6>
+            <h6 class="fs-13 mb-1">${{ item.price }}</h6>
             <p :class="`text-${item.textColor} fs-12 mb-0`">{{ item.change }} ({{ item.percentage }})</p>
           </div>
         </li>

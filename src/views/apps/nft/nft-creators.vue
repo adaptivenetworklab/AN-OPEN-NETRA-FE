@@ -16,7 +16,7 @@ export default {
         <BRow class="g-4 mb-3">
             <BCol sm>
                 <div>
-                    <router-link to="/apps/projects-create" class="btn btn-secondary"><i
+                    <router-link to="/apps/projects-create" class="btn btn-success"><i
                             class="ri-add-line align-bottom me-1"></i> Add New</router-link>
                 </div>
             </BCol>
@@ -261,7 +261,7 @@ export default {
 
         <BRow>
             <BCol lg="12">
-                <h5 class="card-title mb-4 fw-semibold fs-16">Creators Grid Lists</h5>
+                <h5 class="card-title mb-4 fw-bold fs-17">Creators Grid Lists</h5>
             </BCol>
         </BRow>
 
@@ -278,7 +278,7 @@ export default {
                         <p class="text-muted mb-2">9784 Products</p>
                         <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
+                        <BButton variant="soft-success" class="w-100">Unfollow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -295,7 +295,7 @@ export default {
                         <p class="text-muted mb-2">4678 Products</p>
                         <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="primary" class="w-100">Follow</BButton>
+                        <BButton variant="success" class="w-100">Follow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -311,7 +311,7 @@ export default {
                         <p class="text-muted mb-2">861 Products</p>
                         <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
+                        <BButton variant="soft-success" class="w-100">Unfollow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -327,7 +327,7 @@ export default {
                         <p class="text-muted mb-2">30174 Products</p>
                         <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
+                        <BButton variant="soft-success" class="w-100">Unfollow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -344,7 +344,7 @@ export default {
                         <p class="text-muted mb-2">6487 Products</p>
                         <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="primary" class="w-100">Follow</BButton>
+                        <BButton variant="success" class="w-100">Follow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -360,7 +360,7 @@ export default {
                         <p class="text-muted mb-2">10137/ Products</p>
                         <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
+                        <BButton variant="soft-success" class="w-100">Unfollow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -377,7 +377,7 @@ export default {
                         <p class="text-muted mb-2">364 Products</p>
                         <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="primary" class="w-100">Follow</BButton>
+                        <BButton variant="success" class="w-100">Follow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -393,7 +393,7 @@ export default {
                         <p class="text-muted mb-2">9513 Products</p>
                         <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
+                        <BButton variant="soft-success" class="w-100">Unfollow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -409,7 +409,7 @@ export default {
                         <p class="text-muted mb-2">6374 Products</p>
                         <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="primary" class="w-100">Follow</BButton>
+                        <BButton variant="success" class="w-100">Follow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -426,7 +426,7 @@ export default {
                         <p class="text-muted mb-2">7809 Products</p>
                         <p class="text-muted">You can make an NFT of a digital painting, a text, a piece of music, a
                             video.</p>
-                        <BButton variant="soft-primary" class="w-100">Unfollow</BButton>
+                        <BButton variant="soft-success" class="w-100">Unfollow</BButton>
                     </BCardBody>
                 </BCard>
             </BCol>

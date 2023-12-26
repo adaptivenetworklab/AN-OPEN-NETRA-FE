@@ -165,215 +165,424 @@ export default {
 <template>
   <Layout>
 
+
+
     <div class="chat-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
+
       <div class="chat-leftsidebar">
+
         <div class="px-4 pt-4 mb-4">
+
           <div class="d-flex align-items-start">
+
             <div class="flex-grow-1">
+
               <h5 class="mb-4">Chats</h5>
+
             </div>
+
             <div class="flex-shrink-0">
+
               <div v-b-tooltip.hover title="Add Contact">
-                <BButton type="button" variant="soft-primary" size="sm">
+
+                <BButton type="button" variant="soft-success" size="sm">
+
                   <i class="ri-add-line align-bottom"></i>
+
                 </BButton>
+
               </div>
+
             </div>
+
           </div>
+
           <div class="search-box">
+
             <input type="text" class="form-control bg-light border-light" placeholder="Search here..." />
+
             <i class="ri-search-2-line search-icon"></i>
+
           </div>
+
         </div>
 
+
+
         <simplebar class="chat-room-list" data-simplebar>
+
           <div class="d-flex align-items-center px-4 mb-2">
+
             <div class="flex-grow-1">
+
               <h4 class="mb-0 fs-11 text-muted text-uppercase">
+
                 Direct Messages
+
               </h4>
+
             </div>
+
             <div class="flex-shrink-0">
+
               <div v-b-tooltip.hover title="New Message">
-                <BButton type="button" variant="soft-primary" size="sm">
+
+                <BButton type="button" variant="soft-success" size="sm">
+
                   <i class="ri-add-line align-bottom"></i>
+
                 </BButton>
+
               </div>
+
             </div>
+
           </div>
+
+
 
           <div class="chat-message-list">
+
             <SimpleBar class="list-unstyled chat-list chat-user-list">
+
               <li class v-for="data of chatData" :key="data.id" @click="chatUsername(data.name, data.image)" :class="{ active: username == data.name }">
+
                 <BLink href="javascript: void(0);">
+
                   <div class="d-flex align-items-center">
+
                     <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
+
                       <div class="avatar-xxs" v-if="data.image">
+
                         <img :src="`${data.image}`" class="rounded-circle img-fluid userprofile" alt />
+
                       </div>
+
                       <div class="avatar-xxs" v-if="!data.image">
+
                         <div class="avatar-title rounded-circle bg-danger userprofile">
+
                           {{ data.name.charAt(0) }}
+
                         </div>
+
                       </div>
-                    </div>
-                    <div class="flex-grow-1 overflow-hidden">
-                      <p class="text-truncate mb-1">
-                        {{ data.name }}
-                      </p>
+
                     </div>
 
-                    <div class="flex-shrink-0">
-                      <BBadge variant="dark-subtle" class="bg-dark-subtle text-body rounded p-1">{{ data.time
-                      }}</BBadge>
+                    <div class="flex-grow-1 overflow-hidden">
+
+                      <p class="text-truncate mb-1">
+
+                        {{ data.name }}
+
+                      </p>
+
                     </div>
+
+
+
+                    <div class="flex-shrink-0">
+
+                      <BBadge variant="dark-subtle" class="bg-dark-subtle text-body rounded p-1">{{ data.time }}
+
+                      </BBadge>
+
+                    </div>
+
                   </div>
+
                 </BLink>
+
               </li>
+
             </SimpleBar>
+
           </div>
+
+
 
           <div class="d-flex align-items-center px-4 mt-4 pt-2 mb-2">
+
             <div class="flex-grow-1">
+
               <h4 class="mb-0 fs-11 text-muted text-uppercase">Channels</h4>
+
             </div>
+
             <div class="flex-shrink-0">
+
               <div v-b-tooltip.hover title="Create group">
+
                 <BButton type="button" variant="soft-success" size="sm">
+
                   <i class="ri-add-line align-bottom"></i>
+
                 </BButton>
+
               </div>
+
             </div>
+
           </div>
+
+
 
           <div class="chat-message-list">
+
             <ul class="list-unstyled chat-list chat-user-list mb-0" id="channelList">
+
               <li>
+
                 <BLink href="javascript: void(0);" class="unread-msg-user">
+
                   <div class="d-flex align-items-center">
+
                     <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
+
                       <div class="avatar-xxs">
+
                         <div class="avatar-title bg-light rounded-circle text-body">
+
                           #
+
                         </div>
+
                       </div>
+
                     </div>
+
                     <div class="flex-grow-1 overflow-hidden">
+
                       <p class="text-truncate mb-0">Landing Design</p>
+
                     </div>
+
                     <div class="flex-shrink-0">
+
                       <BBadge variant="dark-subtle" class="bg-dark-subtle text-body rounded p-1">7</BBadge>
+
                     </div>
+
                   </div>
+
                 </BLink>
-              </li>
-              <li>
-                <BLink href="javascript: void(0);">
-                  <div class="d-flex align-items-center">
-                    <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
-                      <div class="avatar-xxs">
-                        <div class="avatar-title bg-light rounded-circle text-body">
-                          #
-                        </div>
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 overflow-hidden">
-                      <p class="text-truncate mb-0">General</p>
-                    </div>
-                  </div>
-                </BLink>
-              </li>
-              <li>
-                <BLink href="javascript: void(0);" class="unread-msg-user">
-                  <div class="d-flex align-items-center">
-                    <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
-                      <div class="avatar-xxs">
-                        <div class="avatar-title bg-light rounded-circle text-body">
-                          #
-                        </div>
-                      </div>
-                    </div>
-                    <div class="flex-grow-1 overflow-hidden">
-                      <p class="text-truncate mb-0">Project Tasks</p>
-                    </div>
-                    <div class="flex-shrink-0">
-                      <BBadge variant="dark-subtle" class="bg-dark-subtle text-body rounded p-1">3</BBadge>
-                    </div>
-                  </div>
-                </BLink>
+
               </li>
 
               <li>
+
                 <BLink href="javascript: void(0);">
+
                   <div class="d-flex align-items-center">
+
                     <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
+
                       <div class="avatar-xxs">
+
                         <div class="avatar-title bg-light rounded-circle text-body">
+
                           #
+
                         </div>
+
                       </div>
+
                     </div>
+
                     <div class="flex-grow-1 overflow-hidden">
-                      <p class="text-truncate mb-0">Meeting</p>
+
+                      <p class="text-truncate mb-0">General</p>
+
                     </div>
+
                   </div>
+
                 </BLink>
+
               </li>
+
               <li>
-                <BLink href="javascript: void(0);">
+
+                <BLink href="javascript: void(0);" class="unread-msg-user">
+
                   <div class="d-flex align-items-center">
+
                     <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
+
                       <div class="avatar-xxs">
+
                         <div class="avatar-title bg-light rounded-circle text-body">
+
                           #
+
                         </div>
+
                       </div>
+
                     </div>
+
                     <div class="flex-grow-1 overflow-hidden">
-                      <p class="text-truncate mb-0">Reporting</p>
+
+                      <p class="text-truncate mb-0">Project Tasks</p>
+
                     </div>
+
+                    <div class="flex-shrink-0">
+
+                      <BBadge variant="dark-subtle" class="bg-dark-subtle text-body rounded p-1">3</BBadge>
+
+                    </div>
+
                   </div>
+
                 </BLink>
+
               </li>
-            </ul>
-          </div>
-        </simplebar>
-      </div>
-      <div class="user-chat w-100 overflow-hidden">
-        <div class="chat-content d-lg-flex">
-          <div class="w-100 overflow-hidden position-relative">
-            <div class="position-relative">
-              <div class="p-3 user-chat-topbar">
-                <BRow class="align-items-center">
-                  <BCol sm="4" cols="8">
-                    <div class="d-flex align-items-center">
-                      <div class="flex-shrink-0 d-block d-lg-none me-3">
-                        <BLink href="javascript: void(0);" class="user-chat-remove fs-18 p-1"><i class="ri-arrow-left-s-line align-bottom"></i></BLink>
-                      </div>
-                      <div class="flex-grow-1 overflow-hidden">
-                        <div class="d-flex align-items-center">
-                          <div class="flex-shrink-0 chat-user-img online user-own-img align-self-center me-3 ms-0">
-                            <img :src="profile ? profile : require('@/assets/images/users/user-dummy-img.jpg')" class="rounded-circle avatar-xs" alt="" />
-                            <span class="user-status"></span>
-                          </div>
-                          <div class="flex-grow-1 overflow-hidden">
-                            <h5 class="text-truncate mb-0 fs-16">
-                              <BLink class="text-reset username" @click="showOffcanvas = !showOffcanvas">{{ username }}
-                              </BLink>
-                            </h5>
-                            <p class="text-truncate text-muted fs-14 mb-0 userStatus">
-                              <small>Online</small>
-                            </p>
-                          </div>
+
+
+
+              <li>
+
+                <BLink href="javascript: void(0);">
+
+                  <div class="d-flex align-items-center">
+
+                    <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
+
+                      <div class="avatar-xxs">
+
+                        <div class="avatar-title bg-light rounded-circle text-body">
+
+                          #
+
                         </div>
+
                       </div>
+
                     </div>
+
+                    <div class="flex-grow-1 overflow-hidden">
+
+                      <p class="text-truncate mb-0">Meeting</p>
+
+                    </div>
+
+                  </div>
+
+                </BLink>
+
+              </li>
+
+              <li>
+
+                <BLink href="javascript: void(0);">
+
+                  <div class="d-flex align-items-center">
+
+                    <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
+
+                      <div class="avatar-xxs">
+
+                        <div class="avatar-title bg-light rounded-circle text-body">
+
+                          #
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="flex-grow-1 overflow-hidden">
+
+                      <p class="text-truncate mb-0">Reporting</p>
+
+                    </div>
+
+                  </div>
+
+                </BLink>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </simplebar>
+
+      </div>
+
+      <div class="user-chat w-100 overflow-hidden">
+
+        <div class="chat-content d-lg-flex">
+
+          <div class="w-100 overflow-hidden position-relative">
+
+            <div class="position-relative">
+
+              <div class="p-3 user-chat-topbar">
+
+                <BRow class="align-items-center">
+
+                  <BCol sm="4" cols="8">
+
+                    <div class="d-flex align-items-center">
+
+                      <div class="flex-shrink-0 d-block d-lg-none me-3">
+
+                        <BLink href="javascript: void(0);" class="user-chat-remove fs-18 p-1"><i class="ri-arrow-left-s-line align-bottom"></i></BLink>
+
+                      </div>
+
+                      <div class="flex-grow-1 overflow-hidden">
+
+                        <div class="d-flex align-items-center">
+
+                          <div class="flex-shrink-0 chat-user-img online user-own-img align-self-center me-3 ms-0">
+
+                            <img :src="profile ? profile : require('@/assets/images/users/user-dummy-img.jpg')" class="rounded-circle avatar-xs" alt="" />
+
+                            <span class="user-status"></span>
+
+                          </div>
+
+                          <div class="flex-grow-1 overflow-hidden">
+
+                            <h5 class="text-truncate mb-0 fs-16">
+
+                              <BLink class="text-reset username" @click="showOffcanvas = !showOffcanvas">{{ username }}
+
+                              </BLink>
+
+                            </h5>
+
+                            <p class="text-truncate text-muted fs-14 mb-0 userStatus">
+
+                              <small>Online</small>
+
+                            </p>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
                   </BCol>
+
                   <BCol sm="8" cols="4">
+
                     <ul class="list-inline user-chat-nav text-end mb-0">
+
                       <li class="list-inline-item m-0">
 
-                        <BDropdown variant="link" class="btn btn-ghost-secondary btn-icon" toggle-class="arrow-none" menu-class="dropdown-menu p-0 dropdown-menu-end dropdown-menu-lg" auto-close="outside">
+                        <BDropdown variant="ghost-secondary" class="btn btn-icon" toggle-class="arrow-none" menu-class="dropdown-menu p-0 dropdown-menu-end dropdown-menu-lg" auto-close="outside">
+
                           <template #button-content> <search-icon class="icon-sm"></search-icon>
                           </template>
                           <BDropdownItemButton>
@@ -394,8 +603,9 @@ export default {
                       </li>
 
                       <li class="list-inline-item m-0">
-                        <BDropdown variant="ghost-secondary" class="btn btn-ghost-secondary btn-icon" toggle-class="arrow-none" menu-class="dropdown-menu" aria-haspopup="true">
-                          <template #button-content> <more-vertical-icon class="icon-sm "></more-vertical-icon>
+                        <BDropdown variant="ghost-secondary" class="btn btn-ghost-secondary btn-icon" toggle-class=" arrow-none" menu-class="dropdown-menu" aria-haspopup="true">
+                          <template #button-content>
+                            <more-vertical-icon class="icon-sm"></more-vertical-icon>
                           </template>
                           <BDropdownItem><i class="ri-inbox-archive-line align-bottom text-muted me-2"></i>
                             Archive
@@ -430,7 +640,8 @@ export default {
                               </p>
                             </div>
                             <BDropdown variant="link" class="dropdown align-self-start message-box-drop" toggle-class=" arrow-none" menu-class="dropdown-menu" aria-haspopup="true">
-                              <template #button-content> <i class="ri-more-2-fill"></i>
+                              <template #button-content>
+                                <i class="ri-more-2-fill"></i>
                               </template>
                               <BDropdownItem> <i class="ri-reply-line me-2 text-muted align-bottom"></i> Reply
                               </BDropdownItem>

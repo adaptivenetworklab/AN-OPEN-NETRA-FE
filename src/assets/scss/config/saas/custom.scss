@@ -180,6 +180,7 @@ File: Custom Css File
   .multiselect-options {
     list-style: none;
     padding-left: 0;
+    // background-color: var(--#{$prefix}light);
   }
 
   .multiselect-no-results {
@@ -565,15 +566,14 @@ File: Custom Css File
 }
 
 //
-
 .icon-primary {
   svg {
-    stroke: $indigo;
+    stroke: $primary;
   }
 
   path {
-    fill: $indigo;
-    stroke: $indigo;
+    fill: $primary;
+    stroke: $primary;
   }
 }
 

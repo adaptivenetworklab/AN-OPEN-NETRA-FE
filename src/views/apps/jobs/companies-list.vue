@@ -135,7 +135,7 @@ export default {
                 </BCol>
 
                 <BCol xxl="2" sm="4">
-                  <BButton type="button" variant="secondary" class="w-100" >
+                  <BButton type="button" variant="success" class="w-100" >
                     <i class="ri-equalizer-fill me-1 align-bottom"></i> Filters
                   </BButton>
                 </BCol>

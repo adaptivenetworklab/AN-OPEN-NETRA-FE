@@ -585,9 +585,9 @@ export default {
                 <BCard no-body>
                     <BCardHeader class="d-flex align-items-center">
                         <h6 class="card-title mb-0 flex-grow-1">Top Drop</h6>
-                        <router-link class="text-muted" to="#">
+                        <BLink class="text-muted" href="#">
                             See All <i class="ri-arrow-right-line align-bottom"></i>
-                        </router-link>
+                        </BLink>
                     </BCardHeader>
                     <BCardBody>
                         <div class="table-responsive table-card">
@@ -712,7 +712,7 @@ export default {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><BButton variant="secondary" size="sm">Follow</BButton></td>
+                                        <td><BButton variant="success" size="sm">Follow</BButton></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -727,7 +727,7 @@ export default {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><BButton variant="soft-secondary" size="sm">Unfllow</BButton></td>
+                                        <td><BButton variant="soft-success" size="sm">Unfllow</BButton></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -742,7 +742,7 @@ export default {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><BButton variant="secondary" size="sm">Follow</BButton></td>
+                                        <td><BButton variant="success" size="sm">Follow</BButton></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -757,7 +757,7 @@ export default {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><BButton variant="secondary" size="sm">Follow</BButton></td>
+                                        <td><BButton variant="success" size="sm">Follow</BButton></td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -772,7 +772,7 @@ export default {
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><BButton variant="soft-secondary" size="sm">Unfllow</BButton></td>
+                                        <td><BButton variant="soft-success" size="sm">Unfllow</BButton></td>
                                     </tr>
                                 </tbody>
                             </table>

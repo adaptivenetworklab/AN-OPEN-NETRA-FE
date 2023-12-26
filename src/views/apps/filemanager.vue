@@ -303,7 +303,7 @@ export default {
       <div class="file-manager-sidebar">
         <div class="p-3 d-flex flex-column h-100">
           <div class="mb-3">
-            <h5 class="mb-0 fw-semibold">My Drive</h5>
+            <h5 class="mb-0 fw-bold">My Drive</h5>
           </div>
           <div class="search-box">
             <input type="text" class="form-control bg-light border-light" placeholder="Search here..." />
@@ -577,7 +577,7 @@ export default {
         <simplebar class="mx-n3 pt-3 px-3 file-detail-content-scroll" data-simplebar>
           <div id="folder-overview">
             <div class="d-flex align-items-center pb-3 border-bottom border-bottom-dashed">
-              <h5 class="flex-grow-1 fw-semibold mb-0">Overview</h5>
+              <h5 class="flex-grow-1 fw-bold mb-0">Overview</h5>
               <div>
                 <BButton type="button" variant="soft-danger" size="sm" class="btn-icon fs-16 close-btn-overview"
                   @click="fileDetailShow">
@@ -673,7 +673,7 @@ export default {
           <div id="file-overview" class="h-100">
             <div class="d-flex h-100 flex-column">
               <div class="d-flex align-items-center pb-3 border-bottom border-bottom-dashed mb-3 gap-2">
-                <h5 class="flex-grow-1 fw-semibold mb-0">File Preview</h5>
+                <h5 class="flex-grow-1 fw-bold mb-0">File Preview</h5>
                 <div>
                   <BButton type="button" variant="ghost-primary" size="sm" class="btn-icon fs-16 favourite-btn">
                     <i class="ri-star-fill align-bottom"></i>
@@ -782,7 +782,7 @@ export default {
           <input type="text" class="form-control" id="foldername-input" required placeholder="Enter folder name" />
           <div class="invalid-feedback">Please enter a folder name.</div>
           <input type="hidden" id="folderId">
-          <input type="hidden" class="form-control" id="folderid-input" value="" placeholder="Enter folder name" />
+          <input type="hidden" class="form-control" id="folderid-input" value=""/>
         </div>
         <div class="hstack gap-2 justify-content-end">
           <BButton type="button" variant="ghost-success" data-bs-dismiss="modal" id="addFolderBtn-close"

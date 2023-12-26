@@ -359,9 +359,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Total Tasks</p>
-                <h4 class="mt-4 ff-secondary fw-semibold">
+                <h2 class="mt-4 ff-secondary fw-semibold">
                   <count-to :startVal="0" :endVal="234" :duration="5000"></count-to>k
-                </h4>
+                </h2>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-success mb-0">
                     <i class="ri-arrow-up-line align-middle"></i> 17.32 %
@@ -386,9 +386,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Pending Tasks</p>
-                <h4 class="mt-4 ff-secondary fw-semibold">
+                <h2 class="mt-4 ff-secondary fw-semibold">
                   <count-to :startVal="0" :endVal="64" :duration="5000"></count-to>k
-                </h4>
+                </h2>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-danger mb-0">
                     <i class="ri-arrow-down-line align-middle"></i> 0.87 %
@@ -413,9 +413,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Completed Tasks</p>
-                <h4 class="mt-4 ff-secondary fw-semibold">
+                <h2 class="mt-4 ff-secondary fw-semibold">
                   <count-to :startVal="0" :endVal="116" :duration="5000"></count-to>K
-                </h4>
+                </h2>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-danger mb-0">
                     <i class="ri-arrow-down-line align-middle"></i> 2.52 %
@@ -440,9 +440,9 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Deleted Tasks</p>
-                <h4 class="mt-4 ff-secondary fw-semibold">
+                <h2 class="mt-4 ff-secondary fw-semibold">
                   <count-to :startVal="0" :endVal="14" :duration="5000"></count-to>%
-                </h4>
+                </h2>
                 <p class="mb-0 text-muted">
                   <BBadge class="bg-light text-success mb-0">
                     <i class="ri-arrow-up-line align-middle"></i> 0.63 %
@@ -471,10 +471,10 @@ export default {
               <h5 class="card-title mb-0 flex-grow-1">All Tasks</h5>
               <div class="flex-shrink-0">
                 <div class="d-flex flex-wrap gap-2">
-                  <BButton variant="soft-danger" class="me-1" id="remove-actions" @click="deleteMultiple">
+                  <BButton variant="soft-secondary" class="me-1" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton variant="secondary" class="add-btn" @click="toggleModal">
+                  <BButton variant="danger" class="add-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Create Task
                   </BButton>
                 </div>

@@ -58,7 +58,7 @@ export default {
     <BRow class="g-4 mb-3">
       <BCol sm="auto">
         <div>
-          <router-link to="/apps/projects-create" class="btn btn-primary"><i class="ri-add-line align-bottom me-1"></i>
+          <router-link to="/apps/projects-create" class="btn btn-success"><i class="ri-add-line align-bottom me-1"></i>
             Add New</router-link>
         </div>
       </BCol>
@@ -130,7 +130,7 @@ export default {
                   </div>
                 </div>
                 <div class="flex-grow-1">
-                  <h5 class="mb-1 fs-15">
+                  <h5 class="mb-1 fs-14">
                     <router-link to="/apps/projects-overview" class="text-body">{{ item.label }}</router-link>
                   </h5>
                   <p class="text-muted text-truncate-two-lines mb-3">
@@ -238,7 +238,7 @@ export default {
                 <BCol cols="6">
                   <div>
                     <p class="text-muted mb-1">Deadline</p>
-                    <h5 class="fs-14">{{ item.deadline }}</h5>
+                    <h5 class="fs-13">{{ item.deadline }}</h5>
                   </div>
                 </BCol>
               </BRow>

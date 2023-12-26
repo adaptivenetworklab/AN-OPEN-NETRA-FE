@@ -343,7 +343,7 @@ export default {
                   <BButton variant="soft-danger" class="me-1" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton type="button" variant="success" class="add-btn me-1" id="create-btn" @click="toggleModal">
+                  <BButton type="button" variant="primary" class="add-btn me-1" id="create-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Add Customer
                   </BButton>
                   <BButton type="button" variant="secondary">

@@ -1,10 +1,11 @@
 // Variables
 
+//Google Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+
 //
 // custom-variables
 //
-
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
 
 // Prefix for :root CSS variables
 
@@ -12,8 +13,8 @@ $variable-prefix:             vz-; // Deprecated in v5.2.0 for the shorter `$pre
 $prefix:                      $variable-prefix;
 
 // Font Family
-$font-family-primary:                             'Public Sans', sans-serif;
-$font-family-secondary:                           'Public Sans', sans-serif;
+$font-family-primary:                             'Rubik', sans-serif;
+$font-family-secondary:                           'Montserrat', sans-serif;
 
 //custom variables managed by
 //light mode
@@ -25,6 +26,7 @@ $sidebar-img:                                     true;
 $topbar-dark-mode:                                true;
 $sidebar-dark-mode:                               true;
 $sidebar-gradient-dark-mode:                      false;
+
 
 // Variables
 //
@@ -42,8 +44,8 @@ $gray-400: #ced4da;
 $gray-500: #adb5bd;
 $gray-600: #878a99;
 $gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #272a3a;
+$gray-800: #363d48;
+$gray-900: #212529;
 $black:    #000;
 
 // fusv-disable
@@ -63,16 +65,16 @@ $grays: (
 // fusv-enable
 
 // scss-docs-start color-variables
-$blue:       #3577f1;
+$blue:       #6691e7;
 $indigo:     #405189;
-$purple:     #687cfe;
+$purple:     #865ce2;
 $pink:       #f672a7;
-$red:        #f7666e;
-$orange:     #ff7f5d;
-$yellow:     #efae4e;
-$green:      #3cd188;
+$red:        #ed5e5e;
+$orange:     #f1963b;
+$yellow:     #e8bc52;
+$green:      #13c56b;
 $teal:       #02a8b5;
-$cyan:       #0ac7fb;
+$cyan:       #50c3e6;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -201,7 +203,6 @@ $cyan-600: shade-color($cyan, 20%);
 $cyan-700: shade-color($cyan, 40%);
 $cyan-800: shade-color($cyan, 60%);
 $cyan-900: shade-color($cyan, 80%);
-
 $blues: (
   "blue-100": $blue-100,
   "blue-200": $blue-200,
@@ -324,14 +325,15 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $purple;
-$secondary:     $orange;
+$primary:       $blue;
+$secondary:     $purple;
 $success:       $green;
 $info:          $cyan;
 $warning:       $yellow;
 $danger:        $red;
 $light:         $gray-100;
-$dark:          $gray-900;
+$dark:          $gray-800;
+
 
 
 
@@ -460,7 +462,7 @@ $position-values: (
 //
 // Settings for the `<body>` element.
 
-$body-bg:                   #fbf7f4;
+$body-bg:                   #f3f6f9;
 $body-color:                $gray-900;
 $body-text-align:           null;
 
@@ -582,7 +584,7 @@ $border-radius-2xl:           $border-radius-xxl; // Deprecated in v5.3.0
 // fusv-enable
 
 // scss-docs-start box-shadow-variables
-$box-shadow:                  rgba(100, 98, 92, 0.06) 0 0 15px 4px;
+$box-shadow:                  0 1px 2px rgba(56,65,74,0.15);
 $box-shadow-sm:               0 .125rem .25rem rgba($black, .075);
 $box-shadow-lg:               0 5px 10px rgba(30, 32, 37, 0.12);
 $box-shadow-inset:            inset 0 1px 2px rgba($black, .075);
@@ -639,15 +641,15 @@ $font-family-code:            var(--#{$prefix}font-monospace);
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
 $font-size-root:              null;
-$font-size-base:              0.875rem; // Assumes the browser default, typically `16px`
+$font-size-base:              0.825rem; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .875;
 $font-size-lg:                $font-size-base * 1.25;
 
 $font-weight-lighter:         lighter;
 $font-weight-light:           300;
 $font-weight-normal:          400;
-$font-weight-medium:          500;
-$font-weight-semibold:        600;
+$font-weight-medium:          400;
+$font-weight-semibold:        500;
 $font-weight-bold:            700;
 $font-weight-bolder:          bolder;
 
@@ -678,9 +680,9 @@ $font-sizes: (
 
 // scss-docs-start headings-variables
 $headings-margin-bottom:      $spacer * .5;
-$headings-font-family:        $font-family-primary;
+$headings-font-family:        $font-family-secondary;
 $headings-font-style:         null;
-$headings-font-weight:        $font-weight-semibold;
+$headings-font-weight:        600;
 $headings-line-height:        1.2;
 $headings-color:              $gray-700;
 // scss-docs-end headings-variables

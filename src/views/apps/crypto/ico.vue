@@ -40,7 +40,7 @@ export default {
               <h6 class="text-muted fs-13 mb-0">ICOs Published</h6>
             </div>
             <div class="flex-shrink-0 avatar-sm">
-              <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
+              <div class="avatar-title bg-warning-subtle text-warning fs-22 rounded">
                 <i class="ri-upload-2-line"></i>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default {
               <h6 class="text-muted fs-13 mb-0">Active ICOs</h6>
             </div>
             <div class="flex-shrink-0 avatar-sm">
-              <div class="avatar-title bg-secondary-subtle text-secondary fs-22 rounded">
+              <div class="avatar-title bg-success-subtle text-success fs-22 rounded">
                 <i class="ri-remote-control-line"></i>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default {
               <h6 class="text-muted fs-13 mb-0">ICOs Trading</h6>
             </div>
             <div class="flex-shrink-0 avatar-sm">
-              <div class="avatar-title bg-success-subtle text-success fs-22 rounded">
+              <div class="avatar-title bg-info-subtle text-info fs-22 rounded">
                 <i class="ri-flashlight-fill"></i>
               </div>
             </div>
@@ -100,7 +100,7 @@ export default {
               <h6 class="text-muted fs-13 mb-0">Upcoming ICO</h6>
             </div>
             <div class="flex-shrink-0 avatar-sm">
-              <div class="avatar-title bg-warning-subtle text-warning fs-22 rounded">
+              <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
                 <i class="ri-donut-chart-line"></i>
               </div>
             </div>
@@ -152,9 +152,9 @@ export default {
 
     <BRow>
       <BCol xxl="3" md="6">
-        <BCard no-body class="overflow-hidden shadow-none">
+        <BCard no-body class="overflow-hidden">
           <BCardBody class="bg-success-subtle">
-            <h5 class="fs-17 text-center mb-0">Active ICOs</h5>
+            <h5 class="fs-15 text-center mb-0">Active ICOs</h5>
           </BCardBody>
         </BCard>
         <BCard no-body class="mb-2">
@@ -166,7 +166,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">Data Wallet</h5>
+                <h5 class="fs-14 mb-1">Data Wallet</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>  
               <div>
@@ -202,7 +202,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">GreatRiver Technology</h5>
+                <h5 class="fs-14 mb-1">GreatRiver Technology</h5>
                 <p class="text-muted mb-2">Information Technology</p>
               </div>
               <div>
@@ -238,7 +238,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">Manta Network Finance</h5>
+                <h5 class="fs-14 mb-1">Manta Network Finance</h5>
                 <p class="text-muted mb-2">Finance Services</p>
               </div>
               <div>
@@ -274,7 +274,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">Goldfinch Network</h5>
+                <h5 class="fs-14 mb-1">Goldfinch Network</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div>
@@ -310,7 +310,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">Galaxy War</h5>
+                <h5 class="fs-14 mb-1">Galaxy War</h5>
                 <p class="text-muted mb-2">Gaming</p>
               </div>
               <div>
@@ -340,9 +340,9 @@ export default {
       </BCol>
 
       <BCol xxl="3" md="6">
-        <BCard no-body class="overflow-hidden shadow-none">
+        <BCard no-body class="overflow-hidden">
           <BCardBody class="bg-danger-subtle">
-            <h5 class="fs-17 text-center mb-0">Ended ICOs</h5>
+            <h5 class="fs-15 text-center mb-0">Ended ICOs</h5>
           </BCardBody>
         </BCard>
         <BCard no-body class="mb-2">
@@ -354,7 +354,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">Social Chain</h5>
+                <h5 class="fs-14 mb-1">Social Chain</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div>
@@ -390,7 +390,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">Angels Crypto</h5>
+                <h5 class="fs-14 mb-1">Angels Crypto</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div>
@@ -426,7 +426,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">Codex Exchange</h5>
+                <h5 class="fs-14 mb-1">Codex Exchange</h5>
                 <p class="text-muted mb-2">Exchange</p>
               </div>
               <div>
@@ -456,9 +456,9 @@ export default {
       </BCol>
 
       <BCol xxl="3" md="6">
-        <BCard no-body class="overflow-hidden shadow-none">
+        <BCard no-body class="overflow-hidden">
           <BCardBody class="bg-primary-subtle">
-            <h5 class="fs-17 text-center mb-0">Upcoming ICOs</h5>
+            <h5 class="fs-15 text-center mb-0">Upcoming ICOs</h5>
           </BCardBody>
         </BCard>
         <BCard no-body class="mb-2">
@@ -470,7 +470,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">World Doin</h5>
+                <h5 class="fs-14 mb-1">World Doin</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div>
@@ -503,7 +503,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">Bridge Plus</h5>
+                <h5 class="fs-14 mb-1">Bridge Plus</h5>
                 <p class="text-muted mb-2">Platform</p>
               </div>
               <div>
@@ -528,9 +528,9 @@ export default {
       </BCol>
 
       <BCol xxl="3" md="6">
-        <BCard no-body class="overflow-hidden shadow-none">
+        <BCard no-body class="overflow-hidden">
           <BCardBody class="bg-info-subtle">
-            <h5 class="fs-17 text-center mb-0">Trading ICOs</h5>
+            <h5 class="fs-15 text-center mb-0">Trading ICOs</h5>
           </BCardBody>
         </BCard>
         <BCard no-body class="mb-2 ribbon-box ribbon-fill right">
@@ -545,7 +545,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">PowerCoin</h5>
+                <h5 class="fs-14 mb-1">PowerCoin</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div class="me-4">
@@ -584,7 +584,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">Cyber Wonder</h5>
+                <h5 class="fs-14 mb-1">Cyber Wonder</h5>
                 <p class="text-muted mb-2">Platform</p>
               </div>
               <div class="me-4">
@@ -623,7 +623,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">RootCoin</h5>
+                <h5 class="fs-14 mb-1">RootCoin</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div class="me-4">
@@ -662,7 +662,7 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-15 mb-1">Arcana Finance</h5>
+                <h5 class="fs-14 mb-1">Arcana Finance</h5>
                 <p class="text-muted mb-2">Finance Services</p>
               </div>
               <div class="me-4">

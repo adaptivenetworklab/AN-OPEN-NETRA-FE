@@ -60,20 +60,20 @@ export default {
         <div class="d-flex align-items-center">
           <div class="avatar-sm flex-shrink-0">
             <span class="avatar-title rounded-2 fs-2" :class="{
-              'bg-primary-subtle text-primary': item.feaIcon === 'briefcase',
-              'bg-secondary-subtle text-secondary': item.feaIcon === 'award',
-              'bg-warning-subtle text-warning': item.feaIcon === 'clock'
+              'bg-primary-subtle text-primary': item.feaIconClass === 'primary',
+              'bg-warning-subtle text-warning': item.feaIconClass === 'warning',
+              'bg-info-subtle text-info': item.feaIconClass === 'info'
             }">
               <template v-if="item.feaIcon == 'briefcase'">
                 <BriefcaseIcon size="24" class="text-primary"></BriefcaseIcon>
               </template>
 
               <template v-if="item.feaIcon == 'award'">
-                <AwardIcon size="24" class="text-secondary"></AwardIcon>
+                <AwardIcon size="24" class="text-warning"></AwardIcon>
               </template>
 
               <template v-if="item.feaIcon == 'clock'">
-                <ClockIcon size="24" class="text-warning"></ClockIcon>
+                <ClockIcon size="24" class="text-info"></ClockIcon>
               </template>
             </span>
           </div>
@@ -82,7 +82,7 @@ export default {
               {{ item.label }}
             </p>
             <div class="d-flex align-items-center mb-3">
-              <h4 class="flex-grow-1 mb-0">
+              <h4 class="fs-4 flex-grow-1 mb-0">
                 <span class="counter-value">{{
                     item.counter
                 }}</span>

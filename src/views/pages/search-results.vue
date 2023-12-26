@@ -110,7 +110,7 @@ export default {
                   All Results
                 </template>
                 <div class="pb-3 pt-4">
-                  <h5 class="mb-1">
+                  <h5 class="fs-14 mb-1">
                     <BLink href="javascript:void(0);">Velzon - Responsive Bootstrap 5 Admin Dashboard</BLink>
                   </h5>
                   <p class="text-success mb-2">
@@ -206,7 +206,7 @@ export default {
                 <div class="border border-dashed"></div>
 
                 <div class="py-3">
-                  <h5 class="mb-1">
+                  <h5 class="fs-14 mb-1">
                     <BLink href="javascript:void(0);">Skote - Admin & Dashboard Template by Themesbrand</BLink>
                   </h5>
                   <p class="text-success mb-2">
@@ -251,7 +251,7 @@ export default {
                 <div class="border border-dashed"></div>
 
                 <div class="py-3">
-                  <h5 class="mb-1">
+                  <h5 class="fs-14 mb-1">
                     <BLink href="javascript:void(0);">Minia - React Js Admin & Dashboard Template</BLink>
                   </h5>
                   <p class="text-success mb-2">
@@ -296,7 +296,7 @@ export default {
                 <div class="border border-dashed"></div>
 
                 <div class="py-3">
-                  <h5 class="mb-1">
+                  <h5 class="fs-14 mb-1">
                     <BLink href="javascript:void(0);">Doson - Angular Admin & Dashboard Template by
                       Themesbrand</BLink>
                   </h5>
@@ -1234,7 +1234,7 @@ export default {
                                 </BBadge>
                               </li>
                             </ul>
-                            <h5>
+                            <h5 class="fs-15">
                               <BLink href="javascript:void(0);">A mix of friends and strangers heading off to
                                 find an adventure</BLink>
                             </h5>
@@ -1278,7 +1278,7 @@ export default {
                                 </BBadge>
                               </li>
                             </ul>
-                            <h5>
+                            <h5 class="fs-15">
                               <BLink href="javascript:void(0);">How to get creative in your work ?</BLink>
                             </h5>
                             <ul class="list-inline mb-0">
@@ -1320,7 +1320,7 @@ export default {
                                 <BBadge variant="info-subtle" class="bg-info-subtle text-info fs-11">Fashion</BBadge>
                               </li>
                             </ul>
-                            <h5>
+                            <h5 class="fs-15">
                               <BLink href="javascript:void(0);">How to become a best sale marketer in a
                                 year!</BLink>
                             </h5>
@@ -1364,7 +1364,7 @@ export default {
                                   class="bg-primary-subtle text-primary fs-11">Product</BBadge>
                               </li>
                             </ul>
-                            <h5>
+                            <h5 class="fs-15">
                               <BLink href="javascript:void(0);">Manage white space in responsive layouts ?</BLink>
                             </h5>
                             <ul class="list-inline mb-0">
@@ -1407,7 +1407,7 @@ export default {
                                   class="bg-success-subtle text-success fs-11">Business</BBadge>
                               </li>
                             </ul>
-                            <h5>
+                            <h5 class="fs-15">
                               <BLink href="javascript:void(0);">Stack designer Olivia Murphy offers freelancing
                                 advice</BLink>
                             </h5>
@@ -1451,7 +1451,7 @@ export default {
                                   class="bg-danger-subtle text-danger fs-11">Design</BBadge>
                               </li>
                             </ul>
-                            <h5>
+                            <h5 class="fs-15">
                               <BLink href="javascript:void(0);">A day in the of a professional fashion
                                 designer</BLink>
                             </h5>
@@ -1495,7 +1495,7 @@ export default {
                                   class="bg-danger-subtle text-danger fs-11">Design</BBadge>
                               </li>
                             </ul>
-                            <h5>
+                            <h5 class="fs-15">
                               <BLink href="javascript:void(0);">Design your apps in your own way</BLink>
                             </h5>
                             <ul class="list-inline mb-0">
@@ -1538,7 +1538,7 @@ export default {
                                   class="bg-warning-subtle text-warning fs-11">Development</BBadge>
                               </li>
                             </ul>
-                            <h5>
+                            <h5 class="fs-15">
                               <BLink href="javascript:void(0);">How apps is changing the IT world</BLink>
                             </h5>
                             <ul class="list-inline mb-0">
@@ -1607,7 +1607,7 @@ export default {
                 <BRow class="pt-4">
                   <BCol lg="12" class="video-list">
                     <div class="list-element">
-                      <h5 class="mb-1">
+                      <h5 class="mb-1 fs-14">
                         <BLink href="javascript:void(0);">Admin dashboard templates - Material Design for
                           Velzon</BLink>
                       </h5>
@@ -1667,7 +1667,7 @@ export default {
                     </div>
 
                     <div class="list-element mt-4">
-                      <h5 class="mb-1">
+                      <h5 class="mb-1 fs-14">
                         <BLink href="javascript:void(0);">Create Responsive Admin Dashboard using Html CSS</BLink>
                       </h5>
                       <p class="text-success">
@@ -1726,7 +1726,7 @@ export default {
                     </div>
 
                     <div class="list-element mt-4">
-                      <h5 class="mb-1">
+                      <h5 class="mb-1 fs-14">
                         <BLink href="javascript:void(0);">Velzon - The Most Popular Bootstrap 5 HTML, Angular &
                           React Js Admin</BLink>
                       </h5>
@@ -1786,7 +1786,7 @@ export default {
                     </div>
 
                     <div class="list-element mt-4">
-                      <h5 class="mb-1">
+                      <h5 class="mb-1 fs-14">
                         <BLink href="javascript:void(0);">Velzon Admin Dashboard (website analytics) with
                           Bootstrap 5</BLink>
                       </h5>
@@ -1846,7 +1846,7 @@ export default {
                     </div>
 
                     <div class="list-element mt-4">
-                      <h5 class="mb-1">
+                      <h5 class="mb-1 fs-14">
                         <BLink href="javascript:void(0);">Dashboard Admin Basics - YouTube</BLink>
                       </h5>
                       <p class="text-success">

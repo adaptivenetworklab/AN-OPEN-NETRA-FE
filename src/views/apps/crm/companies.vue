@@ -308,7 +308,7 @@ export default {
           <BCardHeader>
             <div class="d-flex align-items-center flex-wrap gap-2">
               <div class="flex-grow-1">
-                <BButton variant="secondary" class="add-btn me-1" @click="toggleModal">
+                <BButton variant="info" class="add-btn me-1" @click="toggleModal">
                   <i class="ri-add-fill me-1 align-bottom"></i> Add Company
                 </BButton>
 
@@ -318,7 +318,7 @@ export default {
                   <BButton variant="soft-danger" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton variant="primary">
+                  <BButton variant="secondary">
                     <i class="ri-filter-2-line me-1 align-bottom"></i> Filters
                   </BButton>
                   <BButton variant="soft-success">Import</BButton>

@@ -260,8 +260,8 @@ const basicCandlestickChart = {
     plotOptions: {
       candlestick: {
         colors: {
-          upward: "#3cd188",
-          downward: "#f7666e",
+          upward: "#13c56b",
+          downward: "#ed5e5e",
         },
       },
     },
@@ -306,8 +306,8 @@ const comboCandlestickBrushChart = {
     plotOptions: {
       candlestick: {
         colors: {
-          upward: "#0ac7fb",
-          downward: "#f7666e",
+          upward: "#50c3e6",
+          downward: "#ed5e5e",
         },
       },
     },
@@ -650,8 +650,8 @@ const categoryXaxisChart = {
     plotOptions: {
       candlestick: {
         colors: {
-          upward: "#3cd188",
-          downward: "#f7666e",
+          upward: "#13c56b",
+          downward: "#ed5e5e",
         },
       },
     },

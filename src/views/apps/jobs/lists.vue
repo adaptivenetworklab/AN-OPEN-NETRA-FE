@@ -54,7 +54,7 @@ export default {
             enabled: false,
           },
         },
-        colors: getChartColorsArray('["--vz-secondary", "--vz-primary", "--vz-success"]'),
+        colors: getChartColorsArray('["--vz-info", "--vz-primary", "--vz-danger", "--vz-danger", "--vz-info"]'),
       },
       //
       submitted: false,
@@ -354,7 +354,7 @@ export default {
               </div>
             </div>
             <div class="mt-4">
-              <BButton type="button" variant="soft-info" class="w-100">Apply Now</BButton>
+              <BButton type="button" variant="success" class="w-100">Apply Now</BButton>
             </div>
           </BCardBody>
         </BCard>

@@ -132,7 +132,7 @@ export default {
                             </BLink>
                             <BLink class="avatar-group-item" @click="modalShow = !modalShow">
                                 <div class="avatar-xs">
-                                    <div class="avatar-title bg-secondary rounded-circle">
+                                    <div class="avatar-title rounded-circle">
                                         +
                                     </div>
                                 </div>
@@ -147,14 +147,14 @@ export default {
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">Unassigned <BBadge tag="small" variant="success"
+                        <h6 class="fs-13 text-uppercase mb-0">Unassigned <BBadge tag="small" variant="success"
                                 class="align-bottom ms-1">2</BBadge>
                         </h6>
                     </div>
                     <div class="flex-shrink-0">
                         <BDropdown variant="link" class="card-header-dropdown" toggle-class="p-0 arrow-none"
                             menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -70, crossAxis: 0, mainAxis: 10 }">
-                            <template #button-content><span class="fw-medium text-muted fs-12">Priority<i
+                            <template #button-content><span class="fw-medium text-muted fs-13">Priority<i
                                         class="mdi mdi-chevron-down ms-1"></i></span></template>
                             <BDropdownItem>Priority</BDropdownItem>
                             <BDropdownItem>Date Added</BDropdownItem>
@@ -167,8 +167,8 @@ export default {
                             <BCard no-body class="tasks-box" v-for="(data, index) of unassigned" :key="index">
                                 <BCardBody>
                                     <div class="d-flex mb-2">
-                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
+                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details" class="text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -249,7 +249,7 @@ export default {
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">To Do <BBadge tag="small" variant="secondary"
+                        <h6 class="fs-13 text-uppercase mb-0">To Do <BBadge tag="small" variant="secondary"
                                 class="align-bottom ms-1">2</BBadge>
                         </h6>
                     </div>
@@ -269,8 +269,8 @@ export default {
                             <BCard no-body class="tasks-box" v-for="(data, index) of todo" :key="index">
                                 <BCardBody>
                                     <div class="d-flex mb-2">
-                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
+                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details" class="text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -351,7 +351,7 @@ export default {
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">Inprogress
+                        <h6 class="fs-13 text-uppercase mb-0">Inprogress
                             <BBadge tag="small" class="bg-warning align-bottom ms-1">2</BBadge>
                         </h6>
                     </div>
@@ -371,8 +371,8 @@ export default {
                             <BCard no-body class="tasks-box" v-for="(data, index) of inprogress" :key="index">
                                 <BCardBody>
                                     <div class="d-flex mb-2">
-                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
+                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -453,7 +453,7 @@ export default {
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">In Reviews
+                        <h6 class="fs-13 text-uppercase mb-0">In Reviews
                             <BBadge tag="small" class="bg-info align-bottom ms-1">3</BBadge>
                         </h6>
                     </div>
@@ -473,8 +473,8 @@ export default {
                             <BCard no-body class="tasks-box" v-for="(data, index) of reviews" :key="index">
                                 <BCardBody>
                                     <div class="d-flex mb-2">
-                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
+                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details" class="text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -555,7 +555,7 @@ export default {
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">Completed
+                        <h6 class="fs-13 text-uppercase mb-0">Completed
                             <BBadge tag="small" variant="success" class="align-bottom ms-1">1</BBadge>
                         </h6>
                     </div>
@@ -575,8 +575,8 @@ export default {
                             <BCard no-body class="tasks-box" v-for="(data, index) of completed" :key="index">
                                 <BCardBody>
                                     <div class="d-flex mb-2">
-                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
+                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details" class="text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -657,7 +657,7 @@ export default {
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">new <BBadge tag="small" variant="success"
+                        <h6 class="fs-13 text-uppercase mb-0">new <BBadge tag="small" variant="success"
                                 class="align-bottom ms-1">1</BBadge>
                         </h6>
                     </div>
@@ -677,8 +677,8 @@ export default {
                             <BCard no-body class="tasks-box" v-for="(data, index) of newData" :key="index">
                                 <BCardBody>
                                     <div class="d-flex mb-2">
-                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
+                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details" class="text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">

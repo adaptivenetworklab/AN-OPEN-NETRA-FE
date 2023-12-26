@@ -136,10 +136,10 @@ export default {
                 <BLink href="javascript:void(0);" class="badge bg-danger-subtle text-danger badge-border">EUR</BLink>
               </div>
             </div>
-            <h4 class="mb-2">
+            <h3 class="mb-2">
               $ <count-to :duration="5000" :startVal="0" :endVal="74854"></count-to><small
                 class="text-muted fs-13">.68k</small>
-            </h4>
+            </h3>
             <h6 class="text-muted mb-0">Available Balance (USD)</h6>
           </BCardBody>
         </BCard>
@@ -161,10 +161,10 @@ export default {
                 <BLink href="javascript:void(0);" class="badge bg-danger-subtle text-danger badge-border">EUR</BLink>
               </div>
             </div>
-            <h4 class="mb-2">
+            <h3 class="mb-2">
               $<count-to :duration="5000" :startVal="0" :endVal="74361"></count-to><small
                 class="text-muted fs-13">.34k</small>
-            </h4>
+            </h3>
             <h6 class="text-muted mb-0">Send (Previous Month)</h6>
           </BCardBody>
         </BCard>
@@ -186,10 +186,10 @@ export default {
                 <BLink href="javascript:void(0);" class="badge bg-danger-subtle text-danger badge-border">EUR</BLink>
               </div>
             </div>
-            <h4 class="mb-2">
+            <h3 class="mb-2">
               $<count-to :duration="5000" :startVal="0" :endVal="97685"></count-to><small
                 class="text-muted fs-13">.22k</small>
-            </h4>
+            </h3>
             <h6 class="text-muted mb-0">Receive (Previous Month)</h6>
           </BCardBody>
         </BCard>
@@ -208,9 +208,9 @@ export default {
                     <BLink href="javascript:void(0);" class="fw-medium">Bitcoin (BTC)</BLink>
                   </div>
                 </div>
-                <h4 class="mb-2">
+                <h3 class="mb-2">
                   $245<small class="text-muted fs-13">.65k</small>
-                </h4>
+                </h3>
                 <h6 class="text-muted mb-0">Send - Receive (Previous Month)</h6>
               </BCardBody>
             </BCard>
@@ -227,9 +227,9 @@ export default {
                     <BLink href="javascript:void(0);" class="fw-medium">Ethereum (ETH)</BLink>
                   </div>
                 </div>
-                <h4 class="mb-2">
+                <h3 class="mb-2">
                   $24<small class="text-muted fs-13">.74k</small>
-                </h4>
+                </h3>
                 <h6 class="text-muted mb-0">Send - Receive (Previous Month)</h6>
               </BCardBody>
             </BCard>
@@ -246,9 +246,9 @@ export default {
                     <BLink href="javascript:void(0);" class="fw-medium">Monero (XMR)</BLink>
                   </div>
                 </div>
-                <h4 class="mb-2">
+                <h3 class="mb-2">
                   $124<small class="text-muted fs-13">.36k</small>
-                </h4>
+                </h3>
                 <h6 class="text-muted mb-0">Send - Receive (Previous Month)</h6>
               </BCardBody>
             </BCard>
@@ -275,8 +275,8 @@ export default {
       </BCol>
       <BCol sm="auto" class="ms-auto">
         <div class="d-flex gap-2">
-          <BLink href="javascript:void(0);" class="btn btn-success">Deposite</BLink>
-          <BLink href="javascript:void(0);" class="btn btn-secondary">Withdraw</BLink>
+          <BLink href="javascript:void(0);" class="btn btn-info">Deposite</BLink>
+          <BLink href="javascript:void(0);" class="btn btn-danger">Withdraw</BLink>
         </div>
       </BCol>
     </BRow>
@@ -294,7 +294,7 @@ export default {
                   v-model="searchQuery" />
                 <i class="ri-search-line search-icon"></i>
               </div>
-              <BButton variant="soft-primary">
+              <BButton variant="success">
                 <i class="ri-equalizer-line align-bottom me-1"></i> Filters
               </BButton>
             </div>

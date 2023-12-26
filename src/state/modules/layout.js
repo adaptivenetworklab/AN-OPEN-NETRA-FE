@@ -1,8 +1,8 @@
 export const state = {
-  layoutType: 'semibox',
+  layoutType: 'horizontal',
   layoutWidth: 'fluid',
   sidebarSize: 'lg',
-  topbar: 'light',
+  topbar: 'dark',
   mode: 'light',
   position: 'fixed',
   sidebarView: 'default',

@@ -2286,10 +2286,10 @@ export default {
 
                         <BModal v-model="modalShow29" hide-footer body-class="p-0" header-class="p-3"
                             class="v-modal-custom" title="Sign Up" content-class="border-0 overflow-hidden" centered>
-                            <BAlert :model-value="true" variant="success" class="rounded-0 mb-0" show>
-                                    <p class="mb-0">Up to <span class="fw-semibold">50% OFF</span>, Hurry up before
-                                        the stock ends</p>
-                                </BAlert>
+                            <b-alert variant="success" class="rounded-0 mb-0" show>
+                                <p class="mb-0">Up to <span class="fw-semibold">50% OFF</span>, Hurry up before
+                                    the stock ends</p>
+                            </b-alert>
                             <div class="modal-body">
                                 <form>
                                     <div class="mb-3">

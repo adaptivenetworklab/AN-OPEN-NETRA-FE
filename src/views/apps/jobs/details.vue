@@ -13,7 +13,7 @@ export default {
     <BRow>
       <BCol lg="12">
         <BCard no-body class="mt-n4 mx-n4">
-          <div class="bg-primary-subtle">
+          <div class="bg-warning-subtle">
             <BCardBody class="px-4 pb-4">
               <BRow class="mb-3">
                 <BCol md>

@@ -59,7 +59,7 @@ export default {
           max: 150,
         },
         colors: getChartColorsArray(
-          '["--vz-primary", "--vz-secondary","--vz-light"]'
+          '["--vz-primary", "--vz-success","--vz-light"]'
         ),
         fill: {
           opacity: 0,
@@ -157,7 +157,7 @@ export default {
             <BRow class="g-0 text-center">
               <BCol cols="6" sm="4">
                 <div class="p-3 border border-dashed border-start-0">
-                  <h5 class="mb-1 fs-16">
+                  <h5 class="mb-1">
                     <count-to :startVal="0" :endVal="36" :duration="5000"></count-to>k
                   </h5>
                   <p class="text-muted mb-0">Aetworks</p>
@@ -165,7 +165,7 @@ export default {
               </BCol>
               <BCol cols="6" sm="4">
                 <div class="p-3 border border-dashed border-start-0">
-                  <h5 class="mb-1 fs-16">
+                  <h5 class="mb-1">
                     <count-to :startVal="0" :endVal="92" :duration="5000"></count-to>k
                   </h5>
                   <p class="text-muted mb-0">Auction</p>
@@ -173,7 +173,7 @@ export default {
               </BCol>
               <BCol cols="6" sm="4">
                 <div class="p-3 border border-dashed border-end-0">
-                  <h5 class="mb-1 fs-16">
+                  <h5 class="mb-1">
                     <count-to :startVal="0" :endVal="8" :duration="5000"></count-to>k
                   </h5>
                   <p class="text-muted mb-0">Creators</p>
@@ -207,9 +207,9 @@ export default {
                 </div>
               </div>
 
-              <h4 class="ff-secondary fw-bold mt-4">
+              <h3 class="ff-secondary fw-bold mt-4">
                 <i class="mdi mdi-ethereum text-primary"></i> 346.12 ETH
-              </h4>
+              </h3>
               <p class="text-success mb-3">+586.85 (40.6%)</p>
 
               <p class="text-muted">
@@ -221,14 +221,14 @@ export default {
               <div class="d-flex align-items-end justify-content-between mt-4">
                 <div>
                   <p class="fs-14 text-muted mb-1">Current Bid</p>
-                  <h4 class="fs-18 ff-secondary fw-semibold mb-0">
+                  <h4 class="fs-20 ff-secondary fw-semibold mb-0">
                     342.74 ETH
                   </h4>
                 </div>
 
                 <div>
                   <p class="fs-14 text-muted mb-1">Highest Bid</p>
-                  <h4 class="fs-18 ff-secondary fw-semibold mb-0">
+                  <h4 class="fs-20 ff-secondary fw-semibold mb-0">
                     346.67 ETH
                   </h4>
                 </div>

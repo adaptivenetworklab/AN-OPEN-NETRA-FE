@@ -20,8 +20,8 @@ export default {
     <Layout>
         <BRow>
             <BCol lg="12">
-                <BCard no-body class="mt-n4">
-                    <div class="bg-primary-subtle">
+                <BCard no-body class="mt-n4 mx-n4">
+                    <div class="bg-warning-subtle">
                         <BCardBody class="pb-0 px-4">
                             <BRow class="mb-3">
                                 <BCol md>
@@ -74,13 +74,13 @@ export default {
         <BRow>
             <BCol lg="12">
                 <BTabs variant="link" nav-class="nav-tabs-custom border-bottom-0">
-                    <BTab title="Overview" active class="fw-semibold pt-2">
+                    <BTab title="Overview" active class="fw-semibold pt-2 text-body">
                         <BRow>
                             <BCol xl="9" lg="8">
                                 <BCard no-body>
                                     <BCardBody>
                                         <div class="text-muted">
-                                            <h6 class="mb-3 fw-semibold text-uppercase">Summary</h6>
+                                            <h6 class="mb-3 text-uppercase">Summary</h6>
                                             <p>It will be as simple as occidental in fact, it will be Occidental. To an
                                                 English person, it will seem like simplified English, as a skeptical
                                                 Cambridge friend of mine told me what Occidental is. The European
@@ -108,25 +108,25 @@ export default {
                                                     <BCol lg="3" sm="6">
                                                         <div>
                                                             <p class="mb-2 text-uppercase fw-medium">Create Date :</p>
-                                                            <h5 class="fs-15 mb-0">15 Sep, 2021</h5>
+                                                            <h5 class="fs-14 mb-0">15 Sep, 2021</h5>
                                                         </div>
                                                     </BCol>
                                                     <BCol lg="3" sm="6">
                                                         <div>
                                                             <p class="mb-2 text-uppercase fw-medium">Due Date :</p>
-                                                            <h5 class="fs-15 mb-0">29 Dec, 2021</h5>
+                                                            <h5 class="fs-14 mb-0">29 Dec, 2021</h5>
                                                         </div>
                                                     </BCol>
                                                     <BCol lg="3" sm="6">
                                                         <div>
                                                             <p class="mb-2 text-uppercase fw-medium">Priority :</p>
-                                                            <BBadge tag="div" class="bg-danger fs-12">High</BBadge>
+                                                            <BBadge tag="div" class="bg-danger fs-11">High</BBadge>
                                                         </div>
                                                     </BCol>
                                                     <BCol lg="3" sm="6">
                                                         <div>
                                                             <p class="mb-2 text-uppercase fw-medium">Status :</p>
-                                                            <BBadge tag="div" class="bg-warning fs-12">Inprogress</BBadge>
+                                                            <BBadge tag="div" class="bg-warning fs-11">Inprogress</BBadge>
                                                         </div>
                                                     </BCol>
                                                 </BRow>
@@ -361,7 +361,7 @@ export default {
                                                         class="btn-icon waves-effect me-1">
                                                         <i class="ri-attachment-line fs-16"></i>
                                                     </BButton>
-                                                    <BLink href="javascript:void(0);" class="btn btn-primary">Post
+                                                    <BLink href="javascript:void(0);" class="btn btn-success">Post
                                                         Comments</BLink>
                                                 </BCol>
                                             </BRow>
@@ -635,7 +635,7 @@ export default {
                                     <BCardHeader class="align-items-center d-flex border-bottom-dashed">
                                         <BCardTitle class="mb-0 flex-grow-1">Attachments</BCardTitle>
                                         <div class="flex-shrink-0">
-                                            <BButton type="button" variant="soft-success" size="sm"><i
+                                            <BButton type="button" variant="soft-info" size="sm"><i
                                                     class="ri-upload-2-fill me-1 align-bottom"></i> Upload</BButton>
                                         </div>
                                     </BCardHeader>
@@ -808,7 +808,7 @@ export default {
                                             </div>
 
                                             <div class="mt-2 text-center">
-                                                <BButton type="button" variant="secondary">View more</BButton>
+                                                <BButton type="button" variant="success">View more</BButton>
                                             </div>
                                         </div>
                                     </BCardBody>
@@ -816,7 +816,7 @@ export default {
                             </BCol>
                         </BRow>
                     </BTab>
-                    <BTab title="Documents" class="fw-semibold pt-2">
+                    <BTab title="Documents" class="fw-semibold pt-2 text-body">
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-flex align-items-center mb-4">
@@ -886,7 +886,7 @@ export default {
                                                                 </div>
                                                             </div>
                                                             <div class="ms-3 flex-grow-1">
-                                                                <h5 class="fs-14 mb-0">
+                                                                <h5 class="fs-13 mb-0">
                                                                     <BLink href="javascript:void(0);" class="text-body">
                                                                         Bank Management System
                                                                     </BLink>
@@ -927,7 +927,7 @@ export default {
                                                                 </div>
                                                             </div>
                                                             <div class="ms-3 flex-grow-1">
-                                                                <h5 class="fs-14 mb-0">
+                                                                <h5 class="fs-13 mb-0">
                                                                     <BLink href="javascript:void(0);" class="text-body">
                                                                         Tour-video.mp4</BLink>
                                                                 </h5>
@@ -967,7 +967,7 @@ export default {
                                                                 </div>
                                                             </div>
                                                             <div class="ms-3 flex-grow-1">
-                                                                <h5 class="fs-14 mb-0">
+                                                                <h5 class="fs-13 mb-0">
                                                                     <BLink href="javascript:void(0);" class="text-body">
                                                                         Account-statement.xsl
                                                                     </BLink>
@@ -1008,7 +1008,7 @@ export default {
                                                                 </div>
                                                             </div>
                                                             <div class="ms-3 flex-grow-1">
-                                                                <h5 class="fs-14 mb-0">
+                                                                <h5 class="fs-13 mb-0">
                                                                     <BLink href="javascript:void(0);" class="text-body">
                                                                         Project Screenshots
                                                                         Collection</BLink>
@@ -1049,7 +1049,7 @@ export default {
                                                                 </div>
                                                             </div>
                                                             <div class="ms-3 flex-grow-1">
-                                                                <h5 class="fs-14 mb-0">
+                                                                <h5 class="fs-13 mb-0">
                                                                     <BLink href="javascript:void(0);" class="text-body">
                                                                         Velzon-logo.png</BLink>
                                                                 </h5>
@@ -1092,7 +1092,7 @@ export default {
                             </div>
                         </div>
                     </BTab>
-                    <BTab title="Activities" class="fw-semibold pt-2">
+                    <BTab title="Activities" class="fw-semibold pt-2 text-body">
                         <BCard no-body>
                             <BCardBody>
                                 <h5 class="card-title">Activities</h5>
@@ -1269,7 +1269,7 @@ export default {
                             </BCardBody>
                         </BCard>
                     </BTab>
-                    <BTab title="Team" class="fw-semibold pt-2">
+                    <BTab title="Team" class="fw-semibold pt-2 text-body">
                         <BRow class="g-4 mb-3">
                             <BCol sm>
                                 <div class="d-flex">
@@ -1323,7 +1323,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-16 mb-1">Nancy Martino</h5>
+                                                        <h5 class="fs-15 mb-1">Nancy Martino</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Team Leader & HR</p>
                                                 </div>
@@ -1332,11 +1332,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="mb-1">225</h5>
+                                                    <h5 class="fs-15 mb-1">225</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="mb-1">197</h5>
+                                                    <h5 class="fs-15 mb-1">197</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1386,7 +1386,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-16 mb-1">Henry Baird</h5>
+                                                        <h5 class="fs-15 mb-1">Henry Baird</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Full Stack Developer</p>
                                                 </div>
@@ -1395,11 +1395,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="mb-1">352</h5>
+                                                    <h5 class="fs-15 mb-1">352</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="mb-1">376</h5>
+                                                    <h5 class="fs-15 mb-1">376</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1448,7 +1448,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-16 mb-1">Frank Hook</h5>
+                                                        <h5 class="fs-15 mb-1">Frank Hook</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Project Manager</p>
                                                 </div>
@@ -1457,11 +1457,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="mb-1">164</h5>
+                                                    <h5 class="fs-15 mb-1">164</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="mb-1">182</h5>
+                                                    <h5 class="fs-15 mb-1">182</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1510,7 +1510,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-16 mb-1">Jennifer Carter</h5>
+                                                        <h5 class="fs-15 mb-1">Jennifer Carter</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">UI/UX Designer</p>
                                                 </div>
@@ -1519,11 +1519,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="mb-1">225</h5>
+                                                    <h5 class="fs-15 mb-1">225</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="mb-1">197</h5>
+                                                    <h5 class="fs-15 mb-1">197</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1573,7 +1573,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-16 mb-1">Megan Elmore</h5>
+                                                        <h5 class="fs-15 mb-1">Megan Elmore</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Team Leader & Web Developer</p>
                                                 </div>
@@ -1582,11 +1582,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="mb-1">201</h5>
+                                                    <h5 class="fs-15 mb-1">201</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="mb-1">263</h5>
+                                                    <h5 class="fs-15 mb-1">263</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1635,7 +1635,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-16 mb-1">Alexis Clarke</h5>
+                                                        <h5 class="fs-15 mb-1">Alexis Clarke</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Backend Developer</p>
                                                 </div>
@@ -1644,11 +1644,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="mb-1">132</h5>
+                                                    <h5 class="fs-15 mb-1">132</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="mb-1">147</h5>
+                                                    <h5 class="fs-15 mb-1">147</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1698,7 +1698,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-16 mb-1">Nathan Cole</h5>
+                                                        <h5 class="fs-15 mb-1">Nathan Cole</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Front-End Developer</p>
                                                 </div>
@@ -1707,11 +1707,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="mb-1">352</h5>
+                                                    <h5 class="fs-15 mb-1">352</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="mb-1">376</h5>
+                                                    <h5 class="fs-15 mb-1">376</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1760,7 +1760,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-16 mb-1">Joseph Parker</h5>
+                                                        <h5 class="fs-15 mb-1">Joseph Parker</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Team Leader & HR</p>
                                                 </div>
@@ -1769,11 +1769,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="mb-1">64</h5>
+                                                    <h5 class="fs-15 mb-1">64</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="mb-1">93</h5>
+                                                    <h5 class="fs-15 mb-1">93</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1822,7 +1822,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-16 mb-1">Erica Kernan</h5>
+                                                        <h5 class="fs-15 mb-1">Erica Kernan</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Web Designer</p>
                                                 </div>
@@ -1831,11 +1831,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="mb-1">345</h5>
+                                                    <h5 class="fs-15 mb-1">345</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="mb-1">298</h5>
+                                                    <h5 class="fs-15 mb-1">298</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1885,7 +1885,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-16 mb-1">Donald Palmer</h5>
+                                                        <h5 class="fs-15 mb-1">Donald Palmer</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Wed Developer</p>
                                                 </div>
@@ -1894,11 +1894,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="mb-1">97</h5>
+                                                    <h5 class="fs-15 mb-1">97</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="mb-1">135</h5>
+                                                    <h5 class="fs-15 mb-1">135</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>

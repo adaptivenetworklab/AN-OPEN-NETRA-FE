@@ -488,7 +488,7 @@ export default {
               dropdown-menu to create dropdown items dark.
             </p>
             <div class="live-preview">
-              <BDropdown text="Dropdown button" menu-class="dropdown-menu-dark" variant="secondary ">
+              <BDropdown text="Dropdown button" menu-class="dropdown-menu-dark" variant="secondary">
                 <BDropdownItemButton>Action</BDropdownItemButton>
                 <BDropdownItemButton>Another action</BDropdownItemButton>
                 <BDropdownItemButton>Something else here</BDropdownItemButton>

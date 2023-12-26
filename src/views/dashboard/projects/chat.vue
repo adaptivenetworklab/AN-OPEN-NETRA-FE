@@ -336,7 +336,7 @@ export default {
                         </div>
                     </BCol>
                     <div class="col-auto">
-                        <BButton type="submit" variant="primary"><span class="d-none d-sm-inline-block me-2">Send</span>
+                        <BButton type="submit" variant="info"><span class="d-none d-sm-inline-block me-2">Send</span>
                             <i class="mdi mdi-send float-end"></i>
                         </BButton>
                     </div>

@@ -340,8 +340,8 @@ export default {
         plotOptions: {
           candlestick: {
             colors: {
-              upward: "#3cd188",
-              downward: "#f7666e",
+              upward: "#13c56b",
+              downward: "#ed5e5e",
             },
           },
         },
@@ -510,13 +510,13 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h6 class="text-muted mb-3">Total Buy</h6>
-                <h4 class="mb-0">
+                <h2 class="mb-0">
                   $<count-to :startVal="0" :duration="5000" :endVal="243"></count-to><small
                     class="text-muted fs-13">.10k</small>
-                </h4>
+                </h2>
               </div>
               <div class="flex-shrink-0 avatar-sm">
-                <div class="avatar-title bg-secondary-subtle text-secondary fs-22 rounded">
+                <div class="avatar-title bg-danger-subtle text-danger fs-22 rounded">
                   <i class="ri-shopping-bag-line"></i>
                 </div>
               </div>
@@ -530,13 +530,13 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h6 class="text-muted mb-3">Total Sell</h6>
-                <h4 class="mb-0">
+                <h2 class="mb-0">
                   $<count-to :startVal="0" :duration="5000" :endVal="658"></count-to><small
                     class="text-muted fs-13">.00k</small>
-                </h4>
+                </h2>
               </div>
               <div class="flex-shrink-0 avatar-sm">
-                <div class="avatar-title bg-success-subtle text-success fs-22 rounded">
+                <div class="avatar-title bg-info-subtle text-info fs-22 rounded">
                   <i class="ri-funds-line"></i>
                 </div>
               </div>
@@ -550,13 +550,13 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h6 class="text-muted mb-3">Today's Buy</h6>
-                <h4 class="mb-0">
+                <h2 class="mb-0">
                   $<count-to :startVal="0" :duration="5000" :endVal="104"></count-to><small
                     class="text-muted fs-13">.85k</small>
-                </h4>
+                </h2>
               </div>
               <div class="flex-shrink-0 avatar-sm">
-                <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
+                <div class="avatar-title bg-warning-subtle text-warning fs-22 rounded">
                   <i class="ri-arrow-left-down-fill"></i>
                 </div>
               </div>
@@ -570,13 +570,13 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h6 class="text-muted mb-3">Today's Sell</h6>
-                <h4 class="mb-0">
+                <h2 class="mb-0">
                   $<count-to :startVal="0" :duration="5000" :endVal="87"></count-to><small
                     class="text-muted fs-13">.35k</small>
-                </h4>
+                </h2>
               </div>
               <div class="flex-shrink-0 avatar-sm">
-                <div class="avatar-title bg-info-subtle text-info fs-22 rounded">
+                <div class="avatar-title bg-success-subtle text-success fs-22 rounded">
                   <i class="ri-arrow-right-up-fill"></i>
                 </div>
               </div>
@@ -849,7 +849,7 @@ export default {
           </BCol>
           <div class="col-auto ms-auto">
             <div class="d-flex gap-2">
-              <BButton variant="soft-secondary">
+              <BButton variant="success">
                 <i class="ri-equalizer-line align-bottom me-1"></i> Filters
               </BButton>
             </div>
@@ -885,7 +885,7 @@ export default {
                 <td>
                   <div class="d-flex align-items-center fw-medium">
                     <img :src="data.image" alt="" class="avatar-xxs me-2" />
-                    <BLink href="javascript:void(0);" class="currency_name">{{
+                    <BLink href="javascript:void(0);" class="currency_name text-body">{{
                       data.currency_name
                     }}</BLink>
                   </div>

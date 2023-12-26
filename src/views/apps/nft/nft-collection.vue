@@ -20,7 +20,7 @@ export default {
         <BRow class="g-4 mb-3 align-items-center">
             <BCol sm="auto">
                 <div>
-                    <h5 class="mb-0">Top Collections</h5>
+                    <h5 class="fw-bold mb-0">Top Collections</h5>
                 </div>
             </BCol>
             <BCol sm>

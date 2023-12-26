@@ -222,7 +222,7 @@ export default {
                   Last Year
                 </BDropdownItem>
               </BDropdown>
-              <BButton variant="secondary" class="addMembers-modal" @click="modalShow = !modalShow"><i
+              <BButton variant="success" class="addMembers-modal" @click="modalShow = !modalShow"><i
                   class="ri-add-fill me-1 align-bottom"></i> Add Members</BButton>
             </div>
           </BCol>

@@ -1,5 +1,5 @@
 <script>
-import simplebar from "simplebar-vue"
+import simplebar from 'simplebar-vue';
 export default {
     components: {
         simplebar
@@ -63,7 +63,7 @@ export default {
                                                 class="avatar-sm rounded-circle">
                                             <div class="ms-3">
                                                 <BLink href="#!">
-                                                    <h6 class="mb-1">One shop destination on</h6>
+                                                    <h6 class="fs-15 mb-1">One shop destination on</h6>
                                                 </BLink>
                                                 <p class="mb-0 text-muted">13,450 Sales</p>
                                             </div>
@@ -90,7 +90,7 @@ export default {
                                                 class="avatar-sm rounded-circle">
                                             <div class="ms-3">
                                                 <BLink href="#!">
-                                                    <h6 class="mb-1">Coin Journal is dedicated</h6>
+                                                    <h6 class="fs-15 mb-1">Coin Journal is dedicated</h6>
                                                 </BLink>
                                                 <p class="mb-0 text-muted">11,752 Sales</p>
                                             </div>
@@ -117,7 +117,7 @@ export default {
                                                 class="avatar-sm rounded-circle">
                                             <div class="ms-3">
                                                 <BLink href="#!">
-                                                    <h6 class="mb-1">The Bitcoin-holding U.S.</h6>
+                                                    <h6 class="fs-15 mb-1">The Bitcoin-holding U.S.</h6>
                                                 </BLink>
                                                 <p class="mb-0 text-muted">7,526 Sales</p>
                                             </div>
@@ -144,7 +144,7 @@ export default {
                                                 class="avatar-sm rounded-circle">
                                             <div class="ms-3">
                                                 <BLink href="#!">
-                                                    <h6 class="mb-1">Cryptocurrency Price Bitcoin</h6>
+                                                    <h6 class="fs-15 mb-1">Cryptocurrency Price Bitcoin</h6>
                                                 </BLink>
                                                 <p class="mb-0 text-muted">15,521 Sales</p>
                                             </div>
@@ -171,7 +171,7 @@ export default {
                                                 class="avatar-sm rounded-circle">
                                             <div class="ms-3">
                                                 <BLink href="#!">
-                                                    <h6 class="mb-1">Dash, Ripple and Litecoin</h6>
+                                                    <h6 class="fs-15 mb-1">Dash, Ripple and Litecoin</h6>
                                                 </BLink>
                                                 <p class="mb-0 text-muted">12,652 Sales</p>
                                             </div>
@@ -198,7 +198,7 @@ export default {
                                                 class="avatar-sm rounded-circle">
                                             <div class="ms-3">
                                                 <BLink href="#!">
-                                                    <h6 class="fmb-1">The Cat X Takashi</h6>
+                                                    <h6 class="fs-15 mb-1">The Cat X Takashi</h6>
                                                 </BLink>
                                                 <p class="mb-0 text-muted">11,745 Sales</p>
                                             </div>
@@ -224,7 +224,7 @@ export default {
                                                 class="avatar-sm rounded-circle">
                                             <div class="ms-3">
                                                 <BLink href="#!">
-                                                    <h6 class="mb-1">Long-tailed Macaque</h6>
+                                                    <h6 class="fs-15 mb-1">Long-tailed Macaque</h6>
                                                 </BLink>
                                                 <p class="mb-0 text-muted">41,032 Sales</p>
                                             </div>
@@ -250,7 +250,7 @@ export default {
                                                 class="avatar-sm rounded-circle">
                                             <div class="ms-3">
                                                 <BLink href="#!">
-                                                    <h6 class="mb-1">Evolved Reality</h6>
+                                                    <h6 class="fs-15 mb-1">Evolved Reality</h6>
                                                 </BLink>
                                                 <p class="mb-0 text-muted">513,794 Sales</p>
                                             </div>

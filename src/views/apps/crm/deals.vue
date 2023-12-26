@@ -53,11 +53,11 @@ export default {
                                     ]" />
 
                             </div>
-                            <BButton variant="secondary" @click="modalShow = !modalShow">
+                            <BButton variant="success" @click="modalShow = !modalShow">
                                 <i class="ri-add-fill align-bottom me-1"></i> Add Deals
                             </BButton>
                             <BDropdown variant="link" class="card-header-dropdown"
-                                toggle-class="btn btn-soft-primary btn-icon fs-14 arrow-none" menu-class="dropdown-menu-end">
+                                toggle-class="btn btn-soft-info btn-icon fs-14 arrow-none" menu-class="dropdown-menu-end">
                                 <template #button-content><i class="ri-settings-4-line"></i></template>
                                 <BDropdownItem>Copy</BDropdownItem>
                                 <BDropdownItem>Move to pipline</BDropdownItem>
@@ -73,9 +73,9 @@ export default {
 
         <BRow class="row-cols-xxl-5 row-cols-lg-3 row-cols-md-2 row-cols-1">
             <BCol>
-                <BCard no-body class="overflow-hidden">
+                <BCard no-body>
                     <BLink class="card-header bg-danger-subtle" role="button" v-b-toggle.leadDiscovered>
-                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-14">Lead Discovered</h5>
+                        <h5 class="card-title text-uppercase mb-1 fs-14">Lead Discovered</h5>
                         <p class="text-muted mb-0">$265,200 <span class="fw-medium">4 Deals</span></p>
                     </BLink>
                 </BCard>
@@ -87,7 +87,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-1.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Managing sales team meeting</h6>
+                                    <h6 class="fs-13 mb-1">Managing sales team meeting</h6>
                                     <p class="text-muted mb-0">$87k - 01 Jan, 2022</p>
                                 </div>
                             </BLink>
@@ -136,9 +136,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -150,7 +150,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Airbnb React Development</h6>
+                                    <h6 class="fs-13 mb-1">Airbnb React Development</h6>
                                     <p class="text-muted mb-0">$20.3k - 24 Dec, 2021</p>
                                 </div>
                             </BLink>
@@ -199,9 +199,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -214,7 +214,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-3.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Discovery Capital</h6>
+                                    <h6 class="fs-13 mb-1">Discovery Capital</h6>
                                     <p class="text-muted mb-0">$124.3k - 29 Dec, 2021</p>
                                 </div>
                             </BLink>
@@ -263,9 +263,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -277,7 +277,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-4.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Airbnb React Development</h6>
+                                    <h6 class="fs-13 mb-1">Airbnb React Development</h6>
                                     <p class="text-muted mb-0">$33.6k - 24 Dec, 2021</p>
                                 </div>
                             </BLink>
@@ -326,9 +326,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -339,7 +339,7 @@ export default {
             <BCol>
                 <BCard no-body>
                     <BLink class="card-header bg-success-subtle" role="button" v-b-toggle.contactInitiated>
-                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-14">Contact Initiated</h5>
+                        <h5 class="card-title text-uppercase mb-1 fs-14">Contact Initiated</h5>
                         <p class="text-muted mb-0">$108,700 <span class="fw-medium">5 Deals</span></p>
                     </BLink>
                 </BCard>
@@ -352,7 +352,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-5.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Custom Mobile Apps</h6>
+                                    <h6 class="fs-13 mb-1">Custom Mobile Apps</h6>
                                     <p class="text-muted mb-0">$28.7k - 13 Dec, 2021</p>
                                 </div>
                             </BLink>
@@ -401,9 +401,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -415,7 +415,7 @@ export default {
                                     <img src="@/assets/images/brands/github.png" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Investment Deal for Zoetic Fashion</h6>
+                                    <h6 class="fs-13 mb-1">Investment Deal for Zoetic Fashion</h6>
                                     <p class="text-muted mb-0">$32.8k - 10 Oct, 2021</p>
                                 </div>
                             </BLink>
@@ -453,9 +453,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -467,7 +467,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-6.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Modern Design</h6>
+                                    <h6 class="fs-13 mb-1">Modern Design</h6>
                                     <p class="text-muted mb-0">$23k - 03 Oct, 2021</p>
                                 </div>
                             </BLink>
@@ -505,9 +505,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -519,7 +519,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-7.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Hotel Logo Design</h6>
+                                    <h6 class="fs-13 mb-1">Hotel Logo Design</h6>
                                     <p class="text-muted mb-0">$10.9k - 05 Jan, 2022</p>
                                 </div>
                             </BLink>
@@ -568,9 +568,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -583,7 +583,7 @@ export default {
                                         class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Managing Sales</h6>
+                                    <h6 class="fs-13 mb-1">Managing Sales</h6>
                                     <p class="text-muted mb-0">$13.3k - 04 Sep, 2021</p>
                                 </div>
                             </BLink>
@@ -632,9 +632,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -643,9 +643,9 @@ export default {
             </BCol>
 
             <BCol>
-                <BCard no-body class="overflow-hidden">
+                <BCard no-body>
                     <BLink class="card-header bg-warning-subtle" role="button" v-b-toggle.needsIdentified>
-                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-14">Needs Identified</h5>
+                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-15">Needs Identified</h5>
                         <p class="text-muted mb-0">$708,200 <span class="fw-medium">7 Deals</span></p>
                     </BLink>
                 </BCard>
@@ -657,7 +657,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-9.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Art Studio Design</h6>
+                                    <h6 class="fs-13 mb-1">Art Studio Design</h6>
                                     <p class="text-muted mb-0">$147.5k - 24 Sep, 2021</p>
                                 </div>
                             </BLink>
@@ -695,9 +695,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -709,7 +709,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-8.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Billing Page Bug</h6>
+                                    <h6 class="fs-13 mb-1">Billing Page Bug</h6>
                                     <p class="text-muted mb-0">$15.8k - 17 Dec, 2021</p>
                                 </div>
                             </BLink>
@@ -758,9 +758,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -773,7 +773,7 @@ export default {
                                         class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Food Selection Platform</h6>
+                                    <h6 class="fs-13 mb-1">Food Selection Platform</h6>
                                     <p class="text-muted mb-0">$72.5k - 04 Jan, 2022</p>
                                 </div>
                             </BLink>
@@ -822,9 +822,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -837,7 +837,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-1.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Skote React Development</h6>
+                                    <h6 class="fs-13 mb-1">Skote React Development</h6>
                                     <p class="text-muted mb-0">$89.8 - 21 Nov, 2021</p>
                                 </div>
                             </BLink>
@@ -886,9 +886,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -901,7 +901,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Velzon - Admin Dashboard</h6>
+                                    <h6 class="fs-13 mb-1">Velzon - Admin Dashboard</h6>
                                     <p class="text-muted mb-0">$126.7k - 30 Dec, 2021</p>
                                 </div>
                             </BLink>
@@ -950,9 +950,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -965,7 +965,7 @@ export default {
                                         class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Wood Elements Design</h6>
+                                    <h6 class="fs-13 mb-1">Wood Elements Design</h6>
                                     <p class="text-muted mb-0">$120.2k - 24 Nov, 2021</p>
                                 </div>
                             </BLink>
@@ -1014,9 +1014,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1029,7 +1029,7 @@ export default {
                                         class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">PayPal SEO audit</h6>
+                                    <h6 class="fs-13 mb-1">PayPal SEO audit</h6>
                                     <p class="text-muted mb-0">$135.7k - 23 Nov, 2021</p>
                                 </div>
                             </BLink>
@@ -1078,9 +1078,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1089,9 +1089,9 @@ export default {
             </BCol>
 
             <BCol>
-                <BCard no-body class="overflow-hidden">
+                <BCard no-body>
                     <BLink class="card-header bg-info-subtle" role="button" v-b-toggle.meetingArranged>
-                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-14">Meeting Arranged</h5>
+                        <h5 class="card-title text-uppercase mb-1 fs-14">Meeting Arranged</h5>
                         <p class="text-muted mb-0">$44,900 <span class="fw-medium">3 Deals</span></p>
                     </BLink>
                 </BCard>
@@ -1104,7 +1104,7 @@ export default {
                                         class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">SASS app workflow diagram</h6>
+                                    <h6 class="fs-13 mb-1">SASS app workflow diagram</h6>
                                     <p class="text-muted mb-0">$17.8k - 01 Jan, 2022</p>
                                 </div>
                             </BLink>
@@ -1153,9 +1153,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1167,7 +1167,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-3.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Uber new brand system</h6>
+                                    <h6 class="fs-13 mb-1">Uber new brand system</h6>
                                     <p class="text-muted mb-0">$24.5k - 22 Dec, 2021</p>
                                 </div>
                             </BLink>
@@ -1216,9 +1216,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1231,7 +1231,7 @@ export default {
                                         class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">TripAdvisor</h6>
+                                    <h6 class="fs-13 mb-1">TripAdvisor</h6>
                                     <p class="text-muted mb-0">$2.6k - 12 Dec, 2021</p>
                                 </div>
                             </BLink>
@@ -1280,9 +1280,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1291,9 +1291,9 @@ export default {
             </BCol>
 
             <BCol>
-                <BCard no-body class="overflow-hidden">
+                <BCard no-body>
                     <BLink class="card-header bg-secondary-subtle" role="button" v-b-toggle.offerAccepted>
-                        <h5 class="card-title text-uppercase fw-semibold mb-1 fs-14">Offer Accepted</h5>
+                        <h5 class="card-title text-uppercase mb-1 fs-14">Offer Accepted</h5>
                         <p class="text-muted mb-0">$819,300 <span class="fw-medium">8 Deals</span></p>
                     </BLink>
                 </BCard>
@@ -1306,7 +1306,7 @@ export default {
                                         class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Coupon Website</h6>
+                                    <h6 class="fs-13 mb-1">Coupon Website</h6>
                                     <p class="text-muted mb-0">$27.4k - 07 Jan, 2021</p>
                                 </div>
                             </BLink>
@@ -1355,9 +1355,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1370,7 +1370,7 @@ export default {
                                     <img src="@/assets/images/brands/slack.png" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Marketing Automation Demo</h6>
+                                    <h6 class="fs-13 mb-1">Marketing Automation Demo</h6>
                                     <p class="text-muted mb-0">$94.8 - 19 Nov, 2021</p>
                                 </div>
                             </BLink>
@@ -1419,9 +1419,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1433,7 +1433,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-4.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">New Email Design Templates</h6>
+                                    <h6 class="fs-13 mb-1">New Email Design Templates</h6>
                                     <p class="text-muted mb-0">$136.9k - 05 Jan, 2022</p>
                                 </div>
                             </BLink>
@@ -1490,7 +1490,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-7.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Create New Components</h6>
+                                    <h6 class="fs-13 mb-1">Create New Components</h6>
                                     <p class="text-muted mb-0">$45.9k - 26 Dec, 2021</p>
                                 </div>
                             </BLink>
@@ -1539,9 +1539,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1555,7 +1555,7 @@ export default {
                                         class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">New Test Tickets</h6>
+                                    <h6 class="fs-13 mb-1">New Test Tickets</h6>
                                     <p class="text-muted mb-0">$118k - 01 Jan, 2022</p>
                                 </div>
                             </BLink>
@@ -1604,9 +1604,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1619,7 +1619,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-6.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Recover Deleted Folder</h6>
+                                    <h6 class="fs-13 mb-1">Recover Deleted Folder</h6>
                                     <p class="text-muted mb-0">$87.3k - 03 Jan, 2022</p>
                                 </div>
                             </BLink>
@@ -1668,9 +1668,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1682,7 +1682,7 @@ export default {
                                     <img src="@/assets/images/brands/github.png" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Github SEO audit</h6>
+                                    <h6 class="fs-13 mb-1">Github SEO audit</h6>
                                     <p class="text-muted mb-0">$241.2k - 21 Sep, 2021</p>
                                 </div>
                             </BLink>
@@ -1731,9 +1731,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1745,7 +1745,7 @@ export default {
                                     <img src="@/assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded-circle" />
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <h6 class="fs-14 mb-1">Urban Modern Design</h6>
+                                    <h6 class="fs-13 mb-1">Urban Modern Design</h6>
                                     <p class="text-muted mb-0">$67.8k - 09 Oct, 2021</p>
                                 </div>
                             </BLink>
@@ -1794,9 +1794,9 @@ export default {
                                 </ul>
                             </BCardBody>
                             <BCardFooter class="hstack gap-2">
-                                <BButton variant="primary" size="sm" class="w-100"><i
+                                <BButton variant="warning" size="sm" class="w-100"><i
                                         class="ri-phone-line align-bottom me-1"></i> Call</BButton>
-                                <BButton variant="secondary" size="sm" class="w-100"><i
+                                <BButton variant="info" size="sm" class="w-100"><i
                                         class="ri-question-answer-line align-bottom me-1"></i> Message</BButton>
                             </BCardFooter>
                         </BCollapse>
@@ -1805,6 +1805,46 @@ export default {
             </BCol>
         </BRow>
 
+        <!-- <b-modal v-model="modalShow" body-class="p-0" header-class="bg-light p-3" hide-footer title="Create Deals"
+                class="v-modal-custom" centered>
+                <form>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="dealTitle" class="form-label">Deal Title</label>
+                            <input type="email" class="form-control" id="dealTitle" placeholder="Enter title">
+                        </div>
+                        <div class="mb-3">
+                            <label for="dealValue" class="form-label">Value (USD)</label>
+                            <input type="text" class="form-control" id="dealValue" placeholder="Enter value">
+                        </div>
+                        <div class="mb-3">
+                            <label for="dealOwner" class="form-label">Deals Owner</label>
+                            <input type="text" class="form-control" id="dealOwner" placeholder="Enter owner name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="dueDate" class="form-label">Due Date</label>
+                            <flat-pickr placeholder="Select date" v-model="date" :config="timeConfig"
+                                class="form-control flatpickr-input" id="adddate"></flat-pickr>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactNumber" class="form-label">Contact</label>
+                            <input type="text" class="form-control" id="contactNumber" placeholder="Enter contact number">
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactNumber" class="form-label">Description</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                placeholder="Enter description"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <BButton type="button" variant="light" @click="modalShow = false">Close
+                        </BButton>
+                        <BButton type="button" variant="success"><i class="ri-save-line align-bottom me-1"></i> Save
+                        </BButton>
+                    </div>
+                </b-form>
+            </b-modal> -->
+
         <BModal v-model="modalShow" body-class="" header-class="bg-light p-3" hide-footer title="Create Deals"
             class="v-modal-custom" centered>
             <b-form class="needs-validation" novalidate id="deals-form" onsubmit="return false">
@@ -1812,7 +1852,7 @@ export default {
                     <label for="deatType" class="form-label">Deals Type</label>
                     <select class="form-select" id="deatType" data-choices aria-label="Default select example" required>
                         <option value="" data-custom-properties="[object Object]">Select deals type</option>
-                        <option value="Lead Disovered">Lead Discovered</option>
+                        <option value="Lead Disovered">Lead Disovered</option>
                         <option value="Contact Initiated">Contact Initiated</option>
                         <option value="Need Identified">Need Identified</option>
                         <option value="Meeting Arranged">Meeting Arranged</option>
@@ -1878,7 +1918,7 @@ export default {
                 </div>
                 <div class="modal-footer v-modal-footer">
                     <BButton type="button" variant="light" id="close-modal" @click="modalShow = false"> Close </BButton>
-                    <BButton type="submit" variant="primary"><i class="ri-save-line align-bottom me-1"></i> Save </BButton>
+                    <BButton type="submit" variant="success"><i class="ri-save-line align-bottom me-1"></i> Save </BButton>
                 </div>
             </b-form>
         </BModal>

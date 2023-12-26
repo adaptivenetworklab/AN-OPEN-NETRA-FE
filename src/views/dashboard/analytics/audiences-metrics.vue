@@ -64,7 +64,7 @@ export default {
         grid: {
           show: false,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-light"]'),
+        colors: getChartColorsArray('["--vz-success", "--vz-light"]'),
         xaxis: {
           categories: [
             "Jan",
