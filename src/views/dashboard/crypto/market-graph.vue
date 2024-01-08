@@ -259,8 +259,8 @@ export default {
         plotOptions: {
           candlestick: {
             colors: {
-              upward: "#0AB39C",
-              downward: "#F06548",
+              upward: "#3cd188",
+              downward: "#f7666e",
             },
           },
         },

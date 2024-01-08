@@ -119,6 +119,181 @@ export default {
 </script>
 
 <template>
+  <div class="auth-page-wrapper auth-bg-cover py-5 d-flex justify-content-center align-items-center min-vh-100">
+      <div class="bg-overlay"></div>
+      <!-- <div class="shape">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1440 120">
+        <path d="M 0,36 C 144,53.6 432,123.2 720,124 C 1008,124.8 1296,56.8 1440,40L1440 140L0 140z"></path>
+        </svg>
+      </div> -->
+
+      <div class="auth-page-content overflow-hidden pt-lg-5">
+          <BContainer>
+              <BRow>
+                  <BCol lg="12">
+                      <BCard no-body class="overflow-hidden">
+                          <BRow class="g-0">
+                              <BCol lg="6">
+                                  <div class="p-lg-5 p-4 auth-one-bg align-items-center h-100"> 
+                                      <!-- <div class="bg-overlay"></div> -->
+                                      <div class="position-relative h-100 d-flex flex-column">
+                                          <div class="mb-4">
+                                              <router-link to="/" class="d-block">
+                                                  <img src="@/assets/images/netra-logo.png" alt="" width="135" height="30" class="center logosize">
+                                              </router-link>
+                                          </div>
+                                          <!-- <div class="mt-auto">
+                                              <div class="mb-3">
+                                                  <i class="ri-double-quotes-l display-4 text-success"></i>
+                                              </div>
+
+                                              <div id="qoutescarouselIndicators" class="carousel slide"
+                                                  data-bs-ride="carousel">
+                                                  <Swiper class=" text-center text-white-50 pb-5"
+                                                      :autoplay="{ delay: 3000, disableOnInteraction: false }"
+                                                      :loop="true" :modules="[Autoplay, Navigation, Pagination]"
+                                                      :pagination="{ clickable: true, el: '.swiper-pagination' }">
+                                                      <swiper-slide>
+                                                          <div class="active">
+                                                              <p class="fs-15 fst-italic">" Great! Clean code, clean
+                                                                  design, easy for customization. Thanks very much! "</p>
+                                                          </div>
+                                                      </swiper-slide>
+                                                      <swiper-slide>
+                                                          <div>
+                                                              <p class="fs-15 fst-italic">" The theme is really great with
+                                                                  an amazing customer support."</p>
+                                                          </div>
+                                                      </swiper-slide>
+                                                      <swiper-slide>
+                                                          <div>
+                                                              <p class="fs-15 fst-italic">" Great! Clean code, clean
+                                                                  design, easy for customization. Thanks very much! "</p>
+                                                          </div>
+                                                      </swiper-slide>
+                                                      <div class="swiper-pagination"></div>
+                                                  </Swiper> 
+                                              </div>
+                                          </div> -->
+                                      </div>
+                                  </div>
+                              </BCol>
+
+                              <BCol lg="6">
+                                  <div class="p-lg-5 p-4">
+                                      <div>
+                                          <h5 class="text-primary">Welcome Back !</h5>
+                                          <p class="text-muted">Sign in to continue to Open Netra.</p>
+                                      </div>
+
+                                      <div class="mt-4">
+                                          <b-alert v-model="authError" variant="danger" class="mt-3" dismissible>
+                                            {{ authError }}
+                                          </b-alert>
+
+                                          <form @submit.prevent="tryToLogIn">
+                                              <div class="mb-3">
+                                                  <label for="email" class="form-label">Email</label>
+                                                  <input type="email" class="form-control" id="email"
+                                                      placeholder="Enter email" v-model="email" />
+                                                  <div class="invalid-feedback">
+                                                    <span></span>
+                                                  </div>
+                                              </div>
+
+                                              <div class="mb-3">
+                                                  <div class="float-end">
+                                                      <router-link to="/forgot-password" class="text-muted">
+                                                          Forgot password?
+                                                      </router-link>
+                                                  </div>
+
+                                                  <label class="form-label" for="password-input">Password</label>
+                                                  <div class="position-relative auth-pass-inputgroup mb-3">
+                                                      <input type="password" v-model="password"
+                                                          class="form-control pe-5" placeholder="Enter password"
+                                                          id="password-input" />  
+                                                      <BButton variant="link"
+                                                          class="position-absolute end-0 top-0 text-decoration-none text-muted"
+                                                          type="button" id="password-addon">
+                                                          <i class="ri-eye-fill align-middle"></i>
+                                                      </BButton>
+                                                      <div class="invalid-feedback">
+                                                        <span></span>
+                                                      </div>
+                                                  </div>
+                                              </div>
+
+                                              <div class="form-check">
+                                                  <input class="form-check-input" type="checkbox" value=""
+                                                      id="auth-remember-check">
+                                                  <label class="form-check-label" for="auth-remember-check">Remember
+                                                      me</label>
+                                              </div>
+
+                                              <div class="mt-4">
+                                                  <BButton variant="success" class="w-100" type="submit" @click="signinapi" :disabled="processing">
+                                                    {{ processing ? "Please wait" : "Sign In" }}
+                                                  </BButton>
+                                              </div>
+
+                                              <!-- <div class="mt-4 text-center">
+                                                  <div class="signin-other-title">
+                                                      <h5 class="fs-13 mb-4 title">Sign In with</h5>
+                                                  </div>
+
+                                                  <div>
+                                                      <BButton type="button" variant="primary" class="btn-icon"><i
+                                                              class="ri-facebook-fill fs-16"></i></BButton>
+                                                      <BButton type="button" variant="danger" class="btn-icon ms-1"><i
+                                                              class="ri-google-fill fs-16"></i></BButton>
+                                                      <BButton type="button" variant="dark" class="btn-icon ms-1"><i
+                                                              class="ri-github-fill fs-16"></i></BButton>
+                                                      <BButton type="button" variant="info" class="btn-icon ms-1"><i
+                                                              class="ri-twitter-fill fs-16"></i></BButton>
+                                                  </div>
+                                              </div> -->
+
+                                          </form>
+                                      </div>
+
+                                      <!-- <div class="mt-5 text-center">
+                                          <p class="mb-0">Don't have an account ? <router-link to="/register"
+                                                  class="fw-semibold text-primary text-decoration-underline"> Signup
+                                              </router-link>
+                                          </p>
+                                      </div> -->
+                                  </div>
+                              </BCol>
+                          </BRow>
+                      </BCard>
+                  </BCol>
+              </BRow>
+          </BContainer>
+      </div>
+
+      <footer class="footer">
+          <BContainer>
+              <BRow>
+                  <BCol lg="12">
+                      <div class="text-center">
+                          <p class="mb-0">&copy; {{ new Date().getFullYear() }} Telecom Infra Project 
+                            <!-- <i class="mdi mdi-heart text-danger"></i> by Themesbrand -->
+                          </p>
+                      </div>
+                  </BCol>
+              </BRow>
+          </BContainer>
+      </footer>
+  </div>
+</template>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap');
+  
+</style>
+
+<!-- <template>
   <div class="auth-page-wrapper pt-5">
     <div class="auth-one-bg-position auth-one-bg" id="auth-particles">
       <div class="bg-overlay"></div>
@@ -257,4 +432,4 @@ export default {
       </BContainer>
     </footer>
   </div>
-</template>
+</template> -->

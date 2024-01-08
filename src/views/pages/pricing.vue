@@ -160,7 +160,7 @@ export default {
               </li>
             </ul>
             <div class="mt-3 pt-2">
-              <BLink href="javascript:void(0);" class="btn btn-success disabled w-100">Your Current Plan</BLink>
+              <BLink href="javascript:void(0);" class="btn btn-danger disabled w-100">Your Current Plan</BLink>
             </div>
           </BCardBody>
         </BCard>
@@ -246,7 +246,7 @@ export default {
               </li>
             </ul>
             <div class="mt-3 pt-2">
-              <BLink href="javascript:void(0);" class="btn btn-primary w-100">Change Plan</BLink>
+              <BLink href="javascript:void(0);" class="btn btn-info w-100">Change Plan</BLink>
             </div>
           </BCardBody>
         </BCard>
@@ -255,7 +255,7 @@ export default {
       <BCol xxl="3" lg="6">
         <BCard no-body class="pricing-box ribbon-box right">
           <BCardBody class="bg-light m-2 p-4">
-            <div class="ribbon-two ribbon-two-success"><span>Popular</span></div>
+            <div class="ribbon-two ribbon-two-danger"><span>Popular</span></div>
             <div class="d-flex align-items-center mb-3">
               <div class="flex-grow-1">
                 <h5 class="mb-0 fw-semibold">Enterprise</h5>
@@ -333,7 +333,7 @@ export default {
               </li>
             </ul>
             <div class="mt-3 pt-2">
-              <BLink href="javascript:void(0);" class="btn btn-primary w-100">Change Plan</BLink>
+              <BLink href="javascript:void(0);" class="btn btn-info w-100">Change Plan</BLink>
             </div>
           </BCardBody>
         </BCard>
@@ -418,7 +418,7 @@ export default {
               </li>
             </ul>
             <div class="mt-3 pt-2">
-              <BLink href="javascript:void(0);" class="btn btn-primary w-100">Change Plan</BLink>
+              <BLink href="javascript:void(0);" class="btn btn-info w-100">Change Plan</BLink>
             </div>
           </BCardBody>
         </BCard>
@@ -522,7 +522,7 @@ export default {
                   </ul>
                   <div class="mt-4">
                     <BLink href="javascript:void(0);" class="
-                        btn btn-soft-primary
+                        btn btn-soft-primary 
                         w-100
                         waves-effect waves-light
                       ">Sign up free</BLink>
@@ -534,7 +534,7 @@ export default {
           <BCol lg="4">
             <BCard no-body class="pricing-box ribbon-box right">
               <BCardBody class="p-4 m-2">
-                <div class="ribbon-two ribbon-two-success">
+                <div class="ribbon-two ribbon-two-danger">
                   <span>Popular</span>
                 </div>
                 <div>
@@ -724,7 +724,7 @@ export default {
                   </ul>
                   <div class="mt-4">
                     <BLink href="javascript:void(0);" class="
-                        btn btn-soft-primary
+                        btn btn-soft-primary 
                         w-100
                         waves-effect waves-light
                       ">Get started</BLink>
@@ -801,7 +801,7 @@ export default {
 
       <BCol lg="6">
         <BCard no-body class="pricing-box ribbon-box ribbon-fill text-center">
-          <div class="ribbon ribbon-success shadow-none">New</div>
+          <div class="ribbon ribbon-primary">New</div>
           <BRow class="g-0">
             <BCol lg="6">
               <BCardBody class="h-100">
@@ -852,7 +852,7 @@ export default {
 
       <BCol lg="6">
         <BCard no-body class="pricing-box ribbon-box ribbon-fill text-center">
-          <div class="ribbon ribbon-success shadow-none">New</div>
+          <div class="ribbon ribbon-primary">New</div>
           <BRow class="g-0">
             <BCol lg="6">
               <BCardBody class="h-100">
@@ -917,7 +917,7 @@ export default {
                 </div>
 
                 <div class="text-center plan-btn mt-2">
-                  <BLink href="javascript:void(0);" class="btn btn-primary w-sm waves-effect waves-light">Sign up
+                  <BLink href="javascript:void(0);" class="btn btn-primary  w-sm waves-effect waves-light">Sign up
                   </BLink>
                 </div>
               </BCardBody>

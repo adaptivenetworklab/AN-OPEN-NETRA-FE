@@ -148,7 +148,7 @@ export default {
                       </BRow>
 
                       <div class="d-flex align-items-start gap-3 mt-3">
-                        <BButton variant="primary" type="button" class="btn-label right ms-auto nexttab"
+                        <BButton variant="secondary" type="button" class="btn-label right ms-auto nexttab"
                           data-nexttab="pills-bill-address-tab">
                           <i class="
                             ri-truck-line
@@ -190,7 +190,7 @@ export default {
                           <h5 class="fs-14 mb-0">Saved Address</h5>
                         </div>
                         <div class="flex-shrink-0">
-                          <BButton type="button" variant="success" size="sm" class="mb-3">
+                          <BButton type="button" variant="info" size="sm" class="mb-3">
                             Add Address
                           </BButton>
                         </div>
@@ -347,7 +347,7 @@ export default {
                           me-2
                         "></i>Back to Personal Info
                       </BButton>
-                      <BButton type="button" variant="primary" class="btn-label right ms-auto nexttab"
+                      <BButton type="button" variant="secondary" class="btn-label right ms-auto nexttab"
                         data-nexttab="pills-payment-tab">
                         <i class="
                           ri-bank-card-line
@@ -467,7 +467,7 @@ export default {
                           me-2
                         "></i>Back to Shipping
                       </BButton>
-                      <BButton type="button" variant="primary" class="btn-label right ms-auto nexttab"
+                      <BButton type="button" variant="secondary" class="btn-label right ms-auto nexttab"
                         data-nexttab="pills-finish-tab">
                         <i class="
                           ri-shopping-basket-line
@@ -507,10 +507,10 @@ export default {
                         of your order.
                       </p>
 
-                      <h3 class="fw-semibold">
+                      <h5 class="fw-semibold">
                         Order ID:
                         <router-link to="/ecommerce/order-details" class="text-decoration-underline">VZ2451</router-link>
-                      </h3>
+                      </h5>
                     </div>
                   </BTab>
                 </BTabs>

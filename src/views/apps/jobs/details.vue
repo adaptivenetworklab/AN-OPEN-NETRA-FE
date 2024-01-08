@@ -27,7 +27,7 @@ export default {
                     </BCol>
                     <BCol md>
                       <div>
-                        <h4 class="fw-bold mb-3">Product Designer</h4>
+                        <h4 class="fw-bold">Product Designer</h4>
                         <div class="hstack gap-3 flex-wrap">
                           <div><i class="ri-building-line align-bottom me-1"></i> Themesbrand</div>
                           <div class="vr"></div>
@@ -165,7 +165,7 @@ export default {
           <BCol xl="4">
             <BCard no-body>
               <BCardBody>
-                <BButton type="button" variant="soft-danger" class="btn-icon float-end" data-bs-toggle="button"
+                <BButton type="button" variant="soft-primary" class="btn-icon float-end" data-bs-toggle="button"
                   aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></BButton>
                 <div class="avatar-sm mb-4">
                   <div class="avatar-title bg-secondary-subtle rounded">
@@ -206,7 +206,7 @@ export default {
           <BCol xl="4">
             <BCard no-body>
               <BCardBody>
-                <BButton type="button" variant="soft-danger" class="btn-icon float-end" data-bs-toggle="button"
+                <BButton type="button" variant="soft-primary" class="btn-icon float-end" data-bs-toggle="button"
                   aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></BButton>
                 <div class="avatar-sm mb-4">
                   <div class="avatar-title bg-info-subtle rounded">
@@ -246,7 +246,7 @@ export default {
           <BCol xl="4">
             <BCard no-body>
               <BCardBody>
-                <BButton type="button" variant="soft-danger" class="btn-icon float-end" data-bs-toggle="button"
+                <BButton type="button" variant="soft-primary" class="btn-icon float-end" data-bs-toggle="button"
                   aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></BButton>
                 <div class="avatar-sm mb-4">
                   <div class="avatar-title bg-warning-subtle rounded">
@@ -286,7 +286,7 @@ export default {
           <BCol xl="4">
             <BCard no-body>
               <BCardBody>
-                <BButton type="button" variant="soft-danger" class="btn-icon float-end" data-bs-toggle="button"
+                <BButton type="button" variant="soft-primary" class="btn-icon float-end" data-bs-toggle="button"
                   aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></BButton>
                 <div class="avatar-sm mb-4">
                   <div class="avatar-title bg-secondary-subtle rounded">
@@ -327,7 +327,7 @@ export default {
           <BCol xl="4">
             <BCard no-body>
               <BCardBody>
-                <BButton type="button" variant="soft-danger" class="btn-icon float-end" data-bs-toggle="button"
+                <BButton type="button" variant="soft-primary" class="btn-icon float-end" data-bs-toggle="button"
                   aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></BButton>
                 <div class="avatar-sm mb-4">
                   <div class="avatar-title bg-info-subtle rounded">
@@ -367,7 +367,7 @@ export default {
           <BCol xl="4">
             <BCard no-body>
               <BCardBody>
-                <BButton type="button" variant="soft-danger" class="btn-icon float-end" data-bs-toggle="button"
+                <BButton type="button" variant="soft-primary" class="btn-icon float-end" data-bs-toggle="button"
                   aria-pressed="true"><i class="mdi mdi-cards-heart fs-16"></i></BButton>
                 <div class="avatar-sm mb-4">
                   <div class="avatar-title bg-warning-subtle rounded">

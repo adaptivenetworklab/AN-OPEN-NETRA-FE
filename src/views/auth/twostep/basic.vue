@@ -105,7 +105,7 @@ export default {
                   </form>
 
                   <div class="mt-3">
-                    <BButton type="button" variant="success" class="w-100">Confirm</BButton>
+                    <BButton type="button" variant="secondary" class="w-100">Confirm</BButton>
                   </div>
                 </div>
               </BCardBody>

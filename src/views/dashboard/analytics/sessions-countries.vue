@@ -27,7 +27,7 @@ export default {
           },
         },
         colors: getChartColorsArray(
-          '["--vz-primary", "--vz-primary", "--vz-primary", "--vz-primary", "--vz-primary-rgb, 0.45", "--vz-primary", "--vz-primary", "--vz-primary", "--vz-primary", "--vz-primary"]'
+          '["--vz-primary", "--vz-primary", "--vz-primary", "--vz-primary", "--vz-secondary", "--vz-primary", "--vz-primary", "--vz-primary", "--vz-primary", "--vz-primary"]'
         ),
         dataLabels: {
           enabled: true,
@@ -71,7 +71,7 @@ export default {
       <BCardTitle class="mb-0 flex-grow-1">Sessions by Countries</BCardTitle>
       <div class="hstack gap-1">
         <BButton type="button" variant="soft-secondary" size="sm">ALL</BButton>
-        <BButton type="button" variant="soft-primary" size="sm">1M</BButton>
+        <BButton type="button" variant="soft-info" size="sm">1M</BButton>
         <BButton type="button" variant="soft-secondary" size="sm">6M</BButton>
       </div>
     </BCardHeader>

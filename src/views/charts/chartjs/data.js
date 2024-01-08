@@ -40,8 +40,8 @@ const line = {
         label: "Monthly Earnings",
         fill: true,
         lineTension: 0.5,
-        backgroundColor: getChartColorsArray('["--vz-info-rgb, 0.2"]'),
-        borderColor: getChartColorsArray('["--vz-info"]'),
+        backgroundColor: getChartColorsArray('["--vz-success-rgb, 0.2"]'),
+        borderColor: getChartColorsArray('["--vz-success"]'),
         borderCapStyle: "butt",
         borderDash: [],
         borderDashOffset: 0.0,
@@ -94,8 +94,8 @@ const pie = {
     labels: ["Desktops", "Tablets"],
     datasets: [{
       data: [300, 180],
-      backgroundColor: getChartColorsArray('["--vz-primary", "--vz-light"]'),
-      hoverBackgroundColor: getChartColorsArray('["--vz-primary", "--vz-light"]'),
+      backgroundColor: getChartColorsArray('["--vz-success", "--vz-light"]'),
+      hoverBackgroundColor: getChartColorsArray('["--vz-success", "--vz-light"]'),
       hoverBorderColor: "#fff",
     }, ],
   },
@@ -138,12 +138,12 @@ const radar = {
     ],
     datasets: [{
         label: 'Desktops',
-        backgroundColor: getChartColorsArray('["--vz-info-rgb, 0.2"]'),
-        borderColor: getChartColorsArray('["--vz-info"]'),
-        pointBackgroundColor: getChartColorsArray('["--vz-info"]'),
+        backgroundColor: getChartColorsArray('["--vz-success-rgb, 0.2"]'),
+        borderColor: getChartColorsArray('["--vz-success"]'),
+        pointBackgroundColor: getChartColorsArray('["--vz-success"]'),
         pointBorderColor: '#fff',
         pointHoverBackgroundColor: '#fff',
-        pointHoverBorderColor: getChartColorsArray('["--vz-info"]'),
+        pointHoverBorderColor: getChartColorsArray('["--vz-success"]'),
         data: [65, 59, 90, 81, 56, 55, 40],
       },
       {
@@ -181,7 +181,7 @@ const bar = {
     datasets: [{
       barPercentage: 0.4,
       label: "Sales Analytics",
-      backgroundColor: getChartColorsArray('["--vz-primary"]'),
+      backgroundColor: getChartColorsArray('["--vz-primary-rgb, 0.8"]'),
       borderColor: getChartColorsArray('["--vz-primary-rgb, 0.9"]'),
       borderWidth: 1,
       hoverBackgroundColor: getChartColorsArray('["--vz-primary-rgb, 0.9"]'),
@@ -222,7 +222,7 @@ const PolarArea = {
     labels: ["Series 1", "Series 2", "Series 3", "Series 4"],
     datasets: [{
       data: [11, 16, 7, 18],
-      backgroundColor: getChartColorsArray('["--vz-info", "--vz-success", "--vz-light", "--vz-primary"]'),
+      backgroundColor: ["#f46a6a", "#34c38f", "#f1b44c", "#687cfe"],
       label: "My dataset", // for legend
       hoverBorderColor: "#fff",
     }, ],

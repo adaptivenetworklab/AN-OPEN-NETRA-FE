@@ -20,7 +20,7 @@ export default {
                                     <p class="text-muted mb-4 fs-14">We can't show you this images because you aren't
                                         connected to the internet. When you’re back online refresh the page or hit the
                                         button below</p>
-                                    <BButton variant="success" class="btn-border"
+                                    <BButton variant="secondary" class="btn-border"
                                         onClick="window.location.href=window.location.href"><i
                                             class="ri-refresh-line align-bottom"></i> Refresh</BButton>
                                 </div>

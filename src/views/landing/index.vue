@@ -126,25 +126,25 @@ export default {
                 <BCollapse class="navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
                         <li class="nav-item">
-                            <a class="nav-link fs-15" to="#hero" @click.prevent="scrollToSection('hero')">Home</a>
+                            <a class="nav-link" href="#hero" @click.prevent="scrollToSection('hero')">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15" to="#services" @click.prevent="scrollToSection('services')">Services</a>
+                            <a class="nav-link" href="#services" @click.prevent="scrollToSection('services')">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15" to="#features" @click.prevent="scrollToSection('features')">Features</a>
+                            <a class="nav-link" href="#features" @click.prevent="scrollToSection('features')">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15" to="#plans" @click.prevent="scrollToSection('plans')">Plans</a>
+                            <a class="nav-link" href="#plans" @click.prevent="scrollToSection('plans')">Plans</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15" to="#reviews" @click.prevent="scrollToSection('reviews')">Reviews</a>
+                            <a class="nav-link" href="#reviews" @click.prevent="scrollToSection('reviews')">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15" to="#team" @click.prevent="scrollToSection('team')">Team</a>
+                            <a class="nav-link" href="#team" @click.prevent="scrollToSection('team')">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15" to="#contact" @click.prevent="scrollToSection('contact')">Contact</a>
+                            <a class="nav-link" href="#contact" @click.prevent="scrollToSection('contact')">Contact</a>
                         </li>
                     </ul>
 
@@ -165,7 +165,7 @@ export default {
                     <BCol lg="8" sm="10">
                         <div class="text-center mt-lg-5 pt-5">
                             <h1 class="display-6 fw-semibold mb-3 lh-base">The better way to manage your website with
-                                <span class="text-success">Velzon </span>
+                                <span class="text-secondary">Velzon </span>
                             </h1>
                             <p class="lead text-muted lh-base">Velzon is a fully responsive, multipurpose and premium
                                 Bootstrap 5 Admin & Dashboard Template built in multiple frameworks.</p>
@@ -173,7 +173,7 @@ export default {
                             <div class="d-flex gap-2 justify-content-center mt-4">
                                 <router-link to="/auth/signin-basic" class="btn btn-primary">Get Started <i
                                         class="ri-arrow-right-line align-middle ms-1"></i></router-link>
-                                <router-link to="/pages/pricing" class="btn btn-danger">View Plans <i
+                                <router-link to="/pages/pricing" class="btn btn-soft-secondary">View Plans <i
                                         class="ri-eye-line align-middle ms-1"></i></router-link>
                             </div>
                         </div>
@@ -307,8 +307,8 @@ export default {
                                 <p class="text-muted my-3 ff-secondary">The creative design includes designs that are
                                     unique, effective and memorable.</p>
                                 <div>
-                                    <router-link to="#" class="fs-13 fw-medium">Learn More <i
-                                            class="ri-arrow-right-s-line align-bottom"></i></router-link>
+                                    <BLink href="#" class="fs-13 fw-medium">Learn More <i
+                                            class="ri-arrow-right-s-line align-bottom"></i></BLink>
                                 </div>
                             </div>
                         </div>
@@ -327,8 +327,8 @@ export default {
                                 <p class="text-muted my-3 ff-secondary">The collection of rules and guidelines which
                                     designers use to communicate with users through appealing.</p>
                                 <div>
-                                    <router-link to="#" class="fs-13 fw-medium">Learn More <i
-                                            class="ri-arrow-right-s-line align-bottom"></i></router-link>
+                                    <BLink href="#" class="fs-13 fw-medium">Learn More <i
+                                            class="ri-arrow-right-s-line align-bottom"></i></BLink>
                                 </div>
                             </div>
                         </div>
@@ -347,8 +347,8 @@ export default {
                                 <p class="text-muted my-3 ff-secondary">Business development firm that provides
                                     strategic planning, market research services and project.</p>
                                 <div>
-                                    <router-link to="#" class="fs-13 fw-medium">Learn More <i
-                                            class="ri-arrow-right-s-line align-bottom"></i></router-link>
+                                    <BLink href="#" class="fs-13 fw-medium">Learn More <i
+                                            class="ri-arrow-right-s-line align-bottom"></i></BLink>
                                 </div>
                             </div>
                         </div>
@@ -367,8 +367,8 @@ export default {
                                 <p class="text-muted my-3 ff-secondary">Awesome Support is the most versatile and
                                     feature-rich support plugin for all version.</p>
                                 <div>
-                                    <router-link to="#" class="fs-13 fw-medium">Learn More <i
-                                            class="ri-arrow-right-s-line align-bottom"></i></router-link>
+                                    <BLink href="#" class="fs-13 fw-medium">Learn More <i
+                                            class="ri-arrow-right-s-line align-bottom"></i></BLink>
                                 </div>
                             </div>
                         </div>
@@ -387,8 +387,8 @@ export default {
                                 <p class="text-muted my-3 ff-secondary">You usually get a broad range of options to play
                                     with. This enables you to use a single theme across multiple.</p>
                                 <div>
-                                    <router-link to="#" class="fs-13 fw-medium">Learn More <i
-                                            class="ri-arrow-right-s-line align-bottom"></i></router-link>
+                                    <BLink href="#" class="fs-13 fw-medium">Learn More <i
+                                            class="ri-arrow-right-s-line align-bottom"></i></BLink>
                                 </div>
                             </div>
                         </div>
@@ -407,8 +407,8 @@ export default {
                                 <p class="text-muted my-3 ff-secondary">Personalise your own website, no matter what
                                     theme and what customization options.</p>
                                 <div>
-                                    <router-link to="#" class="fs-13 fw-medium">Learn More <i
-                                            class="ri-arrow-right-s-line align-bottom"></i></router-link>
+                                    <BLink href="#" class="fs-13 fw-medium">Learn More <i
+                                            class="ri-arrow-right-s-line align-bottom"></i></BLink>
                                 </div>
                             </div>
                         </div>
@@ -428,8 +428,8 @@ export default {
                                 <p class="text-muted my-3 ff-secondary">Responsive design is a graphic user interface
                                     (GUI) design approach used to create content.</p>
                                 <div>
-                                    <router-link to="#" class="fs-13 fw-medium">Learn More <i
-                                            class="ri-arrow-right-s-line align-bottom"></i></router-link>
+                                    <BLink href="#" class="fs-13 fw-medium">Learn More <i
+                                            class="ri-arrow-right-s-line align-bottom"></i></BLink>
                                 </div>
                             </div>
                         </div>
@@ -448,8 +448,8 @@ export default {
                                 <p class="text-muted my-3 ff-secondary">Google Fonts is a collection of 915 fonts, all
                                     available to use for free on your website.</p>
                                 <div>
-                                    <router-link to="#" class="fs-13 fw-medium">Learn More <i
-                                            class="ri-arrow-right-s-line align-bottom"></i></router-link>
+                                    <BLink href="#" class="fs-13 fw-medium">Learn More <i
+                                            class="ri-arrow-right-s-line align-bottom"></i></BLink>
                                 </div>
                             </div>
                         </div>
@@ -468,8 +468,8 @@ export default {
                                 <p class="text-muted my-3 ff-secondary">An industrial specialist works with industrial
                                     operations to ensure that manufacturing facilities work.</p>
                                 <div>
-                                    <router-link to="#" class="fs-13 fw-medium">Learn More <i
-                                            class="ri-arrow-right-s-line align-bottom"></i></router-link>
+                                    <BLink href="#" class="fs-13 fw-medium">Learn More <i
+                                            class="ri-arrow-right-s-line align-bottom"></i></BLink>
                                 </div>
                             </div>
                         </div>
@@ -539,9 +539,9 @@ export default {
                     </BCol>
                     <BCol sm="auto">
                         <div>
-                            <router-link to="https://1.envato.market/velzon-admin" target="_blank"
-                                class="btn bg-gradient btn-danger"><i class="ri-shopping-cart-2-line align-middle me-1"></i>
-                                Buy Now</router-link>
+                            <BLink href="https://1.envato.market/velzon-admin" target="_blank"
+                                class="btn bg-gradient btn-secondary"><i class="ri-shopping-cart-2-line align-middle me-1"></i>
+                                Buy Now</BLink>
                         </div>
                     </BCol>
                 </BRow>
@@ -554,7 +554,7 @@ export default {
                 <BRow class="align-items-center gy-4">
                     <BCol lg="6" order="2" order-lg="1">
                         <div class="text-muted">
-                            <h5 class="fs-12 text-uppercase text-success">Design</h5>
+                            <h5 class="fs-12 text-uppercase text-secondary">Design</h5>
                             <h4 class="mb-3">Well Designed Dashboards</h4>
                             <p class="mb-4 ff-secondary">Quality Dashboards (QD) is a condition-specific, actionable
                                 web-based application for quality reporting and population
@@ -652,7 +652,7 @@ export default {
                     </BCol>
                     <BCol lg="6">
                         <div class="text-muted ps-lg-5">
-                            <h5 class="fs-12 text-uppercase text-success">structure</h5>
+                            <h5 class="fs-12 text-uppercase text-secondary">structure</h5>
                             <h4 class="mb-3">Well Documented</h4>
                             <p class="mb-4">used to describe something that is known about or known to be true because
                                 there are many documents that describe it,
@@ -742,7 +742,7 @@ export default {
                                         <p class="text-muted mb-0">For Startup</p>
                                     </div>
                                     <div class="avatar-sm">
-                                        <div class="avatar-title bg-light rounded-circle text-primary">
+                                        <div class="avatar-title bg-light rounded-circle text-secondary">
                                             <i class="ri-book-mark-line fs-20"></i>
                                         </div>
                                     </div>
@@ -831,8 +831,8 @@ export default {
                                         </li>
                                     </ul>
                                     <div class="mt-4">
-                                        <router-link to="javascript:void(0);" class="btn btn-soft-success w-100">Get
-                                            Started</router-link>
+                                        <BLink href="javascript:void(0);" class="btn btn-soft-primary w-100">Get
+                                            Started</BLink>
                                     </div>
                                 </div>
                             </BCardBody>
@@ -848,7 +848,7 @@ export default {
                                         <p class="text-muted mb-0">Professional plans</p>
                                     </div>
                                     <div class="avatar-sm">
-                                        <div class="avatar-title bg-light rounded-circle text-primary">
+                                        <div class="avatar-title bg-light rounded-circle text-secondary">
                                             <i class="ri-medal-fill fs-20"></i>
                                         </div>
                                     </div>
@@ -937,8 +937,8 @@ export default {
                                         </li>
                                     </ul>
                                     <div class="mt-4">
-                                        <router-link to="javascript:void(0);" class="btn btn-soft-success w-100">Get
-                                            Started</router-link>
+                                        <BLink href="javascript:void(0);" class="btn btn-soft-primary w-100">Get
+                                            Started</BLink>
                                     </div>
                                 </div>
                             </BCardBody>
@@ -953,7 +953,7 @@ export default {
                                         <p class="text-muted mb-0">Enterprise Businesses</p>
                                     </div>
                                     <div class="avatar-sm">
-                                        <div class="avatar-title bg-light rounded-circle text-primary">
+                                        <div class="avatar-title bg-light rounded-circle text-secondary">
                                             <i class="ri-stack-fill fs-20"></i>
                                         </div>
                                     </div>
@@ -1042,8 +1042,8 @@ export default {
                                         </li>
                                     </ul>
                                     <div class="mt-4">
-                                        <router-link to="javascript:void(0);" class="btn btn-soft-success w-100">Get
-                                            Started</router-link>
+                                        <BLink href="javascript:void(0);" class="btn btn-soft-primary w-100">Get
+                                            Started</BLink>
                                     </div>
                                 </div>
                             </BCardBody>
@@ -1068,7 +1068,7 @@ export default {
                                 <BButton type="button" pill variant="primary" class="btn-label"><i
                                         class="ri-mail-line label-icon align-middle rounded-pill fs-16 me-2"></i> Email
                                     Us</BButton>
-                                <BButton type="button" pill variant="info" class="btn-label"><i
+                                <BButton type="button" pill variant="secondary" class="btn-label"><i
                                         class="ri-twitter-line label-icon align-middle rounded-pill fs-16 me-2"></i>
                                     Send Us Tweet</BButton>
                             </div>
@@ -1186,9 +1186,9 @@ export default {
                     <BCol lg="10">
                         <div class="text-center">
                             <div>
-                                <i class="ri-double-quotes-l text-success display-3"></i>
+                                <i class="ri-double-quotes-l text-secondary display-3"></i>
                             </div>
-                            <h4 class="text-white mb-5"><span class="text-success">19k</span>+ Satisfied clients</h4>
+                            <h4 class="text-white mb-5"><span class="text-secondary">19k</span>+ Satisfied clients</h4>
 
                             <div class="client-review-swiper rounded">
                                 <swiper class="navigation-swiper rounded" :loop="true"
@@ -1399,7 +1399,7 @@ export default {
                                 <div class="avatar-xl mx-auto mb-4 position-relative">
                                     <img src="@/assets/images/users/avatar-2.jpg" alt="" class="img-fluid rounded-circle">
                                     <router-link to="/mailbox"
-                                        class="btn btn-success btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
+                                        class="btn btn-secondary btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
                                         <div class="avatar-title bg-transparent">
                                             <i class="ri-mail-fill align-bottom"></i>
                                         </div>
@@ -1418,7 +1418,7 @@ export default {
                                 <div class="avatar-xl mx-auto mb-4 position-relative">
                                     <img src="@/assets/images/users/avatar-10.jpg" alt="" class="img-fluid rounded-circle">
                                     <router-link to="/mailbox"
-                                        class="btn btn-success btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
+                                        class="btn btn-secondary btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
                                         <div class="avatar-title bg-transparent">
                                             <i class="ri-mail-fill align-bottom"></i>
                                         </div>
@@ -1437,7 +1437,7 @@ export default {
                                 <div class="avatar-xl mx-auto mb-4 position-relative">
                                     <img src="@/assets/images/users/avatar-3.jpg" alt="" class="img-fluid rounded-circle">
                                     <router-link to="/mailbox"
-                                        class="btn btn-success btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
+                                        class="btn btn-secondary btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
                                         <div class="avatar-title bg-transparent">
                                             <i class="ri-mail-fill align-bottom"></i>
                                         </div>
@@ -1456,7 +1456,7 @@ export default {
                                 <div class="avatar-xl mx-auto mb-4 position-relative">
                                     <img src="@/assets/images/users/avatar-8.jpg" alt="" class="img-fluid rounded-circle">
                                     <router-link to="/mailbox"
-                                        class="btn btn-success btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
+                                        class="btn btn-secondary btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
                                         <div class="avatar-title bg-transparent">
                                             <i class="ri-mail-fill align-bottom"></i>
                                         </div>
@@ -1477,7 +1477,7 @@ export default {
                                 <div class="avatar-xl mx-auto mb-4 position-relative">
                                     <img src="@/assets/images/users/avatar-5.jpg" alt="" class="img-fluid rounded-circle">
                                     <router-link to="/mailbox"
-                                        class="btn btn-success btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
+                                        class="btn btn-secondary btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
                                         <div class="avatar-title bg-transparent">
                                             <i class="ri-mail-fill align-bottom"></i>
                                         </div>
@@ -1496,7 +1496,7 @@ export default {
                                 <div class="avatar-xl mx-auto mb-4 position-relative">
                                     <img src="@/assets/images/users/avatar-4.jpg" alt="" class="img-fluid rounded-circle">
                                     <router-link to="/mailbox"
-                                        class="btn btn-success btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
+                                        class="btn btn-secondary btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
                                         <div class="avatar-title bg-transparent">
                                             <i class="ri-mail-fill align-bottom"></i>
                                         </div>
@@ -1515,7 +1515,7 @@ export default {
                                 <div class="avatar-xl mx-auto mb-4 position-relative">
                                     <img src="@/assets/images/users/avatar-6.jpg" alt="" class="img-fluid rounded-circle">
                                     <router-link to="/mailbox"
-                                        class="btn btn-success btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
+                                        class="btn btn-secondary btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
                                         <div class="avatar-title bg-transparent">
                                             <i class="ri-mail-fill align-bottom"></i>
                                         </div>
@@ -1535,7 +1535,7 @@ export default {
                                 <div class="avatar-xl mx-auto mb-4 position-relative">
                                     <img src="@/assets/images/users/avatar-7.jpg" alt="" class="img-fluid rounded-circle">
                                     <router-link to="/mailbox"
-                                        class="btn btn-success btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
+                                        class="btn btn-secondary btn-sm position-absolute bottom-0 end-0 rounded-circle avatar-xs">
                                         <div class="avatar-title bg-transparent">
                                             <i class="ri-mail-fill align-bottom"></i>
                                         </div>
@@ -1653,9 +1653,9 @@ export default {
                     </BCol>
                     <BCol sm="auto">
                         <div>
-                            <router-link to="https://1.envato.market/velzon-admin" target="_blank"
+                            <BLink href="https://1.envato.market/velzon-admin" target="_blank"
                                 class="btn bg-gradient btn-danger"><i class="ri-shopping-cart-2-line align-middle me-1"></i>
-                                Buy Now</router-link>
+                                Buy Now</BLink>
                         </div>
                     </BCol>
                 </BRow>
@@ -1684,7 +1684,7 @@ export default {
                             <BCol sm="4" class="mt-4">
                                 <h5 class="text-white mb-0">Company</h5>
                                 <div class="text-muted mt-3">
-                                    <ul class="list-unstyled ff-secondary footer-list fs-14">
+                                    <ul class="list-unstyled ff-secondary footer-list">
                                         <li>
                                             <router-link to="/pages/profile">About US</router-link>
                                         </li>
@@ -1703,7 +1703,7 @@ export default {
                             <BCol sm="4" class="mt-4">
                                 <h5 class="text-white mb-0">Apps Pages</h5>
                                 <div class="text-muted mt-3">
-                                    <ul class="list-unstyled ff-secondary footer-list fs-14">
+                                    <ul class="list-unstyled ff-secondary footer-list">
                                         <li>
                                             <router-link to="/calendar">Calendar</router-link>
                                         </li>
@@ -1725,7 +1725,7 @@ export default {
                             <BCol sm="4" class="mt-4">
                                 <h5 class="text-white mb-0">Support</h5>
                                 <div class="text-muted mt-3">
-                                    <ul class="list-unstyled ff-secondary footer-list fs-14">
+                                    <ul class="list-unstyled ff-secondary footer-list">
                                         <li>
                                             <router-link to="/pages/faqs">FAQ's</router-link>
                                         </li>
@@ -1752,39 +1752,39 @@ export default {
                         <div class="text-sm-end mt-3 mt-sm-0">
                             <ul class="list-inline mb-0 footer-social-link">
                                 <li class="list-inline-item">
-                                    <router-link to="javascript: void(0);" class="avatar-xs d-block">
+                                    <BLink href="javascript: void(0);" class="avatar-xs d-block">
                                         <div class="avatar-title rounded-circle">
                                             <i class="ri-facebook-fill"></i>
                                         </div>
-                                    </router-link>
+                                    </BLink>
                                 </li>
                                 <li class="list-inline-item">
-                                    <router-link to="javascript: void(0);" class="avatar-xs d-block">
+                                    <BLink href="javascript: void(0);" class="avatar-xs d-block">
                                         <div class="avatar-title rounded-circle">
                                             <i class="ri-github-fill"></i>
                                         </div>
-                                    </router-link>
+                                    </BLink>
                                 </li>
                                 <li class="list-inline-item">
-                                    <router-link to="javascript: void(0);" class="avatar-xs d-block">
+                                    <BLink href="javascript: void(0);" class="avatar-xs d-block">
                                         <div class="avatar-title rounded-circle">
                                             <i class="ri-linkedin-fill"></i>
                                         </div>
-                                    </router-link>
+                                    </BLink>
                                 </li>
                                 <li class="list-inline-item">
-                                    <router-link to="javascript: void(0);" class="avatar-xs d-block">
+                                    <BLink href="javascript: void(0);" class="avatar-xs d-block">
                                         <div class="avatar-title rounded-circle">
                                             <i class="ri-google-fill"></i>
                                         </div>
-                                    </router-link>
+                                    </BLink>
                                 </li>
                                 <li class="list-inline-item">
-                                    <router-link to="javascript: void(0);" class="avatar-xs d-block">
+                                    <BLink href="javascript: void(0);" class="avatar-xs d-block">
                                         <div class="avatar-title rounded-circle">
                                             <i class="ri-dribbble-line"></i>
                                         </div>
-                                    </router-link>
+                                    </BLink>
                                 </li>
                             </ul>
                         </div>
@@ -1792,7 +1792,7 @@ export default {
                 </BRow>
             </BContainer>
         </footer>
-        <BButton variant="danger" @click="topFunction" class="btn-icon landing-back-top" id="back-to-top">
+        <BButton variant="danger" @click="topFunction" class="btn-icon" id="back-to-top">
             <i class="ri-arrow-up-line"></i>
         </BButton>
     </div>

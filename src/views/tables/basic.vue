@@ -37,46 +37,50 @@ export default {
                                     <tbody>
                                         <tr>
                                             <th scope="row">
-                                                <BLink href="#" class="fw-medium">#VZ2110</BLink>
+                                                <BLink  href="#" class="fw-medium">#VZ2110</BLink >
                                             </th>
                                             <td>Bobby Davis</td>
                                             <td>October 15, 2021</td>
                                             <td>$2,300</td>
                                             <td>
-                                                <BLink href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></BLink>
+                                                <BLink  href="javascript:void(0);" class="link-success">View More <i
+                                                        class="ri-arrow-right-line align-middle"></i></BLink >
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row">
-                                                <BLink href="#" class="fw-medium">#VZ2109</BLink>
+                                                <BLink  href="#" class="fw-medium">#VZ2109</BLink >
                                             </th>
                                             <td>Christopher Neal</td>
                                             <td>October 7, 2021</td>
                                             <td>$5,500</td>
                                             <td>
-                                                <BLink href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></BLink>
+                                                <BLink  href="javascript:void(0);" class="link-success">View More <i
+                                                        class="ri-arrow-right-line align-middle"></i></BLink >
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row">
-                                                <BLink href="#" class="fw-medium">#VZ2108</BLink>
+                                                <BLink  href="#" class="fw-medium">#VZ2108</BLink >
                                             </th>
                                             <td>Monkey Karry</td>
                                             <td>October 5, 2021</td>
                                             <td>$2,420</td>
                                             <td>
-                                                <BLink href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></BLink>
+                                                <BLink  href="javascript:void(0);" class="link-success">View More <i
+                                                        class="ri-arrow-right-line align-middle"></i></BLink >
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row">
-                                                <BLink href="#" class="fw-medium">#VZ2107</BLink>
+                                                <BLink  href="#" class="fw-medium">#VZ2107</BLink >
                                             </th>
                                             <td>James White</td>
                                             <td>October 2, 2021</td>
                                             <td>$7,452</td>
                                             <td>
-                                                <BLink href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></BLink>
+                                                <BLink  href="javascript:void(0);" class="link-success">View More <i
+                                                        class="ri-arrow-right-line align-middle"></i></BLink >
                                             </td>
                                         </tr>
                                     </tbody>
@@ -128,7 +132,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
 
 
@@ -157,36 +161,28 @@ export default {
                                             <td>Bobby Davis</td>
                                             <td>Nov 14, 2021</td>
                                             <td>$2,410</td>
-                                            <td>
-                                                <BBadge variant="success-subtle" class="text-success">Confirmed</BBadge>
-                                            </td>
+                                            <td><BBadge variant="success">Confirmed</BBadge></td>
                                         </tr>
                                         <tr>
                                             <td class="fw-medium">02</td>
                                             <td>Christopher Neal</td>
                                             <td>Nov 21, 2021</td>
                                             <td>$1,450</td>
-                                            <td>
-                                                <BBadge variant="warning-subtle" class="text-warning">Waiting</BBadge>
-                                            </td>
+                                            <td><BBadge class="bg-warning">Waiting</BBadge></td>
                                         </tr>
                                         <tr>
                                             <td class="fw-medium">03</td>
                                             <td>Monkey Karry</td>
                                             <td>Nov 24, 2021</td>
                                             <td>$3,500</td>
-                                            <td>
-                                                <BBadge variant="success-subtle" class="text-success">Confirmed</BBadge>
-                                            </td>
+                                            <td><BBadge variant="success">Confirmed</BBadge></td>
                                         </tr>
                                         <tr>
                                             <td class="fw-medium">04</td>
                                             <td>Aaron James</td>
                                             <td>Nov 25, 2021</td>
                                             <td>$6,875</td>
-                                            <td>
-                                                <BBadge variant="danger-subtle" class="text-danger">Cancelled</BBadge>
-                                            </td>
+                                            <td><BBadge variant="danger">Cancelled</BBadge></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -237,7 +233,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
 
         </BRow>
@@ -257,7 +253,8 @@ export default {
                                         <tr>
                                             <th scope="col" style="width: 46px;">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="cardtableCheck">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="cardtableCheck">
                                                     <label class="form-check-label" for="cardtableCheck"></label>
                                                 </div>
                                             </th>
@@ -273,19 +270,18 @@ export default {
                                         <tr>
                                             <td>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="cardtableCheck01">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="cardtableCheck01">
                                                     <label class="form-check-label" for="cardtableCheck01"></label>
                                                 </div>
                                             </td>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VL2110</BLink>
+                                                <BLink  href="#" class="fw-medium">#VL2110</BLink >
                                             </td>
                                             <td>William Elmore</td>
                                             <td>07 Oct, 2021</td>
                                             <td>$24.05</td>
-                                            <td>
-                                                <BBadge variant="success">Paid</BBadge>
-                                            </td>
+                                            <td><BBadge variant="success">Paid</BBadge></td>
                                             <td>
                                                 <BButton type="button" variant="light" size="sm">Details</BButton>
                                             </td>
@@ -293,19 +289,18 @@ export default {
                                         <tr>
                                             <td>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="cardtableCheck02">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="cardtableCheck02">
                                                     <label class="form-check-label" for="cardtableCheck02"></label>
                                                 </div>
                                             </td>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VL2109</BLink>
+                                                <BLink  href="#" class="fw-medium">#VL2109</BLink >
                                             </td>
                                             <td>Georgie Winters</td>
                                             <td>07 Oct, 2021</td>
                                             <td>$26.15</td>
-                                            <td>
-                                                <BBadge variant="success">Paid</BBadge>
-                                            </td>
+                                            <td><BBadge variant="success">Paid</BBadge></td>
                                             <td>
                                                 <BButton type="button" variant="light" size="sm">Details</BButton>
                                             </td>
@@ -313,19 +308,18 @@ export default {
                                         <tr>
                                             <td>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="cardtableCheck03">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="cardtableCheck03">
                                                     <label class="form-check-label" for="cardtableCheck03"></label>
                                                 </div>
                                             </td>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VL2108</BLink>
+                                                <BLink  href="#" class="fw-medium">#VL2108</BLink >
                                             </td>
                                             <td>Whitney Meier</td>
                                             <td>06 Oct, 2021</td>
                                             <td>$21.25</td>
-                                            <td>
-                                                <BBadge variant="danger">Refund</BBadge>
-                                            </td>
+                                            <td><BBadge variant="danger">Refund</BBadge></td>
                                             <td>
                                                 <BButton type="button" variant="light" size="sm">Details</BButton>
                                             </td>
@@ -333,19 +327,18 @@ export default {
                                         <tr>
                                             <td>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="cardtableCheck04">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="cardtableCheck04">
                                                     <label class="form-check-label" for="cardtableCheck04"></label>
                                                 </div>
                                             </td>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VL2107</BLink>
+                                                <BLink  href="#" class="fw-medium">#VL2107</BLink >
                                             </td>
                                             <td>Justin Maier</td>
                                             <td>05 Oct, 2021</td>
                                             <td>$25.03</td>
-                                            <td>
-                                                <BBadge variant="success">Paid</BBadge>
-                                            </td>
+                                            <td><BBadge variant="success">Paid</BBadge></td>
                                             <td>
                                                 <BButton type="button" variant="light" size="sm">Details</BButton>
                                             </td>
@@ -443,7 +436,7 @@ export default {
         &lt;/div&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
         </BRow>
         <BRow>
@@ -502,7 +495,7 @@ export default {
 
                                 <BCol xl="6">
                                     <div class="table-responsive mt-4 mt-xl-0">
-                                        <table class="table table-primary table-striped table-nowrap align-middle mb-0">
+                                        <table class="table table-success table-striped table-nowrap align-middle mb-0">
                                             <thead>
                                                 <tr>
                                                     <th scope="col">ID</th>
@@ -523,8 +516,10 @@ export default {
                                                         Subscribed</td>
                                                     <td>
                                                         <div class="hstack gap-3 flex-wrap">
-                                                            <BLink href="javascript:void(0);" class="fs-15"><i class="ri-edit-2-line"></i></BLink>
-                                                            <BLink href="javascript:void(0);" class="link-success fs-15"><i class="ri-delete-bin-line"></i></BLink>
+                                                            <BLink  href="javascript:void(0);" class="link-success fs-15"><i
+                                                                    class="ri-edit-2-line"></i></BLink >
+                                                            <BLink  href="javascript:void(0);" class="link-danger fs-15"><i
+                                                                    class="ri-delete-bin-line"></i></BLink >
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -537,8 +532,10 @@ export default {
                                                         Unsubscribed</td>
                                                     <td>
                                                         <div class="hstack gap-3 flex-wrap">
-                                                            <BLink href="javascript:void(0);" class="fs-15"><i class="ri-edit-2-line"></i></BLink>
-                                                            <BLink href="javascript:void(0);" class="link-success fs-15"><i class="ri-delete-bin-line"></i></BLink>
+                                                            <BLink  href="javascript:void(0);" class="link-success fs-15"><i
+                                                                    class="ri-edit-2-line"></i></BLink >
+                                                            <BLink  href="javascript:void(0);" class="link-danger fs-15"><i
+                                                                    class="ri-delete-bin-line"></i></BLink >
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -551,8 +548,10 @@ export default {
                                                         Subscribed</td>
                                                     <td>
                                                         <div class="hstack gap-3 flex-wrap">
-                                                            <BLink href="javascript:void(0);" class="fs-15"><i class="ri-edit-2-line"></i></BLink>
-                                                            <BLink href="javascript:void(0);" class="link-success fs-15"><i class="ri-delete-bin-line"></i></BLink>
+                                                            <BLink  href="javascript:void(0);" class="link-success fs-15"><i
+                                                                    class="ri-edit-2-line"></i></BLink >
+                                                            <BLink  href="javascript:void(0);" class="link-danger fs-15"><i
+                                                                    class="ri-delete-bin-line"></i></BLink >
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -565,8 +564,10 @@ export default {
                                                         Subscribed</td>
                                                     <td>
                                                         <div class="hstack gap-3 flex-wrap">
-                                                            <BLink href="javascript:void(0);" class="fs-15"><i class="ri-edit-2-line"></i></BLink>
-                                                            <BLink href="javascript:void(0);" class="link-success fs-15"><i class="ri-delete-bin-line"></i></BLink>
+                                                            <BLink  href="javascript:void(0);" class="link-success fs-15"><i
+                                                                    class="ri-edit-2-line"></i></BLink >
+                                                            <BLink  href="javascript:void(0);" class="link-danger fs-15"><i
+                                                                    class="ri-delete-bin-line"></i></BLink >
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -685,7 +686,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
 
         </BRow>
@@ -708,7 +709,8 @@ export default {
                                                 <tr>
                                                     <th scope="col" style="width: 25px;">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" id="checkAll" value="option1">
+                                                            <input class="form-check-input" type="checkbox" id="checkAll"
+                                                                value="option1">
                                                         </div>
                                                     </th>
                                                     <th scope="col">Order ID</th>
@@ -722,7 +724,8 @@ export default {
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1" checked>
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="inlineCheckbox2" value="option1" checked>
                                                         </div>
                                                     </th>
                                                     <td>#541254265</td>
@@ -730,14 +733,16 @@ export default {
                                                     <td>Cleo Carson</td>
                                                     <td>$4,521</td>
                                                     <td>
-                                                        <BLink href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i>
-                                                        </BLink>
+                                                        <BLink  href="javascript:void(0);"><i
+                                                                class="ri-download-2-line fs-17 lh-1 align-middle"></i>
+                                                        </BLink >
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1" checked>
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="inlineCheckbox3" value="option1" checked>
                                                         </div>
                                                     </th>
                                                     <td>#744145235</td>
@@ -745,14 +750,16 @@ export default {
                                                     <td>Juston Eichmann</td>
                                                     <td>$7,546</td>
                                                     <td>
-                                                        <BLink href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i>
-                                                        </BLink>
+                                                        <BLink  href="javascript:void(0);"><i
+                                                                class="ri-download-2-line fs-17 lh-1 align-middle"></i>
+                                                        </BLink >
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option1">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="inlineCheckbox4" value="option1">
                                                         </div>
                                                     </th>
                                                     <td>#9855126598</td>
@@ -760,14 +767,16 @@ export default {
                                                     <td>Bettie Johson</td>
                                                     <td>$1,350</td>
                                                     <td>
-                                                        <BLink href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i>
-                                                        </BLink>
+                                                        <BLink  href="javascript:void(0);"><i
+                                                                class="ri-download-2-line fs-17 lh-1 align-middle"></i>
+                                                        </BLink >
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option1">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="inlineCheckbox5" value="option1">
                                                         </div>
                                                     </th>
                                                     <td>#847512653</td>
@@ -775,8 +784,9 @@ export default {
                                                     <td>Maritza Blanda</td>
                                                     <td>$4,521</td>
                                                     <td>
-                                                        <BLink href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i>
-                                                        </BLink>
+                                                        <BLink  href="javascript:void(0);"><i
+                                                                class="ri-download-2-line fs-17 lh-1 align-middle"></i>
+                                                        </BLink >
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -808,8 +818,10 @@ export default {
                                                         Subscribed</td>
                                                     <td>
                                                         <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" role="switch" id="SwitchCheck1" checked="">
-                                                            <label class="form-check-label ms-2" for="SwitchCheck1">Yes/No</label>
+                                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                                id="SwitchCheck1" checked="">
+                                                            <label class="form-check-label ms-2"
+                                                                for="SwitchCheck1">Yes/No</label>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -822,8 +834,10 @@ export default {
                                                         Unsubscribed</td>
                                                     <td>
                                                         <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" role="switch" id="SwitchCheck2">
-                                                            <label class="form-check-label ms-2" for="SwitchCheck2">Yes/No</label>
+                                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                                id="SwitchCheck2">
+                                                            <label class="form-check-label ms-2"
+                                                                for="SwitchCheck2">Yes/No</label>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -836,8 +850,10 @@ export default {
                                                         Subscribed</td>
                                                     <td>
                                                         <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" role="switch" id="SwitchCheck3">
-                                                            <label class="form-check-label ms-2" for="SwitchCheck3">Yes/No</label>
+                                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                                id="SwitchCheck3">
+                                                            <label class="form-check-label ms-2"
+                                                                for="SwitchCheck3">Yes/No</label>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -850,8 +866,10 @@ export default {
                                                         Subscribed</td>
                                                     <td>
                                                         <div class="form-check form-switch">
-                                                            <input class="form-check-input" type="checkbox" role="switch" id="SwitchCheck4" checked="">
-                                                            <label class="form-check-label ms-2" for="SwitchCheck4">Yes/No</label>
+                                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                                id="SwitchCheck4" checked="">
+                                                            <label class="form-check-label ms-2"
+                                                                for="SwitchCheck4">Yes/No</label>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -1000,7 +1018,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
 
         </BRow>
@@ -1021,7 +1039,8 @@ export default {
                                         <tr>
                                             <th scope="col" style="width: 46px;">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="cardtableCheck">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="cardtableCheck">
                                                     <label class="form-check-label" for="cardtableCheck"></label>
                                                 </div>
                                             </th>
@@ -1037,19 +1056,18 @@ export default {
                                         <tr>
                                             <td>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="cardtableCheck01">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="cardtableCheck01">
                                                     <label class="form-check-label" for="cardtableCheck01"></label>
                                                 </div>
                                             </td>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VL2110</BLink>
+                                                <BLink  href="#" class="fw-medium">#VL2110</BLink >
                                             </td>
                                             <td>William Elmore</td>
                                             <td>07 Oct, 2021</td>
                                             <td>$24.05</td>
-                                            <td>
-                                                <BBadge variant="success-subtle" class="text-success">Paid</BBadge>
-                                            </td>
+                                            <td><BBadge variant="success">Paid</BBadge></td>
                                             <td>
                                                 <BButton type="button" variant="light" size="sm">Details</BButton>
                                             </td>
@@ -1057,19 +1075,18 @@ export default {
                                         <tr>
                                             <td>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="cardtableCheck02">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="cardtableCheck02">
                                                     <label class="form-check-label" for="cardtableCheck02"></label>
                                                 </div>
                                             </td>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VL2109</BLink>
+                                                <BLink  href="#" class="fw-medium">#VL2109</BLink >
                                             </td>
                                             <td>Georgie Winters</td>
                                             <td>07 Oct, 2021</td>
                                             <td>$26.15</td>
-                                            <td>
-                                                <BBadge variant="success-subtle" class="text-success">Paid</BBadge>
-                                            </td>
+                                            <td><BBadge variant="success">Paid</BBadge></td>
                                             <td>
                                                 <BButton type="button" variant="light" size="sm">Details</BButton>
                                             </td>
@@ -1077,19 +1094,18 @@ export default {
                                         <tr>
                                             <td>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="cardtableCheck03">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="cardtableCheck03">
                                                     <label class="form-check-label" for="cardtableCheck03"></label>
                                                 </div>
                                             </td>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VL2108</BLink>
+                                                <BLink  href="#" class="fw-medium">#VL2108</BLink >
                                             </td>
                                             <td>Whitney Meier</td>
                                             <td>06 Oct, 2021</td>
                                             <td>$21.25</td>
-                                            <td>
-                                                <BBadge class="badge bg-danger-subtle text-danger">Refund</BBadge>
-                                            </td>
+                                            <td><BBadge variant="danger">Refund</BBadge></td>
                                             <td>
                                                 <BButton type="button" variant="light" size="sm">Details</BButton>
                                             </td>
@@ -1097,19 +1113,18 @@ export default {
                                         <tr>
                                             <td>
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="cardtableCheck04">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="cardtableCheck04">
                                                     <label class="form-check-label" for="cardtableCheck04"></label>
                                                 </div>
                                             </td>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VL2107</BLink>
+                                                <BLink  href="#" class="fw-medium">#VL2107</BLink >
                                             </td>
                                             <td>Justin Maier</td>
                                             <td>05 Oct, 2021</td>
                                             <td>$25.03</td>
-                                            <td>
-                                                <BBadge class="badge bg-success-subtle text-success">Paid</BBadge>
-                                            </td>
+                                            <td><BBadge variant="success">Paid</BBadge></td>
                                             <td>
                                                 <BButton type="button" variant="light" size="sm">Details</BButton>
                                             </td>
@@ -1207,7 +1222,7 @@ export default {
         &lt;/div&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
         </BRow>
 
@@ -1226,7 +1241,8 @@ export default {
                                         <tr>
                                             <th scope="col" style="width: 42px;">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="activetableCheck">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="activetableCheck">
                                                     <label class="form-check-label" for="activetableCheck"></label>
                                                 </div>
                                             </th>
@@ -1241,7 +1257,8 @@ export default {
                                         <tr>
                                             <th scope="row">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="activetableCheck01" checked>
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="activetableCheck01" checked>
                                                     <label class="form-check-label" for="activetableCheck01"></label>
                                                 </div>
                                             </th>
@@ -1250,13 +1267,15 @@ export default {
                                             <td>Cleo Carson</td>
                                             <td>$4,521</td>
                                             <td>
-                                                <BLink href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></BLink>
+                                                <BLink  href="javascript:void(0);"><i
+                                                        class="ri-download-2-line fs-17 lh-1 align-middle"></i></BLink >
                                             </td>
                                         </tr>
                                         <tr class="table-active">
                                             <th scope="row">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="activetableCheck02" checked>
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="activetableCheck02" checked>
                                                     <label class="form-check-label" for="activetableCheck02"></label>
                                                 </div>
                                             </th>
@@ -1265,13 +1284,15 @@ export default {
                                             <td>Juston Eichmann</td>
                                             <td>$7,546</td>
                                             <td>
-                                                <BLink href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></BLink>
+                                                <BLink  href="javascript:void(0);"><i
+                                                        class="ri-download-2-line fs-17 lh-1 align-middle"></i></BLink >
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="activetableCheck03">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="activetableCheck03">
                                                     <label class="form-check-label" for="activetableCheck03"></label>
                                                 </div>
                                             </th>
@@ -1280,13 +1301,15 @@ export default {
                                             <td>Bettie Johson</td>
                                             <td>$1,350</td>
                                             <td>
-                                                <BLink href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></BLink>
+                                                <BLink  href="javascript:void(0);"><i
+                                                        class="ri-download-2-line fs-17 lh-1 align-middle"></i></BLink >
                                             </td>
                                         </tr>
                                         <tr>
                                             <th scope="row">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="activetableCheck04">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="activetableCheck04">
                                                     <label class="form-check-label" for="activetableCheck04"></label>
                                                 </div>
                                             </th>
@@ -1295,7 +1318,8 @@ export default {
                                             <td class="table-active">Maritza Blanda</td>
                                             <td>$4,521</td>
                                             <td>
-                                                <BLink href="javascript:void(0);"><i class="ri-download-2-line fs-17 lh-1 align-middle"></i></BLink>
+                                                <BLink  href="javascript:void(0);"><i
+                                                        class="ri-download-2-line fs-17 lh-1 align-middle"></i></BLink >
                                             </td>
                                         </tr>
                                     </tbody>
@@ -1377,7 +1401,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
 
 
@@ -1406,8 +1430,8 @@ export default {
                                         <tr>
                                             <td class="fw-medium">01</td>
                                             <td>Implement new UX</td>
-                                            <td>
-                                                <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">Backlog</BBadge>
+                                            <td><BBadge variant="primary-subtle"
+                                                    class="bg-primary-subtle text-primary">Backlog</BBadge>
                                             </td>
                                             <td>Lanora Sandoval</td>
                                             <td>$4,521</td>
@@ -1430,10 +1454,9 @@ export default {
                                         <tr>
                                             <td class="fw-medium">02</td>
                                             <td>Design syntax</td>
-                                            <td>
-                                                <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">In
-                                                    Progress</BBadge>
-                                            </td>
+                                            <td><BBadge variant="secondary-subtle"
+                                                    class="bg-secondary-subtle text-secondary">In
+                                                    Progress</BBadge></td>
                                             <td>Calvin Garrett</td>
                                             <td>$7,546</td>
                                             <td>
@@ -1455,8 +1478,8 @@ export default {
                                         <tr>
                                             <td class="fw-medium">03</td>
                                             <td>Configurable resources</td>
-                                            <td>
-                                                <BBadge variant="success-subtle" class="bg-success-subtle text-success">Done</BBadge>
+                                            <td><BBadge variant="success-subtle"
+                                                    class="bg-success-subtle text-success">Done</BBadge>
                                             </td>
                                             <td>Florence Guzman</td>
                                             <td>$1,350</td>
@@ -1479,10 +1502,9 @@ export default {
                                         <tr>
                                             <td class="fw-medium">04</td>
                                             <td>Implement extensions</td>
-                                            <td>
-                                                <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">In
-                                                    Progress</BBadge>
-                                            </td>
+                                            <td><BBadge variant="secondary-subtle"
+                                                    class="bg-secondary-subtle text-secondary">In
+                                                    Progress</BBadge></td>
                                             <td>Maritza Blanda</td>
                                             <td>$4,521</td>
                                             <td>
@@ -1603,7 +1625,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
         </BRow>
 
@@ -1633,8 +1655,8 @@ export default {
                                         <tr>
                                             <td class="fw-medium">01</td>
                                             <td>Implement new UX</td>
-                                            <td>
-                                                <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">Backlog</BBadge>
+                                            <td><BBadge variant="primary-subtle"
+                                                    class="bg-primary-subtle text-primary">Backlog</BBadge>
                                             </td>
                                             <td>Lanora Sandoval</td>
                                             <td>$4,521</td>
@@ -1657,10 +1679,9 @@ export default {
                                         <tr>
                                             <td class="fw-medium">02</td>
                                             <td>Design syntax</td>
-                                            <td>
-                                                <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">In
-                                                    Progress</BBadge>
-                                            </td>
+                                            <td><BBadge variant="secondary-subtle"
+                                                    class="bg-secondary-subtle text-secondary">In
+                                                    Progress</BBadge></td>
                                             <td>Calvin Garrett</td>
                                             <td>$7,546</td>
                                             <td>
@@ -1682,8 +1703,8 @@ export default {
                                         <tr>
                                             <td class="fw-medium">03</td>
                                             <td>Configurable resources</td>
-                                            <td>
-                                                <BBadge variant="success-subtle" class="bg-success-subtle text-success">Done</BBadge>
+                                            <td><BBadge variant="success-subtle"
+                                                    class="bg-success-subtle text-success">Done</BBadge>
                                             </td>
                                             <td>Florence Guzman</td>
                                             <td>$1,350</td>
@@ -1706,10 +1727,9 @@ export default {
                                         <tr>
                                             <td class="fw-medium">04</td>
                                             <td>Implement extensions</td>
-                                            <td>
-                                                <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">In
-                                                    Progress</BBadge>
-                                            </td>
+                                            <td><BBadge variant="secondary-subtle"
+                                                    class="bg-secondary-subtle text-secondary">In
+                                                    Progress</BBadge></td>
                                             <td>Maritza Blanda</td>
                                             <td>$4,521</td>
                                             <td>
@@ -1830,7 +1850,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
 
             <BCol xl="6">
@@ -1858,13 +1878,15 @@ export default {
                                             <td>Annette Black</td>
                                             <td>Industrial Designer</td>
                                             <td>10, Nov 2021</td>
-                                            <td>
-                                                <BBadge variant="success-subtle" class="bg-success-subtle text-success">Active</BBadge>
+                                            <td><BBadge variant="success-subtle"
+                                                    class="bg-success-subtle text-success">Active</BBadge>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-3 fs-15">
-                                                    <BLink href="javascript:void(0);"><i class="ri-settings-4-line"></i></BLink>
-                                                    <BLink href="javascript:void(0);" class="link-success"><i class="ri-delete-bin-5-line"></i></BLink>
+                                                    <BLink  href="javascript:void(0);" class="link-primary"><i
+                                                            class="ri-settings-4-line"></i></BLink >
+                                                    <BLink  href="javascript:void(0);" class="link-danger"><i
+                                                            class="ri-delete-bin-5-line"></i></BLink >
                                                 </div>
                                             </td>
                                         </tr>
@@ -1873,13 +1895,15 @@ export default {
                                             <td>Bessie Cooper</td>
                                             <td>Graphic Designer</td>
                                             <td>13, Nov 2021</td>
-                                            <td>
-                                                <BBadge variant="success-subtle" class="bg-success-subtle text-success">Active</BBadge>
+                                            <td><BBadge variant="success-subtle"
+                                                    class="bg-success-subtle text-success">Active</BBadge>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-3 fs-15">
-                                                    <BLink href="javascript:void(0);"><i class="ri-settings-4-line"></i></BLink>
-                                                    <BLink href="javascript:void(0);" class="link-success"><i class="ri-delete-bin-5-line"></i></BLink>
+                                                    <BLink  href="javascript:void(0);" class="link-primary"><i
+                                                            class="ri-settings-4-line"></i></BLink >
+                                                    <BLink  href="javascript:void(0);" class="link-danger"><i
+                                                            class="ri-delete-bin-5-line"></i></BLink >
                                                 </div>
                                             </td>
                                         </tr>
@@ -1888,13 +1912,15 @@ export default {
                                             <td>Leslie Alexander</td>
                                             <td>Product Manager</td>
                                             <td>17, Nov 2021</td>
-                                            <td>
-                                                <BBadge variant="success-subtle" class="bg-success-subtle text-success">Active</BBadge>
+                                            <td><BBadge variant="success-subtle"
+                                                    class="bg-success-subtle text-success">Active</BBadge>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-3 fs-15">
-                                                    <BLink href="javascript:void(0);"><i class="ri-settings-4-line"></i></BLink>
-                                                    <BLink href="javascript:void(0);" class="link-success"><i class="ri-delete-bin-5-line"></i></BLink>
+                                                    <BLink  href="javascript:void(0);" class="link-primary"><i
+                                                            class="ri-settings-4-line"></i></BLink >
+                                                    <BLink  href="javascript:void(0);" class="link-danger"><i
+                                                            class="ri-delete-bin-5-line"></i></BLink >
                                                 </div>
                                             </td>
                                         </tr>
@@ -1903,13 +1929,15 @@ export default {
                                             <td>Lenora Sandoval</td>
                                             <td>Applications Engineer</td>
                                             <td>25, Nov 2021</td>
-                                            <td>
-                                                <BBadge variant="danger-subtle" class="bg-danger-subtle text-danger">Disabled</BBadge>
+                                            <td><BBadge variant="danger-subtle"
+                                                    class="bg-danger-subtle text-danger">Disabled</BBadge>
                                             </td>
                                             <td>
                                                 <div class="hstack gap-3 fs-15">
-                                                    <BLink href="javascript:void(0);"><i class="ri-settings-4-line"></i></BLink>
-                                                    <BLink href="javascript:void(0);" class="link-success"><i class="ri-delete-bin-5-line"></i></BLink>
+                                                    <BLink  href="javascript:void(0);" class="link-primary"><i
+                                                            class="ri-settings-4-line"></i></BLink >
+                                                    <BLink  href="javascript:void(0);" class="link-danger"><i
+                                                            class="ri-delete-bin-5-line"></i></BLink >
                                                 </div>
                                             </td>
                                         </tr>
@@ -1939,8 +1967,8 @@ export default {
                     &lt;td&gt;&lt;span class=&quot;badge bg-success-subtle text-success&quot;&gt;Active&lt;/span&gt;&lt;/td&gt;
                     &lt;td&gt;
                         &lt;div class=&quot;hstack gap-3 fs-15&quot;&gt;
-                            &lt;a href=&quot;javascript:void(0);&quot; &gt;&lt;i class=&quot;ri-settings-4-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-success&quot;&gt;&lt;i class=&quot;ri-delete-bin-5-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-primary&quot;&gt;&lt;i class=&quot;ri-settings-4-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-danger&quot;&gt;&lt;i class=&quot;ri-delete-bin-5-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
                         &lt;/div&gt;
                     &lt;/td&gt;
                 &lt;/tr&gt;
@@ -1952,8 +1980,8 @@ export default {
                     &lt;td&gt;&lt;span class=&quot;badge bg-success-subtle text-success&quot;&gt;Active&lt;/span&gt;&lt;/td&gt;
                     &lt;td&gt;
                         &lt;div class=&quot;hstack gap-3 fs-15&quot;&gt;
-                            &lt;a href=&quot;javascript:void(0);&quot; &gt;&lt;i class=&quot;ri-settings-4-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-success&quot;&gt;&lt;i class=&quot;ri-delete-bin-5-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-primary&quot;&gt;&lt;i class=&quot;ri-settings-4-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-danger&quot;&gt;&lt;i class=&quot;ri-delete-bin-5-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
                         &lt;/div&gt;
                     &lt;/td&gt;
                 &lt;/tr&gt;
@@ -1965,8 +1993,8 @@ export default {
                     &lt;td&gt;&lt;span class=&quot;badge bg-success-subtle text-success&quot;&gt;Active&lt;/span&gt;&lt;/td&gt;
                     &lt;td&gt;
                         &lt;div class=&quot;hstack gap-3 fs-15&quot;&gt;
-                            &lt;a href=&quot;javascript:void(0);&quot; &gt;&lt;i class=&quot;ri-settings-4-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-success&quot;&gt;&lt;i class=&quot;ri-delete-bin-5-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-primary&quot;&gt;&lt;i class=&quot;ri-settings-4-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-danger&quot;&gt;&lt;i class=&quot;ri-delete-bin-5-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
                         &lt;/div&gt;
                     &lt;/td&gt;
                 &lt;/tr&gt;
@@ -1978,8 +2006,8 @@ export default {
                     &lt;td&gt;&lt;span class=&quot;badge bg-danger-subtle text-danger&quot;&gt;Disabled&lt;/span&gt;&lt;/td&gt;
                     &lt;td&gt;
                         &lt;div class=&quot;hstack gap-3 fs-15&quot;&gt;
-                            &lt;a href=&quot;javascript:void(0);&quot; &gt;&lt;i class=&quot;ri-settings-4-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
-                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-success&quot;&gt;&lt;i class=&quot;ri-delete-bin-5-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-primary&quot;&gt;&lt;i class=&quot;ri-settings-4-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                            &lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-danger&quot;&gt;&lt;i class=&quot;ri-delete-bin-5-line&quot;&gt;&lt;/i&gt;&lt;/a&gt;
                         &lt;/div&gt;
                     &lt;/td&gt;
                 &lt;/tr&gt;
@@ -1987,7 +2015,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
         </BRow>
 
@@ -2015,33 +2043,32 @@ export default {
                                         <tr>
                                             <td class="fw-medium">01</td>
                                             <td>Implement new UX</td>
-                                            <td>
-                                                <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">Backlog</BBadge>
+                                            <td><BBadge variant="primary-subtle"
+                                                    class="bg-primary-subtle text-primary">Backlog</BBadge>
                                             </td>
                                             <td>Lanora Sandoval</td>
                                         </tr>
                                         <tr>
                                             <td class="fw-medium">02</td>
                                             <td>Design syntax</td>
-                                            <td>
-                                                <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">In
-                                                    Progress</BBadge>
-                                            </td>
+                                            <td><BBadge variant="secondary-subtle"
+                                                    class="bg-secondary-subtle text-secondary">In
+                                                    Progress</BBadge></td>
                                             <td>Calvin Garrett</td>
                                         </tr>
                                         <tr>
                                             <td class="fw-medium">03</td>
                                             <td>Configurable resources</td>
-                                            <td>
-                                                <BBadge variant="success-subtle" class="bg-success-subtle text-success">Done</BBadge>
+                                            <td><BBadge variant="success-subtle"
+                                                    class="bg-success-subtle text-success">Done</BBadge>
                                             </td>
                                             <td>Florence Guzman</td>
                                         </tr>
                                         <tr>
                                             <td class="fw-medium">04</td>
                                             <td>Implement extensions</td>
-                                            <td>
-                                                <BBadge variant="dark-subtle" class="bg-dark-subtle text-body">Backlog</BBadge>
+                                            <td><BBadge variant="dark-subtle"
+                                                    class="bg-dark-subtle text-body">Backlog</BBadge>
                                             </td>
                                             <td>Maritza Blanda</td>
                                         </tr>
@@ -2049,7 +2076,8 @@ export default {
                                             <td class="fw-medium">05</td>
                                             <td>Applications Engineer</td>
                                             <td>
-                                                <BBadge variant="success-subtle" class="bg-success-subtle text-success">Done</BBadge>
+                                                <BBadge variant="success-subtle"
+                                                    class="bg-success-subtle text-success">Done</BBadge>
                                             </td>
                                             <td>Leslie Alexander</td>
                                         </tr>
@@ -2103,7 +2131,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
 
 
@@ -2138,8 +2166,8 @@ export default {
                                                 <BProgress class="progress-sm" :value="100" variant="success" />
                                             </td>
                                             <td>
-                                                <BLink href="javascript:void(0);" class="link-success">Confirmed
-                                                </BLink>
+                                                <BLink  href="javascript:void(0);" class="link-success">Confirmed
+                                                </BLink >
                                             </td>
                                         </tr>
                                         <tr>
@@ -2148,10 +2176,10 @@ export default {
                                             <td>Dan Evgeni</td>
                                             <td>$860</td>
                                             <td>
-                                                <BProgress class="progress-sm" :value="65" variant="primary" />
+                                                <BProgress class="progress-sm" :value="65" variant="warning" />
                                             </td>
                                             <td>
-                                                <BLink href="javascript:void(0);" class="link-primary">Waiting</BLink>
+                                                <BLink  href="javascript:void(0);" class="link-warning">Waiting</BLink >
                                             </td>
                                         </tr>
                                         <tr>
@@ -2160,10 +2188,10 @@ export default {
                                             <td>Olimpia Jordan</td>
                                             <td>$450</td>
                                             <td>
-                                                <BProgress class="progress-sm" :value="35" variant="primary" />
+                                                <BProgress class="progress-sm" :value="35" variant="warning" />
                                             </td>
                                             <td>
-                                                <BLink href="javascript:void(0);" class="link-primary">Waiting</BLink>
+                                                <BLink  href="javascript:void(0);" class="link-warning">Waiting</BLink >
                                             </td>
                                         </tr>
                                     </tbody>
@@ -2203,10 +2231,10 @@ export default {
                     &lt;td&gt;$860&lt;/td&gt;
                     &lt;td&gt;
                         &lt;div class=&quot;progress progress-sm&quot;&gt;
-                            &lt;div class=&quot;progress-bar bg-primary&quot; role=&quot;progressbar&quot; style=&quot;width: 65%&quot; aria-valuenow=&quot;65&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;progress-bar bg-warning&quot; role=&quot;progressbar&quot; style=&quot;width: 65%&quot; aria-valuenow=&quot;65&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot;&gt;&lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/td&gt;
-                    &lt;td&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-primary&quot;&gt;Waiting&lt;/a&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-warning&quot;&gt;Waiting&lt;/a&gt;&lt;/td&gt;
                 &lt;/tr&gt;
                 &lt;tr&gt;
                     &lt;td&gt;Leslie Alexander&lt;/td&gt;
@@ -2215,16 +2243,16 @@ export default {
                     &lt;td&gt;$450&lt;/td&gt;
                     &lt;td&gt;
                         &lt;div class=&quot;progress progress-sm&quot;&gt;
-                            &lt;div class=&quot;progress-bar bg-primary&quot; role=&quot;progressbar&quot; style=&quot;width: 35%&quot; aria-valuenow=&quot;35&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot;&gt;&lt;/div&gt;
+                            &lt;div class=&quot;progress-bar bg-warning&quot; role=&quot;progressbar&quot; style=&quot;width: 35%&quot; aria-valuenow=&quot;35&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot;&gt;&lt;/div&gt;
                         &lt;/div&gt;
                     &lt;/td&gt;
-                    &lt;td&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-primary&quot;&gt;Waiting&lt;/a&gt;&lt;/td&gt;
+                    &lt;td&gt;&lt;a href=&quot;javascript:void(0);&quot; class=&quot;link-warning&quot;&gt;Waiting&lt;/a&gt;&lt;/td&gt;
                 &lt;/tr&gt;
             &lt;/tbody&gt;
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
         </BRow>
 
@@ -2325,7 +2353,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
 
             <BCol xl="6">
@@ -2415,7 +2443,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
         </BRow>
 
@@ -2587,7 +2615,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
 
             <BCol xl="6">
@@ -2738,7 +2766,7 @@ export default {
         &lt;/table&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
         </BRow>
 
@@ -2836,7 +2864,7 @@ export default {
         &lt;/div&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
         </BRow>
 
@@ -2856,7 +2884,8 @@ export default {
                                         <tr>
                                             <th scope="col" style="width: 42px;">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="responsivetableCheck">
                                                     <label class="form-check-label" for="responsivetableCheck"></label>
                                                 </div>
                                             </th>
@@ -2872,19 +2901,22 @@ export default {
                                         <tr>
                                             <th scope="row">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck01">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="responsivetableCheck01">
                                                     <label class="form-check-label" for="responsivetableCheck01"></label>
                                                 </div>
                                             </th>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VZ2110</BLink>
+                                                <BLink  href="#" class="fw-medium">#VZ2110</BLink >
                                             </td>
                                             <td>10 Oct, 14:47</td>
-                                            <td class="text-success"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
+                                            <td class="text-success"><i
+                                                    class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
                                             <td>
                                                 <div class="d-flex gap-2 align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="@/assets/images/users/avatar-3.jpg" alt="" class="avatar-xs rounded-circle" />
+                                                        <img src="@/assets/images/users/avatar-3.jpg" alt=""
+                                                            class="avatar-xs rounded-circle" />
                                                     </div>
                                                     <div class="flex-grow-1">
                                                         Jordan Kennedy
@@ -2897,19 +2929,22 @@ export default {
                                         <tr>
                                             <th scope="row">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck02">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="responsivetableCheck02">
                                                     <label class="form-check-label" for="responsivetableCheck02"></label>
                                                 </div>
                                             </th>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VZ2109</BLink>
+                                                <BLink  href="#" class="fw-medium">#VZ2109</BLink >
                                             </td>
                                             <td>17 Oct, 02:10</td>
-                                            <td class="text-success"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
+                                            <td class="text-success"><i
+                                                    class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
                                             <td>
                                                 <div class="d-flex gap-2 align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="@/assets/images/users/avatar-4.jpg" alt="" class="avatar-xs rounded-circle" />
+                                                        <img src="@/assets/images/users/avatar-4.jpg" alt=""
+                                                            class="avatar-xs rounded-circle" />
                                                     </div>
                                                     <div class="flex-grow-1">
                                                         Jackson Graham
@@ -2922,12 +2957,13 @@ export default {
                                         <tr>
                                             <th scope="row">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck03">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="responsivetableCheck03">
                                                     <label class="form-check-label" for="responsivetableCheck03"></label>
                                                 </div>
                                             </th>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VZ2108</BLink>
+                                                <BLink  href="#" class="fw-medium">#VZ2108</BLink >
                                             </td>
                                             <td>26 Oct, 08:20</td>
                                             <td class="text-primary"><i class="ri-refresh-line fs-17 align-middle"></i>
@@ -2935,7 +2971,8 @@ export default {
                                             <td>
                                                 <div class="d-flex gap-2 align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="@/assets/images/users/avatar-5.jpg" alt="" class="avatar-xs rounded-circle" />
+                                                        <img src="@/assets/images/users/avatar-5.jpg" alt=""
+                                                            class="avatar-xs rounded-circle" />
                                                     </div>
                                                     <div class="flex-grow-1">
                                                         Lauren Trujillo
@@ -2948,12 +2985,13 @@ export default {
                                         <tr>
                                             <th scope="row">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck04">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="responsivetableCheck04">
                                                     <label class="form-check-label" for="responsivetableCheck04"></label>
                                                 </div>
                                             </th>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VZ2107</BLink>
+                                                <BLink  href="#" class="fw-medium">#VZ2107</BLink >
                                             </td>
                                             <td>02 Nov, 04:52</td>
                                             <td class="text-danger"><i class="ri-close-circle-line fs-17 align-middle"></i>
@@ -2961,7 +2999,8 @@ export default {
                                             <td>
                                                 <div class="d-flex gap-2 align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="@/assets/images/users/avatar-6.jpg" alt="" class="avatar-xs rounded-circle" />
+                                                        <img src="@/assets/images/users/avatar-6.jpg" alt=""
+                                                            class="avatar-xs rounded-circle" />
                                                     </div>
                                                     <div class="flex-grow-1">
                                                         Curtis Weaver
@@ -2974,19 +3013,22 @@ export default {
                                         <tr>
                                             <th scope="row">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="" id="responsivetableCheck05">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="responsivetableCheck05">
                                                     <label class="form-check-label" for="responsivetableCheck05"></label>
                                                 </div>
                                             </th>
                                             <td>
-                                                <BLink href="#" class="fw-medium">#VZ2106</BLink>
+                                                <BLink  href="#" class="fw-medium">#VZ2106</BLink >
                                             </td>
                                             <td>10 Nov, 07:20</td>
-                                            <td class="text-success"><i class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
+                                            <td class="text-success"><i
+                                                    class="ri-checkbox-circle-line fs-17 align-middle"></i> Paid</td>
                                             <td>
                                                 <div class="d-flex gap-2 align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="@/assets/images/users/avatar-1.jpg" alt="" class="avatar-xs rounded-circle" />
+                                                        <img src="@/assets/images/users/avatar-1.jpg" alt=""
+                                                            class="avatar-xs rounded-circle" />
                                                     </div>
                                                     <div class="flex-grow-1">
                                                         Jason schuller
@@ -3154,7 +3196,7 @@ export default {
         &lt;!-- end table responsive --&gt;</code></pre>
                         </div>
                     </BCardBody>
-                </BCard>
+                </BCard> 
             </BCol>
         </BRow>
     </Layout>

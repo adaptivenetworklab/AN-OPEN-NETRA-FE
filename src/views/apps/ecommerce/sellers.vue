@@ -121,10 +121,10 @@ export default {
           </BCol>
           <BCol lg="auto">
             <div class="hstack gap-2">
-              <BButton type="button" variant="soft-info">
+              <BButton type="button" variant="danger">
                 <i class="ri-equalizer-fill me-1 align-bottom"></i> Filters
               </BButton>
-              <BButton variant="primary" @click="modalShow = !modalShow">
+              <BButton variant="success" @click="modalShow = !modalShow">
                 <i class="ri-add-fill me-1 align-bottom"></i> Add Seller
               </BButton>
             </div>
@@ -143,7 +143,7 @@ export default {
             </div>
             <img :src="item.img" alt="" height="45" />
             <h5 class="mb-1 mt-4">
-              <router-link to="/ecommerce/seller-details" class="link-primary">{{ item.label }}</router-link>
+              <router-link to="/ecommerce/seller-details" class="text-reset">{{ item.label }}</router-link>
             </h5>
             <p class="text-muted mb-4">{{ item.name }}</p>
             <BRow class="justify-content-center">
@@ -395,7 +395,7 @@ export default {
                 </BCol>
                 <BCol lg="12">
                   <div class="hstack gap-2 justify-content-end">
-                    <BButton variant="link" class="link-priamry text-decoration-none fw-medium"
+                    <BButton variant="link" class="link-success text-decoration-none fw-medium"
                       @click="modalShow = false">
                       <i class="ri-close-line me-1 align-middle"></i> Close
                     </BButton>

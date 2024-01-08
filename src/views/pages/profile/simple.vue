@@ -73,13 +73,13 @@ export default {
     <BRow>
       <BCol lg="12">
         <div>
-          <div class="d-flex profile-wrapper" style="position: absolute; right: 13px; top: 26px; ">
+          <div class="d-flex profile-wrapper" style="position: absolute; right: 13px; top: 0px; ">
             <div class="d-flex justify-content-end">
-              <router-link to="/pages/profile-setting" class="btn btn-success"><i
+              <router-link to="/pages/profile-setting" class="btn btn-secondary"><i
                   class="ri-edit-box-line align-bottom"></i> Edit Profile</router-link>
             </div>
           </div>
-          <BTabs nav-class=" animation-nav profile-nav gap-2 gap-lg-3  pt-4 text-muted" pills>
+          <BTabs nav-class=" animation-nav profile-nav gap-2 gap-lg-3 ps-3 text-muted" pills>
             <BTab title="Overview" class="nav-item pt-4">
               <template #title>
                 <i class="ri-airplay-fill d-inline-block d-md-none"></i>
@@ -91,7 +91,7 @@ export default {
                     <BCardBody>
                       <h5 class="card-title mb-5">Complete Your Profile</h5>
                       <BProgress class="animated-progress custom-progress progress-label">
-                        <BProgressBar :value="30" variant="primary">
+                        <BProgressBar :value="30" variant="danger">
                           <div class="label">30%</div>
                         </BProgressBar>
                       </BProgress>
@@ -145,21 +145,21 @@ export default {
                         </div>
                         <div>
                           <BLink href="javascript:void(0);" class="avatar-xs d-block">
-                            <span class="avatar-title rounded-circle fs-16 bg-primary-subtle text-primary">
+                            <span class="avatar-title rounded-circle fs-16 bg-primary">
                               <i class="ri-global-fill"></i>
                             </span>
                           </BLink>
                         </div>
                         <div>
                           <BLink href="javascript:void(0);" class="avatar-xs d-block">
-                            <span class="avatar-title rounded-circle fs-16 bg-danger-subtle text-danger">
+                            <span class="avatar-title rounded-circle fs-16 bg-success">
                               <i class="ri-dribbble-fill"></i>
                             </span>
                           </BLink>
                         </div>
                         <div>
                           <BLink href="javascript:void(0);" class="avatar-xs d-block">
-                            <span class="avatar-title rounded-circle fs-16 bg-success-subtle text-success">
+                            <span class="avatar-title rounded-circle fs-16 bg-danger">
                               <i class="ri-pinterest-fill"></i>
                             </span>
                           </BLink>
@@ -172,13 +172,13 @@ export default {
                     <BCardBody>
                       <h5 class="card-title mb-4">Skills</h5>
                       <div class="d-flex flex-wrap gap-2 fs-15">
-                        <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Photoshop</BLink>
-                        <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">illustrator</BLink>
-                        <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">HTML</BLink>
-                        <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">CSS</BLink>
-                        <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Javascript</BLink>
-                        <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Php</BLink>
-                        <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Python</BLink>
+                        <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Photoshop</BLink>
+                        <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">illustrator</BLink>
+                        <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">HTML</BLink>
+                        <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">CSS</BLink>
+                        <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Javascript</BLink>
+                        <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Php</BLink>
+                        <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Python</BLink>
                       </div>
                     </BCardBody>
                   </BCard>
@@ -219,7 +219,7 @@ export default {
                             </div>
                           </div>
                           <div class="flex-shrink-0 ms-2">
-                            <BButton type="button" variant="outline-secondary" size="sm">
+                            <BButton type="button" variant="outline-success" size="sm">
                               <i class="ri-user-add-line align-middle"></i>
                             </BButton>
                           </div>
@@ -237,7 +237,7 @@ export default {
                             </div>
                           </div>
                           <div class="flex-shrink-0 ms-2">
-                            <BButton type="button" variant="outline-secondary" size="sm">
+                            <BButton type="button" variant="outline-success" size="sm">
                               <i class="ri-user-add-line align-middle"></i>
                             </BButton>
                           </div>
@@ -255,7 +255,7 @@ export default {
                             </div>
                           </div>
                           <div class="flex-shrink-0 ms-2">
-                            <BButton type="button" variant="outline-secondary" size="sm">
+                            <BButton type="button" variant="outline-success" size="sm">
                               <i class="ri-user-add-line align-middle"></i>
                             </BButton>
                           </div>
@@ -474,10 +474,10 @@ export default {
                                           <BCol cols="auto">
                                             <div class="d-flex border border-dashed p-2 rounded position-relative">
                                               <div class="flex-shrink-0">
-                                                <i class="ri-image-2-line fs-17 text-secondary"></i>
+                                                <i class="ri-image-2-line fs-17 text-danger"></i>
                                               </div>
                                               <div class="flex-grow-1 ms-2">
-                                                <h6 class="mb-0">
+                                                <h6>
                                                   <BLink href="javascript:void(0);" class="stretched-link">Business
                                                     Template
                                                     - UI/UX
@@ -490,7 +490,7 @@ export default {
                                           <BCol cols="auto">
                                             <div class="d-flex border border-dashed p-2 rounded position-relative">
                                               <div class="flex-shrink-0">
-                                                <i class="ri-file-zip-line fs-17 text-secondary"></i>
+                                                <i class="ri-file-zip-line fs-17 text-info"></i>
                                               </div>
                                               <div class="flex-grow-1 ms-2">
                                                 <h6>
@@ -821,7 +821,7 @@ export default {
                                                 <i class="ri-image-2-line fs-17 text-danger"></i>
                                               </div>
                                               <div class="flex-grow-1 ms-2">
-                                                <h6 class="mb-0">
+                                                <h6>
                                                   <BLink href="javascript:void(0);" class="stretched-link">Business
                                                     Template
                                                     - UI/UX
@@ -837,7 +837,7 @@ export default {
                                                 <i class="ri-file-zip-line fs-17 text-info"></i>
                                               </div>
                                               <div class="flex-grow-1 ms-2">
-                                                <h6 class="mb-0">
+                                                <h6>
                                                   <BLink href="javascript:void(0);" class="stretched-link">Bank
                                                     Management
                                                     System -
@@ -853,7 +853,7 @@ export default {
                                                 <i class="ri-file-zip-line fs-17 text-info"></i>
                                               </div>
                                               <div class="flex-grow-1 ms-2">
-                                                <h6 class="mb-0">
+                                                <h6>
                                                   <BLink href="javascript:void(0);" class="stretched-link">Bank
                                                     Management
                                                     System -
@@ -1031,7 +1031,7 @@ export default {
                         <swiper :slides-per-view="3" :space-between="50">
                           <swiper-slide>
                             <div class="swiper-slide">
-                              <BCard no-body class="profile-project-card shadow-none profile-project-primary mb-0">
+                              <BCard no-body class="profile-project-card shadow-none profile-project-success mb-0">
                                 <BCardBody class="p-4">
                                   <div class="d-flex">
                                     <div class="flex-grow-1 text-muted overflow-hidden">
@@ -1093,7 +1093,7 @@ export default {
                           </swiper-slide>
                           <swiper-slide>
                             <div class="swiper-slide">
-                              <BCard no-body class="profile-project-card shadow-none profile-project-success mb-0">
+                              <BCard no-body class="profile-project-card shadow-none profile-project-danger mb-0">
                                 <BCardBody class="p-4">
                                   <div class="d-flex">
                                     <div class="flex-grow-1 text-muted overflow-hidden">
@@ -1187,7 +1187,7 @@ export default {
 
                           <swiper-slide>
                             <div class="swiper-slide">
-                              <BCard no-body class="profile-project-card shadow-none profile-project-primary mb-0">
+                              <BCard no-body class="profile-project-card shadow-none profile-project-danger mb-0">
                                 <BCardBody class="p-4">
                                   <div class="d-flex">
                                     <div class="flex-grow-1 text-muted overflow-hidden">
@@ -1237,7 +1237,7 @@ export default {
                           </swiper-slide>
                           <swiper-slide>
                             <div class="swiper-slide">
-                              <BCard no-body class="profile-project-card shadow-none profile-project-success mb-0">
+                              <BCard no-body class="profile-project-card shadow-none profile-project-warning mb-0">
                                 <BCardBody class="p-4">
                                   <div class="d-flex">
                                     <div class="flex-grow-1 text-muted overflow-hidden">
@@ -1414,7 +1414,7 @@ export default {
                     <div class="acitivity-item py-3 d-flex">
                       <div class="flex-shrink-0">
                         <div class="avatar-xs acitivity-avatar">
-                          <div class="avatar-title rounded-circle bg-primary-subtle text-primary">
+                          <div class="avatar-title rounded-circle bg-danger-subtle text-danger">
                             <i class="ri-shopping-bag-line"></i>
                           </div>
                         </div>
@@ -1449,7 +1449,7 @@ export default {
                     <div class="acitivity-item py-3 d-flex">
                       <div class="flex-shrink-0">
                         <div class="avatar-xs acitivity-avatar">
-                          <div class="avatar-title rounded-circle bg-primary-subtle text-primary">
+                          <div class="avatar-title rounded-circle bg-info-subtle text-info">
                             <i class="ri-line-chart-line"></i>
                           </div>
                         </div>
@@ -1496,7 +1496,7 @@ export default {
                 <BCardBody>
                   <BRow>
                     <BCol xxl="3" sm="6">
-                      <BCard no-body class="profile-project-card shadow-none profile-project-primary">
+                      <BCard no-body class="profile-project-card shadow-none profile-project-warning">
                         <BCardBody class="p-4">
                           <div class="d-flex">
                             <div class="flex-grow-1 text-muted overflow-hidden">
@@ -1713,7 +1713,7 @@ export default {
                       </BCard>
                     </BCol>
                     <BCol xxl="3" sm="6">
-                      <BCard no-body class="profile-project-card shadow-none profile-project-success">
+                      <BCard no-body class="profile-project-card shadow-none profile-project-danger">
                         <BCardBody class="p-4">
                           <div class="d-flex">
                             <div class="flex-grow-1 text-muted overflow-hidden">
@@ -1766,7 +1766,7 @@ export default {
                       </BCard>
                     </BCol>
                     <BCol xxl="3" sm="6">
-                      <BCard no-body class="profile-project-card shadow-none profile-project-info">
+                      <BCard no-body class="profile-project-card shadow-none profile-project-primary">
                         <BCardBody class="p-4">
                           <div class="d-flex">
                             <div class="flex-grow-1 text-muted overflow-hidden">
@@ -1821,7 +1821,7 @@ export default {
                       </BCard>
                     </BCol>
                     <BCol xxl="3" sm="6">
-                      <BCard no-body class="profile-project-card shadow-none profile-project-primary">
+                      <BCard no-body class="profile-project-card shadow-none profile-project-warning">
                         <BCardBody class="p-4">
                           <div class="d-flex">
                             <div class="flex-grow-1 text-muted overflow-hidden">
@@ -2023,7 +2023,7 @@ export default {
                       </BCard>
                     </BCol>
                     <BCol xxl="3" sm="6">
-                      <BCard no-body class="profile-project-card shadow-none mb-sm-0 profile-project-secondary">
+                      <BCard no-body class="profile-project-card shadow-none mb-sm-0 profile-project-danger">
                         <BCardBody class="p-4">
                           <div class="d-flex">
                             <div class="flex-grow-1 text-muted overflow-hidden">
@@ -2165,7 +2165,7 @@ export default {
                     <h5 class="card-title flex-grow-1 mb-0">Documents</h5>
                     <div class="flex-shrink-0">
                       <input class="form-control d-none" type="file" id="formFile" />
-                      <label for="formFile" class="btn btn-primary"><i class="ri-upload-2-fill me-1 align-bottom"></i>
+                      <label for="formFile" class="btn btn-danger"><i class="ri-upload-2-fill me-1 align-bottom"></i>
                         Upload File</label>
                     </div>
                   </div>
@@ -2187,13 +2187,13 @@ export default {
                               <td>
                                 <div class="d-flex align-items-center">
                                   <div class="avatar-sm">
-                                    <div class="avatar-title bg-light text-primary rounded fs-20">
+                                    <div class="avatar-title bg-primary-subtle text-primary rounded fs-20">
                                       <i class="ri-file-zip-fill"></i>
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
                                     <h6 class="fs-15 mb-0">
-                                      <BLink href="javascript:void(0)" class="link-secondary">Artboard-documents.zip</BLink>
+                                      <BLink href="javascript:void(0)">Artboard-documents.zip</BLink>
                                     </h6>
                                   </div>
                                 </div>
@@ -2221,13 +2221,13 @@ export default {
                               <td>
                                 <div class="d-flex align-items-center">
                                   <div class="avatar-sm">
-                                    <div class="avatar-title bg-light text-primary rounded fs-20">
+                                    <div class="avatar-title bg-danger-subtle text-danger rounded fs-20">
                                       <i class="ri-file-pdf-fill"></i>
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
                                     <h6 class="fs-15 mb-0">
-                                      <BLink href="javascript:void(0);" class="link-secondary">Bank Management System</BLink>
+                                      <BLink href="javascript:void(0);">Bank Management System</BLink>
                                     </h6>
                                   </div>
                                 </div>
@@ -2255,13 +2255,13 @@ export default {
                               <td>
                                 <div class="d-flex align-items-center">
                                   <div class="avatar-sm">
-                                    <div class="avatar-title bg-light text-primary rounded fs-20">
+                                    <div class="avatar-title bg-secondary-subtle text-secondary rounded fs-20">
                                       <i class="ri-video-line"></i>
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
                                     <h6 class="fs-15 mb-0">
-                                      <BLink href="javascript:void(0);" class="link-secondary">Tour-video.mp4</BLink>
+                                      <BLink href="javascript:void(0);">Tour-video.mp4</BLink>
                                     </h6>
                                   </div>
                                 </div>
@@ -2289,13 +2289,13 @@ export default {
                               <td>
                                 <div class="d-flex align-items-center">
                                   <div class="avatar-sm">
-                                    <div class="avatar-title bg-light text-primary rounded fs-20">
+                                    <div class="avatar-title bg-success-subtle text-success rounded fs-20">
                                       <i class="ri-file-excel-fill"></i>
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
                                     <h6 class="fs-15 mb-0">
-                                      <BLink href="javascript:void(0);" class="link-secondary">Account-statement.xsl</BLink>
+                                      <BLink href="javascript:void(0);">Account-statement.xsl</BLink>
                                     </h6>
                                   </div>
                                 </div>
@@ -2323,13 +2323,13 @@ export default {
                               <td>
                                 <div class="d-flex align-items-center">
                                   <div class="avatar-sm">
-                                    <div class="avatar-title bg-light text-primary rounded fs-20">
+                                    <div class="avatar-title bg-info-subtle text-info rounded fs-20">
                                       <i class="ri-folder-line"></i>
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
                                     <h6 class="fs-15 mb-0">
-                                      <BLink href="javascript:void(0);" class="link-secondary">Project Screenshots Collection</BLink>
+                                      <BLink href="javascript:void(0);">Project Screenshots Collection</BLink>
                                     </h6>
                                   </div>
                                 </div>
@@ -2357,13 +2357,13 @@ export default {
                               <td>
                                 <div class="d-flex align-items-center">
                                   <div class="avatar-sm">
-                                    <div class="avatar-title bg-light text-primary rounded fs-20">
+                                    <div class="avatar-title bg-danger-subtle text-danger rounded fs-20">
                                       <i class="ri-image-2-fill"></i>
                                     </div>
                                   </div>
                                   <div class="ms-3 flex-grow-1">
                                     <h6 class="fs-15 mb-0">
-                                      <BLink href="javascript:void(0);" class="link-secondary">Velzon-logo.png</BLink>
+                                      <BLink href="javascript:void(0);">Velzon-logo.png</BLink>
                                     </h6>
                                   </div>
                                 </div>
@@ -2391,7 +2391,7 @@ export default {
                         </table>
                       </div>
                       <div class="text-center mt-3">
-                        <BLink href="javascript:void(0);" class="text-primary"><i
+                        <BLink href="javascript:void(0);" class="text-success"><i
                             class="mdi mdi-loading mdi-spin fs-20 align-middle me-2"></i>
                           Load more
                         </BLink>

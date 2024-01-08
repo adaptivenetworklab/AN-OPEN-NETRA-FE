@@ -130,7 +130,7 @@ export default {
                                 </thead>    
                                 <tbody class="list form-check-all">
                                     <tr v-for="(data, index) of resultQuery" :key="index">
-                                        <td class="ranking " :class="data.ranking <= 3 && 'text-danger fw-semibold'">
+                                        <td class="ranking " :class="data.ranking <= 3 && 'text-info fw-semibold'">
                                             #{{ data.ranking }}
                                         </td>
                                         <td class="collection">

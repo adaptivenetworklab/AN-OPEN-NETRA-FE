@@ -12,19 +12,19 @@ export default {
     <Layout>
         <BRow>
             <BCol lg="12">
-                <BCard no-body class="rounded-0 bg-primary-subtle mx-n4 mt-n4 border-top">
+                <BCard no-body class="rounded-0 bg-success-subtle mx-n4 mt-n4 border-top">
                     <div class="px-4">
                         <BRow>
                             <BCol xxl="5" class="align-self-center">
                                 <div class="py-4">
                                     <h4 class="display-6 coming-soon-text">Frequently asked questions</h4>
-                                    <p class="text-muted fs-15 mt-3">If you can not find answer to your question in
+                                    <p class="text-success fs-15 mt-3">If you can not find answer to your question in
                                         our FAQ, you can always contact us or email us. We will answer you shortly!</p>
                                     <div class="hstack flex-wrap gap-2">
                                         <BButton pill variant="primary" type="button" class="btn-label"><i
                                                 class="ri-mail-line label-icon align-middle rounded-pill fs-16 me-2"></i>
                                             Email Us</BButton>
-                                        <BButton pill variant="secondary" type="button" class="btn-label"><i
+                                        <BButton pill variant="info" type="button" class="btn-label"><i
                                                 class="ri-twitter-line label-icon align-middle rounded-pill fs-16 me-2"></i>
                                             Send Us Tweet</BButton>
                                     </div>

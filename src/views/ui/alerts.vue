@@ -313,7 +313,7 @@ export default {
         <BCard no-body>
           <CardHeader title="Dismissing Alerts" />
 
-          <BCardBody>
+          <BCardBody class="pb-0">
             <p class="text-muted">
               Use the
               <code>dismissible</code> to <code>BAlert</code> to add dismissing button to
@@ -552,7 +552,7 @@ A simple &lt;b&gt;Dark alert&lt;/b&gt; with &lt;a href=&quot;#&quot; class=&quot
         <BCard no-body>
           <CardHeader title="Outline Alerts" />
 
-          <BCardBody>
+          <BCardBody class="pb-0">
             <p class="text-muted">
               Use the
               <code>border-2 bg-body-secondary</code> class to set an alert with outline.
@@ -663,7 +663,7 @@ A simple &lt;b&gt;Dark alert&lt;/b&gt; with &lt;a href=&quot;#&quot; class=&quot
         <BCard no-body>
           <CardHeader title="Left Border Alerts" />
 
-          <BCardBody>
+          <BCardBody class="pb-0">
             <p class="text-muted">
               Use the
               <code>alert-border-left</code> class to set an alert with the left
@@ -1148,7 +1148,7 @@ A simple &lt;b&gt;Dark alert&lt;/b&gt; with &lt;a href=&quot;#&quot; class=&quot
         <BCard no-body>
           <CardHeader title="Top Border with Outline Alerts" />
 
-          <BCardBody>
+          <BCardBody class="pb-0">
             <p class="text-muted">
               Use the
               <code>alert-top-border</code> class to set an alert with the top
@@ -1204,14 +1204,14 @@ A simple &lt;b&gt;Dark alert&lt;/b&gt; with &lt;a href=&quot;#&quot; class=&quot
                   <h6>Light Alert</h6>
                   <BAlert dismissible :model-value="true" v-model="dismissibleAlert41" variant="light"
                     class="alert-top-border">
-                    <i class="ri-mail-line me-3 align-middle fs-16 text-body"></i><strong>Light</strong>- Top border
+                    <i class="ri-mail-line me-3 align-middle fs-16"></i><strong>Light</strong>- Top border
                     alert
                   </BAlert>
 
                   <h6>Dark Alert</h6>
                   <BAlert dismissible :model-value="true" v-model="dismissibleAlert42" variant="dark"
                     class="alert-top-border">
-                    <i class="ri-refresh-line me-3 align-middle fs-16 text-body"></i><strong>Dark</strong>- Top border
+                    <i class="ri-refresh-line me-3 align-middle fs-16"></i><strong>Dark</strong>- Top border
                     alert
                   </BAlert>
                 </BCol>
@@ -1279,7 +1279,7 @@ A simple &lt;b&gt;Dark alert&lt;/b&gt; with &lt;a href=&quot;#&quot; class=&quot
         <BCard no-body>
           <CardHeader title="Label Icon Arrow Alerts" />
 
-          <BCardBody>
+          <BCardBody class="pb-0">
             <p class="text-muted">
               Use the
               <code>alert-label-icon label-arrow</code> class to show an alert
@@ -1402,7 +1402,7 @@ A simple &lt;b&gt;Dark alert&lt;/b&gt; with &lt;a href=&quot;#&quot; class=&quot
         <BCard no-body>
           <CardHeader title="Rounded Label Icon Alerts" />
 
-          <BCardBody>
+          <BCardBody class="pb-0">
             <p class="text-muted">
               Use the
               <code>alert-label-icon rounded-label</code> class to set an alert
@@ -1527,7 +1527,7 @@ A simple &lt;b&gt;Dark alert&lt;/b&gt; with &lt;a href=&quot;#&quot; class=&quot
         <BCard no-body>
           <CardHeader title="Solid Alerts" />
 
-          <BCardBody>
+          <BCardBody class="pb-0">
             <p class="text-muted">
               Use the
               <code>alert-solid</code> class to set an alert with solid style.
@@ -1537,25 +1537,25 @@ A simple &lt;b&gt;Dark alert&lt;/b&gt; with &lt;a href=&quot;#&quot; class=&quot
               <BRow>
                 <BCol xl="6">
                   <h6>Primary Solid Alert</h6>
-                  <BAlert :model-value="true" variant="primary" class="alert-solid">
+                  <BAlert :model-value="true" variant="primary" class="bg-primary border-primary text-white">
                     <strong>Hi!</strong> - Solid <b>primary alert</b>
                     example
                   </BAlert>
 
                   <h6>Secondary Solid Alert</h6>
-                  <BAlert :model-value="true" variant="secondary" class="alert-solid">
+                  <BAlert :model-value="true" variant="secondary" class="bg-secondary border-secondary text-white">
                     <strong>Hi!</strong> - Solid <b>primary
                       alert</b> example
                   </BAlert>
 
                   <h6>Success Solid Alert</h6>
-                  <BAlert :model-value="true" variant="success" class="alert-solid">
+                  <BAlert :model-value="true" variant="success" class="bg-success border-success text-white">
                     <strong>Hi!</strong> - Solid <b>primary alert</b>
                     example
                   </BAlert>
 
                   <h6>Danger Solid Alert</h6>
-                  <BAlert :model-value="true" variant="danger" class="alert-solid">
+                  <BAlert :model-value="true" variant="danger" class="bg-danger border-danger text-white">
                     <strong>Hi!</strong> - Solid <b>primary alert</b>
                     example
                   </BAlert>
@@ -1563,22 +1563,22 @@ A simple &lt;b&gt;Dark alert&lt;/b&gt; with &lt;a href=&quot;#&quot; class=&quot
 
                 <BCol xl="6">
                   <h6>Warning Solid Alert</h6>
-                  <BAlert :model-value="true" variant="warning" class="alert-solid">
+                  <BAlert :model-value="true" variant="warning" class="bg-warning border-warning text-white">
                     <strong>Hi!</strong> - Solid <b>primary alert</b>
                     example
                   </BAlert>
 
                   <h6>Info Solid Alert</h6>
-                  <BAlert :model-value="true" variant="info" class="alert-solid"><strong>Hi!</strong> -
+                  <BAlert :model-value="true" variant="info" class="bg-info border-info text-white"><strong>Hi!</strong> -
                     Solid <b>primary alert</b>
                     example</BAlert>
 
                   <h6>Light Solid Alert</h6>
-                  <BAlert :model-value="true" variant="light" class="alert-solid"><strong>Hi!</strong>
+                  <BAlert :model-value="true" variant="light" class="bg-light border-light text-body"><strong>Hi!</strong>
                     - Solid <b>primary alert</b>
                     example</BAlert>
                   <h6>Dark Solid Alert</h6>
-                  <BAlert :model-value="true" variant="dark" class="alert-solid">
+                  <BAlert :model-value="true" variant="dark" class="bg-dark border-dark text-white mb-0">
                     <strong>Hi!</strong> - Solid <b>primary alert</b>
                     example
                   </BAlert>

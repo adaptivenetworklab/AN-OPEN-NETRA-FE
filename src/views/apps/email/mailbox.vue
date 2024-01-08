@@ -299,10 +299,10 @@ export default {
 <template>
     <Layout>
         <div class="email-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
-            <div class="email-menu-sidebar border" id="menusidebar">
+            <div class="email-menu-sidebar" id="menusidebar">
                 <div class="p-4 d-flex flex-column h-100">
                     <div class="pb-4 border-bottom border-bottom-dashed">
-                        <BButton type="button" variant="danger" class="w-100" @click="modalShow = !modalShow">
+                        <BButton type="button" variant="secondary" class="w-100" @click="modalShow = !modalShow">
                             <plus-circle-icon class="icon-xs me-1 icon-dual-light"></plus-circle-icon> Compose
                         </BButton>
                     </div>
@@ -399,7 +399,7 @@ export default {
             </div>
 
 
-            <div class="email-content border">
+            <div class="email-content">
                 <div class="px-4 pt-4 pb-0">
                     <div class="border-bottom border-bottom-dashed">
                         <BRow class="mt-n2 mb-3 mb-sm-0">
@@ -454,7 +454,7 @@ export default {
 
                         <BRow class="align-items-center mt-3">
                             <BCol>
-                                <ul class="nav nav-tabs nav-tabs-custom nav-primary gap-1 text-center border-bottom-0" role="tablist" id="mailfilter">
+                                <ul class="nav nav-tabs nav-tabs-custom nav-success gap-1 text-center border-bottom-0" role="tablist" id="mailfilter">
                                     <li class="nav-item tabtype">
                                         <BLink class="nav-link fw-semibold active" id="primarytab" href="#" @click="changetab('primary')">
                                             <i class="ri-inbox-fill align-bottom d-inline-block"></i>
@@ -559,7 +559,7 @@ export default {
                                 </li>
                             </div>
                             <li class="bg-transparent text-center">
-                                <BButton type="button" pill variant="info-subtle" size="sm" class="btn-rounded px-2"><i class="mdi mdi-spin mdi-loading me-2"></i>Load More</BButton>
+                                <BButton type="button" pill variant="soft-info" size="sm" class="btn-rounded px-2"><i class="mdi mdi-spin mdi-loading me-2"></i>Load More</BButton>
                             </li>
 
                         </ul>
@@ -568,7 +568,7 @@ export default {
             </div>
 
 
-            <div class="email-detail-content border">
+            <div class="email-detail-content">
                 <div class="p-4 d-flex flex-column h-100">
                     <div class="pb-4 border-bottom border-bottom-dashed">
                         <BRow>

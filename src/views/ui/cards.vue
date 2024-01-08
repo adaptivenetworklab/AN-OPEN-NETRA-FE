@@ -41,7 +41,7 @@ export default {
                             Read More
                             <i class="ri-arrow-right-s-line ms-1 align-middle lh-1"></i>
                         </BLink>
-                        <BLink href="javascript:void(0);" class="card-link">
+                        <BLink href="javascript:void(0);" class="card-link link-success">
                             Bookmark
                             <i class="ri-bookmark-line align-middle ms-1 lh-1"></i>
                         </BLink>
@@ -78,7 +78,7 @@ export default {
                             Read More
                             <i class="ri-arrow-right-s-line ms-1 align-middle lh-1"></i>
                         </BLink>
-                        <BLink href="javascript:void(0);" class="card-link">
+                        <BLink href="javascript:void(0);" class="card-link link-success">
                             Bookmark
                             <i class="ri-bookmark-line align-middle ms-1 lh-1"></i>
                         </BLink>
@@ -186,40 +186,40 @@ export default {
                     <BCol xxl="4" lg="6">
                         <BCard no-body class="card-body">
                             <div class="avatar-sm mb-3">
-                                <div class="avatar-title bg-light text-primary fs-17 rounded">
+                                <div class="avatar-title bg-success-subtle text-success fs-17 rounded">
                                     <i class="ri-smartphone-line"></i>
                                 </div>
                             </div>
                             <BCardTitle>Text Application</BCardTitle>
                             <p class="card-text text-muted">Send a link to apply on mobile device. Appropriately
                                 communicate one-to-one technology.</p>
-                            <BLink href="javascript:void(0);" class="btn btn-soft-primary">Apply Now</BLink>
+                            <BLink href="javascript:void(0);" class="btn btn-success">Apply Now</BLink>
                         </BCard> 
                     </BCol>
                     <BCol xxl="4" lg="6">
                         <BCard no-body class="card-body text-center">
                             <div class="avatar-sm mx-auto mb-3">
-                                <div class="avatar-title bg-light text-primary fs-17 rounded">
+                                <div class="avatar-title bg-success-subtle text-success fs-17 rounded">
                                     <i class="ri-add-line"></i>
                                 </div>
                             </div>
                             <BCardTitle>Add New Application</BCardTitle>
                             <p class="card-text text-muted">Send a link to apply on mobile device. Appropriately
                                 communicate one-to-one technology.</p>
-                            <BLink href="javascript:void(0);" class="btn btn-soft-primary">Add New</BLink>
+                            <BLink href="javascript:void(0);" class="btn btn-success">Add New</BLink>
                         </BCard> 
                     </BCol>
                     <BCol xxl="4" lg="6">
                         <BCard no-body class="card-body text-end">
                             <div class="avatar-sm ms-auto mb-3">
-                                <div class="avatar-title bg-light text-primary fs-17 rounded">
+                                <div class="avatar-title bg-success-subtle text-success fs-17 rounded">
                                     <i class="ri-gift-fill"></i>
                                 </div>
                             </div>
                             <BCardTitle>Text Application</BCardTitle>
                             <p class="card-text text-muted">Send a link to apply on mobile device. Appropriately
                                 communicate one-to-one technology.</p>
-                            <BLink href="javascript:void(0);" class="btn btn-soft-primary">Add New</BLink>
+                            <BLink href="javascript:void(0);" class="btn btn-success">Add New</BLink>
                         </BCard> 
                     </BCol>
                 </BRow>
@@ -245,7 +245,7 @@ export default {
                                     she spot near can. Spirit her entire her called.</p>
                             </BCardBody>
                             <BCardFooter>
-                                <BLink href="javascript:void(0);" class="link-primary float-end">
+                                <BLink href="javascript:void(0);" class="link-success float-end">
                                     Read More
                                     <i class="ri-arrow-right-s-line align-middle ms-1 lh-1"></i>
                                 </BLink>
@@ -269,7 +269,7 @@ export default {
                                     distract the viewer's attention from the layout.</p>
                             </BCardBody>
                             <BCardFooter>
-                                <BLink href="javascript:void(0);" class="link-primary float-end">
+                                <BLink href="javascript:void(0);" class="link-success float-end">
                                     Payment Now
                                     <i class="ri-arrow-right-s-line align-middle ms-1 lh-1"></i>
                                 </BLink>
@@ -361,7 +361,7 @@ export default {
                     </BCardBody>
                     <BCardFooter>
                         <div class="hstack gap-2 justify-content-end">
-                            <BLink href="javascript:void(0)" class="btn btn-link btn-sm">
+                            <BLink href="javascript:void(0)" class="btn btn-link btn-sm link-success">
                                 <i class="ri-close-line align-middle lh-1"></i> Close
                             </BLink>
                             <BLink href="javasceript:void(0);" class="btn btn-primary btn-sm">Read More</BLink>
@@ -525,14 +525,14 @@ export default {
                     <BCardBody class="collapse show" id="collapseexample1">
                         <div class="d-flex">
                             <div class="flex-shrink-0">
-                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                                <i class="ri-checkbox-circle-fill text-success"></i>
                             </div>
                             <div class="flex-grow-1 ms-2 text-muted">Some placeholder content for the collapse
                                 component. This panel is hidden by default but revealed when the user activates.</div>
                         </div>
                         <div class="d-flex mt-2">
                             <div class="flex-shrink-0">
-                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                                <i class="ri-checkbox-circle-fill text-success"></i>
                             </div>
                             <div class="flex-grow-1 ms-2 text-muted">Too much or too little spacing, as in the example
                                 below, can make things unpleasant for the reader. The goal is to make your text as
@@ -540,7 +540,7 @@ export default {
                         </div>
                         <div class="d-flex mt-2">
                             <div class="flex-shrink-0">
-                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                                <i class="ri-checkbox-circle-fill text-success"></i>
                             </div>
                             <div class="flex-grow-1 ms-2 text-muted">This may be the most commonly encountered tip I
                                 received from the designers I spoke with. They highly encourage that you use different
@@ -583,14 +583,14 @@ export default {
                     <BCardBody class="collapse show" id="collapseExample2">
                         <div class="d-flex">
                             <div class="flex-shrink-0">
-                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                                <i class="ri-checkbox-circle-fill text-success"></i>
                             </div>
                             <div class="flex-grow-1 ms-2 text-muted">Some placeholder content for the collapse
                                 component. This panel is hidden by default but revealed when the user activates.</div>
                         </div>
                         <div class="d-flex mt-2">
                             <div class="flex-shrink-0">
-                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                                <i class="ri-checkbox-circle-fill text-success"></i>
                             </div>
                             <div class="flex-grow-1 ms-2 text-muted">Too much or too little spacing, as in the example
                                 below, can make things unpleasant for the reader. The goal is to make your text as
@@ -598,7 +598,7 @@ export default {
                         </div>
                         <div class="d-flex mt-2">
                             <div class="flex-shrink-0">
-                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                                <i class="ri-checkbox-circle-fill text-success"></i>
                             </div>
                             <div class="flex-grow-1 ms-2 text-muted">This may be the most commonly encountered tip I
                                 received from the designers I spoke with. They highly encourage that you use different
@@ -641,14 +641,14 @@ export default {
                     <BCardBody class="collapse show" id="collapseExample3">
                         <div class="d-flex">
                             <div class="flex-shrink-0">
-                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                                <i class="ri-checkbox-circle-fill text-success"></i>
                             </div>
                             <div class="flex-grow-1 ms-2 text-muted">Some placeholder content for the collapse
                                 component. This panel is hidden by default but revealed when the user activates.</div>
                         </div>
                         <div class="d-flex mt-2">
                             <div class="flex-shrink-0">
-                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                                <i class="ri-checkbox-circle-fill text-success"></i>
                             </div>
                             <div class="flex-grow-1 ms-2 text-muted">Too much or too little spacing, as in the example
                                 below, can make things unpleasant for the reader. The goal is to make your text as
@@ -656,7 +656,7 @@ export default {
                         </div>
                         <div class="d-flex mt-2">
                             <div class="flex-shrink-0">
-                                <i class="ri-checkbox-circle-fill text-primary"></i>
+                                <i class="ri-checkbox-circle-fill text-success"></i>
                             </div>
                             <div class="flex-grow-1 ms-2 text-muted">This may be the most commonly encountered tip I
                                 received from the designers I spoke with. They highly encourage that you use different
@@ -1523,7 +1523,7 @@ export default {
                                     she spot near can. Spirit her entire her called.</p>
                             </BCardBody>
                             <BCardFooter>
-                                <BLink href="javascript:void(0);" class="float-end">
+                                <BLink href="javascript:void(0);" class="link-success float-end">
                                     Read More
                                     <i class="ri-arrow-right-s-line align-middle ms-1 lh-1"></i>
                                 </BLink>
@@ -1532,7 +1532,7 @@ export default {
                         </BCard> 
                     </BCol>
                     <BCol sm="6" lg="4">
-                        <BCard no-body class="bg-success text-white text-center p-3">
+                        <BCard no-body class="bg-primary text-white text-center p-3">
                             <blockquote class="card-blockquote m-0">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
                                 <footer class="blockquote-footer text-white font-size-12 mt-0 mb-0">
@@ -1543,7 +1543,7 @@ export default {
                         </BCard> 
                     </BCol>
                     <BCol sm="6" lg="4">
-                        <BCard no-body class="card-primary">
+                        <BCard no-body class="card-success">
                             <BCardBody>
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0">

@@ -126,7 +126,7 @@ export default {
             <BContainer>
                 <BRow>
                     <BCol lg="12">
-                        <BCard no-body class="overflow-hidden border-0">
+                        <BCard no-body class="overflow-hidden">
                             <BRow class="justify-content-center g-0">
                                 <BCol lg="6">
                                     <div class="p-lg-5 p-4 auth-one-bg h-100">
@@ -234,7 +234,7 @@ export default {
                                                 </div>
 
                                                 <div class="mt-4">
-                                                    <BButton variant="success" class="w-100" @click="validatepassword"
+                                                    <BButton variant="secondary" class="w-100" @click="validatepassword"
                                                         type="submit">Reset Password</BButton>
                                                 </div>
 

@@ -56,7 +56,7 @@ export default {
                       <p class="fs-16 lh-base">Upgrade your plan from a <span class="fw-semibold">Free
                           trial</span>, to ‘Premium Plan’ <i class="mdi mdi-arrow-right"></i></p>
                       <div class="mt-3">
-                        <router-link to="/pages/pricing" class="btn btn-primary">Upgrade Account!</router-link>
+                        <router-link to="/pages/pricing" class="btn btn-secondary">Upgrade Account!</router-link>
                       </div>
                     </div>
                   </BCol>

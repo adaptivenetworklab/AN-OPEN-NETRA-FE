@@ -54,7 +54,7 @@ export default {
             enabled: false,
           },
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.75", "--vz-danger", "--vz-danger"]'),
+        colors: getChartColorsArray('["--vz-secondary", "--vz-primary", "--vz-success"]'),
       },
       //
       submitted: false,
@@ -113,10 +113,10 @@ export default {
 
       item.addEventListener('click', function () {
         if (item.classList.contains("active")) {
-          item.classList.remove("active")
-        } else {
-          item.classList.add("active")
-        }
+        item.classList.remove("active")
+      } else {
+        item.classList.add("active")
+      }
       });
     })
   },
@@ -200,13 +200,15 @@ export default {
             <BRow class="mt-3 gy-3">
               <BCol xxl="10" md="6">
                 <div class="search-box">
-                  <input type="text" class="form-control search bg-light border-light" id="searchJob" autocomplete="off" placeholder="Search for jobs or companies..." v-model="searchQuery">
+                  <input type="text" class="form-control search bg-light border-light" id="searchJob" autocomplete="off"
+                    placeholder="Search for jobs or companies..." v-model="searchQuery">
                   <i class="ri-search-line search-icon"></i>
                 </div>
               </BCol>
               <BCol xxl="2" md="6">
                 <div class="input-light">
-                  <select class="form-control" data-choices data-choices-search-false name="choices-single-default" id="idStatus">
+                  <select class="form-control" data-choices data-choices-search-false name="choices-single-default"
+                    id="idStatus">
                     <option value="All">All Selected</option>
                     <option value="Newest" selected>Newest</option>
                     <option value="Popular">Popular</option>
@@ -232,7 +234,8 @@ export default {
             <BCardBody>
               <div class="d-flex mb-4">
                 <div class="avatar-sm">
-                  <div class="avatar-title bg-light rounded"> <img :src="data.logo" alt="" class="avatar-xxs companyLogo-img"> </div>
+                  <div class="avatar-title bg-light rounded"> <img :src="data.logo" alt=""
+                      class="avatar-xxs companyLogo-img"> </div>
                 </div>
                 <div class="ms-3 flex-grow-1"> <img :src="data.img" alt="" class="d-none cover-img">
                   <BLink href="#!">
@@ -266,7 +269,8 @@ export default {
                 }}</span>
                 </div>
                 <div>
-                  <BLink href="#!" class="btn btn-primary viewjob-list" @click="showdetail(data)">View More <i class="ri-arrow-right-line align-bottom ms-1"></i></BLink>
+                  <BLink href="#!" class="btn btn-primary viewjob-list" @click="showdetail(data)">View More <i
+                      class="ri-arrow-right-line align-bottom ms-1"></i></BLink>
                 </div>
               </div>
             </BCardFooter>
@@ -275,12 +279,15 @@ export default {
         </div>
         <BRow class="g-0 justify-content-end mb-4" id="pagination-element">
           <BCol sm="6">
-            <div class="pagination-block pagination pagination-separated justify-content-center justify-content-sm-end mb-sm-0" v-if="pages.length > 1">
+            <div
+              class="pagination-block pagination pagination-separated justify-content-center justify-content-sm-end mb-sm-0"
+              v-if="pages.length > 1">
               <div class="page-item">
                 <BLink href="#" class="page-link" id="page-prev" :disabled="page <= 1" @click="page--">Previous</BLink>
               </div>
               <span id="page-num" class="pagination">
-                <div class="page-item" :class="{ active: pageNumber == page, disabled: pageNumber == '...', }" v-for="(pageNumber, index) in pages" :key="index" @click="page = pageNumber">
+                <div class="page-item" :class="{ active: pageNumber == page, disabled: pageNumber == '...', }"
+                  v-for="(pageNumber, index) in pages" :key="index" @click="page = pageNumber">
                   <BLink class="page-link clickPageNumber" href="javascript:void(0);">{{ pageNumber }}</BLink>
                 </div>
               </span>
@@ -305,8 +312,10 @@ export default {
             <div class="mt-3">
               <h5 class="view-title">Product Designer</h5>
               <div class="hstack gap-3 mb-3">
-                <span class="text-muted"><i class="ri-building-line me-1 align-bottom"></i> <span class="view-companyname">Themesbrand</span></span>
-                <span class="text-muted"><i class="ri-map-pin-2-line me-1 align-bottom"></i> <span class="view-location">United Kingdom</span></span>
+                <span class="text-muted"><i class="ri-building-line me-1 align-bottom"></i> <span
+                    class="view-companyname">Themesbrand</span></span>
+                <span class="text-muted"><i class="ri-map-pin-2-line me-1 align-bottom"></i> <span
+                    class="view-location">United Kingdom</span></span>
               </div>
               <p class="text-muted view-desc">A UI/UX designer's job is to create user-friendly interfaces that enable
                 users to understand how to use complex technical products. If you're passionate about the latest
@@ -345,7 +354,7 @@ export default {
               </div>
             </div>
             <div class="mt-4">
-              <BButton type="button" variant="success" class="w-100">Apply Now</BButton>
+              <BButton type="button" variant="soft-info" class="w-100">Apply Now</BButton>
             </div>
           </BCardBody>
         </BCard>
@@ -353,7 +362,8 @@ export default {
     </BRow>
 
 
-    <BModal v-model="createJobModal" id="CreateJobModal" size="lg" hide-footer hide-header class="v-modal-custom" centered>
+    <BModal v-model="createJobModal" id="CreateJobModal" size="lg" hide-footer hide-header class="v-modal-custom"
+      centered>
       <BForm id="createjobform" autocomplete="off" class="needs-validation" novalidate>
         <input type="hidden" id="id-field" />
         <BRow class="g-3">
@@ -369,14 +379,16 @@ export default {
                   <div class="flex-shrink-0">
                     <div class="d-flex gap-3 align-items-center">
                       <div>
-                        <label for="cover-image-input" class="mb-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Select Cover Image">
+                        <label for="cover-image-input" class="mb-0" data-bs-toggle="tooltip" data-bs-placement="top"
+                          title="Select Cover Image">
                           <div class="avatar-xs">
                             <div class="avatar-title bg-light border rounded-circle text-muted cursor-pointer">
                               <i class="ri-image-fill"></i>
                             </div>
                           </div>
                         </label>
-                        <input class="form-control d-none" value="" id="cover-image-input" type="file" accept="image/png, image/gif, image/jpeg">
+                        <input class="form-control d-none" value="" id="cover-image-input" type="file"
+                          accept="image/png, image/gif, image/jpeg">
                       </div>
                       <BButton class="btn-close btn-close-white" id="close-jobListModal" @click="createJobModal = false">
                       </BButton>
@@ -388,18 +400,21 @@ export default {
             <div class="text-center mb-4 mt-n5 pt-2">
               <div class="position-relative d-inline-block">
                 <div class="position-absolute bottom-0 end-0">
-                  <label for="companylogo-image-input" class="mb-0" data-bs-toggle="tooltip" data-bs-placement="right" title="Select Image">
+                  <label for="companylogo-image-input" class="mb-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                    title="Select Image">
                     <div class="avatar-xs cursor-pointer">
                       <div class="avatar-title bg-light border rounded-circle text-muted">
                         <i class="ri-image-fill"></i>
                       </div>
                     </div>
                   </label>
-                  <input class="form-control d-none" value="" id="companylogo-image-input" type="file" accept="image/png, image/gif, image/jpeg">
+                  <input class="form-control d-none" value="" id="companylogo-image-input" type="file"
+                    accept="image/png, image/gif, image/jpeg">
                 </div>
                 <div class="avatar-lg p-1">
                   <div class="avatar-title bg-light rounded-circle">
-                    <img src="@/assets/images/users/multi-user.jpg" id="companylogo-img" class="avatar-md rounded-circle object-fit-cover" />
+                    <img src="@/assets/images/users/multi-user.jpg" id="companylogo-img"
+                      class="avatar-md rounded-circle object-fit-cover" />
                   </div>
                 </div>
               </div>
@@ -407,56 +422,65 @@ export default {
             </div>
             <div>
               <label for="jobtitle-field" class="form-label">Job Title</label>
-              <input type="text" id="jobtitle-field" class="form-control" placeholder="Enter job title" v-model="event.designation" :class="{ 'is-invalid': submitted && !event.designation }" />
+              <input type="text" id="jobtitle-field" class="form-control" placeholder="Enter job title"
+                v-model="event.designation" :class="{ 'is-invalid': submitted && !event.designation }" />
               <div class="invalid-feedback">Please enter a designation.</div>
             </div>
           </BCol>
           <BCol lg="6">
             <div>
               <label for="companyname-field" class="form-label">Company Name</label>
-              <input type="text" id="companyname-field" class="form-control" placeholder="Enter company name" v-model="event.name" :class="{ 'is-invalid': submitted && !event.name }" />
+              <input type="text" id="companyname-field" class="form-control" placeholder="Enter company name"
+                v-model="event.name" :class="{ 'is-invalid': submitted && !event.name }" />
               <div class="invalid-feedback">Please enter a company name.</div>
             </div>
           </BCol>
           <BCol lg="6">
             <div>
               <label for="job_type-field" class="form-label">Job Type</label>
-              <Multiselect placeholder="Select Job Type" :options="['Full Time', 'Part Time', 'Freelance', 'Internship']" v-model="event.type" :class="{ 'is-invalid': submitted && !event.type }" />
+              <Multiselect placeholder="Select Job Type" :options="['Full Time', 'Part Time', 'Freelance', 'Internship']"
+                v-model="event.type" :class="{ 'is-invalid': submitted && !event.type }" />
               <div class="invalid-feedback">Please select a job type.</div>
             </div>
           </BCol>
           <BCol lg="4">
             <div>
               <label for="experience-field" class="form-label">Experience</label>
-              <input type="text" id="experience-field" class="form-control" placeholder="Enter experience" v-model="event.experience" :class="{ 'is-invalid': submitted && !event.experience }" />
+              <input type="text" id="experience-field" class="form-control" placeholder="Enter experience"
+                v-model="event.experience" :class="{ 'is-invalid': submitted && !event.experience }" />
               <div class="invalid-feedback">Please enter a experience.</div>
             </div>
           </BCol>
           <BCol lg="4">
             <div>
               <label for="location-field" class="form-label">Location</label>
-              <input type="text" id="location-field" class="form-control" placeholder="Enter location" v-model="event.location" :class="{ 'is-invalid': submitted && !event.location }" />
+              <input type="text" id="location-field" class="form-control" placeholder="Enter location"
+                v-model="event.location" :class="{ 'is-invalid': submitted && !event.location }" />
               <div class="invalid-feedback">Please enter a location.</div>
             </div>
           </BCol>
           <BCol lg="4">
             <div>
               <label for="Salary-field" class="form-label">Salary</label>
-              <input type="number" id="Salary-field" class="form-control" placeholder="Enter salary" v-model="event.salary" :class="{ 'is-invalid': submitted && !event.salary }" />
+              <input type="number" id="Salary-field" class="form-control" placeholder="Enter salary"
+                v-model="event.salary" :class="{ 'is-invalid': submitted && !event.salary }" />
               <div class="invalid-feedback">Please enter a salary.</div>
             </div>
           </BCol>
           <BCol lg="12">
             <div>
               <label for="website-field" class="form-label">Tags</label>
-              <Multiselect mode="tags" :close-on-select="true" :searchable="true" id="taginput-choices" :create-option="false" :options="tagoption" v-model="event.tags" :class="{ 'is-invalid': submitted && !event.tags }" />
+              <Multiselect mode="tags" :close-on-select="true" :searchable="true" id="taginput-choices"
+                :create-option="false" :options="tagoption" v-model="event.tags"
+                :class="{ 'is-invalid': submitted && !event.tags }" />
               <div class="invalid-feedback">Please select a tags.</div>
             </div>
           </BCol>
           <BCol lg="12">
             <div>
               <label for="description-field" class="form-label">Description</label>
-              <textarea class="form-control" id="description-field" rows="3" placeholder="Enter description" v-model="event.description" :class="{ 'is-invalid': submitted && !event.description }"></textarea>
+              <textarea class="form-control" id="description-field" rows="3" placeholder="Enter description"
+                v-model="event.description" :class="{ 'is-invalid': submitted && !event.description }"></textarea>
               <div class="invalid-feedback">Please enter a description.</div>
             </div>
           </BCol>

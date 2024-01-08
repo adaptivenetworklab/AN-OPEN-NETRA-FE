@@ -132,7 +132,7 @@ export default {
                             </BLink>
                             <BLink class="avatar-group-item" @click="modalShow = !modalShow">
                                 <div class="avatar-xs">
-                                    <div class="avatar-title rounded-circle">
+                                    <div class="avatar-title bg-secondary rounded-circle">
                                         +
                                     </div>
                                 </div>
@@ -168,7 +168,7 @@ export default {
                                 <BCardBody>
                                     <div class="d-flex mb-2">
                                         <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details">{{ data.title }}</router-link>
+                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -195,7 +195,7 @@ export default {
                                             </div>
                                         </div>
                                         <div class="progress rounded-3 progress-sm">
-                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 15%"
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 15%"
                                                 aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
@@ -243,13 +243,13 @@ export default {
                     </div>
                 </simplebar>
                 <div class="my-3">
-                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
                 </div>
             </div>
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">To Do <BBadge tag="small" variant="success"
+                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">To Do <BBadge tag="small" variant="secondary"
                                 class="align-bottom ms-1">2</BBadge>
                         </h6>
                     </div>
@@ -270,7 +270,7 @@ export default {
                                 <BCardBody>
                                     <div class="d-flex mb-2">
                                         <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="link-secondary">{{ data.title }}</router-link>
+                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -345,14 +345,14 @@ export default {
                     </div>
                 </simplebar>
                 <div class="my-3">
-                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
                 </div>
             </div>
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
                         <h6 class="fs-14 text-uppercase fw-semibold mb-0">Inprogress
-                            <BBadge tag="small" class="bg-success align-bottom ms-1">2</BBadge>
+                            <BBadge tag="small" class="bg-warning align-bottom ms-1">2</BBadge>
                         </h6>
                     </div>
                     <div class="flex-shrink-0">
@@ -372,12 +372,12 @@ export default {
                                 <BCardBody>
                                     <div class="d-flex mb-2">
                                         <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details">{{ data.title }}</router-link>
+                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                             <template #button-content><i class="ri-more-fill "></i></template>
-                                            <BDropdownItem to="/apps/tasks-details" class="link-secondary"><i
+                                            <BDropdownItem to="/apps/tasks-details"><i
                                                     class="ri-eye-fill align-bottom me-2 text-muted"></i>
                                                 View</BDropdownItem>
                                             <BDropdownItem><i class="ri-edit-2-line align-bottom me-2 text-muted"></i>
@@ -447,14 +447,14 @@ export default {
                     </div>
                 </simplebar>
                 <div class="my-3">
-                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
                 </div>
             </div>
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
                         <h6 class="fs-14 text-uppercase fw-semibold mb-0">In Reviews
-                            <BBadge tag="small" class="bg-success align-bottom ms-1">3</BBadge>
+                            <BBadge tag="small" class="bg-info align-bottom ms-1">3</BBadge>
                         </h6>
                     </div>
                     <div class="flex-shrink-0">
@@ -474,7 +474,7 @@ export default {
                                 <BCardBody>
                                     <div class="d-flex mb-2">
                                         <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="link-secondary">{{ data.title }}</router-link>
+                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -501,7 +501,7 @@ export default {
                                             </div>
                                         </div>
                                         <div class="progress rounded-3 progress-sm">
-                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 15%"
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 15%"
                                                 aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
@@ -549,7 +549,7 @@ export default {
                     </div>
                 </simplebar>
                 <div class="my-3">
-                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
                 </div>
             </div>
             <div class="tasks-list">
@@ -576,7 +576,7 @@ export default {
                                 <BCardBody>
                                     <div class="d-flex mb-2">
                                         <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details">{{ data.title }}</router-link>
+                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -651,7 +651,7 @@ export default {
                     </div>
                 </simplebar>
                 <div class="my-3">
-                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
                 </div>
             </div>
             <div class="tasks-list">
@@ -678,7 +678,7 @@ export default {
                                 <BCardBody>
                                     <div class="d-flex mb-2">
                                         <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details">{{ data.title }}</router-link>
+                                            <router-link to="/apps/tasks-details" class="d-block text-body">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -753,13 +753,13 @@ export default {
                     </div>
                 </simplebar>
                 <div class="my-3">
-                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
                 </div>
             </div>
         </div>
 
 
-        <BModal v-model="modalShow" header-class="p-3 bg-primary-subtle" content-class="border-0" hide-footer
+        <BModal v-model="modalShow" header-class="p-3 bg-warning-subtle" content-class="border-0" hide-footer
             title="Add Member" class="v-modal-custom">
             <b-form>
                 <BRow class="g-3">
@@ -806,7 +806,7 @@ export default {
             <div class="modal-footer v-modal-footer">
                 <BButton type="button" variant="light" @click="modalShow = false"><i
                         class="ri-close-line align-bottom me-1"></i> Close</BButton>
-                <BButton type="button" variant="primary" id="addMember">Add Member</BButton>
+                <BButton type="button" variant="success" id="addMember">Add Member</BButton>
             </div>
         </BModal>
 
@@ -828,7 +828,7 @@ export default {
             </b-form>
         </BModal>
 
-        <BModal v-model="modalShow2" header-class="p-3 bg-primary-subtle" content-class="border-0" hide-footer
+        <BModal v-model="modalShow2" header-class="p-3 bg-info-subtle" content-class="border-0" hide-footer
             title="Create New Task" class="v-modal-custom" size="lg" centered>
             <b-form action="#">
                 <BRow class="g-3">
@@ -985,7 +985,7 @@ export default {
                     <div class="mt-4">
                         <div class="hstack gap-2 justify-content-end">
                             <BButton type="button" variant="light" @click="modalShow2 = false">Close</BButton>
-                            <BButton type="button" variant="primary" @click="addNewTask">Add Task</BButton>
+                            <BButton type="button" variant="success" @click="addNewTask">Add Task</BButton>
                         </div>
                     </div>
                 </BRow>

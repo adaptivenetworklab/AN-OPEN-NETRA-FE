@@ -140,7 +140,7 @@ export default {
                 <div class="mt-xl-0 mt-5">
                   <div class="d-flex">
                     <div class="flex-grow-1">
-                      <h4>Full Sleeve Sweatshirt for Men (Pink)</h4>
+                      <h5>Full Sleeve Sweatshirt for Men (Pink)</h5>
                       <div class="hstack gap-3 flex-wrap">
                         <div>
                           <BLink href="#" class="text-primary d-block">Tommy Hilfiger</BLink>
@@ -183,13 +183,13 @@ export default {
                       <div class="p-2 border border-dashed rounded">
                         <div class="d-flex align-items-center">
                           <div class="avatar-sm me-2">
-                            <div class="avatar-title rounded bg-transparent text-primary fs-24">
+                            <div class="avatar-title rounded bg-transparent text-secondary fs-24">
                               <i :class="`${item.icon}`"></i>
                             </div>
                           </div>
                           <div class="flex-grow-1">
                             <p class="text-muted mb-1">{{ item.label }} :</p>
-                            <h5 class="mb-0">{{ item.labelDetail }}</h5>
+                            <h5 class="mb-0 fs-16">{{ item.labelDetail }}</h5>
                           </div>
                         </div>
                       </div>
@@ -258,7 +258,7 @@ export default {
                           </div>
                           <div v-b-tooltip.hover title="02 Items Available">
                             <button type="button"
-                              class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary">
+                              class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-info">
                               <i class="ri-checkbox-blank-circle-fill"></i>
                             </button>
                           </div>
@@ -340,7 +340,7 @@ export default {
 
                   <div class="product-content mt-5">
                     <h5 class="fs-14 mb-3">Product Description :</h5>
-                    <BTabs nav-class="nav-tabs-custom nav-primary">
+                    <BTabs nav-class="nav-tabs-custom nav-success">
                       <BTab title="Specification" active>
                         <div class="border border-top-0 p-4 table-responsive">
                           <table class="table mb-0">
@@ -448,7 +448,7 @@ export default {
                               </div>
                               <BCol>
                                 <div class="p-2">
-                                  <BProgress variant="primary" class="animated-progess progress-sm" :value="50.16" />
+                                  <BProgress variant="success" class="animated-progess progress-sm" :value="50.16" />
                                 </div>
                               </BCol>
                               <div class="col-auto">
@@ -466,7 +466,7 @@ export default {
                               </div>
                               <BCol>
                                 <div class="p-2">
-                                  <BProgress variant="success" class="animated-progess progress-sm" :value="19.32" />
+                                  <BProgress variant="primary" class="animated-progess progress-sm" :value="19.32" />
                                 </div>
                               </BCol>
                               <div class="col-auto">
@@ -484,7 +484,7 @@ export default {
                               </div>
                               <BCol>
                                 <div class="p-2">
-                                  <BProgress variant="secondary" class="animated-progess progress-sm" :value="18.12" />
+                                  <BProgress variant="success" class="animated-progess progress-sm" :value="18.12" />
                                 </div>
                               </BCol>
                               <div class="col-auto">
@@ -546,7 +546,7 @@ export default {
                                 <div class="border border-dashed rounded p-3">
                                   <div class="d-flex align-items-start mb-3">
                                     <div class="hstack gap-3">
-                                      <BBadge tag="div" variant="primary" class="rounded-pill mb-0">
+                                      <BBadge tag="div" variant="success" class="rounded-pill mb-0">
                                         <i class="mdi mdi-star"></i> 4.2
                                       </BBadge>
                                       <div class="vr"></div>
@@ -591,7 +591,7 @@ export default {
                                 <div class="border border-dashed rounded p-3">
                                   <div class="d-flex align-items-start mb-3">
                                     <div class="hstack gap-3">
-                                      <BBadge tag="div" variant="primary" class="rounded-pill mb-0">
+                                      <BBadge tag="div" variant="success" class="rounded-pill mb-0">
                                         <i class="mdi mdi-star"></i> 4.0
                                       </BBadge>
                                       <div class="vr"></div>
@@ -621,7 +621,7 @@ export default {
                                 <div class="border border-dashed rounded p-3">
                                   <div class="d-flex align-items-start mb-3">
                                     <div class="hstack gap-3">
-                                      <BBadge tag="div" variant="primary" class="rounded-pill mb-0">
+                                      <BBadge tag="div" variant="success" class="rounded-pill mb-0">
                                         <i class="mdi mdi-star"></i> 4.2
                                       </BBadge>
                                       <div class="vr"></div>
@@ -650,7 +650,7 @@ export default {
                                 <div class="border border-dashed rounded p-3">
                                   <div class="d-flex align-items-start mb-3">
                                     <div class="hstack gap-3">
-                                      <BBadge tag="div" variant="primary" class="rounded-pill mb-0">
+                                      <BBadge tag="div" variant="success" class="rounded-pill mb-0">
                                         <i class="mdi mdi-star"></i> 4.1
                                       </BBadge>
                                       <div class="vr"></div>

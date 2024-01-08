@@ -111,7 +111,7 @@ export default {
           grid: {
             show: false,
           },
-          colors: getChartColorsArray('["--vz-primary", "--vz-light"]'),
+          colors: getChartColorsArray('["--vz-success", "--vz-gray-300"]'),
           xaxis: {
             categories: [
               "Jan",
@@ -215,7 +215,7 @@ export default {
             lineCap: "round",
             width: 2,
           },
-          colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.85", "--vz-primary-rgb, 0.65", "--vz-primary-rgb, 0.50"]'),
+          colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-warning", "--vz-success"]'),
         },
       },
       topReferralsChart: {
@@ -306,10 +306,10 @@ export default {
             },
           },
           colors: getChartColorsArray(
-            '["--vz-info", "--vz-success", "--vz-primary", "--vz-warning", "--vz-secondary"]'),
+            '["--vz-success", "--vz-info", "--vz-primary", "--vz-warning", "--vz-secondary"]'),
         },
       },
-      chartcolors: { colors: ["#f06548"] },
+      chartcolors: { colors: ["#f7666e"] },
       chartoptions: {
         chart: {
           width: 140,
@@ -338,7 +338,7 @@ export default {
             stops: [50, 100, 100, 100],
           },
         },
-        colors: ["#0ab39c"]
+        colors: ["#3cd188"]
       },
       defaultOptions: { animationData: animationData },
       Autoplay
@@ -848,8 +848,8 @@ export default {
                 <BLink href="" class="text-decoration-underline">View net earnings</BLink>
               </div>
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-primary-subtle rounded fs-3">
-                  <i class="bx bx-dollar-circle text-primary"></i>
+                <span class="avatar-title bg-success-subtle rounded fs-3">
+                  <i class="bx bx-dollar-circle text-success"></i>
                 </span>
               </div>
             </div>
@@ -861,7 +861,7 @@ export default {
 
 
       <BCol xl="3" md="6">
-        <BCard no-body class="card-animate bg-primary">
+        <BCard no-body class="card-animate bg-info">
           <BCardBody>
             <div class="d-flex align-items-center">
               <div class="flex-grow-1">
@@ -884,8 +884,8 @@ export default {
                 <BLink href="" class="text-decoration-underline text-white-50">View all orders</BLink>
               </div>
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-light-subtle rounded fs-3">
-                  <i class="bx bx-shopping-bag text-primary"></i>
+                <span class="avatar-title bg-white bg-opacity-25 rounded fs-3">
+                  <i class="bx bx-shopping-bag text-white"></i>
                 </span>
               </div>
             </div>
@@ -920,8 +920,8 @@ export default {
                 <BLink href="" class="text-decoration-underline">See details</BLink>
               </div>
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-primary-subtle rounded fs-3">
-                  <i class="bx bx-user-circle text-primary"></i>
+                <span class="avatar-title bg-warning-subtle rounded fs-3">
+                  <i class="bx bx-user-circle text-warning"></i>
                 </span>
               </div>
             </div>
@@ -1125,8 +1125,8 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-primary-subtle rounded-circle fs-2">
-                    <UsersIcon class="text-primary"></UsersIcon>
+                  <span class="avatar-title bg-info-subtle rounded-circle fs-2">
+                    <UsersIcon class="text-info"></UsersIcon>
                   </span>
                 </div>
               </div>
@@ -1156,8 +1156,8 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-primary-subtle rounded-circle fs-2">
-                    <ActivityIcon class="text-primary"></ActivityIcon>
+                  <span class="avatar-title bg-info-subtle rounded-circle fs-2">
+                    <ActivityIcon class="text-info"></ActivityIcon>
                   </span>
                 </div>
               </div>
@@ -1235,7 +1235,7 @@ export default {
 
     <BRow>
       <BCol xl="3" md="6">
-        <BCard no-body class="bg-primary card-height-100">
+        <BCard no-body class="bg-success card-height-100">
           <BCardBody>
             <div class="d-flex align-items-center">
               <div class="avatar-sm flex-shrink-0">
@@ -1271,8 +1271,8 @@ export default {
               <div class="avatar-sm flex-shrink-0">
                 <span class="
                     avatar-title
-                    bg-primary-subtle
-                    text-primary
+                    bg-warning-subtle
+                    text-warning
                     rounded-2
                     fs-2
                   ">
@@ -1305,7 +1305,7 @@ export default {
           <BCardBody>
             <div class="d-flex align-items-center">
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-primary-subtle text-primary rounded-2 fs-2">
+                <span class="avatar-title bg-danger-subtle text-danger rounded-2 fs-2">
                   <i class="bx bxs-badge-dollar"></i>
                 </span>
               </div>
@@ -1335,7 +1335,7 @@ export default {
           <BCardBody>
             <div class="d-flex align-items-center">
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-primary-subtle text-primary rounded-2 fs-2">
+                <span class="avatar-title bg-info-subtle text-info rounded-2 fs-2">
                   <i class="bx bx-store-alt"></i>
                 </span>
               </div>
@@ -1455,8 +1455,8 @@ export default {
       <BCol xl="4">
         <BCard no-body>
           <BCardBody class="p-0">
-            <BAlert variant="primary" class="border-0 rounded-top rounded-0 m-0 d-flex align-items-center" show>
-              <alert-triangle-icon class="text-primary me-2 icon-sm"></alert-triangle-icon>
+            <BAlert :modal-value="true" variant="warning" class="border-0 rounded-top rounded-0 m-0 d-flex align-items-center" show>
+              <alert-triangle-icon class="text-warning me-2 icon-sm"></alert-triangle-icon>
               <div class="flex-grow-1 text-truncate">
                 Your free trial expired in <b>17</b> days.
               </div>
@@ -1475,7 +1475,7 @@ export default {
                     Plan’ <i class="mdi mdi-arrow-right"></i>
                   </p>
                   <div class="mt-3">
-                    <router-link to="/pages/profile" class="btn btn-primary">Upgrade Account!</router-link>
+                    <router-link to="/pages/profile" class="btn btn-success">Upgrade Account!</router-link>
                   </div>
                 </div>
               </BCol>
@@ -1493,7 +1493,7 @@ export default {
       <BCol xl="4">
         <BCard no-body class="bg-primary">
           <BCardBody class="p-0">
-            <BAlert variant="success"
+            <BAlert variant="danger"
               class="rounded-top alert-solid alert-label-icon border-0 rounded-0 m-0 d-flex align-items-center" show>
               <i class="ri-error-warning-line label-icon"></i>
               <div class="flex-grow-1 text-truncate">
@@ -1532,7 +1532,7 @@ export default {
       <BCol xl="4">
         <BCard no-body>
           <BCardBody class="p-0">
-            <BAlert variant="primary" class="border-0 rounded-top rounded-0 m-0 d-flex align-items-center" show>
+            <BAlert variant="warning" class="border-0 rounded-top rounded-0 m-0 d-flex align-items-center" show>
               <div class="flex-grow-1 text-truncate">
                 We will choose a gift for you in <b>5</b> days.
               </div>
@@ -1544,8 +1544,8 @@ export default {
             <div class="d-flex p-3">
               <div class="flex-shrink-0">
                 <div class="avatar-md me-3">
-                  <span class="avatar-title bg-primary-subtle rounded-circle fs-1">
-                    <i class="ri-gift-2-line text-primary"></i>
+                  <span class="avatar-title bg-danger-subtle rounded-circle fs-1">
+                    <i class="ri-gift-2-line text-danger"></i>
                   </span>
                 </div>
               </div>
@@ -2421,13 +2421,13 @@ export default {
           <BCardHeader class="border-0 align-items-center d-flex">
             <BCardTitle class="mb-0 flex-grow-1">Audiences Metrics</BCardTitle>
             <div class="hstack gap-1 justify-content-end">
-              <BButton variant="soft-primary" size="sm">
+              <BButton variant="soft-secondary" size="sm">
                 ALL
               </BButton>
-              <BButton variant="soft-primary" size="sm">
+              <BButton variant="soft-secondary" size="sm">
                 1M
               </BButton>
-              <BButton variant="soft-primary" size="sm">
+              <BButton variant="soft-secondary" size="sm">
                 6M
               </BButton>
               <BButton variant="soft-primary" size="sm">
@@ -2438,7 +2438,7 @@ export default {
 
           <!-- <BAlert >Default Alert</BAlert> -->
           <BCardHeader class="p-0">
-            <BAlert variant="primary" :model-value="true"
+            <BAlert variant="warning" :model-value="true"
               class="alert-label-icon border-0 rounded-0 m-0 d-flex align-items-center" show>
               <i class="ri-error-warning-line label-icon"></i>
               <div class="flex-grow-1 text-truncate">

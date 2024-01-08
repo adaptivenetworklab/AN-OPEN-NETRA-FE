@@ -263,7 +263,7 @@ export default {
                                     id="card-total-amount">{{ total_amount }}</span></p>
                         </div>
                         <div class="mt-4">
-                            <BAlert variant="primary" :model-value="true" show>
+                            <BAlert variant="info" :model-value="true" show>
                                 <p class="mb-0"><span class="fw-semibold">NOTES: </span>
                                     <span id="note">{{ notes }}
                                     </span>
@@ -271,7 +271,7 @@ export default {
                             </BAlert>
                         </div>
                         <div class="hstack gap-2 justify-content-end d-print-none mt-4">
-                            <BLink href="javascript:window.print()" class="btn btn-soft-primary"><i
+                            <BLink href="javascript:window.print()" class="btn btn-secondary"><i
                                     class="ri-printer-line align-bottom me-1"></i> Print</BLink>
                             <BLink href="javascript:void(0);" class="btn btn-primary"><i
                                     class="ri-download-2-line align-bottom me-1"></i>

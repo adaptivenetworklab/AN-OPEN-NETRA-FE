@@ -91,8 +91,8 @@ export default {
                                     <p class="mb-0 mt-2 pt-1 text-muted">The world's first and largest digital
                                         marketplace.</p>
                                     <div class="d-flex gap-3 mt-4">
-                                        <BLink href="#!" class="btn btn-primary">Discover Now </BLink>
-                                        <BLink href="#!" class="btn btn-secondary">Create Your Own</BLink>
+                                        <BLink href="" class="btn btn-primary">Discover Now </BLink>
+                                        <BLink href="" class="btn btn-secondary">Create Your Own</BLink>
                                     </div>
                                 </div>
                                 <img src="@/assets/images/bg-d.png" alt="" class="img-fluid" />

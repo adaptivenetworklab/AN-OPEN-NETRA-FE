@@ -22,8 +22,8 @@ export default {
           <div class="bg-primary-subtle position-relative">
             <BCardBody class="p-5">
               <div class="text-center">
-                <h3 class="fw-semibold">Privacy Policy</h3>
-                <p class="mb-0 text-muted">Last update: 20 Nov, 2022</p>
+                <h3>Privacy Policy</h3>
+                <p class="mb-0 text-muted">Last update: 16 Sept, 2022</p>
               </div>
             </BCardBody>
             <div class="shape">
@@ -143,7 +143,7 @@ export default {
 
 
             <div class="text-end">
-              <BLink href="#!" class="btn btn-danger">I'm Understand</BLink>
+              <BLink href="#!" class="btn btn-secondary">I'm Understand</BLink>
             </div>
           </BCardBody>
         </BCard>

@@ -116,13 +116,13 @@ export default {
                 <h5 class="card-title mb-0">Complete Your Profile</h5>
               </div>
               <div class="flex-shrink-0">
-                <BLink href="javascript:void(0);" class="badge bg-light text-secondary fs-12"><i
+                <BLink href="javascript:void(0);" class="badge bg-light text-primary fs-12"><i
                     class="ri-edit-box-line align-bottom me-1"></i> Edit</BLink>
               </div>
             </div>
 
             <BProgress class="animated-progress custom-progress progress-label">
-              <BProgressBar :value="30" variant="primary">
+              <BProgressBar :value="30" variant="danger">
                 <div class="label">30%</div>
               </BProgressBar>
             </BProgress>
@@ -135,7 +135,7 @@ export default {
                 <h5 class="card-title mb-0">Portfolio</h5>
               </div>
               <div class="flex-shrink-0">
-                <BLink href="javascript:void(0);" class="badge bg-light text-secondary fs-12"><i
+                <BLink href="javascript:void(0);" class="badge bg-light text-primary fs-12"><i
                     class="ri-add-fill align-bottom me-1"></i> Add</BLink>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default {
             </div>
             <div class="mb-3 d-flex">
               <div class="avatar-xs d-block flex-shrink-0 me-3">
-                <span class="avatar-title rounded-circle fs-16 bg-primary-subtle text-primary">
+                <span class="avatar-title rounded-circle fs-16 bg-primary">
                   <i class="ri-global-fill"></i>
                 </span>
               </div>
@@ -158,7 +158,7 @@ export default {
             </div>
             <div class="mb-3 d-flex">
               <div class="avatar-xs d-block flex-shrink-0 me-3">
-                <span class="avatar-title rounded-circle fs-16 bg-success-subtle text-success">
+                <span class="avatar-title rounded-circle fs-16 bg-success">
                   <i class="ri-dribbble-fill"></i>
                 </span>
               </div>
@@ -166,7 +166,7 @@ export default {
             </div>
             <div class="d-flex">
               <div class="avatar-xs d-block flex-shrink-0 me-3">
-                <span class="avatar-title rounded-circle fs-16 bg-danger-subtle text-danger">
+                <span class="avatar-title rounded-circle fs-16 bg-danger">
                   <i class="ri-pinterest-fill"></i>
                 </span>
               </div>
@@ -277,10 +277,10 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                     </BCol>
                     <BCol lg="12">
                       <div class="hstack gap-2 justify-content-end">
-                        <BButton type="submit" variant="primary" @click="updatedata">
+                        <BButton type="submit" variant="secondary" @click="updatedata">
                           Updates
                         </BButton>
-                        <BButton type="button" variant="soft-secondary">
+                        <BButton type="button" variant="soft-danger">
                           Cancel
                         </BButton>
                       </div>
@@ -321,7 +321,7 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                     </BCol>
                     <BCol lg="12">
                       <div class="text-end">
-                        <BButton type="submit" variant="primary" @click="changepass">
+                        <BButton type="submit" variant="secondary" @click="changepass">
                           Change Password
                         </BButton>
                       </div>
@@ -330,7 +330,7 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                 </form>
                 <div class="mt-4 mb-3 border-bottom pb-2">
                   <div class="float-end">
-                    <BLink href="javascript:void(0);" class="link-secondary">All Logout</BLink>
+                    <BLink href="javascript:void(0);" class="link-primary">All Logout</BLink>
                   </div>
                   <h5 class="card-title">Login History</h5>
                 </div>
@@ -347,7 +347,7 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                     </p>
                   </div>
                   <div>
-                    <BLink href="javascript:void(0);" class="link-secondary">Logout</BLink>
+                    <BLink href="javascript:void(0);">Logout</BLink>
                   </div>
                 </div>
                 <div class="d-flex align-items-center mb-3">
@@ -363,7 +363,7 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                     </p>
                   </div>
                   <div>
-                    <BLink href="javascript:void(0);" class="link-secondary">Logout</BLink>
+                    <BLink href="javascript:void(0);">Logout</BLink>
                   </div>
                 </div>
                 <div class="d-flex align-items-center mb-3">
@@ -379,7 +379,7 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                     </p>
                   </div>
                   <div>
-                    <BLink href="javascript:void(0);" class="link-secondary">Logout</BLink>
+                    <BLink href="javascript:void(0);">Logout</BLink>
                   </div>
                 </div>
                 <div class="d-flex align-items-center">
@@ -395,7 +395,7 @@ Hi I'm Anna Adame,It will be as simple as Occidental; in fact, it will be Occide
                     </p>
                   </div>
                   <div>
-                    <BLink href="javascript:void(0);" class="link-secondary">Logout</BLink>
+                    <BLink href="javascript:void(0);">Logout</BLink>
                   </div>
                 </div>
               </BTab>
@@ -496,7 +496,7 @@ You always want to make sure that your fonts work well together and try to limit
                           </div>
                         </BCol>
                         <div class="hstack gap-2 justify-content-end">
-                          <BLink class="btn btn-success" href="javascript:void(0);">Delete</BLink>
+                          <BLink class="btn btn-danger" href="javascript:void(0);">Delete</BLink>
                         </div>
                       </BRow>
                     </div>
@@ -504,10 +504,10 @@ You always want to make sure that your fonts work well together and try to limit
                   <div id="newForm" style="display: none"></div>
                   <BCol lg="12">
                     <div class="hstack gap-2">
-                      <BButton type="button" variant="success">
+                      <BButton type="button" variant="primary">
                         Update
                       </BButton>
-                      <BLink href="javascript:void(0);" class="btn btn-primary">Add New</BLink>
+                      <BLink href="javascript:void(0);" class="btn btn-secondary">Add New</BLink>
                     </div>
                   </BCol>
                 </form>
@@ -662,7 +662,7 @@ You always want to make sure that your fonts work well together and try to limit
                       value="make@321654987" style="max-width: 265px" />
                   </div>
                   <div class="hstack gap-2 mt-3">
-                    <BLink href="javascript:void(0);" class="btn btn-soft-primary">Close & Delete This Account</BLink>
+                    <BLink href="javascript:void(0);" class="btn btn-soft-danger">Close & Delete This Account</BLink>
                     <BLink href="javascript:void(0);" class="btn btn-light">Cancel</BLink>
                   </div>
                 </div>

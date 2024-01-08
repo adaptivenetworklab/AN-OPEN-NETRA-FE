@@ -18,7 +18,7 @@ export default {
     <Layout>
         <BRow>
             <BCol lg="12">
-                <BCard no-body class="mt-n4 mx-n4 mb-n5 border-0">
+                <BCard no-body class="mt-n4 mx-n4 mb-n5">
                     <div class="bg-primary-subtle">
                         <BCardBody class="pb-4 mb-5">
                             <BRow>
@@ -46,8 +46,8 @@ export default {
                                                 <div class="text-muted">Due Date : <span class="fw-medium">29 Dec,
                                                         2021</span></div>
                                                 <div class="vr"></div>
-                                                <BBadge pill class="bg-primary fs-12">New</BBadge>
-                                                <BBadge pill variant="success" class="fs-12">High</BBadge>
+                                                <BBadge pill class="bg-info fs-12">New</BBadge>
+                                                <BBadge pill variant="danger" class="fs-12">High</BBadge>
                                             </div>
                                         </BCol>
                                     </BRow>
@@ -114,15 +114,15 @@ export default {
                             <div>
                                 <pre class="language-markup rounded-2"><code>var app = document.getElementById(&quot;app&quot;);
 var run = (model) =&gt; get(model, &quot;users&quot;, () =&gt;
-get(model, &quot;posts&quot;,
-() =&gt; {
-model.users.forEach(user =&gt; model.userIdx[user.id] = user);
-app.innerText = '';
-model.posts.forEach(post =&gt;
-app.appendChild(renderPost(post, model.userIdx[post.userId])));
-}));
+    get(model, &quot;posts&quot;,
+    () =&gt; {
+        model.users.forEach(user =&gt; model.userIdx[user.id] = user);
+        app.innerText = '';
+        model.posts.forEach(post =&gt;
+        app.appendChild(renderPost(post, model.userIdx[post.userId])));
+    }));
 app.appendChild(Wrapper.generate(&quot;button&quot;, &quot;Load&quot;).click(() =&gt; run({
-userIdx: {}
+    userIdx: {}
 })).element);</code></pre>
                             </div>
                         </div>
@@ -222,7 +222,7 @@ userIdx: {}
                                         placeholder="Enter comments"></textarea>
                                 </BCol>
                                 <BCol lg="12" class="text-end">
-                                    <BLink href="javascript:void(0);" class="btn btn-primary">Post Comments</BLink>
+                                    <BLink href="javascript:void(0);" class="btn btn-secondary">Post Comments</BLink>
                                 </BCol>
                             </BRow>
                         </form>
@@ -296,7 +296,7 @@ userIdx: {}
                                     <tr>
                                         <td class="fw-medium">Priority</td>
                                         <td>
-                                            <BBadge variant="success">High</BBadge>
+                                            <BBadge variant="danger">High</BBadge>
                                         </td>
                                     </tr>
                                     <tr>
@@ -314,10 +314,10 @@ userIdx: {}
                                     <tr>
                                         <td class="fw-medium">Labels</td>
                                         <td class="hstack text-wrap gap-1">
-                                            <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">Admin</BBadge>
-                                            <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">UI</BBadge>
-                                            <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">Dashboard</BBadge>
-                                            <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">Design</BBadge>
+                                            <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">Admin</BBadge>
+                                            <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">UI</BBadge>
+                                            <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">Dashboard</BBadge>
+                                            <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">Design</BBadge>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -338,7 +338,7 @@ userIdx: {}
                             </div>
                             <div class="flex-grow-1 ms-3">
                                 <h6 class="mb-1">
-                                    <BLink href="javascript:void(0);" class="link-secondary">Velzon-admin.zip</BLink>
+                                    <BLink href="javascript:void(0);">Velzon-admin.zip</BLink>
                                 </h6>
                                 <small class="text-muted">3.2 MB</small>
                             </div>
@@ -352,12 +352,12 @@ userIdx: {}
                         <div class="d-flex  align-items-center border border-dashed p-2 rounded mt-2">
                             <div class="flex-shrink-0 avatar-sm">
                                 <div class="avatar-title bg-light rounded">
-                                    <i class="ri-file-ppt-2-line fs-20 text-primary"></i>
+                                    <i class="ri-file-ppt-2-line fs-20 text-danger"></i>
                                 </div>
                             </div>
                             <div class="flex-grow-1 ms-3">
                                 <h6 class="mb-1">
-                                    <BLink href="javascript:void(0);" class="link-secondary">Velzon-admin.ppt</BLink>
+                                    <BLink href="javascript:void(0);">Velzon-admin.ppt</BLink>
                                 </h6>
                                 <small class="text-muted">4.5 MB</small>
                             </div>

@@ -322,6 +322,7 @@ export default {
           curve: "smooth",
           width: 4.0,
         },
+        colors: ["#687cfe"],
         fill: {
           type: "gradient",
           gradient: {
@@ -343,7 +344,7 @@ export default {
           change: "+13.11%",
           changeClass: "success",
           coinName: "btc",
-          chartsColor: "#0ab39c",
+          chartsColor: "#3cd188",
           chartOptions: {
             chart: {
               width: "100%",
@@ -373,7 +374,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#0ab39c"],
+            colors: ["#3cd188"],
           },
           series: [
             {
@@ -531,7 +532,7 @@ export default {
           change: "+12.07%",
           changeClass: "success",
           coinName: "dash",
-          chartsColor: "#0ab39c",
+          chartsColor: "#3cd188",
           chartOptions: {
             chart: {
               width: "100%",
@@ -561,7 +562,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#0ab39c"],
+            colors: ["#3cd188"],
           },
           series: [
             {
@@ -578,7 +579,7 @@ export default {
           change: "+14.99%",
           changeClass: "success",
           coinName: "usdt",
-          chartsColor: "#0ab39c",
+          chartsColor: "#3cd188",
           chartOptions: {
             chart: {
               width: "100%",
@@ -608,7 +609,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#0ab39c"],
+            colors: ["#3cd188"],
           },
           series: [
             {
@@ -625,7 +626,7 @@ export default {
           change: "-05.07%",
           changeClass: "danger",
           coinName: "neo",
-          chartsColor: "#0ab39c",
+          chartsColor: "#3cd188",
           chartOptions: {
             chart: {
               width: "100%",
@@ -655,7 +656,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#0ab39c"],
+            colors: ["#3cd188"],
           },
           series: [
             {
@@ -750,16 +751,16 @@ export default {
                 <h5 class="card-title mb-0">My Portfolio Statistics</h5>
               </div>
               <div class="toolbar d-flex align-items-start justify-content-center flex-wrap gap-2">
-                <BButton type="button" variant="soft-secondary" size="sm" class="timeline-btn" id="one_month">
+                <BButton type="button" variant="soft-success" size="sm" class="timeline-btn" id="one_month">
                   1M
                 </BButton>
-                <BButton type="button" variant="soft-secondary" size="sm" class="timeline-btn" id="six_months">
+                <BButton type="button" variant="soft-success" size="sm" class="timeline-btn" id="six_months">
                   6M
                 </BButton>
-                <BButton type="button" variant="soft-secondary" size="sm" class="timeline-btn" id="one_year">
+                <BButton type="button" variant="soft-success" size="sm" class="timeline-btn" id="one_year">
                   1Y
                 </BButton>
-                <BButton type="button" variant="soft-primary" size="sm" class="timeline-btn active" id="all">
+                <BButton type="button" variant="soft-secondary" size="sm" class="timeline-btn active" id="all">
                   ALL
                 </BButton>
               </div>
@@ -784,16 +785,13 @@ export default {
           </div>
         </div>
 
-        <swiper class="cryptoSlider" :slidesPerView="1" :loop="false" :spaceBetween="24" :modules="[Autoplay]"
-          :autoplay="{ delay: 2500, disableOnInteraction: false, }"
-          :breakpoints="{ 640: { slidesPerView: 2, }, 1024: { slidesPerView: 3, }, 1600: { slidesPerView: 4, }, }">
+        <swiper class="cryptoSlider" :slidesPerView="1" :loop="false" :spaceBetween="24" :modules="[Autoplay]" :autoplay="{ delay: 2500, disableOnInteraction: false, }" :breakpoints="{ 640: { slidesPerView: 2, }, 1024: { slidesPerView: 3, }, 1600: { slidesPerView: 4, }, }">
           <template v-for="(item, index) of cryptoSlider" :key="index">
             <swiper-slide>
               <BCard no-body>
                 <BCardBody>
                   <div class="float-end">
-                    <BDropdown variant="link" toggle-class="fs-18 arrow-none" menu-class="dropdown-menu-end"
-                      :offset="{ alignmentAxis: -105, crossAxis: 0, mainAxis: 10 }">
+                    <BDropdown variant="link" toggle-class="fs-18 p-0 arrow-none" menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -105, crossAxis: 0, mainAxis: 10 }">
                       <template #button-content><i class="mdi mdi-dots-horizontal"></i></template>
                       <BDropdownItem>View Details</BDropdownItem>
                       <BDropdownItem>Remove Watchlist</BDropdownItem>
@@ -812,8 +810,7 @@ export default {
                       </p>
                     </BCol>
                     <BCol cols="6">
-                      <apexchart class="apex-charts" :options="item.chartOptions" height="50" dir="ltr"
-                        :series="item.series.length > 0 ? item.series : []" :key="item.id"></apexchart>
+                      <apexchart class="apex-charts" :options="item.chartOptions" height="50" dir="ltr" :series="item.series.length > 0 ? item.series : []" :key="item.id"></apexchart>
                     </BCol>
                   </BRow>
                 </BCardBody>
@@ -869,7 +866,7 @@ export default {
                     <td>
                       <div class="d-flex align-items-center fw-medium">
                         <img :src="data.image" alt="" class="avatar-xxs me-2" />
-                        <BLink href="javascript:void(0)" class="currency_name link-secondary">{{
+                        <BLink href="javascript:void(0)" class="currency_name text-reset">{{
                           data.currency_name
                         }}</BLink>
                       </div>
@@ -883,9 +880,8 @@ export default {
                         'text-danger': data.volume > 1,
                         'text-success': data.volume < 1,
                       }">
-                        <i
-                          :class="{ 'mdi mdi-trending-up align-middle me-1': data.volume < 1, 'mdi mdi-trending-down align-middle me-1': data.volume > 1 }"></i>{{
-                            data.volume }}%
+                        <i :class="{ 'mdi mdi-trending-up align-middle me-1': data.volume < 1, 'mdi mdi-trending-down align-middle me-1': data.volume > 1 }"></i>{{
+                          data.volume }}%
                       </h6>
                     </td>
                   </tr>
@@ -893,8 +889,7 @@ export default {
               </table>
               <div class="noresult" v-if="resultQuery.length < 1">
                 <div class="text-center">
-                  <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions"
-                    :height="75" :width="75" />
+                  <lottie class="avatar-xl" colors="primary:#121331,secondary:#08a88a" :options="defaultOptions" :height="75" :width="75" />
                   <h5 class="mt-2">Sorry! No Result Found</h5>
                   <p class="text-muted mb-0">
                     We've searched more than 150+ Currencies We did not find any
@@ -908,8 +903,7 @@ export default {
               <div class="pagination-wrap hstack gap-2">
                 <BLink class="page-item pagination-prev" href="#" :disabled="page <= 1" @click="page--"> Previous </BLink>
                 <ul class="pagination listjs-pagination mb-0">
-                  <li :class="{ active: pageNumber == page, disabled: pageNumber == '...', }"
-                    v-for="(pageNumber, index) in pages" :key="index" @click="page = pageNumber">
+                  <li :class="{ active: pageNumber == page, disabled: pageNumber == '...', }" v-for="(pageNumber, index) in pages" :key="index" @click="page = pageNumber">
                     <BLink class="page" href="#" data-i="1" data-page="8">{{ pageNumber }}</BLink>
                   </li>
                 </ul>
@@ -924,20 +918,19 @@ export default {
       </BCol>
 
       <BCol xxl="3">
-        <BCard no-body class="overflow-hidden border-0">
+        <BCard no-body class="overflow-hidden">
           <BCardBody class="bg-primary-subtle">
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h5 class="fs-13 mb-3">My Portfolio</h5>
-                <h2>$61,91,967<small class="text-muted fs-14">.29</small></h2>
+                <h4>$61,91,967<small class="text-muted fs-14">.29</small></h4>
                 <p class="text-muted mb-0">
                   $25,10,974
-                  <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success"><i
-                      class="ri-arrow-right-up-line fs-13 align-bottom"></i>4.37%</BBadge>
+                  <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success"><i class="ri-arrow-right-up-line fs-13 align-bottom"></i>4.37%</BBadge>
                 </p>
               </div>
               <div class="flex-shrink-0">
-                <i class="mdi mdi-wallet-outline text-primary h1"></i>
+                <i class="mdi mdi-wallet-outline text-primary fs-2"></i>
               </div>
             </div>
           </BCardBody>
@@ -947,15 +940,14 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h5 class="fs-13 mb-3">Today's Profit</h5>
-                <h2>$2,74,365<small class="text-muted fs-14">.84</small></h2>
+                <h4>$2,74,365<small class="text-muted fs-14">.84</small></h4>
                 <p class="text-muted mb-0">
                   $9,10,564
-                  <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success"><i
-                      class="ri-arrow-right-up-line fs-13 align-bottom"></i>1.25%</BBadge>
+                  <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success"><i class="ri-arrow-right-up-line fs-13 align-bottom"></i>1.25%</BBadge>
                 </p>
               </div>
               <div class="flex-shrink-0">
-                <i class="ri-hand-coin-line text-primary h1"></i>
+                <i class="ri-hand-coin-line text-primary fs-2"></i>
               </div>
             </div>
           </BCardBody>
@@ -965,15 +957,14 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h5 class="fs-13 mb-3">Overall Profit</h5>
-                <h2>$32,67,120<small class="text-muted fs-14">.42</small></h2>
+                <h4>$32,67,120<small class="text-muted fs-14">.42</small></h4>
                 <p class="text-muted mb-0">
                   $18,22,730
-                  <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success"><i
-                      class="ri-arrow-right-up-line fs-13 align-bottom"></i>8.34%</BBadge>
+                  <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success"><i class="ri-arrow-right-up-line fs-13 align-bottom"></i>8.34%</BBadge>
                 </p>
               </div>
               <div class="flex-shrink-0">
-                <i class="ri-line-chart-line text-primary h1"></i>
+                <i class="ri-line-chart-line text-primary fs-2"></i>
               </div>
             </div>
           </BCardBody>
@@ -1044,7 +1035,7 @@ export default {
               </div>
             </div>
             <div>
-              <router-link to="/crypto/transactions" class="btn btn-soft-primary w-100">View All Transactions
+              <router-link to="/crypto/transactions" class="btn btn-soft-secondary w-100">View All Transactions
                 <i class="ri-arrow-right-line align-bottom"></i>
               </router-link>
             </div>

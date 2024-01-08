@@ -352,16 +352,16 @@ export default {
               <div class="avatar-sm flex-shrink-0">
                 <span class="avatar-title bg-light rounded fs-3">
                   <template v-if="item.feaIcon == 'file-text'">
-                    <FileTextIcon class="text-primary icon-md" />
+                    <FileTextIcon class="text-primary icon-md icon-dual-primary" />
                   </template>
                   <template v-if="item.feaIcon == 'check-square'">
-                    <CheckSquareIcon class="text-primary icon-md" />
+                    <CheckSquareIcon class="text-primary icon-md icon-dual-primary" />
                   </template>
                   <template v-if="item.feaIcon == 'clock'">
-                    <ClockIcon class="text-primary icon-md" />
+                    <ClockIcon class="text-primary icon-md icon-dual-primary" />
                   </template>
                   <template v-if="item.feaIcon == 'x-octagon'">
-                    <XOctagonIcon class="text-primary icon-md" />
+                    <XOctagonIcon class="text-primary icon-md icon-dual-primary" />
                   </template>
                 </span>
               </div>
@@ -382,7 +382,7 @@ export default {
                   <BButton variant="primary" class="me-1" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <router-link to="/invoices/create" class="btn btn-soft-primary"><i class="ri-add-line align-bottom me-1"></i>
+                  <router-link to="/invoices/create" class="btn btn-secondary"><i class="ri-add-line align-bottom me-1"></i>
                     Create Invoice</router-link>
                 </div>
               </div>
@@ -504,7 +504,7 @@ export default {
                 </table>
                 <div class="noresult" v-if="resultQuery.length < 1">
                   <div class="text-center">
-                    <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions"
+                    <lottie class="avatar-xl" colors="primary:#121331,secondary:#08a88a" :options="defaultOptions"
                       :height="75" :width="75" />
                     <h5 class="mt-2">Sorry! No Result Found</h5>
                     <p class="text-muted mb-0">We've searched more than 150+ Orders We did not find any
@@ -539,7 +539,7 @@ export default {
     <!-- remove modal  -->
     <BModal v-model="deleteModal" modal-class="zoomIn" hide-footer no-close-on-backdrop centered>
       <div class="mt-2 text-center">
-        <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions1" :height="75"
+        <lottie class="avatar-xl" colors="primary:#f7b84b,secondary:#f06548" :options="defaultOptions1" :height="75"
           :width="75" />
         <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
           <h4>Are you sure ?</h4>
@@ -548,7 +548,7 @@ export default {
       </div>
       <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
         <button type="button" class="btn w-sm btn-light" @click="deleteModal = false">Close</button>
-        <button type="button" class="btn w-sm btn-primary" id="delete-record" @click="deleteData">Yes, Delete
+        <button type="button" class="btn w-sm btn-danger" id="delete-record" @click="deleteData">Yes, Delete
           It!</button>
       </div>
     </BModal>

@@ -32,8 +32,8 @@ export default {
                         <div class="d-flex align-items-center">
                             <h5 class="card-title mb-0 flex-grow-1">Explore Product</h5>
                             <div>
-                                <Blink class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample"
-                                    @click="toggleCollapse"><i class="ri-filter-2-line align-bottom"></i> Filters</Blink>
+                                <BLink class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample"
+                                    @click="toggleCollapse"><i class="ri-filter-2-line align-bottom"></i> Filters</BLink>
                             </div>
                         </div>
                         <div v-if="isCollapsed" class="collaps show" id="collapseExample">
@@ -457,7 +457,7 @@ export default {
             </BCol>
         </BRow>
         <div class="text-center mb-3">
-            <BButton variant="link" class="text-success mt-2"><i
+            <BButton variant="link" class="text-secondary mt-2"><i
                     class="mdi mdi-loading mdi-spin fs-20 align-middle me-2"></i> Load more </BButton>
         </div>
     </Layout>

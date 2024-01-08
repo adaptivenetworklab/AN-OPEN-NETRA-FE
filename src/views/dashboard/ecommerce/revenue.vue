@@ -115,7 +115,7 @@ export default {
             barHeight: "70%",
           },
         },
-        colors: getChartColorsArray('["--vz-light", "--vz-primary", "--vz-info"]'),
+        colors: getChartColorsArray('["--vz-light", "--vz-primary", "--vz-secondary"]'),
         tooltip: {
           shared: true,
           y: [{

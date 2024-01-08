@@ -124,22 +124,22 @@ export default {
           <BCardBody>
             <div class="d-flex mb-3">
               <div class="flex-grow-1">
-                <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions" :height="55" :width="55"
+                <lottie colors="primary:#121331,secondary:#08a88a" :options="defaultOptions" :height="55" :width="55"
                   class="me-auto m-0" />
               </div>
               <div class="flex-shrink-0">
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border me-1">BTC
+                <BLink href="javascript:void(0);" class="badge bg-warning-subtle text-warning badge-border me-1">BTC
                 </BLink>
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border me-1">ETH</BLink>
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border me-1">USD
+                <BLink href="javascript:void(0);" class="badge bg-info-subtle text-info badge-border me-1">ETH</BLink>
+                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary badge-border me-1">USD
                 </BLink>
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border">EUR</BLink>
+                <BLink href="javascript:void(0);" class="badge bg-danger-subtle text-danger badge-border">EUR</BLink>
               </div>
             </div>
-            <h3 class="mb-2">
+            <h4 class="mb-2">
               $ <count-to :duration="5000" :startVal="0" :endVal="74854"></count-to><small
                 class="text-muted fs-13">.68k</small>
-            </h3>
+            </h4>
             <h6 class="text-muted mb-0">Available Balance (USD)</h6>
           </BCardBody>
         </BCard>
@@ -149,22 +149,22 @@ export default {
           <BCardBody>
             <div class="d-flex mb-3">
               <div class="flex-grow-1">
-                <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions1" :height="55" :width="55"
+                <lottie colors="primary:#405189,secondary:#0ab39c" :options="defaultOptions1" :height="55" :width="55"
                   class="me-auto m-0" />
               </div>
               <div class="flex-shrink-0">
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border me-1">BTC
+                <BLink href="javascript:void(0);" class="badge bg-warning-subtle text-warning badge-border me-1">BTC
                 </BLink>
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border me-1">ETH</BLink>
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border me-1">USD
+                <BLink href="javascript:void(0);" class="badge bg-info-subtle text-info badge-border me-1">ETH</BLink>
+                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary badge-border me-1">USD
                 </BLink>
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border">EUR</BLink>
+                <BLink href="javascript:void(0);" class="badge bg-danger-subtle text-danger badge-border">EUR</BLink>
               </div>
             </div>
-            <h3 class="mb-2">
+            <h4 class="mb-2">
               $<count-to :duration="5000" :startVal="0" :endVal="74361"></count-to><small
                 class="text-muted fs-13">.34k</small>
-            </h3>
+            </h4>
             <h6 class="text-muted mb-0">Send (Previous Month)</h6>
           </BCardBody>
         </BCard>
@@ -174,22 +174,22 @@ export default {
           <BCardBody>
             <div class="d-flex mb-3">
               <div class="flex-grow-1">
-                <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions3" :height="55" :width="55"
+                <lottie colors="primary:#405189,secondary:#0ab39c" :options="defaultOptions3" :height="55" :width="55"
                   class="me-auto m-0" />
               </div>
               <div class="flex-shrink-0">
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border me-1">BTC
+                <BLink href="javascript:void(0);" class="badge bg-warning-subtle text-warning badge-border me-1">BTC
                 </BLink>
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border me-1">ETH</BLink>
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border me-1">USD
+                <BLink href="javascript:void(0);" class="badge bg-info-subtle text-info badge-border me-1">ETH</BLink>
+                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary badge-border me-1">USD
                 </BLink>
-                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary badge-border">EUR</BLink>
+                <BLink href="javascript:void(0);" class="badge bg-danger-subtle text-danger badge-border">EUR</BLink>
               </div>
             </div>
-            <h3 class="mb-2">
+            <h4 class="mb-2">
               $<count-to :duration="5000" :startVal="0" :endVal="97685"></count-to><small
                 class="text-muted fs-13">.22k</small>
-            </h3>
+            </h4>
             <h6 class="text-muted mb-0">Receive (Previous Month)</h6>
           </BCardBody>
         </BCard>
@@ -197,58 +197,58 @@ export default {
       <BCol xxl="3" md="6">
         <swiper class="swiper-wrapper" :autoplay="{ delay: 2500, disableOnInteraction: false }" :modules="[Autoplay]">
           <swiper-slide>
-            <BCard no-body class="card-animate border-0 overflow-hidden">
-              <BCardBody class="bg-primary-subtle">
+            <BCard no-body class="card-animate overflow-hidden">
+              <BCardBody class="bg-warning-subtle">
                 <div class="d-flex mb-3">
                   <div class="flex-grow-1">
-                    <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions4" :height="55" :width="55"
+                    <lottie colors="primary:#405189,secondary:#0ab39c" :options="defaultOptions4" :height="55" :width="55"
                       class="me-auto m-0" />
                   </div>
                   <div class="flex-shrink-0">
                     <BLink href="javascript:void(0);" class="fw-medium">Bitcoin (BTC)</BLink>
                   </div>
                 </div>
-                <h3 class="mb-2">
+                <h4 class="mb-2">
                   $245<small class="text-muted fs-13">.65k</small>
-                </h3>
+                </h4>
                 <h6 class="text-muted mb-0">Send - Receive (Previous Month)</h6>
               </BCardBody>
             </BCard>
           </swiper-slide>
           <swiper-slide>
-            <BCard no-body class="card-animate border-0 overflow-hidden">
-              <BCardBody class="bg-primary-subtle">
+            <BCard no-body class="card-animate overflow-hidden">
+              <BCardBody class="bg-warning-subtle">
                 <div class="d-flex mb-3">
                   <div class="flex-grow-1">
-                    <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions4" :height="55" :width="55"
+                    <lottie colors="primary:#405189,secondary:#0ab39c" :options="defaultOptions4" :height="55" :width="55"
                       class="me-auto m-0" />
                   </div>
                   <div class="flex-shrink-0">
                     <BLink href="javascript:void(0);" class="fw-medium">Ethereum (ETH)</BLink>
                   </div>
                 </div>
-                <h3 class="mb-2">
+                <h4 class="mb-2">
                   $24<small class="text-muted fs-13">.74k</small>
-                </h3>
+                </h4>
                 <h6 class="text-muted mb-0">Send - Receive (Previous Month)</h6>
               </BCardBody>
             </BCard>
           </swiper-slide>
           <swiper-slide>
-            <BCard no-body class="card-animate border-0 overflow-hidden">
-              <BCardBody class="bg-primary-subtle">
+            <BCard no-body class="card-animate overflow-hidden">
+              <BCardBody class="bg-warning-subtle">
                 <div class="d-flex mb-3">
                   <div class="flex-grow-1">
-                    <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions4" :height="55" :width="55"
+                    <lottie colors="primary:#405189,secondary:#0ab39c" :options="defaultOptions4" :height="55" :width="55"
                       class="me-auto m-0" />
                   </div>
                   <div class="flex-shrink-0">
                     <BLink href="javascript:void(0);" class="fw-medium">Monero (XMR)</BLink>
                   </div>
                 </div>
-                <h3 class="mb-2">
+                <h4 class="mb-2">
                   $124<small class="text-muted fs-13">.36k</small>
-                </h3>
+                </h4>
                 <h6 class="text-muted mb-0">Send - Receive (Previous Month)</h6>
               </BCardBody>
             </BCard>
@@ -275,8 +275,8 @@ export default {
       </BCol>
       <BCol sm="auto" class="ms-auto">
         <div class="d-flex gap-2">
-          <BLink href="javascript:void(0);" class="btn btn-soft-secondary">Deposite</BLink>
-          <BLink href="javascript:void(0);" class="btn btn-soft-success">Withdraw</BLink>
+          <BLink href="javascript:void(0);" class="btn btn-success">Deposite</BLink>
+          <BLink href="javascript:void(0);" class="btn btn-secondary">Withdraw</BLink>
         </div>
       </BCol>
     </BRow>
@@ -294,7 +294,7 @@ export default {
                   v-model="searchQuery" />
                 <i class="ri-search-line search-icon"></i>
               </div>
-              <BButton variant="primary">
+              <BButton variant="soft-primary">
                 <i class="ri-equalizer-line align-bottom me-1"></i> Filters
               </BButton>
             </div>
@@ -363,7 +363,7 @@ export default {
                   <span class="badge fs-11" :class="{
                     'bg-success-subtle text-success': data.status == 'Success',
                     'bg-danger-subtle text-danger': data.status == 'Failed',
-                    'bg-primary-subtle text-primary': data.status == 'Processing',
+                    'bg-warning-subtle text-warning': data.status == 'Processing',
                   }"><i class="ri-time-line align-bottom"></i>
                     {{ data.status }}</span>
                 </td>
@@ -372,7 +372,7 @@ export default {
           </table>
           <div class="noresult" v-if="resultQuery.length < 1">
             <div class="text-center">
-              <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions2" :height="75" :width="75" />
+              <lottie colors="primary:#121331,secondary:#08a88a" :options="defaultOptions2" :height="75" :width="75" />
               <h5 class="mt-2">Sorry! No Result Found</h5>
               <p class="text-muted mb-0">
                 We've searched more than 150+ transactions We did not find any

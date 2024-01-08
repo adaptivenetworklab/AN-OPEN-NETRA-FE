@@ -251,7 +251,7 @@ export default {
                 <h5 class="fs-16">Filters</h5>
               </div>
               <div class="flex-shrink-0">
-                <BLink href="#" class="link-secondary text-decoration-underline">Clear All</BLink>
+                <BLink href="#" class="text-decoration-underline">Clear All</BLink>
               </div>
             </div>
 
@@ -352,7 +352,7 @@ export default {
                 Price
               </p>
 
-              <div id="product-price-range" data-slider-color="primary"></div>
+              <div id="product-price-range"></div>
               <Slider v-model="sliderCustomzie" :min="0" :max="5000" />
             </BCardBody>
 
@@ -533,7 +533,7 @@ export default {
               <BRow class="g-4">
                 <BCol sm="auto">
                   <div>
-                    <router-link to="/ecommerce/add-product" class="btn btn-primary"><i
+                    <router-link to="/ecommerce/add-product" class="btn btn-secondary"><i
                         class="ri-add-line align-bottom me-1"></i> Add
                       Product</router-link>
                   </div>
@@ -556,8 +556,8 @@ export default {
                     <li class="nav-item">
                       <BLink class="nav-link active fw-semibold" data-bs-toggle="tab" href="#productnav-all" role="tab">
                         All
-                        <BBadge variant="secondary"
-                          class="bg-secondary align-middle rounded-pill ms-1">12</BBadge>
+                        <BBadge variant="danger-subtle"
+                          class="bg-danger-subtle text-danger align-middle rounded-pill ms-1">12</BBadge>
                       </BLink>
                     </li>
                   </ul>

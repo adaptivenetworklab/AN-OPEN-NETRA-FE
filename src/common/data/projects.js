@@ -112,7 +112,7 @@ const projectWidgets2 = [{
     subItem: [{
         id: 1,
         imgNumber: "D",
-        bgColor: "primary"
+        bgColor: "danger"
     },
     {
         id: 2,
@@ -161,7 +161,7 @@ const projectWidgets2 = [{
     subItem: [{
         id: 1,
         imgNumber: "C",
-        bgColor: "primary"
+        bgColor: "info"
     },
     {
         id: 2,
@@ -202,7 +202,7 @@ const projectWidgets3 = [{
     subItem: [{
         id: 1,
         imgNumber: "D",
-        bgColor: "success"
+        bgColor: "danger"
     },
     {
         id: 2,
@@ -255,7 +255,7 @@ const projectWidgets3 = [{
     {
         id: 2,
         imgNumber: "S",
-        bgColor: "primary"
+        bgColor: "secondary"
     },
     {
         id: 3,
@@ -280,7 +280,7 @@ const projectWidgets3 = [{
     subItem: [{
         id: 1,
         imgNumber: "D",
-        bgColor: "success"
+        bgColor: "danger"
     },
     {
         id: 2,

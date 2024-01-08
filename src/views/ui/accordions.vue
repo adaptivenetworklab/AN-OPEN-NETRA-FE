@@ -725,7 +725,7 @@ When you run out of messages, you will not be able to send any outbound campaign
               aria-labelledby="fillColoredAccordionPreview-tab" tabindex="0">
               <BRow>
                 <BCol xxl="6">
-                  <BAccordion class="custom-accordionwithicon accordion-fill-primary" id="accordionFill">
+                  <BAccordion class="custom-accordionwithicon accordion-fill-success" id="accordionFill">
                     <BAccordionItem title="What are webhooks?" visible>
                       Webhooks allow you to gather real time data on key interactions that happen
                       with your Slick Text account. Simply provide us with a url where you'd like
@@ -775,7 +775,7 @@ When you run out of messages, you will not be able to send any outbound campaign
               <pre class="language-markup" style="height: 275px">
               <h5 class="fs-sm text-muted">HTML Preview</h5>
               <code>&lt;!-- Accordions Fill Colored --&gt;
-&lt;div class=&quot;accordion custom-accordionwithicon accordion-fill-primary&quot; id=&quot;accordionFill&quot;&gt;
+&lt;div class=&quot;accordion custom-accordionwithicon accordion-fill-success&quot; id=&quot;accordionFill&quot;&gt;
 &lt;div class=&quot;accordion-item&quot;&gt;
 &lt;h2 class=&quot;accordion-header&quot; id=&quot;accordionFillExample1&quot;&gt;
 &lt;button class=&quot;accordion-button&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accor_fill1&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;accor_fill1&quot;&gt;

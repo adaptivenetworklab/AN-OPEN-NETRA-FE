@@ -17,10 +17,10 @@ export default {
     <BRow class="justify-content-center">
       <BCol col lg="10">
         <BCard no-body>
-          <div class="bg-primary-subtle position-relative">
+          <div class="bg-warning-subtle position-relative">
             <BCardBody class="p-5">
               <div class="text-center">
-                <h3 class="fw-semibold">Term & Conditions</h3>
+                <h3>Term & Conditions</h3>
                 <p class="mb-0 text-muted">Last update: 16 Sept, 2022</p>
               </div>
             </BCardBody>
@@ -125,7 +125,7 @@ export default {
 
 
             <div class="text-end">
-              <BLink href="#!" class="btn btn-primary me-1">Accept</BLink>
+              <BLink href="#!" class="btn btn-success me-1">Accept</BLink>
               <BLink href="#!" class="btn btn-outline-danger"><i class="ri-close-line align-bottom me-1"></i> Decline </BLink>
             </div>
           </BCardBody >

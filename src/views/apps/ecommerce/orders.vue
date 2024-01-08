@@ -393,10 +393,10 @@ export default {
               </BCol>
               <BCol sm="auto">
                 <div class="d-flex gap-1 flex-wrap">
-                  <BButton type="button" variant="primary" class="add-btn" id="create-btn" @click="toggleModal">
+                  <BButton type="button" variant="secondary" class="add-btn" id="create-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Create Order
                   </BButton>
-                  <BButton type="button" variant="info" class="ms-1">
+                  <BButton type="button" variant="success" class="ms-1">
                     <i class="ri-file-download-line align-bottom me-1"></i> Import
                   </BButton>
                   <BButton variant="soft-danger" class="me-1" id="remove-actions" @click="deleteMultiple">
@@ -452,7 +452,7 @@ export default {
                 </BCol>
                 <BCol xxl="1" sm="4">
                   <div>
-                    <BButton type="button" variant="secondary" class="w-100" @click="SearchData">
+                    <BButton type="button" variant="primary" class="w-100" @click="SearchData">
                       <i class="ri-equalizer-fill me-1 align-bottom"></i>
                       Filters
                     </BButton>
@@ -463,9 +463,9 @@ export default {
           </BCardBody>
           <BCardBody class="pt-0">
             <div>
-              <ul class="nav nav-tabs nav-tabs-custom nav-primary mb-3" role="tablist">
+              <ul class="nav nav-tabs nav-tabs-custom nav-success mb-3" role="tablist">
                 <li class="nav-item">
-                  <BLink class="nav-link  All py-3 active" data-bs-toggle="tab" id="All" href="#home1" role="tab"
+                  <BLink class="nav-link  All py-3" data-bs-toggle="tab" id="All" href="#home1" role="tab"
                     @click="changecategory('All')" aria-selected="true">
                     <i class="ri-store-2-fill me-1 align-bottom"></i> All Orders
                   </BLink>
@@ -481,7 +481,7 @@ export default {
                   <BLink class="nav-link py-3 Pickups" data-bs-toggle="tab" id="Pickups" href="#pickups" role="tab"
                     @click="changecategory('Pickups')" aria-selected="false">
                     <i class="ri-truck-line me-1 align-bottom"></i> Pickups
-                    <BBadge variant="secondary" class="align-middle ms-1">2</BBadge>
+                    <BBadge variant="danger" class="align-middle ms-1">2</BBadge>
                   </BLink>
                 </li>
                 <li class="nav-item">
@@ -503,7 +503,7 @@ export default {
               <div class="table-responsive table-card mb-1">
                 <table class="table table-nowrap align-middle" id="orderTable">
                   <thead class="text-muted table-light">
-                    <tr class="text-uppercase">
+                    <tr class="text-uppercase fs-13">
                       <th scope="col" style="width: 25px">
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" id="checkAll" value="option" />
@@ -576,7 +576,7 @@ export default {
                 </table>
                 <div class="noresult" v-if="resultQuery.length < 1">
                   <div class="text-center">
-                    <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#0ab39c" :options="defaultOptions"
+                    <lottie class="avatar-xl" colors="primary:#121331,secondary:#08a88a" :options="defaultOptions"
                       :height="75" :width="75" />
                     <h5 class="mt-2">Sorry! No Result Found</h5>
                     <p class="text-muted">
@@ -714,7 +714,7 @@ export default {
           <BButton type="button" variant="light" @click="createModal = false" id="closemodal">
             Close
           </BButton>
-          <BButton type="button" variant="success" id="add-btn" @click="handleSubmit">
+          <BButton type="button" variant="primary" id="add-btn" @click="handleSubmit">
             {{ dataEdit ? 'Update' : 'Add Order' }}
           </BButton>
         </div>
@@ -724,7 +724,7 @@ export default {
     <!-- delete modal -->
     <BModal v-model="deleteModal" modal-class="zoomIn" hide-footer no-close-on-backdrop centered>
       <div class="mt-2 text-center">
-        <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions1" :height="75"
+        <lottie class="avatar-xl" colors="primary:#f7b84b,secondary:#f06548" :options="defaultOptions1" :height="75"
           :width="75" />
         <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
           <h4>You are about to delete a order ?</h4>
@@ -733,7 +733,7 @@ export default {
       </div>
       <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
         <button variant="success" class="btn w-sm btn-light" @click="deleteModal = false">Close</button>
-        <button type="button" class="btn w-sm btn-primary" id="delete-record" @click="deleteData">Yes, Delete It!</button>
+        <button type="button" class="btn w-sm btn-danger" id="delete-record" @click="deleteData">Yes, Delete It!</button>
       </div>
     </BModal>
   </Layout>

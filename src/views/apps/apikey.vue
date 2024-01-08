@@ -247,7 +247,7 @@ export default {
             </div>
             <p class="text-muted mb-2">You used 215 of 2000 of your API</p>
             <div class="text-end">
-              <BLink class="btn btn-primary button create-btn btn-sm" type="button" id="createApi-btn"
+              <BLink class="btn btn-secondary button create-btn btn-sm" type="button" id="createApi-btn"
                 @click="(e) => handleApikeydetails(e)">Create API Key</BLink>
             </div>
           </BCardBody>

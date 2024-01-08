@@ -1244,9 +1244,11 @@ Radio Outline light
                         </p>
                         <div class="live-preview">
                             <div class="hstack flex-wrap">
-                                <BFormRadio class="btn-check ms-n4" name="options" id="option1" checked>
-                                  <label class="btn btn-secondary" for="option1">Checked</label>
-                                </BFormRadio>
+                                <div>
+                                  <BFormRadio class="btn-check ms-n4" name="options" id="option1" checked>
+                                    <label class="btn btn-secondary" for="option1">Checked</label>
+                                  </BFormRadio>
+                                </div>
                 
                                 <BFormRadio class="btn-check ms-n4" name="options" id="option2">
                                   <label class="btn btn-secondary" for="option2">Radio</label>
