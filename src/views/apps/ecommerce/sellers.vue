@@ -121,10 +121,10 @@ export default {
           </BCol>
           <BCol lg="auto">
             <div class="hstack gap-2">
-              <BButton type="button" variant="danger">
+              <BButton type="button" variant="soft-info">
                 <i class="ri-equalizer-fill me-1 align-bottom"></i> Filters
               </BButton>
-              <BButton variant="success" @click="modalShow = !modalShow">
+              <BButton variant="primary" @click="modalShow = !modalShow">
                 <i class="ri-add-fill me-1 align-bottom"></i> Add Seller
               </BButton>
             </div>
@@ -395,7 +395,7 @@ export default {
                 </BCol>
                 <BCol lg="12">
                   <div class="hstack gap-2 justify-content-end">
-                    <BButton variant="link" class="link-success text-decoration-none fw-medium"
+                    <BButton variant="link" class="link-priamry text-decoration-none fw-medium"
                       @click="modalShow = false">
                       <i class="ri-close-line me-1 align-middle"></i> Close
                     </BButton>

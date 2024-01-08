@@ -5,7 +5,7 @@
 :is(.nav-tabs, .nav-pills) {
   >li {
     >a {
-      color: var(--#{$prefix}body-color) !important;
+      color: var(--#{$prefix}body-color);
       font-weight: $font-weight-medium;
     }
   }
@@ -36,7 +36,6 @@
       font-weight: $font-weight-medium;
       color: var(--#{$prefix}body-color);
       padding-bottom: 1rem;
-
       &::after {
         content: "";
         background: $primary;
@@ -323,8 +322,6 @@ $value in $theme-colors {
 
     &.nav-tabs {
       .nav-link {
-        color: var(--#{$prefix}body-color);
-
         &.active {
           color: $value;
           background-color: var(--#{$prefix}secondary-bg);
@@ -367,16 +364,6 @@ $value in $theme-colors {
   }
 }
 
-.nav-tabs {
-  .nav-link {
-    color: var(--#{$prefix}body-color);
-
-    &:hover {
-      color: var(--#{$prefix}primary);
-    }
-  }
-}
-
 // progress nav
 .progress-nav {
   position: relative;
@@ -412,7 +399,6 @@ $value in $theme-colors {
     }
   }
 }
-
 
 // Step arrow nav
 .step-arrow-nav {
@@ -466,13 +452,12 @@ $value in $theme-colors {
   }
 
   @media (max-width:425px) {
-    .nav {
+    .nav{
       flex-wrap: nowrap;
     }
   }
-
   @media (max-width:375px) {
-    .nav {
+    .nav{
       flex-wrap: wrap;
     }
   }
@@ -548,27 +533,6 @@ $value in $theme-colors {
           border-color: $value;
         }
       }
-    }
-  }
-}
-
-.nav-success,
-.animation-nav,
-.card-header-pills,
-.vertical-nav-tabs,
-.nav-pills-justified,
-.card-footer-tabs,
-.custom-verti-nav-pills,
-.nav-custom-outline {
-  .nav-link {
-    color: var(--#{$prefix}body-color);
-
-    &:hover {
-      color: $primary;
-    }
-
-    &.active {
-      color: $white;
     }
   }
 }

@@ -93,12 +93,10 @@ export default {
               </BCol>
               <BCol lg="auto">
                 <div class="d-md-flex text-nowrap gap-2">
-                  <BButton variant="info" class="add-btn"><i class="ri-add-fill me-1 align-bottom"></i> Add Categories
-                  </BButton>
+                  <BButton variant="info" class="add-btn"><i class="ri-add-fill me-1 align-bottom"></i> Add Categories</BButton>
                   <BButton variant="danger"><i class="ri-filter-2-line me-1 align-bottom"></i> Filters</BButton>
 
-                  <BDropdown variant="link" right toggle-class="text-decoration-none arrow-none p-0"
-                    class="card-header-dropdown" no-caret>
+                  <BDropdown variant="link" right toggle-class="text-decoration-none arrow-none p-0" class="card-header-dropdown" no-caret>
                     <template #button-content> <span class="fs-18 btn btn-soft-info"><i class="ri-more-2-fill"></i></span>
                     </template>
                     <BDropdownItem href="#">All</BDropdownItem>
@@ -119,8 +117,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions" :height="50"
-              :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Business Development</h5>
             </BLink>
@@ -131,8 +128,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions1" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions1" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Automotive Jobs</h5>
             </BLink>
@@ -143,8 +139,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions2" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions2" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Construction / Facilities</h5>
             </BLink>
@@ -155,8 +150,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions3" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions3" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Design, Art & Multimedia</h5>
             </BLink>
@@ -167,8 +161,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions4" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions4" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Healthcare</h5>
             </BLink>
@@ -179,8 +172,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions5" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions5" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Sales & Marketing</h5>
             </BLink>
@@ -191,8 +183,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions6" :trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions6" :trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Accounting / Finance</h5>
             </BLink>
@@ -203,8 +194,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions7" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions7" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Project Management</h5>
             </BLink>
@@ -215,8 +205,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions8" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions8" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Customer Services</h5>
             </BLink>
@@ -227,8 +216,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions9" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions9" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Content Writer</h5>
             </BLink>
@@ -239,8 +227,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions10" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions10" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Government Jobs</h5>
             </BLink>
@@ -251,8 +238,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions11" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions11" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Digital Marketing</h5>
             </BLink>
@@ -263,8 +249,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions12" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions12" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Education & training</h5>
             </BLink>
@@ -275,8 +260,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions13" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions13" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">IT & Software</h5>
             </BLink>
@@ -287,8 +271,7 @@ export default {
       <BCol>
         <BCard no-body>
           <BCardBody class="text-center py-4">
-            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions14" trigger="hover"
-              :height="50" :width="50" />
+            <lottie class="avatar-xl icon-primary" colors="primary:#405189" :options="defaultOptions14" trigger="hover" :height="50" :width="50" />
             <BLink href="#!" class="stretched-link">
               <h5 class="mt-4">Catering & Tourism</h5>
             </BLink>
@@ -301,9 +284,9 @@ export default {
     <BRow>
       <BCol lg="12">
         <div class="text-center mb-3">
-          <BButton variant="link" class="text-success mt-2" id="loadmore"><i
-              class="mdi mdi-loading mdi-spin fs-20 align-middle me-2"></i> Load More </BButton>
+          <BButton variant="link" class="text-success mt-2" id="loadmore"><i class="mdi mdi-loading mdi-spin fs-20 align-middle me-2"></i> Load More </BButton>
         </div>
       </BCol>
     </BRow>
-</Layout></template>
+  </Layout>
+</template>

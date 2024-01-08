@@ -30,11 +30,11 @@ export default {
                                     <div class="text-muted">
                                         <p>Body Font Family</p>
                                         <div>
-                                            <p class="display-4 text-body">Aa</p>
+                                            <p class="display-4 text-body fw-medium">Aa</p>
                                         </div>
                                         <div>
                                             <p class="mb-2">Font Family</p>
-                                            <h5 class="mb-0">"Rubik", sans-serif</h5>
+                                            <h5 class="mb-0">"Open Sans", sans-serif</h5>
                                         </div>
                                     </div>
                                 </BCol>
@@ -43,11 +43,11 @@ export default {
                                     <div class="text-muted mt-4 mt-sm-0">
                                         <p>Heading Font Family</p>
                                         <div>
-                                            <h1 class="display-4 text-body ff-secondary">Aa</h1>
+                                            <h1 class="display-4 text-body fw-medium">Aa</h1>
                                         </div>
                                         <div>
                                             <p class="mb-2">Font Family</p>
-                                            <h5 class="mb-0">"Montserrat", sans-serif</h5>
+                                            <h5 class="mb-0">"Open Sans", sans-serif</h5>
                                         </div>
                                     </div>
                                 </BCol>
@@ -343,7 +343,7 @@ export default {
                     <CardHeader title="Blockquote Border Color" />
 
                     <BCardBody>
-                        <p class="text-muted">
+                        <p class="text-muted text-muted">
                             Use
                             <code>blockquote-outline</code> class to set blockquote border color.
                         </p>
@@ -801,8 +801,6 @@ export default {
                         <div class="live-preview">
                             <p class="fw-bold">Bold text.</p>
                             <p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
-                            <p class="fw-semibold">Semibold weight text.</p>
-                            <p class="fw-medium">Medium weight text.</p>
                             <p class="fw-normal">Normal weight text.</p>
                             <p class="fw-light">Light weight text.</p>
                             <p class="fw-lighter">Lighter weight text (relative to the parent element).</p>
@@ -1008,14 +1006,14 @@ export default {
                         </p>
                         <div class="live-preview">
                             <div class="bg-light clearfix p-3">
-                                <BButton variant="secondary" class="float-start">Example Button floated left</BButton>
+                                <BButton variant="primary" class="float-start">Example Button floated left</BButton>
                                 <BButton variant="success" class="float-end">Example Button floated right</BButton>
                             </div>
                         </div>
 
                         <div class="d-none code-view">
                             <pre class="language-markup"><code>&lt;div class=&quot;bg-light clearfix&quot;&gt;
-    &lt;BButton variant=&quot;secondary&quot; class=&quot;float-start&quot;&gt;Example Button floated left&lt;/BButton&gt;
+    &lt;BButton variant=&quot;primary&quot; class=&quot;float-start&quot;&gt;Example Button floated left&lt;/BButton&gt;
     &lt;BButton variant=&quot;secondary&quot; class=&quot;float-end&quot;&gt;Example Button floated right&lt;/BButton&gt;
 &lt;/div&gt;</code></pre>
                         </div>

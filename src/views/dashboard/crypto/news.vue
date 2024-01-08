@@ -42,7 +42,7 @@ export default {
 </script>
 
 <template>
-  <BCard no-body>
+  <BCard no-body class="card-height-100">
     <BCardHeader class="align-items-center d-flex">
       <BCardTitle class="mb-0 flex-grow-1">News Feed</BCardTitle>
       <div>

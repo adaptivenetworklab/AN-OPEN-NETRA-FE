@@ -40,7 +40,7 @@ export default {
               <h6 class="text-muted fs-13 mb-0">ICOs Published</h6>
             </div>
             <div class="flex-shrink-0 avatar-sm">
-              <div class="avatar-title bg-warning-subtle text-warning fs-22 rounded">
+              <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
                 <i class="ri-upload-2-line"></i>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default {
               <h6 class="text-muted fs-13 mb-0">Active ICOs</h6>
             </div>
             <div class="flex-shrink-0 avatar-sm">
-              <div class="avatar-title bg-success-subtle text-success fs-22 rounded">
+              <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
                 <i class="ri-remote-control-line"></i>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default {
               <h6 class="text-muted fs-13 mb-0">ICOs Trading</h6>
             </div>
             <div class="flex-shrink-0 avatar-sm">
-              <div class="avatar-title bg-info-subtle text-info fs-22 rounded">
+              <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
                 <i class="ri-flashlight-fill"></i>
               </div>
             </div>
@@ -85,7 +85,7 @@ export default {
               <h6 class="text-muted fs-13 mb-0">Funded ICOs</h6>
             </div>
             <div class="flex-shrink-0 avatar-sm">
-              <div class="avatar-title bg-danger-subtle text-danger fs-22 rounded">
+              <div class="avatar-title bg-primary-subtle text-primary fs-22 rounded">
                 <i class="ri-hand-coin-line"></i>
               </div>
             </div>
@@ -152,9 +152,9 @@ export default {
 
     <BRow>
       <BCol xxl="3" md="6">
-        <BCard no-body class="overflow-hidden">
-          <BCardBody class="bg-success-subtle">
-            <h5 class="fs-15 text-center mb-0">Active ICOs</h5>
+        <BCard no-body class="overflow-hidden border-0">
+          <BCardBody class="bg-primary-subtle">
+            <h5 class="fs-17 text-center mb-0">Active ICOs</h5>
           </BCardBody>
         </BCard>
         <BCard no-body class="mb-2">
@@ -166,11 +166,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">Data Wallet</h5>
+                <h5 class="fs-15 mb-1">Data Wallet</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>  
               <div>
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -187,7 +187,7 @@ export default {
                   4.8 <i class="ri-star-fill align-bottom text-warning"></i>
                 </h6>
               </div>
-              <h6 class="flex-shrink-0 text-danger mb-0">
+              <h6 class="flex-shrink-0 text-success mb-0">
                 <i class="ri-time-line align-bottom"></i> 05 Days
               </h6>
             </div>
@@ -202,11 +202,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">GreatRiver Technology</h5>
+                <h5 class="fs-15 mb-1">GreatRiver Technology</h5>
                 <p class="text-muted mb-2">Information Technology</p>
               </div>
               <div>
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -223,7 +223,7 @@ export default {
                   4.4 <i class="ri-star-fill align-bottom text-warning"></i>
                 </h6>
               </div>
-              <h6 class="flex-shrink-0 text-danger mb-0">
+              <h6 class="flex-shrink-0 text-success mb-0">
                 <i class="ri-time-line align-bottom"></i> 15 Days
               </h6>
             </div>
@@ -238,11 +238,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">Manta Network Finance</h5>
+                <h5 class="fs-15 mb-1">Manta Network Finance</h5>
                 <p class="text-muted mb-2">Finance Services</p>
               </div>
               <div>
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -259,7 +259,7 @@ export default {
                   2.7 <i class="ri-star-fill align-bottom text-warning"></i>
                 </h6>
               </div>
-              <h6 class="flex-shrink-0 text-warning mb-0">
+              <h6 class="flex-shrink-0 text-primary mb-0">
                 <i class="ri-time-line align-bottom"></i> 25 Jan, 2022
               </h6>
             </div>
@@ -274,11 +274,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">Goldfinch Network</h5>
+                <h5 class="fs-15 mb-1">Goldfinch Network</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div>
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -295,7 +295,7 @@ export default {
                   3.2 <i class="ri-star-fill align-bottom text-warning"></i>
                 </h6>
               </div>
-              <h6 class="flex-shrink-0 text-warning mb-0">
+              <h6 class="flex-shrink-0 text-primary mb-0">
                 <i class="ri-time-line align-bottom"></i> 04 Feb, 2022
               </h6>
             </div>
@@ -310,11 +310,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">Galaxy War</h5>
+                <h5 class="fs-15 mb-1">Galaxy War</h5>
                 <p class="text-muted mb-2">Gaming</p>
               </div>
               <div>
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -331,7 +331,7 @@ export default {
                   3.9 <i class="ri-star-fill align-bottom text-warning"></i>
                 </h6>
               </div>
-              <h6 class="flex-shrink-0 text-warning mb-0">
+              <h6 class="flex-shrink-0 text-primary mb-0">
                 <i class="ri-time-line align-bottom"></i> 05 March, 2022
               </h6>
             </div>
@@ -340,9 +340,9 @@ export default {
       </BCol>
 
       <BCol xxl="3" md="6">
-        <BCard no-body class="overflow-hidden">
-          <BCardBody class="bg-danger-subtle">
-            <h5 class="fs-15 text-center mb-0">Ended ICOs</h5>
+        <BCard no-body class="overflow-hidden border-0">
+          <BCardBody class="bg-primary-subtle">
+            <h5 class="fs-17 text-center mb-0">Ended ICOs</h5>
           </BCardBody>
         </BCard>
         <BCard no-body class="mb-2">
@@ -354,11 +354,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">Social Chain</h5>
+                <h5 class="fs-15 mb-1">Social Chain</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div>
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -390,11 +390,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">Angels Crypto</h5>
+                <h5 class="fs-15 mb-1">Angels Crypto</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div>
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -426,11 +426,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">Codex Exchange</h5>
+                <h5 class="fs-15 mb-1">Codex Exchange</h5>
                 <p class="text-muted mb-2">Exchange</p>
               </div>
               <div>
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -456,9 +456,9 @@ export default {
       </BCol>
 
       <BCol xxl="3" md="6">
-        <BCard no-body class="overflow-hidden">
+        <BCard no-body class="overflow-hidden border-0">
           <BCardBody class="bg-primary-subtle">
-            <h5 class="fs-15 text-center mb-0">Upcoming ICOs</h5>
+            <h5 class="fs-17 text-center mb-0">Upcoming ICOs</h5>
           </BCardBody>
         </BCard>
         <BCard no-body class="mb-2">
@@ -470,11 +470,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">World Doin</h5>
+                <h5 class="fs-15 mb-1">World Doin</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div>
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -503,11 +503,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">Bridge Plus</h5>
+                <h5 class="fs-15 mb-1">Bridge Plus</h5>
                 <p class="text-muted mb-2">Platform</p>
               </div>
               <div>
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -528,13 +528,13 @@ export default {
       </BCol>
 
       <BCol xxl="3" md="6">
-        <BCard no-body class="overflow-hidden">
-          <BCardBody class="bg-info-subtle">
-            <h5 class="fs-15 text-center mb-0">Trading ICOs</h5>
+        <BCard no-body class="overflow-hidden border-0">
+          <BCardBody class="bg-primary-subtle">
+            <h5 class="fs-17 text-center mb-0">Trading ICOs</h5>
           </BCardBody>
         </BCard>
         <BCard no-body class="mb-2 ribbon-box ribbon-fill right">
-          <div class="ribbon ribbon-info shadow-none">
+          <div class="ribbon ribbon-primary shadow-none">
             <i class="ri-flashlight-fill me-1"></i> 1
           </div>
           <BCardBody>
@@ -545,11 +545,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">PowerCoin</h5>
+                <h5 class="fs-15 mb-1">PowerCoin</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div class="me-4">
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -566,14 +566,14 @@ export default {
                   4.9 <i class="ri-star-fill align-bottom text-warning"></i>
                 </h6>
               </div>
-              <h6 class="flex-shrink-0 text-warning mb-0">
+              <h6 class="flex-shrink-0 text-primary mb-0">
                 <i class="ri-time-line align-bottom"></i> 16 Feb, 2022
               </h6>
             </div>
           </BCardBody>
         </BCard>
         <BCard no-body class="mb-2 ribbon-box ribbon-fill right">
-          <div class="ribbon ribbon-info shadow-none">
+          <div class="ribbon ribbon-primary shadow-none">
             <i class="ri-flashlight-fill me-1"></i> 2
           </div>
           <BCardBody>
@@ -584,11 +584,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">Cyber Wonder</h5>
+                <h5 class="fs-15 mb-1">Cyber Wonder</h5>
                 <p class="text-muted mb-2">Platform</p>
               </div>
               <div class="me-4">
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -605,14 +605,14 @@ export default {
                   4.7 <i class="ri-star-fill align-bottom text-warning"></i>
                 </h6>
               </div>
-              <h6 class="flex-shrink-0 text-warning mb-0">
+              <h6 class="flex-shrink-0 text-primary mb-0">
                 <i class="ri-time-line align-bottom"></i> 23 Jan, 2022
               </h6>
             </div>
           </BCardBody>
         </BCard>
         <BCard no-body class="mb-2 ribbon-box ribbon-fill right">
-          <div class="ribbon ribbon-info shadow-none">
+          <div class="ribbon ribbon-primary shadow-none">
             <i class="ri-flashlight-fill me-1"></i> 3
           </div>
           <BCardBody>
@@ -623,11 +623,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">RootCoin</h5>
+                <h5 class="fs-15 mb-1">RootCoin</h5>
                 <p class="text-muted mb-2">Blockchain Services</p>
               </div>
               <div class="me-4">
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -644,14 +644,14 @@ export default {
                   3.2 <i class="ri-star-fill align-bottom text-warning"></i>
                 </h6>
               </div>
-              <h6 class="flex-shrink-0 text-warning mb-0">
+              <h6 class="flex-shrink-0 text-primary mb-0">
                 <i class="ri-time-line align-bottom"></i> 30 Dec, 2021
               </h6>
             </div>
           </BCardBody>
         </BCard>
         <BCard no-body class="ribbon-box ribbon-fill right">
-          <div class="ribbon ribbon-info shadow-none">
+          <div class="ribbon ribbon-primary shadow-none">
             <i class="ri-flashlight-fill me-1"></i> 4
           </div>
           <BCardBody>
@@ -662,11 +662,11 @@ export default {
                 </div>
               </div>
               <div class="flex-grow-1 ms-3">
-                <h5 class="fs-14 mb-1">Arcana Finance</h5>
+                <h5 class="fs-15 mb-1">Arcana Finance</h5>
                 <p class="text-muted mb-2">Finance Services</p>
               </div>
               <div class="me-4">
-                <BLink href="javascript:void(0);" class="badge bg-primary-subtle text-primary">Visit Website
+                <BLink href="javascript:void(0);" class="badge bg-secondary-subtle text-secondary">Visit Website
                   <i class="ri-arrow-right-up-line align-bottom"></i>
                 </BLink>
               </div>
@@ -683,7 +683,7 @@ export default {
                   3.2 <i class="ri-star-fill align-bottom text-warning"></i>
                 </h6>
               </div>
-              <h6 class="flex-shrink-0 text-warning mb-0">
+              <h6 class="flex-shrink-0 text-primary mb-0">
                 <i class="ri-time-line align-bottom"></i> 02 Dec, 2021
               </h6>
             </div>

@@ -40,8 +40,8 @@ export default {
           <BCol cols="12">
             <BCard no-body>
               <BCardBody class="p-0">
-                <BAlert :model-value="true" variant="warning" class="border-0 rounded-0 m-0 d-flex align-items-center">
-                  <AlertTriangleIcon class="text-warning me-2 icon-sm"></AlertTriangleIcon>
+                <BAlert :model-value="true" variant="primary" class="border-0 rounded-0 m-0 d-flex align-items-center">
+                  <AlertTriangleIcon class="text-primary me-2 icon-sm"></AlertTriangleIcon>
                   <div class="flex-grow-1 text-truncate">
                     Your free trial expired in <b>17</b> days.
                   </div>
@@ -53,10 +53,10 @@ export default {
                 <BRow class="align-items-end">
                   <BCol sm="8">
                     <div class="p-3">
-                      <p class="fs-17 lh-base">Upgrade your plan from a <span class="fw-semibold">Free
+                      <p class="fs-16 lh-base">Upgrade your plan from a <span class="fw-semibold">Free
                           trial</span>, to ‘Premium Plan’ <i class="mdi mdi-arrow-right"></i></p>
                       <div class="mt-3">
-                        <router-link to="/pages/pricing" class="btn btn-success">Upgrade Account!</router-link>
+                        <router-link to="/pages/pricing" class="btn btn-primary">Upgrade Account!</router-link>
                       </div>
                     </div>
                   </BCol>

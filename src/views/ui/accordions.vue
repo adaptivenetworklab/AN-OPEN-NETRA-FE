@@ -27,24 +27,21 @@ export default {
             </p>
             <div class="live-preview">
               <BAccordion>
-                <BAccordionItem visible>
-                  <template #title> <span class="fw-semibold">How to create a group booking ?</span> </template>
+                <BAccordionItem title="How to create a group booking ?" visible>
                   Although you probably won’t get into any legal trouble if you
                   do it just once, why risk it? If you made your subscribers a
                   promise, you should honor that. If not, you run the risk of a
                   drastic increase in opt outs, which will only hurt you in the
                   long run.
                 </BAccordionItem>
-                <BAccordionItem>
-                  <template #title> <span class="fw-semibold">Why do we use it ?</span> </template>
+                <BAccordionItem title="Why do we use it ?">
                   No charges are put in place by SlickText when subscribers join
                   your text list. This does not mean however that charges 100%
                   will not occur. Charges that may occur fall under part of the
                   compliance statement stating "Message and Data rates may
                   apply."
                 </BAccordionItem>
-                <BAccordionItem>
-                  <template #title> <span class="fw-semibold">Where does it come from ?</span> </template>
+                <BAccordionItem title="Where does it come from ?">
                   Now that you have a general idea of the amount of texts you
                   will need per month, simply find a plan size that allows you
                   to have this allotment, plus some extra for growth. Don't
@@ -56,24 +53,21 @@ export default {
             <div class="d-none code-view">
               <pre class="language-markup" style="height: 275px">
 <code>&lt;b-accordion&gt;
-  &lt;BAccordionItem visible&gt;
-  &lt;template #title&gt; &lt;span class="fw-semibold"&gt;How to create a group booking ? &lt;/span&gt;&lt;/template&gt;
+  &lt;BAccordionItem title="How to create a group booking ?" visible&gt;
     Although you probably won’t get into any legal trouble if you
     do it just once, why risk it? If you made your subscribers a
     promise, you should honor that. If not, you run the risk of a
     drastic increase in opt outs, which will only hurt you in the
     long run.
     &lt;/BAccordionItem&gt;
-  &lt;BAccordionItem&gt;
-    &lt;template #title&gt; &lt;span class="fw-semibold"&gt;Why do we use it ? &lt;/span&gt;&lt;/template&gt;
+  &lt;BAccordionItem title="Why do we use it ?"&gt;
     No charges are put in place by SlickText when subscribers join
     your text list. This does not mean however that charges 100%
     will not occur. Charges that may occur fall under part of the
     compliance statement stating "Message and Data rates may
     apply."
     &lt;/BAccordionItem&gt;
-  &lt;BAccordionItem&gt;
-      &lt;template #title&gt; &lt;span class="fw-semibold"&gt;Where does it come from ? &lt;/span&gt;&lt;/template&gt;
+  &lt;BAccordionItem title="Where does it come from ?"&gt;
     Now that you have a general idea of the amount of texts you
     will need per month, simply find a plan size that allows you
     to have this allotment, plus some extra for growth. Don't
@@ -100,24 +94,21 @@ export default {
             </p>
             <div class="live-preview">
               <BAccordion flush id="accordionFlushExample">
-                <BAccordionItem visible>
-                  <template #title> <span class="fw-semibold">How do I set up my profile ?</span> </template>
+                <BAccordionItem title="How do I set up my profile ?" visible>
                   The renewal of your SlickText service happens on the
                   anniversary of your original paid sign up date. Upgrading in
                   the middle of your billing period will not change the billing
                   date. Upgrading does however force an immediate, pro-rated
                   charge to take place on your account.
                 </BAccordionItem>
-                <BAccordionItem>
-                  <template #title> <span class="fw-semibold">What can I do with my project ?</span> </template>
+                <BAccordionItem title="What can I do with my project ?">
                   If you had signed up on a free account with Slicktext, then
                   upgraded to a paid plan at a later date, your bill will renew
                   based on the date you had upgraded to a paid plan. All
                   invoices are able to be viewed under your plan options in your
                   SlickText account.
                 </BAccordionItem>
-                <BAccordionItem>
-                  <template #title> <span class="fw-semibold">Where can I go to edit voice settings</span> </template>
+                <BAccordionItem title="Where can I go to edit voice settings">
                   No, we cannot provide this information. Opting out from a list
                   is an anonymous, private act. This prevents further
                   harassment. Providing this information is considered bad
@@ -130,8 +121,7 @@ export default {
               <pre class="language-markup" style="height: 275px">
 <code>&lt;!-- Accordion Flush Example --&gt;
 &lt;b-accordion flush id=&quot;accordionFlushExample&quot;&gt;
-&lt;BAccordionItem visible&gt;
-  &lt;template #title&gt; &lt;span class="fw-semibold"&gt;How do I set up my profile ? ? &lt;/span&gt;&lt;/template&gt;
+&lt;BAccordionItem title="How do I set up my profile ?" visible&gt;
 The renewal of your SlickText service happens on the anniversary of your original paid sign up date. Upgrading in the middle of your billing period will not change the billing date. Upgrading does however force an immediate, pro-rated charge to take place on your account.
  &lt;/BAccordionItem&gt;
 
@@ -168,9 +158,8 @@ SlickText account.
             <BAccordion class="custom-accordionwithicon accordion-secondary" id="accordionWithicon">
               <BAccordionItem visible>
                 <template #title>
-                  <span class="fw-semibold"><i class="ri-global-line me-2"></i> How Does Age Verification Work?</span>
+                  <i class="ri-global-line me-2"></i> How Does Age Verification Work?
                 </template>
-
                 Increase or decrease the letter spacing depending on the
                 situation and try, try again until it looks right, and
                 each assumenda labore aes Homo nostrud organic, assumenda
@@ -178,7 +167,7 @@ SlickText account.
               </BAccordionItem>
               <BAccordionItem>
                 <template #title>
-                  <span class="fw-semibold"><i class="ri-user-location-line me-2"></i>How Does Link Tracking Work?</span>
+                  <i class="ri-user-location-line me-2"></i>How Does Link Tracking Work?
                 </template>
                 Nullam quis ante. Etiam sit amet orci eget eros faucibus
                 tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
@@ -188,7 +177,7 @@ SlickText account.
               </BAccordionItem>
               <BAccordionItem>
                 <template #title>
-                  <span class="fw-semibold"><i class="ri-pen-nib-line me-2"></i> How Do I Set Up the Drip Feature?</span>
+                  <i class="ri-pen-nib-line me-2"></i> How Do I Set Up the Drip Feature?
                 </template>
                 Cras ultricies mi eu turpis hendrerit fringilla.
                 Vestibulum ante ipsum primis in faucibus orci luctus et
@@ -202,9 +191,7 @@ SlickText account.
               <pre class="language-markup" style="height: 275px">
 <code>&lt;!-- Accordions with Icons --&gt;
 &lt;b-accordion class=&quot;custom-accordionwithicon&quot; id=&quot;accordionWithicon&quot;&gt;
-&lt;BAccordionItem visible&gt;
-  &lt;template #title&gt; &lt;span class="fw-semibold"&gt;How Does Age Verification Work? &lt;/span&gt;&lt;/template&gt;
-
+&lt;BAccordionItem title="How Does Age Verification Work?" visible&gt;
 Increase or decrease the letter spacing depending on the
 situation and try, try again until it looks right, and
 each assumenda labore aes Homo nostrud organic, assumenda
@@ -245,7 +232,7 @@ aliquam ultrices mauris.
             <BAccordion class="accordion-icon-none" id="accordionWithicon">
               <BAccordionItem visible>
                 <template #title>
-                  <span class="fw-semibold"><i class="ri-global-line me-2"></i> How Does Age Verification Work?</span>
+                  <i class="ri-global-line me-2"></i> How Does Age Verification Work?
                 </template>
                 Each design is a new, unique piece of art birthed into
                 this world, and while you have the opportunity to be
@@ -255,7 +242,7 @@ aliquam ultrices mauris.
               </BAccordionItem>
               <BAccordionItem>
                 <template #title>
-                  <span class="fw-semibold"><i class="ri-user-location-line me-2"></i>How Does Link Tracking Work?</span>
+                  <i class="ri-user-location-line me-2"></i>How Does Link Tracking Work?
                 </template>
                 When, while the lovely valley teems with vapour around me,
                 and the meridian sun strikes the upper surface of the
@@ -266,7 +253,7 @@ aliquam ultrices mauris.
               </BAccordionItem>
               <BAccordionItem>
                 <template #title>
-                  <span class="fw-semibold"><i class="ri-pen-nib-line me-2"></i> How Do I Set Up the Drip Feature?</span>
+                  <i class="ri-pen-nib-line me-2"></i> How Do I Set Up the Drip Feature?
                 </template>
                 Cras ultricies mi eu turpis hendrerit fringilla.
                 Vestibulum ante ipsum primis in faucibus orci luctus et
@@ -308,8 +295,7 @@ Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in
             </p>
             <div class="live-preview">
               <BAccordion class="custom-accordionwithicon-plus" id="accordionWithplusicon">
-                <BAccordionItem visible>
-                  <template #title> <span class="fw-semibold">What is User Interface Design?</span> </template>
+                <BAccordionItem title="What is User Interface Design?" visible>
                   Big July earthquakes confound zany experimental vow. My
                   girl wove six dozen plaid jackets before she quit. Six big
                   devils from Japan quickly forgot how to waltz. try again
@@ -317,16 +303,14 @@ Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in
                   nostrud organic, assumenda labore aesthetic magna
                   elements, buttons, everything.
                 </BAccordionItem>
-                <BAccordionItem>
-                  <template #title> <span class="fw-semibold">What is Digital Marketing?</span> </template>
+                <BAccordionItem title="What is Digital Marketing?">
                   It makes a statement, it’s impressive graphic design.
                   Increase or decrease the letter spacing depending on the
                   situation and try, try again until it looks right, and
                   each letter has the perfect spot of its own. commodo enim
                   craft beer mlkshk aliquip jean shorts ullamco.
                 </BAccordionItem>
-                <BAccordionItem>
-                  <template #title> <span class="fw-semibold">Where does it come from ?</span> </template>
+                <BAccordionItem title="Where does it come from ?">
                   Spacing depending on the situation and try, try again
                   until it looks right, and each. next level wes anderson
                   artisan four loko farm-to-table craft beer twee. commodo
@@ -389,24 +373,21 @@ delectus. pposites attract, and that’s a fact.
                   custom-accordionwithicon
                   accordion-border-box
                 " id="accordionlefticon">
-                <BAccordionItem visible>
-                  <template #title> <span class="fw-semibold">What is User Interface Design?</span> </template>
+                <BAccordionItem title="What is User Interface Design?" visible>
                   Anim pariatur cliche reprehenderit, enim eiusmod high life
                   accusamus terry richardson ad squid. 3 wolf moon officia
                   aute, non cupidatat skateboard dolor brunch. Food truck
                   quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
                   tempor, sunt aliqua nulla assumenda shoreditch et.
                 </BAccordionItem>
-                <BAccordionItem>
-                  <template #title> <span class="fw-semibold">What is Digital Marketing?</span> </template>
+                <BAccordionItem title="What is Digital Marketing?">
                   Nullam quis ante. Etiam sit amet orci eget eros faucibus
                   tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
                   Donec sodales sagittis magna. Sed consequat, leo eget
                   bibendum sodales, augue velit cursus nunc, quis gravida
                   magna mi a libero. Fusce vulputate eleifend sapien.
                 </BAccordionItem>
-                <BAccordionItem>
-                  <template #title> <span class="fw-semibold">Where does it come from ?</span> </template>
+                <BAccordionItem title="Where does it come from ?">
                   Cras ultricies mi eu turpis hendrerit fringilla.
                   Vestibulum ante ipsum primis in faucibus orci luctus et
                   ultrices posuere cubilia Curae; In ac dui quis mi
@@ -466,24 +447,21 @@ aliquam ultrices mauris.
                   custom-accordionwithicon custom-accordion-border
                   accordion-border-box accordion-success
                 " id="accordionBordered">
-                <BAccordionItem visible>
-                  <template #title> <span class="fw-semibold">What is User Interface Design?</span> </template>
+                <BAccordionItem title="What is User Interface Design?" visible>
                   Anim pariatur cliche reprehenderit, enim eiusmod high life
                   accusamus terry richardson ad squid. 3 wolf moon officia
                   aute, non cupidatat skateboard dolor brunch. Food truck
                   quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
                   tempor, sunt aliqua nulla assumenda shoreditch et.
                 </BAccordionItem>
-                <BAccordionItem>
-                  <template #title> <span class="fw-semibold">What is Digital Marketing?</span> </template>
+                <BAccordionItem title="What is Digital Marketing?">
                   Nullam quis ante. Etiam sit amet orci eget eros faucibus
                   tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.
                   Donec sodales sagittis magna. Sed consequat, leo eget
                   bibendum sodales, augue velit cursus nunc, quis gravida
                   magna mi a libero. Fusce vulputate eleifend sapien.
                 </BAccordionItem>
-                <BAccordionItem>
-                  <template #title> <span class="fw-semibold">Where does it come from ?</span> </template>
+                <BAccordionItem title="Where does it come from ?">
                   Cras ultricies mi eu turpis hendrerit fringilla.
                   Vestibulum ante ipsum primis in faucibus orci luctus et
                   ultrices posuere cubilia Curae; In ac dui quis mi
@@ -541,8 +519,7 @@ aliquam ultrices mauris.
             </p>
             <div class="live-preview">
               <BAccordion class="custom-accordionwithicon accordion-border-box" id="accordionnesting">
-                <BAccordionItem visible>
-                  <template #title> <span class="fw-semibold">How Do I Add Contacts/Subscribers?</span> </template>
+                <BAccordionItem title="How Do I Add Contacts/Subscribers?" visible>
                   This opt in method is perfect for those looking to
                   integrate a different software such Shopify or Hubspot
                   with Slicktext. For example, upon cashing out online, a
@@ -556,8 +533,7 @@ aliquam ultrices mauris.
                           accordion-border-box
                           mt-3
                         " id="accordionnesting2">
-                    <BAccordionItem visible>
-                      <template #title> <span class="fw-semibold">How Do I Search For Contacts?</span> </template>
+                    <BAccordionItem title="How Do I Search For Contacts?" visible>
                       When you are in need of finding a specific
                       subscriber, you will want to use the help of
                       SlickText's search navigation tool, located under
@@ -570,8 +546,7 @@ aliquam ultrices mauris.
                                   accordion-border-box
                                   mt-3
                                 " id="accordionnesting4">
-                        <BAccordionItem>
-                          <template #title> <span class="fw-semibold">How do I reset my digital tide watch ?</span> </template>
+                        <BAccordionItem title="How do I reset my digital tide watch ?">
                           Opting out a subscriber will allow
                           SlickText to maintain the history of the
                           subscriber as it pertains to the textword
@@ -582,8 +557,7 @@ aliquam ultrices mauris.
                         </BAccordionItem>
                       </BAccordion>
                     </BAccordionItem>
-                    <BAccordionItem>
-                     <template #title> <span class="fw-semibold">How Do I Delete a Contact From My List?</span> </template>
+                    <BAccordionItem title="How Do I Delete a Contact From My List?">
                       Opting out a subscriber will allow SlickText to
                       maintain the history of the subscriber as it
                       pertains to the textword you are opting them out
@@ -610,11 +584,14 @@ aliquam ultrices mauris.
                         " id="accordionnesting3">
                     <div class="accordion-item mt-2">
                       <h2 class="accordion-header" id="accordionnesting3Example2">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accor_nesting3Examplecollapse2" aria-expanded="false" aria-controls="accor_nesting3Examplecollapse2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#accor_nesting3Examplecollapse2" aria-expanded="false"
+                          aria-controls="accor_nesting3Examplecollapse2">
                           Howe does temperature impact my watch?
                         </button>
                       </h2>
-                      <div id="accor_nesting3Examplecollapse2" class="accordion-collapse collapse" aria-labelledby="accordionnesting3Example2" data-bs-parent="#accordionnesting3">
+                      <div id="accor_nesting3Examplecollapse2" class="accordion-collapse collapse"
+                        aria-labelledby="accordionnesting3Example2" data-bs-parent="#accordionnesting3">
                         <div class="accordion-body">
                           Opting out a subscriber will allow SlickText to
                           maintain the history of the subscriber as it
@@ -738,32 +715,30 @@ When you run out of messages, you will not be able to send any outbound campaign
     <BRow>
       <BCol xl="12">
         <BCard no-body>
-          <CardHeader title="Accordions Fill Colored" />
+          <CardHeader title="Accordions Fill Colored"/>
 
           <BCardBody class="tab-content">
             <p class="text-muted">
               Use <code>accordion-fill-</code> class with modifier class to the color accordion.
             </p>
-            <div class="tab-pane show active live-preview" id="fillColoredAccordionPreview" role="tabpanel" aria-labelledby="fillColoredAccordionPreview-tab" tabindex="0">
+            <div class="tab-pane show active live-preview" id="fillColoredAccordionPreview" role="tabpanel"
+              aria-labelledby="fillColoredAccordionPreview-tab" tabindex="0">
               <BRow>
                 <BCol xxl="6">
-                  <BAccordion class="custom-accordionwithicon accordion-fill-success" id="accordionFill">
-                    <BAccordionItem visible>
-                      <template #title> <span class="fw-semibold">What are webhooks?</span> </template>
+                  <BAccordion class="custom-accordionwithicon accordion-fill-primary" id="accordionFill">
+                    <BAccordionItem title="What are webhooks?" visible>
                       Webhooks allow you to gather real time data on key interactions that happen
                       with your Slick Text account. Simply provide us with a url where you'd like
                       the data to be sent, choose which events you'd like to be informed of, and
                       click save.
                     </BAccordionItem>
-                    <BAccordionItem>
-                      <template #title> <span class="fw-semibold">Where can I find my Textword ID?</span> </template>
+                    <BAccordionItem title="Where can I find my Textword ID?">
                       Head over to the Textwords page. Click options on the right hand side, and
                       then click Settings. This will redirect you to your Textword Setting page.
                       Now, go check your url, and the textword ID will be the number after
                       "word=". Too much or too little spacing, as in the example below.
                     </BAccordionItem>
-                    <BAccordionItem>
-                      <template #title> <span class="fw-semibold">Where is your API documentation?</span> </template>
+                    <BAccordionItem title="Where is your API documentation?">
                       You always want to make sure that your fonts work well together and try to
                       limit the number of fonts you use to three or less. Experiment and play
                       around with the fonts that you already have in the software you’re working
@@ -772,23 +747,21 @@ When you run out of messages, you will not be able to send any outbound campaign
                   </BAccordion>
                 </BCol>
                 <BCol xxl="6">
-                  <BAccordion class="custom-accordionwithicon accordion-flush accordion-fill-secondary" id="accordionFill2">
-                    <BAccordionItem visible>
-                     <template #title> <span class="fw-semibold">How Does Age Verification Work?</span> </template>
+                  <BAccordion class="custom-accordionwithicon accordion-flush accordion-fill-secondary"
+                    id="accordionFill2">
+                    <BAccordionItem title="How Does Age Verification Work?" visible>
                       Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin
                       coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next
                       level wes anderson artisan four loko farm-to-table craft beer twee. commodo
                       enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR.
                     </BAccordionItem>
-                    <BAccordionItem>
-                     <template #title> <span class="fw-semibold">What Kind of List Growth Should I Expect?</span> </template>
+                    <BAccordionItem title="What Kind of List Growth Should I Expect?">
                       Consistency is the one thing that can take all of the different elements in
                       your design, and tie them all together and make them work. In an awareness
                       campaign, it is vital for people to begin put 2 and 2 together and begin to
                       recognize your cause. Consistency piques people’s interest.
                     </BAccordionItem>
-                    <BAccordionItem>
-                      <template #title> <span class="fw-semibold">How Do I Delete a Contact From My List?</span> </template>
+                    <BAccordionItem title="How Do I Delete a Contact From My List?">
                       Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum
                       primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui
                       quis mi consectetuer lacinia. Nam pretium turpis et arcu arcu tortor,
@@ -802,7 +775,7 @@ When you run out of messages, you will not be able to send any outbound campaign
               <pre class="language-markup" style="height: 275px">
               <h5 class="fs-sm text-muted">HTML Preview</h5>
               <code>&lt;!-- Accordions Fill Colored --&gt;
-&lt;div class=&quot;accordion custom-accordionwithicon accordion-fill-success&quot; id=&quot;accordionFill&quot;&gt;
+&lt;div class=&quot;accordion custom-accordionwithicon accordion-fill-primary&quot; id=&quot;accordionFill&quot;&gt;
 &lt;div class=&quot;accordion-item&quot;&gt;
 &lt;h2 class=&quot;accordion-header&quot; id=&quot;accordionFillExample1&quot;&gt;
 &lt;button class=&quot;accordion-button&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#accor_fill1&quot; aria-expanded=&quot;true&quot; aria-controls=&quot;accor_fill1&quot;&gt;

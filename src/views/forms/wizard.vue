@@ -640,7 +640,7 @@ export default {
                                                 :class="activeTabVerti == 4 && 'show active'">
                                                 <div class="text-center pt-4 pb-2">
                                                         <div class="mb-4">
-                                                            <lottie colors="primary:#0ab39c,secondary:#405189"
+                                                            <lottie colors="primary:#25a0e2,secondary:#00bd9d"
                                                                 :options="defaultOptions" :height="120" :width="120" />
                                                         </div>
                                                         <h5>Your Order is Completed !</h5>
@@ -657,7 +657,7 @@ export default {
                                     <div class="d-flex justify-content-between align-items-center mb-3">
                                         <h5 class="fs-14 text-primary mb-0"><i
                                                 class="ri-shopping-cart-fill align-middle me-2"></i> Your cart</h5>
-                                        <span class="badge bg-danger rounded-pill">3</span>
+                                        <span class="badge bg-primary rounded-pill">3</span>
                                     </div>
                                     <ul class="list-group mb-3">
                                         <li class="list-group-item d-flex justify-content-between lh-sm">

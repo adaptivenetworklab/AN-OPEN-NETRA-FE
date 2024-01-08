@@ -14,7 +14,7 @@ import Maska from 'maska';
 
 import VueFeather from 'vue-feather';
 
-import '@/assets/scss/config/saas/app.scss';
+import '@/assets/scss/config/minimal/app.scss';
 import '@vueform/slider/themes/default.css';
 import '@/assets/scss/mermaid.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle'

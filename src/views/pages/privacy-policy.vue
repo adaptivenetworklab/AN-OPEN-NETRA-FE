@@ -19,11 +19,11 @@ export default {
     <BRow class="justify-content-center">
       <BCol col lg="10">
         <BCard no-body>
-          <div class="bg-warning-subtle position-relative">
+          <div class="bg-primary-subtle position-relative">
             <BCardBody class="p-5">
               <div class="text-center">
-                <h3>Privacy Policy</h3>
-                <p class="mb-0 text-muted">Last update: 16 Sept, 2022</p>
+                <h3 class="fw-semibold">Privacy Policy</h3>
+                <p class="mb-0 text-muted">Last update: 20 Nov, 2022</p>
               </div>
             </BCardBody>
             <div class="shape">

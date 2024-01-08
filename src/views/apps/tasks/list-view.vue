@@ -371,7 +371,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-4">
+                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
                     <i class="ri-ticket-2-line"></i>
                   </span>
                 </div>
@@ -398,7 +398,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-warning-subtle text-warning rounded-circle fs-4">
+                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
                     <i class="mdi mdi-timer-sand"></i>
                   </span>
                 </div>
@@ -425,7 +425,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-success-subtle text-success rounded-circle fs-4">
+                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
                     <i class="ri-checkbox-circle-line"></i>
                   </span>
                 </div>
@@ -452,7 +452,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-danger-subtle text-danger rounded-circle fs-4">
+                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
                     <i class="ri-delete-bin-line"></i>
                   </span>
                 </div>
@@ -474,7 +474,7 @@ export default {
                   <BButton variant="soft-secondary" class="me-1" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton variant="danger" class="add-btn" @click="toggleModal">
+                  <BButton variant="soft-primary" class="add-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Create Task
                   </BButton>
                 </div>
@@ -606,7 +606,7 @@ export default {
               </table>
               <div class="noresult" v-if="resultQuery.length < 1">
                 <div class="text-center">
-                  <lottie colors="primary:#121331,secondary:#08a88a" :options="defaultOptions" :height="75" :width="75" />
+                  <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions" :height="75" :width="75" />
                   <h5 class="mt-2">Sorry! No Result Found</h5>
                   <p class="text-muted mb-0">
                     We've searched more than 200k+ tasks We did not find any
@@ -638,7 +638,7 @@ export default {
 
     <!-- task list modal -->
     <BModal v-model="taskListModal" id="showmodal" modal-class="zoomIn" hide-footer
-      header-class="p-3 bg-info-subtle taskModal" class="v-modal-custom" centered size="lg"
+      header-class="p-3 bg-primary-subtle taskModal" class="v-modal-custom" centered size="lg"
       :title="dataEdit ? 'Edit Task' : 'Add Task'">
       <b-form id="addform" class="tablelist-form" autocomplete="off">
         <BRow class="g-3">
@@ -834,7 +834,7 @@ export default {
     <!-- delete modal -->
     <BModal v-model="deleteModal" modal-class="zoomIn" hide-footer no-close-on-backdrop centered>
       <div class="mt-2 text-center">
-        <lottie class="avatar-xl" colors="primary:#f7b84b,secondary:#f06548" :options="defaultOptions1" :height="75"
+        <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions1" :height="75"
           :width="75" />
         <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
           <h4>Are you sure ?</h4>
@@ -843,7 +843,7 @@ export default {
       </div>
       <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
         <button type="button" class="btn w-sm btn-light" @click="deleteModal = false">Close</button>
-        <button type="button" class="btn w-sm btn-danger" id="delete-record" @click="deleteData">Yes, Delete It!</button>
+        <button type="button" class="btn w-sm btn-primary" id="delete-record" @click="deleteData">Yes, Delete It!</button>
       </div>
     </BModal>
   </Layout>

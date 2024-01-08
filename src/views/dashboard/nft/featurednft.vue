@@ -34,7 +34,7 @@ export default {
                                     class="img-fluid card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <BLink href="#!" class="btn btn-success"><i
+                                    <BLink href="#!" class="btn btn-primary"><i
                                             class="ri-auction-fill align-bottom me-1"></i> Place Bid</BLink>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ export default {
                                     class="img-fluid card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <BLink href="#!" class="btn btn-success"><i
+                                    <BLink href="#!" class="btn btn-primary"><i
                                             class="ri-auction-fill align-bottom me-1"></i> Place Bid</BLink>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ export default {
                                     class="img-fluid card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <BLink href="#!" class="btn btn-success"><i
+                                    <BLink href="#!" class="btn btn-primary"><i
                                             class="ri-auction-fill align-bottom me-1"></i> Place Bid</BLink>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@ export default {
                                     class="img-fluid card-img-top explore-img" />
                                 <div class="bg-overlay"></div>
                                 <div class="place-bid-btn">
-                                    <BLink href="#!" class="btn btn-success"><i
+                                    <BLink href="#!" class="btn btn-primary"><i
                                             class="ri-auction-fill align-bottom me-1"></i> Place Bid</BLink>
                                 </div>
                             </div>

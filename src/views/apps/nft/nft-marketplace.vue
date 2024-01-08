@@ -31,11 +31,11 @@ export default {
                                         <img src="@/assets/images/nft/img-04.jpg" alt="" class="img-fluid rounded">
                                     </BCol>
                                 </BRow>
-                                <Blink href="#!" class="float-end"> View All <i
-                                        class="ri-arrow-right-line align-bottom"></i></Blink>
-                                <h5 class="mb-0 fs-16">
-                                    <Blink href="#!" class="text-body">Crypto Card <BBadge variant="success-subtle" class="bg-success-subtle text-success">743</BBadge>
-                                    </Blink>
+                                <BLink href="#!" class="float-end fs-14"> View All <i
+                                        class="ri-arrow-right-line align-bottom"></i></BLink>
+                                <h5 class="mb-0 fs-15">
+                                    <BLink href="#!" class="text-body">Crypto Card <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">743</BBadge>
+                                    </BLink>
                                 </h5>
                             </BCardBody>
                         </BCard>
@@ -55,10 +55,10 @@ export default {
                                         <img src="@/assets/images/nft/img-03.jpg" alt="" class="img-fluid rounded">
                                     </BCol>
                                 </BRow>
-                                <Blink href="#!" class="float-end"> View All <i
-                                        class="ri-arrow-right-line align-bottom"></i></Blink>
-                                <h5 class="mb-0 fs-16">
-                                    <Blink href="#!" class="text-body">Artwork <BBadge variant="success-subtle" class="bg-success-subtle text-success">206</BBadge></Blink>
+                                <BLink href="#!" class="float-end fs-14"> View All <i
+                                        class="ri-arrow-right-line align-bottom"></i></BLink>
+                                <h5 class="mb-0 fs-15">
+                                    <BLink href="#!" class="text-body">Artwork <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">206</BBadge></BLink>
                                 </h5>
                             </BCardBody>
                         </BCard>
@@ -78,10 +78,10 @@ export default {
                                         <img src="@/assets/images/nft/img-01.jpg" alt="" class="img-fluid rounded">
                                     </BCol>
                                 </BRow>
-                                <Blink href="#!" class="float-end"> View All <i
-                                        class="ri-arrow-right-line align-bottom"></i></Blink>
-                                <h5 class="mb-0 fs-16">
-                                    <Blink href="#!" class="text-body">Music <BBadge variant="success-subtle" class="bg-success-subtle text-success">679</BBadge></Blink>
+                                <BLink href="#!" class="float-end fs-14"> View All <i
+                                        class="ri-arrow-right-line align-bottom"></i></BLink>
+                                <h5 class="mb-0 fs-15">
+                                    <BLink href="#!" class="text-body">Music <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">679</BBadge></BLink>
                                 </h5>
                             </BCardBody>
                         </BCard>
@@ -100,8 +100,8 @@ export default {
                             your own and let it live forever on the Ethereum blockchain you or future owners can add
                             text to an existing ChainText token..</p>
                         <div class="hstack gap-2">
-                            <Blink href="/apps/nft-create" class="btn btn-success">Create NFT</Blink>
-                            <Blink href="/apps/nft-explore" class="btn btn-danger">Explore Now</Blink>
+                            <router-link to="/apps/nft-create" class="btn btn-success">Create NFT</router-link>
+                            <router-link to="/apps/nft-explore" class="btn btn-danger">Explore Now</router-link>
                         </div>
                     </BCardBody>
                 </BCard>
@@ -126,11 +126,11 @@ export default {
             <BCol lg="12">
                 <div class="d-lg-flex align-items-center mb-4">
                     <div class="flex-grow-1">
-                        <h5 class="card-title mb-0 fs-17">Trending Artwork</h5>
+                        <h5 class="card-title mb-0 fw-bold fs-16">Trending Artwork</h5>
                     </div>
                     <div class="flex-shrink-0 mt-4 mt-lg-0">
-                        <Blink href="/apps/nft-explore" class="btn btn-soft-primary">View All <i
-                                class="ri-arrow-right-line align-bottom"></i></Blink>
+                        <router-link to="/apps/nft-explore" class="btn btn-soft-primary">View All <i
+                                class="ri-arrow-right-line align-bottom"></i></router-link>
                     </div>
                 </div>
             </BCol>
@@ -143,8 +143,8 @@ export default {
                         <div class="d-flex align-items-center mb-3">
                             <img src="@/assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded-circle" />
                             <div class="ms-2 flex-grow-1">
-                                <h6 class="mb-0 fs-15">Nancy Martino</h6>
-                                <p class="mb-0 text-muted">Owners</p>
+                                <h6 class="mb-1 fs-15">Nancy Martino</h6>
+                                <p class="mb-0 fs-14 text-muted">Owners</p>
                             </div>
                             <div class="bookmark-icon">
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button"
@@ -155,17 +155,17 @@ export default {
                             <img src="@/assets/images/nft/img-05.jpg" alt="" class="img-fluid explore-img">
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <Blink href="#!" class="btn btn-success"><i
+                                <BLink href="#!" class="btn btn-primary"><i
                                         class="ri-auction-fill align-bottom me-1"></i>
-                                    Place Bid</Blink>
+                                    Place Bid</BLink>
                             </div>
                         </div>
                         <div class="mt-3">
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                 19.29k </p>
-                            <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 97.8 ETH </h5>
-                            <h6 class="fs-16 mb-0">
-                                <Blink href="/apps/nft-item-detail">Patterns arts & culture</Blink>
+                            <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 97.8 ETH </h5>
+                            <h6 class="fs-15 mb-0">
+                                <router-link to="/apps/nft-item-detail" class="text-body">Patterns arts & culture</router-link>
                             </h6>
                         </div>
                     </BCardBody>
@@ -177,8 +177,8 @@ export default {
                         <div class="d-flex align-items-center mb-3">
                             <img src="@/assets/images/users/avatar-9.jpg" alt="" class="avatar-xs rounded-circle" />
                             <div class="ms-2 flex-grow-1">
-                                <h6 class="mb-0 fs-15">Henry Baird</h6>
-                                <p class="mb-0 text-muted">Creators</p>
+                                <h6 class="mb-1 fs-15">Henry Baird</h6>
+                                <p class="mb-0 fs-14 text-muted">Creators</p>
                             </div>
                             <div class="bookmark-icon">
                                 <button type="button" class="btn btn-icon" data-bs-toggle="button"
@@ -189,17 +189,17 @@ export default {
                             <img src="@/assets/images/nft/img-03.jpg" alt="" class="img-fluid explore-img">
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <Blink href="#!" class="btn btn-success"><i
+                                <BLink href="#!" class="btn btn-primary"><i
                                         class="ri-auction-fill align-bottom me-1"></i>
-                                    Place Bid</Blink>
+                                    Place Bid</BLink>
                             </div>
                         </div>
                         <div class="mt-3">
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                 31.64k </p>
-                            <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 475.23 ETH </h5>
-                            <h6 class="fs-16 mb-0">
-                                <Blink href="/apps/nft-item-detail" class="text-body">Evolved Reality</Blink>
+                            <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 475.23 ETH </h5>
+                            <h6 class="fs-15 mb-0">
+                                <router-link to="/apps/nft-item-detail" class="text-body">Evolved Reality</router-link>
                             </h6>
                         </div>
                     </BCardBody>
@@ -211,8 +211,8 @@ export default {
                         <div class="d-flex align-items-center mb-3">
                             <img src="@/assets/images/users/avatar-10.jpg" alt="" class="avatar-xs rounded-circle" />
                             <div class="ms-2 flex-grow-1">
-                                <h6 class="mb-0 fs-15">Diana Kohler</h6>
-                                <p class="mb-0 text-muted">Owners</p>
+                                <h6 class="mb-1 fs-15">Diana Kohler</h6>
+                                <p class="mb-0 fs-14 text-muted">Owners</p>
                             </div>
                             <div class="bookmark-icon">
                                 <button type="button" class="btn btn-icon active" data-bs-toggle="button"
@@ -224,17 +224,17 @@ export default {
                                 class="img-fluid explore-img">
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <Blink href="#!" class="btn btn-success"><i
+                                <BLink href="#!" class="btn btn-primary"><i
                                         class="ri-auction-fill align-bottom me-1"></i>
-                                    Place Bid</Blink>
+                                    Place Bid</BLink>
                             </div>
                         </div>
                         <div class="mt-3">
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                 8.34k </p>
-                            <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 701.38 ETH </h5>
-                            <h6 class="fs-16 mb-0">
-                                <Blink href="/apps/nft-item-detail" class="text-body">Long-tailed macaque</Blink>
+                            <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 701.38 ETH </h5>
+                            <h6 class="fs-15 mb-0">
+                                <router-link to="/apps/nft-item-detail" class="text-body">Long-tailed macaque</router-link>
                             </h6>
                         </div>
                     </BCardBody>
@@ -246,8 +246,8 @@ export default {
                         <div class="d-flex align-items-center mb-3">
                             <img src="@/assets/images/users/avatar-8.jpg" alt="" class="avatar-xs rounded-circle" />
                             <div class="ms-2 flex-grow-1">
-                                <h6 class="mb-0 fs-15">James Price</h6>
-                                <p class="mb-0 text-muted">Owners</p>
+                                <h6 class="mb-1 fs-15">James Price</h6>
+                                <p class="mb-0 fs-14 text-muted">Owners</p>
                             </div>
                             <div class="bookmark-icon">
                                 <button type="button" class="btn btn-icon" data-bs-toggle="button"
@@ -258,17 +258,17 @@ export default {
                             <img src="@/assets/images/nft/img-06.jpg" alt="" class="img-fluid explore-img">
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <Blink href="#!" class="btn btn-success"><i
+                                <BLink href="#!" class="btn btn-primary"><i
                                         class="ri-auction-fill align-bottom me-1"></i>
-                                    Place Bid</Blink>
+                                    Place Bid</BLink>
                             </div>
                         </div>
                         <div class="mt-3">
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                 29.20k </p>
-                            <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 917.83 ETH </h5>
-                            <h6 class="fs-16 mb-0">
-                                <Blink href="/apps/nft-item-detail" class="text-body">Robotic Body Art</Blink>
+                            <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 917.83 ETH </h5>
+                            <h6 class="fs-15 mb-0">
+                                <router-link to="/apps/nft-item-detail" class="text-body">Robotic Body Art</router-link>
                             </h6>
                         </div>
                     </BCardBody>
@@ -280,8 +280,8 @@ export default {
                         <div class="d-flex align-items-center mb-3">
                             <img src="@/assets/images/users/avatar-2.jpg" alt="" class="avatar-xs rounded-circle" />
                             <div class="ms-2 flex-grow-1">
-                                <h6 class="mb-0 fs-15">Rickey Teran</h6>
-                                <p class="mb-0 text-muted">Creators</p>
+                                <h6 class="mb-1 fs-15">Rickey Teran</h6>
+                                <p class="mb-0 fs-14 text-muted">Creators</p>
                             </div>
                             <div class="bookmark-icon">
                                 <button type="button" class="btn btn-icon" data-bs-toggle="button"
@@ -293,18 +293,18 @@ export default {
                                 class="img-fluid explore-img">
                             <div class="bg-overlay"></div>
                             <div class="place-bid-btn">
-                                <Blink href="#!" class="btn btn-success"><i
+                                <BLink href="#!" class="btn btn-primary"><i
                                         class="ri-auction-fill align-bottom me-1"></i>
-                                    Place Bid</Blink>
+                                    Place Bid</BLink>
                             </div>
                         </div>
 
                         <div class="mt-3">
                             <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                                 78.34k </p>
-                            <h5 class="text-success"><i class="mdi mdi-ethereum"></i> 571.24 ETH </h5>
-                            <h6 class="fs-16 mb-0">
-                                <Blink href="/apps/nft-item-detail" class="text-body">Creative filtered portrait</Blink>
+                            <h5 class="text-primary"><i class="mdi mdi-ethereum"></i> 571.24 ETH </h5>
+                            <h6 class="fs-15 mb-0">
+                                <router-link to="/apps/nft-item-detail" class="text-body">Creative filtered portrait</router-link>
                             </h6>
                         </div>
                     </BCardBody>
@@ -316,11 +316,11 @@ export default {
             <BCol lg="12">
                 <div class="d-lg-flex align-items-center mb-4">
                     <div class="flex-grow-1">
-                        <h5 class="card-title mb-0 fs-17">Recent NFTs Artwork</h5>
+                        <h5 class="card-title mb-0 fw-bold fs-16">Recent NFTs Artwork</h5>
                     </div>
                     <div class="flex-shrink-0 mt-4 mt-lg-0">
-                        <Blink href="/apps/nft-creators" class="btn btn-soft-primary">View All <i
-                                class="ri-arrow-right-line align-bottom"></i></Blink>
+                        <router-link to="/apps/nft-creators" class="btn btn-soft-primary">View All <i
+                                class="ri-arrow-right-line align-bottom"></i></router-link>
                     </div>
                 </div>
             </BCol>
@@ -337,18 +337,18 @@ export default {
                         <img src="@/assets/images/nft/img-02.jpg" alt="" class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
-                            <Blink href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i>
+                            <BLink href="#!" class="btn btn-primary"><i class="ri-auction-fill align-bottom me-1"></i>
                                 Place
-                                Bid</Blink>
+                                Bid</BLink>
                         </div>
                     </div>
                     <BCardBody>
                         <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                             23.63k </p>
-                        <h5 class="mb-1">
-                            <Blink href="/apps/nft-item-detail" class="text-body">The Chirstoper</Blink>
+                        <h5 class="mb-1 fs-15">
+                            <router-link to="/apps/nft-item-detail" class="text-body">The Chirstoper</router-link>
                         </h5>
-                        <p class="text-muted mb-0">Music</p>
+                        <p class="text-muted mb-0 fs-14">Music</p>
                     </BCardBody>
                     <BCardFooter class="border-top border-top-dashed">
                         <div class="d-flex align-items-center">
@@ -372,18 +372,18 @@ export default {
                             class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
-                            <Blink href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i>
+                            <BLink href="#!" class="btn btn-primary"><i class="ri-auction-fill align-bottom me-1"></i>
                                 Place
-                                Bid</Blink>
+                                Bid</BLink>
                         </div>
                     </div>
                     <BCardBody>
                         <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i> 94.1k
                         </p>
-                        <h5 class="mb-1">
-                            <Blink href="/apps/nft-item-detail" class="text-body">Trendy Fashion Portraits</Blink>
+                        <h5 class="mb-1 fs-15">
+                            <router-link to="/apps/nft-item-detail" class="text-body">Trendy Fashion Portraits</router-link>
                         </h5>
-                        <p class="text-muted mb-0">3d Style</p>
+                        <p class="text-muted fs-14 mb-0">3d Style</p>
                     </BCardBody>
                     <BCardFooter class="border-top border-top-dashed">
                         <div class="d-flex align-items-center">
@@ -406,18 +406,18 @@ export default {
                         <img src="@/assets/images/nft/img-04.jpg" alt="" class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
-                            <Blink href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i>
+                            <BLink href="#!" class="btn btn-primary"><i class="ri-auction-fill align-bottom me-1"></i>
                                 Place
-                                Bid</Blink>
+                                Bid</BLink>
                         </div>
                     </div>
                     <BCardBody>
                         <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                             34.12k </p>
-                        <h5 class="mb-1">
-                            <router-link to="/apps/nft-item-detail">Smillevers Crypto</router-link>
+                        <h5 class="mb-1 fs-15">
+                            <router-link to="/apps/nft-item-detail" class="text-body">Smillevers Crypto</router-link>
                         </h5>
-                        <p class="text-muted mb-0">Crypto Card</p>
+                        <p class="text-muted fs-14 mb-0">Crypto Card</p>
                     </BCardBody>
                     <BCardFooter class="border-top border-top-dashed">
                         <div class="d-flex align-items-center">
@@ -441,18 +441,18 @@ export default {
                             class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
-                            <Blink href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i>
+                            <BLink href="#!" class="btn btn-primary"><i class="ri-auction-fill align-bottom me-1"></i>
                                 Place
-                                Bid</Blink>
+                                Bid</BLink>
                         </div>
                     </div>
                     <BCardBody>
                         <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                             15.93k </p>
-                        <h5 class="mb-1">
+                        <h5 class="mb-1 fs-15">
                             <router-link to="/apps/nft-item-detail" class="text-body">Evolved Reality</router-link>
                         </h5>
-                        <p class="text-muted mb-0">Video</p>
+                        <p class="text-muted fs-14 mb-0">Video</p>
                     </BCardBody>
                     <BCardFooter class="border-top border-top-dashed">
                         <div class="d-flex align-items-center">
@@ -475,18 +475,18 @@ export default {
                         <img src="@/assets/images/nft/img-01.jpg" alt="" class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
-                            <Blink href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i>
+                            <BLink href="#!" class="btn btn-primary"><i class="ri-auction-fill align-bottom me-1"></i>
                                 Place
-                                Bid</Blink>
+                                Bid</BLink>
                         </div>
                     </div>
                     <BCardBody>
                         <p class="fw-medium mb-0 float-end"><i class="mdi mdi-heart text-danger align-middle"></i>
                             14.85k </p>
-                        <h5 class="mb-1">
+                        <h5 class="mb-1 fs-15">
                             <router-link to="/apps/nft-item-detail" class="text-body">Abstract face painting</router-link>
                         </h5>
-                        <p class="text-muted mb-0">Collectibles</p>
+                        <p class="text-muted fs-14 mb-0">Collectibles</p>
                     </BCardBody>
                     <BCardFooter class="border-top border-top-dashed">
                         <div class="d-flex align-items-center">
@@ -505,7 +505,7 @@ export default {
             <BCol lg="12">
                 <div class="d-lg-flex align-items-center mb-4">
                     <div class="flex-grow-1">
-                        <h5 class="card-title mb-0 fs-17">Popular Creators</h5>
+                        <h5 class="card-title mb-0 fw-bold fs-16">Popular Creators</h5>
                     </div>
                     <div class="flex-shrink-0 mt-4 mt-lg-0">
                         <router-link to="/apps/nft-creators" class="btn btn-soft-primary">View All <i
@@ -522,10 +522,10 @@ export default {
                     <BCardBody class="text-center">
                         <img src="@/assets/images/users/avatar-1.jpg" alt=""
                             class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
-                        <h5 class="mt-3 mb-1">
+                        <h5 class="mt-3 mb-1 fs-15">
                             <router-link to="/pages/profile" class="text-body">Tonya Noble</router-link>
                         </h5>
-                        <p class="text-muted">5048 Products</p>
+                        <p class="text-muted fs-14">5048 Products</p>
                         <div>
                             <BButton variant="primary" size="sm">Follow</BButton>
                         </div>
@@ -539,10 +539,10 @@ export default {
                     <BCardBody class="text-center">
                         <img src="@/assets/images/nft/img-04.jpg" alt=""
                             class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
-                        <h5 class="mt-3 mb-1">
+                        <h5 class="mt-3 mb-1 fs-15">
                             <router-link to="/pages/profile" class="text-body">Kevin Dawson</router-link>
                         </h5>
-                        <p class="text-muted">649 Products</p>
+                        <p class="text-muted fs-14">649 Products</p>
                         <div>
                             <BButton variant="soft-primary" size="sm">Unfollow</BButton>
                         </div>
@@ -555,10 +555,10 @@ export default {
                     <BCardBody class="text-center">
                         <img src="@/assets/images/nft/img-06.jpg" alt=""
                             class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
-                        <h5 class="mt-3 mb-1">
+                        <h5 class="mt-3 mb-1 fs-15">
                             <router-link to="/pages/profile" class="text-body">Herbert Stokes</router-link>
                         </h5>
-                        <p class="text-muted">918 Products</p>
+                        <p class="text-muted fs-14">918 Products</p>
                         <div>
                             <BButton variant="soft-primary" size="sm">Unfollow</BButton>
                         </div>
@@ -571,10 +571,10 @@ export default {
                     <BCardBody class="text-center">
                         <img src="https://img.themesbrand.com/velzon/images/img-2.gif" alt=""
                             class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
-                        <h5 class="mt-3 mb-1">
+                        <h5 class="mt-3 mb-1 fs-15">
                             <router-link to="/pages/profile" class="text-body">Thomas Taylor</router-link>
                         </h5>
-                        <p class="text-muted">345 Products</p>
+                        <p class="text-muted fs-14">345 Products</p>
                         <div>
                             <BButton variant="primary" size="sm">Follow</BButton>
                         </div>
@@ -587,10 +587,10 @@ export default {
                     <BCardBody class="text-center">
                         <img src="https://img.themesbrand.com/velzon/images/img-1.gif" alt=""
                             class="avatar-md mt-n5 rounded-circle mx-auto d-block object-fit-cover">
-                        <h5 class="mt-3 mb-1">
+                        <h5 class="mt-3 mb-1 fs-15">
                             <router-link to="/pages/profile" class="text-body">James Price</router-link>
                         </h5>
-                        <p class="text-muted">745 Products</p>
+                        <p class="text-muted fs-14">745 Products</p>
                         <div>
                             <BButton variant="primary" size="sm">Follow</BButton>
                         </div>

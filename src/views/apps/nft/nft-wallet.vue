@@ -31,7 +31,7 @@ export default {
                         <h5>Metamask</h5>
                         <p class="text-muted pb-1">MetaMask is a software cryptocurrency wallet used to interact with
                             the Ethereum blockchain.</p>
-                        <Blink href="#!" class="btn btn-danger">Change Wallet</Blink>
+                        <BLink href="#!" class="btn btn-danger">Change Wallet</BLink>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -54,7 +54,7 @@ export default {
                         <p class="text-muted pb-1">MetaMask is a software cryptocurrency wallet used to interact
                             with
                             the Ethereum blockchain.</p>
-                        <Blink href="#!" class="btn btn-soft-info">Connect Wallet</Blink>
+                        <BLink href="#!" class="btn btn-soft-info">Connect Wallet</BLink>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -66,7 +66,7 @@ export default {
                         <p class="text-muted pb-1">Coinbase Wallet is a software product that gives you access to a
                             wide
                             spectrum.</p>
-                        <Blink href="#!" class="btn btn-soft-info">Connect Wallet</Blink>
+                        <BLink href="#!" class="btn btn-soft-info">Connect Wallet</BLink>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -78,7 +78,7 @@ export default {
                         <p class="text-muted pb-1">Kukai is a seamless browser-based wallet that allows users to
                             store,
                             transfer, and delegate.</p>
-                        <Blink href="#!" class="btn btn-soft-info">Connect Wallet</Blink>
+                        <BLink href="#!" class="btn btn-soft-info">Connect Wallet</BLink>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -90,7 +90,7 @@ export default {
                         <p class="text-muted pb-1">Binance offers a relatively secure, versatile way to invest in
                             and
                             trade cryptocurrencies.</p>
-                        <Blink href="#!" class="btn btn-soft-info">Connect Wallet</Blink>
+                        <BLink href="#!" class="btn btn-soft-info">Connect Wallet</BLink>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -102,7 +102,7 @@ export default {
                         <p class="text-muted pb-1">Enjin is a store of value that can be used in the non-fungible
                             token
                             (NFT) marketplace.</p>
-                        <Blink href="#!" class="btn btn-soft-info">Connect Wallet</Blink>
+                        <BLink href="#!" class="btn btn-soft-info">Connect Wallet</BLink>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -114,7 +114,7 @@ export default {
                         <p class="text-muted pb-1">AlphaWallet uses the TokenScript framework, which makes tokens
                             become
                             “smart”.</p>
-                        <Blink href="#!" class="btn btn-soft-info">Connect Wallet</Blink>
+                        <BLink href="#!" class="btn btn-soft-info">Connect Wallet</BLink>
                     </BCardBody>
                 </BCard>
             </BCol>
@@ -126,7 +126,7 @@ export default {
                         <p class="text-muted pb-1">Math DApp Factory gives users tools that can simplify the
                             development
                             of exchanges, games</p>
-                        <Blink href="#!" class="btn btn-soft-info">Connect Wallet</Blink>
+                        <BLink href="#!" class="btn btn-soft-info">Connect Wallet</BLink>
                     </BCardBody>
                 </BCard>
             </BCol>

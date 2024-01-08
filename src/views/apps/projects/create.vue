@@ -157,8 +157,8 @@ export default {
           </BCardBody>
         </BCard>
         <div class="text-end mb-4">
-          <BButton type="button" variant="danger" class="w-sm me-1">Delete</BButton>
-          <BButton type="submit" variant="secondary" class="w-sm me-1"> Draft </BButton>
+          <BButton type="button" variant="soft-secondary" class="w-sm me-1">Delete</BButton>
+          <BButton type="submit" variant="primary" class="w-sm me-1"> Draft </BButton>
           <BButton type="submit" variant="success" class="w-sm">Create</BButton>
         </div>
       </BCol>
@@ -235,7 +235,7 @@ export default {
                 </BLink>
                 <BLink href="javascript: void(0);" class="avatar-group-item" v-b-tooltip.hover title="Sylvia Wright">
                   <div class="avatar-xs">
-                    <div class="avatar-title rounded-circle bg-secondary">
+                    <div class="avatar-title rounded-circle bg-primary">
                       S
                     </div>
                   </div>

@@ -41,7 +41,7 @@ export default {
                                     style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; border-radius: 3px; margin: 0; border: none;">
                                     <tr style="font-family: 'Roboto', sans-serif; font-size: 14px; margin: 0;">
                                         <td class="content-wrap"
-                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; color: #495057; font-size: 14px; vertical-align: top; margin: 0;padding: 30px; box-shadow: 0 3px 15px rgba(30,32,37,.06); ;border-radius: 7px; background-color: #fff;"
+                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; color: #495057; font-size: 14px; vertical-align: top; margin: 0;padding: 30px; border: 1px solid #e9ebec;border-radius: 7px; background-color: #fff;"
                                             valign="top">
                                             <meta itemprop="name" content="Confirm Email"
                                                 style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;" />
@@ -267,7 +267,7 @@ export default {
                                     style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; border-radius: 3px; margin: 0; border: none;">
                                     <tr style="font-family: 'Roboto', sans-serif; font-size: 14px; margin: 0;">
                                         <td class="content-wrap"
-                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; color: #495057; font-size: 14px; vertical-align: top; margin: 0;padding: 30px; box-shadow: 0 3px 15px rgba(30,32,37,.06); ;border-radius: 7px; background-color: #fff;"
+                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; color: #495057; font-size: 14px; vertical-align: top; margin: 0;padding: 30px;border: 1px solid #e9ebec ;border-radius: 7px; background-color: #fff;"
                                             valign="top">
                                             <meta itemprop="name" content="Confirm Email"
                                                 style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;" />
@@ -363,12 +363,12 @@ export default {
                                     style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; border-radius: 3px; margin: 0; border: none;">
                                     <tr style="font-family: 'Roboto', sans-serif; font-size: 14px; margin: 0;">
                                         <td class="content-wrap"
-                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; color: #495057; font-size: 14px; vertical-align: top; margin: 0;box-shadow: 0 3px 15px rgba(30,32,37,.06); ;border-radius: 7px; background-color: #fff;overflow: hidden;"
+                                            style="font-family: 'Roboto', sans-serif; box-sizing: border-box; color: #495057; font-size: 14px; vertical-align: top; margin: 0;border: 1px solid #e9ebec ;border-radius: 7px; background-color: #fff;overflow: hidden;"
                                             valign="top">
                                             <meta itemprop="name" content="Confirm Email"
                                                 style="font-family: 'Roboto', sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;" />
                                             <div
-                                                style="padding: 20px;box-sizing: border-box; text-align: center; background-image: linear-gradient(to right, #405189, #405189);">
+                                                style="padding: 20px;box-sizing: border-box; text-align: center; background-image: linear-gradient(to right, #25a0e2, #25a0e2);">
                                                 <h6
                                                     style="font-family: 'Roboto', sans-serif;margin: 0; font-size: 15px;color: #fff;text-transform: uppercase;">
                                                     FREE 1-2 day shipping on orders over $32</h6>

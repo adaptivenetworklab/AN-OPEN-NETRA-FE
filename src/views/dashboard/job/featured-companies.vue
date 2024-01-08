@@ -201,8 +201,8 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="align-items-center mt-4 pt-2 justify-content-between d-flex">
-                    <div class="flex-shrink-0">
+                <div class="align-items-center mt-4 pt-2 justify-content-between d-md-flex">
+                    <div class="flex-shrink-0 mb-2 mb-md-0">
                         <div class="text-muted">
                             Showing <span class="fw-semibold">5</span> of <span class="fw-semibold">25</span> Results
                         </div>

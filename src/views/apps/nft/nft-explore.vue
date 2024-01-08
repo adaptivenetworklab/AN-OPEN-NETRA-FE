@@ -32,7 +32,7 @@ export default {
                         <div class="d-flex align-items-center">
                             <h5 class="card-title mb-0 flex-grow-1">Explore Product</h5>
                             <div>
-                                <Blink class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample"
+                                <Blink class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample"
                                     @click="toggleCollapse"><i class="ri-filter-2-line align-bottom"></i> Filters</Blink>
                             </div>
                         </div>
@@ -221,9 +221,9 @@ export default {
                             class="card-img-top explore-img" />
                         <div class="bg-overlay"></div>
                         <div class="place-bid-btn">
-                            <Blink href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i>
+                            <BLink href="#!" class="btn btn-success"><i class="ri-auction-fill align-bottom me-1"></i>
                                 Place
-                                Bid</Blink>
+                                Bid</BLink>
                         </div>
                     </div>
                     <div class="bookmark-icon position-absolute top-0 end-0 p-2">

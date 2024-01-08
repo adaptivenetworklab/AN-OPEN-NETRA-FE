@@ -165,430 +165,221 @@ export default {
 <template>
   <Layout>
 
-
-
     <div class="chat-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
-
-      <div class="chat-leftsidebar">
-
+      <div class="chat-leftsidebar border">
         <div class="px-4 pt-4 mb-4">
-
           <div class="d-flex align-items-start">
-
             <div class="flex-grow-1">
-
               <h5 class="mb-4">Chats</h5>
-
             </div>
-
             <div class="flex-shrink-0">
-
               <div v-b-tooltip.hover title="Add Contact">
-
-                <BButton type="button" variant="soft-success" size="sm">
-
+                <BButton type="button" variant="soft-primary" size="sm">
                   <i class="ri-add-line align-bottom"></i>
-
                 </BButton>
-
               </div>
-
             </div>
-
           </div>
-
           <div class="search-box">
-
             <input type="text" class="form-control bg-light border-light" placeholder="Search here..." />
-
             <i class="ri-search-2-line search-icon"></i>
-
           </div>
-
         </div>
 
-
-
         <simplebar class="chat-room-list" data-simplebar>
-
           <div class="d-flex align-items-center px-4 mb-2">
-
             <div class="flex-grow-1">
-
               <h4 class="mb-0 fs-11 text-muted text-uppercase">
-
                 Direct Messages
-
               </h4>
-
             </div>
-
             <div class="flex-shrink-0">
-
               <div v-b-tooltip.hover title="New Message">
-
-                <BButton type="button" variant="soft-success" size="sm">
-
+                <BButton type="button" variant="soft-primary" size="sm">
                   <i class="ri-add-line align-bottom"></i>
-
                 </BButton>
-
               </div>
-
             </div>
-
           </div>
-
-
 
           <div class="chat-message-list">
-
             <SimpleBar class="list-unstyled chat-list chat-user-list">
-
               <li class v-for="data of chatData" :key="data.id" @click="chatUsername(data.name, data.image)" :class="{ active: username == data.name }">
-
                 <BLink href="javascript: void(0);">
-
                   <div class="d-flex align-items-center">
-
                     <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
-
                       <div class="avatar-xxs" v-if="data.image">
-
                         <img :src="`${data.image}`" class="rounded-circle img-fluid userprofile" alt />
-
                       </div>
-
                       <div class="avatar-xxs" v-if="!data.image">
-
                         <div class="avatar-title rounded-circle bg-danger userprofile">
-
                           {{ data.name.charAt(0) }}
-
                         </div>
-
                       </div>
-
                     </div>
-
                     <div class="flex-grow-1 overflow-hidden">
-
                       <p class="text-truncate mb-1">
-
                         {{ data.name }}
-
                       </p>
-
                     </div>
-
-
 
                     <div class="flex-shrink-0">
-
-                      <BBadge variant="dark-subtle" class="bg-dark-subtle text-body rounded p-1">{{ data.time }}
-
-                      </BBadge>
-
+                      <BBadge variant="dark-subtle" class="bg-dark-subtle text-body rounded p-1">{{ data.time
+                      }}</BBadge>
                     </div>
-
                   </div>
-
                 </BLink>
-
               </li>
-
             </SimpleBar>
-
           </div>
-
-
 
           <div class="d-flex align-items-center px-4 mt-4 pt-2 mb-2">
-
             <div class="flex-grow-1">
-
               <h4 class="mb-0 fs-11 text-muted text-uppercase">Channels</h4>
-
             </div>
-
             <div class="flex-shrink-0">
-
               <div v-b-tooltip.hover title="Create group">
-
-                <BButton type="button" variant="soft-success" size="sm">
-
+                <BButton type="button" variant="soft-primary" size="sm">
                   <i class="ri-add-line align-bottom"></i>
-
                 </BButton>
-
               </div>
-
             </div>
-
           </div>
-
-
 
           <div class="chat-message-list">
-
             <ul class="list-unstyled chat-list chat-user-list mb-0" id="channelList">
-
               <li>
-
                 <BLink href="javascript: void(0);" class="unread-msg-user">
-
                   <div class="d-flex align-items-center">
-
                     <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
-
                       <div class="avatar-xxs">
-
                         <div class="avatar-title bg-light rounded-circle text-body">
-
                           #
-
                         </div>
-
                       </div>
-
                     </div>
-
                     <div class="flex-grow-1 overflow-hidden">
-
                       <p class="text-truncate mb-0">Landing Design</p>
-
                     </div>
-
                     <div class="flex-shrink-0">
-
                       <BBadge variant="dark-subtle" class="bg-dark-subtle text-body rounded p-1">7</BBadge>
-
                     </div>
-
                   </div>
-
                 </BLink>
-
               </li>
-
               <li>
-
                 <BLink href="javascript: void(0);">
-
                   <div class="d-flex align-items-center">
-
                     <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
-
                       <div class="avatar-xxs">
-
                         <div class="avatar-title bg-light rounded-circle text-body">
-
                           #
-
                         </div>
-
                       </div>
-
                     </div>
-
                     <div class="flex-grow-1 overflow-hidden">
-
                       <p class="text-truncate mb-0">General</p>
-
                     </div>
-
                   </div>
-
                 </BLink>
-
               </li>
-
               <li>
-
                 <BLink href="javascript: void(0);" class="unread-msg-user">
-
                   <div class="d-flex align-items-center">
-
                     <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
-
                       <div class="avatar-xxs">
-
                         <div class="avatar-title bg-light rounded-circle text-body">
-
                           #
-
                         </div>
-
                       </div>
-
                     </div>
-
                     <div class="flex-grow-1 overflow-hidden">
-
                       <p class="text-truncate mb-0">Project Tasks</p>
-
                     </div>
-
                     <div class="flex-shrink-0">
-
                       <BBadge variant="dark-subtle" class="bg-dark-subtle text-body rounded p-1">3</BBadge>
-
                     </div>
-
                   </div>
-
                 </BLink>
-
               </li>
 
-
-
               <li>
-
                 <BLink href="javascript: void(0);">
-
                   <div class="d-flex align-items-center">
-
                     <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
-
                       <div class="avatar-xxs">
-
                         <div class="avatar-title bg-light rounded-circle text-body">
-
                           #
-
                         </div>
-
                       </div>
-
                     </div>
-
                     <div class="flex-grow-1 overflow-hidden">
-
                       <p class="text-truncate mb-0">Meeting</p>
-
                     </div>
-
                   </div>
-
                 </BLink>
-
               </li>
-
               <li>
-
                 <BLink href="javascript: void(0);">
-
                   <div class="d-flex align-items-center">
-
                     <div class="flex-shrink-0 chat-user-img online align-self-center me-2 ms-0">
-
                       <div class="avatar-xxs">
-
                         <div class="avatar-title bg-light rounded-circle text-body">
-
                           #
-
                         </div>
-
                       </div>
-
                     </div>
-
                     <div class="flex-grow-1 overflow-hidden">
-
                       <p class="text-truncate mb-0">Reporting</p>
-
                     </div>
-
                   </div>
-
                 </BLink>
-
               </li>
-
             </ul>
-
           </div>
-
         </simplebar>
-
       </div>
-
-      <div class="user-chat w-100 overflow-hidden">
-
+      <div class="user-chat w-100 overflow-hidden border">
         <div class="chat-content d-lg-flex">
-
           <div class="w-100 overflow-hidden position-relative">
-
             <div class="position-relative">
-
               <div class="p-3 user-chat-topbar">
-
                 <BRow class="align-items-center">
-
                   <BCol sm="4" cols="8">
-
                     <div class="d-flex align-items-center">
-
                       <div class="flex-shrink-0 d-block d-lg-none me-3">
-
                         <BLink href="javascript: void(0);" class="user-chat-remove fs-18 p-1"><i class="ri-arrow-left-s-line align-bottom"></i></BLink>
-
                       </div>
-
                       <div class="flex-grow-1 overflow-hidden">
-
                         <div class="d-flex align-items-center">
-
                           <div class="flex-shrink-0 chat-user-img online user-own-img align-self-center me-3 ms-0">
-
                             <img :src="profile ? profile : require('@/assets/images/users/user-dummy-img.jpg')" class="rounded-circle avatar-xs" alt="" />
-
                             <span class="user-status"></span>
-
                           </div>
-
                           <div class="flex-grow-1 overflow-hidden">
-
                             <h5 class="text-truncate mb-0 fs-16">
-
                               <BLink class="text-reset username" @click="showOffcanvas = !showOffcanvas">{{ username }}
-
                               </BLink>
-
                             </h5>
-
                             <p class="text-truncate text-muted fs-14 mb-0 userStatus">
-
                               <small>Online</small>
-
                             </p>
-
                           </div>
-
                         </div>
-
                       </div>
-
                     </div>
-
                   </BCol>
-
                   <BCol sm="8" cols="4">
-
                     <ul class="list-inline user-chat-nav text-end mb-0">
-
                       <li class="list-inline-item m-0">
 
-                        <BDropdown variant="ghost-secondary" class="btn btn-icon" toggle-class="arrow-none" menu-class="dropdown-menu p-0 dropdown-menu-end dropdown-menu-lg" auto-close="outside">
-
+                        <BDropdown variant="link" class="btn btn-ghost-secondary btn-icon" toggle-class="arrow-none" menu-class="dropdown-menu p-0 dropdown-menu-end dropdown-menu-lg" auto-close="outside">
                           <template #button-content> <search-icon class="icon-sm"></search-icon>
                           </template>
                           <BDropdownItemButton>
                             <div class="p-2 dropdown-menu-lg px-0 py-0">
                               <div class="search-box">
-                                <input type="text" class="form-control bg-light border-light" placeholder="Search here..." id="searchMessage" @click.prevent />
+                                <input type="text" class="form-control bg-light border-light" placeholder="Search here..." id="searchMessage" />
                                 <i class="ri-search-2-line search-icon"></i>
                               </div>
                             </div>
@@ -603,9 +394,8 @@ export default {
                       </li>
 
                       <li class="list-inline-item m-0">
-                        <BDropdown variant="ghost-secondary" class="btn btn-ghost-secondary btn-icon" toggle-class=" arrow-none" menu-class="dropdown-menu" aria-haspopup="true">
-                          <template #button-content>
-                            <more-vertical-icon class="icon-sm"></more-vertical-icon>
+                        <BDropdown variant="link" class="btn btn-ghost-secondary btn-icon" toggle-class=" arrow-none" menu-class="dropdown-menu" aria-haspopup="true">
+                          <template #button-content> <more-vertical-icon class="icon-sm"></more-vertical-icon>
                           </template>
                           <BDropdownItem><i class="ri-inbox-archive-line align-bottom text-muted me-2"></i>
                             Archive
@@ -640,8 +430,7 @@ export default {
                               </p>
                             </div>
                             <BDropdown variant="link" class="dropdown align-self-start message-box-drop" toggle-class=" arrow-none" menu-class="dropdown-menu" aria-haspopup="true">
-                              <template #button-content>
-                                <i class="ri-more-2-fill"></i>
+                              <template #button-content> <i class="ri-more-2-fill"></i>
                               </template>
                               <BDropdownItem> <i class="ri-reply-line me-2 text-muted align-bottom"></i> Reply
                               </BDropdownItem>
@@ -691,7 +480,7 @@ export default {
                         Please Enter a Message
                       </div>
 
-                      <input type="text" v-model="form.message" class="form-control chat-input bg-light border-light" placeholder="Enter Message..." :class="{
+                      <input type="text" v-model="form.message" class="form-control chat-input bg-light border-light fs-13" placeholder="Enter Message..." :class="{
                         'is-invalid': submitted && v$.form.message.$error,
                       }" />
                       <div v-if="submitted && v$.form.message.$error" class="invalid-feedback">
@@ -703,7 +492,7 @@ export default {
                     <BCol cols="auto">
                       <div class="chat-input-links ms-2">
                         <div class="links-list-item">
-                          <BButton variant="success" type="submit" class="chat-send">
+                          <BButton variant="success" type="submit" class="chat-send fs-13">
                             <i class="ri-send-plane-2-fill align-bottom"></i>
                           </BButton>
                         </div>
@@ -750,6 +539,7 @@ export default {
                   <button type="button" class="btn nav-btn favourite-btn active">
                     <i class="ri-star-fill"></i>
                   </button>
+  
                   <div class="dropdown">
                     <a class="btn nav-btn" href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="false">
                       <i class="ri-more-2-fill"></i>
@@ -761,6 +551,7 @@ export default {
                     </ul>
                   </div>
                 </div>
+  
               </div>
             </div>
           </div>
@@ -771,28 +562,33 @@ export default {
             <h5 class="fs-16 mb-1"><a href="javascript:void(0);" class="link-primary username"> {{ username }}</a></h5>
             <p class="text-muted"><i class="ri-checkbox-blank-circle-fill me-1 align-bottom text-success"></i>Online</p>
           </div>
+  
           <div class="d-flex gap-2 justify-content-center">
             <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Message">
               <span class="avatar-title rounded bg-light text-body">
                 <i class="ri-question-answer-line"></i>
               </span>
             </button>
+  
             <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Favourite">
               <span class="avatar-title rounded bg-light text-body">
                 <i class="ri-star-line"></i>
               </span>
             </button>
+  
             <button type="button" class="btn avatar-xs p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Phone">
               <span class="avatar-title rounded bg-light text-body">
                 <i class="ri-phone-line"></i>
               </span>
             </button>
+  
             <div class="dropdown">
               <button class="btn avatar-xs p-0" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="avatar-title bg-light text-body rounded">
                   <i class="ri-more-fill"></i>
                 </span>
               </button>
+  
               <ul class="dropdown-menu dropdown-menu-end">
                 <li><a class="dropdown-item" href="javascript:void(0);"><i class="ri-inbox-archive-line align-bottom text-muted me-2"></i>Archive</a></li>
                 <li><a class="dropdown-item" href="javascript:void(0);"><i class="ri-mic-off-line align-bottom text-muted me-2"></i>Muted</a></li>
@@ -801,6 +597,7 @@ export default {
             </div>
           </div>
         </div>
+  
         <div class="border-top border-top-dashed p-3">
           <h5 class="fs-15 mb-3">Personal Details</h5>
           <div class="mb-3">
@@ -816,8 +613,10 @@ export default {
             <h6 class="mb-0">California, USA</h6>
           </div>
         </div>
+  
         <div class="border-top border-top-dashed p-3">
           <h5 class="fs-15 mb-3">Attached Files</h5>
+  
           <div class="vstack gap-2">
             <div class="border rounded border-dashed p-2">
               <div class="d-flex align-items-center">
@@ -849,6 +648,7 @@ export default {
                 </div>
               </div>
             </div>
+  
             <div class="border rounded border-dashed p-2">
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0 me-3">
@@ -879,6 +679,7 @@ export default {
                 </div>
               </div>
             </div>
+  
             <div class="border rounded border-dashed p-2">
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0 me-3">
@@ -909,6 +710,7 @@ export default {
                 </div>
               </div>
             </div>
+  
             <div class="border rounded border-dashed p-2">
               <div class="d-flex align-items-center">
                 <div class="flex-shrink-0 me-3">
@@ -939,6 +741,7 @@ export default {
                 </div>
               </div>
             </div>
+  
             <div class="text-center mt-2">
               <button type="button" class="btn btn-danger">Load more <i class="ri-arrow-right-fill align-bottom ms-1"></i></button>
             </div>

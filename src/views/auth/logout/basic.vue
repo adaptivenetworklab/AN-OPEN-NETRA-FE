@@ -49,7 +49,7 @@ export default {
           <BCol md="8" lg="6" xl="5">
             <BCard no-body class="mt-4">
               <BCardBody class="p-4 text-center">
-                <lottie colors="primary:#405189,secondary:#08a88a" :options="defaultOptions" :height="180"
+                <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions" :height="180"
                   :width="180" />
                 <div class="mt-4 pt-2">
                   <h5>You are Logged Out</h5>

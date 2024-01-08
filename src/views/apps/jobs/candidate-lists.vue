@@ -84,7 +84,7 @@ export default {
     <BRow class="g-4 mb-4">
       <BCol sm="auto">
         <div>
-          <BLink href="#!" class="btn btn-success"><i class="ri-add-line align-bottom me-1"></i> Add Candidate</BLink>
+          <BLink href="#!" class="btn btn-primary"><i class="ri-add-line align-bottom me-1"></i> Add Candidate</BLink>
         </div>
       </BCol>
       <BCol sm>

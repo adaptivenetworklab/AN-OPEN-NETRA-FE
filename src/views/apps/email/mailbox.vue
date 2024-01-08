@@ -299,7 +299,7 @@ export default {
 <template>
     <Layout>
         <div class="email-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
-            <div class="email-menu-sidebar" id="menusidebar">
+            <div class="email-menu-sidebar border" id="menusidebar">
                 <div class="p-4 d-flex flex-column h-100">
                     <div class="pb-4 border-bottom border-bottom-dashed">
                         <BButton type="button" variant="danger" class="w-100" @click="modalShow = !modalShow">
@@ -399,7 +399,7 @@ export default {
             </div>
 
 
-            <div class="email-content">
+            <div class="email-content border">
                 <div class="px-4 pt-4 pb-0">
                     <div class="border-bottom border-bottom-dashed">
                         <BRow class="mt-n2 mb-3 mb-sm-0">
@@ -568,7 +568,7 @@ export default {
             </div>
 
 
-            <div class="email-detail-content">
+            <div class="email-detail-content border">
                 <div class="p-4 d-flex flex-column h-100">
                     <div class="pb-4 border-bottom border-bottom-dashed">
                         <BRow>

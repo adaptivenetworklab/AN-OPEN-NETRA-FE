@@ -134,7 +134,7 @@ const basicScatterChart = {
         yaxis: {
             tickAmount: 7,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-info"]'),
     },
 };
 
@@ -237,7 +237,7 @@ const dateTimeScatterChart = {
         yaxis: {
             max: 70,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-warning", "--vz-info"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-secondary", "--vz-warning", "--vz-info"]'),
     },
 };
 
@@ -295,7 +295,7 @@ const scatterImagesChart = {
                 show: false,
             },
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-danger"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
         xaxis: {
             tickAmount: 10,
             min: 0,

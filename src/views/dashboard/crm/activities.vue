@@ -90,7 +90,7 @@ export default {
                             </div>
                         </div>
                         <BCol>
-                            <h5 class="text-muted mt-0 mb-1 fs-12 fw-semibold">{{ item.time }}</h5>
+                            <h5 class="text-muted mt-0 mb-1 fs-13">{{ item.time }}</h5>
                             <BLink href="#" class="text-reset fs-14 mb-0">{{ item.caption }}</BLink>
                         </BCol>
                         <BCol sm="auto">

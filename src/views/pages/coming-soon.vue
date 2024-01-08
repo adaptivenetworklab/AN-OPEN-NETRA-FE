@@ -2,7 +2,7 @@
 export default {
   mounted() {
     // Set the date we're counting down to
-    var countDownDate = new Date("Jan 1, 2023").getTime();
+    var countDownDate = new Date("Jan 1, 2024").getTime();
 
     // Update the count down every 1 second
     var countDown = setInterval(function () {

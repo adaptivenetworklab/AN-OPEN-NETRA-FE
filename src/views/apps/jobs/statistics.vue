@@ -158,7 +158,7 @@ export default {
           tickAmount: 4,
           min: 0,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-warning", "--vz-info"]'),
+        colors: getChartColorsArray('["--vz-primary","--vz-primary-rgb, 0.75", "--vz-primary-rgb, 0.5"]'),
       },
 
       visitorgraphseries: [{
@@ -243,7 +243,7 @@ export default {
         },
       },
 
-      chartcolors: { colors: ["#ed5e5e"] },
+      chartcolors: { colors: ["#f06548"] },
       chartoptions: {
         chart: {
           width: 140,
@@ -272,7 +272,7 @@ export default {
             stops: [50, 100, 100, 100],
           },
         },
-        colors: ["#13c56b"]
+        colors: ["#0ab39c"]
       }
 
     };
@@ -445,7 +445,7 @@ export default {
                   <tr>
                     <td>
                       <h4 class="text-truncate fs-14 fs-medium mb-0"><i
-                          class="ri-stop-fill align-middle fs-18 text-warning me-2"></i>Mobile Users</h4>
+                          class="ri-stop-fill align-middle fs-18 text-primary me-2"></i>Mobile Users</h4>
                     </td>
                     <td>
                       <p class="text-muted mb-0">
@@ -461,7 +461,7 @@ export default {
                   <tr>
                     <td>
                       <h4 class="text-truncate fs-14 fs-medium mb-0"><i
-                          class="ri-stop-fill align-middle fs-18 text-info me-2"></i>Tablet Users</h4>
+                          class="ri-stop-fill align-middle fs-18 text-primary me-2"></i>Tablet Users</h4>
                     </td>
                     <td>
                       <p class="text-muted mb-0">

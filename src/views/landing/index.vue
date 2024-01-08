@@ -126,25 +126,25 @@ export default {
                 <BCollapse class="navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
                         <li class="nav-item">
-                            <a class="nav-link fs-15 fw-semibold" to="#hero" @click.prevent="scrollToSection('hero')">Home</a>
+                            <a class="nav-link fs-15" to="#hero" @click.prevent="scrollToSection('hero')">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15 fw-semibold" to="#services" @click.prevent="scrollToSection('services')">Services</a>
+                            <a class="nav-link fs-15" to="#services" @click.prevent="scrollToSection('services')">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15 fw-semibold" to="#features" @click.prevent="scrollToSection('features')">Features</a>
+                            <a class="nav-link fs-15" to="#features" @click.prevent="scrollToSection('features')">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15 fw-semibold" to="#plans" @click.prevent="scrollToSection('plans')">Plans</a>
+                            <a class="nav-link fs-15" to="#plans" @click.prevent="scrollToSection('plans')">Plans</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15 fw-semibold" to="#reviews" @click.prevent="scrollToSection('reviews')">Reviews</a>
+                            <a class="nav-link fs-15" to="#reviews" @click.prevent="scrollToSection('reviews')">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15 fw-semibold" to="#team" @click.prevent="scrollToSection('team')">Team</a>
+                            <a class="nav-link fs-15" to="#team" @click.prevent="scrollToSection('team')">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-15 fw-semibold" to="#contact" @click.prevent="scrollToSection('contact')">Contact</a>
+                            <a class="nav-link fs-15" to="#contact" @click.prevent="scrollToSection('contact')">Contact</a>
                         </li>
                     </ul>
 
@@ -164,7 +164,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8" sm="10">
                         <div class="text-center mt-lg-5 pt-5">
-                            <h1 class="display-6 fw-bold mb-3 lh-base">The better way to manage your website with
+                            <h1 class="display-6 fw-semibold mb-3 lh-base">The better way to manage your website with
                                 <span class="text-success">Velzon </span>
                             </h1>
                             <p class="lead text-muted lh-base">Velzon is a fully responsive, multipurpose and premium
@@ -284,7 +284,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h1 class="mb-3 ff-secondary fw-bold lh-base">A Digital web design studio creating
+                            <h1 class="mb-3 ff-secondary fw-semibold lh-base">A Digital web design studio creating
                                 modern & engaging online</h1>
                             <p class="text-muted">To achieve this, it would be necessary to have uniform grammar,
                                 pronunciation and more common words. If several languages coalesce the grammar</p>
@@ -304,7 +304,7 @@ export default {
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-18">Creative Design</h5>
-                                <p class="text-muted my-3">The creative design includes designs that are
+                                <p class="text-muted my-3 ff-secondary">The creative design includes designs that are
                                     unique, effective and memorable.</p>
                                 <div>
                                     <router-link to="#" class="fs-13 fw-medium">Learn More <i
@@ -324,7 +324,7 @@ export default {
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-18">Unlimited Colors</h5>
-                                <p class="text-muted my-3">The collection of rules and guidelines which
+                                <p class="text-muted my-3 ff-secondary">The collection of rules and guidelines which
                                     designers use to communicate with users through appealing.</p>
                                 <div>
                                     <router-link to="#" class="fs-13 fw-medium">Learn More <i
@@ -344,7 +344,7 @@ export default {
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-18">Strategy Solutions</h5>
-                                <p class="text-muted my-3">Business development firm that provides
+                                <p class="text-muted my-3 ff-secondary">Business development firm that provides
                                     strategic planning, market research services and project.</p>
                                 <div>
                                     <router-link to="#" class="fs-13 fw-medium">Learn More <i
@@ -364,7 +364,7 @@ export default {
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-18">Awesome Support</h5>
-                                <p class="text-muted my-3">Awesome Support is the most versatile and
+                                <p class="text-muted my-3 ff-secondary">Awesome Support is the most versatile and
                                     feature-rich support plugin for all version.</p>
                                 <div>
                                     <router-link to="#" class="fs-13 fw-medium">Learn More <i
@@ -384,7 +384,7 @@ export default {
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-18">Truly Multipurpose</h5>
-                                <p class="text-muted my-3">You usually get a broad range of options to play
+                                <p class="text-muted my-3 ff-secondary">You usually get a broad range of options to play
                                     with. This enables you to use a single theme across multiple.</p>
                                 <div>
                                     <router-link to="#" class="fs-13 fw-medium">Learn More <i
@@ -404,7 +404,7 @@ export default {
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-18">Easy to customize</h5>
-                                <p class="text-muted my-3">Personalise your own website, no matter what
+                                <p class="text-muted my-3 ff-secondary">Personalise your own website, no matter what
                                     theme and what customization options.</p>
                                 <div>
                                     <router-link to="#" class="fs-13 fw-medium">Learn More <i
@@ -425,7 +425,7 @@ export default {
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-18">Responsive & Clean Design</h5>
-                                <p class="text-muted my-3">Responsive design is a graphic user interface
+                                <p class="text-muted my-3 ff-secondary">Responsive design is a graphic user interface
                                     (GUI) design approach used to create content.</p>
                                 <div>
                                     <router-link to="#" class="fs-13 fw-medium">Learn More <i
@@ -445,7 +445,7 @@ export default {
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-18">Google Font Collection</h5>
-                                <p class="text-muted my-3">Google Fonts is a collection of 915 fonts, all
+                                <p class="text-muted my-3 ff-secondary">Google Fonts is a collection of 915 fonts, all
                                     available to use for free on your website.</p>
                                 <div>
                                     <router-link to="#" class="fs-13 fw-medium">Learn More <i
@@ -465,7 +465,7 @@ export default {
                             </div>
                             <div class="flex-grow-1">
                                 <h5 class="fs-18">Top Industry Specialists</h5>
-                                <p class="text-muted my-3">An industrial specialist works with industrial
+                                <p class="text-muted my-3 ff-secondary">An industrial specialist works with industrial
                                     operations to ensure that manufacturing facilities work.</p>
                                 <div>
                                     <router-link to="#" class="fs-13 fw-medium">Learn More <i
@@ -496,7 +496,7 @@ export default {
                                 </div>
                             </div>
                             <h3 class="mb-3 fs-20">Huge collection of widgets</h3>
-                            <p class="mb-4 fs-16">Collection widgets specialize in displaying many elements
+                            <p class="mb-4 ff-secondary fs-16">Collection widgets specialize in displaying many elements
                                 of the same type, such as a collection of pictures from a collection of articles from a
                                 news app or a collection of messages from a communication app.</p>
 
@@ -556,7 +556,7 @@ export default {
                         <div class="text-muted">
                             <h5 class="fs-12 text-uppercase text-success">Design</h5>
                             <h4 class="mb-3">Well Designed Dashboards</h4>
-                            <p class="mb-4">Quality Dashboards (QD) is a condition-specific, actionable
+                            <p class="mb-4 ff-secondary">Quality Dashboards (QD) is a condition-specific, actionable
                                 web-based application for quality reporting and population
                                 management that is integrated into the Electronic Health Record (EHR).</p>
 
@@ -710,7 +710,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h3 class="mb-3 fw-bold">Choose the plan that's right for you</h3>
+                            <h3 class="mb-3 fw-semibold">Choose the plan that's right for you</h3>
                             <p class="text-muted mb-4">Simple pricing. No hidden fees. Advanced features for you
                                 business.</p>
 
@@ -724,7 +724,7 @@ export default {
                                 </div>
                                 <div>
                                     <h5 class="fs-14 mb-0">Annual <BBadge variant="success-subtle"
-                                            class="bg-danger-subtle text-danger">Save 20%</BBadge>
+                                            class="bg-success-subtle text-success">Save 20%</BBadge>
                                     </h5>
                                 </div>
                             </div>
@@ -738,7 +738,7 @@ export default {
                             <BCardBody class="p-4 m-2">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-grow-1">
-                                        <h5 class="mb-1 fw-bold">Basic Plan</h5>
+                                        <h5 class="mb-1 fw-semibold">Basic Plan</h5>
                                         <p class="text-muted mb-0">For Startup</p>
                                     </div>
                                     <div class="avatar-sm">
@@ -758,7 +758,7 @@ export default {
                                 </div>
 
                                 <div>
-                                    <ul class="list-unstyled text-muted vstack gap-3">
+                                    <ul class="list-unstyled text-muted vstack gap-3 ff-secondary">
                                         <li>
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0 text-success me-1">
@@ -844,7 +844,7 @@ export default {
                                 <div class="ribbon-two ribbon-two-danger"><span>Popular</span></div>
                                 <div class="d-flex align-items-center">
                                     <div class="flex-grow-1">
-                                        <h5 class="mb-1 fw-bold">Pro Business</h5>
+                                        <h5 class="mb-1 fw-semibold">Pro Business</h5>
                                         <p class="text-muted mb-0">Professional plans</p>
                                     </div>
                                     <div class="avatar-sm">
@@ -864,7 +864,7 @@ export default {
                                 </div>
 
                                 <div>
-                                    <ul class="list-unstyled text-muted vstack gap-3">
+                                    <ul class="list-unstyled text-muted vstack gap-3 ff-secondary">
                                         <li>
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0 text-success me-1">
@@ -949,7 +949,7 @@ export default {
                             <BCardBody class="p-4 m-2">
                                 <div class="d-flex align-items-center">
                                     <div class="flex-grow-1">
-                                        <h5 class="mb-1 fw-bold">Platinum Plan</h5>
+                                        <h5 class="mb-1 fw-semibold">Platinum Plan</h5>
                                         <p class="text-muted mb-0">Enterprise Businesses</p>
                                     </div>
                                     <div class="avatar-sm">
@@ -969,7 +969,7 @@ export default {
                                 </div>
 
                                 <div>
-                                    <ul class="list-unstyled text-muted vstack gap-3">
+                                    <ul class="list-unstyled text-muted vstack gap-3 ff-secondary">
                                         <li>
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0 text-success me-1">
@@ -1059,12 +1059,12 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h3 class="mb-3 fw-bold">Frequently Asked Questions</h3>
+                            <h3 class="mb-3 fw-semibold">Frequently Asked Questions</h3>
                             <p class="text-muted mb-4 ff-secondary">If you can not find answer to your question in our
                                 FAQ, you can
                                 always contact us or email us. We will answer you shortly!</p>
 
-                            <div>
+                            <div class="hstack gap-2 justify-content-center">
                                 <BButton type="button" pill variant="primary" class="btn-label"><i
                                         class="ri-mail-line label-icon align-middle rounded-pill fs-16 me-2"></i> Email
                                     Us</BButton>
@@ -1083,14 +1083,13 @@ export default {
                                 <i class="ri-question-line fs-24 align-middle text-success me-1"></i>
                             </div>
                             <div class="flex-grow-1">
-                                <h5 class="mb-0 fw-bold">General Questions</h5>
+                                <h5 class="mb-0 fw-semibold">General Questions</h5>
                             </div>
                         </div>
                         <BAccordion class="custom-accordionwithicon custom-accordion-border accordion-border-box"
                             id="genques-accordion">
-                            <BAccordionItem visible>
-                                <template #title><span class="fw-semibold fs-14">What is the purpose of using themes ?</span></template>
-                                <div>
+                            <BAccordionItem title="What is the purpose of using themes ?" visible>
+                                <div class="ff-secondary">
                                     A theme is a set of colors, fonts, effects, and more that can be applied to your
                                     entire presentation to give it a
                                     consistent, professional look. You've already been using a theme, even if you
@@ -1098,9 +1097,8 @@ export default {
                                     which consists.
                                 </div>
                             </BAccordionItem>
-                            <BAccordionItem>
-                                <template #title><span class="fw-semibold fs-14">Can a theme have more than one theme?</span></template>
-                                <div>
+                            <BAccordionItem title="Can a theme have more than one theme?">
+                                <div class="ff-secondary">
                                     A story can have as many themes as the reader can identify based on recurring
                                     patterns and parallels within the story
                                     itself. In looking at ways to separate themes into a hierarchy, we might find it
@@ -1108,9 +1106,8 @@ export default {
                                     single book.
                                 </div>
                             </BAccordionItem>
-                            <BAccordionItem>
-                                <template #title><span class="fw-semibold fs-14">What are theme features?</span></template>
-                                <div>
+                            <BAccordionItem title="What are theme features?">
+                                <div class="ff-secondary">
                                     Theme features is a set of specific functionality that may be enabled by theme
                                     authors. Themes must register each
                                     individual Theme Feature that the author wishes to support. Theme support
@@ -1118,9 +1115,8 @@ export default {
                                     functions.
                                 </div>
                             </BAccordionItem>
-                            <BAccordionItem>
-                                <template #title><span class="fw-semibold fs-14">What is simple theme?</span></template>
-                                <div>
+                            <BAccordionItem title="What is simple theme?">
+                                <div class="ff-secondary">
                                     Simple is a free WordPress theme, by Themify, built exactly what it is named
                                     for: simplicity. Immediately upgrade the
                                     quality of your WordPress site with the simple theme To use the built-in Chrome
@@ -1137,33 +1133,30 @@ export default {
                                 <i class="ri-shield-keyhole-line fs-24 align-middle text-success me-1"></i>
                             </div>
                             <div class="flex-grow-1">
-                                <h5 class="mb-0 fw-bold">Privacy &amp; Security</h5>
+                                <h5 class="mb-0 fw-semibold">Privacy &amp; Security</h5>
                             </div>
                         </div>
 
                         <BAccordion class="custom-accordionwithicon custom-accordion-border accordion-border-box"
                             id="privacy-accordion">
-                            <BAccordionItem>
-                                <template #title><span class="fw-semibold fs-14">Does Word have night mode?</span></template>
-                                <div>
+                            <BAccordionItem title="Does Word have night mode?">
+                                <div class="ff-secondary">
                                     You can run Microsoft Word in dark mode, which uses a dark color palette to help
                                     reduce eye strain in low light
                                     settings. You can choose to make the document white or black using the Switch
                                     Modes button in the ribbon's View tab.
                                 </div>
                             </BAccordionItem>
-                            <BAccordionItem visible>
-                                <template #title><span class="fw-semibold fs-14">Is theme an opinion?</span></template>
-                                <div>
+                            <BAccordionItem title="Is theme an opinion?" visible>
+                                <div class="ff-secondary">
                                     A theme is an opinion the author expresses on the subject, for instance, the
                                     author's dissatisfaction with the narrow
                                     confines of French bourgeois marriage during that period theme is an idea that a
                                     writer repeats.
                                 </div>
                             </BAccordionItem>
-                            <BAccordionItem>
-                                <template #title><span class="fw-semibold fs-14">How do you develop a theme?</span></template>
-                                <div>
+                            <BAccordionItem title="How do you develop a theme?">
+                                <div class="ff-secondary">
                                     A short story, novella, or novel presents a narrative to its reader. Perhaps
                                     that narrative involves mystery, terror,
                                     romance, comedy, or all of the above. These works of fiction may also contain
@@ -1171,9 +1164,8 @@ export default {
                                     world-building, literary devices.
                                 </div>
                             </BAccordionItem>
-                            <BAccordionItem>
-                                <template #title><span class="fw-semibold fs-14">Do stories need themes?</span></template>
-                                <div>
+                            <BAccordionItem title="Do stories need themes?">
+                                <div class="ff-secondary">
                                     A story can have as many themes as the reader can identify based on recurring
                                     patterns and parallels within the story
                                     itself. In looking at ways to separate themes into a hierarchy, we might find it
@@ -1196,7 +1188,7 @@ export default {
                             <div>
                                 <i class="ri-double-quotes-l text-success display-3"></i>
                             </div>
-                            <h4 class="text-white mb-5"><span class="text-white">19k</span>+ Satisfied clients</h4>
+                            <h4 class="text-white mb-5"><span class="text-success">19k</span>+ Satisfied clients</h4>
 
                             <div class="client-review-swiper rounded">
                                 <swiper class="navigation-swiper rounded" :loop="true"
@@ -1209,7 +1201,7 @@ export default {
                                             <BRow class="justify-content-center">
                                                 <BCol cols="10">
                                                     <div class="text-white-50">
-                                                        <p class="fs-20 mb-4">" I am givng 5 stars. Theme
+                                                        <p class="fs-20 ff-secondary mb-4">" I am givng 5 stars. Theme
                                                             is great and everyone one stuff everything in theme. Future
                                                             request should not affect current
                                                             state of theme. "</p>
@@ -1229,7 +1221,7 @@ export default {
                                             <BRow class="justify-content-center">
                                                 <BCol cols="10">
                                                     <div class="text-white-50">
-                                                        <p class="fs-20 mb-4">" Awesome support. Had few
+                                                        <p class="fs-20 ff-secondary mb-4">" Awesome support. Had few
                                                             issues while setting up because of my device, the support
                                                             team helped me fix them up in a day.
                                                             Everything looks clean and good. Highly recommended! "</p>
@@ -1249,7 +1241,7 @@ export default {
                                             <BRow class="justify-content-center">
                                                 <BCol cols="10">
                                                     <div class="text-white-50">
-                                                        <p class="fs-20 mb-4">" Amazing template, Redux
+                                                        <p class="fs-20 ff-secondary mb-4">" Amazing template, Redux
                                                             store and components is nicely designed.
                                                             It's a great start point for an admin based project. Clean
                                                             Code and good documentation. Template is
@@ -1329,8 +1321,8 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h3 class="mb-3 fw-bold">Our Work Process</h3>
-                            <p class="text-muted mb-4">In an ideal world this website wouldn’t exist, a
+                            <h3 class="mb-3 fw-semibold">Our Work Process</h3>
+                            <p class="text-muted mb-4 ff-secondary">In an ideal world this website wouldn’t exist, a
                                 client would
                                 acknowledge the importance of having web copy before the Proin vitae ipsum vel ex
                                 finibus semper design starts.</p>
@@ -1351,7 +1343,7 @@ export default {
                             </div>
 
                             <h5>Tell us what you need</h5>
-                            <p class="text-muted">The profession and the employer and your desire to make
+                            <p class="text-muted ff-secondary">The profession and the employer and your desire to make
                                 your mark.</p>
                         </div>
                     </BCol>
@@ -1367,7 +1359,7 @@ export default {
                             </div>
 
                             <h5>Get free quotes</h5>
-                            <p class="text-muted">The most important aspect of beauty was, therefore, an
+                            <p class="text-muted ff-secondary">The most important aspect of beauty was, therefore, an
                                 inherent part.</p>
                         </div>
                     </BCol>
@@ -1380,7 +1372,7 @@ export default {
                             </div>
 
                             <h5>Deliver high quality product</h5>
-                            <p class="text-muted">We quickly learn to fear and thus automatically avoid
+                            <p class="text-muted ff-secondary">We quickly learn to fear and thus automatically avoid
                                 potentially.</p>
                         </div>
                     </BCol>
@@ -1393,8 +1385,8 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h3 class="mb-3 fw-bold">Our <span class="text-danger">Team</span></h3>
-                            <p class="text-muted mb-4">To achieve this, it would be necessary to have
+                            <h3 class="mb-3 fw-semibold">Our <span class="text-danger">Team</span></h3>
+                            <p class="text-muted mb-4 ff-secondary">To achieve this, it would be necessary to have
                                 uniform grammar,
                                 pronunciation and more common words. If several languages coalesce the grammar.</p>
                         </div>
@@ -1416,7 +1408,7 @@ export default {
                                 <h5 class="mb-1">
                                     <router-link to="/pages/profile" class="text-body">Nancy Martino</router-link>
                                 </h5>
-                                <p class="text-muted mb-0">Team Leader</p>
+                                <p class="text-muted mb-0 ff-secondary">Team Leader</p>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -1435,7 +1427,7 @@ export default {
                                 <h5 class="mb-1">
                                     <router-link to="/pages/profile" class="text-body">Henry Baird</router-link>
                                 </h5>
-                                <p class="text-muted mb-0">Full Stack Developer</p>
+                                <p class="text-muted mb-0 ff-secondary">Full Stack Developer</p>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -1454,7 +1446,7 @@ export default {
                                 <h5 class="mb-1">
                                     <router-link to="/pages/profile" class="text-body">Frank Hook</router-link>
                                 </h5>
-                                <p class="text-muted mb-0">Project Manager</p>
+                                <p class="text-muted mb-0 ff-secondary">Project Manager</p>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -1473,7 +1465,7 @@ export default {
                                 <h5 class="mb-1">
                                     <router-link to="/pages/profile" class="text-body">Donald Palmer</router-link>
                                 </h5>
-                                <p class="text-muted mb-0">UI/UX Designer</p>
+                                <p class="text-muted mb-0 ff-secondary">UI/UX Designer</p>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -1494,7 +1486,7 @@ export default {
                                 <h5 class="mb-1">
                                     <router-link to="/pages/profile" class="text-body">Erica Kernan</router-link>
                                 </h5>
-                                <p class="text-muted mb-0">Web Designer</p>
+                                <p class="text-muted mb-0 ff-secondary">Web Designer</p>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -1513,7 +1505,7 @@ export default {
                                 <h5 class="mb-1">
                                     <router-link to="/pages/profile" class="text-body">Alexis Clarke</router-link>
                                 </h5>
-                                <p class="text-muted mb-0">Backend Developer</p>
+                                <p class="text-muted mb-0 ff-secondary">Backend Developer</p>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -1532,7 +1524,7 @@ export default {
                                 <h5 class="mb-1">
                                     <router-link to="/pages/profile" class="text-body">Marie Ward</router-link>
                                 </h5>
-                                <p class="text-muted mb-0">Full Stack Developer</p>
+                                <p class="text-muted mb-0 ff-secondary">Full Stack Developer</p>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -1552,7 +1544,7 @@ export default {
                                 <h5 class="mb-1">
                                     <router-link to="/pages/profile" class="text-body">Jack Gough</router-link>
                                 </h5>
-                                <p class="text-muted mb-0">React Js Developer</p>
+                                <p class="text-muted mb-0 ff-secondary">React Js Developer</p>
                             </BCardBody>
                         </BCard>
                     </BCol>
@@ -1573,8 +1565,8 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h3 class="mb-3 fw-bold">Get In Touch</h3>
-                            <p class="text-muted mb-4">We thrive when coming up with innovative ideas but
+                            <h3 class="mb-3 fw-semibold">Get In Touch</h3>
+                            <p class="text-muted mb-4 ff-secondary">We thrive when coming up with innovative ideas but
                                 also
                                 understand that a smart concept should be supported with faucibus sapien odio measurable
                                 results.</p>
@@ -1587,15 +1579,15 @@ export default {
                         <div>
                             <div class="mt-4">
                                 <h5 class="fs-13 text-muted text-uppercase">Office Address 1:</h5>
-                                <div class="fw-semibold">4461 Cedar Street Moro, <br />AR 72368</div>
+                                <div class="ff-secondary fw-semibold">4461 Cedar Street Moro, <br />AR 72368</div>
                             </div>
                             <div class="mt-4">
                                 <h5 class="fs-13 text-muted text-uppercase">Office Address 2:</h5>
-                                <div class="fw-semibold">2467 Swick Hill Street <br />New Orleans, LA</div>
+                                <div class="ff-secondary fw-semibold">2467 Swick Hill Street <br />New Orleans, LA</div>
                             </div>
                             <div class="mt-4">
                                 <h5 class="fs-13 text-muted text-uppercase">Working Hours:</h5>
-                                <div class="fw-semibold">9:00am to 6:00pm</div>
+                                <div class="ff-secondary fw-semibold">9:00am to 6:00pm</div>
                             </div>
                         </div>
                     </BCol>
@@ -1800,7 +1792,7 @@ export default {
                 </BRow>
             </BContainer>
         </footer>
-        <BButton variant="danger" @click="topFunction" class="btn-icon" id="back-to-top">
+        <BButton variant="danger" @click="topFunction" class="btn-icon landing-back-top" id="back-to-top">
             <i class="ri-arrow-up-line"></i>
         </BButton>
     </div>

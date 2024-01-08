@@ -115,7 +115,7 @@ export default {
             <BContainer>
                 <BRow>
                     <BCol lg="12">
-                        <BCard no-body class="overflow-hidden m-0">
+                        <BCard no-body class="overflow-hidden border-0 m-0">
                             <BRow class="justify-content-center g-0">
                                 <BCol lg="6">
                                     <div class="p-lg-5 p-4 auth-one-bg h-100">
@@ -219,7 +219,7 @@ export default {
                                                     </p>
                                                 </div>
                                                 <div id="password-contain" class="p-3 bg-light mb-2 rounded">
-                                                    <h5 class="fs-13">Password must contain:</h5>
+                                                    <h5 class="fs-13 fw-semibold">Password must contain:</h5>
                                                     <p id="pass-length" class="invalid fs-12 mb-2">Minimum <b>8
                                                             characters</b>
                                                     </p>

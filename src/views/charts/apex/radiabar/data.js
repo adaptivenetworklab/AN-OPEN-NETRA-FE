@@ -16,7 +16,7 @@ const basicRadialBarChart = {
             },
         },
         labels: ["Cricket"],
-        colors: getChartColorsArray('["--vz-success"]'),
+        colors: getChartColorsArray('["--vz-primary"]'),
     },
 };
 
@@ -49,7 +49,7 @@ const multiRadialbarChart = {
             },
         },
         labels: ["Apples", "Oranges", "Bananas", "Berries"],
-        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-success",  "--vz-secondary", "--vz-info"]'),
     },
 };
 
@@ -83,7 +83,7 @@ const circleAngleChart = {
                 },
             },
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-danger", "--vz-success"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.65", "--vz-primary-rgb, 0.45", "--vz-primary-rgb, 0.30"]'),
         labels: ["Vimeo", "Messenger", "Facebook", "LinkedIn"],
         legend: {
             show: true,
@@ -230,7 +230,7 @@ const strokedRadialbarChart = {
             dashArray: 4,
         },
         labels: ["Median Ratio"],
-        colors: getChartColorsArray('["--vz-success"]'),
+        colors: getChartColorsArray('["--vz-primary"]'),
     },
 };
 

@@ -147,14 +147,14 @@ export default {
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-13 text-uppercase mb-0">Unassigned <BBadge tag="small" variant="success"
+                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">Unassigned <BBadge tag="small" variant="success"
                                 class="align-bottom ms-1">2</BBadge>
                         </h6>
                     </div>
                     <div class="flex-shrink-0">
                         <BDropdown variant="link" class="card-header-dropdown" toggle-class="p-0 arrow-none"
                             menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -70, crossAxis: 0, mainAxis: 10 }">
-                            <template #button-content><span class="fw-medium text-muted fs-13">Priority<i
+                            <template #button-content><span class="fw-medium text-muted fs-12">Priority<i
                                         class="mdi mdi-chevron-down ms-1"></i></span></template>
                             <BDropdownItem>Priority</BDropdownItem>
                             <BDropdownItem>Date Added</BDropdownItem>
@@ -167,8 +167,8 @@ export default {
                             <BCard no-body class="tasks-box" v-for="(data, index) of unassigned" :key="index">
                                 <BCardBody>
                                     <div class="d-flex mb-2">
-                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="text-body">{{ data.title }}</router-link>
+                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -195,7 +195,7 @@ export default {
                                             </div>
                                         </div>
                                         <div class="progress rounded-3 progress-sm">
-                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 15%"
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 15%"
                                                 aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
@@ -243,13 +243,13 @@ export default {
                     </div>
                 </simplebar>
                 <div class="my-3">
-                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
                 </div>
             </div>
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-13 text-uppercase mb-0">To Do <BBadge tag="small" variant="secondary"
+                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">To Do <BBadge tag="small" variant="success"
                                 class="align-bottom ms-1">2</BBadge>
                         </h6>
                     </div>
@@ -269,8 +269,8 @@ export default {
                             <BCard no-body class="tasks-box" v-for="(data, index) of todo" :key="index">
                                 <BCardBody>
                                     <div class="d-flex mb-2">
-                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="text-body">{{ data.title }}</router-link>
+                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details" class="link-secondary">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -345,14 +345,14 @@ export default {
                     </div>
                 </simplebar>
                 <div class="my-3">
-                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
                 </div>
             </div>
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-13 text-uppercase mb-0">Inprogress
-                            <BBadge tag="small" class="bg-warning align-bottom ms-1">2</BBadge>
+                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">Inprogress
+                            <BBadge tag="small" class="bg-success align-bottom ms-1">2</BBadge>
                         </h6>
                     </div>
                     <div class="flex-shrink-0">
@@ -371,7 +371,211 @@ export default {
                             <BCard no-body class="tasks-box" v-for="(data, index) of inprogress" :key="index">
                                 <BCardBody>
                                     <div class="d-flex mb-2">
-                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
+                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details">{{ data.title }}</router-link>
+                                        </h6>
+                                        <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
+                                            :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
+                                            <template #button-content><i class="ri-more-fill "></i></template>
+                                            <BDropdownItem to="/apps/tasks-details" class="link-secondary"><i
+                                                    class="ri-eye-fill align-bottom me-2 text-muted"></i>
+                                                View</BDropdownItem>
+                                            <BDropdownItem><i class="ri-edit-2-line align-bottom me-2 text-muted"></i>
+                                                Edit </BDropdownItem>
+                                            <BDropdownItem @click="deleteTask"> <i
+                                                    class="ri-delete-bin-fill align-bottom me-2 text-muted"></i>
+                                                Delete </BDropdownItem>
+                                        </BDropdown>
+                                    </div>
+                                    <p class="text-muted">{{ data.description }}</p>
+                                    <div class="mb-3">
+                                        <div class="d-flex mb-1">
+                                            <div class="flex-grow-1">
+                                                <h6 class="text-muted mb-0"><span class="text-secondary">15%</span> of
+                                                    100%</h6>
+                                            </div>
+                                            <div class="flex-shrink-0">
+                                                <span class="text-muted">{{ data.date }}</span>
+                                            </div>
+                                        </div>
+                                        <div class="progress rounded-3 progress-sm">
+                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 15%"
+                                                aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-grow-1">
+                                            <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary me-1"
+                                                v-for="(item, index) of data.features" :key="index">{{ item }}</BBadge>
+                                        </div>
+                                        <div class="flex-shrink-0">
+                                            <div class="avatar-group">
+                                                <BLink href="javascript: void(0);" v-for="(item, index) of data.users"
+                                                    :key="index" class="avatar-group-item" v-b-tooltip.hover title="Alexis">
+                                                    <img :src="item" alt="" class="rounded-circle avatar-xxs">
+                                                </BLink>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </BCardBody>
+                                <BCardFooter class="border-top-dashed">
+                                    <div class="d-flex">
+                                        <div class="flex-grow-1">
+                                            <h6 class="text-muted mb-0">#VL2436</h6>
+                                        </div>
+                                        <div class="flex-shrink-0">
+                                            <ul class="link-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <BLink href="javascript:void(0)" class="text-muted"><i
+                                                            class="ri-eye-line align-bottom"></i> 04</BLink>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <BLink href="javascript:void(0)" class="text-muted"><i
+                                                            class="ri-question-answer-line align-bottom"></i> 19
+                                                    </BLink>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <BLink href="javascript:void(0)" class="text-muted"><i
+                                                            class="ri-attachment-2 align-bottom"></i> 02</BLink>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </BCardFooter>
+                            </BCard>
+                        </draggable>
+                    </div>
+                </simplebar>
+                <div class="my-3">
+                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                </div>
+            </div>
+            <div class="tasks-list">
+                <div class="d-flex mb-3">
+                    <div class="flex-grow-1">
+                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">In Reviews
+                            <BBadge tag="small" class="bg-success align-bottom ms-1">3</BBadge>
+                        </h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <BDropdown variant="link" class="card-header-dropdown" toggle-class="p-0 arrow-none"
+                            menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -70, crossAxis: 0, mainAxis: 10 }">
+                            <template #button-content><span class="fw-medium text-muted fs-12">Priority<i
+                                        class="mdi mdi-chevron-down ms-1"></i></span></template>
+                            <BDropdownItem>Priority</BDropdownItem>
+                            <BDropdownItem>Date Added</BDropdownItem>
+                        </BDropdown>
+                    </div>
+                </div>
+                <simplebar data-simplebar class="tasks-wrapper px-3 mx-n3">
+                    <div id="reviews-task" class="tasks">
+                        <draggable :list="reviews" class="dragArea" group="reviews">
+                            <BCard no-body class="tasks-box" v-for="(data, index) of reviews" :key="index">
+                                <BCardBody>
+                                    <div class="d-flex mb-2">
+                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details" class="link-secondary">{{ data.title }}</router-link>
+                                        </h6>
+                                        <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
+                                            :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
+                                            <template #button-content><i class="ri-more-fill "></i></template>
+                                            <BDropdownItem to="/apps/tasks-details"><i
+                                                    class="ri-eye-fill align-bottom me-2 text-muted"></i>
+                                                View</BDropdownItem>
+                                            <BDropdownItem><i class="ri-edit-2-line align-bottom me-2 text-muted"></i>
+                                                Edit </BDropdownItem>
+                                            <BDropdownItem @click="deleteTask"> <i
+                                                    class="ri-delete-bin-fill align-bottom me-2 text-muted"></i>
+                                                Delete </BDropdownItem>
+                                        </BDropdown>
+                                    </div>
+                                    <p class="text-muted">{{ data.description }}</p>
+                                    <div class="mb-3">
+                                        <div class="d-flex mb-1">
+                                            <div class="flex-grow-1">
+                                                <h6 class="text-muted mb-0"><span class="text-secondary">15%</span> of
+                                                    100%</h6>
+                                            </div>
+                                            <div class="flex-shrink-0">
+                                                <span class="text-muted">{{ data.date }}</span>
+                                            </div>
+                                        </div>
+                                        <div class="progress rounded-3 progress-sm">
+                                            <div class="progress-bar bg-primary" role="progressbar" style="width: 15%"
+                                                aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <div class="flex-grow-1">
+                                            <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary me-1"
+                                                v-for="(item, index) of data.features" :key="index">{{ item }}</BBadge>
+                                        </div>
+                                        <div class="flex-shrink-0">
+                                            <div class="avatar-group">
+                                                <BLink href="javascript: void(0);" v-for="(item, index) of data.users"
+                                                    :key="index" class="avatar-group-item" v-b-tooltip.hover title="Alexis">
+                                                    <img :src="item" alt="" class="rounded-circle avatar-xxs">
+                                                </BLink>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </BCardBody>
+                                <BCardFooter class="border-top-dashed">
+                                    <div class="d-flex">
+                                        <div class="flex-grow-1">
+                                            <h6 class="text-muted mb-0">#VL2436</h6>
+                                        </div>
+                                        <div class="flex-shrink-0">
+                                            <ul class="link-inline mb-0">
+                                                <li class="list-inline-item">
+                                                    <BLink href="javascript:void(0)" class="text-muted"><i
+                                                            class="ri-eye-line align-bottom"></i> 04</BLink>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <BLink href="javascript:void(0)" class="text-muted"><i
+                                                            class="ri-question-answer-line align-bottom"></i> 19
+                                                    </BLink>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <BLink href="javascript:void(0)" class="text-muted"><i
+                                                            class="ri-attachment-2 align-bottom"></i> 02</BLink>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </BCardFooter>
+                            </BCard>
+                        </draggable>
+                    </div>
+                </simplebar>
+                <div class="my-3">
+                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                </div>
+            </div>
+            <div class="tasks-list">
+                <div class="d-flex mb-3">
+                    <div class="flex-grow-1">
+                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">Completed
+                            <BBadge tag="small" variant="success" class="align-bottom ms-1">1</BBadge>
+                        </h6>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <BDropdown variant="link" class="card-header-dropdown" toggle-class="p-0 arrow-none"
+                            menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -70, crossAxis: 0, mainAxis: 10 }">
+                            <template #button-content><span class="fw-medium text-muted fs-12">Priority<i
+                                        class="mdi mdi-chevron-down ms-1"></i></span></template>
+                            <BDropdownItem>Priority</BDropdownItem>
+                            <BDropdownItem>Date Added</BDropdownItem>
+                        </BDropdown>
+                    </div>
+                </div>
+                <simplebar data-simplebar class="tasks-wrapper px-3 mx-n3">
+                    <div id="completed-task" class="tasks">
+                        <draggable :list="completed" class="dragArea" group="newData">
+                            <BCard no-body class="tasks-box" v-for="(data, index) of completed" :key="index">
+                                <BCardBody>
+                                    <div class="d-flex mb-2">
+                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
                                             <router-link to="/apps/tasks-details">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
@@ -447,217 +651,13 @@ export default {
                     </div>
                 </simplebar>
                 <div class="my-3">
-                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
                 </div>
             </div>
             <div class="tasks-list">
                 <div class="d-flex mb-3">
                     <div class="flex-grow-1">
-                        <h6 class="fs-13 text-uppercase mb-0">In Reviews
-                            <BBadge tag="small" class="bg-info align-bottom ms-1">3</BBadge>
-                        </h6>
-                    </div>
-                    <div class="flex-shrink-0">
-                        <BDropdown variant="link" class="card-header-dropdown" toggle-class="p-0 arrow-none"
-                            menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -70, crossAxis: 0, mainAxis: 10 }">
-                            <template #button-content><span class="fw-medium text-muted fs-12">Priority<i
-                                        class="mdi mdi-chevron-down ms-1"></i></span></template>
-                            <BDropdownItem>Priority</BDropdownItem>
-                            <BDropdownItem>Date Added</BDropdownItem>
-                        </BDropdown>
-                    </div>
-                </div>
-                <simplebar data-simplebar class="tasks-wrapper px-3 mx-n3">
-                    <div id="reviews-task" class="tasks">
-                        <draggable :list="reviews" class="dragArea" group="reviews">
-                            <BCard no-body class="tasks-box" v-for="(data, index) of reviews" :key="index">
-                                <BCardBody>
-                                    <div class="d-flex mb-2">
-                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="text-body">{{ data.title }}</router-link>
-                                        </h6>
-                                        <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
-                                            :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
-                                            <template #button-content><i class="ri-more-fill "></i></template>
-                                            <BDropdownItem to="/apps/tasks-details"><i
-                                                    class="ri-eye-fill align-bottom me-2 text-muted"></i>
-                                                View</BDropdownItem>
-                                            <BDropdownItem><i class="ri-edit-2-line align-bottom me-2 text-muted"></i>
-                                                Edit </BDropdownItem>
-                                            <BDropdownItem @click="deleteTask"> <i
-                                                    class="ri-delete-bin-fill align-bottom me-2 text-muted"></i>
-                                                Delete </BDropdownItem>
-                                        </BDropdown>
-                                    </div>
-                                    <p class="text-muted">{{ data.description }}</p>
-                                    <div class="mb-3">
-                                        <div class="d-flex mb-1">
-                                            <div class="flex-grow-1">
-                                                <h6 class="text-muted mb-0"><span class="text-secondary">15%</span> of
-                                                    100%</h6>
-                                            </div>
-                                            <div class="flex-shrink-0">
-                                                <span class="text-muted">{{ data.date }}</span>
-                                            </div>
-                                        </div>
-                                        <div class="progress rounded-3 progress-sm">
-                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 15%"
-                                                aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                            <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary me-1"
-                                                v-for="(item, index) of data.features" :key="index">{{ item }}</BBadge>
-                                        </div>
-                                        <div class="flex-shrink-0">
-                                            <div class="avatar-group">
-                                                <BLink href="javascript: void(0);" v-for="(item, index) of data.users"
-                                                    :key="index" class="avatar-group-item" v-b-tooltip.hover title="Alexis">
-                                                    <img :src="item" alt="" class="rounded-circle avatar-xxs">
-                                                </BLink>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </BCardBody>
-                                <BCardFooter class="border-top-dashed">
-                                    <div class="d-flex">
-                                        <div class="flex-grow-1">
-                                            <h6 class="text-muted mb-0">#VL2436</h6>
-                                        </div>
-                                        <div class="flex-shrink-0">
-                                            <ul class="link-inline mb-0">
-                                                <li class="list-inline-item">
-                                                    <BLink href="javascript:void(0)" class="text-muted"><i
-                                                            class="ri-eye-line align-bottom"></i> 04</BLink>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <BLink href="javascript:void(0)" class="text-muted"><i
-                                                            class="ri-question-answer-line align-bottom"></i> 19
-                                                    </BLink>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <BLink href="javascript:void(0)" class="text-muted"><i
-                                                            class="ri-attachment-2 align-bottom"></i> 02</BLink>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </BCardFooter>
-                            </BCard>
-                        </draggable>
-                    </div>
-                </simplebar>
-                <div class="my-3">
-                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
-                </div>
-            </div>
-            <div class="tasks-list">
-                <div class="d-flex mb-3">
-                    <div class="flex-grow-1">
-                        <h6 class="fs-13 text-uppercase mb-0">Completed
-                            <BBadge tag="small" variant="success" class="align-bottom ms-1">1</BBadge>
-                        </h6>
-                    </div>
-                    <div class="flex-shrink-0">
-                        <BDropdown variant="link" class="card-header-dropdown" toggle-class="p-0 arrow-none"
-                            menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -70, crossAxis: 0, mainAxis: 10 }">
-                            <template #button-content><span class="fw-medium text-muted fs-12">Priority<i
-                                        class="mdi mdi-chevron-down ms-1"></i></span></template>
-                            <BDropdownItem>Priority</BDropdownItem>
-                            <BDropdownItem>Date Added</BDropdownItem>
-                        </BDropdown>
-                    </div>
-                </div>
-                <simplebar data-simplebar class="tasks-wrapper px-3 mx-n3">
-                    <div id="completed-task" class="tasks">
-                        <draggable :list="completed" class="dragArea" group="newData">
-                            <BCard no-body class="tasks-box" v-for="(data, index) of completed" :key="index">
-                                <BCardBody>
-                                    <div class="d-flex mb-2">
-                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="text-body">{{ data.title }}</router-link>
-                                        </h6>
-                                        <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
-                                            :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
-                                            <template #button-content><i class="ri-more-fill "></i></template>
-                                            <BDropdownItem to="/apps/tasks-details"><i
-                                                    class="ri-eye-fill align-bottom me-2 text-muted"></i>
-                                                View</BDropdownItem>
-                                            <BDropdownItem><i class="ri-edit-2-line align-bottom me-2 text-muted"></i>
-                                                Edit </BDropdownItem>
-                                            <BDropdownItem @click="deleteTask"> <i
-                                                    class="ri-delete-bin-fill align-bottom me-2 text-muted"></i>
-                                                Delete </BDropdownItem>
-                                        </BDropdown>
-                                    </div>
-                                    <p class="text-muted">{{ data.description }}</p>
-                                    <div class="mb-3">
-                                        <div class="d-flex mb-1">
-                                            <div class="flex-grow-1">
-                                                <h6 class="text-muted mb-0"><span class="text-secondary">15%</span> of
-                                                    100%</h6>
-                                            </div>
-                                            <div class="flex-shrink-0">
-                                                <span class="text-muted">{{ data.date }}</span>
-                                            </div>
-                                        </div>
-                                        <div class="progress rounded-3 progress-sm">
-                                            <div class="progress-bar bg-danger" role="progressbar" style="width: 15%"
-                                                aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <div class="flex-grow-1">
-                                            <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary me-1"
-                                                v-for="(item, index) of data.features" :key="index">{{ item }}</BBadge>
-                                        </div>
-                                        <div class="flex-shrink-0">
-                                            <div class="avatar-group">
-                                                <BLink href="javascript: void(0);" v-for="(item, index) of data.users"
-                                                    :key="index" class="avatar-group-item" v-b-tooltip.hover title="Alexis">
-                                                    <img :src="item" alt="" class="rounded-circle avatar-xxs">
-                                                </BLink>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </BCardBody>
-                                <BCardFooter class="border-top-dashed">
-                                    <div class="d-flex">
-                                        <div class="flex-grow-1">
-                                            <h6 class="text-muted mb-0">#VL2436</h6>
-                                        </div>
-                                        <div class="flex-shrink-0">
-                                            <ul class="link-inline mb-0">
-                                                <li class="list-inline-item">
-                                                    <BLink href="javascript:void(0)" class="text-muted"><i
-                                                            class="ri-eye-line align-bottom"></i> 04</BLink>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <BLink href="javascript:void(0)" class="text-muted"><i
-                                                            class="ri-question-answer-line align-bottom"></i> 19
-                                                    </BLink>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <BLink href="javascript:void(0)" class="text-muted"><i
-                                                            class="ri-attachment-2 align-bottom"></i> 02</BLink>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </BCardFooter>
-                            </BCard>
-                        </draggable>
-                    </div>
-                </simplebar>
-                <div class="my-3">
-                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
-                </div>
-            </div>
-            <div class="tasks-list">
-                <div class="d-flex mb-3">
-                    <div class="flex-grow-1">
-                        <h6 class="fs-13 text-uppercase mb-0">new <BBadge tag="small" variant="success"
+                        <h6 class="fs-14 text-uppercase fw-semibold mb-0">new <BBadge tag="small" variant="success"
                                 class="align-bottom ms-1">1</BBadge>
                         </h6>
                     </div>
@@ -677,8 +677,8 @@ export default {
                             <BCard no-body class="tasks-box" v-for="(data, index) of newData" :key="index">
                                 <BCardBody>
                                     <div class="d-flex mb-2">
-                                        <h6 class="fs-14 mb-0 flex-grow-1 text-truncate">
-                                            <router-link to="/apps/tasks-details" class="text-body">{{ data.title }}</router-link>
+                                        <h6 class="fs-15 mb-0 flex-grow-1 text-truncate">
+                                            <router-link to="/apps/tasks-details">{{ data.title }}</router-link>
                                         </h6>
                                         <BDropdown variant="link" toggle-class="text-muted p-0 arrow-none"
                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
@@ -753,13 +753,13 @@ export default {
                     </div>
                 </simplebar>
                 <div class="my-3">
-                    <BButton variant="soft-info" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
+                    <BButton variant="primary" class="w-100" @click="modalShow2 = !modalShow2">Add More</BButton>
                 </div>
             </div>
         </div>
 
 
-        <BModal v-model="modalShow" header-class="p-3 bg-warning-subtle" content-class="border-0" hide-footer
+        <BModal v-model="modalShow" header-class="p-3 bg-primary-subtle" content-class="border-0" hide-footer
             title="Add Member" class="v-modal-custom">
             <b-form>
                 <BRow class="g-3">
@@ -806,7 +806,7 @@ export default {
             <div class="modal-footer v-modal-footer">
                 <BButton type="button" variant="light" @click="modalShow = false"><i
                         class="ri-close-line align-bottom me-1"></i> Close</BButton>
-                <BButton type="button" variant="success" id="addMember">Add Member</BButton>
+                <BButton type="button" variant="primary" id="addMember">Add Member</BButton>
             </div>
         </BModal>
 
@@ -828,7 +828,7 @@ export default {
             </b-form>
         </BModal>
 
-        <BModal v-model="modalShow2" header-class="p-3 bg-info-subtle" content-class="border-0" hide-footer
+        <BModal v-model="modalShow2" header-class="p-3 bg-primary-subtle" content-class="border-0" hide-footer
             title="Create New Task" class="v-modal-custom" size="lg" centered>
             <b-form action="#">
                 <BRow class="g-3">
@@ -985,7 +985,7 @@ export default {
                     <div class="mt-4">
                         <div class="hstack gap-2 justify-content-end">
                             <BButton type="button" variant="light" @click="modalShow2 = false">Close</BButton>
-                            <BButton type="button" variant="success" @click="addNewTask">Add Task</BButton>
+                            <BButton type="button" variant="primary" @click="addNewTask">Add Task</BButton>
                         </div>
                     </div>
                 </BRow>

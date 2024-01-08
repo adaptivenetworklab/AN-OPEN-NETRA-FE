@@ -55,7 +55,7 @@ export default {
         markers: {
           size: 0,
         },
-        colors: getChartColorsArray('["--vz-warning", "--vz-danger", "--vz-success"]'),
+        colors: getChartColorsArray('["--vz-primary-rgb, 0.15", "--vz-primary-rgb, 0.35", "--vz-primary-rgb, 0.45"]'),
         xaxis: {
           categories: ["2016", "2017", "2018", "2019", "2020", "2021"],
         },

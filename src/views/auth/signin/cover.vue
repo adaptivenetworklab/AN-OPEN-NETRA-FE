@@ -36,7 +36,7 @@ export default {
             <BContainer>
                 <BRow>
                     <BCol lg="12">
-                        <BCard no-body class="overflow-hidden">
+                        <BCard no-body class="overflow-hidden border-0">
                             <BRow class="g-0">
                                 <BCol lg="6">
                                     <div class="p-lg-5 p-4 auth-one-bg h-100">

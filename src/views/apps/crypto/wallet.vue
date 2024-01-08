@@ -11,9 +11,6 @@ import animationData from "@/components/widgets/msoeawqm.json";
 import Lottie from "@/components/widgets/lottie.vue";
 import { market } from "@/common/data";
 
-import getChartColorsArray from "@/common/getChartColorsArray";
-
-
 export default {
   components: {
     Layout,
@@ -307,7 +304,6 @@ export default {
         },
       ],
       chartOptions: {
-        colors: getChartColorsArray('["--vz-info"]'),
         chart: {
           width: "100%",
           height: 46,
@@ -347,7 +343,7 @@ export default {
           change: "+13.11%",
           changeClass: "success",
           coinName: "btc",
-          chartsColor: "#13c56b",
+          chartsColor: "#0ab39c",
           chartOptions: {
             chart: {
               width: "100%",
@@ -377,7 +373,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#13c56b"],
+            colors: ["#0ab39c"],
           },
           series: [
             {
@@ -394,7 +390,7 @@ export default {
           change: "+15.08%",
           changeClass: "success",
           coinName: "ltc",
-          chartsColor: "#ed5e5e",
+          chartsColor: "#f17171",
           chartOptions: {
             chart: {
               width: "100%",
@@ -424,7 +420,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#ed5e5e"],
+            colors: ["#f17171"],
           },
           series: [
             {
@@ -441,7 +437,7 @@ export default {
           change: "+08.57%",
           changeClass: "success",
           coinName: "etc",
-          chartsColor: "#ed5e5e",
+          chartsColor: "#f17171",
           chartOptions: {
             chart: {
               width: "100%",
@@ -471,7 +467,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#ed5e5e"],
+            colors: ["#f17171"],
           },
           series: [
             {
@@ -488,7 +484,7 @@ export default {
           change: "-09.21%",
           changeClass: "danger",
           coinName: "bnb",
-          chartsColor: "#ed5e5e",
+          chartsColor: "#f17171",
           chartOptions: {
             chart: {
               width: "100%",
@@ -518,7 +514,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#ed5e5e"],
+            colors: ["#f17171"],
           },
           series: [
             {
@@ -535,7 +531,7 @@ export default {
           change: "+12.07%",
           changeClass: "success",
           coinName: "dash",
-          chartsColor: "#13c56b",
+          chartsColor: "#0ab39c",
           chartOptions: {
             chart: {
               width: "100%",
@@ -565,7 +561,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#13c56b"],
+            colors: ["#0ab39c"],
           },
           series: [
             {
@@ -582,7 +578,7 @@ export default {
           change: "+14.99%",
           changeClass: "success",
           coinName: "usdt",
-          chartsColor: "#13c56b",
+          chartsColor: "#0ab39c",
           chartOptions: {
             chart: {
               width: "100%",
@@ -612,7 +608,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#13c56b"],
+            colors: ["#0ab39c"],
           },
           series: [
             {
@@ -629,7 +625,7 @@ export default {
           change: "-05.07%",
           changeClass: "danger",
           coinName: "neo",
-          chartsColor: "#13c56b",
+          chartsColor: "#0ab39c",
           chartOptions: {
             chart: {
               width: "100%",
@@ -659,7 +655,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#13c56b"],
+            colors: ["#0ab39c"],
           },
           series: [
             {
@@ -754,13 +750,13 @@ export default {
                 <h5 class="card-title mb-0">My Portfolio Statistics</h5>
               </div>
               <div class="toolbar d-flex align-items-start justify-content-center flex-wrap gap-2">
-                <BButton type="button" variant="soft-primary" size="sm" class="timeline-btn" id="one_month">
+                <BButton type="button" variant="soft-secondary" size="sm" class="timeline-btn" id="one_month">
                   1M
                 </BButton>
-                <BButton type="button" variant="soft-primary" size="sm" class="timeline-btn" id="six_months">
+                <BButton type="button" variant="soft-secondary" size="sm" class="timeline-btn" id="six_months">
                   6M
                 </BButton>
-                <BButton type="button" variant="soft-primary" size="sm" class="timeline-btn" id="one_year">
+                <BButton type="button" variant="soft-secondary" size="sm" class="timeline-btn" id="one_year">
                   1Y
                 </BButton>
                 <BButton type="button" variant="soft-primary" size="sm" class="timeline-btn active" id="all">
@@ -782,7 +778,7 @@ export default {
             <h5 class="mb-0">Watchlist</h5>
           </div>
           <div class="flexshrink-0">
-            <BButton variant="success" size="sm">
+            <BButton variant="primary" size="sm">
               <i class="ri-star-line align-bottom"></i> Add Watchlist
             </BButton>
           </div>
@@ -873,7 +869,7 @@ export default {
                     <td>
                       <div class="d-flex align-items-center fw-medium">
                         <img :src="data.image" alt="" class="avatar-xxs me-2" />
-                        <BLink href="javascript:void(0)" class="currency_name">{{
+                        <BLink href="javascript:void(0)" class="currency_name link-secondary">{{
                           data.currency_name
                         }}</BLink>
                       </div>
@@ -897,7 +893,7 @@ export default {
               </table>
               <div class="noresult" v-if="resultQuery.length < 1">
                 <div class="text-center">
-                  <lottie class="avatar-xl" colors="primary:#121331,secondary:#08a88a" :options="defaultOptions"
+                  <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions"
                     :height="75" :width="75" />
                   <h5 class="mt-2">Sorry! No Result Found</h5>
                   <p class="text-muted mb-0">
@@ -928,12 +924,12 @@ export default {
       </BCol>
 
       <BCol xxl="3">
-        <BCard no-body>
-          <BCardBody class="bg-warning-subtle">
+        <BCard no-body class="overflow-hidden border-0">
+          <BCardBody class="bg-primary-subtle">
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h5 class="fs-13 mb-3">My Portfolio</h5>
-                <h3>$61,91,967<small class="text-muted fs-14">.29</small></h3>
+                <h2>$61,91,967<small class="text-muted fs-14">.29</small></h2>
                 <p class="text-muted mb-0">
                   $25,10,974
                   <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success"><i
@@ -951,7 +947,7 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h5 class="fs-13 mb-3">Today's Profit</h5>
-                <h3>$2,74,365<small class="text-muted fs-14">.84</small></h3>
+                <h2>$2,74,365<small class="text-muted fs-14">.84</small></h2>
                 <p class="text-muted mb-0">
                   $9,10,564
                   <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success"><i
@@ -969,7 +965,7 @@ export default {
             <div class="d-flex">
               <div class="flex-grow-1">
                 <h5 class="fs-13 mb-3">Overall Profit</h5>
-                <h3>$32,67,120<small class="text-muted fs-14">.42</small></h3>
+                <h2>$32,67,120<small class="text-muted fs-14">.42</small></h2>
                 <p class="text-muted mb-0">
                   $18,22,730
                   <BBadge tag="small" variant="success-subtle" class="bg-success-subtle text-success"><i
@@ -1048,7 +1044,7 @@ export default {
               </div>
             </div>
             <div>
-              <router-link to="/crypto/transactions" class="btn btn-soft-info w-100">View All Transactions
+              <router-link to="/crypto/transactions" class="btn btn-soft-primary w-100">View All Transactions
                 <i class="ri-arrow-right-line align-bottom"></i>
               </router-link>
             </div>

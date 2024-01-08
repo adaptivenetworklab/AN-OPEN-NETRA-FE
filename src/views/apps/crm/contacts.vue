@@ -353,21 +353,21 @@ export default {
           <BCardHeader>
             <div class="d-flex align-items-center flex-wrap gap-2">
               <div class="flex-grow-1">
-                <BButton variant="info" class="add-btn me-1" @click="toggleModal">
+                <BButton variant="primary" class="add-btn me-1" @click="toggleModal">
                   <i class="ri-add-fill me-1 align-bottom"></i> Add Contacts
                 </BButton>
 
               </div>
               <div class="flex-shrink-0">
                 <div class="hstack text-nowrap gap-2">
-                  <BButton variant="soft-danger" id="remove-actions" @click="deleteMultiple">
+                  <BButton variant="soft-primary" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton variant="secondary">
+                  <BButton variant="soft-primary">
                     <i class="ri-filter-2-line me-1 align-bottom"></i> Filters
                   </BButton>
                   <BButton variant="soft-success">Import</BButton>
-                  <BDropdown variant="link" class="card-header-dropdown" toggle-class="btn btn-soft-info arrow-none"
+                  <BDropdown variant="link" class="card-header-dropdown" toggle-class="btn btn-soft-danger arrow-none"
                     menu-class="dropdown-menu-end" :offset="{ alignmentAxis: -105, crossAxis: 0, mainAxis: 10 }">
                     <template #button-content><i class="ri-more-2-fill"></i></template>
                     <BDropdownItem>All</BDropdownItem>
@@ -504,7 +504,7 @@ export default {
                 </table>
                 <div class="noresult" v-if="resultQuery.length < 1">
                   <div class="text-center">
-                    <lottie class="avatar-xl" colors="primary:#121331,secondary:#08a88a" :options="defaultOptions"
+                    <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions"
                       :height="75" :width="75" />
                     <h5 class="mt-2">Sorry! No Result Found</h5>
                     <p class="text-muted mb-0">
@@ -560,7 +560,7 @@ export default {
                 </BLink>
               </li>
               <li class="list-inline-item avatar-xs">
-                <BLink href="javascript:void(0);" class="avatar-title bg-warning-subtle text-warning fs-15 rounded">
+                <BLink href="javascript:void(0);" class="avatar-title bg-primary-subtle text-primary fs-15 rounded">
                   <i class="ri-question-answer-line"></i>
                 </BLink>
               </li>
@@ -593,8 +593,8 @@ export default {
                   <tr>
                     <td class="fw-medium" scope="row">Tags</td>
                     <td id="tags" class="hstack gap-1">
-                      <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">Lead</BBadge>
-                      <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">Partner</BBadge>
+                      <BBadge variant="secondary-subtle" class="text-secondary">Lead</BBadge>
+                      <BBadge variant="secondary-subtle" class="text-secondary">Partner</BBadge>
                     </td>
                   </tr>
                   <tr>
@@ -612,7 +612,7 @@ export default {
 
     <!-- add contact modal  -->
     <BModal v-model="addContactModal" id="showmodal" hide-footer title-class="exampleModalLabel"
-      header-class="bg-info-subtle p-3" class="v-modal-custom" centered
+      header-class="bg-primary-subtle p-3" class="v-modal-custom" centered
       :title="dataEdit ? 'Edit Contact' : 'Add Contact'">
       <b-form action="" id="addform" class="tablelist-form" autocomplete="off">
         <input type="hidden" id="id" />
@@ -706,7 +706,7 @@ export default {
     <!-- delete modal -->
     <BModal v-model="deleteModal" modal-class="zoomIn" hide-footer no-close-on-backdrop centered>
       <div class="mt-2 text-center">
-        <lottie class="avatar-xl" colors="primary:#f7b84b,secondary:#f06548" :options="defaultOptions1" :height="100"
+        <lottie class="avatar-xl" colors="primary:#00bd9d,secondary:#25a0e2" :options="defaultOptions1" :height="100"
           :width="100" />
         <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
           <h4>You are about to delete a contact ?</h4>
@@ -715,7 +715,7 @@ export default {
       </div>
       <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
         <button type="button" class="btn w-sm btn-light" @click="deleteModal = false">Close</button>
-        <button type="button" class="btn w-sm btn-danger" id="delete-record" @click="deleteData">Yes, Delete It!</button>
+        <button type="button" class="btn w-sm btn-primary" id="delete-record" @click="deleteData">Yes, Delete It!</button>
       </div>
     </BModal>
   </Layout>

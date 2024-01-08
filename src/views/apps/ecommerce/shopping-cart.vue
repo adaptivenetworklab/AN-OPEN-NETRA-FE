@@ -377,7 +377,7 @@ export default {
         </BCard>
 
         <div class="text-end mb-4">
-          <router-link to="/ecommerce/checkout" class="btn btn-success btn-label right ms-auto"><i
+          <router-link to="/ecommerce/checkout" class="btn btn-primary btn-label right ms-auto"><i
               class="ri-arrow-right-line label-icon align-bottom fs-16 ms-2"></i>
             Checkout</router-link>
         </div>
@@ -398,7 +398,7 @@ export default {
               <div class="hstack gap-3 px-3 mx-n3">
                 <input class="form-control me-auto" type="text" placeholder="Enter coupon code"
                   aria-label="Add Promo Code here..." />
-                <BButton type="button" variant="success" class="w-xs">
+                <BButton type="button" variant="primary" class="w-xs">
                   Apply
                 </BButton>
               </div>
@@ -439,19 +439,19 @@ export default {
             </BCardBody>
           </BCard>
 
-          <BAlert variant="danger" :model-value="true" class="border-dashed" role="alert" show>
+          <BAlert variant="primary" :model-value="true" class="border-dashed" role="alert" show>
             <div class="d-flex align-items-center">
               <lottie  variant="danger" :options="defaultOptions" :height="80" :width="80"
                 style="margin:0px;" />
               <div class="ms-2">
-                <h5 class="fs-14 text-danger fw-semibold">
+                <h5 class="fs-14 text-primary fw-semibold">
                   Buying for a loved one?
                 </h5>
                 <p class="text-black mb-1">
-                  Gift wrap and personalized message on card, <br />Only for
+                  Gift wrap and personalised message on card, <br />Only for
                   <span class="fw-semibold">$9.99</span> USD
                 </p>
-                <button type="button" class="btn ps-0 btn-sm btn-link text-danger text-uppercase">
+                <button type="button" class="btn ps-0 btn-sm btn-link text-primary text-uppercase">
                   Add Gift Wrap
                 </button>
               </div>
@@ -463,10 +463,10 @@ export default {
 
 
     <!-- edit customer modal  -->
-    <BModal v-model="removeItemModal" id="removeItemModal" modal-class="zoomIn" hide-footer
+    <BModal v-model="removeItemModal" id="removeItemModal" modal-class="zoomIn" hide-footer title="Update Customer"
       class="v-modal-custom" centered no-close-on-backdrop>
       <div class="mt-2 text-center">
-        <lottie colors="primary:#121331,secondary:#f06548" :options="defaultOptions" :height="100" :width="100" />
+        <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions" :height="100" :width="100" />
         <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
           <h4>Are you Sure ?</h4>
           <p class="text-muted mx-4 mb-0">
@@ -478,7 +478,7 @@ export default {
         <BButton type="button" variant="light" class="w-sm" @click="removeItemModal = false">
           Close
         </BButton>
-        <BButton type="button" variant="danger" class="w-sm" id="remove-product" @click="deleteProduct">
+        <BButton type="button" variant="primary" class="w-sm" id="remove-product" @click="deleteProduct">
           Yes, Delete It!
         </BButton>
       </div>

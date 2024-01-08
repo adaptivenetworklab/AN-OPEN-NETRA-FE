@@ -580,7 +580,7 @@ const zoomableChart = {
         autoSelected: "zoom",
       },
     },
-    colors: getChartColorsArray('["--vz-success"]'),
+    colors: getChartColorsArray('["--vz-primary"]'),
     dataLabels: {
       enabled: false,
     },
@@ -656,7 +656,7 @@ const lineDatalabelChart = {
         show: false,
       },
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-success"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
     dataLabels: {
       enabled: false,
     },
@@ -734,7 +734,7 @@ const dashedLineChart = {
         show: false,
       },
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-danger", "--vz-success"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-success"]'),
     dataLabels: {
       enabled: false,
     },
@@ -1024,7 +1024,7 @@ const brushLineChart = {
         show: false,
       },
     },
-    colors: getChartColorsArray('["--vz-danger"]'),
+    colors: getChartColorsArray('["--vz-primary"]'),
     stroke: {
       width: 3,
     },
@@ -1117,7 +1117,7 @@ const steplineChart = {
         sizeOffset: 4,
       },
     },
-    colors: getChartColorsArray('["--vz-success"]'),
+    colors: getChartColorsArray('["--vz-primary"]'),
   },
 };
 
@@ -1273,7 +1273,7 @@ const missingDataChart = {
         fontWeight: 500,
       },
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-danger", "--vz-success"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-success"]'),
   },
 };
 

@@ -20,7 +20,7 @@ export default {
         <BRow class="g-4 mb-3 align-items-center">
             <BCol sm="auto">
                 <div>
-                    <h5 class="fw-bold mb-0">Top Collections</h5>
+                    <h5 class="mb-0">Top Collections</h5>
                 </div>
             </BCol>
             <BCol sm>
@@ -60,10 +60,10 @@ export default {
                                 <img src="@/assets/images/nft/img-03.jpg" alt="" class="img-fluid rounded">
                             </BCol>
                         </BRow>
-                        <BLink href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i>
+                        <BLink href="#!" class="float-end fs-14"> View All <i class="ri-arrow-right-line align-bottom"></i>
                         </BLink>
-                        <h5 class="mb-0 fs-16">
-                            <BLink href="#!" class="text-body">Artwork <BBadge variant="success-subtle" class="bg-success-subtle text-success">206</BBadge></BLink>
+                        <h5 class="mb-0 fs-15">
+                            <BLink href="#!" class="text-body">Artwork <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">206</BBadge></BLink>
                         </h5>
                     </BCardBody>
                 </BCard>
@@ -83,10 +83,10 @@ export default {
                                 <img src="@/assets/images/nft/img-04.jpg" alt="" class="img-fluid rounded">
                             </BCol>
                         </BRow>
-                        <BLink href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i>
+                        <BLink href="#!" class="float-end fs-14"> View All <i class="ri-arrow-right-line align-bottom"></i>
                         </BLink>
-                        <h5 class="mb-0 fs-16">
-                            <BLink href="#!" class="text-body">Crypto Card <BBadge variant="success-subtle" class="bg-success-subtle text-success">743</BBadge></BLink>
+                        <h5 class="mb-0 fs-15">
+                            <BLink href="#!" class="text-body">Crypto Card <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">743</BBadge></BLink>
                         </h5>
                     </BCardBody>
                 </BCard>
@@ -106,10 +106,10 @@ export default {
                                 <img src="@/assets/images/nft/img-01.jpg" alt="" class="img-fluid rounded">
                             </BCol>
                         </BRow>
-                        <BLink href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i>
+                        <BLink href="#!" class="float-end fs-14"> View All <i class="ri-arrow-right-line align-bottom"></i>
                         </BLink>
-                        <h5 class="mb-0 fs-16">
-                            <BLink href="#!" class="text-body">Music <BBadge variant="success-subtle" class="bg-success-subtle text-success">679</BBadge></BLink>
+                        <h5 class="mb-0 fs-15">
+                            <BLink href="#!" class="text-body">Music <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">679</BBadge></BLink>
                         </h5>
                     </BCardBody>
                 </BCard>
@@ -129,10 +129,10 @@ export default {
                                 <img src="@/assets/images/nft/img-05.jpg" alt="" class="img-fluid rounded">
                             </BCol>
                         </BRow>
-                        <BLink href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i>
+                        <BLink href="#!" class="float-end fs-14"> View All <i class="ri-arrow-right-line align-bottom"></i>
                         </BLink>
-                        <h5 class="mb-0 fs-16">
-                            <BLink href="#!" class="text-body">Games <BBadge variant="success-subtle" class="bg-success-subtle text-success">341</BBadge></BLink>
+                        <h5 class="mb-0 fs-15">
+                            <BLink href="#!" class="text-body">Games <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">341</BBadge></BLink>
                         </h5>
                     </BCardBody>
                 </BCard>
@@ -152,10 +152,10 @@ export default {
                                 <img src="@/assets/images/nft/img-01.jpg" alt="" class="img-fluid rounded">
                             </BCol>
                         </BRow>
-                        <BLink href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i>
+                        <BLink href="#!" class="float-end fs-14"> View All <i class="ri-arrow-right-line align-bottom"></i>
                         </BLink>
-                        <h5 class="mb-0 fs-16">
-                            <BLink href="#!" class="text-body">Photography <BBadge variant="success-subtle" class="bg-success-subtle text-success">1452</BBadge></BLink>
+                        <h5 class="mb-0 fs-15">
+                            <BLink href="#!" class="text-body">Photography <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">1452</BBadge></BLink>
                         </h5>
                     </BCardBody>
                 </BCard>
@@ -175,10 +175,10 @@ export default {
                                 <img src="@/assets/images/nft/img-04.jpg" alt="" class="img-fluid rounded">
                             </BCol>
                         </BRow>
-                        <BLink href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i>
+                        <BLink href="#!" class="float-end fs-14"> View All <i class="ri-arrow-right-line align-bottom"></i>
                         </BLink>
-                        <h5 class="mb-0 fs-16">
-                            <BLink href="#!" class="text-body">3d Style <BBadge variant="success-subtle" class="bg-success-subtle text-success">4781</BBadge></BLink>
+                        <h5 class="mb-0 fs-15">
+                            <BLink href="#!" class="text-body">3d Style <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">4781</BBadge></BLink>
                         </h5>
                     </BCardBody>
                 </BCard>
@@ -198,10 +198,10 @@ export default {
                                 <img src="@/assets/images/nft/img-03.jpg" alt="" class="img-fluid rounded">
                             </BCol>
                         </BRow>
-                        <BLink href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i>
+                        <BLink href="#!" class="float-end fs-14"> View All <i class="ri-arrow-right-line align-bottom"></i>
                         </BLink>
-                        <h5 class="mb-0 fs-16">
-                            <BLink href="#!" class="text-body">Collectibles <BBadge variant="success-subtle" class="bg-success-subtle text-success">3468</BBadge></BLink>
+                        <h5 class="mb-0 fs-15">
+                            <BLink href="#!" class="text-body">Collectibles <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">3468</BBadge></BLink>
                         </h5>
                     </BCardBody>
                 </BCard>
@@ -221,10 +221,10 @@ export default {
                                 <img src="@/assets/images/nft/img-05.jpg" alt="" class="img-fluid rounded">
                             </BCol>
                         </BRow>
-                        <BLink href="#!" class="float-end"> View All <i class="ri-arrow-right-line align-bottom"></i>
+                        <BLink href="#!" class="float-end fs-14"> View All <i class="ri-arrow-right-line align-bottom"></i>
                         </BLink>
-                        <h5 class="mb-0 fs-16">
-                            <BLink href="#!" class="text-body">Videos <BBadge variant="success-subtle" class="bg-success-subtle text-success">1674</BBadge></BLink>
+                        <h5 class="mb-0 fs-15">
+                            <BLink href="#!" class="text-body">Videos <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">1674</BBadge></BLink>
                         </h5>
                     </BCardBody>
                 </BCard>

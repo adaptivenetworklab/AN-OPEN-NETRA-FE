@@ -58,7 +58,7 @@ export default {
             <div class="d-flex align-items-center">
               <h5 class="card-title flex-grow-1 mb-0">Order #VL2667</h5>
               <div class="flex-shrink-0">
-                <router-link to="/invoices/detail" class="btn btn-success btn-sm"><i
+                <router-link to="/invoices/detail" class="btn btn-primary btn-sm"><i
                     class="ri-download-2-fill align-middle me-1"></i>
                   Invoice</router-link>
               </div>
@@ -84,8 +84,8 @@ export default {
                           <img :src="item.img" alt="" class="img-fluid d-block" />
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h5 class="fs-14">
-                            <router-link to="/ecommerce/product-details" class="text-body">{{ item.product }}
+                          <h5 class="fs-15">
+                            <router-link to="/ecommerce/product-details" class="link-primary">{{ item.product }}
                             </router-link>
                           </h5>
                           <p class="text-muted mb-0">
@@ -149,10 +149,10 @@ export default {
             <div class="d-sm-flex align-items-center">
               <h5 class="card-title flex-grow-1 mb-0">Order Status</h5>
               <div class="flex-shrink-0 mt-2 mt-sm-0">
-                <BLink href="javascript:void(0);" class="btn btn-soft-info btn-sm mt-2 mt-sm-0"><i
+                <BLink href="javascript:void(0);" class="btn btn-soft-primary btn-sm mt-2 mt-sm-0"><i
                     class="ri-map-pin-line align-middle me-1"></i> Change
                   Address</BLink>
-                <BLink href="javascript:void(0);" class="btn btn-soft-danger btn-sm mt-2 mt-sm-0 ms-1"><i
+                <BLink href="javascript:void(0);" class="btn btn-soft-secondary btn-sm mt-2 mt-sm-0 ms-1"><i
                     class="mdi mdi-archive-remove-outline align-middle me-1"></i>
                   Cancel Order</BLink>
               </div>
@@ -166,12 +166,12 @@ export default {
                     <BLink class="accordion-button p-2 shadow-none" v-b-toggle.collapseOne>
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0 avatar-xs">
-                          <div class="avatar-title bg-success rounded-circle">
+                          <div class="avatar-title bg-primary rounded-circle">
                             <i class="ri-shopping-bag-line"></i>
                           </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h6 class="fs-14 mb-0">
+                          <h6 class="fs-15 mb-0 fw-semibold">
                             Order Placed -
                             <span class="fw-normal">Wed, 15 Dec 2021</span>
                           </h6>
@@ -193,12 +193,12 @@ export default {
                     <BLink class="accordion-button p-2 shadow-none" v-b-toggle.collapseTwo>
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0 avatar-xs">
-                          <div class="avatar-title bg-success rounded-circle">
+                          <div class="avatar-title bg-primary rounded-circle">
                             <i class="mdi mdi-gift-outline"></i>
                           </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h6 class="fs-14 mb-1">
+                          <h6 class="fs-15 mb-1 fw-semibold">
                             Packed -
                             <span class="fw-normal">Thu, 16 Dec 2021</span>
                           </h6>
@@ -220,12 +220,12 @@ export default {
                     <BLink class="accordion-button p-2 shadow-none" v-b-toggle.collapseThree>
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0 avatar-xs">
-                          <div class="avatar-title bg-success rounded-circle">
+                          <div class="avatar-title bg-primary rounded-circle">
                             <i class="ri-truck-line"></i>
                           </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h6 class="fs-14 mb-1">
+                          <h6 class="fs-15 mb-1 fw-semibold">
                             Shipping -
                             <span class="fw-normal">Thu, 16 Dec 2021</span>
                           </h6>
@@ -247,12 +247,12 @@ export default {
                       aria-expanded="false">
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0 avatar-xs">
-                          <div class="avatar-title bg-light text-success rounded-circle">
+                          <div class="avatar-title bg-light text-primary rounded-circle">
                             <i class="ri-takeaway-fill"></i>
                           </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h6 class="fs-14 mb-0">
+                          <h6 class="fs-14 mb-0 fw-semibold">
                             Out For Delivery
                           </h6>
                         </div>
@@ -266,12 +266,12 @@ export default {
                       aria-expanded="false">
                       <div class="d-flex align-items-center">
                         <div class="flex-shrink-0 avatar-xs">
-                          <div class="avatar-title bg-light text-success rounded-circle">
+                          <div class="avatar-title bg-light text-primary rounded-circle">
                             <i class="mdi mdi-package-variant"></i>
                           </div>
                         </div>
                         <div class="flex-grow-1 ms-3">
-                          <h6 class="fs-14 mb-0">Delivered</h6>
+                          <h6 class="fs-14 mb-0 fw-semibold">Delivered</h6>
                         </div>
                       </div>
                     </BLink>
@@ -297,7 +297,7 @@ export default {
           </BCardHeader>
           <BCardBody>
             <div class="text-center">
-              <lottie colors="primary:#405189,secondary:#08a88a" :options="defaultOptions" :height="80" :width="80" />
+              <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions" :height="80" :width="80" />
               <h5 class="fs-16 mt-2">RQK Logistics</h5>
               <p class="text-muted mb-0">ID: MFDS1400457854</p>
               <p class="text-muted mb-0">Payment Mode : Debit Card</p>

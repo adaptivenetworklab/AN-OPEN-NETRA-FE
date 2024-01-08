@@ -72,28 +72,28 @@ export default {
                 <BCollapse class="navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0" id="navbar-example">
                         <li class="nav-item">
-                            <BLink class="nav-link fw-semibold fs-15" href="#hero" @click.prevent="scrollToSection('hero')">Home
+                            <BLink class="nav-link fs-15" href="#hero" @click.prevent="scrollToSection('hero')">Home
                             </BLink>
                         </li>
                         <li class="nav-item">
-                            <BLink class="nav-link fw-semibold fs-15" href="#process" @click.prevent="scrollToSection('process')">
+                            <BLink class="nav-link fs-15" href="#process" @click.prevent="scrollToSection('process')">
                                 Process
                             </BLink>
                         </li>
                         <li class="nav-item">
-                            <BLink class="nav-link fw-semibold fs-15" href="#categories" @click.prevent="scrollToSection('categories')">
+                            <BLink class="nav-link fs-15" href="#categories" @click.prevent="scrollToSection('categories')">
                                 Categories</BLink>
                         </li>
                         <li class="nav-item">
-                            <BLink class="nav-link fw-semibold fs-15" href="#findJob" @click.prevent="scrollToSection('findJob')">Find
+                            <BLink class="nav-link fs-15" href="#findJob" @click.prevent="scrollToSection('findJob')">Find
                                 Jobs</BLink>
                         </li>
                         <li class="nav-item">
-                            <BLink class="nav-link fw-semibold fs-15" href="#candidates" @click.prevent="scrollToSection('candidates')">
+                            <BLink class="nav-link fs-15" href="#candidates" @click.prevent="scrollToSection('candidates')">
                                 Candidates</BLink>
                         </li>
                         <li class="nav-item">
-                            <BLink class="nav-link fw-semibold fs-15" href="#blog" @click.prevent="scrollToSection('blog')">Blog</BLink>
+                            <BLink class="nav-link fs-15" href="#blog" @click.prevent="scrollToSection('blog')">Blog</BLink>
                         </li>
                     </ul>
 
@@ -113,7 +113,7 @@ export default {
                         <div>
                             <h1 class="display-6 fw-bold text-capitalize mb-3 lh-base">Find your next job and build
                                 your dream here</h1>
-                            <p class="lead text-muted lh-base mb-4">Find jobs, create trackable resumes and enrich your
+                            <p class="lead text-muted fw-normal lh-base mb-4">Find jobs, create trackable resumes and enrich your
                                 applications. Carefully crafted after analyzing the needs of different industries.</p>
                             <form action="#" class="job-panel-filter">
                                 <BRow class="g-md-0 g-2">
@@ -405,7 +405,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="7">
                         <div class="text-center mb-5">
-                            <h1 class="mb-3 fw-semibold text-capitalize lh-base">High demand jobs <span
+                            <h1 class="mb-3 ff-secondary fw-semibold text-capitalize lh-base">High demand jobs <span
                                     class="text-primary">Categories</span> featured</h1>
                             <p class="text-muted">Post a job to tell us about your project. We'll quickly match you with
                                 the right freelancers.</p>
@@ -556,7 +556,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="7">
                         <div class="text-center mb-5">
-                            <h1 class="mb-3 fw-semibold text-capitalize lh-base">Find Your <span
+                            <h1 class="mb-3 ff-secondary fw-semibold text-capitalize lh-base">Find Your <span
                                     class="text-primary">Career</span> You Deserve it</h1>
                             <p class="text-muted">Post a job to tell us about your project. We'll quickly match you with
                                 the right freelancers.</p>
@@ -928,7 +928,7 @@ export default {
                     <BCol lg="6" order="2" order-lg="1">
                         <div class="text-muted mt-5 mt-lg-0">
                             <h5 class="fs-12 text-uppercase text-success">Hot Featured Company</h5>
-                            <h1 class="mb-3 fw-semibold text-capitalize lh-base">Get <span
+                            <h1 class="mb-3 ff-secondary fw-semibold text-capitalize lh-base">Get <span
                                     class="text-primary">10,000+</span> Featured Companies</h1>
                             <p class="ff-secondary mb-2">The demand for content writing services is growing. This is
                                 because content is required in almost every industry. <b>Many companies have discovered
@@ -1045,7 +1045,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h1 class="mb-3 fw-semibold text-capitalize lh-base">Hire Experts <span
+                            <h1 class="mb-3 ff-secondary fw-semibold text-capitalize lh-base">Hire Experts <span
                                     class="text-primary">Team</span></h1>
                             <p class="text-muted mb-4">Hiring experts costs more per hour than hiring entry- or
                                 mid-level freelancers, but they can usually get the work done faster—and better.</p>
@@ -1154,7 +1154,7 @@ export default {
                 <BRow class="justify-content-center">
                     <BCol lg="8">
                         <div class="text-center mb-5">
-                            <h1 class="mb-3 fw-semibold text-capitalize lh-base">Our Latest <span
+                            <h1 class="mb-3 ff-secondary fw-semibold text-capitalize lh-base">Our Latest <span
                                     class="text-primary">News</span></h1>
                             <p class="text-muted mb-4">We thrive when coming up with innovative ideas but also
                                 understand that a smart concept should be supported with faucibus sapien odio measurable
@@ -1410,7 +1410,7 @@ export default {
                 </BRow>
             </BContainer>
         </footer>
-        <BButton variant="info" @click="topFunction" class="btn-icon" id="back-to-top">
+        <BButton variant="info" @click="topFunction" class="btn-icon landing-back-top" id="back-to-top">
             <i class="ri-arrow-up-line"></i>
         </BButton>
     </div>

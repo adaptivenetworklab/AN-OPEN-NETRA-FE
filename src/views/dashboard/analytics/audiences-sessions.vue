@@ -98,7 +98,7 @@ export default {
             vertical: 0,
           },
         },
-        colors: getChartColorsArray('["--vz-success", "--vz-info"]'),
+        colors: getChartColorsArray('["--vz-info", "--vz-primary"]'),
         tooltip: {
           y: [{
             formatter: function (y) {

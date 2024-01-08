@@ -183,7 +183,7 @@ export default {
                       <div class="p-2 border border-dashed rounded">
                         <div class="d-flex align-items-center">
                           <div class="avatar-sm me-2">
-                            <div class="avatar-title rounded bg-transparent text-success fs-24">
+                            <div class="avatar-title rounded bg-transparent text-primary fs-24">
                               <i :class="`${item.icon}`"></i>
                             </div>
                           </div>
@@ -199,7 +199,7 @@ export default {
                   <BRow>
                     <BCol xl="6">
                       <div class="mt-4">
-                        <h5 class="fs-13">Sizes :</h5>
+                        <h5 class="fs-14">Sizes :</h5>
                         <div class="d-flex flex-wrap gap-2">
                           <div v-b-tooltip.hover title="Out of Stock">
                             <input type="radio" class="btn-check" name="productsize-radio" id="productsize-radio1"
@@ -258,7 +258,7 @@ export default {
                           </div>
                           <div v-b-tooltip.hover title="02 Items Available">
                             <button type="button"
-                              class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-info">
+                              class="btn avatar-xs p-0 d-flex align-items-center justify-content-center border rounded-circle fs-20 text-primary">
                               <i class="ri-checkbox-blank-circle-fill"></i>
                             </button>
                           </div>
@@ -292,7 +292,7 @@ export default {
                   </BRow>
 
                   <div class="mt-4 text-muted">
-                    <h5 class="fs-13">Description :</h5>
+                    <h5 class="fs-14">Description :</h5>
                     <p>
                       Tommy Hilfiger men striped pink sweatshirt. Crafted with
                       cotton. Material composition is 100% organic cotton. This
@@ -306,7 +306,7 @@ export default {
                   <BRow>
                     <BCol sm="6">
                       <div class="mt-3">
-                        <h5 class="fs-13">Features :</h5>
+                        <h5 class="fs-14">Features :</h5>
                         <ul class="list-unstyled">
                           <li class="py-1">
                             <i class="mdi mdi-circle-medium me-1 text-muted align-middle"></i>
@@ -329,7 +329,7 @@ export default {
                     </BCol>
                     <BCol sm="6">
                       <div class="mt-3">
-                        <h5 class="fs-13">Services :</h5>
+                        <h5 class="fs-14">Services :</h5>
                         <ul class="list-unstyled product-desc-list">
                           <li class="py-1">10 Days Replacement</li>
                           <li class="py-1">Cash on Delivery available</li>
@@ -339,8 +339,8 @@ export default {
                   </BRow>
 
                   <div class="product-content mt-5">
-                    <h5 class="fs-13 mb-3">Product Description :</h5>
-                    <BTabs nav-class="nav-tabs-custom nav-success">
+                    <h5 class="fs-14 mb-3">Product Description :</h5>
+                    <BTabs nav-class="nav-tabs-custom nav-primary">
                       <BTab title="Specification" active>
                         <div class="border border-top-0 p-4 table-responsive">
                           <table class="table mb-0">
@@ -373,7 +373,7 @@ export default {
                       </BTab>
                       <BTab class="border border-top-0 p-4" title="Details">
                         <div>
-                          <h5 class="mb-3">
+                          <h5 class="font-size-16 mb-3">
                             Tommy Hilfiger Sweatshirt for Men (Pink)
                           </h5>
                           <p>
@@ -409,7 +409,7 @@ export default {
 
                   <div class="mt-5">
                     <div>
-                      <h5 class="fs-13 mb-3">Ratings & Reviews</h5>
+                      <h5 class="fs-14 mb-3">Ratings & Reviews</h5>
                     </div>
                     <BRow class="gy-4 gx-0">
                       <BCol lg="4">
@@ -448,7 +448,7 @@ export default {
                               </div>
                               <BCol>
                                 <div class="p-2">
-                                  <BProgress variant="success" class="animated-progess progress-sm" :value="50.16" />
+                                  <BProgress variant="primary" class="animated-progess progress-sm" :value="50.16" />
                                 </div>
                               </BCol>
                               <div class="col-auto">
@@ -484,7 +484,7 @@ export default {
                               </div>
                               <BCol>
                                 <div class="p-2">
-                                  <BProgress variant="success" class="animated-progess progress-sm" :value="18.12" />
+                                  <BProgress variant="secondary" class="animated-progess progress-sm" :value="18.12" />
                                 </div>
                               </BCol>
                               <div class="col-auto">
@@ -537,7 +537,7 @@ export default {
                       <BCol lg="8">
                         <div class="ps-lg-4">
                           <div class="d-flex flex-wrap align-items-start gap-3">
-                            <h5 class="fs-13">Reviews:</h5>
+                            <h5 class="fs-14">Reviews:</h5>
                           </div>
 
                           <simplebar class="me-lg-n3 pe-lg-4" data-simplebar style="max-height: 225px">
@@ -546,7 +546,7 @@ export default {
                                 <div class="border border-dashed rounded p-3">
                                   <div class="d-flex align-items-start mb-3">
                                     <div class="hstack gap-3">
-                                      <BBadge tag="div" variant="success" class="rounded-pill mb-0">
+                                      <BBadge tag="div" variant="primary" class="rounded-pill mb-0">
                                         <i class="mdi mdi-star"></i> 4.2
                                       </BBadge>
                                       <div class="vr"></div>
@@ -576,7 +576,7 @@ export default {
 
                                   <div class="d-flex align-items-end">
                                     <div class="flex-grow-1">
-                                      <h5 class="fs-13 mb-0">Henry</h5>
+                                      <h5 class="fs-14 mb-0">Henry</h5>
                                     </div>
 
                                     <div class="flex-shrink-0">
@@ -591,7 +591,7 @@ export default {
                                 <div class="border border-dashed rounded p-3">
                                   <div class="d-flex align-items-start mb-3">
                                     <div class="hstack gap-3">
-                                      <BBadge tag="div" variant="success" class="rounded-pill mb-0">
+                                      <BBadge tag="div" variant="primary" class="rounded-pill mb-0">
                                         <i class="mdi mdi-star"></i> 4.0
                                       </BBadge>
                                       <div class="vr"></div>
@@ -605,7 +605,7 @@ export default {
                                   </div>
                                   <div class="d-flex align-items-end">
                                     <div class="flex-grow-1">
-                                      <h5 class="fs-13 mb-0">Nancy</h5>
+                                      <h5 class="fs-14 mb-0">Nancy</h5>
                                     </div>
 
                                     <div class="flex-shrink-0">
@@ -621,7 +621,7 @@ export default {
                                 <div class="border border-dashed rounded p-3">
                                   <div class="d-flex align-items-start mb-3">
                                     <div class="hstack gap-3">
-                                      <BBadge tag="div" variant="success" class="rounded-pill mb-0">
+                                      <BBadge tag="div" variant="primary" class="rounded-pill mb-0">
                                         <i class="mdi mdi-star"></i> 4.2
                                       </BBadge>
                                       <div class="vr"></div>
@@ -634,7 +634,7 @@ export default {
                                   </div>
                                   <div class="d-flex align-items-end">
                                     <div class="flex-grow-1">
-                                      <h5 class="fs-13 mb-0">Joseph</h5>
+                                      <h5 class="fs-14 mb-0">Joseph</h5>
                                     </div>
 
                                     <div class="flex-shrink-0">
@@ -650,7 +650,7 @@ export default {
                                 <div class="border border-dashed rounded p-3">
                                   <div class="d-flex align-items-start mb-3">
                                     <div class="hstack gap-3">
-                                      <BBadge tag="div" variant="success" class="rounded-pill mb-0">
+                                      <BBadge tag="div" variant="primary" class="rounded-pill mb-0">
                                         <i class="mdi mdi-star"></i> 4.1
                                       </BBadge>
                                       <div class="vr"></div>
@@ -663,7 +663,7 @@ export default {
                                   </div>
                                   <div class="d-flex align-items-end">
                                     <div class="flex-grow-1">
-                                      <h5 class="fs-13 mb-0">Jimmy</h5>
+                                      <h5 class="fs-14 mb-0">Jimmy</h5>
                                     </div>
 
                                     <div class="flex-shrink-0">

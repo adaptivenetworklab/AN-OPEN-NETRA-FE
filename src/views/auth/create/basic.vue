@@ -125,7 +125,7 @@ export default {
                     </BCol>
                 </BRow>
 
-                <BRow class="justify-content-center">
+                <BRow class="justify-content-center ">
                     <BCol md="8" lg="6" xl="5">
                         <BCard no-body class="mt-4">
 

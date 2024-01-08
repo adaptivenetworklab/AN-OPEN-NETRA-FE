@@ -728,7 +728,7 @@ export default {
 
             <div class="live-preview">
 
-              <BProgress class="progress-step-arrow progress-info">
+              <BProgress class="progress-step-arrow progress-primary">
                 <BProgress-bar :value="100">
                   Step 1
                 </BProgress-bar>

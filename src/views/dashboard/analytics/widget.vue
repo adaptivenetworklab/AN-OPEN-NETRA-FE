@@ -41,8 +41,8 @@
             </div>
             <div>
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-info-subtle rounded-circle fs-2">
-                  <users-icon class="text-info icon-md"></users-icon>
+                <span class="avatar-title bg-primary-subtle rounded-circle fs-2">
+                  <users-icon class="text-primary icon-md"></users-icon>
                 </span>
               </div>
             </div>
@@ -69,8 +69,8 @@
             </div>
             <div>
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-info-subtle rounded-circle fs-2">
-                  <activity-icon name="activity" class="text-info icon-md"></activity-icon>
+                <span class="avatar-title bg-primary-subtle rounded-circle fs-2">
+                  <activity-icon name="activity" class="text-primary icon-md"></activity-icon>
                 </span>
               </div>
             </div>
@@ -100,8 +100,8 @@
             </div>
             <div>
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-info-subtle rounded-circle fs-2">
-                  <clock-icon name="clock" class="text-info icon-md"></clock-icon>
+                <span class="avatar-title bg-primary-subtle rounded-circle fs-2">
+                  <clock-icon name="clock" class="text-primary icon-md"></clock-icon>
                 </span>
               </div>
             </div>
@@ -128,8 +128,8 @@
             </div>
             <div>
               <div class="avatar-sm flex-shrink-0">
-                <span class="avatar-title bg-info-subtle rounded-circle fs-2">
-                  <external-link-icon class="text-info icon-md"></external-link-icon>
+                <span class="avatar-title bg-primary-subtle rounded-circle fs-2">
+                  <external-link-icon class="text-primary icon-md"></external-link-icon>
                 </span>
               </div>
             </div>

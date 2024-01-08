@@ -96,13 +96,13 @@ export default {
             </BCardHeader>
             <BCardBody>
               <div class="mb-4">
-                <h5 class="fs-13 mb-1">Product Image</h5>
+                <h5 class="fs-14 mb-1">Product Image</h5>
                 <p class="text-muted">Add Product main Image.</p>
                 <input class="form-control" id="product-image-input" type="file"
                   accept="image/png, image/gif, image/jpeg" />
               </div>
               <div class="vstack gap-2">
-                <h5 class="fs-13 mb-1">Product Gallery</h5>
+                <h5 class="fs-14 mb-1">Product Gallery</h5>
                 <p class="text-muted">Add Product Gallery Images.</p>
                 <DropZone @drop.prevent="drop" @change="selectedFile" />
 
@@ -110,7 +110,7 @@ export default {
                   <div class="d-flex align-items-center p-2">
                     <div class="flex-grow-1">
                       <div class="pt-1">
-                        <h5 class="fs-13 mb-1" data-dz-name="">
+                        <h5 class="fs-14 mb-1" data-dz-name="">
                           {{ file.name }}
                         </h5>
                         <p class="fs-13 text-muted mb-0" data-dz-size="">
@@ -120,7 +120,7 @@ export default {
                       </div>
                     </div>
                     <div class="flex-shrink-0 ms-3">
-                      <BButton data-dz-remove="" variant="danger" size="sm" @click="deleteRecord">
+                      <BButton data-dz-remove="" variant="primary" size="sm" @click="deleteRecord">
                         Delete
                       </BButton>
                     </div>
@@ -219,7 +219,7 @@ export default {
             </BCardBody>
           </BCard>
           <div class="text-end mb-3">
-            <BButton type="button" variant="success" class="w-sm">Submit</BButton>
+            <BButton type="button" variant="primary" class="w-sm">Submit</BButton>
           </div>
         </form>
       </BCol>

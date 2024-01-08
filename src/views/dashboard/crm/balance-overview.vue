@@ -52,7 +52,7 @@ export default {
           min: 0,
           max: 260,
         },
-        colors: getChartColorsArray('["--vz-success", "--vz-danger"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
         fill: {
           opacity: 0.06,
           colors: ["#0AB39C", "#F06548"],

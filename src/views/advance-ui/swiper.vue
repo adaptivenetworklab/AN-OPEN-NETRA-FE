@@ -45,7 +45,7 @@ export default {
 
 <template>
   <Layout>
-    <PageHeader title="Swiper Slider" pageTitle="Advance UI" />
+    <PageHeader title="Swiper Slider" pagetitle="Advance UI" />
     <BRow>
       <BCol xl="4" lg="6">
         <BCard no-body>

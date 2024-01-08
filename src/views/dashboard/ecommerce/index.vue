@@ -2,7 +2,7 @@
 import getChartColorsArray from "@/common/getChartColorsArray";
 
 import { CountTo } from "vue3-count-to";
-import  SimpleBar  from "simplebar-vue";
+import  simpleBar  from "simplebar-vue";
 
 import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay, Mousewheel } from "swiper/modules";
@@ -26,7 +26,7 @@ export default {
     flatPickr,
     Revenue,
     SalesLocation,
-    SimpleBar
+    simpleBar
   },
   data() {
     return {
@@ -52,7 +52,7 @@ export default {
             enabled: false,
           },
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger", "--vz-info"]'),
+        colors: getChartColorsArray('["--vz-primary","--vz-primary-rgb, 0.85", "--vz-primary-rgb, 0.70", "--vz-primary-rgb, 0.60", "--vz-primary-rgb, 0.45"]'),
       },
       Autoplay, Mousewheel
     };
@@ -122,7 +122,7 @@ export default {
                       <BCol sm="auto">
                         <div class="input-group">
                           <flat-pickr v-model="date" :config="config"
-                            class="form-control border-0 dash-filter-picker shadow"></flat-pickr>
+                            class="form-control border dash-filter-picker shadow"></flat-pickr>
 
                           <div class="input-group-text bg-primary border-primary text-white">
                             <i class="ri-calendar-2-line"></i>
@@ -130,13 +130,13 @@ export default {
                         </div>
                       </BCol>
                       <div class="col-auto">
-                        <BButton type="button" variant="soft-success">
+                        <BButton type="button" variant="soft-primary">
                           <i class="ri-add-circle-line align-middle me-1"></i>
                           Add Product
                         </BButton>
                       </div>
                       <div class="col-auto">
-                        <BButton type="button" variant="soft-info" class="btn-icon waves-effect layout-rightside-btn"
+                        <BButton type="button" variant="soft-secondary" class="btn-icon waves-effect layout-rightside-btn"
                           @click="rightcolumn">
                           <i class="ri-pulse-line"></i>
                         </BButton>
@@ -170,11 +170,11 @@ export default {
                       <h4 class="fs-22 fw-semibold ff-secondary mb-4">
                         $<count-to :startVal='0' :endVal='559' :duration='5000'></count-to>k
                       </h4>
-                      <BLink href="" class="text-decoration-underline text-muted">View net earnings</BLink>
+                      <BLink href="" class="text-decoration-underline">View net earnings</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
-                      <span class="avatar-title bg-success-subtle rounded fs-3">
-                        <i class="bx bx-dollar-circle text-success"></i>
+                      <span class="avatar-title bg-primary-subtle rounded fs-3">
+                        <i class="bx bx-dollar-circle text-primary"></i>
                       </span>
                     </div>
                   </div>
@@ -203,11 +203,11 @@ export default {
                       <h4 class="fs-22 fw-semibold ff-secondary mb-4">
                         <count-to :startVal='0' :endVal='36894' :duration='5000'></count-to>
                       </h4>
-                      <BLink href="" class="text-decoration-underline text-muted">View all orders</BLink>
+                      <BLink href="" class="text-decoration-underline">View all orders</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
-                      <span class="avatar-title bg-info-subtle rounded fs-3">
-                        <i class="bx bx-shopping-bag text-info"></i>
+                      <span class="avatar-title bg-primary-subtle rounded fs-3">
+                        <i class="bx bx-shopping-bag text-primary"></i>
                       </span>
                     </div>
                   </div>
@@ -237,11 +237,11 @@ export default {
                         <count-to :startVal='0' :endVal='183' :duration='5000'></count-to>M
 
                       </h4>
-                      <BLink href="" class="text-decoration-underline text-muted">See details</BLink>
+                      <BLink href="" class="text-decoration-underline">See details</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
-                      <span class="avatar-title bg-warning-subtle rounded fs-3">
-                        <i class="bx bx-user-circle text-warning"></i>
+                      <span class="avatar-title bg-primary-subtle rounded fs-3">
+                        <i class="bx bx-user-circle text-primary"></i>
                       </span>
                     </div>
                   </div>
@@ -267,7 +267,7 @@ export default {
                       <h4 class="fs-22 fw-semibold ff-secondary mb-4">
                         $<count-to :startVal='0' :endVal='165' :duration='5000'></count-to>k
                       </h4>
-                      <BLink href="" class="text-decoration-underline text-muted">Withdraw money</BLink>
+                      <BLink href="" class="text-decoration-underline">Withdraw money</BLink>
                     </div>
                     <div class="avatar-sm flex-shrink-0">
                       <span class="avatar-title bg-primary-subtle rounded fs-3">
@@ -323,7 +323,7 @@ export default {
                                 <img src="@/assets/images/products/img-1.png" alt="" class="img-fluid d-block" />
                               </div>
                               <div>
-                                <h5 class="fs-13 my-1">
+                                <h5 class="fs-14 my-1">
                                   <router-link to="/ecommerce/product-details" class="text-reset">Branded T-Shirts
                                   </router-link>
                                 </h5>
@@ -364,7 +364,7 @@ export default {
                             </div>
                           </td>
                           <td>
-                            <h5 class="fs-13 my-1 fw-normal">$85.20</h5>
+                            <h5 class="fs-14 my-1 fw-normal">$85.20</h5>
                             <span class="text-muted">Price</span>
                           </td>
                           <td>
@@ -389,7 +389,7 @@ export default {
                                 <img src="@/assets/images/products/img-3.png" alt="" class="img-fluid d-block" />
                               </div>
                               <div>
-                                <h5 class="fs-13 my-1">
+                                <h5 class="fs-14 my-1">
                                   <router-link to="/ecommerce/product-details" class="text-reset">Borosil Paper Cup
                                   </router-link>
                                 </h5>
@@ -421,7 +421,7 @@ export default {
                                 <img src="@/assets/images/products/img-4.png" alt="" class="img-fluid d-block" />
                               </div>
                               <div>
-                                <h5 class="fs-13 my-1">
+                                <h5 class="fs-14 my-1">
                                   <router-link to="/ecommerce/product-details" class="text-reset">One Seater Sofa
                                   </router-link>
                                 </h5>
@@ -455,7 +455,7 @@ export default {
                                 <img src="@/assets/images/products/img-5.png" alt="" class="img-fluid d-block" />
                               </div>
                               <div>
-                                <h5 class="fs-13 my-1">
+                                <h5 class="fs-14 my-1">
                                   <router-link to="/ecommerce/product-details" class="text-reset">Stillbird Helmet
                                   </router-link>
                                 </h5>
@@ -544,7 +544,7 @@ export default {
                                 <img src="@/assets/images/companies/img-1.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div>
-                                <h5 class="fs-14 my-1">
+                                <h5 class="fs-14 my-1 fw-medium">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">iTest Factory
                                   </router-link>
                                 </h5>
@@ -563,7 +563,7 @@ export default {
                             <span class="text-muted">$541200</span>
                           </td>
                           <td>
-                            <h5 class="fs-13 fw-semibold mb-0">
+                            <h5 class="fs-14 mb-0">
                               32%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
                             </h5>
                           </td>
@@ -575,7 +575,7 @@ export default {
                                 <img src="@/assets/images/companies/img-2.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-grow-1">
-                                <h5 class="fs-13 my-1">
+                                <h5 class="fs-14 my-1 fw-medium">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Digitech Galaxy
                                   </router-link>
                                 </h5>
@@ -594,7 +594,7 @@ export default {
                             <span class="text-muted">$75030</span>
                           </td>
                           <td>
-                            <h5 class="fs-13 fw-semibold mb-0">
+                            <h5 class="fs-14 mb-0">
                               79%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
                             </h5>
                           </td>
@@ -606,7 +606,7 @@ export default {
                                 <img src="@/assets/images/companies/img-3.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-gow-1">
-                                <h5 class="fs-13 my-1">
+                                <h5 class="fs-14 my-1 fw-medium">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Nesta Technologies
                                   </router-link>
                                 </h5>
@@ -625,7 +625,7 @@ export default {
                             <span class="text-muted">$45600</span>
                           </td>
                           <td>
-                            <h5 class="fs-13 mb-0">
+                            <h5 class="fs-14 mb-0">
                               90%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
                             </h5>
                           </td>
@@ -637,7 +637,7 @@ export default {
                                 <img src="@/assets/images/companies/img-8.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-grow-1">
-                                <h5 class="fs-13 my-1">
+                                <h5 class="fs-14 my-1 fw-medium">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Zoetic Fashion
                                   </router-link>
                                 </h5>
@@ -656,7 +656,7 @@ export default {
                             <span class="text-muted">$29456</span>
                           </td>
                           <td>
-                            <h5 class="fs-13 fw-semibold mb-0">
+                            <h5 class="fs-14 mb-0">
                               40%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
                             </h5>
                           </td>
@@ -668,7 +668,7 @@ export default {
                                 <img src="@/assets/images/companies/img-5.png" alt="" class="avatar-sm p-2" />
                               </div>
                               <div class="flex-grow-1">
-                                <h5 class="fs-13 my-1">
+                                <h5 class="fs-14 my-1 fw-medium">
                                   <router-link to="/ecommerce/seller-details" class="text-reset">Meta4Systems
                                   </router-link>
                                 </h5>
@@ -687,7 +687,7 @@ export default {
                             <span class="text-muted">$11260</span>
                           </td>
                           <td>
-                            <h5 class="fs-13 fw-semibold mb-0">
+                            <h5 class="fs-14 mb-0">
                               57%<i class="ri-bar-chart-fill text-success fs-16 align-middle ms-2"></i>
                             </h5>
                           </td>
@@ -759,7 +759,7 @@ export default {
                 <BCardHeader class="align-items-center d-flex">
                   <BCardTitle class="mb-0 flex-grow-1">Recent Orders</BCardTitle>
                   <div class="flex-shrink-0">
-                    <BButton type="button" variant="soft-info" size="sm">
+                    <BButton type="button" variant="soft-primary" size="sm">
                       <i class="ri-file-list-3-line align-middle"></i> Generate
                       Report
                     </BButton>
@@ -932,20 +932,20 @@ export default {
           <BCard no-body class="h-100 rounded-0">
             <BCardBody class="p-0">
               <div class="p-3">
-                <h6 class="text-muted mb-0 text-uppercase">
+                <h6 class="text-muted mb-0 text-uppercase fw-semibold">
                   Recent Activity
                 </h6>
               </div>
-              <SimpleBar data-simplebar style="max-height: 410px" class="p-3 pt-0">
+              <simpleBar data-simplebar style="max-height: 410px" class="p-3 pt-0">
                 <div class="acitivity-timeline acitivity-main">
                   <div class="acitivity-item d-flex">
                     <div class="flex-shrink-0 avatar-xs acitivity-avatar">
-                      <div class="avatar-title bg-success-subtle text-success rounded-circle">
+                      <div class="avatar-title bg-primary-subtle text-primary rounded-circle">
                         <i class="ri-shopping-cart-2-line"></i>
                       </div>
                     </div>
                     <div class="flex-grow-1 ms-3">
-                      <h6 class="mb-1 lh-base">Purchase by James Price</h6>
+                      <h6 class="mb-1">Purchase by James Price</h6>
                       <p class="text-muted mb-1">
                         Product noise evolve smartwatch
                       </p>
@@ -1054,7 +1054,7 @@ export default {
                   <div class="acitivity-item py-3 d-flex">
                     <div class="flex-shrink-0">
                       <div class="avatar-xs acitivity-avatar">
-                        <div class="avatar-title rounded-circle bg-info-subtle text-info">
+                        <div class="avatar-title rounded-circle bg-primary-subtle text-primary">
                           <i class="ri-line-chart-line"></i>
                         </div>
                       </div>
@@ -1085,10 +1085,10 @@ export default {
                     </div>
                   </div>
                 </div>
-              </SimpleBar>
+              </simpleBar>
 
               <div class="p-3 mt-2">
-                <h6 class="text-muted mb-3 text-uppercase">
+                <h6 class="text-muted mb-3 text-uppercase fw-semibold">
                   Top 10 Categories
                 </h6>
 
@@ -1136,7 +1136,7 @@ export default {
                 </div>
               </div>
               <div class="p-3">
-                <h6 class="text-muted mb-3 text-uppercase">
+                <h6 class="text-muted mb-3 text-uppercase fw-semibold">
                   Products Reviews
                 </h6>
                 <div>
@@ -1280,7 +1280,7 @@ export default {
               </div>
 
               <div class="p-3">
-                <h6 class="text-muted mb-3 text-uppercase">
+                <h6 class="text-muted mb-3 text-uppercase fw-semibold">
                   Customer Reviews
                 </h6>
                 <div class="bg-light px-3 py-2 rounded-2 mb-2">
@@ -1332,7 +1332,7 @@ export default {
                     </div>
                     <BCol>
                       <div class="p-1">
-                        <BProgress variant="success" class="animated-progess progress-sm" :value="29.32" />
+                        <BProgress variant="primary" class="animated-progess progress-sm" :value="29.32" />
                       </div>
                     </BCol>
                     <div class="col-auto">
@@ -1368,7 +1368,7 @@ export default {
                     </div>
                     <BCol>
                       <div class="p-1">
-                        <BProgress variant="success" class="animated-progess progress-sm" :value="4.98" />
+                        <BProgress variant="primary" class="animated-progess progress-sm" :value="4.98" />
                       </div>
                     </BCol>
 

@@ -417,7 +417,7 @@ Xl
                                                 </div>
                                             </BLink>
                                             <BLink href="javascript: void(0);" class="avatar-group-item"
-                                                data-bs-toggle="tooltip" data-bs-placement="top" title="More">
+                                                data-bs-toggle="tooltip" data-bs-placement="top" title="mORE">
                                                 <div class="avatar-sm">
                                                     <div class="avatar-title rounded-circle">2+</div>
                                                 </div>

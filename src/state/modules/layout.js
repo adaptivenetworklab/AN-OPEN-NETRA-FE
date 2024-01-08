@@ -1,8 +1,8 @@
 export const state = {
-  layoutType: 'horizontal',
+  layoutType: 'vertical',
   layoutWidth: 'fluid',
   sidebarSize: 'lg',
-  topbar: 'dark',
+  topbar: 'light',
   mode: 'light',
   position: 'fixed',
   sidebarView: 'default',

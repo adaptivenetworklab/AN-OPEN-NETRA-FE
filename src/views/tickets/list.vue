@@ -346,7 +346,7 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Total Tickets</p>
-                <h2 class="mt-4 ff-secondary">
+                <h2 class="mt-4 ff-secondary fw-semibold">
                   <count-to :duration="1000" :startVal="0" :endVal="547"></count-to>k
                 </h2>
                 <p class="mb-0 text-muted">
@@ -358,7 +358,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-4">
+                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
                     <i class="ri-ticket-2-line"></i>
                   </span>
                 </div>
@@ -373,7 +373,7 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Pending Tickets</p>
-                <h2 class="mt-4 ff-secondary">
+                <h2 class="mt-4 ff-secondary fw-semibold">
                   <count-to :duration="1000" :startVal="0" :endVal="124"></count-to>k
                 </h2>
                 <p class="mb-0 text-muted">
@@ -385,7 +385,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-4">
+                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
                     <i class="mdi mdi-timer-sand"></i>
                   </span>
                 </div>
@@ -400,7 +400,7 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Closed Tickets</p>
-                <h2 class="mt-4 ff-secondary">
+                <h2 class="mt-4 ff-secondary fw-semibold">
                   <count-to :duration="1000" :startVal="0" :endVal="107"></count-to>K
                 </h2>
                 <p class="mb-0 text-muted">
@@ -412,7 +412,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-4">
+                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
                     <i class="ri-shopping-bag-line"></i>
                   </span>
                 </div>
@@ -427,7 +427,7 @@ export default {
             <div class="d-flex justify-content-between">
               <div>
                 <p class="fw-medium text-muted mb-0">Deleted Tickets</p>
-                <h2 class="mt-4 ff-secondary">
+                <h2 class="mt-4 ff-secondary fw-semibold">
                   <count-to :duration="1000" :startVal="0" :endVal="15"></count-to>%
                 </h2>
                 <p class="mb-0 text-muted">
@@ -439,7 +439,7 @@ export default {
               </div>
               <div>
                 <div class="avatar-sm flex-shrink-0">
-                  <span class="avatar-title bg-info-subtle text-info rounded-circle fs-4">
+                  <span class="avatar-title bg-primary-subtle text-primary rounded-circle fs-4">
                     <i class="ri-delete-bin-line"></i>
                   </span>
                 </div>
@@ -461,7 +461,7 @@ export default {
                   <BButton variant="soft-secondary" class="me-1" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton variant="danger" class="add-btn" @click="toggleModal">
+                  <BButton variant="primary" class="add-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Create Tickets
                   </BButton>
                 </div>
@@ -576,7 +576,7 @@ export default {
               </table>
               <div class="noresult" v-if="resultQuery.length < 1">
                 <div class="text-center">
-                  <lottie class="avatar-xl" colors="primary:#121331,secondary:#08a88a" :options="defaultOptions"
+                  <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions"
                     :height="90" :width="90" />
                   <h5 class="mt-2">Sorry! No Result Found</h5>
                   <p class="text-muted mb-0">
@@ -609,7 +609,7 @@ export default {
 
     <!-- ticket list modal -->
     <BModal v-model="modalShow" id="showModal" modal-class="zoomIn" :title="dataEdit ? 'Edit Ticket' : 'Add Ticket'"
-      title-class="exampleModalLabel" hide-footer header-class="p-3 bg-info-subtle" class="v-modal-custom" size="lg"
+      title-class="exampleModalLabel" hide-footer header-class="p-3 bg-primary-subtle" class="v-modal-custom" size="lg"
       centered>
       <b-form id="addform" class="tablelist-form" autocomplete="off">
         <BRow class="g-3">
@@ -695,7 +695,7 @@ export default {
     <!-- delete modal -->
     <BModal v-model="deleteModal" modal-class="zoomIn" hide-footer no-close-on-backdrop centered>
       <div class="mt-2 text-center">
-        <lottie class="avatar-xl" colors="primary:#f7b84b,secondary:#f06548" :options="defaultOptions1" :height="75"
+        <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions1" :height="75"
           :width="75" />
         <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
           <h4>Are you sure ?</h4>
@@ -704,7 +704,7 @@ export default {
       </div>
       <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
         <button type="button" class="btn w-sm btn-light" @click="deleteModal = false">Close</button>
-        <button type="button" class="btn w-sm btn-danger" id="delete-record" @click="deleteData">Yes, Delete It!</button>
+        <button type="button" class="btn w-sm btn-primary" id="delete-record" @click="deleteData">Yes, Delete It!</button>
       </div>
     </BModal>
   </Layout>

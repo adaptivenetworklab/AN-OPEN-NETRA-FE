@@ -58,7 +58,7 @@ export default {
     <BRow class="g-4 mb-3">
       <BCol sm="auto">
         <div>
-          <router-link to="/apps/projects-create" class="btn btn-success"><i class="ri-add-line align-bottom me-1"></i>
+          <router-link to="/apps/projects-create" class="btn btn-soft-secondary"><i class="ri-add-line align-bottom me-1"></i>
             Add New</router-link>
         </div>
       </BCol>
@@ -130,7 +130,7 @@ export default {
                   </div>
                 </div>
                 <div class="flex-grow-1">
-                  <h5 class="mb-1 fs-14">
+                  <h5 class="mb-1 fs-15">
                     <router-link to="/apps/projects-overview" class="text-body">{{ item.label }}</router-link>
                   </h5>
                   <p class="text-muted text-truncate-two-lines mb-3">
@@ -151,7 +151,7 @@ export default {
                   </div>
                 </div>
                 <div class="progress progress-sm animated-progess">
-                  <div class="progress-bar bg-success" role="progressbar" aria-valuenow="34" aria-valuemin="0"
+                  <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="34" aria-valuemin="0"
                     aria-valuemax="100" :style="`width: ${item.progressBar};`"></div>
                 </div>
               </div>
@@ -238,7 +238,7 @@ export default {
                 <BCol cols="6">
                   <div>
                     <p class="text-muted mb-1">Deadline</p>
-                    <h5 class="fs-13">{{ item.deadline }}</h5>
+                    <h5 class="fs-14">{{ item.deadline }}</h5>
                   </div>
                 </BCol>
               </BRow>
@@ -270,7 +270,7 @@ export default {
                 </div>
               </div>
               <div class="progress progress-sm animated-progess">
-                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0"
                   aria-valuemax="100" style="width: 50%"></div>
               </div>
             </div>
@@ -366,7 +366,7 @@ export default {
                 </div>
               </div>
               <div class="progress progress-sm animated-progess">
-                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="71" aria-valuemin="0"
+                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="71" aria-valuemin="0"
                   aria-valuemax="100" :style="`width: ${item.progressBar};`"></div>
               </div>
             </div>

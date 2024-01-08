@@ -32,7 +32,7 @@ export default {
           },
         },
         colors: getChartColorsArray(
-          '["--vz-info", "--vz-danger", "--vz-primary", "--vz-success"]'
+          '["--vz-info", "--vz-warning", "--vz-primary", "--vz-success"]'
         ),
       },
     };
@@ -300,10 +300,10 @@ export default {
 <template>
   <Layout>
     <div class="chat-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
-      <div class="file-manager-sidebar">
+      <div class="file-manager-sidebar border">
         <div class="p-3 d-flex flex-column h-100">
           <div class="mb-3">
-            <h5 class="mb-0 fw-bold">My Drive</h5>
+            <h5 class="mb-0 fw-semibold">My Drive</h5>
           </div>
           <div class="search-box">
             <input type="text" class="form-control bg-light border-light" placeholder="Search here..." />
@@ -381,7 +381,7 @@ export default {
           </div>
         </div>
       </div>
-      <div class="file-manager-content w-100 p-3 py-0">
+      <div class="file-manager-content w-100 p-3 py-0 border">
         <simplebar class="mx-n3 pt-4 px-4 file-manager-content-scroll" data-simplebar>
           <div id="folder-list" class="mb-2">
             <BRow class="justify-content-beetwen g-2 mb-3">
@@ -409,7 +409,7 @@ export default {
                     'Documents',
                   ]" />
 
-                  <BButton variant="success" class="create-folder-modal text-nowrap flex-shrink-0"
+                  <BButton variant="primary" class="create-folder-modal text-nowrap flex-shrink-0"
                     @click="openFolderModal"><i class="ri-add-line align-bottom me-1"></i> Create Folders
                   </BButton>
                 </div>
@@ -463,7 +463,7 @@ export default {
                 Recent File
               </h5>
               <div class="flex-shrink-0">
-                <BButton variant="success" class="create-folder-modal text-nowrap flex-shrink-0" @click="openFileModal"><i
+                <BButton variant="primary" class="create-folder-modal text-nowrap flex-shrink-0" @click="openFileModal"><i
                     class="ri-add-line align-bottom me-1"></i> Create File</BButton>
               </div>
             </div>
@@ -573,11 +573,11 @@ export default {
           </div>
         </simplebar>
       </div>
-      <div class="file-manager-detail-content p-3 py-0">
+      <div class="file-manager-detail-content p-3 py-0 border">
         <simplebar class="mx-n3 pt-3 px-3 file-detail-content-scroll" data-simplebar>
           <div id="folder-overview">
             <div class="d-flex align-items-center pb-3 border-bottom border-bottom-dashed">
-              <h5 class="flex-grow-1 fw-bold mb-0">Overview</h5>
+              <h5 class="flex-grow-1 fw-semibold mb-0">Overview</h5>
               <div>
                 <BButton type="button" variant="soft-danger" size="sm" class="btn-icon fs-16 close-btn-overview"
                   @click="fileDetailShow">
@@ -656,14 +656,14 @@ export default {
             </div>
             <div class="pb-3 mt-auto">
 
-              <BAlert :model-value="true" variant="danger" class="d-flex align-items-center mb-0" show>
+              <BAlert :model-value="true" variant="success" class="d-flex align-items-center mb-0" show>
                 <div class="flex-shrink-0">
-                  <i class="ri-cloud-line text-danger align-bottom display-5"></i>
+                  <i class="ri-cloud-line text-success align-bottom display-5"></i>
                 </div>
                 <div class="flex-grow-1 ms-3">
-                  <h5 class="text-danger fs-14">Upgrade to Pro</h5>
+                  <h5 class="text-success fs-14">Upgrade to Pro</h5>
                   <p class="text-muted mb-2">Get more space for your...</p>
-                  <BButton variant="danger" size="sm">
+                  <BButton variant="success" size="sm">
                     <i class="ri-upload-cloud-line align-bottom"></i> Upgrade Now
                   </BButton>
                 </div>
@@ -673,7 +673,7 @@ export default {
           <div id="file-overview" class="h-100">
             <div class="d-flex h-100 flex-column">
               <div class="d-flex align-items-center pb-3 border-bottom border-bottom-dashed mb-3 gap-2">
-                <h5 class="flex-grow-1 fw-bold mb-0">File Preview</h5>
+                <h5 class="flex-grow-1 fw-semibold mb-0">File Preview</h5>
                 <div>
                   <BButton type="button" variant="ghost-primary" size="sm" class="btn-icon fs-16 favourite-btn">
                     <i class="ri-star-fill align-bottom"></i>
@@ -782,7 +782,7 @@ export default {
           <input type="text" class="form-control" id="foldername-input" required placeholder="Enter folder name" />
           <div class="invalid-feedback">Please enter a folder name.</div>
           <input type="hidden" id="folderId">
-          <input type="hidden" class="form-control" id="folderid-input" value=""/>
+          <input type="hidden" class="form-control" id="folderid-input" value="" placeholder="Enter folder name" />
         </div>
         <div class="hstack gap-2 justify-content-end">
           <BButton type="button" variant="ghost-success" data-bs-dismiss="modal" id="addFolderBtn-close"

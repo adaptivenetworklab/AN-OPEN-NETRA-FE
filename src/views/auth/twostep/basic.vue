@@ -64,7 +64,7 @@ export default {
 
                 <div class="p-2 mt-4">
                   <div class="text-muted text-center mb-4 mx-lg-3">
-                    <h4>Verify Your Email</h4>
+                    <h4 class="">Verify Your Email</h4>
                     <p>Please enter the 4 digit code sent to <span class="fw-semibold">example@abc.com</span></p>
                   </div>
 

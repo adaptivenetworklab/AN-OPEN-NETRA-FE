@@ -57,14 +57,16 @@ export default {
                         <BCol sm="6">
                           <div class="mb-3">
                             <label for="billinginfo-firstName" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="billinginfo-firstName" placeholder="Enter first name" value="" />
+                            <input type="text" class="form-control" id="billinginfo-firstName"
+                              placeholder="Enter first name" value="" />
                           </div>
                         </BCol>
 
                         <BCol sm="6">
                           <div class="mb-3">
                             <label for="billinginfo-lastName" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="billinginfo-lastName" placeholder="Enter last name" value="" />
+                            <input type="text" class="form-control" id="billinginfo-lastName"
+                              placeholder="Enter last name" value="" />
                           </div>
                         </BCol>
                       </BRow>
@@ -81,14 +83,16 @@ export default {
                         <BCol sm="6">
                           <div class="mb-3">
                             <label for="billinginfo-phone" class="form-label">Phone</label>
-                            <input type="text" class="form-control" id="billinginfo-phone" placeholder="Enter phone no." />
+                            <input type="text" class="form-control" id="billinginfo-phone"
+                              placeholder="Enter phone no." />
                           </div>
                         </BCol>
                       </BRow>
 
                       <div class="mb-3">
                         <label for="billinginfo-address" class="form-label">Address</label>
-                        <textarea class="form-control" id="billinginfo-address" placeholder="Enter address" rows="3"></textarea>
+                        <textarea class="form-control" id="billinginfo-address" placeholder="Enter address"
+                          rows="3"></textarea>
                       </div>
 
                       <BRow>
@@ -144,7 +148,8 @@ export default {
                       </BRow>
 
                       <div class="d-flex align-items-start gap-3 mt-3">
-                        <BButton variant="primary" type="button" class="btn-label right ms-auto nexttab" data-nexttab="pills-bill-address-tab">
+                        <BButton variant="primary" type="button" class="btn-label right ms-auto nexttab"
+                          data-nexttab="pills-bill-address-tab">
                           <i class="
                             ri-truck-line
                             label-icon
@@ -193,7 +198,8 @@ export default {
                       <BRow class="gy-3">
                         <BCol lg="4" sm="6">
                           <div class="form-check card-radio">
-                            <input id="shippingAddress01" name="shippingAddress" type="radio" class="form-check-input" checked />
+                            <input id="shippingAddress01" name="shippingAddress" type="radio" class="form-check-input"
+                              checked />
                             <label class="form-check-label" for="shippingAddress01">
                               <span class="
                                 mb-4
@@ -277,7 +283,8 @@ export default {
                               </BLink>
                             </div>
                             <div>
-                              <BLink href="#" class="d-block text-body p-1 px-2"><i class="ri-delete-bin-fill text-muted align-bottom me-1"></i>
+                              <BLink href="#" class="d-block text-body p-1 px-2"><i
+                                  class="ri-delete-bin-fill text-muted align-bottom me-1"></i>
                                 Remove</BLink>
                             </div>
                           </div>
@@ -290,7 +297,8 @@ export default {
                         <BRow class="g-4">
                           <BCol lg="6">
                             <div class="form-check card-radio">
-                              <input id="shippingMethod01" name="shippingMethod" type="radio" class="form-check-input" checked />
+                              <input id="shippingMethod01" name="shippingMethod" type="radio" class="form-check-input"
+                                checked />
                               <label class="form-check-label" for="shippingMethod01">
                                 <span class="
                                   fs-20
@@ -298,6 +306,7 @@ export default {
                                   mt-2
                                   text-wrap
                                   d-block
+                                  fw-semibold
                                 ">Free</span>
                                 <span class="fs-14 mb-1 text-wrap d-block">Free Delivery</span>
                                 <span class="text-muted fw-normal text-wrap d-block">Expected Delivery 3 to 5
@@ -307,7 +316,8 @@ export default {
                           </BCol>
                           <BCol lg="6">
                             <div class="form-check card-radio">
-                              <input id="shippingMethod02" name="shippingMethod" type="radio" class="form-check-input" checked />
+                              <input id="shippingMethod02" name="shippingMethod" type="radio" class="form-check-input"
+                                checked />
                               <label class="form-check-label" for="shippingMethod02">
                                 <span class="
                                   fs-20
@@ -315,6 +325,7 @@ export default {
                                   mt-2
                                   text-wrap
                                   d-block
+                                  fw-semibold
                                 ">$24.99</span>
                                 <span class="fs-14 mb-1 text-wrap d-block">Express Delivery</span>
                                 <span class="text-muted fw-normal text-wrap d-block">Delivery within 24hrs.</span>
@@ -326,7 +337,8 @@ export default {
                     </div>
 
                     <div class="d-flex align-items-start gap-3 mt-4">
-                      <BButton type="button" variant="light" class="btn-label previestab" data-previous="pills-bill-info-tab">
+                      <BButton type="button" variant="light" class="btn-label previestab"
+                        data-previous="pills-bill-info-tab">
                         <i class="
                           ri-arrow-left-line
                           label-icon
@@ -335,7 +347,8 @@ export default {
                           me-2
                         "></i>Back to Personal Info
                       </BButton>
-                      <BButton type="button" variant="primary" class="btn-label right ms-auto nexttab" data-nexttab="pills-payment-tab">
+                      <BButton type="button" variant="primary" class="btn-label right ms-auto nexttab"
+                        data-nexttab="pills-payment-tab">
                         <i class="
                           ri-bank-card-line
                           label-icon
@@ -372,7 +385,8 @@ export default {
 
                     <BRow class="g-4">
                       <BCol lg="4" sm="6">
-                        <div data-bs-toggle="collapse" data-bs-target="#paymentmethodCollapse.show" aria-expanded="false" aria-controls="paymentmethodCollapse">
+                        <div data-bs-toggle="collapse" data-bs-target="#paymentmethodCollapse.show" aria-expanded="false"
+                          aria-controls="paymentmethodCollapse">
                           <div class="form-check card-radio">
                             <input id="paymentMethod01" name="paymentMethod" type="radio" class="form-check-input" />
                             <label class="form-check-label" for="paymentMethod01">
@@ -383,9 +397,11 @@ export default {
                         </div>
                       </BCol>
                       <BCol lg="4" sm="6">
-                        <div data-bs-toggle="collapse" data-bs-target="#paymentmethodCollapse" aria-expanded="true" aria-controls="paymentmethodCollapse">
+                        <div data-bs-toggle="collapse" data-bs-target="#paymentmethodCollapse" aria-expanded="true"
+                          aria-controls="paymentmethodCollapse">
                           <div class="form-check card-radio">
-                            <input id="paymentMethod02" name="paymentMethod" type="radio" class="form-check-input" checked />
+                            <input id="paymentMethod02" name="paymentMethod" type="radio" class="form-check-input"
+                              checked />
                             <label class="form-check-label" for="paymentMethod02">
                               <span class="fs-16 text-muted me-2"><i class="ri-bank-card-fill align-bottom"></i></span>
                               <span class="fs-14 text-wrap">Credit / Debit Card</span>
@@ -395,11 +411,13 @@ export default {
                       </BCol>
 
                       <BCol lg="4" sm="6">
-                        <div data-bs-toggle="collapse" data-bs-target="#paymentmethodCollapse.show" aria-expanded="false" aria-controls="paymentmethodCollapse">
+                        <div data-bs-toggle="collapse" data-bs-target="#paymentmethodCollapse.show" aria-expanded="false"
+                          aria-controls="paymentmethodCollapse">
                           <div class="form-check card-radio">
                             <input id="paymentMethod03" name="paymentMethod" type="radio" class="form-check-input" />
                             <label class="form-check-label" for="paymentMethod03">
-                              <span class="fs-16 text-muted me-2"><i class="ri-money-dollar-box-fill align-bottom"></i></span>
+                              <span class="fs-16 text-muted me-2"><i
+                                  class="ri-money-dollar-box-fill align-bottom"></i></span>
                               <span class="fs-14 text-wrap">Cash on Delivery</span>
                             </label>
                           </div>
@@ -439,7 +457,8 @@ export default {
                     </div>
 
                     <div class="d-flex align-items-start gap-3 mt-4">
-                      <BButton type="button" variant="light" class="btn-label previestab" data-previous="pills-bill-address-tab">
+                      <BButton type="button" variant="light" class="btn-label previestab"
+                        data-previous="pills-bill-address-tab">
                         <i class="
                           ri-arrow-left-line
                           label-icon
@@ -448,7 +467,8 @@ export default {
                           me-2
                         "></i>Back to Shipping
                       </BButton>
-                      <BButton type="button" variant="primary" class="btn-label right ms-auto nexttab" data-nexttab="pills-finish-tab">
+                      <BButton type="button" variant="primary" class="btn-label right ms-auto nexttab"
+                        data-nexttab="pills-finish-tab">
                         <i class="
                           ri-shopping-basket-line
                           label-icon
@@ -478,7 +498,8 @@ export default {
                     </template>
                     <div class="text-center py-5">
                       <div class="mb-4">
-                        <lottie colors="primary:#0ab39c,secondary:#405189" :options="defaultOptions" :height="120" :width="120" />
+                        <lottie colors="primary:#0ab39c,secondary:#405189" :options="defaultOptions" :height="120"
+                          :width="120" />
                       </div>
                       <h5>Thank you ! Your Order is Completed !</h5>
                       <p class="text-muted">

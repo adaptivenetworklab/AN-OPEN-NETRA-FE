@@ -54,7 +54,7 @@ export default {
     <BRow class="justify-content-center mt-4">
       <BCol lg="5">
         <div class="text-center mb-4">
-          <h4 class="fs-22">Plans & Pricing</h4>
+          <h4 class="fw-semibold fs-22">Plans & Pricing</h4>
           <p class="text-muted mb-4 fs-15">
             Simple pricing. No hidden fees. Advanced features for you business.
           </p>
@@ -85,7 +85,7 @@ export default {
           <BCardBody class="bg-light m-2 p-4">
             <div class="d-flex align-items-center mb-3">
               <div class="flex-grow-1">
-                <h5 class="mb-0">Starter</h5>
+                <h5 class="mb-0 fw-semibold">Starter</h5>
               </div>
               <div class="ms-auto">
                 <h2 class="month mb-0">
@@ -160,7 +160,7 @@ export default {
               </li>
             </ul>
             <div class="mt-3 pt-2">
-              <BLink href="javascript:void(0);" class="btn btn-danger disabled w-100">Your Current Plan</BLink>
+              <BLink href="javascript:void(0);" class="btn btn-success disabled w-100">Your Current Plan</BLink>
             </div>
           </BCardBody>
         </BCard>
@@ -171,7 +171,7 @@ export default {
           <BCardBody class="bg-light m-2 p-4">
             <div class="d-flex align-items-center mb-3">
               <div class="flex-grow-1">
-                <h5 class="mb-0">Professional</h5>
+                <h5 class="mb-0 fw-semibold">Professional</h5>
               </div>
               <div class="ms-auto">
                 <h2 class="month mb-0">
@@ -246,7 +246,7 @@ export default {
               </li>
             </ul>
             <div class="mt-3 pt-2">
-              <BLink href="javascript:void(0);" class="btn btn-info w-100">Change Plan</BLink>
+              <BLink href="javascript:void(0);" class="btn btn-primary w-100">Change Plan</BLink>
             </div>
           </BCardBody>
         </BCard>
@@ -255,10 +255,10 @@ export default {
       <BCol xxl="3" lg="6">
         <BCard no-body class="pricing-box ribbon-box right">
           <BCardBody class="bg-light m-2 p-4">
-            <div class="ribbon-two ribbon-two-danger"><span>Popular</span></div>
+            <div class="ribbon-two ribbon-two-success"><span>Popular</span></div>
             <div class="d-flex align-items-center mb-3">
               <div class="flex-grow-1">
-                <h5 class="mb-0">Enterprise</h5>
+                <h5 class="mb-0 fw-semibold">Enterprise</h5>
               </div>
               <div class="ms-auto">
                 <h2 class="month mb-0">
@@ -333,7 +333,7 @@ export default {
               </li>
             </ul>
             <div class="mt-3 pt-2">
-              <BLink href="javascript:void(0);" class="btn btn-info w-100">Change Plan</BLink>
+              <BLink href="javascript:void(0);" class="btn btn-primary w-100">Change Plan</BLink>
             </div>
           </BCardBody>
         </BCard>
@@ -344,7 +344,7 @@ export default {
           <BCardBody class="bg-light m-2 p-4">
             <div class="d-flex align-items-center mb-3">
               <div class="flex-grow-1">
-                <h5 class="mb-0">Unlimited</h5>
+                <h5 class="mb-0 fw-semibold">Unlimited</h5>
               </div>
               <div class="ms-auto">
                 <h2 class="month mb-0">
@@ -418,7 +418,7 @@ export default {
               </li>
             </ul>
             <div class="mt-3 pt-2">
-              <BLink href="javascript:void(0);" class="btn btn-info w-100">Change Plan</BLink>
+              <BLink href="javascript:void(0);" class="btn btn-primary w-100">Change Plan</BLink>
             </div>
           </BCardBody>
         </BCard>
@@ -428,7 +428,7 @@ export default {
     <BRow class="justify-content-center mt-5">
       <BCol lg="5">
         <div class="text-center mb-4 pb-2">
-          <h4 class="fs-22">
+          <h4 class="fw-semibold fs-22">
             Choose the plan that's right for you
           </h4>
           <p class="text-muted mb-4 fs-15">
@@ -446,7 +446,7 @@ export default {
               <BCardBody class="p-4 m-2">
                 <div class="d-flex align-items-center">
                   <div class="flex-grow-1">
-                    <h5 class="mb-1">Basic Plan</h5>
+                    <h5 class="mb-1 fw-semibold">Basic Plan</h5>
                     <p class="text-muted mb-0">For Startup</p>
                   </div>
                   <div class="avatar-sm">
@@ -522,7 +522,7 @@ export default {
                   </ul>
                   <div class="mt-4">
                     <BLink href="javascript:void(0);" class="
-                        btn btn-soft-success
+                        btn btn-soft-primary
                         w-100
                         waves-effect waves-light
                       ">Sign up free</BLink>
@@ -534,13 +534,13 @@ export default {
           <BCol lg="4">
             <BCard no-body class="pricing-box ribbon-box right">
               <BCardBody class="p-4 m-2">
-                <div class="ribbon-two ribbon-two-danger">
+                <div class="ribbon-two ribbon-two-success">
                   <span>Popular</span>
                 </div>
                 <div>
                   <div class="d-flex align-items-center">
                     <div class="flex-grow-1">
-                      <h5 class="mb-1">Pro Business</h5>
+                      <h5 class="mb-1 fw-semibold">Pro Business</h5>
                       <p class="text-muted mb-0">Professional plans</p>
                     </div>
                     <div class="avatar-sm">
@@ -624,7 +624,7 @@ export default {
                     </li>
                   </ul>
                   <div class="mt-4">
-                    <BLink href="javascript:void(0);" class="btn btn-success w-100 waves-effect waves-light">Get
+                    <BLink href="javascript:void(0);" class="btn btn-primary w-100 waves-effect waves-light">Get
                       started</BLink>
                   </div>
                 </div>
@@ -637,7 +637,7 @@ export default {
                 <div>
                   <div class="d-flex align-items-center">
                     <div class="flex-grow-1">
-                      <h5 class="mb-1">Platinum Plan</h5>
+                      <h5 class="mb-1 fw-semibold">Platinum Plan</h5>
                       <p class="text-muted mb-0">Enterprise Businesses</p>
                     </div>
                     <div class="avatar-sm">
@@ -724,7 +724,7 @@ export default {
                   </ul>
                   <div class="mt-4">
                     <BLink href="javascript:void(0);" class="
-                        btn btn-soft-success
+                        btn btn-soft-primary
                         w-100
                         waves-effect waves-light
                       ">Get started</BLink>
@@ -740,7 +740,7 @@ export default {
     <BRow class="justify-content-center mt-5">
       <BCol lg="4">
         <div class="text-center mb-4 pb-2">
-          <h4 class="fs-22">Simple Pricing Plan</h4>
+          <h4 class="fw-semibold fs-22">Simple Pricing Plan</h4>
           <p class="text-muted mb-4 fs-15">
             Simple pricing. No hidden fees. Advanced features for you business.
           </p>
@@ -766,7 +766,7 @@ export default {
                 </div>
 
                 <div class="text-center plan-btn mt-2">
-                  <BLink href="javascript:void(0);" class="btn btn-success w-sm waves-effect waves-light">Sign up
+                  <BLink href="javascript:void(0);" class="btn btn-primary w-sm waves-effect waves-light">Sign up
                   </BLink>
                 </div>
               </BCardBody>
@@ -801,7 +801,7 @@ export default {
 
       <BCol lg="6">
         <BCard no-body class="pricing-box ribbon-box ribbon-fill text-center">
-          <div class="ribbon ribbon-primary">New</div>
+          <div class="ribbon ribbon-success shadow-none">New</div>
           <BRow class="g-0">
             <BCol lg="6">
               <BCardBody class="h-100">
@@ -817,7 +817,7 @@ export default {
                 </div>
 
                 <div class="text-center plan-btn mt-2">
-                  <BLink href="javascript:void(0);" class="btn btn-success w-sm waves-effect waves-light">Sign up
+                  <BLink href="javascript:void(0);" class="btn btn-primary w-sm waves-effect waves-light">Sign up
                   </BLink>
                 </div>
               </BCardBody>
@@ -852,7 +852,7 @@ export default {
 
       <BCol lg="6">
         <BCard no-body class="pricing-box ribbon-box ribbon-fill text-center">
-          <div class="ribbon ribbon-primary">New</div>
+          <div class="ribbon ribbon-success shadow-none">New</div>
           <BRow class="g-0">
             <BCol lg="6">
               <BCardBody class="h-100">
@@ -868,7 +868,7 @@ export default {
                 </div>
 
                 <div class="text-center plan-btn mt-2">
-                  <BLink href="javascript:void(0);" class="btn btn-success w-sm waves-effect waves-light">Sign up
+                  <BLink href="javascript:void(0);" class="btn btn-primary w-sm waves-effect waves-light">Sign up
                   </BLink>
                 </div>
               </BCardBody>
@@ -917,7 +917,7 @@ export default {
                 </div>
 
                 <div class="text-center plan-btn mt-2">
-                  <BLink href="javascript:void(0);" class="btn btn-success w-sm waves-effect waves-light">Sign up
+                  <BLink href="javascript:void(0);" class="btn btn-primary w-sm waves-effect waves-light">Sign up
                   </BLink>
                 </div>
               </BCardBody>

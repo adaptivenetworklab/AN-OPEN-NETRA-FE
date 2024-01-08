@@ -927,7 +927,7 @@ export default {
                             Browser default versions of these are not supported.</p>
                         <div class="live-preview">
                             <div>
-                                <h5 class="fs-14 mb-3">Select</h5>
+                                <h5 class="fs-15 mb-3">Select</h5>
                                 <BRow class="g-3">
                                     <BCol lg="6">
                                         <BInputGroup>
@@ -977,7 +977,7 @@ export default {
                             </div>
 
                             <div class="mt-4">
-                                <h5 class="fs-14 mb-3">File Input</h5>
+                                <h5 class="fs-15 mb-3">File Input</h5>
                                 <BRow class="g-3">
                                     <BCol lg="6">
                                         <div class="input-group">

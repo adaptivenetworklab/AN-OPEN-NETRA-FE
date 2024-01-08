@@ -21,7 +21,7 @@ const basicBarChart = {
     dataLabels: {
       enabled: false,
     },
-    colors: getChartColorsArray('["--vz-success"]'),
+    colors: getChartColorsArray('["--vz-primary"]'),
     grid: {
       borderColor: "#f1f1f1",
     },
@@ -66,7 +66,7 @@ const customDatalabelsChart = {
         },
       },
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-secondary", "--vz-success", "--vz-info", "--vz-warning", "--vz-danger", "--vz-dark", "--vz-primary", "--vz-success", "--vz-secondary"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-secondary", "--vz-success", "--vz-info", "--vz-primary-rgb, 0.5", "--vz-gray-300", "--vz-danger-rgb, 0.7", "--vz-warning-rgb, 0.5", "--vz-primary", "--vz-info"]'),
     dataLabels: {
       enabled: true,
       textAnchor: "start",
@@ -342,7 +342,7 @@ const barNegativeChart = {
         show: false,
       },
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-success"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
     plotOptions: {
       bar: {
         horizontal: true,
@@ -504,7 +504,7 @@ const barMarkersChart = {
         horizontal: true,
       },
     },
-    colors: getChartColorsArray('["--vz-success", "--vz-primary"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
     dataLabels: {
       formatter: function (val, opt) {
         var goals =
@@ -534,7 +534,7 @@ const reversedBarChart = {
     data: [400, 430, 448, 470, 540, 580, 690],
   }, ],
   chartOptions: {
-    colors: getChartColorsArray('["--vz-info"]'),
+    colors: getChartColorsArray('["--vz-primary"]'),
     chart: {
       type: "bar",
       height: 350,
@@ -682,7 +682,7 @@ const patternedBarChart = {
       position: "right",
       offsetY: 40,
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning", "--vz-danger"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-success", "--vz-gray-300"]'),
   },
 };
 
@@ -732,7 +732,7 @@ const groupedBarChart = {
     xaxis: {
       categories: [2001, 2002, 2003, 2004, 2005, 2006, 2007],
     },
-    colors: getChartColorsArray('["--vz-primary", "--vz-success"]'),
+    colors: getChartColorsArray('["--vz-primary", "--vz-info"]'),
   },
 };
 

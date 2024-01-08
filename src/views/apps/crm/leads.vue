@@ -336,15 +336,15 @@ export default {
                   <BButton variant="soft-danger" id="remove-actions" @click="deleteMultiple">
                     <i class="ri-delete-bin-2-line"></i>
                   </BButton>
-                  <BButton @click="rightOffcanvas = true" type="button" variant="secondary" data-bs-toggle="offcanvas"
+                  <BButton @click="rightOffcanvas = true" type="button" variant="primary" data-bs-toggle="offcanvas"
                     href="#offcanvasExample">
                     <i class="ri-filter-3-line align-bottom me-1"></i> Fliters
                   </BButton>
-                  <BButton type="button" variant="success" class="add-btn" id="create-btn" @click="toggleModal">
+                  <BButton type="button" variant="soft-success" class="add-btn" id="create-btn" @click="toggleModal">
                     <i class="ri-add-line align-bottom me-1"></i> Add Leads
                   </BButton>
                   <BDropdown variant="link" class="card-header-dropdown"
-                    toggle-class="btn btn-soft-info btn-icon fs-14 arrow-none" menu-class="dropdown-menu-end">
+                    toggle-class="btn btn-soft-primary btn-icon fs-14 arrow-none" menu-class="dropdown-menu-end">
                     <template #button-content><i class="ri-settings-4-line"></i></template>
                     <BDropdownItem>Copy</BDropdownItem>
                     <BDropdownItem>Move to pipline</BDropdownItem>
@@ -441,7 +441,7 @@ export default {
                 </table>
                 <div class="noresult" v-if="resultQuery.length < 1">
                   <div class="text-center">
-                    <lottie class="avatar-xl" colors="primary:#121331,secondary:#08a88a" :options="defaultOptions"
+                    <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions"
                       :height="75" :width="75" />
                     <h5 class="mt-2">Sorry! No Result Found</h5>
                     <p class="text-muted mb-0">
@@ -626,7 +626,7 @@ export default {
                 <!--end offcanvas-body-->
                 <div class="offcanvas-footer border-top p-3 text-center hstack gap-2">
                   <BButton variant="light" class="w-100">Clear Filter</BButton>
-                  <BButton type="submit" variant="success" class="w-100">
+                  <BButton type="submit" variant="primary" class="w-100">
                     Filters
                   </BButton>
                 </div>
@@ -640,7 +640,7 @@ export default {
     </BRow>
 
     <BModal v-model="addLeadsModal" id="showmodal" hide-footer title-class="exampleModalLabel"
-      :title="dataEdit ? 'Edit Lead' : 'Add Lead'" header-class="bg-light p-3" class="v-modal-custom" centered>
+      :title="dataEdit ? 'Edit Lead' : 'Add Lead'" header-class="bg-primary-subtle p-3" class="v-modal-custom" centered>
       <b-form action="" id="addform" class="tablelist-form" autocomplete="off">
         <input type="hidden" id="id" />
         <BRow class="g-3">
@@ -736,7 +736,7 @@ export default {
     <!-- delete modal -->
     <BModal v-model="deleteModal" modal-class="zoomIn" hide-footer no-close-on-backdrop centered>
       <div class="mt-2 text-center">
-        <lottie class="avatar-xl" colors="primary:#f7b84b,secondary:#f06548" :options="defaultOptions1" :height="100"
+        <lottie class="avatar-xl" colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions1" :height="100"
           :width="100" />
         <div class="mt-4 pt-2 fs-15 mx-4 mx-sm-5">
           <h4>Are you sure ?You are about to delete a lead ?</h4>
@@ -745,7 +745,7 @@ export default {
       </div>
       <div class="d-flex gap-2 justify-content-center mt-4 mb-2">
         <button type="button" class="btn w-sm btn-light" @click="deleteModal = false">Close</button>
-        <button type="button" class="btn w-sm btn-danger" id="delete-record" @click="deleteData">Yes, Delete It!</button>
+        <button type="button" class="btn w-sm btn-primary" id="delete-record" @click="deleteData">Yes, Delete It!</button>
       </div>
     </BModal>
   </Layout>

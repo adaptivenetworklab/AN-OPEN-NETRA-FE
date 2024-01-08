@@ -20,14 +20,14 @@ export default {
                     <div class="timeline">
                         <div class="timeline-item left">
                             <i class="icon ri-stack-line"></i>
-                            <div class="date fs-13">15 Dec 2021</div>
-                            <div class="content">
+                            <div class="date">15 Dec 2021</div>
+                            <div class="content shadow-none">
                                 <div class="d-flex">
                                     <div class="flex-shrink-0">
                                         <img src="@/assets/images/users/avatar-5.jpg" alt="" class="avatar-sm rounded">
                                     </div>
                                     <div class="flex-grow-1 ms-3">
-                                        <h5 class="fs-14">@Erica245 <small class="text-muted fs-13 fw-normal">- 10 min
+                                        <h5 class="fs-15">@Erica245 <small class="text-muted fs-13 fw-normal">- 10 min
                                                 Ago</small></h5>
                                         <p class="text-muted mb-2">Wish someone a sincere ‘good luck in your new job’
                                             with these sweet messages. Make sure you pick out a good luck new job card
@@ -43,9 +43,9 @@ export default {
                         </div>
                         <div class="timeline-item right">
                             <i class="icon ri-vip-diamond-line"></i>
-                            <div class="date fs-13">22 Oct 2021</div>
-                            <div class="content">
-                                <h5 class="fs-14">Adding a new event with attachments</h5>
+                            <div class="date">22 Oct 2021</div>
+                            <div class="content shadow-none">
+                                <h5>Adding a new event with attachments</h5>
                                 <p class="text-muted">Too much or too little spacing, as in the example below, can make
                                     things unpleasant for the reader.</p>
                                 <BRow class="g-2">
@@ -85,9 +85,9 @@ export default {
                         </div>
                         <div class="timeline-item left">
                             <i class="icon ri-gift-line"></i>
-                            <div class="date fs-13">10 Jul 2021</div>
-                            <div class="content">
-                                <h5 class="fs-14">Create new project Building product</h5>
+                            <div class="date">10 Jul 2021</div>
+                            <div class="content shadow-none">
+                                <h5>Create new project Building product</h5>
                                 <p class="text-muted">Every team project can have a velzon. Use the velzon to share
                                     information with your team to understand and contribute to your project.</p>
                                 <div class="avatar-group mb-2">
@@ -118,9 +118,9 @@ export default {
                         </div>
                         <div class="timeline-item right">
                             <i class="icon ri-shield-star-line"></i>
-                            <div class="date fs-13">18 May 2021</div>
-                            <div class="content">
-                                <h5 class="fs-14">Donald Palmer <small class="text-muted fs-13 fw-normal">- Has changed 2
+                            <div class="date">18 May 2021</div>
+                            <div class="content shadow-none">
+                                <h5>Donald Palmer <small class="text-muted fs-13 fw-normal">- Has changed 2
                                         attributes</small></h5>
                                 <p class="text-muted fst-italic mb-2">" This is an awesome admin dashboard template. It
                                     is extremely well structured and uses state of the art components (e.g. one of the
@@ -136,9 +136,9 @@ export default {
                         </div>
                         <div class="timeline-item left">
                             <i class="icon ri-user-smile-line"></i>
-                            <div class="date fs-13">10 Feb 2021</div>
-                            <div class="content">
-                                <h5 class="fs-14">Velzon admin dashboard templates layout upload</h5>
+                            <div class="date">10 Feb 2021</div>
+                            <div class="content shadow-none">
+                                <h5>Velzon admin dashboard templates layout upload</h5>
                                 <p class="text-muted">Powerful, clean & modern responsive bootstrap 5 admin template.
                                     The maximum file size for uploads in this demo :</p>
                                 <BRow class="border border-dashed rounded gx-2 p-2">
@@ -159,9 +159,9 @@ export default {
                         </div>
                         <div class="timeline-item right">
                             <i class="icon ri-fire-line"></i>
-                            <div class="date fs-13">01 Jan 2021</div>
-                            <div class="content">
-                                <h5 class="fs-14">New ticket received <BBadge variant="success-subtle"
+                            <div class="date">01 Jan 2021</div>
+                            <div class="content shadow-none">
+                                <h5>New ticket received <BBadge variant="success-subtle"
                                         class="text-success fs-10 align-middle ms-1">Completed</BBadge>
                                 </h5>
                                 <p class="text-muted mb-2">
@@ -200,7 +200,7 @@ export default {
                                                 <img src="@/assets/images/users/avatar-7.jpg" alt=""
                                                     class="avatar-sm rounded" />
                                                 <div class="flex-grow-1 ms-3">
-                                                    <h5 class="fs-15 mb-1">Frank hook joined with our company</h5>
+                                                    <h5 class="mb-1">Frank hook joined with our company</h5>
                                                     <p class="text-muted mb-0">It makes a statement, it’s impressive
                                                         graphic design. Increase or decrease the letter spacing
                                                         depending on the situation and try, try again until it looks
@@ -221,7 +221,7 @@ export default {
                                 <BCol cols="12">
                                     <div class="timeline-box">
                                         <div class="timeline-text">
-                                            <h5 class="fs-15">Trip planning</h5>
+                                            <h5>Trip planning</h5>
                                             <p class="text-muted">In the trip planner, keep only one or two activities
                                                 in a day if the purpose of the trip is to relax and take it easy during
                                                 the vacation :</p>
@@ -269,7 +269,7 @@ export default {
                                 <BCol cols="12">
                                     <div class="timeline-box">
                                         <div class="timeline-text">
-                                            <h5 class="fs-15">Velzon - Project Discussion</h5>
+                                            <h5>Velzon - Project Discussion</h5>
                                             <p class="text-muted mb-0">The purpose of the discussion is to interpret and
                                                 describe the significance of your findings in light of what was already
                                                 known about the research problem being investigated, and to explain any
@@ -289,7 +289,7 @@ export default {
                                 <BCol cols="12">
                                     <div class="timeline-box">
                                         <div class="timeline-text">
-                                            <h5 class="fs-15">Client Meeting (Nancy Martino)</h5>
+                                            <h5>Client Meeting (Nancy Martino)</h5>
                                             <p class="text-muted mb-0">A client meeting, meaning, direct collaboration
                                                 and communication with a customer, is the best way to understand their
                                                 needs and how you can help support them.</p>
@@ -307,7 +307,7 @@ export default {
                                 <BCol cols="12">
                                     <div class="timeline-box">
                                         <div class="timeline-text">
-                                            <h5 class="fs-15">Designer & Developer Meeting</h5>
+                                            <h5>Designer & Developer Meeting</h5>
                                             <ul class="mb-0 text-muted vstack gap-2">
                                                 <li>Last updates</li>
                                                 <li>Weekly Planning</li>
@@ -325,7 +325,7 @@ export default {
                         <div class="timeline-launch">
                             <div class="timeline-box">
                                 <div class="timeline-text">
-                                    <h5 class="fs-15">Our Company Activity</h5>
+                                    <h5>Our Company Activity</h5>
                                     <p class="text-muted text-capitalize mb-0">Wow...!!! What a Journey So Far...!!!</p>
                                 </div>
                             </div>

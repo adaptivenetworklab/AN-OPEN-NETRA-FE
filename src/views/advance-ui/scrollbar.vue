@@ -174,7 +174,7 @@ export default {
                                                         class="rounded-circle img-fluid" alt="user-pic">
                                                 </div>
                                                 <div class="flex-grow-1 text-muted">
-                                                    <h6 class="mb-1 fs-13">Angela Bernier</h6>
+                                                    <h6 class="mb-1 fs-14">Angela Bernier</h6>
                                                     <p class="mb-0">Answered to your comment on the cash flow forecast's
                                                         graph 🔔.</p>
                                                 </div>
@@ -191,7 +191,7 @@ export default {
                                             <div class="d-flex">
                                                 <div class="flex-shrink-0 avatar-xs me-3">
                                                     <span
-                                                        class="avatar-title bg-danger-subtle text-danger rounded-circle fs-16">
+                                                        class="avatar-title bg-primary-subtle text-primary rounded-circle fs-16">
                                                         <i class="ri-message-2-fill"></i>
                                                     </span>
                                                 </div>
@@ -215,7 +215,7 @@ export default {
                                                         class="rounded-circle img-fluid" alt="user-pic">
                                                 </div>
                                                 <div class="flex-grow-1 text-muted">
-                                                    <h6 class="mb-1 fs-13">Maureen Gibson</h6>
+                                                    <h6 class="mb-1 fs-14">Maureen Gibson</h6>
                                                     <p class="mb-0">We talked about a project on linkedin.</p>
                                                 </div>
                                                 <div class="flex-shrink-0 ms-2">
@@ -269,7 +269,7 @@ export default {
 
                                 <div class="mx-n3">
                                     <simplebar data-simplebar data-simplebar-auto-hide="false"
-                                        data-simplebar-track="secondary" style="max-height: 255px;">
+                                        data-simplebar-track="secondary" style="max-height: 274px;">
                                         <div class="list-group list-group-flush">
                                             <BLink  href="#" class="list-group-item text-muted py-3">
                                                 <div class="d-flex align-items-start">
@@ -283,7 +283,7 @@ export default {
                                                     </div>
 
                                                     <div class="flex-grow-1 overflow-hidden">
-                                                        <h5 class="text-truncate fs-13 mb-1">Michael Johnston</h5>
+                                                        <h5 class="text-truncate fs-14 mb-1">Michael Johnston</h5>
                                                         <p class="text-truncate mb-0">New updates for ABC Theme</p>
                                                     </div>
                                                     <div class="fs-11">06 mins</div>
@@ -301,7 +301,7 @@ export default {
                                                     </div>
 
                                                     <div class="flex-grow-1 overflow-hidden">
-                                                        <h5 class="text-truncate fs-13 mb-1">Darren James</h5>
+                                                        <h5 class="text-truncate fs-14 mb-1">Darren James</h5>
                                                         <p class="text-truncate mb-0">Bug Report - abc theme</p>
                                                     </div>
                                                     <div class="fs-11">12 mins</div>
@@ -319,7 +319,7 @@ export default {
                                                     </div>
 
                                                     <div class="flex-grow-1 overflow-hidden">
-                                                        <h5 class="text-truncate fs-13 mb-1">Patricia Shelton</h5>
+                                                        <h5 class="text-truncate fs-14 mb-1">Patricia Shelton</h5>
                                                         <p class="text-truncate mb-0">Nice to meet you</p>
                                                     </div>
                                                     <div class="fs-11">28 mins</div>
@@ -338,7 +338,7 @@ export default {
                                                     </div>
 
                                                     <div class="flex-grow-1 overflow-hidden">
-                                                        <h5 class="text-truncate fs-13 mb-1">Thomas McNeil</h5>
+                                                        <h5 class="text-truncate fs-14 mb-1">Thomas McNeil</h5>
                                                         <p class="text-truncate mb-0">This theme is awesome!</p>
                                                     </div>
                                                     <div class="fs-11">02 hrs</div>
@@ -357,7 +357,7 @@ export default {
                                                     </div>
 
                                                     <div class="flex-grow-1 overflow-hidden">
-                                                        <h5 class="text-truncate fs-13 mb-1">Carolyn Jones</h5>
+                                                        <h5 class="text-truncate fs-14 mb-1">Carolyn Jones</h5>
                                                         <p class="text-truncate mb-0">I've finished it! See you so</p>
                                                     </div>
                                                     <div class="fs-11">03 hrs</div>
@@ -375,7 +375,7 @@ export default {
                                                     </div>
 
                                                     <div class="flex-grow-1 overflow-hidden">
-                                                        <h5 class="text-truncate fs-13 mb-1">Michael Johnston</h5>
+                                                        <h5 class="text-truncate fs-14 mb-1">Michael Johnston</h5>
                                                         <p class="text-truncate mb-0">New updates for ABC Theme</p>
                                                     </div>
                                                     <div class="fs-11">03 hrs</div>
@@ -411,7 +411,7 @@ export default {
                                                         <i class="ri-arrow-right-fill text-muted"></i>
                                                     </div>
                                                     <div class="flex-grow-1 text-muted overflow-hidden">
-                                                        <h5 class="text-truncate fs-13 mb-1">Lead designer / Developer
+                                                        <h5 class="text-truncate fs-14 mb-1">Lead designer / Developer
                                                         </h5>
                                                         <div class="text-truncate">Xyz Company</div>
                                                     </div>
@@ -426,7 +426,7 @@ export default {
                                                         <i class="ri-arrow-right-fill text-muted"></i>
                                                     </div>
                                                     <div class="flex-grow-1 text-muted overflow-hidden">
-                                                        <h5 class="text-truncate fs-13 mb-1">Senior Graphic Designer
+                                                        <h5 class="text-truncate fs-14 mb-1">Senior Graphic Designer
                                                         </h5>
                                                         <div class="text-truncate">Abc Company</div>
                                                     </div>
@@ -441,7 +441,7 @@ export default {
                                                         <i class="ri-arrow-right-fill text-muted"></i>
                                                     </div>
                                                     <div class="flex-grow-1 text-muted overflow-hidden">
-                                                        <h5 class="text-truncate fs-13 mb-1">Graphic Designer</h5>
+                                                        <h5 class="text-truncate fs-14 mb-1">Graphic Designer</h5>
                                                         <div class="text-truncate">Xyz Company</div>
                                                     </div>
                                                 </div>
@@ -455,7 +455,7 @@ export default {
                                                         <i class="ri-arrow-right-fill text-muted"></i>
                                                     </div>
                                                     <div class="flex-grow-1 text-muted overflow-hidden">
-                                                        <h5 class="text-truncate fs-13 mb-1">Graphic Designer</h5>
+                                                        <h5 class="text-truncate fs-14 mb-1">Graphic Designer</h5>
                                                         <div class="text-truncate">Abc Company</div>
                                                     </div>
                                                 </div>
@@ -498,27 +498,27 @@ export default {
                                         <ol class="list-group list-group-flush list-group-numbered">
                                             <li class="list-group-item d-flex align-items-center">
                                                 A list item
-                                                <BBadge variant="success" class="ms-auto">Paid</BBadge>
+                                                <BBadge variant="success-subtle" class="ms-auto text-success">Paid</BBadge>
                                             </li>
                                             <li class="list-group-item d-flex align-items-center">
                                                 A second list item
-                                                <BBadge variant="danger" class="ms-auto">Refund</BBadge>
+                                                <BBadge variant="danger-subtle" class="ms-auto text-danger">Refund</BBadge>
                                             </li>
                                             <li class="list-group-item d-flex align-items-center">
                                                 A third list item
-                                                <BBadge variant="success" class="ms-auto">Paid</BBadge>
+                                                <BBadge variant="success-subtle" class="ms-auto text-success">Paid</BBadge>
                                             </li>
                                             <li class="list-group-item d-flex align-items-center">
                                                 A fourth list item
-                                                <BBadge variant="success" class="ms-auto">Paid</BBadge>
+                                                <BBadge variant="success-subtle" class="ms-auto text-success">Paid</BBadge>
                                             </li>
                                             <li class="list-group-item d-flex align-items-center">
                                                 A Fifth list item
-                                                <BBadge class="ms-auto bg-warning">Inprogress</BBadge>
+                                                <BBadge class="ms-auto text-warning bg-warning-subtle">Inprogress</BBadge>
                                             </li>
                                             <li class="list-group-item d-flex align-items-center">
                                                 A Sixth list item
-                                                <BBadge variant="success" class="ms-auto">Paid</BBadge>
+                                                <BBadge variant="success-subtle" class="ms-auto text-success">Paid</BBadge>
                                             </li>
                                         </ol>
                                     </simplebar>
@@ -548,12 +548,12 @@ export default {
                                             </div>
                                             <div class="flex-grow-1">
                                                 <div>
-                                                    <h5 class="fs-13 mb-1">Esther James</h5>
+                                                    <h5 class="fs-14 mb-1">Esther James</h5>
                                                     <p class="fs-13 text-muted mb-0">Frontend Developer</p>
                                                 </div>
                                             </div>
                                             <div class="flex-shrink-0 ms-2">
-                                                <BButton variant="outline-success" size="sm" type="button"><i
+                                                <BButton variant="outline-primary" size="sm" type="button"><i
                                                         class="ri-user-add-line align-middle"></i></BButton>
                                             </div>
                                         </div>
@@ -565,12 +565,12 @@ export default {
                                             </div>
                                             <div class="flex-grow-1">
                                                 <div>
-                                                    <h5 class="fs-13 mb-1">Jacqueline Steve</h5>
+                                                    <h5 class="fs-14 mb-1">Jacqueline Steve</h5>
                                                     <p class="fs-13 text-muted mb-0">UI/UX Designer</p>
                                                 </div>
                                             </div>
                                             <div class="flex-shrink-0 ms-2">
-                                                <BButton variant="outline-success" size="sm" type="button"><i
+                                                <BButton variant="outline-primary" size="sm" type="button"><i
                                                         class="ri-user-add-line align-middle"></i></BButton>
                                             </div>
                                         </div>
@@ -582,12 +582,12 @@ export default {
                                             </div>
                                             <div class="flex-grow-1">
                                                 <div>
-                                                    <h5 class="fs-13 mb-1">George Whalen</h5>
+                                                    <h5 class="fs-14 mb-1">George Whalen</h5>
                                                     <p class="fs-13 text-muted mb-0">Backend Developer</p>
                                                 </div>
                                             </div>
                                             <div class="flex-shrink-0 ms-2">
-                                                <BButton variant="outline-success" size="sm" type="button"><i
+                                                <BButton variant="outline-primary" size="sm" type="button"><i
                                                         class="ri-user-add-line align-middle"></i></BButton>
                                             </div>
                                         </div>
@@ -598,12 +598,12 @@ export default {
                                             </div>
                                             <div class="flex-grow-1">
                                                 <div>
-                                                    <h5 class="fs-13 mb-1">Carl Lynch</h5>
+                                                    <h5 class="fs-14 mb-1">Carl Lynch</h5>
                                                     <p class="fs-13 text-muted mb-0">Frontend Developer</p>
                                                 </div>
                                             </div>
                                             <div class="flex-shrink-0 ms-2">
-                                                <BButton variant="outline-success" size="sm" type="button"><i
+                                                <BButton variant="outline-primary" size="sm" type="button"><i
                                                         class="ri-user-add-line align-middle"></i></BButton>
                                             </div>
                                         </div>
@@ -634,12 +634,12 @@ export default {
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="fs-13 mb-1">ABC Project Customization</h5>
+                                                <h5 class="fs-14 mb-1">ABC Project Customization</h5>
                                                 <p class="text-muted mb-0">04 Members</p>
                                             </div>
                                             <div class="flex-shrink-0 align-self-start ms-2">
-                                                <BBadge tag="div" variant="warning-subtle"
-                                                    class="bg-warning-subtle text-warning fs-10">Inprogress</BBadge>
+                                                <BBadge tag="div" variant="primary-subtle"
+                                                    class="bg-primary-subtle text-primary fs-10">Inprogress</BBadge>
                                             </div>
                                         </BLink >
                                         <BLink  href="#" class="d-flex align-items-center py-2">
@@ -649,12 +649,12 @@ export default {
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="fs-13 mb-1">Client - John</h5>
+                                                <h5 class="fs-14 mb-1">Client - John</h5>
                                                 <p class="text-muted mb-0">02 Members</p>
                                             </div>
                                             <div class="flex-shrink-0 align-self-start ms-2">
-                                                <BBadge tag="div" variant="warning-subtle"
-                                                    class="bg-warning-subtle text-warning fs-10">Inprogress</BBadge>
+                                                <BBadge tag="div" variant="primary-subtle"
+                                                    class="bg-primary-subtle text-primary fs-10">Inprogress</BBadge>
                                             </div>
                                         </BLink >
                                         <BLink  href="#" class="d-flex align-items-center py-2">
@@ -664,7 +664,7 @@ export default {
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="fs-13 mb-1">Brand logo Design</h5>
+                                                <h5 class="fs-14 mb-1">Brand logo Design</h5>
                                                 <p class="text-muted mb-0">01 Members</p>
                                             </div>
                                             <div class="flex-shrink-0 align-self-start ms-2">
@@ -679,12 +679,12 @@ export default {
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="fs-13 mb-1">Project update</h5>
+                                                <h5 class="fs-14 mb-1">Project update</h5>
                                                 <p class="text-muted mb-0">03 Members</p>
                                             </div>
                                             <div class="flex-shrink-0 align-self-start ms-2">
-                                                <BBadge tag="div" variant="warning-subtle"
-                                                    class="bg-warning-subtle text-warning fs-10">Inprogress</BBadge>
+                                                <BBadge tag="div" variant="primary-subtle"
+                                                    class="bg-primary-subtle text-primary fs-10">Inprogress</BBadge>
                                             </div>
                                         </BLink >
                                         <BLink  href="#" class="d-flex align-items-center py-2">
@@ -694,7 +694,7 @@ export default {
                                                 </div>
                                             </div>
                                             <div class="flex-grow-1 overflow-hidden">
-                                                <h5 class="fs-13 mb-1">Chat App</h5>
+                                                <h5 class="fs-14 mb-1">Chat App</h5>
                                                 <p class="text-muted mb-0">05 Members</p>
                                             </div>
                                             <div class="flex-shrink-0 align-self-start ms-2">
@@ -740,7 +740,7 @@ export default {
                                                         seem like simplified</p>
                                                     <div class="d-flex align-items-start">
                                                         <div class="flex-grow-1">
-                                                            <h5 class="fs-13 mb-0">Michael Lemire</h5>
+                                                            <h5 class="fs-14 mb-0">Michael Lemire</h5>
                                                         </div>
 
                                                         <div class="flex-shrink-0">
@@ -787,7 +787,7 @@ export default {
                                                     <p class="text-muted mb-4">Sed ut perspiciatis iste error sit</p>
                                                     <div class="d-flex align-items-start">
                                                         <div class="flex-grow-1">
-                                                            <h5 class="fs-13 mb-0">Carl Lynch</h5>
+                                                            <h5 class="fs-14 mb-0">Carl Lynch</h5>
                                                         </div>
 
                                                         <div class="flex-shrink-0">
@@ -836,7 +836,7 @@ export default {
                                                         ipsum quia dolor sit amet</p>
                                                     <div class="d-flex align-items-start">
                                                         <div class="flex-grow-1">
-                                                            <h5 class="fs-13 mb-0">Joyce White</h5>
+                                                            <h5 class="fs-14 mb-0">Joyce White</h5>
                                                         </div>
 
                                                         <div class="flex-shrink-0">
@@ -885,7 +885,7 @@ export default {
                                                         ullam corporis suscipit consequatur nisi ut</p>
                                                     <div class="d-flex align-items-start">
                                                         <div class="flex-grow-1">
-                                                            <h5 class="fs-13 mb-0">Etta Smith</h5>
+                                                            <h5 class="fs-14 mb-0">Etta Smith</h5>
                                                         </div>
 
                                                         <div class="flex-shrink-0">

@@ -41,9 +41,9 @@ export default {
                         <h3 class="mb-1">9 hrs 13 min</h3>
                         <h5 class="fs-14 mb-4">Profile Page Structure</h5>
                         <div class="hstack gap-2 justify-content-center">
-                            <BButton variant="danger" size="sm"><i class="ri-stop-circle-line align-bottom me-1"></i>
+                            <BButton variant="primary" size="sm"><i class="ri-stop-circle-line align-bottom me-1"></i>
                                 Stop</BButton>
-                            <BButton variant="success" size="sm"><i class="ri-play-circle-line align-bottom me-1"></i>
+                            <BButton variant="soft-secondary" size="sm"><i class="ri-play-circle-line align-bottom me-1"></i>
                                 Start</BButton>
                         </div>
                     </BCardBody>
@@ -78,14 +78,14 @@ export default {
                                     <tr>
                                         <td class="fw-medium">Priority</td>
                                         <td>
-                                            <BBadge variant="danger-subtle" class="bg-danger-subtle text-danger">High
+                                            <BBadge variant="primary-subtle" class="bg-primary-subtle text-primary">High
                                             </BBadge>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="fw-medium">Status</td>
                                         <td>
-                                            <BBadge variant="secondary-subtle" class="bg-secondary-subtle text-secondary">
+                                            <BBadge variant="success-subtle" class="bg-success-subtle text-success">
                                                 Inprogress</BBadge>
                                         </td>
                                     </tr>
@@ -103,7 +103,7 @@ export default {
                         <div class="d-flex mb-3">
                             <h6 class="card-title mb-0 flex-grow-1">Assigned To</h6>
                             <div class="flex-shrink-0">
-                                <BButton type="button" variant="soft-danger" size="sm" @click="modalShow = !modalShow">
+                                <BButton type="button" variant="soft-primary" size="sm" @click="modalShow = !modalShow">
                                     <i class="ri-share-line me-1 align-bottom"></i>
                                     Assigned Member
                                 </BButton>
@@ -117,7 +117,7 @@ export default {
                                     </div>
                                     <div class="flex-grow-1 ms-2">
                                         <h6 class="mb-1">
-                                            <router-link to="/pages/profile" class="text-body">Tonya Noble</router-link>
+                                            <router-link to="/pages/profile" class="link-secondary">Tonya Noble</router-link>
                                         </h6>
                                         <p class="text-muted mb-0">Full Stack Developer</p>
                                     </div>
@@ -143,7 +143,7 @@ export default {
                                     </div>
                                     <div class="flex-grow-1 ms-2">
                                         <h6 class="mb-1">
-                                            <router-link to="/pages/profile" class="text-body">Thomas Taylor</router-link>
+                                            <router-link to="/pages/profile" class="link-secondary">Thomas Taylor</router-link>
                                         </h6>
                                         <p class="text-muted mb-0">UI/UX Designer</p>
                                     </div>
@@ -169,7 +169,7 @@ export default {
                                     </div>
                                     <div class="flex-grow-1 ms-2">
                                         <h6 class="mb-1">
-                                            <router-link to="/pages/profile" class="text-body">Nancy Martino</router-link>
+                                            <router-link to="/pages/profile" class="link-secondary">Nancy Martino</router-link>
                                         </h6>
                                         <p class="text-muted mb-0">Web Designer</p>
                                     </div>
@@ -199,7 +199,7 @@ export default {
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0 me-3">
                                         <div class="avatar-sm">
-                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
+                                            <div class="avatar-title bg-light text-primary rounded fs-24">
                                                 <i class="ri-folder-zip-line"></i>
                                             </div>
                                         </div>
@@ -209,7 +209,7 @@ export default {
                                             <BLink href="javascript:void(0);" class="text-body text-truncate d-block">
                                                 App pages.zip</BLink>
                                         </h5>
-                                        <div class="text-muted">2.2MB</div>
+                                        <div>2.2MB</div>
                                     </div>
                                     <div class="flex-shrink-0 ms-2">
                                         <div class="d-flex gap-1">
@@ -232,7 +232,7 @@ export default {
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0 me-3">
                                         <div class="avatar-sm">
-                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
+                                            <div class="avatar-title bg-light text-primary rounded fs-24">
                                                 <i class="ri-file-ppt-2-line"></i>
                                             </div>
                                         </div>
@@ -242,7 +242,7 @@ export default {
                                             <BLink href="javascript:void(0);" class="text-body text-truncate d-block">
                                                 Velzon admin.ppt</BLink>
                                         </h5>
-                                        <div class="text-muted">2.4MB</div>
+                                        <div>2.4MB</div>
                                     </div>
                                     <div class="flex-shrink-0 ms-2">
                                         <div class="d-flex gap-1">
@@ -265,7 +265,7 @@ export default {
                                 <div class="d-flex align-items-center">
                                     <div class="flex-shrink-0 me-3">
                                         <div class="avatar-sm">
-                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
+                                            <div class="avatar-title bg-light text-primary rounded fs-24">
                                                 <i class="ri-folder-zip-line"></i>
                                             </div>
                                         </div>
@@ -275,7 +275,7 @@ export default {
                                             <BLink href="javascript:void(0);" class="text-body text-truncate d-block">
                                                 Images.zip</BLink>
                                         </h5>
-                                        <div class="text-muted">1.2MB</div>
+                                        <div>1.2MB</div>
                                     </div>
                                     <div class="flex-shrink-0 ms-2">
                                         <div class="d-flex gap-1">
@@ -294,7 +294,7 @@ export default {
                                 </div>
                             </div>
                             <div class="mt-2 text-center">
-                                <BButton type="button" variant="success">View more</BButton>
+                                <BButton type="button" variant="primary">View more</BButton>
                             </div>
                         </div>
                     </BCardBody>
@@ -304,7 +304,7 @@ export default {
                 <BCard no-body>
                     <BCardBody>
                         <div class="text-muted">
-                            <h6 class="mb-3 text-uppercase">Summary</h6>
+                            <h6 class="mb-3 fw-semibold text-uppercase">Summary</h6>
                             <p>It will be as simple as occidental in fact, it will be Occidental. To an English person,
                                 it will seem like simplified English, as a skeptical Cambridge friend of mine told me
                                 what Occidental is. The European languages are members of the same family. Their
@@ -312,7 +312,7 @@ export default {
                                 vocabulary. The languages only differ in their grammar, their pronunciation and their
                                 most common words.</p>
 
-                            <h6 class="mb-3 text-uppercase">Sub-tasks</h6>
+                            <h6 class="mb-3 fw-semibold text-uppercase">Sub-tasks</h6>
                             <ul class=" ps-3 list-unstyled vstack gap-2">
                                 <li>
                                     <div class="form-check">
@@ -349,13 +349,13 @@ export default {
                             </ul>
 
                             <div class="pt-3 border-top border-top-dashed mt-4">
-                                <h6 class="mb-3 text-uppercase">Tasks Tags</h6>
+                                <h6 class="mb-3 fw-semibold text-uppercase">Tasks Tags</h6>
                                 <div class="hstack flex-wrap gap-2 fs-15">
-                                    <BBadge variant="info-subtle" tag="div" class="fw-medium bg-info-subtle text-info">UI/UX
+                                    <BBadge variant="secondary-subtle" tag="div" class="fw-medium bg-secondary-subtle text-secondary">UI/UX
                                     </BBadge>
-                                    <BBadge variant="info-subtle" tag="div" class="fw-medium bg-info-subtle text-info">
+                                    <BBadge variant="secondary-subtle" tag="div" class="fw-medium bg-secondary-subtle text-secondary">
                                         Dashboard</BBadge>
-                                    <BBadge variant="info-subtle" tag="div" class="fw-medium bg-info-subtle text-info">
+                                    <BBadge variant="secondary-subtle" tag="div" class="fw-medium bg-secondary-subtle text-secondary">
                                         Design</BBadge>
                                 </div>
                             </div>
@@ -365,7 +365,7 @@ export default {
                 <BCard no-body>
                     <BCardBody>
                         <BTabs nav-class="nav-tabs-custom card-header-tabs border-bottom-0">
-                            <BTab active titleLinkClass="text-body" title="Comments (5)" class="nav-item pt-4" style="position: relative; top: 10px;">
+                            <BTab active title="Comments (5)" class="nav-item pt-4" style="position: relative; top: 10px;">
                                 <h5 class="card-title mb-4">Comments</h5>
                                 <simplebar data-simplebar style="height: 508px;" class="px-3 mx-n3 mb-2">
                                     <div class="d-flex mb-4">
@@ -374,7 +374,7 @@ export default {
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <h5 class="fs-13">
-                                                <router-link to="/pages/profile" class="text-body">Joseph Parker</router-link> <small class="text-muted">20 Dec 2021 - 05:47AM</small>
+                                                <router-link to="/pages/profile">Joseph Parker</router-link> <small class="text-muted">20 Dec 2021 - 05:47AM</small>
                                             </h5>
                                             <p class="text-muted">I am getting message from customers that when they
                                                 place order always get error message .</p>
@@ -385,7 +385,7 @@ export default {
                                                 </div>
                                                 <div class="flex-grow-1 ms-3">
                                                     <h5 class="fs-13">
-                                                        <router-link to="/pages/profile" class="text-body">Tonya Noble</router-link>
+                                                        <router-link to="/pages/profile">Tonya Noble</router-link>
                                                         <small class="text-muted">22 Dec 2021 - 02:32PM</small>
                                                     </h5>
                                                     <p class="text-muted">Please be sure to check your Spam mailbox to
@@ -403,7 +403,7 @@ export default {
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <h5 class="fs-13">
-                                                <router-link to="/pages/profile" class="text-body">Thomas Taylor</router-link> <small class="text-muted">24 Dec 2021 - 05:20PM</small>
+                                                <router-link to="/pages/profile">Thomas Taylor</router-link> <small class="text-muted">24 Dec 2021 - 05:20PM</small>
                                             </h5>
                                             <p class="text-muted">If you have further questions, please contact Customer
                                                 Support from the “Action Menu” on your <BLink href="javascript:void(0);" class="text-decoration-underline">Online
@@ -417,7 +417,7 @@ export default {
                                         </div>
                                         <div class="flex-grow-1 ms-3">
                                             <h5 class="fs-13">
-                                                <router-link to="/pages/profile" class="text-body">Tonya Noble</router-link> <small class="text-muted">26 min ago</small>
+                                                <router-link to="/pages/profile">Tonya Noble</router-link> <small class="text-muted">26 min ago</small>
                                             </h5>
                                             <p class="text-muted">Your <BLink href="javascript:void(0)" class="text-decoration-underline">Online Order Support</BLink>
                                                 provides
@@ -439,7 +439,7 @@ export default {
                                                 </div>
                                                 <div class="flex-grow-1 ms-3">
                                                     <h5 class="fs-13">
-                                                        <router-link to="/pages/profile" class="text-body">Nancy Martino</router-link>
+                                                        <router-link to="/pages/profile">Nancy Martino</router-link>
                                                         <small class="text-muted">8 sec ago</small>
                                                     </h5>
                                                     <p class="text-muted">Other shipping methods are available at
@@ -460,13 +460,13 @@ export default {
                                         </BCol>
                                         <BCol cols="12" class="text-end">
                                             <BButton type="button" variant="ghost-secondary" class="btn-icon me-1"><i class="ri-attachment-line fs-16"></i></BButton>
-                                            <BLink href="javascript:void(0);" class="btn btn-success">Post Comments
+                                            <BLink href="javascript:void(0);" class="btn btn-primary">Post Comments
                                             </BLink>
                                         </BCol>
                                     </BRow>
                                 </form>
                             </BTab>
-                            <BTab titleLinkClass="text-body" title="Attachments File (4)" class="nav-item pt-4" style="position: relative; top: 10px;">
+                            <BTab title=" Attachments File (4)" class="nav-item pt-4" style="position: relative; top: 10px;">
                                 <div class="table-responsive table-card">
                                     <table class="table table-borderless align-middle mb-0">
                                         <thead class="table-light text-muted">
@@ -483,13 +483,13 @@ export default {
                                                 <td>
                                                     <div class="d-flex align-items-center">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-primary-subtle text-primary rounded fs-20">
+                                                            <div class="avatar-title bg-light text-primary rounded fs-20">
                                                                 <i class="ri-file-zip-fill"></i>
                                                             </div>
                                                         </div>
                                                         <div class="ms-3 flex-grow-1">
-                                                            <h6 class="fs-14 mb-0">
-                                                                <BLink href="javascript:void(0)" class="text-body">App
+                                                            <h6 class="fs-15 mb-0">
+                                                                <BLink href="javascript:void(0)" class="link-secondary">App
                                                                     pages.zip</BLink>
                                                             </h6>
                                                         </div>
@@ -516,13 +516,13 @@ export default {
                                                 <td>
                                                     <div class="d-flex align-items-center">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-danger-subtle text-danger rounded fs-20">
+                                                            <div class="avatar-title bg-light text-primary rounded fs-20">
                                                                 <i class="ri-file-pdf-fill"></i>
                                                             </div>
                                                         </div>
                                                         <div class="ms-3 flex-grow-1">
-                                                            <h6 class="fs-14 mb-0">
-                                                                <BLink href="javascript:void(0);" class="text-body">Velzon
+                                                            <h6 class="fs-15 mb-0">
+                                                                <BLink href="javascript:void(0);" class="link-secondary">Velzon
                                                                     admin.ppt</BLink>
                                                             </h6>
                                                         </div>
@@ -549,13 +549,13 @@ export default {
                                                 <td>
                                                     <div class="d-flex align-items-center">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-info-subtle text-info rounded fs-20">
+                                                            <div class="avatar-title bg-info-subtle text-primary rounded fs-20">
                                                                 <i class="ri-folder-line"></i>
                                                             </div>
                                                         </div>
                                                         <div class="ms-3 flex-grow-1">
-                                                            <h6 class="fs-14 mb-0">
-                                                                <BLink href="javascript:void(0);" class="text-body">Images.zip</BLink>
+                                                            <h6 class="fs-15 mb-0">
+                                                                <BLink href="javascript:void(0);" class="link-secondary">Images.zip</BLink>
                                                             </h6>
                                                         </div>
                                                     </div>
@@ -581,13 +581,13 @@ export default {
                                                 <td>
                                                     <div class="d-flex align-items-center">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-danger-subtle text-danger rounded fs-20">
+                                                            <div class="avatar-title bg-light text-primary rounded fs-20">
                                                                 <i class="ri-image-2-fill"></i>
                                                             </div>
                                                         </div>
                                                         <div class="ms-3 flex-grow-1">
-                                                            <h6 class="fs-14 mb-0">
-                                                                <BLink href="javascript:void(0);" class="text-body">Bg-pattern.png
+                                                            <h6 class="fs-15 mb-0">
+                                                                <BLink href="javascript:void(0);" class="link-secondary">Bg-pattern.png
                                                                 </BLink>
                                                             </h6>
                                                         </div>
@@ -614,7 +614,7 @@ export default {
                                     </table>
                                 </div>
                             </BTab>
-                            <BTab titleLinkClass="text-body" title="Time Entries (9 hrs 13 min)" class="nav-item pt-4" style="position: relative; top: 10px;">
+                            <BTab title="Time Entries (9 hrs 13 min)" class="nav-item pt-4" style="position: relative; top: 10px;">
                                 <h6 class="card-title mb-4 pb-2">Time Entries</h6>
                                 <div class="table-responsive table-card">
                                     <table class="table align-middle mb-0">
@@ -633,7 +633,7 @@ export default {
                                                     <div class="d-flex align-items-center">
                                                         <img src="@/assets/images/users/avatar-8.jpg" alt="" class="rounded-circle avatar-xxs">
                                                         <div class="flex-grow-1 ms-2">
-                                                            <router-link to="/pages/profile" class="fw-medium text-body">Thomas
+                                                            <router-link to="/pages/profile" class="fw-medium link-secondary">Thomas
                                                                 Taylor</router-link>
                                                         </div>
                                                     </div>
@@ -648,7 +648,7 @@ export default {
                                                     <div class="d-flex align-items-center">
                                                         <img src="@/assets/images/users/avatar-10.jpg" alt="" class="rounded-circle avatar-xxs">
                                                         <div class="flex-grow-1 ms-2">
-                                                            <router-link to="/pages/profile" class="fw-medium text-body">Tonya
+                                                            <router-link to="/pages/profile" class="fw-medium link-secondary">Tonya
                                                                 Noble</router-link>
                                                         </div>
                                                     </div>
@@ -663,7 +663,7 @@ export default {
                                                     <div class="d-flex align-items-center">
                                                         <img src="@/assets/images/users/avatar-10.jpg" alt="" class="rounded-circle avatar-xxs">
                                                         <div class="flex-grow-1 ms-2">
-                                                            <router-link to="/pages/profile" class="fw-medium">Tonya
+                                                            <router-link to="/pages/profile" class="fw-medium link-secondary">Tonya
                                                                 Noble</router-link>
                                                         </div>
                                                     </div>
@@ -730,7 +730,7 @@ export default {
                     </div>
                     <div class="d-flex align-items-center">
                         <div class="avatar-xs flex-shrink-0 me-3">
-                            <div class="avatar-title bg-danger-subtle text-danger rounded-circle">
+                            <div class="avatar-title bg-primary-subtle text-primary rounded-circle">
                                 HB
                             </div>
                         </div>
@@ -807,7 +807,7 @@ export default {
             <div class="modal-footer v-modal-footer">
                 <BButton type="button" variant="light" class="w-xs" @click="modalShow = false">
                     Cancel</BButton>
-                <BButton type="button" variant="success" class="w-xs">Assigned</BButton>
+                <BButton type="button" variant="primary" class="w-xs">Assigned</BButton>
             </div>
         </BModal>
     </Layout>

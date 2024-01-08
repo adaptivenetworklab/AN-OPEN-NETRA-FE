@@ -248,114 +248,114 @@ export default {
     <Layout>
 
         <div class="chat-wrapper d-lg-flex gap-1 mx-n4 mt-n4 p-1">
-            <div class="file-manager-sidebar">
+            <div class="file-manager-sidebar border">
                 <div class="p-4 d-flex flex-column h-100">
                     <div class="mb-3">
-                        <BButton variant="info" class="w-100" @click="projectModal = !projectModal"><i
+                        <BButton variant="primary" class="w-100" @click="projectModal = !projectModal"><i
                                 class="ri-add-line align-bottom"></i> Add Project</BButton>
                     </div>
 
                     <simplebar class="px-4 mx-n4" data-simplebar style="height: calc(100vh - 468px);">
                         <ul class="to-do-menu list-unstyled" id="projectlist-data">
                             <li>
-                                <BLink v-b-toggle.velzonAdmin class="nav-link fs-13 active">
+                                <Blink v-b-toggle.velzonAdmin class="nav-link fs-13 active">
                                     Velzon
-                                    Admin & Dashboard</BLink>
+                                    Admin & Dashboard</Blink>
                                 <BCollapse id="velzonAdmin" visible>
                                     <ul class="mb-0 sub-menu list-unstyled ps-3 vstack gap-2 mb-2">
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-danger"></i>
-                                                v1.4.0</BLink>
+                                                v1.4.0</Blink>
                                         </li>
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-secondary"></i>
-                                                v1.5.0</BLink>
+                                                v1.5.0</Blink>
                                         </li>
                                         <li>
-                                            <BLink href="#!"><i class="ri-stop-mini-fill align-middle fs-15 text-info"></i>
-                                                v1.6.0</BLink>
+                                            <Blink href="#!"><i class="ri-stop-mini-fill align-middle fs-15 text-info"></i>
+                                                v1.6.0</Blink>
                                         </li>
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-primary"></i>
-                                                v1.7.0</BLink>
+                                                v1.7.0</Blink>
                                         </li>
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-warning"></i>
-                                                v1.8.0</BLink>
+                                                v1.8.0</Blink>
                                         </li>
                                     </ul>
                                 </BCollapse >
                             </li>
                             <li>
-                                <BLink v-b-toggle.projectManagement class="nav-link fs-13">
+                                <Blink v-b-toggle.projectManagement class="nav-link fs-13">
                                     Project
-                                    Management</BLink>
+                                    Management</Blink>
                                 <BCollapse id="projectManagement">
                                     <ul class="mb-0 sub-menu list-unstyled ps-3 vstack gap-2 mb-2">
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-danger"></i>
-                                                v2.1.0</BLink>
+                                                v2.1.0</Blink>
                                         </li>
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-secondary"></i>
-                                                v2.2.0</BLink>
+                                                v2.2.0</Blink>
                                         </li>
                                         <li>
-                                            <BLink href="#!"><i class="ri-stop-mini-fill align-middle fs-15 text-info"></i>
-                                                v2.3.0</BLink>
+                                            <Blink href="#!"><i class="ri-stop-mini-fill align-middle fs-15 text-info"></i>
+                                                v2.3.0</Blink>
                                         </li>
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-primary"></i>
-                                                v2.4.0</BLink>
+                                                v2.4.0</Blink>
                                         </li>
                                     </ul>
                                 </BCollapse >
                             </li>
                             <li>
-                                <BLink v-b-toggle.skoteAdmin class="nav-link fs-13">Skote Admin
+                                <Blink v-b-toggle.skoteAdmin class="nav-link fs-13">Skote Admin
                                     &
-                                    Dashboard</BLink>
+                                    Dashboard</Blink>
                                 <BCollapse id="skoteAdmin">
                                     <ul class="mb-0 sub-menu list-unstyled ps-3 vstack gap-2 mb-2">
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-danger"></i>
-                                                v4.1.0</BLink>
+                                                v4.1.0</Blink>
                                         </li>
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-secondary"></i>
-                                                v4.2.0</BLink>
+                                                v4.2.0</Blink>
                                         </li>
                                     </ul>
                                 </BCollapse >
                             </li>
                             <li>
-                                <BLink v-b-toggle.ecommerceProject class="nav-link fs-13">Doot -
+                                <Blink v-b-toggle.ecommerceProject class="nav-link fs-13">Doot -
                                     Chat
-                                    App Template</BLink>
+                                    App Template</Blink>
                                 <BCollapse id="ecommerceProject">
                                     <ul class="mb-0 sub-menu list-unstyled ps-3 vstack gap-2 mb-2">
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-danger"></i>
-                                                v1.0.0</BLink>
+                                                v1.0.0</Blink>
                                         </li>
                                         <li>
-                                            <BLink href="#!"><i
+                                            <Blink href="#!"><i
                                                     class="ri-stop-mini-fill align-middle fs-15 text-secondary"></i>
-                                                v1.1.0</BLink>
+                                                v1.1.0</Blink>
                                         </li>
                                         <li>
-                                            <BLink href="#!"><i class="ri-stop-mini-fill align-middle fs-15 text-info"></i>
-                                                v1.2.0</BLink>
+                                            <Blink href="#!"><i class="ri-stop-mini-fill align-middle fs-15 text-info"></i>
+                                                v1.2.0</Blink>
                                         </li>
                                     </ul>
                                 </BCollapse >
@@ -370,7 +370,7 @@ export default {
                 </div>
             </div>
             <!--end side content-->
-            <div class="file-manager-content w-100 p-4 pb-0">
+            <div class="file-manager-content w-100 p-4 pb-0 border">
                 <BRow class="mb-4">
                     <div order="1" class="col-auto d-block d-lg-none">
                         <BButton variant="btn-soft-success" class="btn btn-icon btn-sm fs-16 file-menu-btn">
@@ -477,12 +477,12 @@ export default {
                                         <td>
                                             <div class="avatar-group">
                                                 <span v-for="(img, index) of singleTodo.assignedto" :key="index">
-                                                    <BLink href="javascript: void(0);" class="avatar-group-item"
+                                                    <Blink href="javascript: void(0);" class="avatar-group-item"
                                                         data-img="{{img.assigneeImg}}" data-bs-toggle="tooltip"
                                                         data-bs-placement="top" title="">
                                                         <img :src="img.assigneeImg" alt=""
                                                             class="rounded-circle avatar-xxs" />
-                                                    </BLink>
+                                                    </Blink>
                                                 </span>
                                             </div>
                                         </td>
@@ -561,7 +561,7 @@ export default {
         <BModal v-model="taskModal" hide-footer title="Create Task" title-class="task-modal" class="v-modal-custom"
             modal-class="zoomIn" centered header-class="p-3 bg-success-subtle">
             <div id="task-error-msg" class="alert alert-danger py-2"></div>
-            <BForm autocomplete="off" action="task-form">
+            <BForm autocomplete="off" action="" id="creattask-form">
                 <input type="hidden" id="taskid-input" class="form-control">
                 <div class="mb-3">
                     <label for="task-title-input" class="form-label">Task Title</label>
@@ -571,10 +571,10 @@ export default {
                     <label for="task-assign-input" class="form-label">Assigned To</label>
                     <div class="avatar-group justify-content-center" id="assignee-member">
                         <span v-for="(img, index) of selectedimage" :key="index">
-                            <BLink href="javascript: void(0);" class="avatar-group-item mb-2" data-img="{{img}}"
+                            <Blink href="javascript: void(0);" class="avatar-group-item mb-2" data-img="{{img}}"
                                 data-bs-toggle="tooltip" data-bs-placement="top" title="{{img}}">
                                 <img :src="img" alt="" class="rounded-circle avatar-xs" />
-                            </BLink>
+                            </Blink>
                         </span>
                     </div>
                     <Multiselect v-model="value" :options="options" mode="multiple" :multiple="true"

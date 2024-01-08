@@ -17,9 +17,9 @@ const basicRadarChart = {
       },
     },
     stroke: {
-      colors: getChartColorsArray('["--vz-success"]'),
+      colors: getChartColorsArray('["--vz-primary"]'),
     },
-    colors: getChartColorsArray('["--vz-success"]'),
+    colors: getChartColorsArray('["--vz-primary"]'),
     xaxis: {
       categories: ["January", "February", "March", "April", "May", "June"],
     },
@@ -66,7 +66,7 @@ const radarMultiseriesChart = {
     markers: {
       size: 0,
     },
-    colors: getChartColorsArray('["--vz-danger", "--vz-success", "--vz-primary"]'),
+    colors: getChartColorsArray('["--vz-primary-rgb, 0.35", "--vz-primary-rgb, 0.25", "--vz-primary-rgb, 0.50"]'),
     xaxis: {
       categories: ["2014", "2015", "2016", "2017", "2018", "2019"],
     },
@@ -104,7 +104,7 @@ const polygonRadarChart = {
         fontWeight: 500,
       },
     },
-    colors: getChartColorsArray('["--vz-info"]'),
+    colors: getChartColorsArray('["--vz-primary"]'),
     markers: {
       size: 4,
       colors: ["#fff"],

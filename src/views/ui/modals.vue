@@ -171,7 +171,7 @@ export default {
                                 <BButton variant="primary" @click="modalShow1 = !modalShow1">Center Modal</BButton>
                                 <BModal v-model="modalShow1" hide-footer class="v-modal-custom" hide-header-close centered>
                                     <div class="modal-body text-center">
-                                        <lottie colors="primary:#121331,secondary:#08a88a" trigger="loop"
+                                        <lottie colors="primary:#25a0e2,secondary:#00bd9d" trigger="loop"
                                             :options="defaultOptions" :height="120" :width="120" />
                                         <div class="mt-4">
                                             <h4 class="mb-3">Oops something went wrong!</h4>
@@ -180,7 +180,7 @@ export default {
                                             <div class="hstack gap-2 justify-content-center">
                                                 <BButton type="button" variant="light" @click="modalShow1 = false">
                                                     Close</BButton>
-                                                <BLink href="javascript:void(0);" class="btn btn-danger">Try Again
+                                                <BLink href="javascript:void(0);" class="btn btn-primary">Try Again
                                                 </BLink>
                                             </div>
                                         </div>
@@ -361,7 +361,7 @@ export default {
                                 <BModal v-model="modalShow3" hide-footer class="v-modal-custom" hide-header-close centered
                                     no-close-on-backdrop>
                                     <div class="modal-body text-center">
-                                        <lottie colors="primary:#121331,secondary:#08a88a" trigger="loop"
+                                        <lottie colors="primary:#25a0e2,secondary:#00bd9d" trigger="loop"
                                             :options="defaultOptions1" :height="120" :width="120" />
                                         <div class="mt-4">
                                             <h4 class="mb-3">You've made it!</h4>
@@ -369,10 +369,10 @@ export default {
                                                 received by us. the email of the recipient wasn't correct.</p>
                                             <div class="hstack gap-2 justify-content-center">
                                                 <BLink href="javascript:void(0);"
-                                                    class="btn btn-link link-success fw-medium" @click="modalShow3 = false">
+                                                    class="btn btn-link link-primary fw-medium" @click="modalShow3 = false">
                                                     <i class="ri-close-line me-1 align-middle"></i> Close
                                                 </BLink>
-                                                <BLink href="javascript:void(0);" class="btn btn-success">
+                                                <BLink href="javascript:void(0);" class="btn btn-primary">
                                                     Completed</BLink>
                                             </div>
                                         </div>
@@ -436,13 +436,13 @@ export default {
                                 <BModal v-model="modalShow30" hide-footer class="v-modal-custom" hide-header-close
                                     centered>
                                     <div class="modal-body text-center">
-                                        <lottie colors="primary:#f7b84b,secondary:#405189" trigger="loop"
+                                        <lottie colors="primary:#25a0e2,secondary:#00bd9d" trigger="loop"
                                             :options="defaultOptions2" :height="130" :width="130" />
                                         <div class="mt-4 pt-4">
                                             <h4>Uh oh, something went wrong!</h4>
                                             <p class="text-muted">The transfer was not successfully received by
                                                 us. the email of the recipient wasn't correct.</p>
-                                            <BButton variant="warning" @click="toggleModal">Continue</BButton>
+                                            <BButton variant="primary" @click="toggleModal">Continue</BButton>
                                         </div>
                                     </div>
                                 </BModal>
@@ -450,7 +450,7 @@ export default {
                                 <BModal v-model="modalShow31" hide-footer class="v-modal-custom" hide-header-close
                                     centered>
                                     <div class="modal-body text-center">
-                                        <lottie colors="primary:#405189,secondary:#0ab39c" trigger="loop"
+                                        <lottie colors="primary:#25a0e2,secondary:#00bd9d" trigger="loop"
                                             :options="defaultOptions3" :height="150" :width="150" />
                                         <div class="mt-4 pt-3">
                                             <h4 class="mb-3">Follow-Up Email</h4>
@@ -458,7 +458,7 @@ export default {
                                                 the button below Automatically Send your invitees a follow -Up
                                                 email.</p>
                                             <div class="hstack gap-2 justify-content-center">
-                                                <BButton variant="soft-danger" @click="toggleModal"> Back to First
+                                                <BButton variant="soft-primary" @click="toggleModal"> Back to First
                                                 </BButton>
                                                 <BButton type="button" variant="light" @click="modalShow31 = false">
                                                     Close</BButton>
@@ -1978,7 +1978,7 @@ export default {
 
                                 <BModal v-model="modalShow22" hide-footer class="v-modal-custom" hide-header-close>
                                     <div class="modal-body text-center">
-                                        <lottie colors="primary:#121331,secondary:#08a88a" trigger="loop"
+                                        <lottie colors="primary:#25a0e2,secondary:#00bd9d" trigger="loop"
                                             :options="defaultOptions4" :height="120" :width="120" />
                                         <div class="mt-4">
                                             <h4 class="mb-3">Your event has been created.</h4>
@@ -1986,11 +1986,11 @@ export default {
                                                 received by us. the email of the recipient wasn't correct.</p>
                                             <div class="hstack gap-2 justify-content-center">
                                                 <BLink href="javascript:void(0);"
-                                                    class="btn btn-link link-success fw-medium"
+                                                    class="btn btn-link link-primary fw-medium"
                                                     @click="modalShow22 = false">
                                                     <i class="ri-close-line me-1 align-middle"></i> Close
                                                 </BLink>
-                                                <BLink href="javascript:void(0);" class="btn btn-success">
+                                                <BLink href="javascript:void(0);" class="btn btn-primary">
                                                     Completed</BLink>
                                             </div>
                                         </div>
@@ -2000,7 +2000,7 @@ export default {
                                 <BModal v-model="modalShow23" hide-footer dialog-class="modal-dialog-right"
                                     class="v-modal-custom" hide-header-close>
                                     <div class="modal-body text-center">
-                                        <lottie colors="primary:#121331,secondary:#08a88a" trigger="loop"
+                                        <lottie colors="primary:#25a0e2,secondary:#00bd9d" trigger="loop"
                                             :options="defaultOptions4" :height="120" :width="120" />
                                         <div class="mt-4">
                                             <h4 class="mb-3">Your event has been created.</h4>
@@ -2008,11 +2008,11 @@ export default {
                                                 received by us. the email of the recipient wasn't correct.</p>
                                             <div class="hstack gap-2 justify-content-center">
                                                 <BLink href="javascript:void(0);"
-                                                    class="btn btn-link link-success fw-medium"
+                                                    class="btn btn-link link-primary fw-medium"
                                                     @click="modalShow23 = false">
                                                     <i class="ri-close-line me-1 align-middle"></i> Close
                                                 </BLink>
-                                                <BLink href="javascript:void(0);" class="btn btn-success">
+                                                <BLink href="javascript:void(0);" class="btn btn-primary">
                                                     Completed</BLink>
                                             </div>
                                         </div>
@@ -2022,7 +2022,7 @@ export default {
                                 <BModal v-model="modalShow24" hide-footer dialog-class="modal-dialog-bottom"
                                     class="v-modal-custom" hide-header-close>
                                     <div class="modal-body text-center">
-                                        <lottie colors="primary:#121331,secondary:#08a88a" trigger="loop"
+                                        <lottie colors="primary:#25a0e2,secondary:#00bd9d" trigger="loop"
                                             :options="defaultOptions4" :height="120" :width="120" />
                                         <div class="mt-4">
                                             <h4 class="mb-3">Your event has been created.</h4>
@@ -2030,11 +2030,11 @@ export default {
                                                 received by us. the email of the recipient wasn't correct.</p>
                                             <div class="hstack gap-2 justify-content-center">
                                                 <BLink href="javascript:void(0);"
-                                                    class="btn btn-link link-success fw-medium"
+                                                    class="btn btn-link link-primary fw-medium"
                                                     @click="modalShow24 = false">
                                                     <i class="ri-close-line me-1 align-middle"></i> Close
                                                 </BLink>
-                                                <BLink href="javascript:void(0);" class="btn btn-success">
+                                                <BLink href="javascript:void(0);" class="btn btn-primary">
                                                     Completed</BLink>
                                             </div>
                                         </div>

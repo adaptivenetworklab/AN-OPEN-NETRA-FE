@@ -135,7 +135,7 @@ export default {
                 </BCol>
 
                 <BCol xxl="2" sm="4">
-                  <BButton type="button" variant="success" class="w-100" >
+                  <BButton type="button" variant="primary" class="w-100" >
                     <i class="ri-equalizer-fill me-1 align-bottom"></i> Filters
                   </BButton>
                 </BCol>
@@ -301,7 +301,7 @@ export default {
                 <span class="icon-on"><i class="ri-add-line align-bottom me-1"></i> Follow</span>
                 <span class="icon-off"><i class="ri-user-unfollow-line align-bottom me-1"></i> Unfollow</span>
               </BButton>
-              <BLink href="#!" class="btn btn-primary w-100">More View <i class="ri-arrow-right-line align-bottom"></i>
+              <BLink href="#!" class="btn btn-info w-100">More View <i class="ri-arrow-right-line align-bottom"></i>
               </BLink>
             </div>
           </BCardBody>

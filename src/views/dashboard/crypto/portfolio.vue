@@ -71,7 +71,7 @@ export default {
           lineCap: "round",
           width: 2,
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-info", "--vz-warning", "--vz-success"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.85", "--vz-primary-rgb, 0.65", "--vz-primary-rgb, 0.50"]'),
       },
     };
   },
@@ -129,7 +129,7 @@ export default {
             <div class="flex-grow-1 ms-2">
               <h6 class="mb-1">Ethereum</h6>
               <p class="fs-12 mb-0 text-muted">
-                <i class="mdi mdi-circle fs-10 align-middle text-info me-1"></i>ETH
+                <i class="mdi mdi-circle fs-10 align-middle text-secondary me-1"></i>ETH
               </p>
             </div>
             <div class="flex-shrink-0 text-end">

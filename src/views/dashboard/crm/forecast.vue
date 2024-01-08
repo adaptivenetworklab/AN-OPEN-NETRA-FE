@@ -86,7 +86,7 @@ export default {
             height: 10,
           },
         },
-        colors: getChartColorsArray('["--vz-primary", "--vz-success", "--vz-warning"]'),
+        colors: getChartColorsArray('["--vz-primary-rgb, 0.75", "--vz-primary", "--vz-primary-rgb, 0.55"]'),
       }
     };
   },

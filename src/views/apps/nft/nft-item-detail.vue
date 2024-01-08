@@ -106,7 +106,7 @@ export default {
                             <BBadge variant="info-subtle" class="bg-info-subtle text-info mb-3 fs-12"><i
                                     class="ri-eye-line me-1 align-bottom"></i>
                                 8,634 people views this</BBadge>
-                            <h4 class="fw-bold">Patterns Arts & Culture</h4>
+                            <h4>Patterns Arts & Culture</h4>
                             <div class="hstack gap-3 flex-wrap">
                                 <div class="text-muted">Creators : <router-link to="#" class="text-primary fw-medium">Nancy
                                         Martino</router-link>
@@ -275,9 +275,9 @@ export default {
                                                                 <img src="@/assets/images/users/avatar-8.jpg" alt=""
                                                                     class="avatar-xs rounded object-fit-cover" />
                                                                 <div class="ms-2">
-                                                                    <Blink href="#!">
+                                                                    <BLink href="#!">
                                                                         <h6 class="mb-1">Michael Morris</h6>
-                                                                    </Blink>
+                                                                    </BLink>
                                                                     <p class="text-muted mb-0">Creators</p>
                                                                 </div>
                                                             </div>
@@ -490,7 +490,7 @@ export default {
                                                         <div class="border border-dashed rounded p-3">
                                                             <div class="d-flex align-items-start mb-3">
                                                                 <div class="hstack gap-3">
-                                                                    <BBadge variant="success" tag="div" pill class="mb-0">
+                                                                    <BBadge variant="success" tag="div" pill class="text-warning">
                                                                         <i class="mdi mdi-star"></i> 4.2
                                                                     </BBadge>
                                                                     <div class="vr"></div>

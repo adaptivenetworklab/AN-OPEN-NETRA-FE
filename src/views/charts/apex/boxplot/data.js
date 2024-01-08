@@ -54,8 +54,8 @@ const boxChart = {
     plotOptions: {
       boxPlot: {
         colors: {
-          upper: "#6691e7",
-          lower: "#50c3e6",
+          upper: "#25a0e2",
+          lower: "#32ccff",
         },
       },
     },
@@ -130,7 +130,7 @@ const boxplotScatterChart = {
         show: false,
       },
     },
-    colors: getChartColorsArray('["--vz-danger", "--vz-info", "--vz-danger", "--vz-primary"]'),
+    colors: getChartColorsArray('["--vz-succcess", "--vz-info", "--vz-gray-300", "--vz-primary"]'),
     title: {
       text: "BoxPlot - Scatter Chart",
       align: "left",
@@ -149,8 +149,8 @@ const boxplotScatterChart = {
     plotOptions: {
       boxPlot: {
         colors: {
-          upper: "#ed5e5e",
-          lower: "#6691e7",
+          upper: "#f1734f",
+          lower: "#405189",
         },
       },
     },

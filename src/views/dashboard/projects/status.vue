@@ -34,7 +34,7 @@ export default {
           lineCap: "round",
           width: 0,
         },
-        colors: getChartColorsArray('["--vz-success", "--vz-primary", "--vz-warning", "--vz-danger"]'),
+        colors: getChartColorsArray('["--vz-primary", "--vz-primary-rgb, 0.85", "--vz-primary-rgb, 0.70", "--vz-primary-rgb, 0.50"]'),
       },
     };
   },

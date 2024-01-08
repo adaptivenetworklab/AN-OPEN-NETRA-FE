@@ -1,4 +1,6 @@
 <script>
+import getChartColorsArray from "@/common/getChartColorsArray";
+
 import { CountTo } from "vue3-count-to";
 
 import { Swiper, SwiperSlide } from "swiper/vue";
@@ -131,7 +133,7 @@ export default {
             barHeight: "70%",
           },
         },
-        colors: ["#13c56b", "#6691e7", "#ed5e5e"],
+        colors: getChartColorsArray('["--vz-primary-rgb, 0.1", "--vz-primary", "--vz-primary-rgb, 0.6"]'),
         tooltip: {
           shared: true,
           y: [{
@@ -341,7 +343,7 @@ export default {
                     </div>
                     <BCol>
                       <div class="p-1">
-                        <BProgress variant="success" class="animated-progess progress-sm" :value="29.32" />
+                        <BProgress variant="primary" class="animated-progess progress-sm" :value="29.32" />
                       </div>
                     </BCol>
                     <div class="col-auto">
@@ -377,7 +379,7 @@ export default {
                     </div>
                     <BCol>
                       <div class="p-1">
-                        <BProgress variant="success" class="animated-progess progress-sm" :value="4.98" />
+                        <BProgress variant="primary" class="animated-progess progress-sm" :value="4.98" />
                       </div>
                     </BCol>
 
@@ -415,7 +417,7 @@ export default {
             </h6>
             <swiper class="vertical-swiper" :direction="'vertical'" :modules="[Autoplay, Mousewheel]" :slidesPerView="2"
               :spaceBetween="10" :mousewheel="true" :loop="true" :autoplay="{ delay: 2500, disableOnInteraction: false }"
-              style="height: 242px">
+              style="height: 248px">
               <swiper-slide>
                 <div class="swiper-slide">
                   <BCard no-body class="border border-dashed shadow-none">
@@ -643,7 +645,7 @@ export default {
         <BRow class="g-4 mb-3">
           <BCol sm="auto">
             <div>
-              <router-link to="/ecommerce/add-product" class="btn btn-success"><i
+              <router-link to="/ecommerce/add-product" class="btn btn-primary"><i
                   class="ri-add-line align-bottom me-1"></i> Add New</router-link>
             </div>
           </BCol>

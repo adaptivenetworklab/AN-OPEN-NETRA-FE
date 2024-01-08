@@ -176,7 +176,7 @@ export default {
               <li class="nav-item">
                 <a class="nav-link menu-link" href="#sidebarDashboards" data-bs-toggle="collapse" role="button"
                   aria-expanded="false" aria-controls="sidebarDashboards">
-                  <i class="bx bxs-dashboard"></i>
+                  <i class="ri-dashboard-2-line"></i>
                   <span data-key="t-dashboards"> {{ $t("t-dashboards") }}</span>
                 </a>
                 <div class="collapse menu-dropdown" id="sidebarDashboards">
@@ -223,7 +223,7 @@ export default {
               <li class="nav-item">
                 <a class="nav-link menu-link" href="#sidebarApps" data-bs-toggle="collapse" role="button"
                   aria-expanded="false" aria-controls="sidebarApps">
-                  <i class="bx bx-layer"></i>
+                  <i class="ri-apps-2-line"></i>
                   <span data-key="t-apps"> {{ $t("t-apps") }}</span>
                 </a>
                 <div class="collapse menu-dropdown" id="sidebarApps">
@@ -869,7 +869,7 @@ export default {
               <li class="nav-item">
                 <a class="nav-link menu-link" href="#sidebarPages" data-bs-toggle="collapse" role="button"
                   aria-expanded="false" aria-controls="sidebarPages">
-                  <i class="bx bx-file"></i>
+                  <i class="ri-pages-line"></i>
                   <span data-key="t-pages">{{ $t("t-pages") }}</span>
                 </a>
                 <div class="collapse menu-dropdown" id="sidebarPages">
@@ -987,7 +987,7 @@ export default {
               <li class="nav-item">
                 <a class="nav-link menu-link" href="#sidebarUI" data-bs-toggle="collapse" role="button"
                   aria-expanded="false" aria-controls="sidebarUI">
-                  <i class="bx bx-palette"></i>
+                  <i class="ri-pencil-ruler-2-line"></i>
                   <span data-key="t-base-ui">{{ $t("t-base-ui") }}</span>
                 </a>
                 <div class="collapse menu-dropdown mega-dropdown-menu" id="sidebarUI">

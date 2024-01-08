@@ -270,19 +270,19 @@ export default {
               <div class="d-flex gap-2">
                 <div>
                   <input type="radio" class="btn-check" id="passport" checked name="choose-document" />
-                  <label class="btn btn-outline-info" for="passport">Passport</label>
+                  <label class="btn btn-outline-primary" for="passport">Passport</label>
                 </div>
                 <div>
                   <input type="radio" class="btn-check" id="aadhar-card" name="choose-document" />
-                  <label class="btn btn-outline-info" for="aadhar-card">Aadhar Card</label>
+                  <label class="btn btn-outline-primary" for="aadhar-card">Aadhar Card</label>
                 </div>
                 <div>
                   <input type="radio" class="btn-check" id="pan-card" name="choose-document" />
-                  <label class="btn btn-outline-info" for="pan-card">Pan Card</label>
+                  <label class="btn btn-outline-primary" for="pan-card">Pan Card</label>
                 </div>
                 <div>
                   <input type="radio" class="btn-check" id="other" name="choose-document" />
-                  <label class="btn btn-outline-info" for="other">Other</label>
+                  <label class="btn btn-outline-primary" for="other">Other</label>
                 </div>
               </div>
 
@@ -330,7 +330,7 @@ export default {
               <BRow class="text-center justify-content-center">
                 <BCol lg="11">
                   <div class="mb-4">
-                    <lottie colors="primary:#0ab39c,secondary:#405189" :options="defaultOptions" :height="120"
+                    <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions" :height="120"
                       :width="120" />
                   </div>
                   <h5>Verification Completed</h5>
@@ -342,7 +342,7 @@ export default {
                   </p>
 
                   <div class="hstack justify-content-center gap-2">
-                    <BButton type="button" variant="ghost-success" @click="modalShow = false">
+                    <BButton type="button" variant="ghost-primary" @click="modalShow = false">
                       Done
                       <i class="ri-thumb-up-fill align-bottom me-1"></i>
                     </BButton>

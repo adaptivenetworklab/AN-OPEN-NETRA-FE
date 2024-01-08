@@ -85,7 +85,7 @@ export default {
     <BCardHeader class="d-flex align-items-center">
       <BCardTitle class="flex-grow-1 mb-0">Active Projects</BCardTitle>
       <div class="flex-shrink-0">
-        <BLink href="javascript:void(0);" class="btn btn-soft-info btn-sm">Export Report</BLink>
+        <BLink href="javascript:void(0);" class="btn btn-soft-secondary btn-sm">Export Report</BLink>
       </div>
     </BCardHeader>
     <BCardBody>

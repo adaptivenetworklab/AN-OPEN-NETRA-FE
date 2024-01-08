@@ -35,7 +35,7 @@ export default {
 
                 <BProgress  class="progress-lg rounded-pill">
                     <BProgressBar  :value="25" variant="primary" class="rounded-0" />
-                    <BProgressBar :value="18" variant="info" class="rounded-0" />
+                    <BProgressBar :value="18" variant="secondary" class="rounded-0" />
                     <BProgressBar :value="22" variant="success" class="rounded-0" />
                     <BProgressBar :value="16" variant="warning" class="rounded-0" />
                     <BProgressBar :value="19" variant="danger" class="rounded-0" />
@@ -55,7 +55,7 @@ export default {
                 <div class="d-flex mb-2">
                     <div class="flex-grow-1">
                         <p class="text-truncate text-muted fs-14 mb-0"><i
-                                class="mdi mdi-circle align-middle text-info me-2"></i>www.youtube.com</p>
+                                class="mdi mdi-circle align-middle text-secondary me-2"></i>www.youtube.com</p>
                     </div>
                     <div class="flex-shrink-0">
                         <p class="mb-0">17.51%</p>

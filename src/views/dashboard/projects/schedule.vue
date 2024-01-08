@@ -34,7 +34,7 @@ export default {
       <div class="mini-stats-wid d-flex align-items-center mt-3">
         <div class="flex-shrink-0 avatar-sm">
           <span
-            class="mini-stat-icon avatar-title rounded-circle text-success bg-success-subtle fs-4"
+            class="mini-stat-icon avatar-title rounded-circle text-primary bg-primary-subtle fs-4"
           >
             09
           </span>
@@ -52,7 +52,7 @@ export default {
       <div class="mini-stats-wid d-flex align-items-center mt-3">
         <div class="flex-shrink-0 avatar-sm">
           <span
-            class="mini-stat-icon avatar-title rounded-circle text-success bg-success-subtle fs-4"
+            class="mini-stat-icon avatar-title rounded-circle text-primary bg-primary-subtle fs-4"
           >
             12
           </span>
@@ -70,7 +70,7 @@ export default {
       <div class="mini-stats-wid d-flex align-items-center mt-3">
         <div class="flex-shrink-0 avatar-sm">
           <span
-            class="mini-stat-icon avatar-title rounded-circle text-success bg-success-subtle fs-4"
+            class="mini-stat-icon avatar-title rounded-circle text-primary bg-primary-subtle fs-4"
           >
             25
           </span>
@@ -88,7 +88,7 @@ export default {
       <div class="mini-stats-wid d-flex align-items-center mt-3">
         <div class="flex-shrink-0 avatar-sm">
           <span
-            class="mini-stat-icon avatar-title rounded-circle text-success bg-success-subtle fs-4"
+            class="mini-stat-icon avatar-title rounded-circle text-primary bg-primary-subtle fs-4"
           >
             27
           </span>

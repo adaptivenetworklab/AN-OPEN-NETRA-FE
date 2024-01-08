@@ -20,8 +20,8 @@ export default {
     <Layout>
         <BRow>
             <BCol lg="12">
-                <BCard no-body class="mt-n4 mx-n4">
-                    <div class="bg-warning-subtle">
+                <BCard no-body class="mt-n4 mx-n4 border-0">
+                    <div class="bg-primary-subtle">
                         <BCardBody class="pb-0 px-4">
                             <BRow class="mb-3">
                                 <BCol md>
@@ -44,8 +44,8 @@ export default {
                                                     <div class="vr"></div>
                                                     <div>Due Date : <span class="fw-medium">29 Dec, 2021</span></div>
                                                     <div class="vr"></div>
-                                                    <BBadge pill class="bg-info fs-12">New</BBadge>
-                                                    <BBadge variant="danger" pill class="bg-danger fs-12">High</BBadge>
+                                                    <BBadge pill class="bg-primary fs-12">New</BBadge>
+                                                    <BBadge variant="danger" pill class="bg-success fs-12">High</BBadge>
                                                 </div>
                                             </div>
                                         </BCol>
@@ -74,13 +74,13 @@ export default {
         <BRow>
             <BCol lg="12">
                 <BTabs variant="link" nav-class="nav-tabs-custom border-bottom-0">
-                    <BTab title="Overview" active class="fw-semibold pt-2 text-body">
+                    <BTab title="Overview" active class="fw-semibold pt-2">
                         <BRow>
                             <BCol xl="9" lg="8">
                                 <BCard no-body>
                                     <BCardBody>
                                         <div class="text-muted">
-                                            <h6 class="mb-3 text-uppercase">Summary</h6>
+                                            <h6 class="mb-3 fw-semibold text-uppercase">Summary</h6>
                                             <p>It will be as simple as occidental in fact, it will be Occidental. To an
                                                 English person, it will seem like simplified English, as a skeptical
                                                 Cambridge friend of mine told me what Occidental is. The European
@@ -98,7 +98,7 @@ export default {
                                             </ul>
 
                                             <div>
-                                                <BButton type="button" variant="link" class="link-success p-0">Read
+                                                <BButton type="button" variant="link" class="link-secondary p-0">Read
                                                     more</BButton>
                                             </div>
 
@@ -108,25 +108,25 @@ export default {
                                                     <BCol lg="3" sm="6">
                                                         <div>
                                                             <p class="mb-2 text-uppercase fw-medium">Create Date :</p>
-                                                            <h5 class="fs-14 mb-0">15 Sep, 2021</h5>
+                                                            <h5 class="fs-15 mb-0">15 Sep, 2021</h5>
                                                         </div>
                                                     </BCol>
                                                     <BCol lg="3" sm="6">
                                                         <div>
                                                             <p class="mb-2 text-uppercase fw-medium">Due Date :</p>
-                                                            <h5 class="fs-14 mb-0">29 Dec, 2021</h5>
+                                                            <h5 class="fs-15 mb-0">29 Dec, 2021</h5>
                                                         </div>
                                                     </BCol>
                                                     <BCol lg="3" sm="6">
                                                         <div>
                                                             <p class="mb-2 text-uppercase fw-medium">Priority :</p>
-                                                            <BBadge tag="div" class="bg-danger fs-11">High</BBadge>
+                                                            <BBadge tag="div" class="bg-success fs-12">High</BBadge>
                                                         </div>
                                                     </BCol>
                                                     <BCol lg="3" sm="6">
                                                         <div>
                                                             <p class="mb-2 text-uppercase fw-medium">Status :</p>
-                                                            <BBadge tag="div" class="bg-warning fs-11">Inprogress</BBadge>
+                                                            <BBadge tag="div" class="bg-primary fs-12">Inprogress</BBadge>
                                                         </div>
                                                     </BCol>
                                                 </BRow>
@@ -141,7 +141,7 @@ export default {
                                                                 <div class="flex-shrink-0 me-3">
                                                                     <div class="avatar-sm">
                                                                         <div
-                                                                            class="avatar-title bg-light text-secondary rounded fs-24">
+                                                                            class="avatar-title bg-light text-primary rounded fs-24">
                                                                             <i class="ri-folder-zip-line"></i>
                                                                         </div>
                                                                     </div>
@@ -185,7 +185,7 @@ export default {
                                                                 <div class="flex-shrink-0 me-3">
                                                                     <div class="avatar-sm">
                                                                         <div
-                                                                            class="avatar-title bg-light text-secondary rounded fs-24">
+                                                                            class="avatar-title bg-light text-primary rounded fs-24">
                                                                             <i class="ri-file-ppt-2-line"></i>
                                                                         </div>
                                                                     </div>
@@ -357,11 +357,11 @@ export default {
                                                         placeholder="Enter your comment..."></textarea>
                                                 </BCol>
                                                 <BCol cols="12" class="text-end">
-                                                    <BButton type="button" variant="ghost-secondary"
+                                                    <BButton type="button" variant="ghost-primary"
                                                         class="btn-icon waves-effect me-1">
                                                         <i class="ri-attachment-line fs-16"></i>
                                                     </BButton>
-                                                    <BLink href="javascript:void(0);" class="btn btn-success">Post
+                                                    <BLink href="javascript:void(0);" class="btn btn-primary">Post
                                                         Comments</BLink>
                                                 </BCol>
                                             </BRow>
@@ -396,7 +396,7 @@ export default {
                                     <BCardHeader class="align-items-center d-flex border-bottom-dashed">
                                         <BCardTitle class="mb-0 flex-grow-1">Members</BCardTitle>
                                         <div class="flex-shrink-0">
-                                            <BButton type="button" variant="soft-danger" size="sm"><i
+                                            <BButton type="button" variant="soft-primary" size="sm"><i
                                                     class="ri-share-line me-1 align-bottom"></i> Invite Member
                                             </BButton>
                                         </div>
@@ -445,7 +445,7 @@ export default {
                                                 <div class="d-flex align-items-center">
                                                     <div class="avatar-xs flex-shrink-0 me-3">
                                                         <div
-                                                            class="avatar-title bg-danger-subtle text-danger rounded-circle">
+                                                            class="avatar-title bg-success-subtle text-success rounded-circle">
                                                             HB
                                                         </div>
                                                     </div>
@@ -635,7 +635,7 @@ export default {
                                     <BCardHeader class="align-items-center d-flex border-bottom-dashed">
                                         <BCardTitle class="mb-0 flex-grow-1">Attachments</BCardTitle>
                                         <div class="flex-shrink-0">
-                                            <BButton type="button" variant="soft-info" size="sm"><i
+                                            <BButton type="button" variant="soft-primary" size="sm"><i
                                                     class="ri-upload-2-fill me-1 align-bottom"></i> Upload</BButton>
                                         </div>
                                     </BCardHeader>
@@ -647,7 +647,7 @@ export default {
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
+                                                            <div class="avatar-title bg-light text-primary rounded fs-24">
                                                                 <i class="ri-folder-zip-line"></i>
                                                             </div>
                                                         </div>
@@ -688,7 +688,7 @@ export default {
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
+                                                            <div class="avatar-title bg-light text-primary rounded fs-24">
                                                                 <i class="ri-file-ppt-2-line"></i>
                                                             </div>
                                                         </div>
@@ -729,7 +729,7 @@ export default {
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
+                                                            <div class="avatar-title bg-light text-primary rounded fs-24">
                                                                 <i class="ri-folder-zip-line"></i>
                                                             </div>
                                                         </div>
@@ -770,7 +770,7 @@ export default {
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar-sm">
-                                                            <div class="avatar-title bg-light text-secondary rounded fs-24">
+                                                            <div class="avatar-title bg-light text-primary rounded fs-24">
                                                                 <i class="ri-image-2-line"></i>
                                                             </div>
                                                         </div>
@@ -808,7 +808,7 @@ export default {
                                             </div>
 
                                             <div class="mt-2 text-center">
-                                                <BButton type="button" variant="success">View more</BButton>
+                                                <BButton type="button" variant="primary">View more</BButton>
                                             </div>
                                         </div>
                                     </BCardBody>
@@ -816,7 +816,7 @@ export default {
                             </BCol>
                         </BRow>
                     </BTab>
-                    <BTab title="Documents" class="fw-semibold pt-2 text-body">
+                    <BTab title="Documents" class="fw-semibold pt-2">
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-flex align-items-center mb-4">
@@ -840,7 +840,7 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-secondary rounded fs-24">
+                                                                    class="avatar-title bg-light text-primary rounded fs-24">
                                                                     <i class="ri-folder-zip-line"></i>
                                                                 </div>
                                                             </div>
@@ -858,7 +858,7 @@ export default {
                                                     <td>12 Dec 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -881,12 +881,12 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-danger rounded fs-24">
+                                                                    class="avatar-title bg-light text-primary rounded fs-24">
                                                                     <i class="ri-file-pdf-fill"></i>
                                                                 </div>
                                                             </div>
                                                             <div class="ms-3 flex-grow-1">
-                                                                <h5 class="fs-13 mb-0">
+                                                                <h5 class="fs-14 mb-0">
                                                                     <BLink href="javascript:void(0);" class="text-body">
                                                                         Bank Management System
                                                                     </BLink>
@@ -899,7 +899,7 @@ export default {
                                                     <td>24 Nov 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -922,12 +922,12 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-secondary rounded fs-24">
+                                                                    class="avatar-title bg-light text-primary rounded fs-24">
                                                                     <i class="ri-video-line"></i>
                                                                 </div>
                                                             </div>
                                                             <div class="ms-3 flex-grow-1">
-                                                                <h5 class="fs-13 mb-0">
+                                                                <h5 class="fs-14 mb-0">
                                                                     <BLink href="javascript:void(0);" class="text-body">
                                                                         Tour-video.mp4</BLink>
                                                                 </h5>
@@ -939,7 +939,7 @@ export default {
                                                     <td>19 Nov 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -962,12 +962,12 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-success rounded fs-24">
+                                                                    class="avatar-title bg-light text-primary rounded fs-24">
                                                                     <i class="ri-file-excel-fill"></i>
                                                                 </div>
                                                             </div>
                                                             <div class="ms-3 flex-grow-1">
-                                                                <h5 class="fs-13 mb-0">
+                                                                <h5 class="fs-14 mb-0">
                                                                     <BLink href="javascript:void(0);" class="text-body">
                                                                         Account-statement.xsl
                                                                     </BLink>
@@ -980,7 +980,7 @@ export default {
                                                     <td>14 Nov 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -1003,12 +1003,12 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-warning rounded fs-24">
+                                                                    class="avatar-title bg-light text-primary rounded fs-24">
                                                                     <i class="ri-folder-fill"></i>
                                                                 </div>
                                                             </div>
                                                             <div class="ms-3 flex-grow-1">
-                                                                <h5 class="fs-13 mb-0">
+                                                                <h5 class="fs-14 mb-0">
                                                                     <BLink href="javascript:void(0);" class="text-body">
                                                                         Project Screenshots
                                                                         Collection</BLink>
@@ -1021,7 +1021,7 @@ export default {
                                                     <td>08 Nov 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -1044,12 +1044,12 @@ export default {
                                                         <div class="d-flex align-items-center">
                                                             <div class="avatar-sm">
                                                                 <div
-                                                                    class="avatar-title bg-light text-danger rounded fs-24">
+                                                                    class="avatar-title bg-light text-primary rounded fs-24">
                                                                     <i class="ri-image-2-fill"></i>
                                                                 </div>
                                                             </div>
                                                             <div class="ms-3 flex-grow-1">
-                                                                <h5 class="fs-13 mb-0">
+                                                                <h5 class="fs-14 mb-0">
                                                                     <BLink href="javascript:void(0);" class="text-body">
                                                                         Velzon-logo.png</BLink>
                                                                 </h5>
@@ -1061,7 +1061,7 @@ export default {
                                                     <td>02 Nov 2021</td>
                                                     <td>
                                                         <BDropdown variant="link"
-                                                            toggle-class="btn btn-soft-secondary btn-sm btn-icon arrow-none"
+                                                            toggle-class="btn btn-soft-primary btn-sm btn-icon arrow-none"
                                                             menu-class="dropdown-menu-end"
                                                             :offset="{ alignmentAxis: -130, crossAxis: 0, mainAxis: 10 }">
                                                             <template #button-content>
@@ -1083,7 +1083,7 @@ export default {
                                         </table>
                                     </div>
                                     <div class="text-center mt-3">
-                                        <BLink href="javascript:void(0);" class="text-success "><i
+                                        <BLink href="javascript:void(0);" class="text-primary "><i
                                                 class="mdi mdi-loading mdi-spin fs-20 align-middle me-2"></i> Load
                                             more </BLink>
                                     </div>
@@ -1092,7 +1092,7 @@ export default {
                             </div>
                         </div>
                     </BTab>
-                    <BTab title="Activities" class="fw-semibold pt-2 text-body">
+                    <BTab title="Activities" class="fw-semibold pt-2">
                         <BCard no-body>
                             <BCardBody>
                                 <h5 class="card-title">Activities</h5>
@@ -1204,7 +1204,7 @@ export default {
                                     <div class="acitivity-item py-3 d-flex">
                                         <div class="flex-shrink-0">
                                             <div class="avatar-xs acitivity-avatar">
-                                                <div class="avatar-title rounded-circle bg-danger-subtle text-danger">
+                                                <div class="avatar-title rounded-circle bg-primary-subtle text-primary">
                                                     <i class="ri-shopping-bag-line"></i>
                                                 </div>
                                             </div>
@@ -1235,7 +1235,7 @@ export default {
                                     <div class="acitivity-item py-3 d-flex">
                                         <div class="flex-shrink-0">
                                             <div class="avatar-xs acitivity-avatar">
-                                                <div class="avatar-title rounded-circle bg-info-subtle text-info">
+                                                <div class="avatar-title rounded-circle bg-primary-subtle text-primary">
                                                     <i class="ri-line-chart-line"></i>
                                                 </div>
                                             </div>
@@ -1245,7 +1245,7 @@ export default {
                                             <p class="text-muted mb-2"><span class="text-danger">2 days left</span>
                                                 notification to submit the monthly sales report. <BLink
                                                     href="javascript:void(0);"
-                                                    class="link-warning text-decoration-underline">Reports Builder
+                                                    class="link-primary text-decoration-underline">Reports Builder
                                                 </BLink>
                                             </p>
                                             <small class="mb-0 text-muted">15 Oct</small>
@@ -1269,7 +1269,7 @@ export default {
                             </BCardBody>
                         </BCard>
                     </BTab>
-                    <BTab title="Team" class="fw-semibold pt-2 text-body">
+                    <BTab title="Team" class="fw-semibold pt-2">
                         <BRow class="g-4 mb-3">
                             <BCol sm>
                                 <div class="d-flex">
@@ -1281,7 +1281,7 @@ export default {
                             </BCol>
                             <BCol sm="auto">
                                 <div>
-                                    <BButton type="button" variant="danger"><i class="ri-share-line me-1 align-bottom"></i>
+                                    <BButton type="button" variant="primary"><i class="ri-share-line me-1 align-bottom"></i>
                                         Invite Member</BButton>
                                 </div>
                             </BCol>
@@ -1323,7 +1323,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-15 mb-1">Nancy Martino</h5>
+                                                        <h5 class="fs-16 mb-1">Nancy Martino</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Team Leader & HR</p>
                                                 </div>
@@ -1332,11 +1332,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="fs-15 mb-1">225</h5>
+                                                    <h5 class="mb-1">225</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="fs-15 mb-1">197</h5>
+                                                    <h5 class="mb-1">197</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1380,13 +1380,13 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <div class="team-profile-img">
                                                 <div class="avatar-lg img-thumbnail rounded-circle">
-                                                    <div class="avatar-title bg-danger-subtle text-danger rounded-circle">
+                                                    <div class="avatar-title bg-primary-subtle text-primary rounded-circle">
                                                         HB
                                                     </div>
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-15 mb-1">Henry Baird</h5>
+                                                        <h5 class="fs-16 mb-1">Henry Baird</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Full Stack Developer</p>
                                                 </div>
@@ -1395,11 +1395,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="fs-15 mb-1">352</h5>
+                                                    <h5 class="mb-1">352</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="fs-15 mb-1">376</h5>
+                                                    <h5 class="mb-1">376</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1448,7 +1448,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-15 mb-1">Frank Hook</h5>
+                                                        <h5 class="fs-16 mb-1">Frank Hook</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Project Manager</p>
                                                 </div>
@@ -1457,11 +1457,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="fs-15 mb-1">164</h5>
+                                                    <h5 class="mb-1">164</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="fs-15 mb-1">182</h5>
+                                                    <h5 class="mb-1">182</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1510,7 +1510,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-15 mb-1">Jennifer Carter</h5>
+                                                        <h5 class="fs-16 mb-1">Jennifer Carter</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">UI/UX Designer</p>
                                                 </div>
@@ -1519,11 +1519,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="fs-15 mb-1">225</h5>
+                                                    <h5 class="mb-1">225</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="fs-15 mb-1">197</h5>
+                                                    <h5 class="mb-1">197</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1567,13 +1567,13 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <div class="team-profile-img">
                                                 <div class="avatar-lg img-thumbnail rounded-circle">
-                                                    <div class="avatar-title bg-success-subtle text-success rounded-circle">
+                                                    <div class="avatar-title bg-primary-subtle text-primary rounded-circle">
                                                         ME
                                                     </div>
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-15 mb-1">Megan Elmore</h5>
+                                                        <h5 class="fs-16 mb-1">Megan Elmore</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Team Leader & Web Developer</p>
                                                 </div>
@@ -1582,11 +1582,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="fs-15 mb-1">201</h5>
+                                                    <h5 class="mb-1">201</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="fs-15 mb-1">263</h5>
+                                                    <h5 class="mb-1">263</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1635,7 +1635,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-15 mb-1">Alexis Clarke</h5>
+                                                        <h5 class="fs-16 mb-1">Alexis Clarke</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Backend Developer</p>
                                                 </div>
@@ -1644,11 +1644,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="fs-15 mb-1">132</h5>
+                                                    <h5 class="mb-1">132</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="fs-15 mb-1">147</h5>
+                                                    <h5 class="mb-1">147</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1692,13 +1692,13 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <div class="team-profile-img">
                                                 <div class="avatar-lg img-thumbnail rounded-circle">
-                                                    <div class="avatar-title bg-info-subtle text-info rounded-circle">
+                                                    <div class="avatar-title bg-primary-subtle text-primary rounded-circle">
                                                         NC
                                                     </div>
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-15 mb-1">Nathan Cole</h5>
+                                                        <h5 class="fs-16 mb-1">Nathan Cole</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Front-End Developer</p>
                                                 </div>
@@ -1707,11 +1707,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="fs-15 mb-1">352</h5>
+                                                    <h5 class="mb-1">352</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="fs-15 mb-1">376</h5>
+                                                    <h5 class="mb-1">376</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1760,7 +1760,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-15 mb-1">Joseph Parker</h5>
+                                                        <h5 class="fs-16 mb-1">Joseph Parker</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Team Leader & HR</p>
                                                 </div>
@@ -1769,11 +1769,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="fs-15 mb-1">64</h5>
+                                                    <h5 class="mb-1">64</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="fs-15 mb-1">93</h5>
+                                                    <h5 class="mb-1">93</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1822,7 +1822,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-15 mb-1">Erica Kernan</h5>
+                                                        <h5 class="fs-16 mb-1">Erica Kernan</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Web Designer</p>
                                                 </div>
@@ -1831,11 +1831,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="fs-15 mb-1">345</h5>
+                                                    <h5 class="mb-1">345</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="fs-15 mb-1">298</h5>
+                                                    <h5 class="mb-1">298</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>
@@ -1885,7 +1885,7 @@ export default {
                                                 </div>
                                                 <div class="team-content">
                                                     <BLink href="#" class="d-block">
-                                                        <h5 class="fs-15 mb-1">Donald Palmer</h5>
+                                                        <h5 class="fs-16 mb-1">Donald Palmer</h5>
                                                     </BLink>
                                                     <p class="text-muted mb-0">Wed Developer</p>
                                                 </div>
@@ -1894,11 +1894,11 @@ export default {
                                         <BCol lg="4" sm="4" cols>
                                             <BRow class="text-muted text-center">
                                                 <BCol cols="6" class="border-end border-end-dashed">
-                                                    <h5 class="fs-15 mb-1">97</h5>
+                                                    <h5 class="mb-1">97</h5>
                                                     <p class="text-muted mb-0">Projects</p>
                                                 </BCol>
                                                 <BCol cols="6">
-                                                    <h5 class="fs-15 mb-1">135</h5>
+                                                    <h5 class="mb-1">135</h5>
                                                     <p class="text-muted mb-0">Tasks</p>
                                                 </BCol>
                                             </BRow>

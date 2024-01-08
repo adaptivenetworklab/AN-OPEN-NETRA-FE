@@ -45,26 +45,26 @@ export default {
                                                                 Management</span></BLink>
                                                         <ul>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Sign Up</span>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Sign Up</span>
                                                                 </BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Login</span></BLink>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Login</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Profile
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Profile
                                                                         Settings</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Modify
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Modify
                                                                         Reservation</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Cancel
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Cancel
                                                                         Reservation</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Write
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Write
                                                                         Reviews</span></BLink>
                                                             </li>
                                                         </ul>
@@ -74,23 +74,23 @@ export default {
                                                                 Us</span></BLink>
                                                         <ul>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Overview</span>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Overview</span>
                                                                 </BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Connect Via Social
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Connect Via Social
                                                                         Media</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Careers</span>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Careers</span>
                                                                 </BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Team
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Team
                                                                         Members</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Policies</span>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Policies</span>
                                                                 </BLink>
                                                             </li>
                                                         </ul>
@@ -100,19 +100,19 @@ export default {
                                                                 Trip</span></BLink>
                                                         <ul>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Travel
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Travel
                                                                         Details</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Reservation
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Reservation
                                                                         Process</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Payment
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Payment
                                                                         Option</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Confirmation</span>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Confirmation</span>
                                                                 </BLink>
                                                             </li>
                                                         </ul>
@@ -123,33 +123,33 @@ export default {
                                                         </BLink>
                                                         <ul>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Architecture</span>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Architecture</span>
                                                                 </BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Art</span></BLink>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Art</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Entertainment</span>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Entertainment</span>
                                                                 </BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>History</span>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>History</span>
                                                                 </BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Science</span>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Science</span>
                                                                 </BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Sports</span>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Sports</span>
                                                                 </BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Music</span></BLink>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Music</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Tracking
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Tracking
                                                                         Camp</span></BLink>
                                                             </li>
                                                         </ul>
@@ -159,19 +159,19 @@ export default {
                                                                 Tips</span></BLink>
                                                         <ul>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>General
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>General
                                                                         Travel</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Helpth
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Helpth
                                                                         Concerns</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>Safety
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>Safety
                                                                         Measures</span></BLink>
                                                             </li>
                                                             <li>
-                                                                <BLink href="javascript:void(0);"><span>FAQ's</span></BLink>
+                                                                <BLink href="javascript:void(0);" class="border shadow-none"><span>FAQ's</span></BLink>
                                                             </li>
                                                         </ul>
                                                     </li>

@@ -59,7 +59,7 @@ export default {
           change: "+13.11%",
           changeClass: "success",
           coinName: "btc",
-          chartsColor: "#13c56b",
+          chartsColor: "#0ab39c",
           chartOptions: {
             chart: {
               width: "100%",
@@ -89,7 +89,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#13c56b"],
+            colors: ["#0ab39c"],
           },
           series: [
             {
@@ -106,7 +106,7 @@ export default {
           change: "+15.08%",
           changeClass: "success",
           coinName: "ltc",
-          chartsColor: "#13c56b",
+          chartsColor: "#0ab39c",
           chartOptions: {
             chart: {
               width: "100%",
@@ -136,7 +136,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#13c56b"],
+            colors: ["#0ab39c"],
           },
           series: [
             {
@@ -153,7 +153,7 @@ export default {
           change: "+08.57%",
           changeClass: "success",
           coinName: "etc",
-          chartsColor: "#13c56b",
+          chartsColor: "#0ab39c",
           chartOptions: {
             chart: {
               width: "100%",
@@ -183,7 +183,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#13c56b"],
+            colors: ["#0ab39c"],
           },
           series: [
             {
@@ -200,7 +200,7 @@ export default {
           change: "-09.21%",
           changeClass: "danger",
           coinName: "bnb",
-          chartsColor: "#ed5e5e",
+          chartsColor: "#F06548",
           chartOptions: {
             chart: {
               width: "100%",
@@ -230,7 +230,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#ed5e5e"],
+            colors: ["#F06548"],
           },
           series: [
             {
@@ -247,7 +247,7 @@ export default {
           change: "+12.07%",
           changeClass: "success",
           coinName: "dash",
-          chartsColor: "#13c56b",
+          chartsColor: "#0ab39c",
           chartOptions: {
             chart: {
               width: "100%",
@@ -277,7 +277,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#13c56b"],
+            colors: ["#0ab39c"],
           },
           series: [
             {
@@ -294,7 +294,7 @@ export default {
           change: "+14.99%",
           changeClass: "success",
           coinName: "usdt",
-          chartsColor: "#13c56b",
+          chartsColor: "#0ab39c",
           chartOptions: {
             chart: {
               width: "100%",
@@ -324,7 +324,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#13c56b"],
+            colors: ["#0ab39c"],
           },
           series: [
             {
@@ -341,7 +341,7 @@ export default {
           change: "-05.07%",
           changeClass: "danger",
           coinName: "neo",
-          chartsColor: "#ed5e5e",
+          chartsColor: "#F06548",
           chartOptions: {
             chart: {
               width: "100%",
@@ -371,7 +371,7 @@ export default {
                 stops: [50, 100, 100, 100],
               },
             },
-            colors: ["#ed5e5e"],
+            colors: ["#F06548"],
           },
           series: [
             {
@@ -452,7 +452,7 @@ export default {
                     </span>
                   </div>
                   <div class="flex-grow-1 ms-3">
-                    <p class="text-uppercase fw-medium fs-12 text-muted mb-1">
+                    <p class="text-uppercase fw-semibold fs-12 text-muted mb-1">
                       {{ item.label }}
                     </p>
                     <h4 class="mb-0">

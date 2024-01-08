@@ -7,28 +7,13 @@ import simpleBar from "simplebar-vue";
  */
 
 export default {
+
   data() {
     return {
       show: false,
-      showGradients: false,
-      resetLayoutMode: {},
+      showGradients: false
     };
   },
-  beforeCreate() {
-    console.log(
-      "this.resetLayoutMode",
-      (this.resetLayoutMode = this.$store.state.layout)
-    );
-    localStorage.setItem(
-      "resetValue",
-      JSON.stringify(this.$store.state.layout)
-    );
-    localStorage.setItem(
-      "resetValue",
-      JSON.stringify(this.$store.state.layout)
-    );
-  },
-
   methods: {
     ...layoutMethods,
     click() {
@@ -42,39 +27,21 @@ export default {
     resizeWindow() {
       var windowSize = document.documentElement.clientWidth;
       if (windowSize >= 1025) {
-        if (
-          document.documentElement.getAttribute("data-layout") === "vertical"
-        ) {
-          document.documentElement.setAttribute(
-            "data-sidebar-size",
-            this.$store.state.layout.sidebarSize
-          );
+        if (document.documentElement.getAttribute("data-layout") === "vertical") {
+          document.documentElement.setAttribute("data-sidebar-size", this.$store.state.layout.sidebarSize);
         }
-        if (
-          document.documentElement.getAttribute("data-layout") === "semibox"
-        ) {
-          document.documentElement.setAttribute(
-            "data-sidebar-size",
-            this.$store.state.layout.sidebarSize
-          );
+        if (document.documentElement.getAttribute("data-layout") === "semibox") {
+          document.documentElement.setAttribute("data-sidebar-size", this.$store.state.layout.sidebarSize);
         }
-        if (
-          document.documentElement.getAttribute("data-sidebar-visibility") ===
-          "show" &&
-          document.querySelector(".hamburger-icon")
-        ) {
+        if (document.documentElement.getAttribute("data-sidebar-visibility") === "show" && document.querySelector(".hamburger-icon")) {
           document.querySelector(".hamburger-icon").classList.remove("open");
         }
       } else if (windowSize < 1025 && windowSize > 767) {
         document.body.classList.remove("twocolumn-panel");
-        if (
-          document.documentElement.getAttribute("data-layout") === "vertical"
-        ) {
+        if (document.documentElement.getAttribute("data-layout") === "vertical") {
           document.documentElement.setAttribute("data-sidebar-size", "sm");
         }
-        if (
-          document.documentElement.getAttribute("data-layout") === "semibox"
-        ) {
+        if (document.documentElement.getAttribute("data-layout") === "semibox") {
           document.documentElement.setAttribute("data-sidebar-size", "sm");
         }
         if (document.querySelector(".hamburger-icon")) {
@@ -83,9 +50,7 @@ export default {
       } else if (windowSize <= 767) {
         document.body.classList.remove("vertical-sidebar-enable");
         document.body.classList.add("twocolumn-panel");
-        if (
-          document.documentElement.getAttribute("data-layout") !== "horizontal"
-        ) {
+        if (document.documentElement.getAttribute("data-layout") !== "horizontal") {
           document.documentElement.setAttribute("data-sidebar-size", "lg");
         }
         if (document.querySelector(".hamburger-icon")) {
@@ -95,46 +60,30 @@ export default {
     },
 
     resetLayout() {
-      let reset = JSON.parse(localStorage.getItem("resetValue"));
-      document.documentElement.setAttribute("data-sidebar-size", "lg");
-      this.changeMode({ mode: reset.mode });
-      this.changeSidebarColor({ sidebarColor: reset.sidebarColor });
-      this.changeLayoutType({ layoutType: reset.layoutType });
-      this.changeTopbar({ topbar: reset.topbar });
-      this.changeLayoutWidth({ layoutWidth: reset.layoutWidth });
-      this.changeSidebarSize({ sidebarSize: reset.sidebarSize });
-      this.changeSidebarImage({ sidebarImage: reset.sidebarImage });
-      this.changeSidebarColor({ sidebarColor: reset.sidebarColor });
-      this.changePreloader({ preloader: reset.preloader });
-      this.changeSidebarView({ sidebarView: reset.sidebarView });
-      this.changeVisibility({ visibility: reset.visibility });
-      this.changePosition({ position: reset.position });
-
+      location.reload();
     },
 
     gradiantColor() {
-      this.changeSidebarColor({ sidebarColor: "gradient" });
+      this.changeSidebarColor({ sidebarColor: "gradient" })
     },
 
     onSideBarColorClick(color) {
-      if (color !== "gradient") {
-        this.showGradients = false;
+      if (color !== 'gradient') {
+        this.showGradients = false
       } else {
-        this.showGradients = true;
+        this.showGradients = true
         this.gradiantColor();
       }
-    },
+    }
   },
   mounted() {
+
     let backtoTop = document.getElementById("back-to-top");
 
     if (backtoTop) {
       backtoTop = document.getElementById("back-to-top");
       window.onscroll = function () {
-        if (
-          document.body.scrollTop > 100 ||
-          document.documentElement.scrollTop > 100
-        ) {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
           backtoTop.style.display = "block";
         } else {
           backtoTop.style.display = "none";
@@ -142,10 +91,7 @@ export default {
       };
     }
     var setpreloader = document.getElementById("preloader");
-    if (
-      localStorage.getItem("data-preloader") &&
-      localStorage.getItem("data-preloader") == "enable"
-    ) {
+    if (localStorage.getItem('data-preloader') && localStorage.getItem('data-preloader') == 'enable') {
       document.documentElement.setAttribute("data-preloader", "enable");
       if (setpreloader) {
         setTimeout(function () {
@@ -160,62 +106,36 @@ export default {
         setpreloader.style.visibility = "hidden";
       }
     }
-    if (document.getElementById("collapseBgGradient")) {
-      Array.from(
-        document.querySelectorAll("#collapseBgGradient .form-check input")
-      ).forEach(function () {
+    if (document.getElementById('collapseBgGradient')) {
+      Array.from(document.querySelectorAll("#collapseBgGradient .form-check input")).forEach(function () {
         if (document.querySelector("[data-bs-target='#collapseBgGradient']")) {
-          document
-            .querySelector("[data-bs-target='#collapseBgGradient']")
-            .addEventListener("click", function () {
-              document.getElementById("sidebar-color-gradient").click();
-            });
+          document.querySelector("[data-bs-target='#collapseBgGradient']").addEventListener('click', function () {
+            document.getElementById("sidebar-color-gradient").click();
+          });
         }
       });
-      Array.from(document.querySelectorAll("[name='data-sidebar']")).forEach(
-        function (elem) {
-          if (
-            document.querySelector("[data-bs-target='#collapseBgGradient']")
-          ) {
-            if (
-              document.querySelector(
-                "#collapseBgGradient .form-check input:checked"
-              )
-            ) {
-              document
-                .querySelector("[data-bs-target='#collapseBgGradient']")
-                .classList.add("active");
-            } else {
-              document
-                .querySelector("[data-bs-target='#collapseBgGradient']")
-                .classList.remove("active");
-              document
-                .getElementById("collapseBgGradient")
-                .classList.remove("show");
-            }
-
-            elem.addEventListener("change", function () {
-              if (
-                document.querySelector(
-                  "#collapseBgGradient .form-check input:checked"
-                )
-              ) {
-                document
-                  .querySelector("[data-bs-target='#collapseBgGradient']")
-                  .classList.add("active");
-              } else {
-                document
-                  .getElementById("collapseBgGradient")
-                  .classList.remove("show");
-                document
-                  .querySelector("[data-bs-target='#collapseBgGradient']")
-                  .classList.remove("active");
-              }
-            });
+      Array.from(document.querySelectorAll("[name='data-sidebar']")).forEach(function (elem) {
+        if (document.querySelector("[data-bs-target='#collapseBgGradient']")) {
+          if (document.querySelector("#collapseBgGradient .form-check input:checked")) {
+            document.querySelector("[data-bs-target='#collapseBgGradient']").classList.add("active");
+          } else {
+            document.querySelector("[data-bs-target='#collapseBgGradient']").classList.remove("active");
+            document.getElementById('collapseBgGradient').classList.remove('show');
           }
+
+          elem.addEventListener("change", function () {
+            if (document.querySelector("#collapseBgGradient .form-check input:checked")) {
+              document.querySelector("[data-bs-target='#collapseBgGradient']").classList.add("active");
+            } else {
+              document.getElementById('collapseBgGradient').classList.remove('show');
+              document.querySelector("[data-bs-target='#collapseBgGradient']").classList.remove("active");
+            }
+          });
         }
-      );
+      });
     }
+
+
   },
   computed: {
     ...layoutComputed,
@@ -225,7 +145,7 @@ export default {
       },
       set(layout) {
         localStorage.setItem("rightbar_isopen", true);
-        this.changeLayoutType({ layoutType: layout });
+        this.changeLayoutType({ layoutType: layout, });
         document.querySelector(".hamburger-icon").classList.remove("open");
       },
     },
@@ -268,12 +188,12 @@ export default {
         return this.$store ? this.$store.state.layout.layoutWidth : {} || {};
       },
       set(width) {
-        if (width == "boxed") {
+        if (width == 'boxed') {
           this.changeLayoutWidth({ layoutWidth: width });
-          this.changeSidebarSize({ sidebarSize: "sm-hover" });
+          this.changeSidebarSize({ sidebarSize: 'sm-hover' });
         } else {
           this.changeLayoutWidth({ layoutWidth: width });
-          this.changeSidebarSize({ sidebarSize: "lg" });
+          this.changeSidebarSize({ sidebarSize: 'lg' });
         }
       },
     },
@@ -312,10 +232,7 @@ export default {
         return this.$store ? this.$store.state.layout.sidebarColor : {} || {};
       },
       set(sidebarColor) {
-        console.log(
-          "this.$store.state.layout.sidebarColor",
-          this.$store.state.layout.sidebarColor
-        );
+        console.log("this.$store.state.layout.sidebarColor", this.$store.state.layout.sidebarColor)
         return this.changeSidebarColor({
           sidebarColor: sidebarColor,
         });
@@ -337,7 +254,7 @@ export default {
         return this.$store ? this.$store.state.layout.visibility : {} || {};
       },
       set(visibility) {
-        if (visibility == "hidden") {
+        if (visibility == 'hidden') {
           document.querySelector(".hamburger-icon").classList.add("open");
         } else {
           document.querySelector(".hamburger-icon").classList.remove("open");
@@ -376,13 +293,10 @@ export default {
               document.documentElement.setAttribute("data-preloader", "enable");
               break;
             case "disable":
-              document.documentElement.setAttribute(
-                "data-preloader",
-                "disable"
-              );
+              document.documentElement.setAttribute("data-preloader", "disable");
               break;
           }
-          localStorage.setItem("data-preloader", newVal);
+          localStorage.setItem('data-preloader', newVal);
         }
       },
     },
@@ -487,10 +401,7 @@ export default {
               document.documentElement.setAttribute("data-sidebar-size", "md");
               break;
             case "sm-hover":
-              document.documentElement.setAttribute(
-                "data-sidebar-size",
-                "sm-hover"
-              );
+              document.documentElement.setAttribute("data-sidebar-size", "sm-hover");
               break;
           }
         }
@@ -534,22 +445,13 @@ export default {
               document.documentElement.setAttribute("data-sidebar", "gradient");
               break;
             case "gradient-2":
-              document.documentElement.setAttribute(
-                "data-sidebar",
-                "gradient-2"
-              );
+              document.documentElement.setAttribute("data-sidebar", "gradient-2");
               break;
             case "gradient-3":
-              document.documentElement.setAttribute(
-                "data-sidebar",
-                "gradient-3"
-              );
+              document.documentElement.setAttribute("data-sidebar", "gradient-3");
               break;
             case "gradient-4":
-              document.documentElement.setAttribute(
-                "data-sidebar",
-                "gradient-4"
-              );
+              document.documentElement.setAttribute("data-sidebar", "gradient-4");
               break;
           }
         }
@@ -562,34 +464,19 @@ export default {
         if (newVal !== oldVal) {
           switch (newVal) {
             case "img-1":
-              document.documentElement.setAttribute(
-                "data-sidebar-image",
-                "img-1"
-              );
+              document.documentElement.setAttribute("data-sidebar-image", "img-1");
               break;
             case "img-2":
-              document.documentElement.setAttribute(
-                "data-sidebar-image",
-                "img-2"
-              );
+              document.documentElement.setAttribute("data-sidebar-image", "img-2");
               break;
             case "img-3":
-              document.documentElement.setAttribute(
-                "data-sidebar-image",
-                "img-3"
-              );
+              document.documentElement.setAttribute("data-sidebar-image", "img-3");
               break;
             case "img-4":
-              document.documentElement.setAttribute(
-                "data-sidebar-image",
-                "img-4"
-              );
+              document.documentElement.setAttribute("data-sidebar-image", "img-4");
               break;
             case "none":
-              document.documentElement.setAttribute(
-                "data-sidebar-image",
-                "none"
-              );
+              document.documentElement.setAttribute("data-sidebar-image", "none");
               break;
           }
         }
@@ -602,10 +489,7 @@ export default {
         if (newVal !== oldVal) {
           switch (newVal) {
             case "show":
-              document.documentElement.setAttribute(
-                "data-sidebar-visibility",
-                "show"
-              );
+              document.documentElement.setAttribute("data-sidebar-visibility", "show");
               break;
             case "hidden":
               document.documentElement.setAttribute(
@@ -618,8 +502,10 @@ export default {
       },
     },
   },
-  components: { simpleBar },
+  components: { simpleBar }
 };
+
+
 </script>
 
 <template>
@@ -637,7 +523,7 @@ export default {
     </BButton>
 
     <div class="customizer-setting d-none d-md-block" @click="click">
-      <div class="btn-info rounded-pill shadow-lg btn btn-icon btn-lg p-2" data-bs-toggle="offcanvas" data-bs-target="#theme-settings-offcanvas" aria-controls="theme-settings-offcanvas" id="mdi-cog">
+      <div class="btn-primary rounded-pill shadow-lg btn btn-icon btn-lg p-2" data-bs-toggle="offcanvas" data-bs-target="#theme-settings-offcanvas" aria-controls="theme-settings-offcanvas" id="mdi-cog">
         <i class="mdi mdi-spin mdi-cog-outline fs-22"></i>
       </div>
     </div>
@@ -650,7 +536,7 @@ export default {
       </template>
       <simpleBar class="h-100">
         <div class="p-4">
-          <h6 class="mb-0 fw-bold text-uppercase">Layout</h6>
+          <h6 class="mb-0 fw-semibold text-uppercase">Layout</h6>
           <p class="text-muted">Choose your layout</p>
 
           <BRow class="gy-3">
@@ -753,7 +639,7 @@ export default {
             </BCol>
           </BRow>
 
-          <h6 class="mt-4 mb-0 fw-bold text-uppercase">Color Scheme</h6>
+          <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Color Scheme</h6>
           <p class="text-muted">Choose Light or Dark Scheme.</p>
 
           <div class="colorscheme-cardradio">
@@ -810,9 +696,7 @@ export default {
             </BRow>
           </div>
           <div id="sidebar-visibility" v-if="layoutType == 'semibox'">
-            <h6 class="mt-4 mb-0 fw-bold text-uppercase">
-              Sidebar Visibility
-            </h6>
+            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar Visibility</h6>
             <p class="text-muted">Choose show or Hidden sidebar.</p>
 
             <BRow>
@@ -860,7 +744,7 @@ export default {
           </div>
 
           <div v-if="layoutType == 'vertical' || layoutType == 'horizontal'" id="layout-width">
-            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Layout Width</h6>
+            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Layout Width</h6>
             <p class="text-muted">Choose Fluid or Boxed layout.</p>
 
             <BRow>
@@ -916,7 +800,7 @@ export default {
           </div>
 
           <div v-if="layoutType != 'twocolumn'" id="layout-position">
-            <h6 class="mt-4 mb-0 fw-bold text-uppercase">
+            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">
               Layout Position
             </h6>
             <p class="text-muted">
@@ -931,7 +815,7 @@ export default {
               <label class="btn btn-light w-sm ms-0" for="layout-position-scrollable">Scrollable</label>
             </div>
           </div>
-          <h6 class="mt-4 mb-0 fw-bold text-uppercase">Topbar Color</h6>
+          <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Topbar Color</h6>
           <p class="text-muted">Choose Light or Dark Topbar Color.</p>
 
           <BRow>
@@ -942,7 +826,7 @@ export default {
                   <span class="d-flex gap-1 h-100">
                     <span class="flex-shrink-0">
                       <span class="bg-light d-flex h-100 flex-column gap-1 p-1">
-                        <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
+                      <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
 
                         <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                         <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
@@ -967,7 +851,7 @@ export default {
                   <span class="d-flex gap-1 h-100">
                     <span class="flex-shrink-0">
                       <span class="bg-light d-flex h-100 flex-column gap-1 p-1">
-                        <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
+                       <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
 
                         <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                         <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
@@ -986,10 +870,8 @@ export default {
               <h5 class="fs-13 text-center mt-2">Dark</h5>
             </BCol>
           </BRow>
-          <div v-if="layoutType == 'vertical' ||
-            (layoutType == 'semibox' && visibility == 'show')
-            " id="sidebar-size">
-            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Sidebar Size</h6>
+          <div v-if="layoutType == 'vertical' || (layoutType == 'semibox' && visibility == 'show')" id="sidebar-size">
+            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar Size</h6>
             <p class="text-muted">Choose a size of Sidebar.</p>
 
             <BRow>
@@ -1000,7 +882,7 @@ export default {
                     <span class="d-flex gap-1 h-100">
                       <span class="flex-shrink-0">
                         <span class="bg-light d-flex h-100 flex-column gap-1 p-1">
-                          <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
+                         <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
 
                           <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                           <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
@@ -1097,7 +979,7 @@ export default {
           </div>
 
           <div v-if="layoutType == 'vertical'" id="sidebar-view">
-            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Sidebar View</h6>
+            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar View</h6>
             <p class="text-muted">Choose Default or Detached Sidebar view.</p>
 
             <BRow>
@@ -1131,15 +1013,15 @@ export default {
                   <input class="form-check-input" v-model="sidebarView" type="radio" name="data-layout-style" id="sidebar-view-detached" value="detached" />
                   <label class="form-check-label p-0 avatar-md w-100" for="sidebar-view-detached">
                     <span class="d-flex h-100 flex-column">
-                      <span class="bg-light d-flex p-1 gap-1 align-items-center px-2">
+                      <span class="bg-light d-flex p-1 gap-1 align-items-center px-2 ">
                         <span class="d-block p-1 bg-primary-subtle rounded me-1"></span>
-                        <span class="d-block p-1 pb-0 px-2 bg-primary-subtle ms-auto"></span>
+                       <span class="d-block p-1 pb-0 px-2 bg-primary-subtle ms-auto"></span>
 
                         <span class="d-block p-1 pb-0 px-2 bg-primary-subtle"></span>
                       </span>
                       <span class="d-flex gap-1 h-100 p-1 px-2">
                         <span class="flex-shrink-0">
-                          <span class="bg-light d-flex h-100 flex-column gap-1 p-1">
+                          <span class=" bg-light d-flex h-100 flex-column gap-1 p-1">
                             <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                             <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                             <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
@@ -1155,11 +1037,10 @@ export default {
             </BRow>
           </div>
 
-          <div v-if="layoutType == 'vertical' ||
-            layoutType === 'twocolumn' ||
-            (layoutType === 'semibox' && visibility === 'show')
-            " id="sidebar-color">
-            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Sidebar Color</h6>
+          <div v-if="layoutType == 'vertical' || layoutType === 'twocolumn' || (layoutType === 'semibox' && visibility === 'show')" id="sidebar-color">
+            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">
+              Sidebar Color
+            </h6>
             <p class="text-muted">Choose Ligth or Dark Sidebar Color.</p>
 
             <BRow>
@@ -1170,7 +1051,7 @@ export default {
                     <span class="d-flex gap-1 h-100">
                       <span class="flex-shrink-0">
                         <span class="bg-white border-end d-flex h-100 flex-column gap-1 p-1">
-                          <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
+                         <span class="d-block p-1 px-2 bg-primary-subtle rounded mb-2"></span>
 
                           <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
                           <span class="d-block p-1 px-2 pb-0 bg-primary-subtle"></span>
@@ -1194,7 +1075,7 @@ export default {
                   <label class="form-check-label p-0 avatar-md w-100" for="sidebar-color-dark">
                     <span class="d-flex gap-1 h-100">
                       <span class="flex-shrink-0">
-                        <span class="bg-primary d-flex h-100 flex-column gap-1 p-1">
+                        <span class=" bg-primary d-flex h-100 flex-column gap-1 p-1">
                           <span class="d-block p-1 px-2 bg-white bg-opacity-10 rounded mb-2"></span>
                           <span class="d-block p-1 px-2 pb-0 bg-white bg-opacity-10"></span>
                           <span class="d-block p-1 px-2 pb-0 bg-white bg-opacity-10"></span>
@@ -1214,7 +1095,7 @@ export default {
               </BCol>
               <BCol cols="4">
                 <!-- -->
-                <button class="btn btn-link avatar-md w-100 p-0 overflow-hidden border collapsed" type="button" v-b-target.collapseBgGradient v-b-toggle.collapseBgGradient @click="onSideBarColorClick('gradient')">
+                <button class="btn btn-link avatar-md w-100 p-0 overflow-hidden border collapsed " type="button" v-b-target.collapseBgGradient v-b-toggle.collapseBgGradient @click="onSideBarColorClick('gradient')">
                   <span class="d-flex gap-1 h-100">
                     <span class="flex-shrink-0">
                       <span class="bg-vertical-gradient d-flex h-100 flex-column gap-1 p-1">
@@ -1234,29 +1115,30 @@ export default {
                 </button>
                 <h5 class="fs-13 text-center mt-2">Gradient</h5>
               </BCol>
-            </BRow> 
+            </BRow>
             <BCollapse v-if="showGradients" id="collapseBgGradient">
               <div class="d-flex gap-2 flex-wrap img-switch p-2 px-3 bg-light rounded">
+
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient" value="gradient" />
+                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient" value="gradient">
                   <label class="form-check-label p-0 avatar-xs rounded-circle" for="sidebar-color-gradient">
                     <span class="avatar-title rounded-circle bg-vertical-gradient"></span>
                   </label>
                 </div>
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-2" value="gradient-2" />
+                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-2" value="gradient-2">
                   <label class="form-check-label p-0 avatar-xs rounded-circle" for="sidebar-color-gradient-2">
                     <span class="avatar-title rounded-circle bg-vertical-gradient-2"></span>
                   </label>
                 </div>
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-3" value="gradient-3" />
+                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-3" value="gradient-3">
                   <label class="form-check-label p-0 avatar-xs rounded-circle" for="sidebar-color-gradient-3">
                     <span class="avatar-title rounded-circle bg-vertical-gradient-3"></span>
                   </label>
                 </div>
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-4" value="gradient-4" />
+                  <input class="form-check-input" type="radio" v-model="sidebarColor" name="data-sidebar" id="sidebar-color-gradient-4" value="gradient-4">
                   <label class="form-check-label p-0 avatar-xs rounded-circle" for="sidebar-color-gradient-4">
                     <span class="avatar-title rounded-circle bg-vertical-gradient-4"></span>
                   </label>
@@ -1265,11 +1147,8 @@ export default {
             </BCollapse>
           </div>
 
-          <div v-if="layoutType == 'vertical' ||
-            layoutType === 'twocolumn' ||
-            (layoutType === 'semibox' && visibility === 'show')
-            " id="sidebar-img">
-            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Sidebar Images</h6>
+          <div v-if="layoutType == 'vertical' || layoutType === 'twocolumn' || (layoutType === 'semibox' && visibility === 'show')" id="sidebar-img">
+            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar Images</h6>
             <p class="text-muted">Choose a image of Sidebar.</p>
 
             <div class="d-flex gap-2 flex-wrap img-switch">
@@ -1285,39 +1164,39 @@ export default {
               <div class="form-check sidebar-setting card-radio">
                 <input class="form-check-input" v-model="sidebarImage" type="radio" name="data-sidebar-img" id="sidebarimg-01" value="img-1" />
                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-01">
-                  <img src="@/assets/images/sidebar/img-1.jpg" alt="" class="avatar-md w-auto object-fit-cover" />
+                  <img src="@/assets/images/sidebar/img-1.jpg" alt="" class="avatar-md w-auto object-fit-cover">
                 </label>
               </div>
 
               <div class="form-check sidebar-setting card-radio">
                 <input class="form-check-input" v-model="sidebarImage" type="radio" name="data-sidebar-img" id="sidebarimg-02" value="img-2" />
                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-02">
-                  <img src="@/assets/images/sidebar/img-2.jpg" alt="" class="avatar-md w-auto object-fit-cover" />
+                  <img src="@/assets/images/sidebar/img-2.jpg" alt="" class="avatar-md w-auto object-fit-cover">
                 </label>
               </div>
               <div class="form-check sidebar-setting card-radio">
                 <input class="form-check-input" v-model="sidebarImage" type="radio" name="data-sidebar-img" id="sidebarimg-03" value="img-3" />
                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-03">
-                  <img src="@/assets/images/sidebar/img-3.jpg" alt="" class="avatar-md w-auto object-fit-cover" />
+                  <img src="@/assets/images/sidebar/img-3.jpg" alt="" class="avatar-md w-auto object-fit-cover">
                 </label>
               </div>
               <div class="form-check sidebar-setting card-radio">
                 <input class="form-check-input" v-model="sidebarImage" type="radio" name="data-sidebar-img" id="sidebarimg-04" value="img-4" />
                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-04">
-                  <img src="@/assets/images/sidebar/img-4.jpg" alt="" class="avatar-md w-auto object-fit-cover" />
+                  <img src="@/assets/images/sidebar/img-4.jpg" alt="" class="avatar-md w-auto object-fit-cover">
                 </label>
               </div>
             </div>
           </div>
 
           <div id="preloader-menu">
-            <h6 class="mt-4 mb-0 fw-bold text-uppercase">Preloader</h6>
+            <h6 class="mt-4 mb-0 fw-semibold text-uppercase">Preloader</h6>
             <p class="text-muted">Choose a preloader.</p>
 
             <BRow>
               <BCol cols="4">
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" v-model="preloader" type="radio" name="data-preloader" id="preloader-view-custom" value="enable" />
+                  <input class="form-check-input" v-model="preloader" type="radio" name="data-preloader" id="preloader-view-custom" value="enable">
                   <label class="form-check-label p-0 avatar-md w-100" for="preloader-view-custom">
                     <span class="d-flex gap-1 h-100">
                       <span class="flex-shrink-0">
@@ -1346,7 +1225,7 @@ export default {
               </BCol>
               <BCol cols="4">
                 <div class="form-check sidebar-setting card-radio">
-                  <input class="form-check-input" v-model="preloader" type="radio" name="data-preloader" id="preloader-view-none" value="disable" />
+                  <input class="form-check-input" v-model="preloader" type="radio" name="data-preloader" id="preloader-view-none" value="disable">
                   <label class="form-check-label p-0 avatar-md w-100" for="preloader-view-none">
                     <span class="d-flex gap-1 h-100">
                       <span class="flex-shrink-0">
@@ -1375,13 +1254,10 @@ export default {
       <template #footer>
         <BRow>
           <BCol cols="6">
-            <BButton type="button" variant="light" class="w-100" id="reset-layout" @click="resetLayout">
-              Reset
-            </BButton>
+            <BButton type="button" variant="light" class="w-100" id="reset-layout" @click="resetLayout"> Reset </BButton>
           </BCol>
           <BCol cols="6">
-            <BButton href="https://1.envato.market/velzon-admin" target="_blank" variant="primary" class="w-100">
-              Buy Now
+            <BButton href="https://1.envato.market/velzon-admin" target="_blank" variant="primary" class="w-100"> Buy Now
             </BButton>
           </BCol>
         </BRow>
@@ -1397,3 +1273,5 @@ export default {
   }
 }
 </style>
+
+  

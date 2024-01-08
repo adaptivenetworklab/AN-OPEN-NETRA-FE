@@ -170,7 +170,7 @@ export default {
                                             </p>
                                         </div>
                                         <div id="password-contain" class="p-3 bg-light mb-2 rounded">
-                                            <h5 class="fs-13">Password must contain:</h5>
+                                            <h5 class="fs-13 fw-semibold">Password must contain:</h5>
                                             <p id="pass-length" class="invalid fs-12 mb-2">Minimum <b>8 characters</b>
                                             </p>
                                             <p id="pass-lower" class="invalid fs-12 mb-2">At <b>lowercase</b> letter

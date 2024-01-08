@@ -523,7 +523,7 @@ export default {
                                 <BCol xxl="4">
                                     <BCard no-body class="ribbon-box border shadow-none overflow-hidden mb-lg-0">
                                         <BCardBody class="text-muted">
-                                            <div class="ribbon ribbon-info ribbon-shape trending-ribbon">
+                                            <div class="ribbon ribbon-primary ribbon-shape trending-ribbon">
                                                 <span class="trending-ribbon-text">Trending</span>
                                                 <i class="ri-flashlight-fill text-white align-bottom float-end ms-1"></i>
                                             </div>
@@ -539,7 +539,7 @@ export default {
                                 <BCol xxl="4">
                                     <BCard no-body class="ribbon-box border shadow-none overflow-hidden mb-lg-0">
                                         <BCardBody class="text-muted">
-                                            <div class="ribbon ribbon-info ribbon-shape trending-ribbon">
+                                            <div class="ribbon ribbon-success ribbon-shape trending-ribbon">
                                                 <span class="trending-ribbon-text">Trending</span>
                                                 <i class="ri-flashlight-fill text-white align-bottom float-end ms-1"></i>
                                             </div>
@@ -572,7 +572,7 @@ export default {
                         <div class="d-none code-view">
                             <pre class="language-markup" style="height: 275px;"><code>&lt;BCard class=&quot;ribbon-box border shadow-none overflow-hidden&quot;&gt;
     &lt;BCard no-body class=&quot;text-muted&quot;&gt;
-        &lt;div class=&quot;ribbon ribbon-info ribbon-shape trending-ribbon&quot;&gt;
+        &lt;div class=&quot;ribbon ribbon-primary ribbon-shape trending-ribbon&quot;&gt;
             &lt;span class=&quot;trending-ribbon-text&quot;&gt;Trending&lt;/span&gt; &lt;i class=&quot;ri-flashlight-fill text-white align-bottom float-end ms-1&quot;&gt;&lt;/i&gt;
         &lt;/div&gt;
         &lt;h5 class=&quot;fs-14 text-end mb-3&quot;&gt;Ribbon Shape&lt;/h5&gt;
@@ -582,7 +582,7 @@ export default {
 
 <code>&lt;BCard class=&quot;ribbon-box border shadow-none overflow-hidden&quot;&gt;
     &lt;BCard no-body class=&quot;text-muted&quot;&gt;
-        &lt;div class=&quot;ribbon ribbon-info ribbon-shape trending-ribbon&quot;&gt;
+        &lt;div class=&quot;ribbon ribbon-success ribbon-shape trending-ribbon&quot;&gt;
             &lt;span class=&quot;trending-ribbon-text&quot;&gt;Trending&lt;/span&gt; &lt;i class=&quot;ri-flashlight-fill text-white align-bottom float-end ms-1&quot;&gt;&lt;/i&gt;
         &lt;/div&gt;
         &lt;h5 class=&quot;fs-14 text-end mb-3&quot;&gt;Ribbon Shape&lt;/h5&gt;

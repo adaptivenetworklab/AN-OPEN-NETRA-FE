@@ -39,7 +39,7 @@ export default {
             <BContainer>
                 <BRow>
                     <BCol lg="12">
-                        <BCard no-body class="overflow-hidden">
+                        <BCard no-body class="overflow-hidden border-0">
                             <BRow class="justify-content-center g-0">
                                 <BCol lg="6">
                                     <div class="p-lg-5 p-4 auth-one-bg h-100">
@@ -89,7 +89,7 @@ export default {
 
                                 <BCol lg="6">
                                     <div class="p-lg-5 p-4 text-center">
-                                        <lottie colors="primary:#405189,secondary:#08a88a" :options="defaultOptions"
+                                        <lottie colors="primary:#25a0e2,secondary:#00bd9d" :options="defaultOptions"
                                             :height="180" :width="180" />
 
                                         <div class="mt-4 pt-2">
